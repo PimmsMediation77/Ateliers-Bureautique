@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/karma-yrb/ateliers-Bureautique/compare/excel-v1.9.3...excel-v1.10.0) (2026-09-10)
+
+
+### Features
+
+* **assets:** servir les telechargements depuis GitHub Pages ([211612e](https://github.com/karma-yrb/ateliers-Bureautique/commit/211612e1cc9bb725adcc598da9f40207d329862a))
+
+
+### Bug Fixes
+
+* **assets:** disambiguate controles formulaire download names ([8f0b9c6](https://github.com/karma-yrb/ateliers-Bureautique/commit/8f0b9c68ed9f6fe2a206313b388e0daa1a0b9d4f))
+
 ### [1.9.3](https://github.com/karma-yrb/ateliers-Bureautique/compare/excel-v1.9.2...excel-v1.9.3) (2026-09-10)
 
 
