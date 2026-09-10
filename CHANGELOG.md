@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.28.0](https://github.com/karma-yrb/ateliers-Bureautique/compare/v0.1.27...v1.28.0) (2026-09-10)
+
+
+### Features
+
+* **assets:** servir les telechargements depuis GitHub Pages ([211612e](https://github.com/karma-yrb/ateliers-Bureautique/commit/211612e1cc9bb725adcc598da9f40207d329862a))
+* **releases:** vue utilisateur compacte et alias do rel ([cdda5ee](https://github.com/karma-yrb/ateliers-Bureautique/commit/cdda5ee5fa7bcacc2200f617162ab907e0f278d0))
+
+
+### Bug Fixes
+
+* **assets:** disambiguate controles formulaire download names ([8f0b9c6](https://github.com/karma-yrb/ateliers-Bureautique/commit/8f0b9c68ed9f6fe2a206313b388e0daa1a0b9d4f))
+* **assets:** remap Google Drive download links ([59a1209](https://github.com/karma-yrb/ateliers-Bureautique/commit/59a120956bfdadeb2a14ebb09348d6b8064d1a89))
+
 ## [1.27.0](https://github.com/karma-yrb/ateliers-Bureautique/compare/v0.1.27...v1.27.0) (2026-09-10)
 
 

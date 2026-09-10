@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.27.0",
-  "updatedAt": "2026-09-10T09:16:01.229Z",
+  "version": "1.28.0",
+  "updatedAt": "2026-09-10T09:55:37.962Z",
   "releases": [
+    {
+      "version": "1.28.0",
+      "tag": "bureautique-v1.28.0",
+      "date": "2026-09-10",
+      "releaseType": "minor",
+      "impact": {
+        "level": "medium",
+        "rationale": "Nouvelles fonctionnalites ou changements techniques structurants."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.51",
+          "breaking": false,
+          "hash": "b9d2ff4"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.0",
+          "breaking": false,
+          "hash": "d0d2754"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.0",
+          "breaking": false,
+          "hash": "df21e3c"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "9b7b775"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "releases",
+          "description": "vue utilisateur compacte et alias do rel",
+          "breaking": false,
+          "hash": "cdda5ee"
+        }
+      ],
+      "counts": {
+        "feat": 1,
+        "fix": 0,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.27.0",
       "tag": "bureautique-v1.27.0",
