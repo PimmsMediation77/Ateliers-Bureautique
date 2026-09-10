@@ -73,6 +73,22 @@ function buildExerciseBaseName(appConfig, exercise, duplicateExerciseMap) {
   return `${appConfig.prefix}-ex-${exerciseNo}-${slugify(exercise.id || exercise.title, "dup")}`;
 }
 
+function defaultExtensionForApp(app) {
+  if (app === "word") return ".docx";
+  if (app === "powerpoint") return ".pptx";
+  if (app === "excel") return ".xlsx";
+  return ".bin";
+}
+
+function isDriveUrl(url) {
+  try {
+    const host = new URL(String(url || "")).hostname.toLowerCase();
+    return host === "drive.google.com" || host.endsWith(".googleusercontent.com");
+  } catch {
+    return false;
+  }
+}
+
 function getExtension(url, fallback = ".bin") {
   try {
     const parsed = new URL(String(url || ""));
@@ -106,7 +122,7 @@ function pushItem(items, appConfig, exercise, slot, sourceUrl, index = 0, label 
   if (!url) return;
 
   const moduleStem = buildCanonicalModuleFolder(exercise);
-  const extension = getExtension(url, ".bin");
+  const extension = getExtension(url, defaultExtensionForApp(appConfig.app));
   const isPrimary = slot === "docxUrl";
   const exerciseBaseName = buildExerciseBaseName(appConfig, exercise, duplicateExerciseMap);
   const suggestedFileName = isPrimary
@@ -210,7 +226,8 @@ function mergeWithExisting(items, existingInventory) {
   return items.map((item) => {
     const existing = existingMap.get(buildStableKey(item));
     if (!existing) return item;
-    return {
+
+    const merged = {
       ...item,
       driveModuleFolderId: typeof existing.driveModuleFolderId === "string" ? existing.driveModuleFolderId : "",
       driveFileId: typeof existing.driveFileId === "string" ? existing.driveFileId : "",
@@ -220,6 +237,40 @@ function mergeWithExisting(items, existingInventory) {
       status: typeof existing.status === "string" ? existing.status : "",
       notes: typeof existing.notes === "string" ? existing.notes : "",
     };
+
+    // Garder la source clic-formation d'origine si l'exercice pointe deja vers Drive,
+    // et recalculer l'extension a partir de cette source (sinon .xlsx/.docx par defaut app).
+    if (
+      isDriveUrl(item.sourceUrl)
+      && typeof existing.sourceUrl === "string"
+      && existing.sourceUrl.trim()
+      && !isDriveUrl(existing.sourceUrl)
+    ) {
+      merged.sourceUrl = existing.sourceUrl;
+      const ext = getExtension(existing.sourceUrl, defaultExtensionForApp(item.app));
+      const baseName = String(item.suggestedFileName || "").replace(/\.[^.]+$/, "");
+      if (baseName) {
+        merged.suggestedFileName = `${baseName}${ext}`;
+      }
+    }
+
+    // Stabiliser le dossier module deja utilise dans l'inventaire / Drive.
+    if (
+      typeof existing.moduleFolder === "string"
+      && existing.moduleFolder.trim()
+      && existing.moduleFolder !== item.moduleFolder
+    ) {
+      merged.moduleFolder = existing.moduleFolder;
+    }
+
+    merged.assetRelativePath = path.posix.join(
+      "assets",
+      item.app,
+      merged.moduleFolder || item.moduleFolder,
+      merged.suggestedFileName,
+    );
+
+    return merged;
   });
 }
 
