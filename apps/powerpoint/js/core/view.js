@@ -280,7 +280,7 @@ class AtelierView {
   }
 
   renderExercise(vm) {
-      this.currentExerciseVm = vm;
+    this.currentExerciseVm = vm;
       // Si une image est ouverte, on ferme le visualiseur afin de réinitialiser le zoom et d'éviter qu'il reste affiché lors du changement d'exercice.
       this.closeImageModal();
 
@@ -1017,19 +1017,31 @@ class AtelierView {
       this.isModalDragging = false;
       this.imageModalImg.style.cursor = this.modalZoom > 1 ? "grab" : "zoom-in";
     });
-    this.imageModalStage.addEventListener(
-      "wheel",
-      (event) => {
-        if (event.deltaY < 0) {
-          event.preventDefault();
-          this.#setModalZoom(Math.min(8, this.modalZoom + 1));
-          return;
-        }
-        event.preventDefault();
-        this.#setModalZoom(Math.max(1, this.modalZoom - 1));
-      },
-      { passive: false },
-    );
+    // =====================================================================
+// ZOOM À LA MOLETTE DÉSACTIVÉ
+// ---------------------------------------------------------------------
+// Le zoom des captures d'écran avec la molette a été désactivé car il
+// provoquait des zooms involontaires lors de la navigation.
+// Le zoom reste disponible via double-clic et touches + / -.
+//
+// Pour réactiver le zoom à la molette, décommenter le bloc ci-dessous.
+// =====================================================================
+
+/*
+this.imageModalStage.addEventListener(
+  "wheel",
+  (event) => {
+    if (event.deltaY < 0) {
+      event.preventDefault();
+      this.#setModalZoom(Math.min(8, this.modalZoom + 1));
+      return;
+    }
+    event.preventDefault();
+    this.#setModalZoom(Math.max(1, this.modalZoom - 1));
+  },
+  { passive: false },
+);
+*/
     this.imageModal.addEventListener("click", (event) => {
       if (event.target === this.imageModal) this.closeImageModal();
     });
@@ -1056,8 +1068,6 @@ class AtelierView {
   }
 
   openImageModal(src, altText, galleryItems = null, galleryIndex = 0, trigger = null) {
-    // Si une image est déjà ouverte (changement d'exercice sans fermeture), on réinitialise complètement le visualiseur avant d'ouvrir la nouvelle.
-    this.closeImageModal();
     if (!src || !this.imageModal || !this.imageModalImg) return;
     const normalizedItems = Array.isArray(galleryItems) && galleryItems.length
       ? galleryItems.filter((item) => item && item.src)
