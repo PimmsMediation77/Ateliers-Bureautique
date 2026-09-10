@@ -126,12 +126,76 @@ function shouldReplaceAssetUrl(currentValue) {
 }
 
 function clearDriveFields(item) {
-  return {
+  const next = {
     ...item,
     driveModuleFolderId: "",
     driveFileId: "",
     driveViewUrl: "",
     driveDownloadUrl: "",
+  };
+  if (shouldReplaceAssetUrl(item.assetUrl)) {
+    next.assetUrl = "";
+  }
+  return next;
+}
+
+function normalizeModuleKey(name) {
+  return String(name || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function stripModuleDecorators(name) {
+  return normalizeModuleKey(name)
+    .replace(/^(bases|avance|asca|complets)-\d+-/, "")
+    .replace(/^(bases|avance|asca|complets)-/, "")
+    .replace(/^m\d+-/, "")
+    .replace(/-(?:\d{1,3})(?=-)/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function scoreModuleNames(inventoryName, driveName) {
+  const left = normalizeModuleKey(inventoryName);
+  const right = normalizeModuleKey(driveName);
+  if (!left || !right) return 0;
+  if (left === right) return 100;
+
+  const leftCore = stripModuleDecorators(inventoryName);
+  const rightCore = stripModuleDecorators(driveName);
+  if (leftCore && leftCore === rightCore) return 90;
+  if (leftCore && rightCore && (rightCore.includes(leftCore) || leftCore.includes(rightCore))) {
+    const shorter = Math.min(leftCore.length, rightCore.length);
+    const longer = Math.max(leftCore.length, rightCore.length);
+    if (shorter >= 8 && shorter / longer >= 0.55) return 70;
+  }
+  if (right.endsWith(left) || left.endsWith(right)) return 60;
+  return 0;
+}
+
+function resolveModuleFolder(moduleName, moduleFolders, usedDriveIds) {
+  const exact = moduleFolders.get(moduleName);
+  if (exact && !usedDriveIds.has(exact.id)) return { folder: exact, score: 100, match: "exact" };
+
+  let best = null;
+  let bestScore = 0;
+  for (const candidate of moduleFolders.values()) {
+    if (usedDriveIds.has(candidate.id)) continue;
+    const score = scoreModuleNames(moduleName, candidate.name);
+    if (score > bestScore) {
+      bestScore = score;
+      best = candidate;
+    }
+  }
+
+  if (!best || bestScore < 60) return { folder: null, score: bestScore, match: "none" };
+  return {
+    folder: best,
+    score: bestScore,
+    match: bestScore >= 90 ? "normalized" : "fuzzy",
   };
 }
 
@@ -156,6 +220,7 @@ async function main() {
 
   let updated = 0;
   let missing = 0;
+  let fuzzyMatches = 0;
 
   for (const [app, moduleNames] of requiredModules) {
     const appFolder = appFolders.get(app);
@@ -170,9 +235,11 @@ async function main() {
 
     const moduleChildren = await fetchFolderChildren(appFolder.folderUrl, cache);
     const moduleFolders = new Map(moduleChildren.filter((item) => item.isFolder).map((item) => [item.name, item]));
+    const usedDriveIds = new Set();
 
     for (const moduleName of moduleNames) {
-      const moduleFolder = moduleFolders.get(moduleName);
+      const resolved = resolveModuleFolder(moduleName, moduleFolders, usedDriveIds);
+      const moduleFolder = resolved.folder;
       const moduleIndexes = [];
 
       for (let index = 0; index < items.length; index += 1) {
@@ -187,6 +254,14 @@ async function main() {
           missing += 1;
         }
         continue;
+      }
+
+      usedDriveIds.add(moduleFolder.id);
+      if (resolved.match !== "exact") {
+        fuzzyMatches += 1;
+        console.log(
+          `Correspondance module ${app}: "${moduleName}" -> "${moduleFolder.name}" (${resolved.match}, score ${resolved.score})`,
+        );
       }
 
       const driveFiles = await fetchFolderChildren(moduleFolder.folderUrl, cache);
@@ -232,6 +307,7 @@ async function main() {
   console.log(`Dossier Drive racine : ${rootUrl}`);
   console.log(`Elements inventaire : ${items.length}`);
   console.log(`Elements enrichis ou actualises : ${updated}`);
+  console.log(`Modules resolus par correspondance souple : ${fuzzyMatches}`);
   console.log(`Elements sans correspondance Drive : ${missing}`);
 }
 
