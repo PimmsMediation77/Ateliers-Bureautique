@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/karma-yrb/ateliers-Bureautique/compare/excel-v1.10.0...excel-v1.11.0) (2026-09-10)
+
+
+### Features
+
+* **releases:** vue utilisateur compacte et alias do rel ([cdda5ee](https://github.com/karma-yrb/ateliers-Bureautique/commit/cdda5ee5fa7bcacc2200f617162ab907e0f278d0))
+
 ## [1.10.0](https://github.com/karma-yrb/ateliers-Bureautique/compare/excel-v1.9.3...excel-v1.10.0) (2026-09-10)
 
 
