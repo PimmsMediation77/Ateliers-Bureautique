@@ -30,11 +30,28 @@ function writeJson(filePath, value) {
 function normalizeAssetUrl(baseAssetUrl, assetUrl, assetRelativePath) {
   const explicit = String(assetUrl || "").trim();
   if (/^https?:\/\//i.test(explicit)) return explicit;
+  // Chemins relatifs GitHub Pages (ex. data/assets/word/.../fichier.docx)
+  if (/^(?:\.\/)?data\//i.test(explicit)) {
+    return explicit.replace(/^\.\//, "");
+  }
 
   const base = String(baseAssetUrl || "").trim().replace(/\/+$/, "");
   const relative = String(assetRelativePath || "").trim().replace(/\\/g, "/").replace(/^\/+/, "");
   if (base && relative) return `${base}/${relative}`;
+  if (relative) return `data/${relative}`;
   return "";
+}
+
+function pickInventoryUrl(item) {
+  const localOrExplicit = String(item.assetUrl || "").trim();
+  if (/^(?:\.\/)?data\//i.test(localOrExplicit) || /^https?:\/\//i.test(localOrExplicit)) {
+    return localOrExplicit;
+  }
+  return (
+    localOrExplicit ||
+    String(item.driveDownloadUrl || "").trim() ||
+    String(item.sourceUrl || "").trim()
+  );
 }
 
 function buildInventoryMap(payload) {
@@ -43,7 +60,7 @@ function buildInventoryMap(payload) {
     const key = `${item.app}::${item.exerciseId}::${item.slot}::${Number(item.itemIndex || 0)}`;
     const assetUrl = normalizeAssetUrl(
       payload.baseAssetUrl,
-      item.driveDownloadUrl || item.assetUrl || item.sourceUrl,
+      pickInventoryUrl(item),
       item.assetRelativePath,
     );
     if (!assetUrl) continue;

@@ -1,0 +1,3730 @@
+{
+  "generatedAt": "2026-09-10T09:09:18.308Z",
+  "total": 410,
+  "copiedFromLocal": 408,
+  "alreadyPresent": 2,
+  "downloaded": 0,
+  "failed": [],
+  "items": [
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-200",
+      "slot": "docxUrl",
+      "relative": "assets/excel/asca-ul11-word/excel-ex-001.docx",
+      "source": "https://drive.google.com/uc?export=download&id=1_XvT19zoxWVk7bqOkK02S5Lzf53fSeSX",
+      "status": "downloaded-repair",
+      "assetUrl": "data/assets/excel/asca-ul11-word/excel-ex-001.docx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-205",
+      "slot": "docxUrl",
+      "relative": "assets/excel/asca-ul11-word/excel-ex-006.docx",
+      "source": "https://drive.google.com/uc?export=download&id=1sL7K7q0zbHPM9xnOvdsxRk-f3IEayoP9",
+      "status": "downloaded-repair",
+      "assetUrl": "data/assets/excel/asca-ul11-word/excel-ex-006.docx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-099",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-format-de-cellule/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-02-format-de-cellule/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-101",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-format-de-cellule/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-02-format-de-cellule/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-102",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-format-de-cellule/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-02-format-de-cellule/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-103",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-format-de-cellule/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-02-format-de-cellule/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-104",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-format-de-cellule/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-02-format-de-cellule/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-105",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-format-de-cellule/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-02-format-de-cellule/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-106",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-format-de-cellule/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-02-format-de-cellule/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-107",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-reference-absolue/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-03-reference-absolue/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-reference-absolue/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-108",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-reference-absolue/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-03-reference-absolue/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-reference-absolue/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-110",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-reference-absolue/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-03-reference-absolue/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-reference-absolue/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-111",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-reference-absolue/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-03-reference-absolue/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-reference-absolue/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-113",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-reference-absolue/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-03-reference-absolue/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-reference-absolue/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-114",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-reference-absolue/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-03-reference-absolue/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-reference-absolue/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-115",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-reference-absolue/excel-ex-009.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-03-reference-absolue/excel-ex-009.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-reference-absolue/excel-ex-009.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-116",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-reference-absolue/excel-ex-010.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-03-reference-absolue/excel-ex-010.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-reference-absolue/excel-ex-010.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-117",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-trier-et-filtrer/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-04-trier-et-filtrer/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-118",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-trier-et-filtrer/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-04-trier-et-filtrer/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-119",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-trier-et-filtrer/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-04-trier-et-filtrer/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-120",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-trier-et-filtrer/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-04-trier-et-filtrer/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-122",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-trier-et-filtrer/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-04-trier-et-filtrer/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-123",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-trier-et-filtrer/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-04-trier-et-filtrer/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-123",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/avance-trier-et-filtrer/excel-ex-006-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-04-trier-et-filtrer/excel-ex-006-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-006-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-121",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-trier-et-filtrer/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-124",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-trier-et-filtrer/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-125",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-trier-et-filtrer/excel-ex-009.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\avance-trier-et-filtrer\\excel-ex-009.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-009.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-126",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-127",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-128",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-129",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-130",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-131",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-132",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-133",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-134",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-009.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-009.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-009.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-134",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-009-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-009-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-009-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-135",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-outils-de-donnees/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-06-outils-de-donnees/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-136",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-outils-de-donnees/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-06-outils-de-donnees/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-137",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-outils-de-donnees/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-06-outils-de-donnees/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-138",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-outils-de-donnees/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-06-outils-de-donnees/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-139",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-outils-de-donnees/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-06-outils-de-donnees/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-140",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-outils-de-donnees/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-06-outils-de-donnees/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-141",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-outils-de-donnees/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-06-outils-de-donnees/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-142",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-outils-de-donnees/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-06-outils-de-donnees/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-143",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-outils-de-donnees/excel-ex-009.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-06-outils-de-donnees/excel-ex-009.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-009.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-143",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/avance-outils-de-donnees/excel-ex-009-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-06-outils-de-donnees/excel-ex-009-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-009-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-144",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-outils-de-donnees/excel-ex-010.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\avance-outils-de-donnees\\excel-ex-010.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-010.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-145",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-lier-des-feuilles/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-07-lier-des-feuilles/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-146",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-lier-des-feuilles/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-07-lier-des-feuilles/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-147",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-lier-des-feuilles/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-07-lier-des-feuilles/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-148",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-lier-des-feuilles/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-07-lier-des-feuilles/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-149",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-lier-des-feuilles/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-07-lier-des-feuilles/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-150",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-lier-des-feuilles/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-07-lier-des-feuilles/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-151",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-lier-des-feuilles/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-07-lier-des-feuilles/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-152",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-lier-des-feuilles/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-07-lier-des-feuilles/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-152",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/avance-lier-des-feuilles/excel-ex-008-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-07-lier-des-feuilles/excel-ex-008-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-008-annexe-1.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-153",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-nommer-une-cellule/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-08-nommer-une-cellule/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-154",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-nommer-une-cellule/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-08-nommer-une-cellule/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-155",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-nommer-une-cellule/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-08-nommer-une-cellule/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-156",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-nommer-une-cellule/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-08-nommer-une-cellule/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-157",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-nommer-une-cellule/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-08-nommer-une-cellule/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-158",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-nommer-une-cellule/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-08-nommer-une-cellule/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-159",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-nommer-une-cellule/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-160",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-nommer-une-cellule/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-161",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-nommer-une-cellule/excel-ex-009.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-009.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-162",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-tableaux-croises-dynamiques/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-162",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/avance-tableaux-croises-dynamiques/excel-ex-001-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-001-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-001-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-163",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-tableaux-croises-dynamiques/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-164",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-tableaux-croises-dynamiques/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-165",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-tableaux-croises-dynamiques/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-166",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-tableaux-croises-dynamiques/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-167",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-tableaux-croises-dynamiques/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-168",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-tableaux-croises-dynamiques/excel-ex-007.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\avance-tableaux-croises-dynamiques\\excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-170",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-tableaux-croises-dynamiques/excel-ex-009.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\avance-tableaux-croises-dynamiques\\excel-ex-009.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-009.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-171",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-sous-totaux/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-10-sous-totaux/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-sous-totaux/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-172",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-sous-totaux/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-10-sous-totaux/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-sous-totaux/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-173",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-sous-totaux/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-10-sous-totaux/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-sous-totaux/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-174",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-sous-totaux/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-10-sous-totaux/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-sous-totaux/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-175",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-consolidation/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-11-consolidation/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-consolidation/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-176",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-consolidation/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-11-consolidation/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-consolidation/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-177",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-consolidation/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-11-consolidation/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-consolidation/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-178",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-consolidation/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-11-consolidation/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-consolidation/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-179",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-consolidation/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-11-consolidation/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-consolidation/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-180",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-consolidation/excel-ex-006.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-11-consolidation/excel-ex-006.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-consolidation/excel-ex-006.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-181",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-consolidation/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-11-consolidation/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-consolidation/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-182",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-consolidation/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-11-consolidation/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-consolidation/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-185",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-macro/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-12-macro/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-macro/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-185",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/avance-macro/excel-ex-003-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-12-macro/excel-ex-003-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-macro/excel-ex-003-annexe-1.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-186",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-macro/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-12-macro/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-macro/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-188",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-controles-de-formulaire/excel-ex-001-g188.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\avance-controles-de-formulaire\\excel-ex-001-g188.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-001-g188.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-191",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-controles-de-formulaire/excel-ex-001-g191.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\avance-controles-de-formulaire\\excel-ex-001-g191.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-001-g191.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-189",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-controles-de-formulaire/excel-ex-002-g189.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\avance-controles-de-formulaire\\excel-ex-002-g189.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-002-g189.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-192",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-controles-de-formulaire/excel-ex-002-g192.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\avance-controles-de-formulaire\\excel-ex-002-g192.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-002-g192.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-190",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-controles-de-formulaire/excel-ex-003-g190.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\avance-controles-de-formulaire\\excel-ex-003-g190.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-003-g190.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-193",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-controles-de-formulaire/excel-ex-003-g193.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\avance-controles-de-formulaire\\excel-ex-003-g193.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-003-g193.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-194",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-controles-de-formulaire/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-13-controles-de-formulaire/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-195",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-activex/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-14-activex/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-activex/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-196",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-calcul-matriciel/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-15-calcul-matriciel/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-calcul-matriciel/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-197",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-calcul-matriciel/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-15-calcul-matriciel/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-calcul-matriciel/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-198",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-calcul-matriciel/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-15-calcul-matriciel/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-calcul-matriciel/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-199",
+      "slot": "docxUrl",
+      "relative": "assets/excel/avance-calcul-matriciel/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/avance-15-calcul-matriciel/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/avance-calcul-matriciel/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-003",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-prise-en-main/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-01-prise-en-main/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-prise-en-main/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-004",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-prise-en-main/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-01-prise-en-main/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-prise-en-main/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-004",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-prise-en-main/excel-ex-004-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-01-prise-en-main/excel-ex-004-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-prise-en-main/excel-ex-004-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-006",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-saisir-des-donnees/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-02-saisir-des-donnees/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-saisir-des-donnees/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-007",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-saisir-des-donnees/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-02-saisir-des-donnees/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-saisir-des-donnees/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-008",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-saisir-des-donnees/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-02-saisir-des-donnees/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-saisir-des-donnees/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-008",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-saisir-des-donnees/excel-ex-004-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-02-saisir-des-donnees/excel-ex-004-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-saisir-des-donnees/excel-ex-004-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-009",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-selection/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-03-selection/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-selection/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-010",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-selection/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-03-selection/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-selection/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-011",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-selection/excel-ex-003.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-03-selection/excel-ex-003.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-selection/excel-ex-003.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-012",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-selection/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-03-selection/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-selection/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-012",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-selection/excel-ex-004-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-03-selection/excel-ex-004-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-selection/excel-ex-004-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-013",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-selection/excel-ex-005.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-03-selection/excel-ex-005.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-selection/excel-ex-005.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-014",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-mise-en-forme/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-04-mise-en-forme/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-015",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-mise-en-forme/excel-ex-002.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-04-mise-en-forme/excel-ex-002.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-002.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-016",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-mise-en-forme/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-04-mise-en-forme/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-017",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-mise-en-forme/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-04-mise-en-forme/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-018",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-mise-en-forme/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-04-mise-en-forme/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-019",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-mise-en-forme/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-04-mise-en-forme/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-021",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-mise-en-forme/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-04-mise-en-forme/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-022",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-mise-en-forme/excel-ex-009.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-04-mise-en-forme/excel-ex-009.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-009.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-023",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-integrer-une-image/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-05-integrer-une-image/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-023",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-integrer-une-image/excel-ex-001-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-05-integrer-une-image/excel-ex-001-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-001-annexe-1.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-024",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-integrer-une-image/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-05-integrer-une-image/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-024",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-integrer-une-image/excel-ex-002-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-05-integrer-une-image/excel-ex-002-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-002-annexe-1.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-025",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-05-integrer-une-image/excel-ex-003.zip",
+      "source": null,
+      "status": "present",
+      "assetUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-003.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-025",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-integrer-une-image/excel-ex-003-annexe-1.zip",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\bases-integrer-une-image\\excel-ex-003-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-003-annexe-1.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-026",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-05-integrer-une-image/excel-ex-004.zip",
+      "source": null,
+      "status": "present",
+      "assetUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-004.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-026",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-integrer-une-image/excel-ex-004-annexe-1.zip",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\bases-integrer-une-image\\excel-ex-004-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-004-annexe-1.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-027",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-integrer-une-image/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-05-integrer-une-image/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-028",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-integrer-une-image/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-05-integrer-une-image/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-028",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-integrer-une-image/excel-ex-006-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-05-integrer-une-image/excel-ex-006-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-006-annexe-1.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-029",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-poignee-de-recopie/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-06-poignee-de-recopie/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-poignee-de-recopie/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-035",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-poignee-de-recopie/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-06-poignee-de-recopie/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-poignee-de-recopie/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-036",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-poignee-de-recopie/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-06-poignee-de-recopie/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-poignee-de-recopie/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-038",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-poignee-de-recopie/excel-ex-010.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-06-poignee-de-recopie/excel-ex-010.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-poignee-de-recopie/excel-ex-010.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-039",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-addition/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-07-faire-une-addition/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-040",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-addition/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-07-faire-une-addition/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-041",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-addition/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-07-faire-une-addition/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-042",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-addition/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-07-faire-une-addition/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-043",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-addition/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-07-faire-une-addition/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-044",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-addition/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-07-faire-une-addition/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-045",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-addition/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-07-faire-une-addition/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-046",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-addition/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-07-faire-une-addition/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-047",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-addition/excel-ex-009.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-07-faire-une-addition/excel-ex-009.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-009.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-048",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-addition/excel-ex-010.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-07-faire-une-addition/excel-ex-010.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-010.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-049",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-soustraction/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-08-faire-une-soustraction/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-050",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-soustraction/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-08-faire-une-soustraction/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-051",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-soustraction/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-08-faire-une-soustraction/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-052",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-soustraction/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-08-faire-une-soustraction/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-053",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-soustraction/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-08-faire-une-soustraction/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-054",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-soustraction/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-08-faire-une-soustraction/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-055",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-soustraction/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-08-faire-une-soustraction/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-056",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-soustraction/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-08-faire-une-soustraction/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-057",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-multiplication/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-09-faire-une-multiplication/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-058",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-multiplication/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-09-faire-une-multiplication/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-059",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-multiplication/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-09-faire-une-multiplication/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-060",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-multiplication/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-09-faire-une-multiplication/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-061",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-multiplication/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-09-faire-une-multiplication/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-062",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-multiplication/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-09-faire-une-multiplication/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-063",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-multiplication/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-09-faire-une-multiplication/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-064",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-division/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-10-faire-une-division/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-division/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-065",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-division/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-10-faire-une-division/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-division/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-065",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-faire-une-division/excel-ex-002-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-10-faire-une-division/excel-ex-002-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-division/excel-ex-002-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-066",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-division/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-10-faire-une-division/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-division/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-067",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-division/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-10-faire-une-division/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-division/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-068",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-division/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-10-faire-une-division/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-division/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-069",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-division/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-10-faire-une-division/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-division/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-070",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-division/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-10-faire-une-division/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-division/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-071",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-division/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-10-faire-une-division/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-division/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-072",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-faire-une-division/excel-ex-009.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-10-faire-une-division/excel-ex-009.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-faire-une-division/excel-ex-009.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-073",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-074",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-074",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-002-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-002-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-002-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-075",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-075",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-003-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-003-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-003-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-076",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-076",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-004-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-004-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-004-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-077",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-077",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-005-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-005-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-005-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-078",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-078",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-006-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-006-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-006-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-079",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-080",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-calculer-des-pourcentages/excel-ex-008.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-082",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-graphiques/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-12-graphiques/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-083",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-graphiques/excel-ex-003.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-12-graphiques/excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-084",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-graphiques/excel-ex-004.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-12-graphiques/excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-084",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/bases-graphiques/excel-ex-004-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-12-graphiques/excel-ex-004-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-004-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-084",
+      "slot": "extraDownloadUrls",
+      "relative": "assets/excel/bases-graphiques/excel-ex-004-annexe-2.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-12-graphiques/excel-ex-004-annexe-2.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-004-annexe-2.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-085",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-graphiques/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-12-graphiques/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-086",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-graphiques/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-12-graphiques/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-087",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-graphiques/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-12-graphiques/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-088",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-graphiques/excel-ex-008.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\bases-graphiques\\excel-ex-008.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-008.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-089",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-graphiques/excel-ex-009.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\bases-graphiques\\excel-ex-009.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-009.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-090",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-graphiques/excel-ex-010.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\bases-graphiques\\excel-ex-010.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-010.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-091",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-graphiques/excel-ex-011.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\bases-graphiques\\excel-ex-011.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-graphiques/excel-ex-011.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-092",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-impression/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-13-impression/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-impression/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-093",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-impression/excel-ex-002.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-13-impression/excel-ex-002.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-impression/excel-ex-002.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-094",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-impression/excel-ex-003.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\bases-impression\\excel-ex-003.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-impression/excel-ex-003.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-095",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-impression/excel-ex-004.xlsx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\excel\\bases-impression\\excel-ex-004.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-impression/excel-ex-004.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-096",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-impression/excel-ex-005.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-13-impression/excel-ex-005.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-impression/excel-ex-005.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-097",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-impression/excel-ex-006.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-13-impression/excel-ex-006.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-impression/excel-ex-006.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-098",
+      "slot": "docxUrl",
+      "relative": "assets/excel/bases-impression/excel-ex-007.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/bases-13-impression/excel-ex-007.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/bases-impression/excel-ex-007.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-221",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-creation-planning-conges/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-02-cas-creation-planning-conges/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-creation-planning-conges/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-222",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-fiche-clients-garage/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-03-cas-fiche-clients-garage/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-fiche-clients-garage/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-223",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-formulaire-de-saisie/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-04-cas-formulaire-de-saisie/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-formulaire-de-saisie/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-224",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-fiche-d-intervention/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-05-cas-fiche-d-intervention/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-fiche-d-intervention/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-224",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/complets-cas-fiche-d-intervention/excel-ex-001-annexe-1.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-05-cas-fiche-d-intervention/excel-ex-001-annexe-1.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-fiche-d-intervention/excel-ex-001-annexe-1.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-225",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-calendrier-perpetuel/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-06-cas-calendrier-perpetuel/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-calendrier-perpetuel/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-227",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-fiche-horticole/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-08-cas-fiche-horticole/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-fiche-horticole/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-227",
+      "slot": "downloadUrl",
+      "relative": "assets/excel/complets-cas-fiche-horticole/excel-ex-001-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-08-cas-fiche-horticole/excel-ex-001-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-fiche-horticole/excel-ex-001-annexe-1.zip"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-228",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-gantt-simple/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-09-cas-gantt-simple/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-gantt-simple/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-229",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-societe-clicou/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-10-cas-societe-clicou/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-societe-clicou/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-230",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-sud-informatique/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-11-cas-sud-informatique/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-sud-informatique/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-231",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-grand-raid/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-12-cas-grand-raid/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-grand-raid/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-232",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-course-haut-caroux/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-13-cas-course-haut-caroux/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-course-haut-caroux/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-233",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-salon-de-coiffure/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-14-cas-salon-de-coiffure/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-salon-de-coiffure/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-234",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-cas-facturation/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-15-cas-facturation/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-cas-facturation/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-235",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-revision-operations/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-16-revision-operations/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-revision-operations/excel-ex-001.xlsx"
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-236",
+      "slot": "docxUrl",
+      "relative": "assets/excel/complets-calculs-heures-et-distances/excel-ex-001.xlsx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/complets-17-calculs-heures-et-distances/excel-ex-001.xlsx",
+      "status": "copied",
+      "assetUrl": "data/assets/excel/complets-calculs-heures-et-distances/excel-ex-001.xlsx"
+    },
+    {
+      "app": "powerpoint",
+      "exerciseId": "powerpoint-ex-001",
+      "slot": "docxUrl",
+      "relative": "assets/powerpoint/bases-diaporamas/powerpoint-ex-001.pptx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\powerpoint\\bases-diaporamas\\powerpoint-ex-001.pptx",
+      "status": "copied",
+      "assetUrl": "data/assets/powerpoint/bases-diaporamas/powerpoint-ex-001.pptx"
+    },
+    {
+      "app": "powerpoint",
+      "exerciseId": "powerpoint-ex-002",
+      "slot": "docxUrl",
+      "relative": "assets/powerpoint/bases-diaporamas/powerpoint-ex-002.pptx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/powerpoint/data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-002.pptx",
+      "status": "copied",
+      "assetUrl": "data/assets/powerpoint/bases-diaporamas/powerpoint-ex-002.pptx"
+    },
+    {
+      "app": "powerpoint",
+      "exerciseId": "powerpoint-ex-003",
+      "slot": "docxUrl",
+      "relative": "assets/powerpoint/bases-navigation/powerpoint-ex-001.pptx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\powerpoint\\bases-navigation\\powerpoint-ex-001.pptx",
+      "status": "copied",
+      "assetUrl": "data/assets/powerpoint/bases-navigation/powerpoint-ex-001.pptx"
+    },
+    {
+      "app": "powerpoint",
+      "exerciseId": "powerpoint-ex-005",
+      "slot": "docxUrl",
+      "relative": "assets/powerpoint/bases-animations/powerpoint-ex-001.pptx",
+      "source": "https://drive.google.com/uc?export=download&id=1jTlMSN9n_6SjuH4Tc2ObZ5wht_LI6I_u",
+      "status": "downloaded-repair",
+      "assetUrl": "data/assets/powerpoint/bases-animations/powerpoint-ex-001.pptx"
+    },
+    {
+      "app": "powerpoint",
+      "exerciseId": "powerpoint-ex-006",
+      "slot": "docxUrl",
+      "relative": "assets/powerpoint/bases-animations/powerpoint-ex-002.pptx",
+      "source": "https://drive.google.com/uc?export=download&id=12vREidTTKrTQOrdTo5UN4EL3W68WXoAe",
+      "status": "downloaded-repair",
+      "assetUrl": "data/assets/powerpoint/bases-animations/powerpoint-ex-002.pptx"
+    },
+    {
+      "app": "powerpoint",
+      "exerciseId": "powerpoint-ex-007",
+      "slot": "docxUrl",
+      "relative": "assets/powerpoint/bases-animations/powerpoint-ex-003.pptx",
+      "source": "https://drive.google.com/uc?export=download&id=1-xlbl0VefxiUHQmTU4OEW9BIR1bh8YBJ",
+      "status": "downloaded-repair",
+      "assetUrl": "data/assets/powerpoint/bases-animations/powerpoint-ex-003.pptx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-099",
+      "slot": "docxUrl",
+      "relative": "assets/word/m17-regles-et-tabulations/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-17-regles-et-tabulations/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m17-regles-et-tabulations/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-100",
+      "slot": "docxUrl",
+      "relative": "assets/word/m17-regles-et-tabulations/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-17-regles-et-tabulations/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m17-regles-et-tabulations/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-101",
+      "slot": "docxUrl",
+      "relative": "assets/word/m17-regles-et-tabulations/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-17-regles-et-tabulations/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m17-regles-et-tabulations/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-102",
+      "slot": "docxUrl",
+      "relative": "assets/word/m17-regles-et-tabulations/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-17-regles-et-tabulations/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m17-regles-et-tabulations/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-103",
+      "slot": "docxUrl",
+      "relative": "assets/word/m17-regles-et-tabulations/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-17-regles-et-tabulations/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m17-regles-et-tabulations/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-105",
+      "slot": "docxUrl",
+      "relative": "assets/word/m17-regles-et-tabulations/word-ex-007.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-17-regles-et-tabulations/word-ex-007.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m17-regles-et-tabulations/word-ex-007.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-106",
+      "slot": "docxUrl",
+      "relative": "assets/word/m18-chercher-et-remplacer/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-18-chercher-et-remplacer/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m18-chercher-et-remplacer/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-107",
+      "slot": "docxUrl",
+      "relative": "assets/word/m18-chercher-et-remplacer/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-18-chercher-et-remplacer/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m18-chercher-et-remplacer/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-108",
+      "slot": "docxUrl",
+      "relative": "assets/word/m18-chercher-et-remplacer/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-18-chercher-et-remplacer/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m18-chercher-et-remplacer/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-109",
+      "slot": "docxUrl",
+      "relative": "assets/word/m18-chercher-et-remplacer/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-18-chercher-et-remplacer/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m18-chercher-et-remplacer/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-110",
+      "slot": "docxUrl",
+      "relative": "assets/word/m18-chercher-et-remplacer/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-18-chercher-et-remplacer/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m18-chercher-et-remplacer/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-111",
+      "slot": "docxUrl",
+      "relative": "assets/word/m18-chercher-et-remplacer/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-18-chercher-et-remplacer/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m18-chercher-et-remplacer/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-112",
+      "slot": "docxUrl",
+      "relative": "assets/word/m18-chercher-et-remplacer/word-ex-007.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-18-chercher-et-remplacer/word-ex-007.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m18-chercher-et-remplacer/word-ex-007.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-113",
+      "slot": "docxUrl",
+      "relative": "assets/word/m18-chercher-et-remplacer/word-ex-008.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-18-chercher-et-remplacer/word-ex-008.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m18-chercher-et-remplacer/word-ex-008.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-114",
+      "slot": "docxUrl",
+      "relative": "assets/word/m19-format-de-page/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-19-format-de-page/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m19-format-de-page/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-116",
+      "slot": "docxUrl",
+      "relative": "assets/word/m19-format-de-page/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-19-format-de-page/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m19-format-de-page/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-117",
+      "slot": "docxUrl",
+      "relative": "assets/word/m19-format-de-page/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-19-format-de-page/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m19-format-de-page/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-118",
+      "slot": "docxUrl",
+      "relative": "assets/word/m19-format-de-page/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-19-format-de-page/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m19-format-de-page/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-119",
+      "slot": "docxUrl",
+      "relative": "assets/word/m19-format-de-page/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-19-format-de-page/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m19-format-de-page/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-120",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m19-format-de-page/word-ex-007-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-19-format-de-page/word-ex-007-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m19-format-de-page/word-ex-007-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-121",
+      "slot": "docxUrl",
+      "relative": "assets/word/m19-format-de-page/word-ex-008.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-19-format-de-page/word-ex-008.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m19-format-de-page/word-ex-008.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-122",
+      "slot": "docxUrl",
+      "relative": "assets/word/m20-affichage/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-20-affichage/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m20-affichage/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-123",
+      "slot": "docxUrl",
+      "relative": "assets/word/m20-affichage/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-20-affichage/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m20-affichage/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-124",
+      "slot": "docxUrl",
+      "relative": "assets/word/m20-affichage/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-20-affichage/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m20-affichage/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-125",
+      "slot": "docxUrl",
+      "relative": "assets/word/m20-affichage/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-20-affichage/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m20-affichage/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-126",
+      "slot": "docxUrl",
+      "relative": "assets/word/m20-affichage/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-20-affichage/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m20-affichage/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-127",
+      "slot": "docxUrl",
+      "relative": "assets/word/m20-affichage/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-20-affichage/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m20-affichage/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-128",
+      "slot": "docxUrl",
+      "relative": "assets/word/m21-smart-art/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-21-smart-art/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m21-smart-art/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-130",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m21-smart-art/word-ex-003-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-21-smart-art/word-ex-003-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m21-smart-art/word-ex-003-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-132",
+      "slot": "docxUrl",
+      "relative": "assets/word/m21-smart-art/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-21-smart-art/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m21-smart-art/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-133",
+      "slot": "docxUrl",
+      "relative": "assets/word/m21-smart-art/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-21-smart-art/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m21-smart-art/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-140",
+      "slot": "docxUrl",
+      "relative": "assets/word/m23-styles/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-23-styles/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m23-styles/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-141",
+      "slot": "docxUrl",
+      "relative": "assets/word/m23-styles/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-23-styles/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m23-styles/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-143",
+      "slot": "docxUrl",
+      "relative": "assets/word/m24-publipostage/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-24-publipostage/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m24-publipostage/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-144",
+      "slot": "docxUrl",
+      "relative": "assets/word/m24-publipostage/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-24-publipostage/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m24-publipostage/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-145",
+      "slot": "docxUrl",
+      "relative": "assets/word/m24-publipostage/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-24-publipostage/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m24-publipostage/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-148",
+      "slot": "docxUrl",
+      "relative": "assets/word/m24-publipostage/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-24-publipostage/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m24-publipostage/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-149",
+      "slot": "docxUrl",
+      "relative": "assets/word/m24-publipostage/word-ex-007.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-24-publipostage/word-ex-007.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m24-publipostage/word-ex-007.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-150",
+      "slot": "docxUrl",
+      "relative": "assets/word/m24-publipostage/word-ex-008.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-24-publipostage/word-ex-008.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m24-publipostage/word-ex-008.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-151",
+      "slot": "docxUrl",
+      "relative": "assets/word/m25-document-long/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-25-document-long/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m25-document-long/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-152",
+      "slot": "docxUrl",
+      "relative": "assets/word/m25-document-long/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-25-document-long/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m25-document-long/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-153",
+      "slot": "docxUrl",
+      "relative": "assets/word/m25-document-long/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-25-document-long/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m25-document-long/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-154",
+      "slot": "docxUrl",
+      "relative": "assets/word/m25-document-long/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-25-document-long/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m25-document-long/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-155",
+      "slot": "docxUrl",
+      "relative": "assets/word/m25-document-long/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-25-document-long/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m25-document-long/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-156",
+      "slot": "docxUrl",
+      "relative": "assets/word/m25-document-long/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-25-document-long/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m25-document-long/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-157",
+      "slot": "docxUrl",
+      "relative": "assets/word/m25-document-long/word-ex-007.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-25-document-long/word-ex-007.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m25-document-long/word-ex-007.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-158",
+      "slot": "docxUrl",
+      "relative": "assets/word/m25-document-long/word-ex-008.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-25-document-long/word-ex-008.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m25-document-long/word-ex-008.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-159",
+      "slot": "docxUrl",
+      "relative": "assets/word/m25-document-long/word-ex-009.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-25-document-long/word-ex-009.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m25-document-long/word-ex-009.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-163",
+      "slot": "docxUrl",
+      "relative": "assets/word/m26-lier-le-document/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-26-lier-le-document/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m26-lier-le-document/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-164",
+      "slot": "docxUrl",
+      "relative": "assets/word/m26-lier-le-document/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-26-lier-le-document/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m26-lier-le-document/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-165",
+      "slot": "docxUrl",
+      "relative": "assets/word/m26-lier-le-document/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-26-lier-le-document/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m26-lier-le-document/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-166",
+      "slot": "docxUrl",
+      "relative": "assets/word/m27-champs-et-formulaire/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-27-champs-et-formulaire/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m27-champs-et-formulaire/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-167",
+      "slot": "docxUrl",
+      "relative": "assets/word/m27-champs-et-formulaire/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-27-champs-et-formulaire/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m27-champs-et-formulaire/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-168",
+      "slot": "docxUrl",
+      "relative": "assets/word/m27-champs-et-formulaire/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-27-champs-et-formulaire/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m27-champs-et-formulaire/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-169",
+      "slot": "docxUrl",
+      "relative": "assets/word/m28-trucs-et-astuces/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-28-trucs-et-astuces/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m28-trucs-et-astuces/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-170",
+      "slot": "docxUrl",
+      "relative": "assets/word/m28-trucs-et-astuces/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/avance-28-trucs-et-astuces/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m28-trucs-et-astuces/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-001",
+      "slot": "docxUrl",
+      "relative": "assets/word/m1-prise-en-main/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-01-prise-en-main/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m1-prise-en-main/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-005",
+      "slot": "docxUrl",
+      "relative": "assets/word/m2-gerer-les-documents/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-02-gerer-les-documents/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m2-gerer-les-documents/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-006",
+      "slot": "docxUrl",
+      "relative": "assets/word/m3-saisir-du-texte/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-03-saisir-du-texte/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m3-saisir-du-texte/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-007",
+      "slot": "docxUrl",
+      "relative": "assets/word/m3-saisir-du-texte/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-03-saisir-du-texte/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m3-saisir-du-texte/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-008",
+      "slot": "docxUrl",
+      "relative": "assets/word/m3-saisir-du-texte/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-03-saisir-du-texte/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m3-saisir-du-texte/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-011",
+      "slot": "docxUrl",
+      "relative": "assets/word/m3-saisir-du-texte/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-03-saisir-du-texte/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m3-saisir-du-texte/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-012",
+      "slot": "docxUrl",
+      "relative": "assets/word/m3-saisir-du-texte/word-ex-007.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-03-saisir-du-texte/word-ex-007.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m3-saisir-du-texte/word-ex-007.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-014",
+      "slot": "docxUrl",
+      "relative": "assets/word/m3-saisir-du-texte/word-ex-009.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-03-saisir-du-texte/word-ex-009.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m3-saisir-du-texte/word-ex-009.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-015",
+      "slot": "docxUrl",
+      "relative": "assets/word/m3-saisir-du-texte/word-ex-010.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-03-saisir-du-texte/word-ex-010.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m3-saisir-du-texte/word-ex-010.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-016",
+      "slot": "docxUrl",
+      "relative": "assets/word/m4-options-paragraphe/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-04-options-paragraphe/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m4-options-paragraphe/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-017",
+      "slot": "docxUrl",
+      "relative": "assets/word/m4-options-paragraphe/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-04-options-paragraphe/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m4-options-paragraphe/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-018",
+      "slot": "docxUrl",
+      "relative": "assets/word/m4-options-paragraphe/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-04-options-paragraphe/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m4-options-paragraphe/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-019",
+      "slot": "docxUrl",
+      "relative": "assets/word/m4-options-paragraphe/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-04-options-paragraphe/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m4-options-paragraphe/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-020",
+      "slot": "docxUrl",
+      "relative": "assets/word/m4-options-paragraphe/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-04-options-paragraphe/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m4-options-paragraphe/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-020",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m4-options-paragraphe/word-ex-005-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-04-options-paragraphe/word-ex-005-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m4-options-paragraphe/word-ex-005-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-021",
+      "slot": "docxUrl",
+      "relative": "assets/word/m4-options-paragraphe/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-04-options-paragraphe/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m4-options-paragraphe/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-022",
+      "slot": "docxUrl",
+      "relative": "assets/word/m5-puces-et-numeros/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-05-puces-et-numeros/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m5-puces-et-numeros/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-023",
+      "slot": "docxUrl",
+      "relative": "assets/word/m5-puces-et-numeros/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-05-puces-et-numeros/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m5-puces-et-numeros/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-023",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m5-puces-et-numeros/word-ex-002-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-05-puces-et-numeros/word-ex-002-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m5-puces-et-numeros/word-ex-002-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-024",
+      "slot": "docxUrl",
+      "relative": "assets/word/m5-puces-et-numeros/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-05-puces-et-numeros/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m5-puces-et-numeros/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-025",
+      "slot": "docxUrl",
+      "relative": "assets/word/m5-puces-et-numeros/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-05-puces-et-numeros/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m5-puces-et-numeros/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-026",
+      "slot": "docxUrl",
+      "relative": "assets/word/m5-puces-et-numeros/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-05-puces-et-numeros/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m5-puces-et-numeros/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-027",
+      "slot": "docxUrl",
+      "relative": "assets/word/m5-puces-et-numeros/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-05-puces-et-numeros/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m5-puces-et-numeros/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-030",
+      "slot": "docxUrl",
+      "relative": "assets/word/m6-mise-en-colonne/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-06-mise-en-colonne/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m6-mise-en-colonne/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-030",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m6-mise-en-colonne/word-ex-001-annexe-1.jpg",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-06-mise-en-colonne/word-ex-001-annexe-1.jpg",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m6-mise-en-colonne/word-ex-001-annexe-1.jpg"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-031",
+      "slot": "docxUrl",
+      "relative": "assets/word/m6-mise-en-colonne/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-06-mise-en-colonne/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m6-mise-en-colonne/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-032",
+      "slot": "docxUrl",
+      "relative": "assets/word/m6-mise-en-colonne/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-06-mise-en-colonne/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m6-mise-en-colonne/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-032",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m6-mise-en-colonne/word-ex-003-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-06-mise-en-colonne/word-ex-003-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m6-mise-en-colonne/word-ex-003-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-033",
+      "slot": "docxUrl",
+      "relative": "assets/word/m6-mise-en-colonne/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-06-mise-en-colonne/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m6-mise-en-colonne/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-033",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m6-mise-en-colonne/word-ex-004-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-06-mise-en-colonne/word-ex-004-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m6-mise-en-colonne/word-ex-004-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-034",
+      "slot": "docxUrl",
+      "relative": "assets/word/m6-mise-en-colonne/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-06-mise-en-colonne/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m6-mise-en-colonne/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-035",
+      "slot": "docxUrl",
+      "relative": "assets/word/m6-mise-en-colonne/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-06-mise-en-colonne/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m6-mise-en-colonne/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-035",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m6-mise-en-colonne/word-ex-006-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-06-mise-en-colonne/word-ex-006-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m6-mise-en-colonne/word-ex-006-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-036",
+      "slot": "docxUrl",
+      "relative": "assets/word/m7-word-art-et-lettrine/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-07-word-art-et-lettrine/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m7-word-art-et-lettrine/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-038",
+      "slot": "docxUrl",
+      "relative": "assets/word/m7-word-art-et-lettrine/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-07-word-art-et-lettrine/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m7-word-art-et-lettrine/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-039",
+      "slot": "docxUrl",
+      "relative": "assets/word/m7-word-art-et-lettrine/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-07-word-art-et-lettrine/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m7-word-art-et-lettrine/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-040",
+      "slot": "docxUrl",
+      "relative": "assets/word/m7-word-art-et-lettrine/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-07-word-art-et-lettrine/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m7-word-art-et-lettrine/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-041",
+      "slot": "docxUrl",
+      "relative": "assets/word/m8-inserer-une-forme/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-08-inserer-une-forme/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m8-inserer-une-forme/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-043",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m8-inserer-une-forme/word-ex-003-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-08-inserer-une-forme/word-ex-003-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m8-inserer-une-forme/word-ex-003-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-046",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m8-inserer-une-forme/word-ex-006-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-08-inserer-une-forme/word-ex-006-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m8-inserer-une-forme/word-ex-006-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-048",
+      "slot": "docxUrl",
+      "relative": "assets/word/m8-inserer-une-forme/word-ex-008.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-08-inserer-une-forme/word-ex-008.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m8-inserer-une-forme/word-ex-008.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-049",
+      "slot": "docxUrl",
+      "relative": "assets/word/m8-inserer-une-forme/word-ex-009.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-08-inserer-une-forme/word-ex-009.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m8-inserer-une-forme/word-ex-009.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-049",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m8-inserer-une-forme/word-ex-009-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-08-inserer-une-forme/word-ex-009-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m8-inserer-une-forme/word-ex-009-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-050",
+      "slot": "docxUrl",
+      "relative": "assets/word/m8-inserer-une-forme/word-ex-010.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-08-inserer-une-forme/word-ex-010.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m8-inserer-une-forme/word-ex-010.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-051",
+      "slot": "docxUrl",
+      "relative": "assets/word/m9-zone-de-texte/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-09-zone-de-texte/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m9-zone-de-texte/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-052",
+      "slot": "docxUrl",
+      "relative": "assets/word/m9-zone-de-texte/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-09-zone-de-texte/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m9-zone-de-texte/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-054",
+      "slot": "docxUrl",
+      "relative": "assets/word/m9-zone-de-texte/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-09-zone-de-texte/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m9-zone-de-texte/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-055",
+      "slot": "docxUrl",
+      "relative": "assets/word/m9-zone-de-texte/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-09-zone-de-texte/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m9-zone-de-texte/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-055",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m9-zone-de-texte/word-ex-005-annexe-1.jpg",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-09-zone-de-texte/word-ex-005-annexe-1.jpg",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m9-zone-de-texte/word-ex-005-annexe-1.jpg"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-056",
+      "slot": "docxUrl",
+      "relative": "assets/word/m9-zone-de-texte/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-09-zone-de-texte/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m9-zone-de-texte/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-057",
+      "slot": "docxUrl",
+      "relative": "assets/word/m11-section-et-saut/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-11-section-et-saut/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m11-section-et-saut/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-058",
+      "slot": "docxUrl",
+      "relative": "assets/word/m11-section-et-saut/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-11-section-et-saut/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m11-section-et-saut/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-059",
+      "slot": "docxUrl",
+      "relative": "assets/word/m11-section-et-saut/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-11-section-et-saut/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m11-section-et-saut/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-060",
+      "slot": "docxUrl",
+      "relative": "assets/word/m11-section-et-saut/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-11-section-et-saut/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m11-section-et-saut/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-061",
+      "slot": "docxUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-061",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-001-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-001-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-001-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-062",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-002-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-002-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-002-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-063",
+      "slot": "docxUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-063",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-003-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-003-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-003-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-064",
+      "slot": "docxUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-064",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-004-annexe-1.jpg",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\word\\m12-inserer-une-image\\word-ex-004-annexe-1.jpg",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-004-annexe-1.jpg"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-065",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-005-annexe-1.jpg",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\word\\m12-inserer-une-image\\word-ex-005-annexe-1.jpg",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-005-annexe-1.jpg"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-066",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-006-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-006-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-006-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-067",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-007-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-007-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-007-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-068",
+      "slot": "docxUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-008.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-008.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-008.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-068",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-008-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-008-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-008-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-069",
+      "slot": "docxUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-009.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-009.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-009.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-069",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-009-annexe-1.zip",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-009-annexe-1.zip",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-009-annexe-1.zip"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-070",
+      "slot": "docxUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-010.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-010.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-010.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-070",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m12-inserer-une-image/word-ex-010-annexe-1.webp",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-12-inserer-une-image/word-ex-010-annexe-1.webp",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m12-inserer-une-image/word-ex-010-annexe-1.webp"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-071",
+      "slot": "docxUrl",
+      "relative": "assets/word/m13-en-tete-et-pied-de-page/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-13-en-tete-et-pied-de-page/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m13-en-tete-et-pied-de-page/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-072",
+      "slot": "docxUrl",
+      "relative": "assets/word/m13-en-tete-et-pied-de-page/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-13-en-tete-et-pied-de-page/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m13-en-tete-et-pied-de-page/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-073",
+      "slot": "docxUrl",
+      "relative": "assets/word/m13-en-tete-et-pied-de-page/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-13-en-tete-et-pied-de-page/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m13-en-tete-et-pied-de-page/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-073",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m13-en-tete-et-pied-de-page/word-ex-003-annexe-1.png",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-13-en-tete-et-pied-de-page/word-ex-003-annexe-1.png",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m13-en-tete-et-pied-de-page/word-ex-003-annexe-1.png"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-074",
+      "slot": "docxUrl",
+      "relative": "assets/word/m13-en-tete-et-pied-de-page/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-13-en-tete-et-pied-de-page/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m13-en-tete-et-pied-de-page/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-081",
+      "slot": "downloadUrl",
+      "relative": "assets/word/m14-inserer-un-tableau/word-ex-007-annexe-1.jpg",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-14-inserer-un-tableau/word-ex-007-annexe-1.jpg",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m14-inserer-un-tableau/word-ex-007-annexe-1.jpg"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-082",
+      "slot": "docxUrl",
+      "relative": "assets/word/m14-inserer-un-tableau/word-ex-008.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-14-inserer-un-tableau/word-ex-008.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m14-inserer-un-tableau/word-ex-008.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-083",
+      "slot": "docxUrl",
+      "relative": "assets/word/m14-inserer-un-tableau/word-ex-009.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-14-inserer-un-tableau/word-ex-009.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m14-inserer-un-tableau/word-ex-009.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-084",
+      "slot": "docxUrl",
+      "relative": "assets/word/m15-mise-en-forme-tableau/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-15-mise-en-forme-tableau/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m15-mise-en-forme-tableau/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-085",
+      "slot": "docxUrl",
+      "relative": "assets/word/m15-mise-en-forme-tableau/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-15-mise-en-forme-tableau/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m15-mise-en-forme-tableau/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-088",
+      "slot": "docxUrl",
+      "relative": "assets/word/m15-mise-en-forme-tableau/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-15-mise-en-forme-tableau/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m15-mise-en-forme-tableau/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-089",
+      "slot": "docxUrl",
+      "relative": "assets/word/m15-mise-en-forme-tableau/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-15-mise-en-forme-tableau/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m15-mise-en-forme-tableau/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-090",
+      "slot": "docxUrl",
+      "relative": "assets/word/m15-mise-en-forme-tableau/word-ex-007.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-15-mise-en-forme-tableau/word-ex-007.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m15-mise-en-forme-tableau/word-ex-007.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-094",
+      "slot": "docxUrl",
+      "relative": "assets/word/m16-tableau-avance/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-16-tableau-avance/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m16-tableau-avance/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-095",
+      "slot": "docxUrl",
+      "relative": "assets/word/m16-tableau-avance/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-16-tableau-avance/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m16-tableau-avance/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-096",
+      "slot": "docxUrl",
+      "relative": "assets/word/m16-tableau-avance/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-16-tableau-avance/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m16-tableau-avance/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-097",
+      "slot": "docxUrl",
+      "relative": "assets/word/m16-tableau-avance/word-ex-007.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/bases-16-tableau-avance/word-ex-007.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m16-tableau-avance/word-ex-007.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-172",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-173",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-174",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-175",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-176",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-177",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-178",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-007.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-007.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-007.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-179",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-008.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-008.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-008.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-180",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-009.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-009.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-009.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-181",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-010.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-010.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-010.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-182",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-011.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-011.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-011.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-183",
+      "slot": "docxUrl",
+      "relative": "assets/word/m29-niveau-1-debutant/word-ex-012.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-29-niveau-1-debutant/word-ex-012.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m29-niveau-1-debutant/word-ex-012.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-184",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-30-niveau-2-moyen/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-185",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-30-niveau-2-moyen/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-186",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-30-niveau-2-moyen/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-187",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-30-niveau-2-moyen/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-188",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-005.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-30-niveau-2-moyen/word-ex-005.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-005.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-189",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-30-niveau-2-moyen/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-190",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-007.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-30-niveau-2-moyen/word-ex-007.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-007.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-191",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-008.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-30-niveau-2-moyen/word-ex-008.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-008.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-192",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-009.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-30-niveau-2-moyen/word-ex-009.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-009.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-193",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-010.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-30-niveau-2-moyen/word-ex-010.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-010.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-194",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-011.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-30-niveau-2-moyen/word-ex-011.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-011.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-195",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-012.docx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\word\\m30-niveau-2-moyen\\word-ex-012.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-012.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-196",
+      "slot": "docxUrl",
+      "relative": "assets/word/m30-niveau-2-moyen/word-ex-013.docx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\word\\m30-niveau-2-moyen\\word-ex-013.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m30-niveau-2-moyen/word-ex-013.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-197",
+      "slot": "docxUrl",
+      "relative": "assets/word/m31-niveau-3-intermediaire/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-31-niveau-3-intermediaire/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-198",
+      "slot": "docxUrl",
+      "relative": "assets/word/m31-niveau-3-intermediaire/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-31-niveau-3-intermediaire/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-199",
+      "slot": "docxUrl",
+      "relative": "assets/word/m31-niveau-3-intermediaire/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-31-niveau-3-intermediaire/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-003.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-200",
+      "slot": "docxUrl",
+      "relative": "assets/word/m31-niveau-3-intermediaire/word-ex-004.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-31-niveau-3-intermediaire/word-ex-004.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-004.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-202",
+      "slot": "docxUrl",
+      "relative": "assets/word/m31-niveau-3-intermediaire/word-ex-006.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-31-niveau-3-intermediaire/word-ex-006.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-006.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-204",
+      "slot": "docxUrl",
+      "relative": "assets/word/m31-niveau-3-intermediaire/word-ex-008.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-31-niveau-3-intermediaire/word-ex-008.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-008.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-206",
+      "slot": "docxUrl",
+      "relative": "assets/word/m31-niveau-3-intermediaire/word-ex-010.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-31-niveau-3-intermediaire/word-ex-010.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-010.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-207",
+      "slot": "docxUrl",
+      "relative": "assets/word/m31-niveau-3-intermediaire/word-ex-011.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-31-niveau-3-intermediaire/word-ex-011.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-011.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-208",
+      "slot": "docxUrl",
+      "relative": "assets/word/m31-niveau-3-intermediaire/word-ex-012.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-31-niveau-3-intermediaire/word-ex-012.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-012.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-209",
+      "slot": "docxUrl",
+      "relative": "assets/word/m31-niveau-3-intermediaire/word-ex-013.docx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\word\\m31-niveau-3-intermediaire\\word-ex-013.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-013.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-210",
+      "slot": "docxUrl",
+      "relative": "assets/word/m31-niveau-3-intermediaire/word-ex-014.docx",
+      "source": "C:\\Dev\\Apps Pimms\\ateliers-Bureautique\\downloads-assets-source\\word\\m31-niveau-3-intermediaire\\word-ex-014.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-014.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-211",
+      "slot": "docxUrl",
+      "relative": "assets/word/m32-niveau-4-expert/word-ex-001.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-32-niveau-4-expert/word-ex-001.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m32-niveau-4-expert/word-ex-001.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-212",
+      "slot": "docxUrl",
+      "relative": "assets/word/m32-niveau-4-expert/word-ex-002.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-32-niveau-4-expert/word-ex-002.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m32-niveau-4-expert/word-ex-002.docx"
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-213",
+      "slot": "docxUrl",
+      "relative": "assets/word/m32-niveau-4-expert/word-ex-003.docx",
+      "source": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/word/data/assets/word/complets-32-niveau-4-expert/word-ex-003.docx",
+      "status": "copied",
+      "assetUrl": "data/assets/word/m32-niveau-4-expert/word-ex-003.docx"
+    }
+  ],
+  "repairedAt": "2026-09-10T09:10:11.278Z",
+  "repairedCount": 5,
+  "repairFailed": [],
+  "repaired": [
+    {
+      "key": "excel::excel-ex-200::docxUrl::assets/excel/asca-ul11-word/excel-ex-001.docx",
+      "from": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/asca-02-ul11-word/excel-ex-001.docx",
+      "via": "https://drive.google.com/uc?export=download&id=1_XvT19zoxWVk7bqOkK02S5Lzf53fSeSX"
+    },
+    {
+      "key": "excel::excel-ex-205::docxUrl::assets/excel/asca-ul11-word/excel-ex-006.docx",
+      "from": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/excel/data/assets/excel/asca-02-ul11-word/excel-ex-006.docx",
+      "via": "https://drive.google.com/uc?export=download&id=1sL7K7q0zbHPM9xnOvdsxRk-f3IEayoP9"
+    },
+    {
+      "key": "powerpoint::powerpoint-ex-005::docxUrl::assets/powerpoint/bases-animations/powerpoint-ex-001.pptx",
+      "from": "C:/Dev/Apps Pimms/ateliers-Bureautique/downloads-assets-source/powerpoint/bases-diaporamas/powerpoint-ex-001.pptx",
+      "via": "https://drive.google.com/uc?export=download&id=1jTlMSN9n_6SjuH4Tc2ObZ5wht_LI6I_u"
+    },
+    {
+      "key": "powerpoint::powerpoint-ex-006::docxUrl::assets/powerpoint/bases-animations/powerpoint-ex-002.pptx",
+      "from": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/powerpoint/data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-002.pptx",
+      "via": "https://drive.google.com/uc?export=download&id=12vREidTTKrTQOrdTo5UN4EL3W68WXoAe"
+    },
+    {
+      "key": "powerpoint::powerpoint-ex-007::docxUrl::assets/powerpoint/bases-animations/powerpoint-ex-003.pptx",
+      "from": "C:/Dev/Apps Pimms/ateliers-Bureautique/apps/powerpoint/data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-003.pptx",
+      "via": "https://drive.google.com/uc?export=download&id=1-xlbl0VefxiUHQmTU4OEW9BIR1bh8YBJ"
+    }
+  ]
+}

@@ -23,6 +23,8 @@ npm run word:validate:app-sync
 npm run excel:validate:app-sync
 npm run powerpoint:validate:app-sync
 
+npm run assets:check-links
+
 if [[ -n "$(git status --porcelain)" ]]; then
   git add -A
   git commit -m "$COMMIT_MESSAGE"

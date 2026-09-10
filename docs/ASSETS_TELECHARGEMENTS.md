@@ -74,7 +74,25 @@ Colonnes utiles :
 - `driveDownloadUrl`
 - `assetUrl`
 
-## Workflow Drive public
+## Serving primary (GitHub Pages)
+
+Les fichiers telechargeables par les usagers sont servis depuis GitHub Pages via des chemins locaux :
+
+- URL cible : `data/assets/{app}/{module}/{fichier}`
+- Fichiers versions dans `apps/*/data/assets/` (puis synchronises vers `apps/*/app/data/assets/`)
+
+Commande de bascule / preparation :
+
+```bash
+npm run assets:github-primary
+npm run assets:apply
+npm run "do sync"
+npm run assets:check-links
+```
+
+Google Drive reste un canal de preparation / sync optionnel, pas la source servie aux usagers.
+
+## Workflow Drive public (preparation)
 
 Si les fichiers sont ranges dans un Google Drive partage en lecture, l'inventaire peut etre enrichi automatiquement a partir du dossier racine Drive.
 
@@ -98,12 +116,11 @@ Condition importante :
 ## Workflow recommande
 
 1. Generer ou regenerer l'inventaire.
-2. Telecharger les fichiers source dans le dossier mere.
-3. Le renommer avec `suggestedFileName`.
-4. Verifier/ajuster sa place dans `downloads-assets-source/...`.
-5. Enrichir l'inventaire depuis Drive public ou renseigner `assetUrl` manuellement.
-6. Appliquer l'inventaire pour mettre a jour les URLs des apps.
-7. Regenerer `exercises.js`.
+2. Deposer / recuperer les fichiers source (`downloads-assets-source/` ou Drive).
+3. Les nommer avec `suggestedFileName` et les ranger par module.
+4. Lancer `npm run assets:github-primary` pour copier vers `apps/*/data/assets/` et poser les URLs `data/...`.
+5. Appliquer l'inventaire (`assets:apply`) puis `npm run "do sync"`.
+6. Verifier les liens (`npm run assets:check-links`) avant publication.
 
 ## Commandes
 
@@ -119,13 +136,25 @@ Recuperer les fichiers source :
 npm run assets:fetch
 ```
 
+Bascule GitHub Pages (primary) :
+
+```bash
+npm run assets:github-primary
+```
+
 Appliquer l'inventaire aux donnees :
 
 ```bash
 npm run assets:apply
 ```
 
-Enrichir automatiquement depuis Google Drive public :
+Verifier les liens de telechargement :
+
+```bash
+npm run assets:check-links
+```
+
+Enrichir automatiquement depuis Google Drive public (preparation) :
 
 ```bash
 npm run assets:drive -- --root "https://drive.google.com/drive/folders/..."
@@ -134,5 +163,5 @@ npm run assets:drive -- --root "https://drive.google.com/drive/folders/..."
 Puis regenerer les bundles de donnees :
 
 ```bash
-npm run do sync
+npm run "do sync"
 ```
