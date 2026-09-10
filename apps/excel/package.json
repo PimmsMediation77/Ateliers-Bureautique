@@ -1,6 +1,6 @@
 {
   "name": "excel-atelier",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "private": true,
   "description": "Atelier Excel - application pedagogique en HTML/CSS/JS vanilla.",
   "type": "module",

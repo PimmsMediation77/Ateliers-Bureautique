@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.9.3](https://github.com/karma-yrb/ateliers-Bureautique/compare/excel-v1.9.2...excel-v1.9.3) (2026-09-10)
+
+
+### Bug Fixes
+
+* **assets:** remap Google Drive download links ([59a1209](https://github.com/karma-yrb/ateliers-Bureautique/commit/59a120956bfdadeb2a14ebb09348d6b8064d1a89))
+* **word-ex-001:** restore exercise images ([c24f4ec](https://github.com/karma-yrb/ateliers-Bureautique/commit/c24f4ec22c6bd057f1686b0c20b5b0eaecbd70c3))
+
 ### [1.9.2](https://github.com/karma-yrb/ateliers-Bureautique/compare/excel-v1.9.1...excel-v1.9.2) (2026-07-16)
 
 
