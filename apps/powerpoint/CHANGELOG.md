@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.51](https://github.com/karma-yrb/ateliers-Bureautique/compare/powerpoint-v0.1.50...powerpoint-v0.1.51) (2026-09-10)
+
+
+### Features
+
+* **releases:** vue utilisateur compacte et alias do rel ([cdda5ee](https://github.com/karma-yrb/ateliers-Bureautique/commit/cdda5ee5fa7bcacc2200f617162ab907e0f278d0))
+
 ### [0.1.50](https://github.com/karma-yrb/ateliers-Bureautique/compare/powerpoint-v0.1.49...powerpoint-v0.1.50) (2026-09-10)
 
 
