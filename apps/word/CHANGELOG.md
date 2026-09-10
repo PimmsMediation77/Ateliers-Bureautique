@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.18.0](https://github.com/karma-yrb/ateliers-Bureautique/compare/word-v1.17.0...word-v1.18.0) (2026-09-10)
+
+
+### Features
+
+* **releases:** vue utilisateur compacte et alias do rel ([cdda5ee](https://github.com/karma-yrb/ateliers-Bureautique/commit/cdda5ee5fa7bcacc2200f617162ab907e0f278d0))
+
 ## [1.17.0](https://github.com/karma-yrb/ateliers-Bureautique/compare/word-v1.16.3...word-v1.17.0) (2026-09-10)
 
 
