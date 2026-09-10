@@ -42,7 +42,7 @@ Scripts npm
 - npm test -> lance les tests unitaires.
 - npm run release / npm run release:first -> versioning standard-version (necessite un depot git).
 - npm run release:all -> flux publication complet (test + commit auto si worktree dirty + release + push tags).
-- npm run "lance pub" -> alias de npm run release:all.
+- npm run "do rel" -> alias de npm run release:all.
   - `release:all` limite le blocage "worktree non propre" en committant d'abord les changements.
   - met a jour automatiquement la version dans `package*.json`, `CHANGELOG.md`, `index.html`, `app/index.html`.
   - met a jour automatiquement la page `releases/index.html` via `releases/releases.json` (+ copie `app/releases/`).

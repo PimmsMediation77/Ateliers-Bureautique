@@ -16,7 +16,7 @@
     "release:first": "standard-version --first-release",
     "release:all": "if exist \"%LOCALAPPDATA%\\Programs\\Git\\bin\\bash.exe\" (\"%LOCALAPPDATA%\\Programs\\Git\\bin\\bash.exe\" scripts/release-all.sh) else (bash scripts/release-all.sh)",
     "lance": "node scripts/run-release-all.mjs",
-    "lance pub": "npm run release:all",
+    "do rel": "npm run release:all",
     "assets:inventory": "node scripts/generate-download-assets-inventory.mjs",
     "assets:fetch": "node scripts/fetch-download-assets.mjs",
     "assets:report": "node scripts/report-download-assets-fetch.mjs",

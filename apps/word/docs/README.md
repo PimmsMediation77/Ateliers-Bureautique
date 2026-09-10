@@ -35,7 +35,7 @@
 - `npm test` -> execute les tests unitaires.
 - `npm run release` / `npm run release:first` -> versioning `standard-version` (depot git requis).
 - `npm run release:all` -> flux publication complet en Bash (tests + commit auto si worktree dirty + release + push tags).
-- `npm run "lance pub"` -> alias de `npm run release:all`.
+- `npm run "do rel"` -> alias de `npm run release:all`.
   - `release:all` reduit le blocage "worktree non propre" en committant les changements avant `standard-version`.
   - met a jour aussi le numero de version dans le header (`index.html`, `app/index.html`).
   - alimente la page `/releases` (`releases/release*.{json,js}` et copie `app/releases/`).

@@ -71,11 +71,42 @@
       font-size: .8rem;
       font-weight: 800;
       border: 1px solid transparent;
+      background: #f3efe8;
+      color: #2f4354;
+      border-color: #e0d7cb;
     }
     .pill.high { color: #6d1f1f; background: #f8e9e9; border-color: #e8c9c9; }
     .pill.medium { color: #6a4b2f; background: #f8f0e5; border-color: #e7d5ba; }
     .pill.low { color: #1f5a3d; background: #e7f3ec; border-color: #c9e4d5; }
+    .summary { margin: 10px 0 0; color: var(--ink); font-weight: 700; }
     .meta { margin: 10px 0 0; color: var(--muted); }
+    .details-toggle {
+      margin-top: 12px;
+      border: 0;
+      background: transparent;
+      color: var(--accent);
+      font: inherit;
+      font-weight: 800;
+      padding: 0;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .details-toggle:hover,
+    .details-toggle:focus-visible {
+      text-decoration: underline;
+      outline: none;
+    }
+    .details-toggle .arrow { font-size: .9rem; }
+    .tech-details {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #e5ddd1;
+    }
+    .tech-details[hidden] { display: none !important; }
+    .card.details-open .details-toggle .label-show { display: none; }
+    .card:not(.details-open) .details-toggle .label-hide { display: none; }
     .counts {
       margin: 12px 0 0;
       display: grid;
@@ -99,6 +130,10 @@
   </style>
   <script defer src="./releases.js"></script>
   <script defer>
+    // "user" = resume visible, details techniques derriere bouton.
+    // "admin" (futur) = details techniques visibles par defaut.
+    const VIEW_MODE = "user";
+
     function escapeHtml(value) {
       return String(value || "")
         .replaceAll("&", "&amp;")
@@ -115,7 +150,7 @@
     }
 
     function impactLabel(level) {
-      if (level === "high") return "Impact élevé";
+      if (level === "high") return "Impact eleve";
       if (level === "medium") return "Impact moyen";
       return "Impact faible";
     }
@@ -125,6 +160,18 @@
       if (type === "minor") return "Mineure";
       if (type === "patch") return "Corrective";
       return "Initiale";
+    }
+
+    function formatDate(value) {
+      const raw = String(value || "").trim();
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(raw)) return raw;
+      const date = new Date(`${raw}T00:00:00`);
+      if (Number.isNaN(date.getTime())) return raw;
+      return new Intl.DateTimeFormat("fr-FR", {
+        day: "numeric",
+        month: "short",
+        year: "numeric"
+      }).format(date);
     }
 
     function formatCount(label, value) {
@@ -138,44 +185,66 @@
       return response.json();
     }
 
+    function renderTechDetails(release, level, elements, openByDefault) {
+      return `
+        <div class="tech-details" id="tech-${escapeHtml(release.version)}"${openByDefault ? "" : " hidden"}>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <span class="pill ${impactClass(level)}">${impactLabel(level)}</span>
+          </div>
+          <p class="meta">${escapeHtml(release?.impact?.rationale || "")}</p>
+          <div class="counts">
+            ${formatCount("Total commits", release?.counts?.total || 0)}
+            ${formatCount("Features", release?.counts?.feat || 0)}
+            ${formatCount("Fix", release?.counts?.fix || 0)}
+            ${formatCount("Refactor", release?.counts?.refactor || 0)}
+            ${formatCount("Perf", release?.counts?.perf || 0)}
+            ${formatCount("Breaking", release?.counts?.breaking || 0)}
+          </div>
+          <h3 style="margin:14px 0 0;">Elements livres</h3>
+          <ul class="elements">
+            ${elements.length
+              ? elements.map((item) => `<li>${escapeHtml(item.typeLabel || item.type || "Autre")} - ${escapeHtml(item.description || "")} <span class="tag">(${escapeHtml(item.hash || "")})</span></li>`).join("")
+              : "<li>Aucun element liste.</li>"}
+          </ul>
+        </div>
+      `;
+    }
+
     async function render() {
       const target = document.getElementById("release-list");
       try {
         const data = await loadData();
         const releases = Array.isArray(data.releases) ? data.releases : [];
         if (!releases.length) {
-          target.innerHTML = `<p class="empty">Aucune release publiée pour le moment.</p>`;
+          target.innerHTML = `<p class="empty">Aucune release publiee pour le moment.</p>`;
           return;
         }
+
+        const openByDefault = VIEW_MODE === "admin";
 
         target.innerHTML = releases.map((release) => {
           const level = release?.impact?.level || "low";
           const elements = Array.isArray(release.elements) ? release.elements : [];
+          const detailsId = `tech-${release.version}`;
           return `
-            <article class="card">
+            <article class="card${openByDefault ? " details-open" : ""}" data-release="${escapeHtml(release.version)}">
               <div class="top">
-                <h2 style="margin:0;">v${escapeHtml(release.version)} <span class="tag">(${escapeHtml(release.date || "")})</span></h2>
-                <div style="display:flex;gap:8px;flex-wrap:wrap;">
-                  <span class="pill ${impactClass(level)}">${impactLabel(level)}</span>
-                  <span class="pill">${releaseTypeLabel(release.releaseType)}</span>
-                </div>
+                <h2 style="margin:0;">v${escapeHtml(release.version)} <span class="tag">(${escapeHtml(formatDate(release.date))})</span></h2>
+                <span class="pill">${releaseTypeLabel(release.releaseType)}</span>
               </div>
-              <p class="meta">${escapeHtml(release.summary || "")}</p>
-              <p class="meta">${escapeHtml(release?.impact?.rationale || "")}</p>
-              <div class="counts">
-                ${formatCount("Total commits", release?.counts?.total || 0)}
-                ${formatCount("Features", release?.counts?.feat || 0)}
-                ${formatCount("Fix", release?.counts?.fix || 0)}
-                ${formatCount("Refactor", release?.counts?.refactor || 0)}
-                ${formatCount("Perf", release?.counts?.perf || 0)}
-                ${formatCount("Breaking", release?.counts?.breaking || 0)}
-              </div>
-              <h3 style="margin:14px 0 0;">Éléments livrés</h3>
-              <ul class="elements">
-                ${elements.length
-                  ? elements.map((item) => `<li>${escapeHtml(item.typeLabel || item.type || "Autre")} - ${escapeHtml(item.description || "")} <span class="tag">(${escapeHtml(item.hash || "")})</span></li>`).join("")
-                  : "<li>Aucun élément listé.</li>"}
-              </ul>
+              <p class="summary">${escapeHtml(release.summary || "")}</p>
+              <button
+                type="button"
+                class="details-toggle"
+                data-action="toggle-tech-details"
+                aria-expanded="${openByDefault ? "true" : "false"}"
+                aria-controls="${escapeHtml(detailsId)}"
+              >
+                <span class="arrow" aria-hidden="true">${openByDefault ? "▴" : "▾"}</span>
+                <span class="label-show">Voir les details techniques</span>
+                <span class="label-hide">Masquer les details techniques</span>
+              </button>
+              ${renderTechDetails(release, level, elements, openByDefault)}
             </article>
           `;
         }).join("");
@@ -184,16 +253,35 @@
       }
     }
 
-    window.addEventListener("DOMContentLoaded", render);
+    function bindDetailsToggle() {
+      document.getElementById("release-list")?.addEventListener("click", (event) => {
+        const button = event.target.closest('[data-action="toggle-tech-details"]');
+        if (!button) return;
+        const card = button.closest(".card");
+        if (!card) return;
+        const open = !card.classList.contains("details-open");
+        card.classList.toggle("details-open", open);
+        button.setAttribute("aria-expanded", open ? "true" : "false");
+        const arrow = button.querySelector(".arrow");
+        if (arrow) arrow.textContent = open ? "▴" : "▾";
+        const panel = card.querySelector(".tech-details");
+        if (panel) panel.hidden = !open;
+      });
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+      bindDetailsToggle();
+      render();
+    });
   </script>
 </head>
 <body>
   <main class="wrap">
     <section class="hero">
       <h1>Releases Atelier Excel</h1>
-      <p class="subtitle">Historique des versions avec résumé de type, impact et éléments livrés.</p>
+      <p class="subtitle">Historique des versions de l'atelier Excel.</p>
       <div class="actions">
-        <a class="btn" href="../index.html">Retour à l'application</a>
+        <a class="btn" href="../index.html">Retour a l'application</a>
       </div>
     </section>
     <section id="release-list" class="list" aria-live="polite"></section>
