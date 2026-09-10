@@ -1,7 +1,84 @@
 window.RELEASES_DATA = {
-  "version": "1.26.1",
-  "updatedAt": "2026-09-10T08:31:46.898Z",
+  "version": "1.27.0",
+  "updatedAt": "2026-09-10T09:16:01.229Z",
   "releases": [
+    {
+      "version": "1.27.0",
+      "tag": "bureautique-v1.27.0",
+      "date": "2026-09-10",
+      "releaseType": "minor",
+      "impact": {
+        "level": "medium",
+        "rationale": "Nouvelles fonctionnalites ou changements techniques structurants."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.50",
+          "breaking": false,
+          "hash": "27ae85a"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.10.0",
+          "breaking": false,
+          "hash": "78ea1e1"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.17.0",
+          "breaking": false,
+          "hash": "a26ba29"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "0c00583"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "assets",
+          "description": "servir les telechargements depuis GitHub Pages",
+          "breaking": false,
+          "hash": "211612e"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "assets",
+          "description": "disambiguate controles formulaire download names",
+          "breaking": false,
+          "hash": "8f0b9c6"
+        }
+      ],
+      "counts": {
+        "feat": 1,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 6
+      }
+    },
     {
       "version": "1.26.1",
       "tag": "bureautique-v1.26.1",
