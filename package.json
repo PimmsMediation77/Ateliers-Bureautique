@@ -1,6 +1,6 @@
 {
   "name": "ateliers-bureautique",
-  "version": "1.26.0",
+  "version": "1.26.1",
   "private": true,
   "description": "Monorepo des ateliers bureautiques Pimms.",
   "workspaces": [

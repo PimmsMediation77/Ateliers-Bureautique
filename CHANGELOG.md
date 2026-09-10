@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.26.1](https://github.com/karma-yrb/ateliers-Bureautique/compare/v0.1.27...v1.26.1) (2026-09-10)
+
+
+### Bug Fixes
+
+* **assets:** remap Google Drive download links ([59a1209](https://github.com/karma-yrb/ateliers-Bureautique/commit/59a120956bfdadeb2a14ebb09348d6b8064d1a89))
+
 ## [1.26.0](https://github.com/karma-yrb/ateliers-Bureautique/compare/v0.1.7...v1.26.0) (2026-07-16)
 
 
