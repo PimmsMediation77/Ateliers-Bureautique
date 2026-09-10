@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.50](https://github.com/karma-yrb/ateliers-Bureautique/compare/powerpoint-v0.1.49...powerpoint-v0.1.50) (2026-09-10)
+
+
+### Features
+
+* **assets:** servir les telechargements depuis GitHub Pages ([211612e](https://github.com/karma-yrb/ateliers-Bureautique/commit/211612e1cc9bb725adcc598da9f40207d329862a))
+
+
+### Bug Fixes
+
+* **assets:** disambiguate controles formulaire download names ([8f0b9c6](https://github.com/karma-yrb/ateliers-Bureautique/commit/8f0b9c68ed9f6fe2a206313b388e0daa1a0b9d4f))
+
 ### [0.1.49](https://github.com/karma-yrb/ateliers-Bureautique/compare/powerpoint-v0.1.48...powerpoint-v0.1.49) (2026-09-10)
 
 
