@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.49](https://github.com/karma-yrb/ateliers-Bureautique/compare/powerpoint-v0.1.48...powerpoint-v0.1.49) (2026-09-10)
+
+
+### Bug Fixes
+
+* **assets:** remap Google Drive download links ([59a1209](https://github.com/karma-yrb/ateliers-Bureautique/commit/59a120956bfdadeb2a14ebb09348d6b8064d1a89))
+* **word-ex-001:** restore exercise images ([c24f4ec](https://github.com/karma-yrb/ateliers-Bureautique/commit/c24f4ec22c6bd057f1686b0c20b5b0eaecbd70c3))
+
 ### [0.1.48](https://github.com/karma-yrb/ateliers-Bureautique/compare/powerpoint-v0.1.47...powerpoint-v0.1.48) (2026-07-16)
 
 

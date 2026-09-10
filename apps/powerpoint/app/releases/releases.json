@@ -1,7 +1,196 @@
 {
-  "version": "0.1.48",
-  "updatedAt": "2026-07-16T12:02:45.449Z",
+  "version": "0.1.49",
+  "updatedAt": "2026-09-10T08:31:34.755Z",
   "releases": [
+    {
+      "version": "0.1.49",
+      "tag": "powerpoint-v0.1.49",
+      "date": "2026-09-10",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.9.3",
+          "breaking": false,
+          "hash": "efb732f"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.16.3",
+          "breaking": false,
+          "hash": "e4f5907"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "367cd3c"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "assets",
+          "description": "remap Google Drive download links",
+          "breaking": false,
+          "hash": "59a1209"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.27",
+          "breaking": false,
+          "hash": "23c02cf"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.26",
+          "breaking": false,
+          "hash": "f103575"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.25",
+          "breaking": false,
+          "hash": "c6be39f"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.24",
+          "breaking": false,
+          "hash": "c7e54ef"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.23",
+          "breaking": false,
+          "hash": "108e100"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.22",
+          "breaking": false,
+          "hash": "d6c8c73"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.21",
+          "breaking": false,
+          "hash": "f54de3d"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.20",
+          "breaking": false,
+          "hash": "e5cf054"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.19",
+          "breaking": false,
+          "hash": "7547b05"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.18",
+          "breaking": false,
+          "hash": "4248592"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.17",
+          "breaking": false,
+          "hash": "78a5a9c"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.16",
+          "breaking": false,
+          "hash": "2d6de51"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.15",
+          "breaking": false,
+          "hash": "a1cbfc6"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.14",
+          "breaking": false,
+          "hash": "5a3dd9b"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.13",
+          "breaking": false,
+          "hash": "7088a8f"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.12",
+          "breaking": false,
+          "hash": "889fd73"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 2,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 24,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 26
+      }
+    },
     {
       "version": "0.1.48",
       "tag": "powerpoint-v0.1.48",
