@@ -716,6 +716,8 @@ Cette UI n'apparait que si le serveur est disponible.
 
 Construire une page admin se basant uniquement sur l'API serveur, sans dependre du stockage local.
 
+Specification detaillee : [FEATURE_ESPACE_FORMATEUR.md](./FEATURE_ESPACE_FORMATEUR.md).
+
 ## Preparation du terrain des maintenant
 
 Oui, il est possible de preparer le terrain pour qu'une future mise en service sur reseau local repose surtout sur de la configuration.
@@ -894,7 +896,7 @@ Ainsi, quand le reseau local sera pret, tu pourras surtout renseigner un fichier
 5. afficher le choix `local` ou `connecte` seulement si le serveur est detecte
 6. ajouter la liste centralisee des utilisateurs
 7. ajouter la gestion des modules actifs
-8. ajouter la vue formateur
+8. ajouter la vue formateur (detail : [FEATURE_ESPACE_FORMATEUR.md](./FEATURE_ESPACE_FORMATEUR.md))
 
 ## Decision cible
 

@@ -147,6 +147,6 @@ Interpretation:
 
 ### V2
 
-- vue `Formateur`,
-- scan de plusieurs dossiers utilisateurs,
-- synthese croisee par utilisateur, exercice et theme.
+- vue `Formateur` via serveur (voir [FEATURE_ESPACE_FORMATEUR.md](./FEATURE_ESPACE_FORMATEUR.md)),
+- synthese croisee par utilisateur, exercice et theme sur API,
+- plus de scan de dossiers utilisateurs locaux comme strategie cible.
