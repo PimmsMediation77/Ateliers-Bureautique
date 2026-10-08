@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.54](///compare/powerpoint-v0.1.53...powerpoint-v0.1.54) (2026-10-08)
+
+
+### Bug Fixes
+
+* **exercises:** restore missing download assets for ex-043 ex-098 ex-115 and excel-ex-169 840f366
+
 ### [0.1.53](///compare/powerpoint-v0.1.52...powerpoint-v0.1.53) (2026-10-08)
 
 
