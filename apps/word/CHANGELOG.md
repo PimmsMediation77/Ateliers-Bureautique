@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.18.4](///compare/word-v1.18.3...word-v1.18.4) (2026-10-08)
+
+
+### Bug Fixes
+
+* **exercises:** apply coherence revision for Excel and PowerPoint ece0a7b
+* **exercises:** restore missing expected visuals and add integrity tests d910948
+
 ### [1.18.3](///compare/word-v1.18.2...word-v1.18.3) (2026-10-08)
 
 
