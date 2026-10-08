@@ -2400,10 +2400,13 @@
       "downloadUrl": "data/assets/word/m8-inserer-une-forme/word-ex-003-annexe-1.zip",
       "imageEnonce": null,
       "imageResultat": "data/assets/word/bases-08-inserer-une-forme/word-ex-003-image-resultat.jpg",
-      "description": "1-Téléchargez les visuels",
+      "description": "Reproduisez la composition Sicile avec des formes et les visuels fournis en fond.",
       "consignes": [],
       "instructions": [
-        "Faire une mise en page conforme aux résultats attendu : ."
+        "Téléchargez le zip des visuels puis décompressez-le.",
+        "Ouvrez un document Word vierge et reproduisez la mise en page conforme au résultat attendu.",
+        "Insérez les formes (Insertion > Formes), puis appliquez les images en fond de forme.",
+        "Ajustez le contour de chaque forme (pointillé, épais, etc.) comme sur le modèle."
       ],
       "scrape": {
         "ok": true,
@@ -2421,7 +2424,7 @@
         "Faire une mise en page conforme aux résultats attendu : .",
         "L'exercice vise à découvrir la fonction qui permet de changer le fond des formes. Notez que le tour de chaque forme est \"pointillé\" \"épais\"... ou au choix."
       ],
-      "downloadLabel": "Telecharger les visuels"
+      "downloadLabel": "Télécharger les visuels"
     },
     {
       "id": "ex-044",
@@ -4857,13 +4860,13 @@
       "pageUrl": "https://www.clic-formation.net/tableau-avances-et-trucs/exercice-8.html",
       "level": 1,
       "levelLabel": "🟢 Débutant ⭐",
-      "docxUrl": null,
+      "docxUrl": "data/assets/word/m16-tableau-avance/word-ex-008.docx",
       "imageEnonce": "data/assets/word/bases-16-tableau-avance/word-ex-008-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-16-tableau-avance/word-ex-008-image-resultat.jpg",
       "description": "Triez les noms des coureurs par ordre alphabetique avec la fonction Tri (groupe Donnees).",
       "consignes": [],
       "instructions": [
-        "Ouvrez le tableau de coureurs (lorsqu'un fichier de travail est fourni) ou reconstituez-le d'après le modèle image.",
+        "Téléchargez le fichier Word du tableau de coureurs.",
         "Triez les noms des coureurs par ordre alphabétique avec la fonction Tri du groupe « Données ».",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
         "Enregistrez votre travail puis marquez l'exercice comme terminé."
@@ -5605,8 +5608,9 @@
       "description": "Appliquez une trame de fond image puis reproduisez la composition Mont-Blanc.",
       "consignes": [],
       "instructions": [
+        "Téléchargez l'image de fond Mont-Blanc.",
         "Ouvrez un document Word vierge.",
-        "Appliquez une trame de fond image (Mise en page > Couleur de page), puis ajoutez les textes comme sur le modèle (Toit de l'Europe, MONT-BLANC, Mario Colonel).",
+        "Appliquez une trame de fond image (Mise en page > Couleur de page > Motifs de remplissage > Image), puis ajoutez les textes comme sur le modèle (Toit de l'Europe, MONT-BLANC, Mario Colonel).",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
         "Enregistrez votre travail puis marquez l'exercice comme terminé."
       ],
@@ -5629,7 +5633,9 @@
         "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
         "Enregistrez votre travail puis marquez l'exercice comme terminé."
-      ]
+      ],
+      "downloadUrl": "data/assets/word/m19-format-de-page/word-ex-002-annexe-1.jpg",
+      "downloadLabel": "Télécharger l'image de fond"
     },
     {
       "id": "ex-116",

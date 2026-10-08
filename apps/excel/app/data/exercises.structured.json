@@ -11529,7 +11529,7 @@
       "title": "Tableau Croisé Dynamique (Tableaux croisés dynamiques 8)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-8.html",
-      "docxUrl": null,
+      "docxUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -11539,7 +11539,7 @@
       "description": "Realisez les tableaux croises dynamiques sur les donnees de CA.",
       "preamble": "",
       "instructions": [
-        "Ouvrez le fichier de données de CA lorsqu'il est fourni, puis créez les tableaux croisés dynamiques demandés.",
+        "Téléchargez le fichier Excel de travail, puis créez les tableaux croisés dynamiques demandés.",
         "Comparer les chiffres d'affaires par mois (CA_Mensuel) pour chaque vendeur.",
         "Calculer les moyennes et les écarts-types des chiffres d'affaires pour chaque vendeur et pour chaque produit.",
         "Comparez avec les images de résultat attendu."
@@ -11560,7 +11560,7 @@
       "section": "avance",
       "moduleSlug": "tableaux-croises-dynamiques",
       "consignes": [
-        "Ouvrez le fichier de données de CA lorsqu'il est fourni, puis créez les tableaux croisés dynamiques demandés.",
+        "Téléchargez le fichier Excel de travail, puis créez les tableaux croisés dynamiques demandés.",
         "Comparaison des chiffres d'affaires par mois (CA_Mensuel) pour chaque vendeur.",
         "Calculs des moyennes et les écarts-types des chiffres d'affaires pour chaque vendeur et pour chaque produit."
       ],
