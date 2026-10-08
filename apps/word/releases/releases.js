@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.18.4",
-  "updatedAt": "2026-10-08T09:20:23.552Z",
+  "version": "1.18.5",
+  "updatedAt": "2026-10-08T09:30:46.100Z",
   "releases": [
+    {
+      "version": "1.18.5",
+      "tag": "word-v1.18.5",
+      "date": "2026-10-08",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "44710b4"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "viewer",
+          "description": "ameliorer bouton Dezoomer et retablir le pan a la main",
+          "breaking": false,
+          "hash": "155b4c8"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.32.0",
+          "breaking": false,
+          "hash": "9253dbc"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.55",
+          "breaking": false,
+          "hash": "096f21a"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.4",
+          "breaking": false,
+          "hash": "819c726"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.18.4",
       "tag": "word-v1.18.4",
