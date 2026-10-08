@@ -1,7 +1,76 @@
 {
-  "version": "1.32.0",
-  "updatedAt": "2026-10-08T09:20:47.722Z",
+  "version": "1.33.0",
+  "updatedAt": "2026-10-08T09:31:22.622Z",
   "releases": [
+    {
+      "version": "1.33.0",
+      "tag": "bureautique-v1.33.0",
+      "date": "2026-10-08",
+      "releaseType": "minor",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.56",
+          "breaking": false,
+          "hash": "4425628"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.5",
+          "breaking": false,
+          "hash": "6653790"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.5",
+          "breaking": false,
+          "hash": "571f741"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "44710b4"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "viewer",
+          "description": "ameliorer bouton Dezoomer et retablir le pan a la main",
+          "breaking": false,
+          "hash": "155b4c8"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.32.0",
       "tag": "bureautique-v1.32.0",

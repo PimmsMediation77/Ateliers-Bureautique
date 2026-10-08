@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.33.0](///compare/v0.1.27...v1.33.0) (2026-10-08)
+
+
+### Features
+
+* **assets:** servir les telechargements depuis GitHub Pages 211612e
+* **releases:** vue utilisateur compacte et alias do rel cdda5ee
+
+
+### Bug Fixes
+
+* **assets:** disambiguate controles formulaire download names 8f0b9c6
+* **assets:** remap Google Drive download links 59a1209
+* **exercises:** apply coherence revision for Excel and PowerPoint ece0a7b
+* **exercises:** interpret enonces without forcing downloads 175b928
+* **exercises:** restore missing download assets for ex-043 ex-098 ex-115 and excel-ex-169 840f366
+* **exercises:** restore missing expected visuals and add integrity tests d910948
+* **viewer:** ameliorer bouton Dezoomer et retablir le pan a la main 155b4c8
+* **viewer:** legende au-dessus, bouton Dezoomer et libelles de telechargement edcd708
+
 ## [1.32.0](///compare/v0.1.27...v1.32.0) (2026-10-08)
 
 
