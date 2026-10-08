@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.18.3](///compare/word-v1.18.2...word-v1.18.3) (2026-10-08)
+
+
+### Bug Fixes
+
+* **exercises:** restore missing download assets for ex-043 ex-098 ex-115 and excel-ex-169 840f366
+
 ### [1.18.2](///compare/word-v1.18.1...word-v1.18.2) (2026-10-08)
 
 
