@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.55](///compare/powerpoint-v0.1.54...powerpoint-v0.1.55) (2026-10-08)
+
+
+### Bug Fixes
+
+* **exercises:** apply coherence revision for Excel and PowerPoint ece0a7b
+* **exercises:** restore missing expected visuals and add integrity tests d910948
+
 ### [0.1.54](///compare/powerpoint-v0.1.53...powerpoint-v0.1.54) (2026-10-08)
 
 
