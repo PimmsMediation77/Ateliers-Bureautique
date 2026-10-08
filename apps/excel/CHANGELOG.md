@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.2](///compare/excel-v1.11.1...excel-v1.11.2) (2026-10-08)
+
+
+### Bug Fixes
+
+* **exercises:** interpret enonces without forcing downloads 175b928
+
 ### [1.11.1](///compare/excel-v1.11.0...excel-v1.11.1) (2026-10-08)
 
 
