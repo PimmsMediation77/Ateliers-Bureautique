@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.3](///compare/excel-v1.11.2...excel-v1.11.3) (2026-10-08)
+
+
+### Bug Fixes
+
+* **exercises:** restore missing download assets for ex-043 ex-098 ex-115 and excel-ex-169 840f366
+
 ### [1.11.2](///compare/excel-v1.11.1...excel-v1.11.2) (2026-10-08)
 
 

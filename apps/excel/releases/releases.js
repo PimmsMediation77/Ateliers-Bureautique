@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.11.2",
-  "updatedAt": "2026-10-08T07:27:41.488Z",
+  "version": "1.11.3",
+  "updatedAt": "2026-10-08T08:51:01.635Z",
   "releases": [
+    {
+      "version": "1.11.3",
+      "tag": "excel-v1.11.3",
+      "date": "2026-10-08",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.3",
+          "breaking": false,
+          "hash": "318f21f"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "75d73d8"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "exercises",
+          "description": "restore missing download assets for ex-043 ex-098 ex-115 and excel-ex-169",
+          "breaking": false,
+          "hash": "840f366"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.30.0",
+          "breaking": false,
+          "hash": "0acb6ae"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.53",
+          "breaking": false,
+          "hash": "8e02401"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.11.2",
       "tag": "excel-v1.11.2",
