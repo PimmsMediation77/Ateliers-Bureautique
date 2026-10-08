@@ -458,10 +458,10 @@ window.WORD_ATELIER_DATA = {
       "description": "Creez une arborescence de dossiers et enregistrez un document Word dans trois formats.",
       "consignes": [],
       "instructions": [
-        "! Word n'est pas nécessaire pour cet exercice !",
-        "Cliquez sur l’icône jaune 📁 appelée « Explorateur de fichiers » en bas de l’écran.",
-        "Cherchez le dossier où se trouve votre document (par exemple Documents ou Téléchargements).",
-        "Double-cliquez sur le document Word pour l’ouvrir."
+        "Sur le Bureau Windows, créez un dossier nommé Europe (aucun fichier à télécharger pour cet exercice).",
+        "À l'intérieur du dossier Europe, créez un sous-dossier nommé france.",
+        "Ouvrez Word, créez un document vierge, puis enregistrez-le dans le dossier france aux trois formats de l'exemple : .docx, .doc et .pdf (par ex. « France word apres 2007.docx », « France word avant 2007.doc », « France word pdf.pdf »).",
+        "Comparez le contenu du dossier france avec l'image de résultat attendu."
       ],
       "scrape": {
         "ok": true,
@@ -478,10 +478,9 @@ window.WORD_ATELIER_DATA = {
       "criteria": [],
       "originalConsignes": [],
       "originalInstructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Comme dans l'exemple ci-dessous sous, vous créez un dossier \"Europe\" sur le bureau, puis.",
-        "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Comme dans l'exemple, créez un dossier \"Europe\" sur le bureau, puis un sous-dossier \"france\" à l'intérieur.",
+        "Dans le dossier france, enregistrez un document Word aux trois formats présentés (.docx, .doc et .pdf).",
+        "Comparez avec l'image de résultat attendu puis marquez l'exercice comme terminé."
       ]
     },
     {
@@ -2484,13 +2483,13 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": null,
       "imageEnonce": "data/assets/word/bases-08-inserer-une-forme/word-ex-005-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-08-inserer-une-forme/word-ex-005-image-resultat.jpg",
-      "description": "Creez la composition avec SmartArt et les photos fournies.",
+      "description": "Reproduisez l'organigramme avec des formes Word (aucun fichier a telecharger).",
       "consignes": [],
       "instructions": [
-        "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
-        "Téléchargez les photos utiles à l'exercice.",
-        "Vous insérez le modèle via smart-art et insérer les photos dans les zones prévues.",
-        "Aligner les copies avec les flèches de direction plutôt qu'avec la souris."
+        "Ouvrez Word et choisissez un document vierge (cet exercice ne comporte pas de fichier de travail).",
+        "Reproduisez la présentation identique au résultat attendu à l'aide de formes (Insertion > Formes).",
+        "Créez une fois la forme ovale et la forme rectangulaire avec couleur et effet, puis dupliquez-les par copier-coller.",
+        "Alignez les copies avec les flèches de direction du clavier plutôt qu'avec la souris."
       ],
       "imageEnonceCaption": "Ou trouver la mise en page de cette présentation ?",
       "scrape": {
@@ -2510,8 +2509,7 @@ window.WORD_ATELIER_DATA = {
       ],
       "originalConsignes": [],
       "originalInstructions": [
-        "Téléchargez les photos utiles à l'exercice.",
-        "Vous insérez le modèle via smart-art et insérer les photos dans les zones prévues.",
+        "Cet exercice ne comporte pas de fichier de travail.",
         "Faire une présentation identique au résultat attendu.",
         "Faire une fois la forme ovale et rectangulaire avec couleur et effet, et utiliser le copier-coller pour les dupliquer.",
         "Aligner les copies avec les flèches de direction plutôt qu'avec la souris."
@@ -3811,11 +3809,11 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": null,
       "imageEnonce": "data/assets/word/bases-14-inserer-un-tableau/word-ex-001-image-enonce.gif",
       "imageResultat": "data/assets/word/bases-14-inserer-un-tableau/word-ex-001-image-resultat.gif",
-      "description": "Ce n'est pas très pratique pour un tableau, mais vous pouvez télécharger le texte ici",
+      "description": "Creez un tableau d'une colonne et 26 lignes, puis saisissez la liste comme sur l'exemple.",
       "consignes": [],
       "instructions": [
-        "Ouvrez votre traitement de texte et insérez un tableau de 1 colonne et 26 lignes.",
-        "Rédigez la liste comme sur l'exemple.",
+        "Ouvrez votre traitement de texte (document vierge, aucun fichier obligatoire à télécharger) et insérez un tableau de 1 colonne et 26 lignes.",
+        "Rédigez la liste comme sur l'exemple (saisie manuelle ou d'après l'image de résultat).",
         "Enregistrez votre travail pour faire le prochain exercice."
       ],
       "scrape": {
@@ -4862,11 +4860,11 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": null,
       "imageEnonce": "data/assets/word/bases-16-tableau-avance/word-ex-008-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-16-tableau-avance/word-ex-008-image-resultat.jpg",
-      "description": "Téléchargez le document Word",
+      "description": "Triez les noms des coureurs par ordre alphabetique avec la fonction Tri (groupe Donnees).",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Téléchargez le document Word.",
-        "Créez ou ajustez le tableau via Insertion > Tableau puis appliquez fusion, bordures et alignements.",
+        "Ouvrez le tableau de coureurs (lorsqu'un fichier de travail est fourni) ou reconstituez-le d'après le modèle image.",
+        "Triez les noms des coureurs par ordre alphabétique avec la fonction Tri du groupe « Données ».",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
         "Enregistrez votre travail puis marquez l'exercice comme terminé."
       ],
@@ -4885,10 +4883,7 @@ window.WORD_ATELIER_DATA = {
       "criteria": [],
       "originalConsignes": [],
       "originalInstructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Téléchargez le document Word.",
-        "Créez ou ajustez le tableau via Insertion > Tableau puis appliquez fusion, bordures et alignements.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Trier les noms des coureurs par ordre Alphabétique avec la fonction trié du groupe \"Données\"."
       ]
     },
     {
@@ -5607,11 +5602,11 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": null,
       "imageEnonce": "data/assets/word/avance-19-format-de-page/word-ex-002-image-enonce.jpg",
       "imageResultat": "data/assets/word/avance-19-format-de-page/word-ex-002-image-resultat.jpg",
-      "description": "Téléchargez l'image ici",
+      "description": "Appliquez une trame de fond image puis reproduisez la composition Mont-Blanc.",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Téléchargez l'image ici.",
-        "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
+        "Ouvrez un document Word vierge.",
+        "Appliquez une trame de fond image (Mise en page > Couleur de page), puis ajoutez les textes comme sur le modèle (Toit de l'Europe, MONT-BLANC, Mario Colonel).",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
         "Enregistrez votre travail puis marquez l'exercice comme terminé."
       ],

@@ -11536,13 +11536,13 @@
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Tableau Croisé Dynamique",
+      "description": "Realisez les tableaux croises dynamiques sur les donnees de CA.",
       "preamble": "",
       "instructions": [
-        "Après avoir téléchargé votre fichier de travail ci-contre, vous effectuez les différentes manipulations :.",
-        "Comparaison des chiffres d'affaires par mois (CA_Mensuel) pour chaque vendeur.",
-        "Calculs des moyennes et les écarts-types des chiffres d'affaires pour chaque vendeur et pour chaque produit.",
-        "Résultat attendu :."
+        "Ouvrez le fichier de données de CA lorsqu'il est fourni, puis créez les tableaux croisés dynamiques demandés.",
+        "Comparer les chiffres d'affaires par mois (CA_Mensuel) pour chaque vendeur.",
+        "Calculer les moyennes et les écarts-types des chiffres d'affaires pour chaque vendeur et pour chaque produit.",
+        "Comparez avec les images de résultat attendu."
       ],
       "levelLabel": "Intermediaire",
       "scrape": {
@@ -11560,17 +11560,14 @@
       "section": "avance",
       "moduleSlug": "tableaux-croises-dynamiques",
       "consignes": [
-        "Après avoir téléchargé votre fichier de travail ci-contre, vous effectuez les différentes manipulations :.",
+        "Ouvrez le fichier de données de CA lorsqu'il est fourni, puis créez les tableaux croisés dynamiques demandés.",
         "Comparaison des chiffres d'affaires par mois (CA_Mensuel) pour chaque vendeur.",
-        "Calculs des moyennes et les écarts-types des chiffres d'affaires pour chaque vendeur et pour chaque produit.",
-        "Résultat attendu :."
+        "Calculs des moyennes et les écarts-types des chiffres d'affaires pour chaque vendeur et pour chaque produit."
       ],
       "criteria": [],
       "originalConsignes": [
-        "Après avoir téléchargé votre fichier de travail ci-contre, vous effectuez les différentes manipulations :.",
         "Comparaison des chiffres d'affaires par mois (CA_Mensuel) pour chaque vendeur.",
-        "Calculs des moyennes et les écarts-types des chiffres d'affaires pour chaque vendeur et pour chaque produit.",
-        "Résultat attendu :."
+        "Calculs des moyennes et les écarts-types des chiffres d'affaires pour chaque vendeur et pour chaque produit."
       ],
       "originalInstructions": [
         "Après avoir téléchargé votre fichier de travail ci-contre, vous effectuez les différentes manipulations :.",

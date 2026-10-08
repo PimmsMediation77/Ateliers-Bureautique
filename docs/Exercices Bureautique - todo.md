@@ -23,19 +23,16 @@
 
 ##### **Word**
 
-* ex-0xx
-
-
-
-
+* ~~ex-004 : consignes sans fichier (Europe / france / 3 formats)~~
+* ~~ex-045 : enonce sans fichier de travail (formes)~~
+* ~~ex-075 : description sans telecharger obligatoire~~
+* ex-098 : fichier de travail (tableau coureurs) a lier
+* ex-115 : image de trame de fond a lier
 
 ##### **Excel**
 
-* ex-0xx :
-
-
+* excel-ex-169 : fichier de travail TCD a lier
 
 ##### **Powerpoint**
 
-* excel-ex-0xx
-
+* (aucun cas sans fichier detecte)

@@ -1,0 +1,14 @@
+---
+description: Interpreter les enonces avant d'ajouter un fichier a telecharger
+alwaysApply: true
+---
+
+# Interpretation des enonces / fichiers telechargeables
+
+- Lire le sens de l'enonce ou des consignes sources avant de renseigner `docxUrl` ou `downloadUrl`.
+- Un exercice n'a pas toujours besoin d'un fichier a telecharger.
+- Sans fichier si l'enonce cree depuis zero (document vierge, arborescence, formes, saisie, options Word/Excel/PowerPoint).
+  Exemple : https://www.clic-formation.net/gerer-les-documents-dans-word/exercice-1.html
+- Avec fichier seulement si l'enonce fournit explicitement un document, une image, un zip ou des donnees de depart.
+- Ne pas ecrire de consignes qui supposent un telechargement quand aucun asset n'est requis.
+- Une mention optionnelle du type "vous pouvez telecharger le texte" ne justifie pas un asset obligatoire.
