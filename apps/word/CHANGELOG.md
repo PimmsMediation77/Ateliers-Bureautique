@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.18.2](///compare/word-v1.18.1...word-v1.18.2) (2026-10-08)
+
+
+### Bug Fixes
+
+* **exercises:** interpret enonces without forcing downloads 175b928
+
 ### [1.18.1](///compare/word-v1.18.0...word-v1.18.1) (2026-10-08)
 
 
