@@ -1,7 +1,92 @@
 window.RELEASES_DATA = {
-  "version": "0.1.51",
-  "updatedAt": "2026-09-10T09:55:31.302Z",
+  "version": "0.1.52",
+  "updatedAt": "2026-10-08T07:10:37.163Z",
   "releases": [
+    {
+      "version": "0.1.52",
+      "tag": "powerpoint-v0.1.52",
+      "date": "2026-10-08",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.1",
+          "breaking": false,
+          "hash": "bc2a6b4"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.1",
+          "breaking": false,
+          "hash": "132ba51"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "7e5cef3"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "viewer",
+          "description": "legende au-dessus, bouton Dezoomer et libelles de telechargement",
+          "breaking": false,
+          "hash": "edcd708"
+        },
+        {
+          "type": "ci",
+          "typeLabel": "CI",
+          "scope": "",
+          "description": "trigger GitHub Pages deployment",
+          "breaking": false,
+          "hash": "3d0b37c"
+        },
+        {
+          "type": "docs",
+          "typeLabel": "Documentation",
+          "scope": "atelier-core",
+          "description": "documente l espace formateur",
+          "breaking": false,
+          "hash": "a4c1995"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.28.0",
+          "breaking": false,
+          "hash": "ef6b325"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 1,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 1,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 7
+      }
+    },
     {
       "version": "0.1.51",
       "tag": "powerpoint-v0.1.51",

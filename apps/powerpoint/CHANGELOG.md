@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.52](///compare/powerpoint-v0.1.51...powerpoint-v0.1.52) (2026-10-08)
+
+
+### Bug Fixes
+
+* **viewer:** legende au-dessus, bouton Dezoomer et libelles de telechargement edcd708
+
+
+### Documentation
+
+* **atelier-core:** documente l espace formateur a4c1995
+
 ### [0.1.51](https://github.com/karma-yrb/ateliers-Bureautique/compare/powerpoint-v0.1.50...powerpoint-v0.1.51) (2026-09-10)
 
 

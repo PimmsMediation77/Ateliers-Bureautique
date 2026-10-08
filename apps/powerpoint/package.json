@@ -1,6 +1,6 @@
 {
   "name": "powerpoint-atelier",
-  "version": "0.1.51",
+  "version": "0.1.52",
   "private": true,
   "description": "Atelier PowerPoint - application pedagogique en HTML/CSS/JS vanilla.",
   "type": "module",
