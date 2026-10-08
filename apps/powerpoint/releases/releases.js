@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "0.1.52",
-  "updatedAt": "2026-10-08T07:10:37.163Z",
+  "version": "0.1.53",
+  "updatedAt": "2026-10-08T07:27:52.419Z",
   "releases": [
+    {
+      "version": "0.1.53",
+      "tag": "powerpoint-v0.1.53",
+      "date": "2026-10-08",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.2",
+          "breaking": false,
+          "hash": "b5cf79b"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.2",
+          "breaking": false,
+          "hash": "7378ef8"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "0b94547"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "exercises",
+          "description": "interpret enonces without forcing downloads",
+          "breaking": false,
+          "hash": "175b928"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.29.0",
+          "breaking": false,
+          "hash": "bedd48a"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "0.1.52",
       "tag": "powerpoint-v0.1.52",

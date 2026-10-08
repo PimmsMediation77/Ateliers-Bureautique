@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.53](///compare/powerpoint-v0.1.52...powerpoint-v0.1.53) (2026-10-08)
+
+
+### Bug Fixes
+
+* **exercises:** interpret enonces without forcing downloads 175b928
+
 ### [0.1.52](///compare/powerpoint-v0.1.51...powerpoint-v0.1.52) (2026-10-08)
 
 
