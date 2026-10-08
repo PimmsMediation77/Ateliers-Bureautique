@@ -1,7 +1,84 @@
 window.RELEASES_DATA = {
-  "version": "1.31.0",
-  "updatedAt": "2026-10-08T08:51:16.078Z",
+  "version": "1.32.0",
+  "updatedAt": "2026-10-08T09:20:47.722Z",
   "releases": [
+    {
+      "version": "1.32.0",
+      "tag": "bureautique-v1.32.0",
+      "date": "2026-10-08",
+      "releaseType": "minor",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.55",
+          "breaking": false,
+          "hash": "096f21a"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.4",
+          "breaking": false,
+          "hash": "819c726"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.4",
+          "breaking": false,
+          "hash": "e10a9f5"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "663b0b2"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "exercises",
+          "description": "apply coherence revision for Excel and PowerPoint",
+          "breaking": false,
+          "hash": "ece0a7b"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "exercises",
+          "description": "restore missing expected visuals and add integrity tests",
+          "breaking": false,
+          "hash": "d910948"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 2,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 6
+      }
+    },
     {
       "version": "1.31.0",
       "tag": "bureautique-v1.31.0",
