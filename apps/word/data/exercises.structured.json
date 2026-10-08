@@ -329,7 +329,11 @@
           "data/assets/word/bases-01-prise-en-main/word-ex-001-image-resultat-2.png",
           "data/assets/word/bases-01-prise-en-main/word-ex-001-image-resultat-3.png"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/bases-01-prise-en-main/word-ex-001-image-resultat-1.png",
+          "data/assets/word/bases-01-prise-en-main/word-ex-001-image-resultat-2.png",
+          "data/assets/word/bases-01-prise-en-main/word-ex-001-image-resultat-3.png"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -379,7 +383,9 @@
           "data/assets/word/bases-01-prise-en-main/word-ex-002-scrape-enonce-1.jpg",
           "data/assets/word/bases-01-prise-en-main/word-ex-002-scrape-enonce-2.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/bases-01-prise-en-main/word-ex-002-image-resultat.jpg"
+        ]
       },
       "preamble": "Votre barre d'accès rapide ressemble à l'image de l'énoncé",
       "criteria": [],
@@ -427,7 +433,9 @@
           "data/assets/word/bases-01-prise-en-main/word-ex-003-scrape-enonce-2.jpg",
           "data/assets/word/bases-01-prise-en-main/word-ex-003-scrape-enonce-3.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/bases-01-prise-en-main/word-ex-003-image-resultat.jpg"
+        ]
       },
       "preamble": "Faites les manipulations nécessaires pour qu'ils ressemblent à l'image de résultat attendu. Vous pouvez ajouter d'autres onglets en cochant les options qui vous sont utiles.",
       "criteria": [],
@@ -2237,7 +2245,9 @@
         "enonceImages": [
           "data/assets/word/bases-07-word-art-et-lettrine/word-ex-004-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/bases-07-word-art-et-lettrine/word-ex-004-image-resultat.jpg"
+        ]
       },
       "preamble": "Reproduire la mise en page du résultat attendu.",
       "criteria": [],
@@ -2281,7 +2291,9 @@
         "enonceImages": [
           "data/assets/word/bases-07-word-art-et-lettrine/word-ex-005-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/bases-07-word-art-et-lettrine/word-ex-005-image-enonce.jpg"
+        ]
       },
       "preamble": "",
       "criteria": [
@@ -2415,7 +2427,9 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/bases-08-inserer-une-forme/word-ex-003-image-resultat.jpg"
+        ]
       },
       "preamble": "L'exercice vise à découvrir la fonction qui permet de changer le fond des formes. Notez que le tour de chaque forme est \"pointillé\" \"épais\"... ou au choix.",
       "criteria": [],
@@ -3363,7 +3377,9 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/bases-12-inserer-une-image/word-ex-005-image-resultat.jpg"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -4202,7 +4218,9 @@
         "enonceImages": [
           "data/assets/word/bases-14-inserer-un-tableau/word-ex-009-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/bases-14-inserer-un-tableau/word-ex-009-image-resultat.gif"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -4791,7 +4809,9 @@
         "enonceImages": [
           "data/assets/word/bases-16-tableau-avance/word-ex-006-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/bases-16-tableau-avance/word-ex-006-image-enonce.jpg"
+        ]
       },
       "preamble": "Consignes : .",
       "criteria": [],
@@ -5577,7 +5597,9 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-19-format-de-page/word-ex-001-image-resultat.jpg"
+        ]
       },
       "preamble": "",
       "criteria": [
@@ -6158,7 +6180,9 @@
         "enonceImages": [
           "data/assets/word/avance-20-affichage/word-ex-006-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-20-affichage/word-ex-006-image-enonce.jpg"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -6334,7 +6358,9 @@
         "enonceImages": [
           "data/assets/word/avance-21-smart-art/word-ex-004-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-21-smart-art/word-ex-004-image-enonce.jpg"
+        ]
       },
       "preamble": "Reproduisez l'organisation générale du modèle sans chercher à retrouver exactement un ancien style Office.",
       "criteria": [
@@ -6912,7 +6938,9 @@
         "enonceImages": [
           "data/assets/word/avance-23-styles/word-ex-004-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-23-styles/word-ex-004-image-resultat.jpg"
+        ]
       },
       "preamble": "Avec le raccourci CTRL+Maj+ALT+S, vous accédez à la boite de dialogue de modification des styles. Vous choisissez le style normal que vous avez modifié en fonction de la capture écran ci-dessous.",
       "criteria": [],
@@ -7210,7 +7238,9 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-24-publipostage/word-ex-005-image-enonce.webp"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -7507,7 +7537,9 @@
         "enonceImages": [
           "data/assets/word/avance-25-document-long/word-ex-003-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-25-document-long/word-ex-003-image-enonce.jpg"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -7550,7 +7582,9 @@
         "enonceImages": [
           "data/assets/word/avance-25-document-long/word-ex-004-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-25-document-long/word-ex-004-image-enonce.jpg"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -7592,7 +7626,9 @@
         "enonceImages": [
           "data/assets/word/avance-25-document-long/word-ex-005-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-25-document-long/word-ex-005-image-enonce.jpg"
+        ]
       },
       "preamble": "Vous générez une table des matières conformes au résultat attendu en 12 pages.",
       "criteria": [],
@@ -7634,7 +7670,9 @@
         "enonceImages": [
           "data/assets/word/avance-25-document-long/word-ex-006-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-25-document-long/word-ex-006-image-enonce.jpg"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -7672,7 +7710,9 @@
         "enonceImages": [
           "data/assets/word/avance-25-document-long/word-ex-007-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-25-document-long/word-ex-007-image-enonce.jpg"
+        ]
       },
       "preamble": "Résultat attendu : .",
       "criteria": [],
@@ -7712,7 +7752,9 @@
         "enonceImages": [
           "data/assets/word/avance-25-document-long/word-ex-008-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-25-document-long/word-ex-008-image-resultat.jpg"
+        ]
       },
       "preamble": "Résultat attendu : .",
       "criteria": [],
@@ -7761,7 +7803,9 @@
           "data/assets/word/avance-25-document-long/word-ex-009-scrape-enonce-2.gif",
           "data/assets/word/avance-25-document-long/word-ex-009-scrape-enonce-3.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-25-document-long/word-ex-009-image-resultat.jpg"
+        ]
       },
       "preamble": "Dans un premier temps, vous créez un style de niveau 1 et niveau 2 conformément au modèle ci-dessous, ensuite, vous assignez les styles au mois pour le titre 1 et au jour de la semaine pour le titre 2.",
       "criteria": [],
@@ -7810,7 +7854,9 @@
           "data/assets/word/avance-26-lier-le-document/word-ex-001-scrape-enonce-1.jpg",
           "data/assets/word/avance-26-lier-le-document/word-ex-001-scrape-enonce-2.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-26-lier-le-document/word-ex-001-image-enonce.jpg"
+        ]
       },
       "preamble": "Résultat attendu avec 1 clic dans le tableau : .",
       "criteria": [],
@@ -7852,7 +7898,9 @@
         "enonceImages": [
           "data/assets/word/avance-26-lier-le-document/word-ex-002-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-26-lier-le-document/word-ex-002-image-enonce.jpg"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -7894,7 +7942,9 @@
         "enonceImages": [
           "data/assets/word/avance-26-lier-le-document/word-ex-003-scrape-enonce-1.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-26-lier-le-document/word-ex-003-image-resultat.jpg"
+        ]
       },
       "preamble": "Résultat attendu : .",
       "criteria": [],
@@ -7946,7 +7996,9 @@
           "data/assets/word/avance-26-lier-le-document/word-ex-004-scrape-enonce-2.webp",
           "data/assets/word/avance-26-lier-le-document/word-ex-004-scrape-enonce-3.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-26-lier-le-document/word-ex-004-image-enonce.webp"
+        ]
       },
       "preamble": "L'objectif de l'exercice est de réaliser un devis type avec une feuille Excel pour automatiser le calcul.",
       "criteria": [],
@@ -7993,7 +8045,9 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-26-lier-le-document/word-ex-005-image-enonce.webp"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -8036,7 +8090,9 @@
         "enonceImages": [
           "data/assets/word/avance-26-lier-le-document/word-ex-006-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-26-lier-le-document/word-ex-006-image-enonce.jpg"
+        ]
       },
       "preamble": "Résultat attendu : .",
       "criteria": [],
@@ -8088,7 +8144,9 @@
         "enonceImages": [
           "data/assets/word/avance-27-champs-et-formulaire/word-ex-001-scrape-enonce-1.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-27-champs-et-formulaire/word-ex-001-image-enonce.webp"
+        ]
       },
       "preamble": "Comme dans le résultat ci-dessous, vous insérez une forme en arrière-plan avec une bordure \"design\".",
       "criteria": [],
@@ -8146,7 +8204,9 @@
         "enonceImages": [
           "data/assets/word/avance-27-champs-et-formulaire/word-ex-002-scrape-enonce-1.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-27-champs-et-formulaire/word-ex-002-image-enonce.webp"
+        ]
       },
       "preamble": "Vous réalisez cette fiche de saisie avec des contrôles de formulaires avec les consignes suivantes : .",
       "criteria": [],
@@ -8204,7 +8264,9 @@
         "enonceImages": [
           "data/assets/word/avance-27-champs-et-formulaire/word-ex-003-scrape-enonce-1.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-27-champs-et-formulaire/word-ex-003-image-enonce.webp"
+        ]
       },
       "preamble": "La photo ci-contre représente (Cochez la bonne réponse) (case à cocher avec un smiley sourire pour symboliser la coche (voir ci-dessous le résultat).",
       "criteria": [],
@@ -8254,7 +8316,9 @@
         "enonceImages": [
           "data/assets/word/avance-28-trucs-et-astuces/word-ex-001-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-28-trucs-et-astuces/word-ex-001-image-resultat.jpg"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -8295,7 +8359,9 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-28-trucs-et-astuces/word-ex-002-image-resultat.webp"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -8351,7 +8417,9 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/avance-28-trucs-et-astuces/word-ex-003-image-enonce.webp"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -9235,7 +9303,9 @@
         "enonceImages": [
           "data/assets/word/complets-30-niveau-2-moyen/word-ex-007-scrape-enonce-1.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/complets-30-niveau-2-moyen/word-ex-007-image-resultat.webp"
+        ]
       },
       "preamble": "",
       "criteria": [
@@ -9488,7 +9558,9 @@
         "enonceImages": [
           "data/assets/word/complets-30-niveau-2-moyen/word-ex-012-scrape-enonce-1.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/complets-30-niveau-2-moyen/word-ex-012-image-resultat.webp"
+        ]
       },
       "preamble": "Étape 8 Télécharger le résultat PDF ci-dessous pour tester les liens et la table des matières.",
       "criteria": [
@@ -10159,7 +10231,9 @@
           "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-013-scrape-enonce-1.gif",
           "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-013-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-013-image-resultat.gif"
+        ]
       },
       "preamble": "",
       "criteria": [],
@@ -10244,7 +10318,9 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/word/complets-32-niveau-4-expert/word-ex-001-image-resultat.jpg"
+        ]
       },
       "preamble": "",
       "criteria": [],

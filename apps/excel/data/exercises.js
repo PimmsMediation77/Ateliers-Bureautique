@@ -827,7 +827,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-002-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-002-image-resultat.jpg"
+        ]
       },
       "section": "bases",
       "moduleSlug": "saisir-des-donnees",
@@ -885,7 +887,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-003-scrape-enonce-1.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-003-image-resultat.gif"
+        ]
       },
       "section": "bases",
       "moduleSlug": "saisir-des-donnees",
@@ -1000,7 +1004,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/bases-03-selection/excel-ex-001-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/bases-03-selection/excel-ex-001-image-enonce.jpg"
+        ]
       },
       "section": "bases",
       "moduleSlug": "selection",
@@ -1055,7 +1061,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/bases-03-selection/excel-ex-002-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/bases-03-selection/excel-ex-002-image-enonce.jpg"
+        ]
       },
       "section": "bases",
       "moduleSlug": "selection",
@@ -1112,7 +1120,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/bases-03-selection/excel-ex-003-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/bases-03-selection/excel-ex-003-image-enonce.jpg"
+        ]
       },
       "section": "bases",
       "moduleSlug": "selection",
@@ -1461,7 +1471,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/bases-04-mise-en-forme/excel-ex-004-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-004-image-resultat.jpg"
+        ]
       },
       "section": "bases",
       "moduleSlug": "mise-en-forme",
@@ -2027,7 +2039,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/bases-05-integrer-une-image/excel-ex-003-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/bases-05-integrer-une-image/excel-ex-003-image-resultat.jpg"
+        ]
       },
       "section": "bases",
       "moduleSlug": "integrer-une-image",
@@ -3365,7 +3379,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-scrape-enonce-1.webp",
           "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-scrape-enonce-2.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-image-enonce.webp"
+        ]
       },
       "section": "bases",
       "moduleSlug": "faire-une-addition",
@@ -5053,7 +5069,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-scrape-enonce-1.gif",
           "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-scrape-enonce-2.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-image-enonce.gif"
+        ]
       },
       "section": "bases",
       "moduleSlug": "calculer-des-pourcentages",
@@ -5428,7 +5446,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-007-scrape-enonce-1.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-007-image-enonce.webp"
+        ]
       },
       "section": "bases",
       "moduleSlug": "calculer-des-pourcentages",
@@ -6605,7 +6625,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/bases-13-impression/excel-ex-005-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/bases-13-impression/excel-ex-005-image-enonce.jpg"
+        ]
       },
       "section": "bases",
       "moduleSlug": "impression",
@@ -6787,7 +6809,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-scrape-enonce-1.jpg",
           "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-scrape-enonce-2.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-image-enonce.jpg"
+        ]
       },
       "section": "avance",
       "moduleSlug": "format-de-cellule",
@@ -7785,7 +7809,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-03-reference-absolue/excel-ex-010-scrape-enonce-1.gif",
           "data/assets/excel/avance-03-reference-absolue/excel-ex-010-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-010-image-resultat.gif"
+        ]
       },
       "section": "avance",
       "moduleSlug": "reference-absolue",
@@ -8160,7 +8186,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-enonce-3.gif",
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-enonce-4.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-image-enonce.gif"
+        ]
       },
       "section": "avance",
       "moduleSlug": "trier-et-filtrer",
@@ -8230,7 +8258,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-005-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-005-image-enonce.jpg"
+        ]
       },
       "section": "avance",
       "moduleSlug": "trier-et-filtrer",
@@ -8380,7 +8410,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-scrape-enonce-1.webp",
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-scrape-enonce-2.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-image-resultat.webp"
+        ]
       },
       "section": "avance",
       "moduleSlug": "trier-et-filtrer",
@@ -10500,7 +10532,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-005-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-005-image-enonce.jpg"
+        ]
       },
       "section": "avance",
       "moduleSlug": "nommer-une-cellule",
@@ -10574,7 +10608,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-006-scrape-enonce-1.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-006-image-enonce.jpg"
+        ]
       },
       "section": "avance",
       "moduleSlug": "nommer-une-cellule",
@@ -10659,7 +10695,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-scrape-enonce-1.gif",
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-image-enonce.gif"
+        ]
       },
       "section": "avance",
       "moduleSlug": "nommer-une-cellule",
@@ -10747,7 +10785,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-scrape-enonce-1.gif",
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-image-enonce.gif"
+        ]
       },
       "section": "avance",
       "moduleSlug": "nommer-une-cellule",
@@ -10844,7 +10884,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-enonce-4.gif",
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-enonce-5.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-image-enonce.webp"
+        ]
       },
       "section": "avance",
       "moduleSlug": "nommer-une-cellule",
@@ -11946,7 +11988,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-11-consolidation/excel-ex-002-scrape-enonce-1.gif",
           "data/assets/excel/avance-11-consolidation/excel-ex-002-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-11-consolidation/excel-ex-002-image-enonce.gif"
+        ]
       },
       "section": "avance",
       "moduleSlug": "consolidation",
@@ -12005,7 +12049,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-11-consolidation/excel-ex-003-scrape-enonce-1.gif",
           "data/assets/excel/avance-11-consolidation/excel-ex-003-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-11-consolidation/excel-ex-003-image-enonce.gif"
+        ]
       },
       "section": "avance",
       "moduleSlug": "consolidation",
@@ -12064,7 +12110,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-11-consolidation/excel-ex-004-scrape-enonce-1.gif",
           "data/assets/excel/avance-11-consolidation/excel-ex-004-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-11-consolidation/excel-ex-004-image-enonce.gif"
+        ]
       },
       "section": "avance",
       "moduleSlug": "consolidation",
@@ -12123,7 +12171,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-11-consolidation/excel-ex-005-scrape-enonce-1.gif",
           "data/assets/excel/avance-11-consolidation/excel-ex-005-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-11-consolidation/excel-ex-005-image-enonce.gif"
+        ]
       },
       "section": "avance",
       "moduleSlug": "consolidation",
@@ -12182,7 +12232,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/avance-11-consolidation/excel-ex-006-scrape-enonce-1.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-11-consolidation/excel-ex-006-image-enonce.gif"
+        ]
       },
       "section": "avance",
       "moduleSlug": "consolidation",
@@ -12250,7 +12302,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-11-consolidation/excel-ex-007-scrape-enonce-1.jpg",
           "data/assets/excel/avance-11-consolidation/excel-ex-007-scrape-enonce-2.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-11-consolidation/excel-ex-007-image-enonce.jpg"
+        ]
       },
       "section": "avance",
       "moduleSlug": "consolidation",
@@ -12308,7 +12362,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/avance-11-consolidation/excel-ex-008-scrape-enonce-1.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-11-consolidation/excel-ex-008-image-enonce.gif"
+        ]
       },
       "section": "avance",
       "moduleSlug": "consolidation",
@@ -12751,7 +12807,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/avance-12-macro/excel-ex-005-scrape-enonce-1.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/avance-12-macro/excel-ex-005-image-enonce.webp"
+        ]
       },
       "section": "avance",
       "moduleSlug": "macro",
@@ -13827,7 +13885,9 @@ window.EXCEL_ATELIER_DATA = {
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-02-ul11-word/excel-ex-002-image-enonce.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul11-word",
@@ -13904,7 +13964,9 @@ window.EXCEL_ATELIER_DATA = {
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-02-ul11-word/excel-ex-003-image-enonce.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul11-word",
@@ -13967,7 +14029,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-02-ul11-word/excel-ex-004-scrape-enonce-1.gif",
           "data/assets/excel/asca-02-ul11-word/excel-ex-004-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-02-ul11-word/excel-ex-004-image-enonce.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul11-word",
@@ -14055,7 +14119,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-02-ul11-word/excel-ex-005-scrape-enonce-1.gif",
           "data/assets/excel/asca-02-ul11-word/excel-ex-005-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-02-ul11-word/excel-ex-005-image-enonce.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul11-word",
@@ -14145,7 +14211,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-02-ul11-word/excel-ex-006-scrape-enonce-1.gif",
           "data/assets/excel/asca-02-ul11-word/excel-ex-006-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-02-ul11-word/excel-ex-006-image-enonce.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul11-word",
@@ -14231,7 +14299,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-02-ul11-word/excel-ex-007-scrape-enonce-1.gif",
           "data/assets/excel/asca-02-ul11-word/excel-ex-007-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-02-ul11-word/excel-ex-007-image-enonce.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul11-word",
@@ -14316,7 +14386,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-02-ul11-word/excel-ex-008-scrape-enonce-1.gif",
           "data/assets/excel/asca-02-ul11-word/excel-ex-008-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-02-ul11-word/excel-ex-008-image-enonce.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul11-word",
@@ -14670,7 +14742,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-004-scrape-enonce-3.gif",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-004-scrape-enonce-4.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-004-image-resultat.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul21-excel",
@@ -14844,7 +14918,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-enonce-2.jpg",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-enonce-3.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-image-enonce.jpg"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul21-excel",
@@ -14940,7 +15016,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-006-scrape-enonce-1.jpg",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-006-scrape-enonce-2.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-006-image-enonce.jpg"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul21-excel",
@@ -15054,7 +15132,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-007-scrape-enonce-2.jpg",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-007-scrape-enonce-3.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-007-image-resultat.jpg"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul21-excel",
@@ -15266,7 +15346,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-008-scrape-enonce-2.jpg",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-008-scrape-enonce-3.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-008-image-enonce.jpg"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul21-excel",
@@ -15441,7 +15523,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-009-scrape-enonce-2.jpg",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-009-scrape-enonce-3.jpg"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-009-image-resultat.jpg"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul21-excel",
@@ -15629,7 +15713,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-010-scrape-enonce-2.gif",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-010-scrape-enonce-3.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-010-image-resultat.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul21-excel",
@@ -15840,7 +15926,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-011-scrape-enonce-1.gif",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-011-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-011-image-enonce.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul21-excel",
@@ -16026,7 +16114,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-012-scrape-enonce-1.gif",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-012-scrape-enonce-2.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-012-image-enonce.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul21-excel",
@@ -16124,7 +16214,9 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-013-scrape-enonce-2.gif",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-013-scrape-enonce-3.gif"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-013-image-resultat.gif"
+        ]
       },
       "section": "asca",
       "moduleSlug": "ul21-excel",
@@ -16607,7 +16699,9 @@ window.EXCEL_ATELIER_DATA = {
         "enonceImages": [
           "data/assets/excel/complets-07-cas-reservation-spectacle/excel-ex-001-scrape-enonce-1.webp"
         ],
-        "resultImages": []
+        "resultImages": [
+          "data/assets/excel/complets-07-cas-reservation-spectacle/excel-ex-001-image-enonce.webp"
+        ]
       },
       "section": "complets",
       "moduleSlug": "cas-reservation-spectacle",
