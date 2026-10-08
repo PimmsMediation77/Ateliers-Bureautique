@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.1](///compare/excel-v1.11.0...excel-v1.11.1) (2026-10-08)
+
+
+### Bug Fixes
+
+* **viewer:** legende au-dessus, bouton Dezoomer et libelles de telechargement edcd708
+
+
+### Documentation
+
+* **atelier-core:** documente l espace formateur a4c1995
+
 ## [1.11.0](https://github.com/karma-yrb/ateliers-Bureautique/compare/excel-v1.10.0...excel-v1.11.0) (2026-09-10)
 
 
