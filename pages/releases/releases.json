@@ -1,7 +1,92 @@
 {
-  "version": "1.28.0",
-  "updatedAt": "2026-09-10T09:55:37.962Z",
+  "version": "1.29.0",
+  "updatedAt": "2026-10-08T07:10:44.249Z",
   "releases": [
+    {
+      "version": "1.29.0",
+      "tag": "bureautique-v1.29.0",
+      "date": "2026-10-08",
+      "releaseType": "minor",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.52",
+          "breaking": false,
+          "hash": "09c3a0f"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.1",
+          "breaking": false,
+          "hash": "bc2a6b4"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.1",
+          "breaking": false,
+          "hash": "132ba51"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "7e5cef3"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "viewer",
+          "description": "legende au-dessus, bouton Dezoomer et libelles de telechargement",
+          "breaking": false,
+          "hash": "edcd708"
+        },
+        {
+          "type": "ci",
+          "typeLabel": "CI",
+          "scope": "",
+          "description": "trigger GitHub Pages deployment",
+          "breaking": false,
+          "hash": "3d0b37c"
+        },
+        {
+          "type": "docs",
+          "typeLabel": "Documentation",
+          "scope": "atelier-core",
+          "description": "documente l espace formateur",
+          "breaking": false,
+          "hash": "a4c1995"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 1,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 1,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 7
+      }
+    },
     {
       "version": "1.28.0",
       "tag": "bureautique-v1.28.0",
