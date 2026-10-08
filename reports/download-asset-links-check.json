@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generatedAt": "2026-10-08T07:27:11.685Z",
-    "checked": 410,
+    "generatedAt": "2026-10-08T08:50:43.142Z",
+    "checked": 413,
     "failures": 0,
     "warnings": 0,
     "allowRemote": false,
@@ -1317,6 +1317,21 @@
     },
     {
       "app": "word",
+      "exerciseId": "ex-098",
+      "slot": "docxUrl",
+      "url": "data/assets/word/m16-tableau-avance/word-ex-008.docx",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m16-tableau-avance/word-ex-008.docx",
+        "packagedPath": "apps/word/app/data/assets/word/m16-tableau-avance/word-ex-008.docx"
+      }
+    },
+    {
+      "app": "word",
       "exerciseId": "ex-099",
       "slot": "docxUrl",
       "url": "data/assets/word/m17-regles-et-tabulations/word-ex-001.docx",
@@ -1538,6 +1553,21 @@
         "packagedExists": true,
         "dataPath": "apps/word/data/assets/word/m19-format-de-page/word-ex-001.docx",
         "packagedPath": "apps/word/app/data/assets/word/m19-format-de-page/word-ex-001.docx"
+      }
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-115",
+      "slot": "downloadUrl",
+      "url": "data/assets/word/m19-format-de-page/word-ex-002-annexe-1.jpg",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m19-format-de-page/word-ex-002-annexe-1.jpg",
+        "packagedPath": "apps/word/app/data/assets/word/m19-format-de-page/word-ex-002-annexe-1.jpg"
       }
     },
     {
@@ -5363,6 +5393,21 @@
         "packagedExists": true,
         "dataPath": "apps/excel/data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-007.xlsx",
         "packagedPath": "apps/excel/app/data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-007.xlsx"
+      }
+    },
+    {
+      "app": "excel",
+      "exerciseId": "excel-ex-169",
+      "slot": "docxUrl",
+      "url": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-008.xlsx",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/excel/data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-008.xlsx",
+        "packagedPath": "apps/excel/app/data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-008.xlsx"
       }
     },
     {
