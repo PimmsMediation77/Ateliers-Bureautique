@@ -1383,7 +1383,8 @@
         "- La ligne de chaque nom d'oiseau est en fond de couleur et à travailler dans le bloc \"paragraphe\", la reproduction de mis en forme (pinceau) vous permettra de répéter l'opération rapidement.",
         "- L'insertion des oiseaux devant chaque paragraphe est simple en choisissant un habillage \"adapté\" pour la photo",
         "- Saut de page entre les passereaux et les aigles"
-      ]
+      ],
+      "downloadLabel": "Télécharger les images"
     },
     {
       "id": "ex-021",
@@ -1953,7 +1954,8 @@
         "Police \"Calibri\" pour le texte.",
         "Insertion image « coccinelle »« logo Louis Braille ».",
         "Bordure de la page les coccinelles."
-      ]
+      ],
+      "downloadLabel": "Télécharger les fichiers annexes"
     },
     {
       "id": "ex-033",
@@ -2680,7 +2682,8 @@
       "originalInstructions": [
         "Visuels et texte à télécharger ci-contre.",
         "Dans cet exercice, 6 formes et 2 images à insérer comme sur le résultat attendu. Pour faciliter la mise en place, pensez à grouper les formes, en particulier les flèches de directions."
-      ]
+      ],
+      "downloadLabel": "Télécharger les visuels"
     },
     {
       "id": "ex-050",
@@ -5849,7 +5852,8 @@
         "Mettre les dates et heures dans un tableau à bordure double (facultatif).",
         "Insérer les images après téléchargement (facultatif)."
       ],
-      "downloadUrl": "data/assets/word/m19-format-de-page/word-ex-007-annexe-1.zip"
+      "downloadUrl": "data/assets/word/m19-format-de-page/word-ex-007-annexe-1.zip",
+      "downloadLabel": "Télécharger le texte et les images"
     },
     {
       "id": "ex-121",
@@ -6294,7 +6298,8 @@
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
         "Enregistrez votre travail puis marquez l'exercice comme terminé."
       ],
-      "downloadUrl": "data/assets/word/m21-smart-art/word-ex-003-annexe-1.zip"
+      "downloadUrl": "data/assets/word/m21-smart-art/word-ex-003-annexe-1.zip",
+      "downloadLabel": "Télécharger les visuels"
     },
     {
       "id": "ex-131",

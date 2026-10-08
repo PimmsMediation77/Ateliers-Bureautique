@@ -1420,6 +1420,19 @@ select {
   font-weight: 600;
 }
 
+.image-modal-caption {
+  margin: 0;
+  max-width: min(900px, calc(100vw - 40px));
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.96);
+  color: #1f2c39;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
 .image-modal-hint {
   color: rgba(255, 255, 255, 0.82);
   font-size: 0.85rem;
@@ -1616,16 +1629,63 @@ select {
   grid-column: 1 / -1;
   width: 100%;
   padding: 0;
-  gap: 0;
+  gap: 8px;
   background: transparent;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 #image-modal.image-modal[hidden] {
   display: none;
 }
 
+#image-modal .image-modal-close {
+  position: static;
+  order: 1;
+  align-self: flex-start;
+  transform: none;
+  width: auto;
+  height: auto;
+  min-height: 0;
+  padding: 5px 11px;
+  border-radius: 8px;
+  border: 1px solid #c8d7ee;
+  background: #fff;
+  color: #1c2b40;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.2;
+  box-shadow: none;
+  backdrop-filter: none;
+  cursor: pointer;
+}
+
+#image-modal .image-modal-close::before {
+  content: none;
+}
+
+#image-modal .image-modal-caption {
+  position: static;
+  order: 2;
+  max-width: none;
+  margin: 0;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #f3f7fd;
+  color: #1c2b40;
+  text-align: left;
+  box-shadow: none;
+  border: 1px solid #d5e2f3;
+  font-size: 0.9rem;
+}
+
+#image-modal .image-modal-caption[hidden] {
+  display: none;
+}
+
 #image-modal .image-modal-stage {
+  order: 3;
   width: 100%;
   height: auto;
   max-height: none;
@@ -1643,33 +1703,18 @@ select {
   box-shadow: none;
 }
 
-#image-modal .image-modal-close {
-  position: absolute;
-  top: 10px;
-  right: auto;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 44px;
-  height: 44px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  background: rgba(31, 44, 57, 0.42);
-  color: transparent;
-  font-size: 0;
-  backdrop-filter: blur(3px);
-}
-
-#image-modal .image-modal-close::before {
-  content: "\2191";
-  color: #fff;
-  font-size: 1.55rem;
-  line-height: 1;
-}
-
 #image-modal .image-modal-nav {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.82);
+  width: 48px;
+  height: 48px;
+  border: 2px solid #fff;
+  background: rgba(19, 35, 52, 0.82);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.28);
 }
 
 #image-modal .image-modal-prev {
@@ -1683,32 +1728,6 @@ select {
 #image-modal .image-modal-counter {
   position: absolute;
   bottom: 12px;
-}
-
-#image-modal .image-modal-close {
-  top: 14px;
-  width: 58px;
-  height: 58px;
-  border: 3px solid #fff;
-  background: rgba(19, 35, 52, 0.82);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.42);
-}
-
-#image-modal .image-modal-close::before {
-  content: "\21E7";
-  font-size: 2.25rem;
-  font-weight: 900;
-}
-
-#image-modal .image-modal-nav {
-  width: 68px;
-  height: 68px;
-  border: 3px solid #fff;
-  background: rgba(19, 35, 52, 0.88);
-  color: #fff;
-  font-size: 3.2rem;
-  font-weight: 800;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
 }
 
 #image-modal .image-modal-nav[hidden] {

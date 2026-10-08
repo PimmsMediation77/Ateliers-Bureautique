@@ -16,8 +16,8 @@
 
 ##### **Technique**
 
-* réactiver la légende, en la mettant au dessus de l'image
-* l'icone de retour zoom pas assez explicite remplacer par un bouton/texte "dézoomer"
+* ~~réactiver la légende, en la mettant au dessus de l'image~~
+* ~~l'icone de retour zoom pas assez explicite remplacer par un bouton/texte "dézoomer"~~
 
 
 

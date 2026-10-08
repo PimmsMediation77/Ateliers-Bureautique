@@ -139,6 +139,11 @@ class AtelierView {
     this.imageModalNext = document.getElementById("image-modal-next");
     this.imageModalCaption = document.getElementById("image-modal-caption");
     this.imageModalCounter = document.getElementById("image-modal-counter");
+    if (this.imageModalClose) {
+      this.imageModalClose.textContent = "Dézoomer";
+      this.imageModalClose.setAttribute("aria-label", "Dézoomer l'image");
+      this.imageModalClose.title = "Dézoomer";
+    }
     this.imageModalStage = null;
     this.modalGalleryItems = [];
     this.modalGalleryIndex = 0;
@@ -364,9 +369,11 @@ class AtelierView {
     }
     if (vm.exercise.downloadUrl) {
       this.exerciseDownloadBtn.href = vm.exercise.downloadUrl;
-      this.exerciseDownloadBtn.textContent = vm.exercise.downloadLabel || "Telecharger le 2e fichier";
+      const downloadLabel = vm.exercise.downloadLabel
+        || (workFileUrl ? "Télécharger le 2ᵉ fichier" : "Télécharger le fichier");
+      this.exerciseDownloadBtn.textContent = downloadLabel;
       this.exerciseDownloadBtn.download = this.#getExerciseDownloadFileName(vm.exercise, vm.exercise.downloadUrl, {
-        typeLabel: vm.exercise.downloadLabel || "fichier-annexe-2",
+        typeLabel: vm.exercise.downloadLabel || (workFileUrl ? "fichier-annexe-2" : "fichier-annexe"),
       });
       this.exerciseDownloadBtn.style.display = "";
     } else {
@@ -1186,13 +1193,18 @@ this.imageModalStage.addEventListener(
     const parent = this.imageModalImg.parentElement;
     if (parent && parent.classList.contains("image-modal-stage")) {
       this.imageModalStage = parent;
-      return;
+    } else {
+      const stage = document.createElement("div");
+      stage.className = "image-modal-stage";
+      this.imageModal.insertBefore(stage, this.imageModalImg);
+      stage.appendChild(this.imageModalImg);
+      this.imageModalStage = stage;
     }
-    const stage = document.createElement("div");
-    stage.className = "image-modal-stage";
-    this.imageModal.insertBefore(stage, this.imageModalImg);
-    stage.appendChild(this.imageModalImg);
-    this.imageModalStage = stage;
+
+    // Garde la légende au-dessus de l'image (avant le stage).
+    if (this.imageModalCaption && this.imageModalStage) {
+      this.imageModal.insertBefore(this.imageModalCaption, this.imageModalStage);
+    }
   }
 
   #getExerciseDescription(exercise, steps) {
