@@ -1540,17 +1540,21 @@ select {
 
 /* Visionneuse d'image integree : conserve les consignes et la navigation visibles. */
 .images-grid.image-viewer-open,
-.extra-wrap.image-viewer-open { grid-template-columns: 1fr; }
+.extra-wrap.image-viewer-open { grid-template-columns: 1fr; min-width: 0; }
 .images-grid.image-viewer-open > :not(#image-modal),
 .extra-wrap.image-viewer-open > :not(#image-modal) { display: none; }
-#image-modal.image-modal { position: relative; inset: auto; z-index: 2; grid-column: 1 / -1; width: 100%; padding: 0; gap: 8px; background: transparent; display: flex; flex-direction: column; align-items: stretch; }
+#image-modal.image-modal { position: relative; inset: auto; z-index: 2; grid-column: 1 / -1; width: 100%; min-width: 0; max-width: 100%; padding: 0; gap: 10px; background: transparent; display: flex; flex-direction: column; align-items: stretch; overflow: hidden; }
 #image-modal.image-modal[hidden] { display: none; }
-#image-modal .image-modal-close { position: static; order: 1; align-self: flex-start; transform: none; width: auto; height: auto; min-height: 0; padding: 5px 11px; border-radius: 8px; border: 1px solid #bfd8c8; background: #fff; color: #173126; font-size: 0.82rem; font-weight: 600; line-height: 1.2; box-shadow: none; backdrop-filter: none; cursor: pointer; }
-#image-modal .image-modal-close::before { content: none; }
+#image-modal .image-modal-close { position: sticky; top: 0; z-index: 4; order: 1; align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; transform: none; width: auto; height: auto; min-height: 40px; padding: 8px 16px 8px 12px; border-radius: 999px; border: 1px solid #8fbf9f; background: linear-gradient(180deg, #ffffff 0%, #e7f5ec 100%); color: #1f6b45; font-size: 0.95rem; font-weight: 700; letter-spacing: 0.01em; line-height: 1.2; box-shadow: 0 2px 8px rgba(31, 107, 69, 0.14); backdrop-filter: none; cursor: pointer; }
+#image-modal .image-modal-close::before { content: ""; width: 1.15em; height: 1.15em; flex: 0 0 auto; border: 2px solid currentColor; border-radius: 50%; box-shadow: inset 0 -0.38em 0 0 currentColor; background: linear-gradient(currentColor, currentColor) center / 0.55em 2px no-repeat; }
+#image-modal .image-modal-close:hover,
+#image-modal .image-modal-close:focus-visible { background: #1f6b45; border-color: #1f6b45; color: #fff; outline: none; }
 #image-modal .image-modal-caption { position: static; order: 2; max-width: none; margin: 0; padding: 8px 12px; border-radius: 10px; background: #eef8f1; color: #173126; text-align: left; box-shadow: none; border: 1px solid #cfe2d5; font-size: 0.9rem; }
 #image-modal .image-modal-caption[hidden] { display: none; }
-#image-modal .image-modal-stage { order: 3; width: 100%; height: auto; max-height: none; overflow: auto; border-radius: 10px; display: block; }
-#image-modal.image-modal img { display: block; width: 100%; max-width: 100%; max-height: none; border: 0; box-shadow: none; }
+#image-modal .image-modal-stage { order: 3; width: 100%; min-width: 0; max-width: 100%; height: auto; max-height: min(72vh, 760px); overflow: auto; overscroll-behavior: contain; border-radius: 10px; display: block; background: #f4faf6; border: 1px solid #cfe2d5; cursor: zoom-in; }
+#image-modal .image-modal-stage.is-zoomed { cursor: grab; }
+#image-modal .image-modal-stage.is-zoomed.is-dragging { cursor: grabbing; }
+#image-modal.image-modal img { display: block; width: 100%; max-width: 100%; max-height: none; border: 0; box-shadow: none; user-select: none; -webkit-user-drag: none; }
 #image-modal .image-modal-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border: 2px solid #fff; background: rgba(19, 35, 52, 0.82); color: #fff; font-size: 2rem; font-weight: 700; box-shadow: 0 3px 12px rgba(0, 0, 0, 0.28); }
 #image-modal .image-modal-prev { left: 12px; }
 #image-modal .image-modal-next { right: 12px; }

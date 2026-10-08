@@ -997,13 +997,15 @@ class AtelierView {
     this.imageModalImg.addEventListener("load", () => {
       this.#setModalZoom(this.modalZoom);
     });
+    this.imageModalImg.addEventListener("dragstart", (event) => event.preventDefault());
     this.imageModalImg.addEventListener("dblclick", (event) => {
       event.preventDefault();
       const nextZoom = this.modalZoom < 8 ? this.modalZoom * 2 : 1;
       this.#setModalZoom(nextZoom);
     });
-    this.imageModalImg.addEventListener("mousedown", (event) => {
-      if (this.modalZoom <= 1) return;
+    const beginModalDrag = (event) => {
+      if (this.modalZoom <= 1 || !this.imageModalStage) return;
+      if (typeof event.button === "number" && event.button !== 0) return;
       event.preventDefault();
       this.isModalDragging = true;
       this.modalDragStartX = event.clientX;
@@ -1011,19 +1013,34 @@ class AtelierView {
       this.modalScrollStartLeft = this.imageModalStage.scrollLeft;
       this.modalScrollStartTop = this.imageModalStage.scrollTop;
       this.imageModalImg.style.cursor = "grabbing";
-    });
-    document.addEventListener("mousemove", (event) => {
+      this.imageModalStage.classList.add("is-dragging");
+      if (typeof event.pointerId === "number" && this.imageModalStage.setPointerCapture) {
+        try {
+          this.imageModalStage.setPointerCapture(event.pointerId);
+        } catch (_error) {
+          /* ignore unsupported capture */
+        }
+      }
+    };
+    const moveModalDrag = (event) => {
       if (!this.isModalDragging || !this.imageModalStage) return;
+      event.preventDefault();
       const dx = event.clientX - this.modalDragStartX;
       const dy = event.clientY - this.modalDragStartY;
       this.imageModalStage.scrollLeft = this.modalScrollStartLeft - dx;
       this.imageModalStage.scrollTop = this.modalScrollStartTop - dy;
-    });
-    document.addEventListener("mouseup", () => {
+    };
+    const endModalDrag = () => {
       if (!this.isModalDragging) return;
       this.isModalDragging = false;
+      if (this.imageModalStage) this.imageModalStage.classList.remove("is-dragging");
       this.imageModalImg.style.cursor = this.modalZoom > 1 ? "grab" : "zoom-in";
-    });
+    };
+    this.imageModalStage.addEventListener("pointerdown", beginModalDrag, { passive: false });
+    this.imageModalStage.addEventListener("pointermove", moveModalDrag, { passive: false });
+    this.imageModalStage.addEventListener("pointerup", endModalDrag);
+    this.imageModalStage.addEventListener("pointercancel", endModalDrag);
+    document.addEventListener("pointerup", endModalDrag);
     // =====================================================================
 // ZOOM À LA MOLETTE DÉSACTIVÉ
 // ---------------------------------------------------------------------
@@ -1165,7 +1182,11 @@ this.imageModalStage.addEventListener(
     this.modalZoom = Math.max(1, Math.min(8, Number(value) || 1));
     if (!this.imageModalImg || !this.imageModalStage) return;
 
-    if (this.modalZoom === 1) {
+    const isZoomed = this.modalZoom > 1;
+    this.imageModalStage.classList.toggle("is-zoomed", isZoomed);
+    this.imageModalStage.style.touchAction = isZoomed ? "none" : "";
+
+    if (!isZoomed) {
       this.modalBaseWidth = 0;
       this.imageModalImg.style.maxWidth = "100%";
       this.imageModalImg.style.maxHeight = "none";
@@ -1174,6 +1195,7 @@ this.imageModalStage.addEventListener(
       this.imageModalImg.style.cursor = "zoom-in";
       this.imageModalStage.scrollLeft = 0;
       this.imageModalStage.scrollTop = 0;
+      this.imageModalStage.classList.remove("is-dragging");
       return;
     }
 
