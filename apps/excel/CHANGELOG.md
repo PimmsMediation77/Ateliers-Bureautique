@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.4](///compare/excel-v1.11.3...excel-v1.11.4) (2026-10-08)
+
+
+### Bug Fixes
+
+* **exercises:** apply coherence revision for Excel and PowerPoint ece0a7b
+* **exercises:** restore missing expected visuals and add integrity tests d910948
+
 ### [1.11.3](///compare/excel-v1.11.2...excel-v1.11.3) (2026-10-08)
 
 
