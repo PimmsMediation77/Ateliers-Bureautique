@@ -1,5 +1,5 @@
 window.POWERPOINT_ATELIER_DATA = {
-  "generatedAt": "2026-07-06T09:30:00.000Z",
+  "generatedAt": "2026-10-08T09:17:31.457Z",
   "source": "https://www.clic-formation.net/exercice-ppt-1.html, https://www.clic-formation.net/exercice-ppt-2.html, https://www.clic-formation.net/exercice-ppt-3.html, https://www.clic-formation.net/exercice-ppt-5.html, https://www.clic-formation.net/exercice-ppt-6.html, https://www.clic-formation.net/exercice-ppt-7.html",
   "modules": [
     {
@@ -95,18 +95,20 @@ window.POWERPOINT_ATELIER_DATA = {
       "moduleSlug": "diaporamas",
       "consignes": [
         "Ouvrez Microsoft PowerPoint, puis chargez le fichier de travail si vous voulez partir du modele fourni.",
+        "Diapositive 1 : inserez une image simple et ajustez sa taille pour obtenir un rendu propre.",
+        "Diapositive 2 : creez un titre en WordArt et une zone de texte avec une liste a puces.",
+        "Diapositive 3 : ajoutez un titre avec fond de couleur, plusieurs images et une fleche. Alignez les images du haut par le bas.",
+        "Diapositive 4 : realisez le graphique simple si vous etes a l'aise, sinon avancez sans bloquer l'ensemble de l'exercice.",
+        "Diapositive 5 : appliquez une police decorative au titre puis construisez un tableau avec alternance de couleurs sur les lignes.",
+        "Comparez votre diaporama aux apercus de resultat puis enregistrez avant de marquer l'exercice comme termine."
+      ],
+      "criteria": [],
+      "originalConsignes": [
+        "Ouvrez Microsoft PowerPoint, puis chargez le fichier de travail si vous voulez partir du modele fourni.",
         "Mettez en forme les 5 diapositives une par une.",
         "Utilisez images, WordArt, zones de texte, formes et tableau selon les consignes.",
         "Comparez au resultat attendu et corrigez les ecarts.",
         "Enregistrez votre travail."
-      ],
-      "criteria": [],
-      "originalConsignes": [
-        "Le modele a telecharger est pret a l'emploi, le texte est place sur chaque page, le fond de page avec logo place.",
-        "Diapositive 1: Insertion d'une image simple.",
-        "Diapositive 2: Un titre en WordArt et une zone de texte avec liste a puce.",
-        "Diapositive 3: Une zone de texte avec fond de couleur en titre, insertion d'images et d'objet fleche.",
-        "Diapositive 5: Un titre avec police originale et un tableau avec couleur de fond des lignes en alternance."
       ],
       "originalInstructions": [
         "Inserer une image simple.",
@@ -207,19 +209,22 @@ window.POWERPOINT_ATELIER_DATA = {
       "section": "bases",
       "moduleSlug": "diaporamas",
       "consignes": [
+        "Ouvrez le fichier de travail dans PowerPoint puis passez dans l'affichage Masque des diapositives.",
+        "Inserez une forme avec une couleur proche du RVB 116-19-72.",
+        "Ajoutez la date du jour, les illustrations telechargees, une forme en degrade et une zone de texte avec trois adresses web cliquables.",
+        "Placez egalement le logo fourni dans le dossier d'illustrations sur le masque.",
+        "Appliquez le masque a l'ensemble des diapositives puis mettez en forme les pages 1 a 10.",
+        "Sur la page 3, faites entrer les etiquettes en animation apres avoir groupe les formes si besoin.",
+        "Sur les pages 6, 7 et 8, creez les graphiques si vous pouvez, puis sur la page 10 ajoutez une animation decalée sur les logos.",
+        "Verifiez chaque diapositive avec les apercus de solution et enregistrez votre travail."
+      ],
+      "criteria": [],
+      "originalConsignes": [
         "Creer un masque de diapositive.",
         "Poser les couleurs, le logo, les illustrations et les liens.",
         "Distribuer le masque sur tout le diaporama.",
         "Finaliser les animations demandees.",
         "Enregistrer le resultat."
-      ],
-      "criteria": [],
-      "originalConsignes": [
-        "Creation d'un masque de diapositive en fonction des criteres indiques.",
-        "Insertion d'une forme, de la date, des illustrations et d'un degrade.",
-        "Insertion de trois adresses web cliquables.",
-        "Realisez l'ensemble des diapositives.",
-        "En page 10 inserer une animation sur les logos."
       ],
       "originalInstructions": [
         "Creer le masque.",
@@ -314,19 +319,20 @@ window.POWERPOINT_ATELIER_DATA = {
       "section": "bases",
       "moduleSlug": "navigation-interactive",
       "consignes": [
+        "Ouvrez le fichier de travail et reperez les 10 diapositives du parcours Agence TA Voyage.",
+        "Construisez les deux index de groupe : Europe gastronomique et Europe sauvage.",
+        "Ajoutez des boutons de navigation pour atteindre la diapositive suivante du groupe et revenir a son index.",
+        "Faites en sorte que seul l'index permette de remonter au choix des circuits et de changer de groupe.",
+        "Travaillez les formes automatiques et les liens hypertexte pour obtenir une navigation claire et fiable.",
+        "Testez tous les liens en mode diaporama, puis corrigez les impasses ou boucles de navigation."
+      ],
+      "criteria": [],
+      "originalConsignes": [
         "Construire l'arborescence de navigation.",
         "Ajouter les liens et boutons internes.",
         "Tester les parcours en mode diaporama.",
         "Corriger les liens manquants.",
         "Enregistrer la presentation."
-      ],
-      "criteria": [],
-      "originalConsignes": [
-        "Creez des presentations dynamiques a l'aide des boutons d'action et liens hypertexte.",
-        "Votre diaporama comporte 10 pages.",
-        "La navigation n'etant pas lineaire, il convient de s'interroger sur les liens entre les diapositives.",
-        "Seul l'index permet de remonter au choix des circuits.",
-        "Il faut travailler sur les boutons de navigation et les liens hypertexte."
       ],
       "originalInstructions": [
         "Creer les index.",
@@ -383,18 +389,19 @@ window.POWERPOINT_ATELIER_DATA = {
       "section": "bases",
       "moduleSlug": "animations-et-quiz",
       "consignes": [
+        "Construisez la diapositive de quiz en preparant les rectangles bleus et les messages caches dessous.",
+        "Ajoutez une animation de trajectoire pour que chaque carre descende au clic.",
+        "Associez un son d'applaudissement ou de cri selon la reponse revelee.",
+        "Ajoutez un logo avec un lien hypertexte vers la page Wikipedia du Mont Blanc.",
+        "Testez chaque reponse en mode diaporama pour verifier l'ordre des animations et la lecture des sons."
+      ],
+      "criteria": [],
+      "originalConsignes": [
         "Creer la diapositive du quiz.",
         "Ajouter les trajectoires.",
         "Brancher les sons sur les animations.",
         "Inserer un lien externe.",
         "Tester le diaporama."
-      ],
-      "criteria": [],
-      "originalConsignes": [
-        "Mettre en oeuvre les animations trajectoire.",
-        "Inserer un son sur l'animation.",
-        "Reveler non a reviser ou oui bravo selon le clic.",
-        "Le logo de lien ouvre la page Wikipedia du Mont Blanc."
       ],
       "originalInstructions": [
         "Animer les carres bleus.",
@@ -456,17 +463,19 @@ window.POWERPOINT_ATELIER_DATA = {
       "section": "bases",
       "moduleSlug": "animations-et-quiz",
       "consignes": [
+        "Dessinez les formes de la maison avec les outils de formes de PowerPoint.",
+        "Placez chaque forme a l'exterieur de la diapositive avant l'animation.",
+        "Ajoutez un bouton bleu declencheur sur la diapositive.",
+        "Appliquez des animations d'entree ou de deplacement pour que la maison s'assemble au clic sur le bouton.",
+        "Ajustez l'ordre et le timing pour obtenir un rendu lisible et fluide."
+      ],
+      "criteria": [],
+      "originalConsignes": [
         "Creer les formes de la maison.",
         "Les placer hors de la diapo.",
         "Ajouter le bouton de lancement.",
         "Assembler la scene par animations.",
         "Verifier le rendu final."
-      ],
-      "criteria": [],
-      "originalConsignes": [
-        "Mettre en oeuvre des animations au choix.",
-        "Les formes de la maison sont a creer avec des formes de couleurs.",
-        "Les placer a l'exterieur de la diapo, puis les assembler au clic."
       ],
       "originalInstructions": [
         "Dessiner les formes.",
@@ -546,19 +555,21 @@ window.POWERPOINT_ATELIER_DATA = {
       "section": "bases",
       "moduleSlug": "animations-et-quiz",
       "consignes": [
+        "Ouvrez le fichier de travail et reperez les 6 diapositives a mettre en forme.",
+        "Diapositive 1 : placez une zone de texte en ecriture blanche.",
+        "Diapositive 2 : ajoutez un titre et 4 blocs de texte, puis faites arriver les blocs 2, 3 et 4 au clic.",
+        "Diapositive 3 : faites arriver les icones avec un decalage, puis placez-les sous leur titre respectif.",
+        "Diapositives 4 et 5 : faites apparaitre les blocs les uns apres les autres et groupez si besoin la roue crantee avec ses formes.",
+        "Diapositive 6 : realisez la composition finale avec un modele SmartArt.",
+        "Testez les animations, comparez aux visuels de detail et ajustez le rythme des apparitions."
+      ],
+      "criteria": [],
+      "originalConsignes": [
         "Mettre en forme les 6 diapositives.",
         "Ajouter des apparitions au clic et decalees.",
         "Grouper les formes si necessaire.",
         "Terminer avec un SmartArt.",
         "Tester l'animation complete."
-      ],
-      "criteria": [],
-      "originalConsignes": [
-        "Le fichier PPTX reprend le texte brut dans des zones de texte simples.",
-        "Le fichier ZIP reprend les medias a incorporer dans le diaporama.",
-        "Les blocs 2, 3 et 4 arrivent au clic avec des effets d'apparition.",
-        "Les icones arrivent en decale et se disposent sous leur titre.",
-        "La diapositive 6 est a realiser avec les modeles SmartArt."
       ],
       "originalInstructions": [
         "Mettre en forme la diapositive 1.",
@@ -571,6 +582,16 @@ window.POWERPOINT_ATELIER_DATA = {
       "extraImages": [],
       "extraDownloadUrls": []
     }
-  ]
+  ],
+  "totals": {
+    "exercises": 6,
+    "modules": 3
+  },
+  "schema": {
+    "description": "Objectif court de l'exercice",
+    "preamble": "Contexte ou information avant de commencer",
+    "instructions": "Actions a realiser",
+    "criteria": "Contraintes de rendu ou criteres de reussite"
+  }
 }
 ;

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T12:28:16.741Z",
+  "generatedAt": "2026-10-08T09:17:21.164Z",
   "source": "https://www.clic-formation.net/tableur.html + live scrape",
   "modules": [
     {
@@ -429,6 +429,7 @@
       "description": "Prise en main Excel",
       "preamble": "La prise en main du logiciel concerne en premier lieu l'enregistrement de votre travail.",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Pour ce premier exercice, vous enregistrez deux classeurs sur le bureau de votre ordinateur : le premier fichier s'appellera \"statistiques.xlsx\", le second \"chiffres.xlsx\".",
         "Les deux classeurs peuvent rester vides.",
         "Ensuite, vous créez un dossier \"societe-aleou\" toujours sur le bureau de l'ordinateur.",
@@ -457,6 +458,7 @@
       "section": "bases",
       "moduleSlug": "prise-en-main",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Pour ce premier exercice, vous enregistrez deux classeurs sur le bureau de votre ordinateur : le premier fichier s'appellera \"statistiques.xlsx\", le second \"chiffres.xlsx\".",
         "Les deux classeurs peuvent rester vides.",
         "Ensuite, vous créez un dossier \"societe-aleou\" toujours sur le bureau de l'ordinateur.",
@@ -510,6 +512,7 @@
       "description": "Gérer les feuilles dans excel",
       "preamble": "Par défaut, Excel vous propose 3 feuilles par classeur, l'exercice suivant vous les fait manipuler. Reproduisez les trois étapes dans votre tableur.",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Par défaut, Excel vous propose 3 feuilles par classeur, l'exercice suivant vous les fait manipuler.",
         "Reproduisez les trois étapes dans votre tableur."
       ],
@@ -539,6 +542,7 @@
       "section": "bases",
       "moduleSlug": "prise-en-main",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Par défaut, Excel vous propose 3 feuilles par classeur, l'exercice suivant vous les fait manipuler.",
         "Reproduisez les trois étapes dans votre tableur."
       ],
@@ -666,7 +670,10 @@
       "description": "Gérer l'affichage des feuilles",
       "preamble": "Énoncé de l'exercice :",
       "instructions": [
-        "Dans le groupe \"Afficher\", retirez le quadrillage, la barre de formules et les en-têtes."
+        "Construisez la structure principale du classeur a partir de cet objectif: Gérer l'affichage des feuilles.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -683,7 +690,10 @@
       "section": "bases",
       "moduleSlug": "prise-en-main",
       "consignes": [
-        "Dans le groupe \"Afficher\", retirez le quadrillage, la barre de formules et les en-têtes."
+        "Construisez la structure principale du classeur a partir de cet objectif: Gérer l'affichage des feuilles.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -718,6 +728,7 @@
       "description": "Saisir des données dans Excel",
       "preamble": "6 séries d'exercices de saisie dans votre tableur.",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Saisissez les préfectures sans utiliser la souris, uniquement avec la touche Entrée.",
         "Saisissez les départements sans utiliser la souris, uniquement avec la touche Tabulation.",
         "Saisissez les symboles utiles dans Excel.",
@@ -762,6 +773,7 @@
       "section": "bases",
       "moduleSlug": "saisir-des-donnees",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Saisissez les préfectures sans utiliser la souris, uniquement avec la touche Entrée.",
         "Saisissez les départements sans utiliser la souris, uniquement avec la touche Tabulation.",
         "Saisissez les symboles utiles dans Excel.",
@@ -815,7 +827,10 @@
       "description": "Saisir des données dans Excel, construction d'un tabeau simple",
       "preamble": "",
       "instructions": [
-        "Saisissez ce tableau sans utiliser la souris, hormis pour les bordures et la fusion des cellules."
+        "Construisez la structure principale du classeur a partir de cet objectif: Saisir des données dans Excel, construction d'un tabeau simple.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -834,7 +849,10 @@
       "section": "bases",
       "moduleSlug": "saisir-des-donnees",
       "consignes": [
-        "Saisissez ce tableau sans utiliser la souris, hormis pour les bordures et la fusion des cellules."
+        "Construisez la structure principale du classeur a partir de cet objectif: Saisir des données dans Excel, construction d'un tabeau simple.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -933,7 +951,7 @@
       "instructions": [
         "Vous téléchargez votre fichier de travail ici.",
         "L'opération est relativement simple si vous avez bien suivi le support de la rubrique et bien fait apparaître le bouton FORMULAIRE, soit dans le ruban, soit dans la barre d'accès rapide.",
-        "Si ce n'est pas le cas, il vous faut le faire ici https://www.clic-formation.net/saisir-des-donnees/support-formulaire.html",
+        "Si ce n'est pas le cas, il vous faut le faire ici https://www.clic-formation.net/saisir-des-donnees/support-formulaire.html.",
         "Après avoir téléchargé le fichier de travail, vous ajoutez deux lignes via le formulaire. Pensez à sélectionner une cellule du tableau au minimum avant."
       ],
       "levelLabel": "Debutant",
@@ -954,7 +972,8 @@
       "moduleSlug": "saisir-des-donnees",
       "consignes": [
         "Vous téléchargez votre fichier de travail ici.",
-        "L'opération est relativement simple si vous avez bien suivi le support de la rubrique et bien fait apparaître le bouton FORMULAIRE, soit dans le ruban, soit dans la barre d'accès rapide. Si ce n'est pas le cas, il vous faut le faire.",
+        "L'opération est relativement simple si vous avez bien suivi le support de la rubrique et bien fait apparaître le bouton FORMULAIRE, soit dans le ruban, soit dans la barre d'accès rapide.",
+        "Si ce n'est pas le cas, il vous faut le faire ici https://www.clic-formation.net/saisir-des-donnees/support-formulaire.html.",
         "Après avoir téléchargé le fichier de travail, vous ajoutez deux lignes via le formulaire. Pensez à sélectionner une cellule du tableau au minimum avant."
       ],
       "criteria": [],
@@ -1127,8 +1146,13 @@
       "section": "bases",
       "moduleSlug": "selection",
       "consignes": [
-        "Reproduire cette mise en forme en un minimum de clic.",
-        "L'exercice consiste à Homogénéiser la hauteur et la largeur des lignes, d'appliquer un fond noir sur une cellule et de répliquer cette mise en forme. Les raccourcis clavier CTRL+C et CTRL+V peuvent, vous êtes d'un grand secours ou encore la fonction de \"reproduction de mise en forme\" (le pinceau)."
+        "Reproduisez les différentes sélections visibles sur l'image de l'énoncé.",
+        "Pour sélectionner une plage de cellules, cliquez sur la première cellule, maintenez le bouton gauche enfoncé, puis faites glisser jusqu'à la dernière cellule.",
+        "Pour sélectionner une ligne ou une colonne entière, cliquez sur son numéro (ligne) ou sa lettre (colonne).",
+        "Pour modifier la hauteur d'une ligne ou la largeur d'une colonne, faites un clic droit sur son numéro ou sa lettre, puis choisissez « Hauteur de ligne » ou « Largeur de colonne ».",
+        "Attention : la hauteur des lignes et la largeur des colonnes n'utilisent pas la même échelle. Une même valeur ne donnera pas la même taille à l'écran.",
+        "Pour sélectionner plusieurs zones non adjacentes, maintenez la touche Ctrl enfoncée pendant vos sélections.",
+        "Comparez votre résultat avec l'image de l'énoncé avant de passer à la suite."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -1294,7 +1318,7 @@
       "section": "bases",
       "moduleSlug": "mise-en-forme",
       "consignes": [
-        "fusionner quand c'est nécessaire (plusieurs cellules en une).",
+        "Fusionner quand c'est nécessaire (plusieurs cellules en une).",
         "Copier-coller des cellules.",
         "Insérer des bordures obliques.",
         "Faire le tour du tableau de double ligne.",
@@ -1405,7 +1429,10 @@
       "description": "Format automatique",
       "preamble": "",
       "instructions": [
-        "Après avoir téléchargé le fichier de travail ci-contre, vous le dupliquez 3 fois au minimum et appliquez les mises en formes automatiques pour obtenir des résultats variés."
+        "Construisez la structure principale du classeur a partir de cet objectif: Format automatique.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1424,7 +1451,10 @@
       "section": "bases",
       "moduleSlug": "mise-en-forme",
       "consignes": [
-        "Après avoir téléchargé le fichier de travail ci-contre, vous le dupliquez 3 fois au minimum et appliquez les mises en formes automatiques pour obtenir des résultats variés."
+        "Construisez la structure principale du classeur a partir de cet objectif: Format automatique.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -1478,8 +1508,11 @@
       "section": "bases",
       "moduleSlug": "mise-en-forme",
       "consignes": [
-        "Vous reproduisez ce tableau en prenant soin de respecter la mise en forme et particulièrement l'orientation de l'écriture des cellules.",
-        "Cette fonction se trouve dans le format de cellule et alignement."
+        "Reproduisez le tableau en respectant les données, la mise en forme et l'orientation du texte dans certaines cellules.",
+        "Sélectionnez la ou les cellules dont vous souhaitez modifier l'orientation.",
+        "Faites un clic droit sur la sélection, puis choisissez « Format de cellule ».",
+        "Ouvrez l'onglet « Alignement », puis utilisez la zone « Orientation » pour incliner ou faire pivoter le texte.",
+        "Ajustez l'orientation jusqu'à obtenir le même résultat que sur l'image de l'énoncé, puis validez avec « OK »."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -1538,7 +1571,10 @@
       "consignes": [
         "Pensez à insérer une ligne au-dessus du modèle.",
         "La bordure interne des cellules n'est pas de la même épaisseur que le cadre.",
-        "Le pinceau de reproduction de mis en forme est indispensable."
+        "Sélectionnez la cellule ou la zone dont vous souhaitez copier la mise en forme.",
+        "Dans l'onglet « Accueil », cliquez sur l'outil « Reproduire la mise en forme » (le pinceau).",
+        "Cliquez ensuite sur la cellule ou la zone où vous souhaitez appliquer cette mise en forme.",
+        "Vérifiez que les bordures, l'alignement et les autres éléments de mise en forme correspondent au modèle."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -1573,7 +1609,10 @@
       "description": "Styles personnalisés",
       "preamble": "",
       "instructions": [
-        "Vous réalisez ce tableau avec les styles personnalisés d'Excel prédéfinis dans votre version. Vous pouvez également créer votre propre style, c'est plus classe."
+        "Construisez la structure principale du classeur a partir de cet objectif: Styles personnalisés.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1590,7 +1629,10 @@
       "section": "bases",
       "moduleSlug": "mise-en-forme",
       "consignes": [
-        "Vous réalisez ce tableau avec les styles personnalisés d'Excel prédéfinis dans votre version. Vous pouvez également créer votre propre style, c'est plus classe."
+        "Construisez la structure principale du classeur a partir de cet objectif: Styles personnalisés.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -1621,6 +1663,7 @@
       "description": "Créer un Nouveau style de cellule",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous créez ce style avec la fonctionnalité \"Nouveau style de cellule\".",
         "Dans la capture écran, c'est ce qu'il vous faut reproduire."
       ],
@@ -1641,6 +1684,7 @@
       "section": "bases",
       "moduleSlug": "mise-en-forme",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous créez ce style avec la fonctionnalité \"Nouveau style de cellule\".",
         "Dans la capture écran, c'est ce qu'il vous faut reproduire."
       ],
@@ -2356,6 +2400,7 @@
       "description": "Poignée de recopie",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Fusionner A1 et B1 jusqu'à la ligne 3 avec la poignée de recopie.",
         "Fusionner C1-->C3.",
         "Insérer les prénoms et les fond de couleur des cellules.",
@@ -2378,6 +2423,7 @@
       "section": "bases",
       "moduleSlug": "poignee-de-recopie",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Fusionner A1 et B1 jusqu'à la ligne 3 avec la poignée de recopie.",
         "Fusionner C1-->C3.",
         "Insérer les prénoms et les fond de couleur des cellules.",
@@ -2424,6 +2470,7 @@
       "description": "Poignée de recopie",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "cellules à saisir maximum, à faire en moins d'une minute.",
         "A3 : Saisir 1 (format euro).",
         "A4 : Saisir 1,50 (format euro).",
@@ -2448,6 +2495,7 @@
       "section": "bases",
       "moduleSlug": "poignee-de-recopie",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "cellules à saisir maximum, à faire en moins d'une minute.",
         "A3 : Saisir 1 (format euro).",
         "A4 : Saisir 1,50 (format euro).",
@@ -2500,6 +2548,7 @@
       "description": "Poignée de recopie",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Reproduisez ce tableau en ne saisissant que la cellule B1 et la cellule A2.",
         "Utilisez la poignée de recopie vers le bas, puis vers la droite.",
         "Les bordures ne sont pas obligatoires."
@@ -2519,6 +2568,7 @@
       "section": "bases",
       "moduleSlug": "poignee-de-recopie",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Reproduisez ce tableau en ne saisissant que la cellule B1 et la cellule A2.",
         "Utilisez la poignée de recopie vers le bas, puis vers la droite.",
         "Les bordures ne sont pas obligatoires."
@@ -2564,6 +2614,7 @@
       "description": "Poignée de recopie",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Appliquez un fond gris aux cellules A1 et B2.",
         "Utilisez ensuite la poignée de recopie horizontalement jusqu'en colonne G, puis verticalement jusqu'à la ligne 23."
       ],
@@ -2582,6 +2633,7 @@
       "section": "bases",
       "moduleSlug": "poignee-de-recopie",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Appliquez un fond gris aux cellules A1 et B2.",
         "Utilisez ensuite la poignée de recopie horizontalement jusqu'en colonne G, puis verticalement jusqu'à la ligne 23."
       ],
@@ -2624,6 +2676,7 @@
       "description": "Poignée de recopie",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous réalisez le tableau ci-dessous.",
         "En saisissant 8 cellules avec le bon format de cellule, ça devrait suffire…c'est parti !!"
       ],
@@ -2642,6 +2695,7 @@
       "section": "bases",
       "moduleSlug": "poignee-de-recopie",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous réalisez le tableau ci-dessous.",
         "En saisissant 8 cellules avec le bon format de cellule, ça devrait suffire…c'est parti !!"
       ],
@@ -2806,6 +2860,7 @@
       "description": "Liste personnalisable via le web",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Objectif : Exploiter les données depuis internet pour les intégrer dans une liste personnalisable.",
         "Vous récupérez sur ce site internet les Capitales asiatiques et vous les importées dans vos listes personnalisées.",
         "Si le copier-coller depuis internet vous pose un problème (liens et cellules grisées), vous passez le texte (via copier-coller) par le bloc note puis Excel.",
@@ -2829,6 +2884,7 @@
       "section": "bases",
       "moduleSlug": "poignee-de-recopie",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Objectif : Exploiter les données depuis internet pour les intégrer dans une liste personnalisable.",
         "Vous récupérez sur ce site internet les Capitales asiatiques et vous les importées dans vos listes personnalisées.",
         "Si le copier-coller depuis internet vous pose un problème (liens et cellules grisées), vous passez le texte (via copier-coller) par le bloc note puis Excel.",
@@ -3794,7 +3850,10 @@
       "description": "Soustraction",
       "preamble": "",
       "instructions": [
-        "Complétez le tableau en calculant les totaux par atelier et le solde de production par mois."
+        "Construisez la structure principale du classeur a partir de cet objectif: Soustraction.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -3813,7 +3872,10 @@
       "section": "bases",
       "moduleSlug": "faire-une-soustraction",
       "consignes": [
-        "Complétez le tableau en calculant les totaux par atelier et le solde de production par mois."
+        "Construisez la structure principale du classeur a partir de cet objectif: Soustraction.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -3844,7 +3906,10 @@
       "description": "Soustraction",
       "preamble": "",
       "instructions": [
-        "Après avoir calculé le total d'heure par personne, vous en déduisez le solde. Le format n'est pas requis."
+        "Construisez la structure principale du classeur a partir de cet objectif: Soustraction.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -3863,7 +3928,10 @@
       "section": "bases",
       "moduleSlug": "faire-une-soustraction",
       "consignes": [
-        "Après avoir calculé le total d'heure par personne, vous en déduisez le solde. Le format n'est pas requis."
+        "Construisez la structure principale du classeur a partir de cet objectif: Soustraction.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -3894,7 +3962,10 @@
       "description": "Soustraction",
       "preamble": "",
       "instructions": [
-        "Complétez le tableau en calculant les totaux par mois et le solde de livraisons."
+        "Construisez la structure principale du classeur a partir de cet objectif: Soustraction.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -3913,7 +3984,10 @@
       "section": "bases",
       "moduleSlug": "faire-une-soustraction",
       "consignes": [
-        "Complétez le tableau en calculant les totaux par mois et le solde de livraisons."
+        "Construisez la structure principale du classeur a partir de cet objectif: Soustraction.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -3944,7 +4018,10 @@
       "description": "Exercice pour mettre en place une soustraction entre deux nombres dans excel",
       "preamble": "",
       "instructions": [
-        "Avec une soustraction que vous étirez vers le bas, vous calculez la différence en euros entre 2024 et 2025."
+        "Construisez la structure principale du classeur a partir de cet objectif: Exercice pour mettre en place une soustraction entre deux nombres dans excel.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -3963,7 +4040,10 @@
       "section": "bases",
       "moduleSlug": "faire-une-soustraction",
       "consignes": [
-        "Avec une soustraction que vous étirez vers le bas, vous calculez la différence en euros entre 2024 et 2025."
+        "Construisez la structure principale du classeur a partir de cet objectif: Exercice pour mettre en place une soustraction entre deux nombres dans excel.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -4442,7 +4522,10 @@
       "description": "Division",
       "preamble": "",
       "instructions": [
-        "Vous faites la division dans la colonne C pour trouver le chiffre d'affaires par personne."
+        "Construisez la structure principale du classeur a partir de cet objectif: Division.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -4461,7 +4544,10 @@
       "section": "bases",
       "moduleSlug": "faire-une-division",
       "consignes": [
-        "Vous faites la division dans la colonne C pour trouver le chiffre d'affaires par personne."
+        "Construisez la structure principale du classeur a partir de cet objectif: Division.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -4949,7 +5035,10 @@
       "description": "Division",
       "preamble": "",
       "instructions": [
-        "En D3:D21, vous devez déterminer à l'aide de la division quel est le rendement de production d'objet à l'heure. Le temps de réalisation d'un objet est donné à la MINUTE."
+        "Construisez la structure principale du classeur a partir de cet objectif: Division.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -4968,7 +5057,10 @@
       "section": "bases",
       "moduleSlug": "faire-une-division",
       "consignes": [
-        "En D3:D21, vous devez déterminer à l'aide de la division quel est le rendement de production d'objet à l'heure. Le temps de réalisation d'un objet est donné à la MINUTE."
+        "Construisez la structure principale du classeur a partir de cet objectif: Division.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -4999,7 +5091,10 @@
       "description": "Division",
       "preamble": "",
       "instructions": [
-        "En D3:D20, vous devez déterminer, à l'aide de la division, le pourcentage de perte de chaque produit vendu par Fruits et Légumes du Languedoc 34."
+        "Construisez la structure principale du classeur a partir de cet objectif: Division.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -5018,7 +5113,10 @@
       "section": "bases",
       "moduleSlug": "faire-une-division",
       "consignes": [
-        "En D3:D20, vous devez déterminer, à l'aide de la division, le pourcentage de perte de chaque produit vendu par Fruits et Légumes du Languedoc 34."
+        "Construisez la structure principale du classeur a partir de cet objectif: Division.",
+        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -5663,6 +5761,7 @@
       "description": "Graphique Excel",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Graphique 1 : Graphique sur l'évolution des ventes dans le Nord Est.",
         "Graphique 2 : Graphique en 3D sur la répartition des ventes en 2002.",
         "Graphique 3 : Graphique en pourcentage sur la répartition des ventes en 2005.",
@@ -5687,6 +5786,7 @@
       "section": "bases",
       "moduleSlug": "graphiques",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Graphique 1 : Graphique sur l'évolution des ventes dans le Nord Est.",
         "Graphique 2 : Graphique en 3D sur la répartition des ventes en 2002.",
         "Graphique 3 : Graphique en pourcentage sur la répartition des ventes en 2005.",
@@ -5963,7 +6063,10 @@
       "description": "Graphique Excel",
       "preamble": "",
       "instructions": [
-        "À partir du tableau ci-dessous, concevez un graphique qui montre le niveau de salaire par salarié et par année."
+        "Construisez la structure principale du classeur a partir de cet objectif: Graphique Excel.",
+        "Inserez ou ajustez le graphique puis harmonisez titres, series, axes et mise en forme.",
+        "Relisez le classeur et verifiez la coherence des donnees, calculs et formats avant validation.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -5982,7 +6085,10 @@
       "section": "bases",
       "moduleSlug": "graphiques",
       "consignes": [
-        "À partir du tableau ci-dessous, concevez un graphique qui montre le niveau de salaire par salarié et par année."
+        "Construisez la structure principale du classeur a partir de cet objectif: Graphique Excel.",
+        "Inserez ou ajustez le graphique puis harmonisez titres, series, axes et mise en forme.",
+        "Relisez le classeur et verifiez la coherence des donnees, calculs et formats avant validation.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -6330,7 +6436,10 @@
       "description": "Graphique Sparkline",
       "preamble": "",
       "instructions": [
-        "Consignes : De F2 à F6, vous insérez des graphiques spaklines avec les données des 4 trimestres pour chaque champ d'activité."
+        "Construisez la structure principale du classeur a partir de cet objectif: Graphique Sparkline.",
+        "Inserez ou ajustez le graphique puis harmonisez titres, series, axes et mise en forme.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -6349,7 +6458,10 @@
       "section": "bases",
       "moduleSlug": "graphiques",
       "consignes": [
-        "Consignes : De F2 à F6, vous insérez des graphiques spaklines avec les données des 4 trimestres pour chaque champ d'activité."
+        "Construisez la structure principale du classeur a partir de cet objectif: Graphique Sparkline.",
+        "Inserez ou ajustez le graphique puis harmonisez titres, series, axes et mise en forme.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -6859,6 +6971,7 @@
       "description": "Exercice pour mettre des valeurs au format monétaire dans Excel. Niveau Facile",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Reproduisez ce tableau.",
         "Appliquez le format monétaire aux données numériques."
       ],
@@ -6879,6 +6992,7 @@
       "section": "avance",
       "moduleSlug": "format-de-cellule",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Reproduisez ce tableau.",
         "Appliquez le format monétaire aux données numériques."
       ],
@@ -7160,7 +7274,10 @@
       "description": "Exercice complet pour la mise en place de nombreux formats DATE personnalisés",
       "preamble": "",
       "instructions": [
-        "Vous appliquez les formats de cellule personnalisés dans les cellules bleues afin d'afficher les dates comme prévu dans la capture écran ci-contre. La colonne B renferme des indices sérieux…."
+        "Construisez la structure principale du classeur a partir de cet objectif: Exercice complet pour la mise en place de nombreux formats DATE personnalisés.",
+        "Ajustez le format des cellules puis verifiez nombres, dates, alignements et affichages attendus.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": null,
       "scrape": {
@@ -7179,7 +7296,10 @@
       "section": "avance",
       "moduleSlug": "format-de-cellule",
       "consignes": [
-        "Vous appliquez les formats de cellule personnalisés dans les cellules bleues afin d'afficher les dates comme prévu dans la capture écran ci-contre. La colonne B renferme des indices sérieux…."
+        "Construisez la structure principale du classeur a partir de cet objectif: Exercice complet pour la mise en place de nombreux formats DATE personnalisés.",
+        "Ajustez le format des cellules puis verifiez nombres, dates, alignements et affichages attendus.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -7384,6 +7504,7 @@
       "description": "Utilisation de la poignée de recopie et de la valeur absolue/relative",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Construire le tableau sur Excel.",
         "Vous devez trouver l'opération, à insérer dans les cellules bleues, elle va vous permettre d'utiliser la poignée de recopie sur tout le tableau, colonne par colonne.",
         "Attention, il y a plusieurs solutions pour saisir sa formule (indice : $A$1 ou A$1)."
@@ -7405,6 +7526,7 @@
       "section": "avance",
       "moduleSlug": "reference-absolue",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Construire le tableau sur Excel.",
         "Vous devez trouver l'opération, à insérer dans les cellules bleues, elle va vous permettre d'utiliser la poignée de recopie sur tout le tableau, colonne par colonne.",
         "Attention, il y a plusieurs solutions pour saisir sa formule (indice : $A$1 ou A$1)."
@@ -7554,6 +7676,7 @@
       "description": "Table de multiplication complète en deux tours de valeur absolue",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Reproduisez cette table de multiplication à l'aide de la poignée de recopie, verticalement puis horizontalement.",
         "Réfléchissez au blocage de ligne et de colonne nécessaire pour obtenir le bon résultat."
       ],
@@ -7574,6 +7697,7 @@
       "section": "avance",
       "moduleSlug": "reference-absolue",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Reproduisez cette table de multiplication à l'aide de la poignée de recopie, verticalement puis horizontalement.",
         "Réfléchissez au blocage de ligne et de colonne nécessaire pour obtenir le bon résultat."
       ],
@@ -9845,7 +9969,10 @@
       "description": "Exercice 2",
       "preamble": "",
       "instructions": [
-        "Remplir les deux tableaux ci-dessous en collant avec liaison les valeurs copiées dans les autres onglets."
+        "Construisez la structure principale du classeur a partir de cet objectif: Exercice 2.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Intermediaire",
       "scrape": {
@@ -9864,7 +9991,10 @@
       "section": "avance",
       "moduleSlug": "lier-des-feuilles",
       "consignes": [
-        "Remplir les deux tableaux ci-dessous en collant avec liaison les valeurs copiées dans les autres onglets."
+        "Construisez la structure principale du classeur a partir de cet objectif: Exercice 2.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -9960,7 +10090,10 @@
       "description": "Lier des feuilles de calculs",
       "preamble": "",
       "instructions": [
-        "Depuis cette feuille, vous rapatriez dynamiquement les valeurs du tableau Lyon Sud de la feuille \"Vue d'ensemble\"."
+        "Construisez la structure principale du classeur a partir de cet objectif: Lier des feuilles de calculs.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": null,
       "scrape": {
@@ -9979,7 +10112,10 @@
       "section": "avance",
       "moduleSlug": "lier-des-feuilles",
       "consignes": [
-        "Depuis cette feuille, vous rapatriez dynamiquement les valeurs du tableau Lyon Sud de la feuille \"Vue d'ensemble\"."
+        "Construisez la structure principale du classeur a partir de cet objectif: Lier des feuilles de calculs.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -10458,7 +10594,10 @@
       "description": ": Nommer une cellule ou une plage de cellules",
       "preamble": "",
       "instructions": [
-        "Vous nommez les zones de couleur verte et insérez les calculs dans les cellules bleues."
+        "Construisez la structure principale du classeur a partir de cet objectif: : Nommer une cellule ou une plage de cellules.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Intermediaire",
       "scrape": {
@@ -10477,7 +10616,10 @@
       "section": "avance",
       "moduleSlug": "nommer-une-cellule",
       "consignes": [
-        "Vous nommez les zones de couleur verte et insérez les calculs dans les cellules bleues."
+        "Construisez la structure principale du classeur a partir de cet objectif: : Nommer une cellule ou une plage de cellules.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -11603,11 +11745,13 @@
       "moduleSlug": "tableaux-croises-dynamiques",
       "consignes": [
         "Téléchargez le fichier Excel de travail, puis créez les tableaux croisés dynamiques demandés.",
-        "Comparaison des chiffres d'affaires par mois (CA_Mensuel) pour chaque vendeur.",
-        "Calculs des moyennes et les écarts-types des chiffres d'affaires pour chaque vendeur et pour chaque produit."
+        "Comparer les chiffres d'affaires par mois (CA_Mensuel) pour chaque vendeur.",
+        "Calculer les moyennes et les écarts-types des chiffres d'affaires pour chaque vendeur et pour chaque produit.",
+        "Comparez avec les images de résultat attendu."
       ],
       "criteria": [],
       "originalConsignes": [
+        "Téléchargez le fichier Excel de travail, puis créez les tableaux croisés dynamiques demandés.",
         "Comparaison des chiffres d'affaires par mois (CA_Mensuel) pour chaque vendeur.",
         "Calculs des moyennes et les écarts-types des chiffres d'affaires pour chaque vendeur et pour chaque produit."
       ],
@@ -11710,7 +11854,10 @@
       "description": "Exercice 1",
       "preamble": "",
       "instructions": [
-        "Vous appliquez simplement un sous-total pour chaque variété de fruits."
+        "Construisez la structure principale du classeur a partir de cet objectif: Exercice 1.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -11729,7 +11876,10 @@
       "section": "avance",
       "moduleSlug": "sous-totaux",
       "consignes": [
-        "Vous appliquez simplement un sous-total pour chaque variété de fruits."
+        "Construisez la structure principale du classeur a partir de cet objectif: Exercice 1.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -11760,7 +11910,10 @@
       "description": "Sous-Totaux",
       "preamble": "",
       "instructions": [
-        "Vous appliquez un sous-total pour déterminer la moyenne de chaque classe dans chaque matière. Il vous faudra modifier le fichier de travail."
+        "Construisez la structure principale du classeur a partir de cet objectif: Sous-Totaux.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Intermediaire",
       "scrape": {
@@ -11779,7 +11932,10 @@
       "section": "avance",
       "moduleSlug": "sous-totaux",
       "consignes": [
-        "Vous appliquez un sous-total pour déterminer la moyenne de chaque classe dans chaque matière. Il vous faudra modifier le fichier de travail."
+        "Construisez la structure principale du classeur a partir de cet objectif: Sous-Totaux.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -11810,7 +11966,10 @@
       "description": "Sous-Totaux",
       "preamble": "",
       "instructions": [
-        "Après une modification du fichier de travail, vous déterminez le sous-total de chaque société. (sans modifications ça va être compliqué)."
+        "Construisez la structure principale du classeur a partir de cet objectif: Sous-Totaux.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Intermediaire",
       "scrape": {
@@ -11829,7 +11988,10 @@
       "section": "avance",
       "moduleSlug": "sous-totaux",
       "consignes": [
-        "Après une modification du fichier de travail, vous déterminez le sous-total de chaque société. (sans modifications ça va être compliqué)."
+        "Construisez la structure principale du classeur a partir de cet objectif: Sous-Totaux.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -11921,7 +12083,10 @@
       "description": "La consolidation dans excel",
       "preamble": "",
       "instructions": [
-        "Dans un espace au choix sur la feuille de calcul et de préférence à côté, vous insérez un tableau qui va faire la \"consolidation\" des deux premiers."
+        "Construisez la structure principale du classeur a partir de cet objectif: La consolidation dans excel.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -11940,7 +12105,10 @@
       "section": "avance",
       "moduleSlug": "consolidation",
       "consignes": [
-        "Dans un espace au choix sur la feuille de calcul et de préférence à côté, vous insérez un tableau qui va faire la \"consolidation\" des deux premiers."
+        "Construisez la structure principale du classeur a partir de cet objectif: La consolidation dans excel.",
+        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
+        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
+        "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
@@ -12481,6 +12649,7 @@
       "description": "Exercice 2",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Le planning ci-dessous est à réaliser chaque mois pour tous les employés.",
         "Afin de gagner du temps vous lancer l'enregistrement d'une MACRO et vous réalisez ce tableau.",
         "A la fin de la réalisation vous \"arrêter l'enregistrement\".",
@@ -12504,6 +12673,7 @@
       "section": "avance",
       "moduleSlug": "macro",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Le planning ci-dessous est à réaliser chaque mois pour tous les employés.",
         "Afin de gagner du temps vous lancer l'enregistrement d'une MACRO et vous réalisez ce tableau.",
         "A la fin de la réalisation vous \"arrêter l'enregistrement\".",
@@ -12792,6 +12962,7 @@
       "description": "Exercice 5",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "CONSIGNES :.",
         "En partant d'un classeur vierge, vous allez intégrer une macro qui va automatiquement générer un menu déroulant pour changer d'onglet.",
         "Le nom de l'onglet sera affiché, la couleur de fond sera orange et modifiable à volonté. La liste déroulante est en A2 mais l'emplacement reste modifiable à volonté.",
@@ -12814,6 +12985,7 @@
       "section": "avance",
       "moduleSlug": "macro",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "CONSIGNES :.",
         "En partant d'un classeur vierge, vous allez intégrer une macro qui va automatiquement générer un menu déroulant pour changer d'onglet.",
         "Le nom de l'onglet sera affiché, la couleur de fond sera orange et modifiable à volonté. La liste déroulante est en A2 mais l'emplacement reste modifiable à volonté.",
@@ -13865,6 +14037,7 @@
       "description": "Electra",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Exposé de la situation.",
         "La société Electra fabrique et commercialise des appareils de chauffage électrique.",
@@ -13892,6 +14065,7 @@
       "section": "asca",
       "moduleSlug": "ul11-word",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Exposé de la situation.",
         "La société Electra fabrique et commercialise des appareils de chauffage électrique.",
@@ -13953,6 +14127,7 @@
       "description": "Cité des concerts",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "le document indiquant les avantages et tarifs correspondant au parcours Concerts (format A4).",
         "l'imprimé qui permettra d'obtenir le programme 2009-2010 (format A5)."
       ],
@@ -13971,6 +14146,7 @@
       "section": "asca",
       "moduleSlug": "ul11-word",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "le document indiquant les avantages et tarifs correspondant au parcours Concerts (format A4).",
         "l'imprimé qui permettra d'obtenir le programme 2009-2010 (format A5)."
       ],
@@ -14005,6 +14181,7 @@
       "description": "Union des commercants",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Exposé de la situation.",
         "L'Union des Commerçants et Artisans (UCA) de la ville de Bourg-en-Bresse organise plusieurs fois par an des animations commerciales. La prochaine aura lieu au printemps prochain, à l'occasion du week-end de Pâques.",
@@ -14036,6 +14213,7 @@
       "section": "asca",
       "moduleSlug": "ul11-word",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Exposé de la situation.",
         "L'Union des Commerçants et Artisans (UCA) de la ville de Bourg-en-Bresse organise plusieurs fois par an des animations commerciales. La prochaine aura lieu au printemps prochain, à l'occasion du week-end de Pâques.",
@@ -14094,6 +14272,7 @@
       "description": "Novatix",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Exposé de la situation.",
         "Le groupe Novatix gère, pour un réseau d'entreprises adhérentes, la diffusion de chèques de table et chèques-cadeau.",
@@ -14126,6 +14305,7 @@
       "section": "asca",
       "moduleSlug": "ul11-word",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Exposé de la situation.",
         "Le groupe Novatix gère, pour un réseau d'entreprises adhérentes, la diffusion de chèques de table et chèques-cadeau.",
@@ -14276,6 +14456,7 @@
       "description": "Credit Top",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Expose de la Situation.",
         "Le groupe CrediTop est une société financière qui propose des crédits à la consommation.",
@@ -14306,6 +14487,7 @@
       "section": "asca",
       "moduleSlug": "ul11-word",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Expose de la Situation.",
         "Le groupe CrediTop est une société financière qui propose des crédits à la consommation.",
@@ -14361,6 +14543,7 @@
       "description": "Logique Bio",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Expose de la Situation.",
         "Le magasin de produits biologiques « Logique Bio » fête ses 10 ans d'ouverture. A cette occasion, le directeur a décidé d'organiser une opération de promotion auprès de ses meilleurs clients.",
@@ -14393,6 +14576,7 @@
       "section": "asca",
       "moduleSlug": "ul11-word",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Expose de la Situation.",
         "Le magasin de produits biologiques « Logique Bio » fête ses 10 ans d'ouverture. A cette occasion, le directeur a décidé d'organiser une opération de promotion auprès de ses meilleurs clients.",
@@ -14454,6 +14638,7 @@
       "description": "Enveloppe",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "L'entreprise « LES GENS DANS L'ENVELOPPE » vous demande de comparer trois fournisseurs de boîtes d'archivage en vue de choisir la meilleure offre.",
         "Deux négociations sont en cours avec des remises différentes :.",
         "On vous remet :.",
@@ -14487,6 +14672,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "L'entreprise « LES GENS DANS L'ENVELOPPE » vous demande de comparer trois fournisseurs de boîtes d'archivage en vue de choisir la meilleure offre.",
         "Deux négociations sont en cours avec des remises différentes :.",
         "On vous remet :.",
@@ -14559,6 +14745,7 @@
       "description": "Nett Industrie",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "La ristourne est une réduction attribuée en fin d'année et dont l'ampleur est basée sur le montant total des commandes réalisées sur l'année.",
         "Les conditions de ristourne sont contractuelles : pour l'entreprise, la ristourne représente un pourcentage fixe du chiffre d'affaires.",
         "Son calcul est indépendant et fera l'objet d'un document commercial à part entière."
@@ -14580,6 +14767,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "La ristourne est une réduction attribuée en fin d'année et dont l'ampleur est basée sur le montant total des commandes réalisées sur l'année.",
         "Les conditions de ristourne sont contractuelles : pour l'entreprise, la ristourne représente un pourcentage fixe du chiffre d'affaires.",
         "Son calcul est indépendant et fera l'objet d'un document commercial à part entière."
@@ -14619,6 +14807,7 @@
       "description": "Bustop",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Le tarif du déplacement dépend de la ville de destination.",
         "Chaque car dispose de 40 places.",
         "L'entreprise fonctionne avec des déplacements 7 jours sur 7.",
@@ -14641,6 +14830,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Le tarif du déplacement dépend de la ville de destination.",
         "Chaque car dispose de 40 places.",
         "L'entreprise fonctionne avec des déplacements 7 jours sur 7.",
@@ -14687,6 +14877,7 @@
       "description": "Com Un Parfum",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Le magazine COM'UN PARFUM édite une revue spécialisée dans les produits « mode ». Chaque année, un article traite des senteurs ; des tableaux et graphiques y sont associés.",
         "Il vous est demandé, pour le prochain magazine, de présenter et d'automatiser :.",
@@ -14749,6 +14940,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Le magazine COM'UN PARFUM édite une revue spécialisée dans les produits « mode ». Chaque année, un article traite des senteurs ; des tableaux et graphiques y sont associés.",
         "Il vous est demandé, pour le prochain magazine, de présenter et d'automatiser :.",
@@ -14888,6 +15080,7 @@
       "description": "VANCOUVER",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Mise en forme en tenant compte de l’annexe 1 (sans les en-têtes de lignes ni de colonnes) ;.",
         "Mise en page, sur une page, en mode portrait (à centrer horizontalement dans la page) ;.",
         "Ombrage (grisé, tramé...) sur les zones de calculs ;.",
@@ -14925,6 +15118,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Mise en forme en tenant compte de l’annexe 1 (sans les en-têtes de lignes ni de colonnes) ;.",
         "Mise en page, sur une page, en mode portrait (à centrer horizontalement dans la page) ;.",
         "Ombrage (grisé, tramé...) sur les zones de calculs ;.",
@@ -14995,6 +15189,7 @@
       "description": "La Sue'DOISE",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Du nombre moyen de formules vendues par jour ;.",
         "Du chiffre d’affaires (CA) hebdomadaire par formule, en quantité (soit le nombre de formules vendues) et en valeur ;.",
         "De l'ordre de classement en fonction des CA en valeur.",
@@ -15023,6 +15218,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Du nombre moyen de formules vendues par jour ;.",
         "Du chiffre d’affaires (CA) hebdomadaire par formule, en quantité (soit le nombre de formules vendues) et en valeur ;.",
         "De l'ordre de classement en fonction des CA en valeur.",
@@ -15072,6 +15268,7 @@
       "description": "Mosaïque",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Le cabinet d’architecte Mosaïque souhaite analyser ses dépenses en vue de les réduire.",
         "Une réunion de travail a précisé les postes à analyser : Consommables, Électricité, Lignes, téléphones...",
@@ -15139,6 +15336,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "Le cabinet d’architecte Mosaïque souhaite analyser ses dépenses en vue de les réduire.",
         "Une réunion de travail a précisé les postes à analyser : Consommables, Électricité, Lignes, téléphones...",
@@ -15299,6 +15497,7 @@
       "description": "Sud Informatique",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "L'entreprise Sud Informatique souhaite faire une analyse de son chiffre d'affaires par famille de produits. Pour cela, elle souhaite déterminer, pour chaque famille :.",
         "le nombre de factures émises, en nombre et en pourcentage,.",
@@ -15353,6 +15552,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "L'entreprise Sud Informatique souhaite faire une analyse de son chiffre d'affaires par famille de produits. Pour cela, elle souhaite déterminer, pour chaque famille :.",
         "le nombre de factures émises, en nombre et en pourcentage,.",
@@ -15474,6 +15674,7 @@
       "description": "Générale Cosmétiques",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "La société « GÉNÉRALE DE COSMÉTIQUES » souhaite analyser les ventes des 4 catégories de produits vendus par un ensemble de commerciaux sur différents secteurs géographiques.",
         "On vous demande.",
@@ -15530,6 +15731,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "La société « GÉNÉRALE DE COSMÉTIQUES » souhaite analyser les ventes des 4 catégories de produits vendus par un ensemble de commerciaux sur différents secteurs géographiques.",
         "On vous demande.",
@@ -15657,6 +15859,7 @@
       "description": "Petits Porteurs",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "L'association « LES PETITS PORTEURS » initie ses adhérents à la gestion d'un portefeuille de titres.",
         "Vous devez automatiser le suivi mensuel d'un portefeuille de titres.",
@@ -15720,6 +15923,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "L'association « LES PETITS PORTEURS » initie ses adhérents à la gestion d'un portefeuille de titres.",
         "Vous devez automatiser le suivi mensuel d'un portefeuille de titres.",
@@ -15868,6 +16072,7 @@
       "description": "Centre Format",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "CENTRE FORMAT, établissement agréé de formation professionnelle, souhaite automatiser les évaluations associées à chaque session de formation.",
         "Vous devez automatiser le bilan de la formation ITSI-12 de la semaine 20.",
@@ -15933,6 +16138,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "CENTRE FORMAT, établissement agréé de formation professionnelle, souhaite automatiser les évaluations associées à chaque session de formation.",
         "Vous devez automatiser le bilan de la formation ITSI-12 de la semaine 20.",
@@ -16093,6 +16299,7 @@
       "description": "Parcelle",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Présentation en tenant compte de l'annexe 1 (sans les en-têtes de lignes ni de colonnes) ;.",
         "Mise en page, sur une page, en mode portrait (à centrer horizontalement dans la page) ;.",
         "Ombrage (grisé, tramé...) sur les zones calculs (dont, en sus, gras sur les sommes à rapprocher) ;.",
@@ -16121,6 +16328,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Présentation en tenant compte de l'annexe 1 (sans les en-têtes de lignes ni de colonnes) ;.",
         "Mise en page, sur une page, en mode portrait (à centrer horizontalement dans la page) ;.",
         "Ombrage (grisé, tramé...) sur les zones calculs (dont, en sus, gras sur les sommes à rapprocher) ;.",
@@ -16170,6 +16378,7 @@
       "description": "Ress Marketing",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "RESS-MARKETING, pour sa rubrique « Enquêtes », souhaite, dans le cadre d'un sondage sur la présence des sportifs dans les campagnes de communication, rédiger un article dans lequel sera inséré un graphique titré :.",
         "« Quel sportif vous paraît le plus crédible pour devenir l'ambassadeur d'une marque ? ».",
@@ -16221,6 +16430,7 @@
       "section": "asca",
       "moduleSlug": "ul21-excel",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
         "RESS-MARKETING, pour sa rubrique « Enquêtes », souhaite, dans le cadre d'un sondage sur la présence des sportifs dans les campagnes de communication, rédiger un article dans lequel sera inséré un graphique titré :.",
         "« Quel sportif vous paraît le plus crédible pour devenir l'ambassadeur d'une marque ? ».",
@@ -16675,6 +16885,7 @@
       "description": "Cas Réservation Spectacle (macros)",
       "preamble": "",
       "instructions": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous devez réaliser un tableau de saisie des réservations pour le spectacle des petites s'oreilles et insérer les macros permettant la modification rapide de certaines cellules et/ou la mise en forme.",
         "Ligne 1, vous insérez un titre de présentation du tableau.",
         "Colonne A afin de bien marquer la rétractation du menu de gauche, sélectionnez la colonne et appliquez une couleur de fond.",
@@ -16706,6 +16917,7 @@
       "section": "complets",
       "moduleSlug": "cas-reservation-spectacle",
       "consignes": [
+        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
         "Vous devez réaliser un tableau de saisie des réservations pour le spectacle des petites s'oreilles et insérer les macros permettant la modification rapide de certaines cellules et/ou la mise en forme.",
         "Ligne 1, vous insérez un titre de présentation du tableau.",
         "Colonne A afin de bien marquer la rétractation du menu de gauche, sélectionnez la colonne et appliquez une couleur de fond.",
@@ -17495,7 +17707,7 @@
     "ok": 236,
     "failed": 0,
     "withInstructions": 235,
-    "withDocx": 198,
+    "withDocx": 199,
     "withImageEnonce": 236,
     "withImageResultat": 139,
     "durationSeconds": 19
