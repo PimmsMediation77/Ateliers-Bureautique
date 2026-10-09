@@ -1,7 +1,76 @@
 {
-  "version": "1.18.5",
-  "updatedAt": "2026-10-08T09:30:46.100Z",
+  "version": "1.18.6",
+  "updatedAt": "2026-10-09T10:49:38.455Z",
   "releases": [
+    {
+      "version": "1.18.6",
+      "tag": "word-v1.18.6",
+      "date": "2026-10-09",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "87daa90"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "powerpoint",
+          "description": "aligner assets et consignes sur les sources clic-formation",
+          "breaking": false,
+          "hash": "53003aa"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.33.0",
+          "breaking": false,
+          "hash": "8d40fc3"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.56",
+          "breaking": false,
+          "hash": "4425628"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.5",
+          "breaking": false,
+          "hash": "6653790"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.18.5",
       "tag": "word-v1.18.5",

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.18.6](///compare/word-v1.18.5...word-v1.18.6) (2026-10-09)
+
+
+### Bug Fixes
+
+* **powerpoint:** aligner assets et consignes sur les sources clic-formation 53003aa
+
 ### [1.18.5](///compare/word-v1.18.4...word-v1.18.5) (2026-10-08)
 
 
