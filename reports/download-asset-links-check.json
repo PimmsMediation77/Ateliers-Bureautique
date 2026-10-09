@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generatedAt": "2026-10-08T09:30:27.181Z",
-    "checked": 413,
+    "generatedAt": "2026-10-09T10:49:25.741Z",
+    "checked": 416,
     "failures": 0,
     "warnings": 0,
     "allowRemote": false,
@@ -6132,6 +6132,21 @@
     },
     {
       "app": "powerpoint",
+      "exerciseId": "powerpoint-ex-001",
+      "slot": "downloadUrl",
+      "url": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-001-visuels.zip",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/powerpoint/data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-001-visuels.zip",
+        "packagedPath": "apps/powerpoint/app/data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-001-visuels.zip"
+      }
+    },
+    {
+      "app": "powerpoint",
       "exerciseId": "powerpoint-ex-002",
       "slot": "docxUrl",
       "url": "data/assets/powerpoint/bases-diaporamas/powerpoint-ex-002.pptx",
@@ -6143,6 +6158,21 @@
         "packagedExists": true,
         "dataPath": "apps/powerpoint/data/assets/powerpoint/bases-diaporamas/powerpoint-ex-002.pptx",
         "packagedPath": "apps/powerpoint/app/data/assets/powerpoint/bases-diaporamas/powerpoint-ex-002.pptx"
+      }
+    },
+    {
+      "app": "powerpoint",
+      "exerciseId": "powerpoint-ex-002",
+      "slot": "downloadUrl",
+      "url": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-002-visuels.zip",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/powerpoint/data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-002-visuels.zip",
+        "packagedPath": "apps/powerpoint/app/data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-002-visuels.zip"
       }
     },
     {
@@ -6177,17 +6207,17 @@
     },
     {
       "app": "powerpoint",
-      "exerciseId": "powerpoint-ex-006",
-      "slot": "docxUrl",
-      "url": "data/assets/powerpoint/bases-animations/powerpoint-ex-002.pptx",
+      "exerciseId": "powerpoint-ex-005",
+      "slot": "downloadUrl",
+      "url": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-001-medias.zip",
       "kind": "local",
       "ok": true,
       "details": {
         "ok": true,
         "dataExists": true,
         "packagedExists": true,
-        "dataPath": "apps/powerpoint/data/assets/powerpoint/bases-animations/powerpoint-ex-002.pptx",
-        "packagedPath": "apps/powerpoint/app/data/assets/powerpoint/bases-animations/powerpoint-ex-002.pptx"
+        "dataPath": "apps/powerpoint/data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-001-medias.zip",
+        "packagedPath": "apps/powerpoint/app/data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-001-medias.zip"
       }
     },
     {
@@ -6203,6 +6233,21 @@
         "packagedExists": true,
         "dataPath": "apps/powerpoint/data/assets/powerpoint/bases-animations/powerpoint-ex-003.pptx",
         "packagedPath": "apps/powerpoint/app/data/assets/powerpoint/bases-animations/powerpoint-ex-003.pptx"
+      }
+    },
+    {
+      "app": "powerpoint",
+      "exerciseId": "powerpoint-ex-007",
+      "slot": "downloadUrl",
+      "url": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-003-medias.zip",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/powerpoint/data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-003-medias.zip",
+        "packagedPath": "apps/powerpoint/app/data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-003-medias.zip"
       }
     }
   ]
