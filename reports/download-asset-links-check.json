@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generatedAt": "2026-10-09T10:49:25.741Z",
-    "checked": 416,
+    "generatedAt": "2026-10-09T11:06:35.176Z",
+    "checked": 415,
     "failures": 0,
     "warnings": 0,
     "allowRemote": false,
@@ -6113,21 +6113,6 @@
         "packagedExists": true,
         "dataPath": "apps/excel/data/assets/excel/complets-calculs-heures-et-distances/excel-ex-001.xlsx",
         "packagedPath": "apps/excel/app/data/assets/excel/complets-calculs-heures-et-distances/excel-ex-001.xlsx"
-      }
-    },
-    {
-      "app": "powerpoint",
-      "exerciseId": "powerpoint-ex-001",
-      "slot": "docxUrl",
-      "url": "data/assets/powerpoint/bases-diaporamas/powerpoint-ex-001.pptx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/powerpoint/data/assets/powerpoint/bases-diaporamas/powerpoint-ex-001.pptx",
-        "packagedPath": "apps/powerpoint/app/data/assets/powerpoint/bases-diaporamas/powerpoint-ex-001.pptx"
       }
     },
     {
