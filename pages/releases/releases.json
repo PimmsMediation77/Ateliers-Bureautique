@@ -1,7 +1,76 @@
 {
-  "version": "1.33.0",
-  "updatedAt": "2026-10-08T09:31:22.622Z",
+  "version": "1.34.0",
+  "updatedAt": "2026-10-09T10:50:12.909Z",
   "releases": [
+    {
+      "version": "1.34.0",
+      "tag": "bureautique-v1.34.0",
+      "date": "2026-10-09",
+      "releaseType": "minor",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.57",
+          "breaking": false,
+          "hash": "8551aa0"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.6",
+          "breaking": false,
+          "hash": "54098a8"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.6",
+          "breaking": false,
+          "hash": "a36e726"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "87daa90"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "powerpoint",
+          "description": "aligner assets et consignes sur les sources clic-formation",
+          "breaking": false,
+          "hash": "53003aa"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.33.0",
       "tag": "bureautique-v1.33.0",
