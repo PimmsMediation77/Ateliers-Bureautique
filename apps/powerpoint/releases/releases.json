@@ -1,7 +1,76 @@
 {
-  "version": "0.1.56",
-  "updatedAt": "2026-10-08T09:31:11.746Z",
+  "version": "0.1.57",
+  "updatedAt": "2026-10-09T10:50:04.745Z",
   "releases": [
+    {
+      "version": "0.1.57",
+      "tag": "powerpoint-v0.1.57",
+      "date": "2026-10-09",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.6",
+          "breaking": false,
+          "hash": "54098a8"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.6",
+          "breaking": false,
+          "hash": "a36e726"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "87daa90"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "powerpoint",
+          "description": "aligner assets et consignes sur les sources clic-formation",
+          "breaking": false,
+          "hash": "53003aa"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.33.0",
+          "breaking": false,
+          "hash": "8d40fc3"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "0.1.56",
       "tag": "powerpoint-v0.1.56",

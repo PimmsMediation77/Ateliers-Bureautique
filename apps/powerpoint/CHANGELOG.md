@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.57](///compare/powerpoint-v0.1.56...powerpoint-v0.1.57) (2026-10-09)
+
+
+### Bug Fixes
+
+* **powerpoint:** aligner assets et consignes sur les sources clic-formation 53003aa
+
 ### [0.1.56](///compare/powerpoint-v0.1.55...powerpoint-v0.1.56) (2026-10-08)
 
 
