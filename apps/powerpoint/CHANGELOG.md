@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.58](///compare/powerpoint-v0.1.57...powerpoint-v0.1.58) (2026-10-09)
+
+
+### Bug Fixes
+
+* **powerpoint:** démarrer ex-001 sur PPT vierge sans fichier de travail 74f729d
+
 ### [0.1.57](///compare/powerpoint-v0.1.56...powerpoint-v0.1.57) (2026-10-09)
 
 

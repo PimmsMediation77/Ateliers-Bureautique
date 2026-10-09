@@ -1,7 +1,76 @@
 {
-  "version": "0.1.57",
-  "updatedAt": "2026-10-09T10:50:04.745Z",
+  "version": "0.1.58",
+  "updatedAt": "2026-10-09T11:07:03.068Z",
   "releases": [
+    {
+      "version": "0.1.58",
+      "tag": "powerpoint-v0.1.58",
+      "date": "2026-10-09",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.7",
+          "breaking": false,
+          "hash": "67e4ca1"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.7",
+          "breaking": false,
+          "hash": "0affb93"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "8ace5ed"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "powerpoint",
+          "description": "démarrer ex-001 sur PPT vierge sans fichier de travail",
+          "breaking": false,
+          "hash": "74f729d"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.34.0",
+          "breaking": false,
+          "hash": "efbc6b8"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "0.1.57",
       "tag": "powerpoint-v0.1.57",
