@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.7](///compare/excel-v1.11.6...excel-v1.11.7) (2026-10-09)
+
+
+### Bug Fixes
+
+* **powerpoint:** démarrer ex-001 sur PPT vierge sans fichier de travail 74f729d
+
 ### [1.11.6](///compare/excel-v1.11.5...excel-v1.11.6) (2026-10-09)
 
 
