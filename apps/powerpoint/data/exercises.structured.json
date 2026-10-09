@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T10:45:00.000Z",
+  "generatedAt": "2026-10-09T11:04:38.756Z",
   "source": "https://www.clic-formation.net/exercice-ppt-1.html, https://www.clic-formation.net/exercice-ppt-2.html, https://www.clic-formation.net/exercice-ppt-3.html, https://www.clic-formation.net/exercice-ppt-5.html, https://www.clic-formation.net/exercice-ppt-6.html, https://www.clic-formation.net/exercice-ppt-7.html",
   "modules": [
     {
@@ -41,7 +41,7 @@
       "title": "Creation d'un diaporama simple",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercice-ppt-1.html",
-      "docxUrl": "data/assets/powerpoint/bases-diaporamas/powerpoint-ex-001.pptx",
+      "docxUrl": null,
       "downloadUrl": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-001-visuels.zip",
       "downloadLabel": "Telecharger les visuels",
       "imageEnonce": null,
@@ -49,16 +49,17 @@
       "imageEnonceCaption": "Point de depart",
       "imageResultatCaption": "Resultat attendu",
       "description": "Construire un diaporama de 5 diapositives avec images, WordArt, tableau et graphique simple.",
-      "preamble": "Le modele fourni contient deja les textes et le fond de page avec logo. Les visuels sont dans le fichier ZIP : decompressez-le avant utilisation.",
+      "preamble": "Aucun fichier de travail a telecharger : partez d'une presentation PowerPoint vierge. Le modele de reference est un PDF non modifiable ; ses apercus (toutes les diapositives) sont dans le bloc Resultat attendu. Les visuels a inserer sont disponibles en ZIP.",
       "instructions": [
-        "Ouvrez le modele PowerPoint fourni : le texte est deja place sur chaque page, avec le fond et le logo.",
+        "Ouvrez PowerPoint et creez une nouvelle presentation vierge (Fichier > Nouveau).",
+        "Consultez le modele de reference (PDF / apercus) dans le bloc Resultat attendu pour reproduire la structure et la mise en forme.",
         "Telechargez le ZIP des visuels, decompressez-le, puis utilisez ces images pour les insertions demandees.",
         "Diapositive 1 : inserez une image simple et ajustez sa taille pour obtenir un rendu propre.",
         "Diapositive 2 : creez un titre en WordArt et une zone de texte avec une liste a puces.",
         "Diapositive 3 : ajoutez un titre avec fond de couleur, plusieurs images et une fleche. Alignez les images du haut par le bas.",
         "Diapositive 4 : realisez le graphique simple si vous avez quelques notions Excel, sinon passez a la suite.",
         "Diapositive 5 : appliquez une police originale au titre puis construisez un tableau avec alternance de couleurs sur les lignes.",
-        "Comparez votre diaporama aux apercus de resultat puis enregistrez avant de marquer l'exercice comme termine."
+        "Comparez votre diaporama aux apercus du Resultat attendu puis enregistrez avant de marquer l'exercice comme termine."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -67,13 +68,12 @@
         "prevUrl": null,
         "nextUrl": "https://www.clic-formation.net/exercice-ppt-2.html",
         "extraImages": [],
-        "enonceImages": [
+        "enonceImages": [],
+        "resultImages": [
           {
             "src": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-001-scrape-enonce-1.jpg",
             "caption": "Diapositive 1"
-          }
-        ],
-        "resultImages": [
+          },
           {
             "src": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-001-scrape-resultat-1.jpg",
             "caption": "Diapositive 2"
@@ -95,14 +95,15 @@
       "section": "bases",
       "moduleSlug": "diaporamas",
       "consignes": [
-        "Ouvrez le modele PowerPoint fourni : le texte est deja place sur chaque page, avec le fond et le logo.",
+        "Ouvrez PowerPoint et creez une nouvelle presentation vierge (Fichier > Nouveau).",
+        "Consultez le modele de reference (PDF / apercus) dans le bloc Resultat attendu pour reproduire la structure et la mise en forme.",
         "Telechargez le ZIP des visuels, decompressez-le, puis utilisez ces images pour les insertions demandees.",
         "Diapositive 1 : inserez une image simple et ajustez sa taille pour obtenir un rendu propre.",
         "Diapositive 2 : creez un titre en WordArt et une zone de texte avec une liste a puces.",
         "Diapositive 3 : ajoutez un titre avec fond de couleur, plusieurs images et une fleche. Alignez les images du haut par le bas.",
         "Diapositive 4 : realisez le graphique simple si vous avez quelques notions Excel, sinon passez a la suite.",
         "Diapositive 5 : appliquez une police originale au titre puis construisez un tableau avec alternance de couleurs sur les lignes.",
-        "Comparez votre diaporama aux apercus de resultat puis enregistrez avant de marquer l'exercice comme termine."
+        "Comparez votre diaporama aux apercus du Resultat attendu puis enregistrez avant de marquer l'exercice comme termine."
       ],
       "criteria": [],
       "originalConsignes": [
