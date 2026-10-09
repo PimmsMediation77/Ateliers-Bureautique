@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.34.0",
-  "updatedAt": "2026-10-09T10:50:12.909Z",
+  "version": "1.35.0",
+  "updatedAt": "2026-10-09T11:07:09.559Z",
   "releases": [
+    {
+      "version": "1.35.0",
+      "tag": "bureautique-v1.35.0",
+      "date": "2026-10-09",
+      "releaseType": "minor",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.58",
+          "breaking": false,
+          "hash": "fb5cc85"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.7",
+          "breaking": false,
+          "hash": "67e4ca1"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.7",
+          "breaking": false,
+          "hash": "0affb93"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "8ace5ed"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "powerpoint",
+          "description": "démarrer ex-001 sur PPT vierge sans fichier de travail",
+          "breaking": false,
+          "hash": "74f729d"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.34.0",
       "tag": "bureautique-v1.34.0",
