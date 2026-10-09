@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.18.7](///compare/word-v1.18.6...word-v1.18.7) (2026-10-09)
+
+
+### Bug Fixes
+
+* **powerpoint:** démarrer ex-001 sur PPT vierge sans fichier de travail 74f729d
+
 ### [1.18.6](///compare/word-v1.18.5...word-v1.18.6) (2026-10-09)
 
 

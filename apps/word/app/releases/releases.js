@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.18.6",
-  "updatedAt": "2026-10-09T10:49:38.455Z",
+  "version": "1.18.7",
+  "updatedAt": "2026-10-09T11:06:46.530Z",
   "releases": [
+    {
+      "version": "1.18.7",
+      "tag": "word-v1.18.7",
+      "date": "2026-10-09",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "8ace5ed"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "powerpoint",
+          "description": "démarrer ex-001 sur PPT vierge sans fichier de travail",
+          "breaking": false,
+          "hash": "74f729d"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.34.0",
+          "breaking": false,
+          "hash": "efbc6b8"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.57",
+          "breaking": false,
+          "hash": "8551aa0"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.6",
+          "breaking": false,
+          "hash": "54098a8"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.18.6",
       "tag": "word-v1.18.6",
