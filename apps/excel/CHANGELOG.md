@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.6](///compare/excel-v1.11.5...excel-v1.11.6) (2026-10-09)
+
+
+### Bug Fixes
+
+* **powerpoint:** aligner assets et consignes sur les sources clic-formation 53003aa
+
 ### [1.11.5](///compare/excel-v1.11.4...excel-v1.11.5) (2026-10-08)
 
 
