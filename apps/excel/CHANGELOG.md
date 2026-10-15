@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.8](///compare/excel-v1.11.7...excel-v1.11.8) (2026-10-15)
+
+
+### Bug Fixes
+
+* **word:** détaille les étapes de l'exercice Gérer les documents 1 0f48363
+
 ### [1.11.7](///compare/excel-v1.11.6...excel-v1.11.7) (2026-10-09)
 
 

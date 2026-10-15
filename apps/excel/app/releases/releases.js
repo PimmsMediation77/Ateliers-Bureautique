@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.11.7",
-  "updatedAt": "2026-10-09T11:06:54.320Z",
+  "version": "1.11.8",
+  "updatedAt": "2026-10-15T09:26:12.898Z",
   "releases": [
+    {
+      "version": "1.11.8",
+      "tag": "excel-v1.11.8",
+      "date": "2026-10-15",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.8",
+          "breaking": false,
+          "hash": "b3613e6"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "4d5008b"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "détaille les étapes de l'exercice Gérer les documents 1",
+          "breaking": false,
+          "hash": "0f48363"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.35.0",
+          "breaking": false,
+          "hash": "0456b6c"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.58",
+          "breaking": false,
+          "hash": "fb5cc85"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.11.7",
       "tag": "excel-v1.11.7",
