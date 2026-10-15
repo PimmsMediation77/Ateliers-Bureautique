@@ -1,7 +1,84 @@
 window.RELEASES_DATA = {
-  "version": "0.1.59",
-  "updatedAt": "2026-10-15T09:26:21.930Z",
+  "version": "0.1.60",
+  "updatedAt": "2026-10-15T10:48:28.145Z",
   "releases": [
+    {
+      "version": "0.1.60",
+      "tag": "powerpoint-v0.1.60",
+      "date": "2026-10-15",
+      "releaseType": "patch",
+      "impact": {
+        "level": "medium",
+        "rationale": "Nouvelles fonctionnalites ou changements techniques structurants."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.12.0",
+          "breaking": false,
+          "hash": "75d4405"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.19.0",
+          "breaking": false,
+          "hash": "7db6388"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "8559870"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "pages",
+          "description": "ajouter l'apercu local du site sous /Ateliers-Bureautique",
+          "breaking": false,
+          "hash": "4973495"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "feedback",
+          "description": "accents, cas du fichier existant et options côte à côte avec icônes",
+          "breaking": false,
+          "hash": "88d24f1"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.36.0",
+          "breaking": false,
+          "hash": "4768a41"
+        }
+      ],
+      "counts": {
+        "feat": 1,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 6
+      }
+    },
     {
       "version": "0.1.59",
       "tag": "powerpoint-v0.1.59",

@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.60](///compare/powerpoint-v0.1.59...powerpoint-v0.1.60) (2026-10-15)
+
+
+### Features
+
+* **pages:** ajouter l'apercu local du site sous /Ateliers-Bureautique 4973495
+
+
+### Bug Fixes
+
+* **feedback:** accents, cas du fichier existant et options côte à côte avec icônes 88d24f1
+
 ### [0.1.59](///compare/powerpoint-v0.1.58...powerpoint-v0.1.59) (2026-10-15)
 
 
