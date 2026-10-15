@@ -64,6 +64,7 @@ function createAtelierController(config = {}) {
       },
       saveProgress: () => this.#saveProgress(),
       refreshWorkFileState: (exerciseId) => this.#refreshExerciseWorkFileState(exerciseId),
+      getUserFolderLabel: () => this.#getSaveReminderFolderLabel(),
       renderAffinityFallback: () => this.#renderAffinityPage(this.currentAffinityId, this.currentThemeId),
       renderThemesFallback: () => this.#renderThemesOverview(),
     });

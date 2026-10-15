@@ -24,6 +24,16 @@ function createAtelierExerciseRuntime(config = {}) {
   const renderThemesFallback = typeof config.renderThemesFallback === "function"
     ? config.renderThemesFallback
     : () => {};
+  const getUserFolderLabel = typeof config.getUserFolderLabel === "function"
+    ? config.getUserFolderLabel
+    : () => "Dossier utilisateur";
+
+  // Remplace {dossierUtilisateur} par le nom du dossier choisi par l'usager.
+  function resolvePlaceholders(text) {
+    const value = String(text || "");
+    if (!value.includes("{dossierUtilisateur}")) return value;
+    return value.replace(/\{dossierUtilisateur\}/g, getUserFolderLabel() || "Dossier utilisateur");
+  }
 
   function buildLaunchStep() {
     const appLower = officeAppName.toLowerCase();
@@ -35,7 +45,13 @@ function createAtelierExerciseRuntime(config = {}) {
   function hasLaunchInstruction(steps) {
     if (!steps || !steps.length) return false;
     const first = String(steps[0] || "").toLowerCase();
-    return /ouvrez|lancez|d\u00e9marrez|demarrez|cherchez|trouvez/.test(first);
+    if (/ouvrez|lancez|d\u00e9marrez|demarrez|cherchez|trouvez/.test(first)) return true;
+    // Une \u00e9tape ult\u00e9rieure peut d\u00e9j\u00e0 demander d'ouvrir l'application (ex: apr\u00e8s la cr\u00e9ation de dossiers).
+    const appLower = officeAppName.toLowerCase();
+    return steps.some((step) => {
+      const lower = String(step || "").toLowerCase();
+      return /^(ouvrez|lancez|d\u00e9marrez|demarrez)\s/.test(lower) && lower.includes(appLower);
+    });
   }
 
   return {
@@ -79,7 +95,7 @@ function createAtelierExerciseRuntime(config = {}) {
         exercise.workFileUrl || exercise.docxUrl || exercise.downloadUrl
         || (exercise.extraDownloadUrls && exercise.extraDownloadUrls.length),
       );
-      const steps = stepsVm.steps || [];
+      const steps = (stepsVm.steps || []).map(resolvePlaceholders);
       if (!hasFiles && !hasLaunchInstruction(steps)) {
         steps.unshift(buildLaunchStep());
       }
@@ -89,7 +105,7 @@ function createAtelierExerciseRuntime(config = {}) {
       view.renderExercise({
         exercise: {
           ...exercise,
-          preamble: stepsVm.preamble || "",
+          preamble: resolvePlaceholders(stepsVm.preamble),
         },
         done,
         steps,

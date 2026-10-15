@@ -463,13 +463,17 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "",
       "imageEnonce": "",
       "imageResultat": "data/assets/word/bases-02-gerer-les-documents/word-ex-001-image-resultat.jpg",
-      "description": "Creez une arborescence de dossiers et enregistrez un document Word dans trois formats.",
+      "description": "Creez une arborescence de dossiers dans votre dossier utilisateur et enregistrez un document Word dans trois formats.",
       "consignes": [],
       "instructions": [
-        "Sur le Bureau Windows, créez un dossier nommé Europe (aucun fichier à télécharger pour cet exercice).",
-        "À l'intérieur du dossier Europe, créez un sous-dossier nommé france.",
-        "Ouvrez Word, créez un document vierge, puis enregistrez-le dans le dossier france aux trois formats de l'exemple : .docx, .doc et .pdf (par ex. « France word apres 2007.docx », « France word avant 2007.doc », « France word pdf.pdf »).",
-        "Comparez le contenu du dossier france avec l'image de résultat attendu."
+        "Dans votre dossier utilisateur « {dossierUtilisateur} », créez un dossier nommé Europe.",
+        "À l'intérieur du dossier Europe, créez un sous-dossier nommé France.",
+        "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
+        "Écrivez le mot « Exercice » dans le document.",
+        "Cliquez sur Fichier > Enregistrer sous, ouvrez le dossier {dossierUtilisateur} > Europe > France, nommez le fichier France_word_apres_2007, choisissez le type « Document Word (*.docx) », puis cliquez sur Enregistrer.",
+        "Refaites Fichier > Enregistrer sous dans le même dossier France, nommez le fichier France_word_avant_2007, choisissez le type « Document Word 97-2003 (*.doc) », puis cliquez sur Enregistrer.",
+        "Refaites Fichier > Enregistrer sous dans le même dossier France, nommez le fichier France_word_pdf, choisissez le type « PDF (*.pdf) », puis cliquez sur Enregistrer.",
+        "Comparez le contenu du dossier France avec l'image de résultat attendu."
       ],
       "scrape": {
         "ok": true,
