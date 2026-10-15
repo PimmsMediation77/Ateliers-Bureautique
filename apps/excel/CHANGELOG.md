@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.12.1](///compare/excel-v1.12.0...excel-v1.12.1) (2026-10-15)
+
+
+### Bug Fixes
+
+* **feedback:** consignes d'enregistrement pas à pas pour débutants e374797
+
 ## [1.12.0](///compare/excel-v1.11.8...excel-v1.12.0) (2026-10-15)
 
 
