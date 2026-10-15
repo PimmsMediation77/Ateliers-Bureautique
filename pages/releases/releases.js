@@ -1,7 +1,84 @@
 window.RELEASES_DATA = {
-  "version": "1.36.0",
-  "updatedAt": "2026-10-15T09:26:29.783Z",
+  "version": "1.37.0",
+  "updatedAt": "2026-10-15T10:48:36.495Z",
   "releases": [
+    {
+      "version": "1.37.0",
+      "tag": "bureautique-v1.37.0",
+      "date": "2026-10-15",
+      "releaseType": "minor",
+      "impact": {
+        "level": "medium",
+        "rationale": "Nouvelles fonctionnalites ou changements techniques structurants."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.60",
+          "breaking": false,
+          "hash": "9c012cf"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.12.0",
+          "breaking": false,
+          "hash": "75d4405"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.19.0",
+          "breaking": false,
+          "hash": "7db6388"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "8559870"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "pages",
+          "description": "ajouter l'apercu local du site sous /Ateliers-Bureautique",
+          "breaking": false,
+          "hash": "4973495"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "feedback",
+          "description": "accents, cas du fichier existant et options côte à côte avec icônes",
+          "breaking": false,
+          "hash": "88d24f1"
+        }
+      ],
+      "counts": {
+        "feat": 1,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 6
+      }
+    },
     {
       "version": "1.36.0",
       "tag": "bureautique-v1.36.0",
