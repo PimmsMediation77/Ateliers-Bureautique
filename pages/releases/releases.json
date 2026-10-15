@@ -1,7 +1,76 @@
 {
-  "version": "1.37.0",
-  "updatedAt": "2026-10-15T10:48:36.495Z",
+  "version": "1.38.0",
+  "updatedAt": "2026-10-15T10:59:45.657Z",
   "releases": [
+    {
+      "version": "1.38.0",
+      "tag": "bureautique-v1.38.0",
+      "date": "2026-10-15",
+      "releaseType": "minor",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.61",
+          "breaking": false,
+          "hash": "bf6ab5c"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.12.1",
+          "breaking": false,
+          "hash": "aa836cb"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.19.1",
+          "breaking": false,
+          "hash": "f5bcffc"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "166d54c"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "feedback",
+          "description": "consignes d'enregistrement pas à pas pour débutants",
+          "breaking": false,
+          "hash": "e374797"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.37.0",
       "tag": "bureautique-v1.37.0",
