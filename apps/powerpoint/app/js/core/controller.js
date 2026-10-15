@@ -889,31 +889,11 @@ function createAtelierController(config = {}) {
       if (titleEl) titleEl.textContent = "Avant de terminer";
       const folderLabel = this.#getSaveReminderFolderLabel();
       const expectedFileName = this.#getSaveReminderFileName(exerciseId);
-      const isDoneTrigger = trigger === "done";
       if (saveMessageEl) {
         saveMessageEl.textContent = "";
       }
       if (saveStepsEl) {
-        saveStepsEl.innerHTML = isDoneTrigger
-          ? `
-            <li>Dans ${settings.officeAppName}, cliquez <span class="word-close-icon" aria-hidden="true" title="Fermer">\u00d7</span> (fermer) ou sur <strong>Fichier</strong> puis <strong>Enregistrer sous</strong>.</li>
-            <li>Choisissez votre dossier utilisateur : <code id="exercise-feedback-user-folder"></code>.</li>
-            <li>Nommez le fichier <code id="exercise-feedback-file-name"></code>, puis validez avec <strong>Enregistrer</strong>.</li>
-            <li>Si un message indique que le fichier existe déjà, cliquez sur <strong>Oui</strong> pour le remplacer.</li>
-            <li>Dans ${settings.officeAppName}, cliquez <span class="word-close-icon" aria-hidden="true" title="Fermer">\u00d7</span> (fermer) si besoin.</li>
-          `
-          : `
-            <li>Si vous n'avez pas déjà enregistré votre fichier dans votre dossier
-              <ul class="save-reminder-substeps">
-                <li>Cliquez sur "Fichier" puis "Enregistrer sous"</li>
-                <li>Choisissez Parcourir &gt; Documents.</li>
-                <li>Puis votre dossier utilisateur : ${this.#escapeHtml(folderLabel)}.</li>
-                <li>Validez avec Enregistrer.</li>
-                <li>Si le fichier existe déjà, cliquez sur Oui pour le remplacer.</li>
-              </ul>
-            </li>
-            <li>Dans tous les cas, terminez en cliquant sur <span class="word-close-icon" aria-hidden="true" title="Fermer">\u00d7</span> (fermer).</li>
-          `;
+        saveStepsEl.innerHTML = this.#renderBeginnerSaveSteps(folderLabel, expectedFileName);
       }
       const userFolderEl = refs.root.querySelector("#exercise-feedback-user-folder");
       const fileNameEl = refs.root.querySelector("#exercise-feedback-file-name");
@@ -1136,6 +1116,33 @@ function createAtelierController(config = {}) {
     return this.workFileRuntime.getNumberedSaveReminderFileName(exerciseNumber);
   }
 
+  #getDefaultOfficeDocumentName() {
+    const appName = String(settings.officeAppName || "").toLowerCase();
+    if (appName.includes("excel")) return "Classeur1";
+    if (appName.includes("powerpoint")) return "Présentation1";
+    return "Document1";
+  }
+
+  #renderBeginnerSaveSteps(folderLabel, fileName) {
+    const app = settings.officeAppName;
+    const closeIcon = `<span class="word-close-icon" aria-hidden="true" title="Fermer">×</span>`;
+    return `
+            <li>Regardez le nom affiché tout en haut de la fenêtre de ${app}.</li>
+            <li><strong>Si vous voyez déjà le nom de votre fichier</strong>, cliquez sur <span aria-hidden="true">&#128190;</span> <strong>Enregistrer</strong> (en haut à gauche).</li>
+            <li><strong>Si vous voyez « ${this.#getDefaultOfficeDocumentName()} »</strong> : votre travail n'est pas encore enregistré.
+              <ul class="save-reminder-substeps">
+                <li>Cliquez sur <strong>Fichier</strong>, puis sur <strong>Enregistrer sous</strong>.</li>
+                <li>Cliquez sur <strong>Parcourir</strong>, puis sur <strong>Documents</strong>.</li>
+                <li>Ouvrez votre dossier <code>${this.#escapeHtml(folderLabel)}</code> (double-clic).</li>
+                <li>Dans <strong>Nom du fichier</strong>, écrivez <code>${this.#escapeHtml(fileName)}</code>.</li>
+                <li>Cliquez sur <strong>Enregistrer</strong>.</li>
+              </ul>
+            </li>
+            <li>Si un message indique que le fichier existe déjà, cliquez sur <strong>Oui</strong> pour le remplacer.</li>
+            <li>Pour finir, fermez ${app} en cliquant sur ${closeIcon} (en haut à droite).</li>
+          `;
+  }
+
   #getSaveReminderFileName(exerciseId) {
     return this.workFileRuntime.getSaveReminderFileName(exerciseId);
   }
@@ -1251,31 +1258,14 @@ function createAtelierController(config = {}) {
       userFolder.textContent = folderLabel;
       fileName.textContent = expectedFileName;
       const isDoneTrigger = trigger === "done";
-      const nextReminderSteps = `
-          <li><strong>Dans ${settings.officeAppName}</strong><br>
-            Si vous n'avez pas d\u00e9j\u00e0 enregistrer votre fichier dans votre dossier
-            <ul class="save-reminder-substeps">
-              <li>Cliquez sur "Fichier" puis "Enregistrer sous"</li>
-              <li>Choisissez Parcourir &gt; Documents.</li>
-              <li>Puis votre dossier utilisateur : ${this.#escapeHtml(folderLabel)}.</li>
-              <li>Validez avec Enregistrer.</li>
-            </ul>
-          </li>
-          <li>Dans tout les cas terminez par cliquez sur <span class="word-close-icon" aria-hidden="true" title="Fermer">\u00d7</span> (fermer).</li>
-        `;
-      const doneReminderSteps = `
-          <li>Dans ${settings.officeAppName}, cliquez <span class="word-close-icon" aria-hidden="true" title="Fermer">\u00d7</span> (fermer) ou sur <strong>Fichier</strong> puis <strong>Enregistrer sous</strong>.</li>
-          <li>Choisissez votre dossier utilisateur : <code id="save-reminder-user-folder"></code>.</li>
-          <li>Nommez le fichier <code id="save-reminder-file-name"></code>, puis validez avec <strong>Enregistrer</strong>.</li>
-          <li>Dans ${settings.officeAppName}, cliquez <span class="word-close-icon" aria-hidden="true" title="Fermer">\u00d7</span> (fermer) si besoin.</li>
-        `;
+      const reminderSteps = this.#renderBeginnerSaveSteps(folderLabel, expectedFileName);
       this.#setSaveReminderContent({
         title: "Vous avez termin\u00e9 ?",
         message: isDoneTrigger
           ? "Pensez \u00e0 enregistrer votre travail dans votre dossier avant de marquer l'exercice comme fait."
           : "Pensez \u00e0 enregistrer votre travail dans votre dossier avant de passer \u00e0 l'exercice suivant.",
-        steps: isDoneTrigger ? doneReminderSteps : nextReminderSteps,
-        numberedSteps: isDoneTrigger,
+        steps: reminderSteps,
+        numberedSteps: true,
       });
       const nextUserFolder = modal.querySelector("#save-reminder-user-folder");
       const nextFileName = modal.querySelector("#save-reminder-file-name");
