@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.19.0",
-  "updatedAt": "2026-10-15T10:48:06.518Z",
+  "version": "1.19.1",
+  "updatedAt": "2026-10-15T10:59:11.311Z",
   "releases": [
+    {
+      "version": "1.19.1",
+      "tag": "word-v1.19.1",
+      "date": "2026-10-15",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "166d54c"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "feedback",
+          "description": "consignes d'enregistrement pas à pas pour débutants",
+          "breaking": false,
+          "hash": "e374797"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.37.0",
+          "breaking": false,
+          "hash": "107f1a3"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.60",
+          "breaking": false,
+          "hash": "9c012cf"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.12.0",
+          "breaking": false,
+          "hash": "75d4405"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.19.0",
       "tag": "word-v1.19.0",

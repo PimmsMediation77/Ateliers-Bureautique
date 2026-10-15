@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.19.1](///compare/word-v1.19.0...word-v1.19.1) (2026-10-15)
+
+
+### Bug Fixes
+
+* **feedback:** consignes d'enregistrement pas à pas pour débutants e374797
+
 ## [1.19.0](///compare/word-v1.18.8...word-v1.19.0) (2026-10-15)
 
 
