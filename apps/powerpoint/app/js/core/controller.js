@@ -899,15 +899,17 @@ function createAtelierController(config = {}) {
             <li>Dans ${settings.officeAppName}, cliquez <span class="word-close-icon" aria-hidden="true" title="Fermer">\u00d7</span> (fermer) ou sur <strong>Fichier</strong> puis <strong>Enregistrer sous</strong>.</li>
             <li>Choisissez votre dossier utilisateur : <code id="exercise-feedback-user-folder"></code>.</li>
             <li>Nommez le fichier <code id="exercise-feedback-file-name"></code>, puis validez avec <strong>Enregistrer</strong>.</li>
+            <li>Si un message indique que le fichier existe déjà, cliquez sur <strong>Oui</strong> pour le remplacer.</li>
             <li>Dans ${settings.officeAppName}, cliquez <span class="word-close-icon" aria-hidden="true" title="Fermer">\u00d7</span> (fermer) si besoin.</li>
           `
           : `
-            <li>Si vous n'avez pas deja enregistre votre fichier dans votre dossier
+            <li>Si vous n'avez pas déjà enregistré votre fichier dans votre dossier
               <ul class="save-reminder-substeps">
                 <li>Cliquez sur "Fichier" puis "Enregistrer sous"</li>
                 <li>Choisissez Parcourir &gt; Documents.</li>
                 <li>Puis votre dossier utilisateur : ${this.#escapeHtml(folderLabel)}.</li>
                 <li>Validez avec Enregistrer.</li>
+                <li>Si le fichier existe déjà, cliquez sur Oui pour le remplacer.</li>
               </ul>
             </li>
             <li>Dans tous les cas, terminez en cliquant sur <span class="word-close-icon" aria-hidden="true" title="Fermer">\u00d7</span> (fermer).</li>

@@ -291,13 +291,16 @@ function renderExerciseFeedbackModal() {
 
     .feedback-toggle-option span {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
+      gap: 4px;
       min-height: 54px;
-      padding: 10px 12px;
+      padding: 8px 6px;
       border-right: 1px solid #c6d3e2;
+      font-size: 0.85rem;
       font-weight: 700;
-      line-height: 1.35;
+      line-height: 1.2;
       text-align: center;
       cursor: pointer;
       color: inherit;
@@ -305,6 +308,12 @@ function renderExerciseFeedbackModal() {
 
     .feedback-toggle-option:last-child span {
       border-right: 0;
+    }
+
+    .feedback-toggle-option span i {
+      font-style: normal;
+      font-size: 1.4rem;
+      line-height: 1;
     }
 
     .feedback-toggle-option:has(input[value="easy"]:checked) {
@@ -338,17 +347,9 @@ function renderExerciseFeedbackModal() {
     }
 
     @media (max-width: 780px) {
-      .feedback-toggle-options {
-        grid-template-columns: 1fr;
-      }
-
       .feedback-toggle-option span {
-        border-right: 0;
-        border-bottom: 1px solid #c6d3e2;
-      }
-
-      .feedback-toggle-option:last-child span {
-        border-bottom: 0;
+        font-size: 0.78rem;
+        padding: 6px 4px;
       }
     }
   </style>
@@ -357,13 +358,14 @@ function renderExerciseFeedbackModal() {
       <h2 id="exercise-feedback-title" style="margin-top:0;">Avant de terminer</h2>
       <section class="exercise-feedback-section exercise-feedback-section-tips">
         <div class="exercise-feedback-section-head">
-          <p class="exercise-feedback-eyebrow">Pensez a enregistrer votre travail</p>
+          <p class="exercise-feedback-eyebrow">Pensez &agrave; enregistrer votre travail</p>
         </div>
         <p id="exercise-feedback-save-message" class="muted"></p>
         <ol id="exercise-feedback-save-steps" class="save-reminder-steps">
           <li>Dans l'application, cliquez sur <strong>Fichier</strong> puis <strong>Enregistrer sous</strong>.</li>
           <li>Choisissez votre dossier utilisateur : <code id="exercise-feedback-user-folder">xxx</code>.</li>
           <li>Nommez le fichier <code id="exercise-feedback-file-name">ex-xxx-termine</code>, puis validez avec <strong>Enregistrer</strong>.</li>
+          <li>Si un message indique que le fichier existe d&eacute;j&agrave;, cliquez sur <strong>Oui</strong> pour le remplacer.</li>
         </ol>
       </section>
       <form id="exercise-feedback-form" class="exercise-feedback-section exercise-feedback-form" style="display:grid;gap:12px;">
@@ -373,27 +375,27 @@ function renderExerciseFeedbackModal() {
         <fieldset class="feedback-toggle-group" id="exercise-feedback-difficulty-group">
           <legend class="field">Difficult&eacute; ressentie</legend>
           <div class="feedback-toggle-options">
-            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-difficulty" value="easy"><span>Trop facile</span></label>
-            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-difficulty" value="adapted"><span>Adapt&eacute;e</span></label>
-            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-difficulty" value="hard"><span>Difficile</span></label>
+            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-difficulty" value="easy"><span><i aria-hidden="true">&#128564;</i>Trop facile</span></label>
+            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-difficulty" value="adapted"><span><i aria-hidden="true">&#128077;</i>Adapt&eacute;e</span></label>
+            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-difficulty" value="hard"><span><i aria-hidden="true">&#128555;</i>Difficile</span></label>
           </div>
         </fieldset>
 
         <fieldset class="feedback-toggle-group" id="exercise-feedback-clarity-group">
           <legend class="field">Clart&eacute; des consignes</legend>
           <div class="feedback-toggle-options">
-            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-clarity" value="unclear"><span>Pas claire</span></label>
-            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-clarity" value="medium"><span>Moyenne</span></label>
-            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-clarity" value="clear"><span>Tr&egrave;s claire</span></label>
+            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-clarity" value="unclear"><span><i aria-hidden="true">&#10067;</i>Pas claire</span></label>
+            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-clarity" value="medium"><span><i aria-hidden="true">&#129300;</i>Moyenne</span></label>
+            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-clarity" value="clear"><span><i aria-hidden="true">&#128161;</i>Tr&egrave;s claire</span></label>
           </div>
         </fieldset>
 
         <fieldset class="feedback-toggle-group" id="exercise-feedback-autonomy-group">
           <legend class="field">Autonomie ressentie</legend>
           <div class="feedback-toggle-options">
-            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-autonomy" value="assisted"><span>J'ai eu besoin d'aide</span></label>
-            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-autonomy" value="partial"><span>Un peu d'aide</span></label>
-            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-autonomy" value="independent"><span>En autonomie</span></label>
+            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-autonomy" value="assisted"><span><i aria-hidden="true">&#128587;</i>Besoin d'aide</span></label>
+            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-autonomy" value="partial"><span><i aria-hidden="true">&#129309;</i>Un peu d'aide</span></label>
+            <label class="feedback-toggle-option"><input type="radio" name="exercise-feedback-autonomy" value="independent"><span><i aria-hidden="true">&#128170;</i>En autonomie</span></label>
           </div>
         </fieldset>
 
