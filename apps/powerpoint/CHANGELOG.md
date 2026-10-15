@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.61](///compare/powerpoint-v0.1.60...powerpoint-v0.1.61) (2026-10-15)
+
+
+### Bug Fixes
+
+* **feedback:** consignes d'enregistrement pas à pas pour débutants e374797
+
 ### [0.1.60](///compare/powerpoint-v0.1.59...powerpoint-v0.1.60) (2026-10-15)
 
 
