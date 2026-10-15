@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](///compare/excel-v1.11.8...excel-v1.12.0) (2026-10-15)
+
+
+### Features
+
+* **pages:** ajouter l'apercu local du site sous /Ateliers-Bureautique 4973495
+
+
+### Bug Fixes
+
+* **feedback:** accents, cas du fichier existant et options côte à côte avec icônes 88d24f1
+
 ### [1.11.8](///compare/excel-v1.11.7...excel-v1.11.8) (2026-10-15)
 
 
