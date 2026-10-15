@@ -12,6 +12,7 @@
     "commitmsg:check": "node scripts/validate-commit-message.mjs",
     "do:commit": "if exist \"%LOCALAPPDATA%\\Programs\\Git\\bin\\bash.exe\" (\"%LOCALAPPDATA%\\Programs\\Git\\bin\\bash.exe\" scripts/do-commit.sh) else (bash scripts/do-commit.sh)",
     "do sync": "npm run word:build:data && npm run excel:build:data && npm run powerpoint:build:data && npm run word:sync:app && npm run excel:sync:app && npm run powerpoint:sync:app && npm run word:validate:app-sync && npm run excel:validate:app-sync && npm run powerpoint:validate:app-sync",
+    "pages:preview": "node scripts/preview-pages.mjs",
     "release": "standard-version",
     "release:first": "standard-version --first-release",
     "release:all": "if exist \"%LOCALAPPDATA%\\Programs\\Git\\bin\\bash.exe\" (\"%LOCALAPPDATA%\\Programs\\Git\\bin\\bash.exe\" scripts/release-all.sh) else (bash scripts/release-all.sh)",

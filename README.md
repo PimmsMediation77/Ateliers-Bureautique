@@ -40,6 +40,13 @@ Depuis la racine :
 Depuis `apps/word` ou `apps/excel`, les commandes locales restent disponibles (`npm test`, `npm run build:data`, etc.).
 Depuis `apps/powerpoint`, les memes commandes locales sont aussi disponibles.
 
+## Apercu local du site
+
+- `npm run pages:preview` puis ouvrir http://localhost:4173/Ateliers-Bureautique/
+- Reproduit l'artefact GitHub Pages (`pages/` + `apps/*/app`) dans `.pages-preview/` (ignore par git) et le sert avec `serve`.
+- Affiche les versions distribuables : lancer `npm run "do sync"` avant si les exercices ont change.
+- Port modifiable : `PORT=5000 npm run pages:preview`. Arret : Ctrl+C.
+
 ## Commit cible
 
 - `npm run do:commit -- "fix(scope): description" [fichier...]`
