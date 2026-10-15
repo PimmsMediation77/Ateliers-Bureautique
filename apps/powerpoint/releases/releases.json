@@ -1,7 +1,76 @@
 {
-  "version": "0.1.58",
-  "updatedAt": "2026-10-09T11:07:03.068Z",
+  "version": "0.1.59",
+  "updatedAt": "2026-10-15T09:26:21.930Z",
   "releases": [
+    {
+      "version": "0.1.59",
+      "tag": "powerpoint-v0.1.59",
+      "date": "2026-10-15",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.8",
+          "breaking": false,
+          "hash": "791beac"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.8",
+          "breaking": false,
+          "hash": "b3613e6"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "4d5008b"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "détaille les étapes de l'exercice Gérer les documents 1",
+          "breaking": false,
+          "hash": "0f48363"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.35.0",
+          "breaking": false,
+          "hash": "0456b6c"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "0.1.58",
       "tag": "powerpoint-v0.1.58",

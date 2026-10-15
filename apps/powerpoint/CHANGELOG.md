@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.59](///compare/powerpoint-v0.1.58...powerpoint-v0.1.59) (2026-10-15)
+
+
+### Bug Fixes
+
+* **word:** détaille les étapes de l'exercice Gérer les documents 1 0f48363
+
 ### [0.1.58](///compare/powerpoint-v0.1.57...powerpoint-v0.1.58) (2026-10-09)
 
 
