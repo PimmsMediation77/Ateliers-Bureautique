@@ -1,7 +1,84 @@
 window.RELEASES_DATA = {
-  "version": "1.18.8",
-  "updatedAt": "2026-10-15T09:26:04.136Z",
+  "version": "1.19.0",
+  "updatedAt": "2026-10-15T10:48:06.518Z",
   "releases": [
+    {
+      "version": "1.19.0",
+      "tag": "word-v1.19.0",
+      "date": "2026-10-15",
+      "releaseType": "minor",
+      "impact": {
+        "level": "medium",
+        "rationale": "Nouvelles fonctionnalites ou changements techniques structurants."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "8559870"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "pages",
+          "description": "ajouter l'apercu local du site sous /Ateliers-Bureautique",
+          "breaking": false,
+          "hash": "4973495"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "feedback",
+          "description": "accents, cas du fichier existant et options côte à côte avec icônes",
+          "breaking": false,
+          "hash": "88d24f1"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.36.0",
+          "breaking": false,
+          "hash": "4768a41"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.59",
+          "breaking": false,
+          "hash": "12b06ef"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.8",
+          "breaking": false,
+          "hash": "791beac"
+        }
+      ],
+      "counts": {
+        "feat": 1,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 6
+      }
+    },
     {
       "version": "1.18.8",
       "tag": "word-v1.18.8",

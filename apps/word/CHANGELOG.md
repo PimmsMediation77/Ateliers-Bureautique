@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.19.0](///compare/word-v1.18.8...word-v1.19.0) (2026-10-15)
+
+
+### Features
+
+* **pages:** ajouter l'apercu local du site sous /Ateliers-Bureautique 4973495
+
+
+### Bug Fixes
+
+* **feedback:** accents, cas du fichier existant et options côte à côte avec icônes 88d24f1
+
 ### [1.18.8](///compare/word-v1.18.7...word-v1.18.8) (2026-10-15)
 
 
