@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.35.0",
-  "updatedAt": "2026-10-09T11:07:09.559Z",
+  "version": "1.36.0",
+  "updatedAt": "2026-10-15T09:26:29.783Z",
   "releases": [
+    {
+      "version": "1.36.0",
+      "tag": "bureautique-v1.36.0",
+      "date": "2026-10-15",
+      "releaseType": "minor",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.59",
+          "breaking": false,
+          "hash": "12b06ef"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.11.8",
+          "breaking": false,
+          "hash": "791beac"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.18.8",
+          "breaking": false,
+          "hash": "b3613e6"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "4d5008b"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "détaille les étapes de l'exercice Gérer les documents 1",
+          "breaking": false,
+          "hash": "0f48363"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.35.0",
       "tag": "bureautique-v1.35.0",
