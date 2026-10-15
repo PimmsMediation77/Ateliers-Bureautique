@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.18.8](///compare/word-v1.18.7...word-v1.18.8) (2026-10-15)
+
+
+### Bug Fixes
+
+* **word:** détaille les étapes de l'exercice Gérer les documents 1 0f48363
+
 ### [1.18.7](///compare/word-v1.18.6...word-v1.18.7) (2026-10-09)
 
 
