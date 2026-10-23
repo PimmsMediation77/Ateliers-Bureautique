@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.19.2](///compare/word-v1.19.1...word-v1.19.2) (2026-10-23)
+
+
+### Bug Fixes
+
+* **ui:** afficher les titres d'étape sur une seule ligne 3c1130b
+* **ui:** appliquer la typographie française autour des deux-points 6eacbe4
+* **word:** réécrire les étapes et critères de l'exercice mise en forme d'un courrier 3526185
+* **word:** séparer consignes et critères de réussite de l'exercice raccourci clavier bd046a6
+* **word:** séparer consignes et critères de réussite des exercices aligner du texte et paragraphes 160ef84
+
 ### [1.19.1](///compare/word-v1.19.0...word-v1.19.1) (2026-10-15)
 
 
