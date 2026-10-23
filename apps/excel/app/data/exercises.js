@@ -574,7 +574,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Gérer l'affichage du classeur",
+      "description": "Découvrez les réglages de l'onglet Affichage, dont figer les volets.",
       "preamble": "Cet exercice vous fera découvrir quelques réglages de l'onglet \"Affichage\".",
       "instructions": [
         "Figez la ligne supérieure de la feuille.",
