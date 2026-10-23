@@ -10796,17 +10796,17 @@
       "moduleName": "Nommer une cellule",
       "moduleNameClean": "Nommer une cellule",
       "num": 5,
-      "title": "Exercice 5",
+      "title": "Nommer une cellule ou une plage de cellules",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-5-nommer-cellule.html",
       "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-005-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-005-image-enonce.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 5",
+      "description": "Nommez les jours et les volailles, puis calculez avec l'intersection de zones nommées.",
       "preamble": "",
       "instructions": [
         "Vous téléchargez votre fichier de travail ici-contre.",
@@ -10824,9 +10824,7 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-005-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-005-image-enonce.jpg"
         ]
