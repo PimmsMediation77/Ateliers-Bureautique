@@ -17424,7 +17424,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Cas grand Raid 6666",
+      "description": "Créez un fichier d'inscription qui automatise la saisie pour un week-end sportif, avec SI, RECHERCHEV et NB.SI.",
       "preamble": "",
       "instructions": [
         "La fonction SI, RECHERCHEV, NB.SI,SOMME.",
