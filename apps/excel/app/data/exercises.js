@@ -15803,7 +15803,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "UL21 Excel",
       "moduleNameClean": "UL21 Excel",
       "num": 9,
-      "title": "Générale Cosmétiques",
+      "title": "Cas Générale de Cosmétiques",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-generale-de-cosmetiques.html",
       "docxUrl": null,
@@ -15813,7 +15813,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-009-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Générale Cosmétiques",
+      "description": "Sujet ASCA en 1 heure : analysez les ventes de 4 catégories de cosmétiques.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
