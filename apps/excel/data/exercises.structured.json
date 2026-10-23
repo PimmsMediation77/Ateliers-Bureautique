@@ -9981,7 +9981,7 @@
       "imageResultat": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-010-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Listes déroulantes en cascade",
+      "description": "Créez des listes déroulantes en cascade à partir de plages nommées.",
       "preamble": "",
       "instructions": [
         "Étape 1 Vous nommez l'ensemble des pays des colonnes A,B,C,D,E en feuille \"liste\", du nom des continents (ne prenez pas l'en tête de colonne).",
