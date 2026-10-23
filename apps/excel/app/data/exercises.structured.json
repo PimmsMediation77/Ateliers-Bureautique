@@ -7754,7 +7754,7 @@
       "moduleName": "Référence absolue",
       "moduleNameClean": "Référence absolue",
       "num": 5,
-      "title": "Mise en place d'un tableau de calcul frais kilometrique et forfait déplacement",
+      "title": "Valeur absolue - Frais kilométriques",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-5.html",
       "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-005.xlsx",
@@ -7764,7 +7764,7 @@
       "imageResultat": "data/assets/excel/avance-03-reference-absolue/excel-ex-005-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Mise en place d'un tableau de calcul frais kilometrique et forfait déplacement",
+      "description": "Calculez des frais kilométriques et un forfait déplacement avec la poignée de recopie.",
       "preamble": "",
       "instructions": [
         "Les valeurs des colonnes C et D sont à calculer en C5 et D5.",
