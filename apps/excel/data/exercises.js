@@ -17495,7 +17495,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Cas Course Haut Caroux",
+      "description": "Manipulez la liste des coureurs d'un trail avec les fonctions de texte et de comptage.",
       "preamble": "L'équipe qui organise le Trail du Haut Caroux possède la liste des participants et doit manipuler les données. Vous travaillerez avec CONCATENER, NB.SI, NB.SI.ENS, GAUCHE, DROITE, SI, STXT, NB.CAR et RECHERCHEV.",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient la feuille Données et une feuille par question.",
