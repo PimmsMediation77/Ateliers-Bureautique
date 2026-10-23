@@ -17033,7 +17033,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Cas Réservation Spectacle",
       "moduleNameClean": "Cas Réservation Spectacle",
       "num": 1,
-      "title": "Cas Réservation Spectacle (macros)",
+      "title": "Cas Réservation Spectacle : mise en place de macros",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/cas-reservation-spectacle.html",
       "docxUrl": null,
@@ -17043,7 +17043,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Cas Réservation Spectacle (macros)",
+      "description": "Créez un tableau de réservations avec des macros de modification et de mise en forme.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
