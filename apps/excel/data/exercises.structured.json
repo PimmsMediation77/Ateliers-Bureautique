@@ -10238,7 +10238,7 @@
       "imageResultat": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-004-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Lier des feuilles de calculs",
+      "description": "Rapatriez dynamiquement les valeurs d'une succursale depuis la feuille de synthèse.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les feuilles vue d'ensemble, Lyon Sud et Lyon Nord.",
