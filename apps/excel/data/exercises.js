@@ -12526,8 +12526,8 @@ window.EXCEL_ATELIER_DATA = {
       "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-006.zip",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-006-image-enonce.gif",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-006-image-enonce.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Exercice 6",
@@ -12547,9 +12547,7 @@ window.EXCEL_ATELIER_DATA = {
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-006-scrape-enonce-1.gif"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/excel/avance-11-consolidation/excel-ex-006-image-enonce.gif"
         ]
