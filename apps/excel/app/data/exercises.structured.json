@@ -9723,7 +9723,7 @@
       "imageResultat": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-006-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Remplissage instantané",
+      "description": "Remplissez automatiquement les colonnes Ville et Pays avec le remplissage instantané.",
       "preamble": "",
       "instructions": [
         "Vous pouvez télécharger le fichier de travail ici.",
