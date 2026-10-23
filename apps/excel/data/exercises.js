@@ -7464,7 +7464,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Format de cellule",
       "moduleNameClean": "Format de cellule",
       "num": 8,
-      "title": "Exercice pour manipuler les heures et ses formats de cellules",
+      "title": "Manipulation des heures",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-8-date.html",
       "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-008.xlsx",
@@ -7474,7 +7474,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-02-format-de-cellule/excel-ex-008-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice pour manipuler les heures et ses formats de cellules",
+      "description": "Additionnez et soustrayez des heures avec des fractions de 24 h et les formats horaires.",
       "preamble": "",
       "instructions": [
         "Pour calculer des temps (addition, soustraction) il est possible d'utiliser des fractions de 24h.",
