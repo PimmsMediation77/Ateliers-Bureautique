@@ -26,6 +26,7 @@
 - [QCM de fin d'exercice et rapport d'usabilite](./docs/FEATURE_QCM_USABILITE.md)
 - [Architecture cible de la version connectee](./docs/ARCHITECTURE_VERSION_CONNECTEE.md)
 - [Espace formateur (mode connecte)](./docs/FEATURE_ESPACE_FORMATEUR.md)
+- [Fiches d'aide « Détails » sur les étapes](./docs/FEATURE_FICHES_AIDE.md)
 
 La note `ARCHITECTURE_VERSION_CONNECTEE.md` documente aussi l'etat reel de la V1 actuellement deployee :
 

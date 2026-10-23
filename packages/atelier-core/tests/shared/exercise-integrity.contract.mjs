@@ -246,6 +246,29 @@ export async function registerExerciseIntegrityContractTests({
       if (downloadUrls.length === 0 && inventsDownloadWithoutAsset(text)) {
         assert.fail("consignes qui supposent un fichier telecharge alors qu'aucun asset n'est lie");
       }
+
+      const stepHelp = rawExercise.stepHelp && typeof rawExercise.stepHelp === "object" ? rawExercise.stepHelp : {};
+      const stepLabels = [
+        ...toList(rawExercise.instructions),
+        ...(rawExercise.exerciseTabs || []).flatMap((tab) => toList(tab.instructions)),
+      ].map((step) => step.split(":")[0].trim().toLowerCase());
+      for (const [label, topicId] of Object.entries(stepHelp)) {
+        assert.ok(raw.helpTopics && raw.helpTopics[topicId], `fiche d'aide inconnue: ${topicId}`);
+        assert.ok(
+          stepLabels.includes(label.trim().toLowerCase()),
+          `stepHelp « ${label} » ne correspond a aucun libelle d'etape`,
+        );
+      }
     });
   }
+
+  test(`${appLabel}: fiches d'aide valides`, () => {
+    for (const [topicId, topic] of Object.entries(raw.helpTopics || {})) {
+      assert.ok(topic && String(topic.title || "").trim(), `fiche ${topicId}: title requis`);
+      for (const url of toList(topic.images)) {
+        if (!isLocalAssetPath(url)) continue;
+        assert.ok(localPathExists(appRoot, url), `fiche ${topicId}: image manquante ${url}`);
+      }
+    }
+  });
 }

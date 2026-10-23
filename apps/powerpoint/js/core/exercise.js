@@ -106,6 +106,7 @@ function createAtelierExerciseRuntime(config = {}) {
         exercise: {
           ...exercise,
           preamble: resolvePlaceholders(stepsVm.preamble),
+          stepHelp: model.getStepHelpForExercise ? model.getStepHelpForExercise(exercise) : [],
         },
         done,
         steps,

@@ -90,6 +90,34 @@ function normalizeExerciseTabs(items) {
     .filter(Boolean);
 }
 
+// Fiches d'aide partagées (racine `helpTopics` des données) : contenu affiché
+// dans la fenêtre « Détails » d'une étape qui y fait référence.
+function normalizeHelpTopics(raw) {
+  const topics = new Map();
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return topics;
+  for (const [id, item] of Object.entries(raw)) {
+    const title = cleanText(item && item.title);
+    if (!id || !title) continue;
+    topics.set(id, {
+      id,
+      title,
+      intro: cleanStepText(item.intro || ""),
+      steps: Array.isArray(item.steps) ? item.steps.map((step) => cleanStepText(step)).filter(Boolean) : [],
+      images: normalizeImageList(item.images),
+      sourceUrl: String(item.sourceUrl || "").trim(),
+    });
+  }
+  return topics;
+}
+
+// `stepHelp` d'un exercice : { "Libellé de l'étape": "id-de-la-fiche" }.
+function normalizeStepHelp(raw) {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return [];
+  return Object.entries(raw)
+    .map(([label, topicId]) => ({ label: cleanText(label), topicId: String(topicId || "").trim() }))
+    .filter((entry) => entry.label && entry.topicId);
+}
+
 function cleanText(value) {
   return String(value || "")
     .replace(/^[^\p{L}\p{N}]+/u, "")
@@ -172,6 +200,7 @@ class AtelierModel {
     }
 
     this.availabilityOverrides = normalizeAvailabilityOverrides(options.availabilityOverrides);
+    this.helpTopics = normalizeHelpTopics(rawData.helpTopics);
     const allowedModuleIds = new Set(
       rawData.modules
         .filter((module) => this.#isModuleActive(module && module.id))
@@ -234,6 +263,7 @@ class AtelierModel {
         scrapeEnonceImages: normalizeImageList(ex.scrape && ex.scrape.enonceImages),
         scrapeResultImages: normalizeImageList(ex.scrape && ex.scrape.resultImages),
         exerciseTabs: normalizeExerciseTabs(ex.exerciseTabs),
+        stepHelp: normalizeStepHelp(ex.stepHelp),
         criteria: Array.isArray(ex.criteria) ? ex.criteria.map((s) => cleanStepText(s)).filter(Boolean) : [],
         extraImages: uniqueStrings(
           Array.isArray(ex.extraImages)
@@ -506,6 +536,13 @@ class AtelierModel {
     fallback.push("Reproduisez le document en vous aidant de l'image de l'énoncé.");
     if (exercise.imageResultat) fallback.push("Comparez votre travail avec le résultat attendu.");
     return fallback;
+  }
+
+  getStepHelpForExercise(exercise) {
+    if (!exercise || !Array.isArray(exercise.stepHelp)) return [];
+    return exercise.stepHelp
+      .map((entry) => ({ label: entry.label, topic: this.helpTopics.get(entry.topicId) || null }))
+      .filter((entry) => entry.topic);
   }
 
   getExerciseStepsView(exercise) {

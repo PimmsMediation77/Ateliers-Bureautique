@@ -1788,3 +1788,122 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* Bouton « Détails » d'une étape et fenêtre d'aide associée (fiches helpTopics) */
+.step-help-btn {
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-left: 8px;
+  padding: 1px 10px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.5;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.step-help-btn:hover,
+.step-help-btn:focus-visible {
+  background: var(--accent);
+  color: #fff;
+}
+
+.help-modal {
+  z-index: 1100;
+}
+
+.help-modal-content {
+  display: flex;
+  flex-direction: column;
+  width: min(820px, calc(100vw - 28px));
+  max-height: calc(100vh - 36px);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--ink);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.help-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.help-modal-title {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.help-modal-close {
+  padding: 6px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.help-modal-close:hover,
+.help-modal-close:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.help-modal-body {
+  padding: 16px 18px 20px;
+  overflow: auto;
+  line-height: 1.5;
+}
+
+.help-modal-intro {
+  margin: 0 0 10px;
+}
+
+.help-modal-steps {
+  margin: 0 0 14px;
+  padding-left: 1.6em;
+}
+
+.help-modal-steps li {
+  margin: 4px 0;
+}
+
+.help-modal-figure {
+  margin: 14px 0 0;
+}
+
+.help-modal-figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  cursor: zoom-in;
+}
+
+.help-modal-figure img.is-zoomed {
+  max-width: none;
+  cursor: zoom-out;
+}
+
+.help-modal-figure figcaption {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.help-modal-source {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}

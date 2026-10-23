@@ -897,6 +897,7 @@ export async function registerControllerSessionContractTests({
         title: "Exercice 1",
         preamble: "Avant de commencer",
         docxUrl: "ex-001.xlsx",
+        stepHelp: [],
       },
       done: true,
       steps: ["Etape 1", "Etape 2"],

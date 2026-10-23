@@ -10,11 +10,14 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
-// Typographie française : espace insécable avant « : » et espace après.
-// Seuls les « : » suivis d'un espace (ou en fin de texte) sont concernés,
-// pour ne pas toucher aux URL, heures (15:30) ni plages Excel (A1:B5).
-function frenchColons(value) {
-  return String(value || "").replace(/[ \u00a0\u202f]*:(?=\s|$)/g, "\u00a0:");
+// Typographie française : espace insécable avant « : » et à l'intérieur des
+// guillemets « ». Seuls les « : » suivis d'un espace (ou en fin de texte) sont
+// concernés, pour ne pas toucher aux URL, heures (15:30) ni plages Excel (A1:B5).
+function frenchTypography(value) {
+  return String(value || "")
+    .replace(/[ \u00a0\u202f]*:(?=\s|$)/g, "\u00a0:")
+    .replace(/«[ \u00a0]*/g, "«\u00a0")
+    .replace(/[ \u00a0]*»/g, "\u00a0»");
 }
 
 function shortDate(isoDay) {
@@ -166,6 +169,17 @@ class AtelierView {
     this.imageModalHomeNextSibling = this.imageModal ? this.imageModal.nextSibling : null;
     this.#ensureModalStage();
     this.#bindModalEvents();
+
+    this.helpModal = null;
+    this.helpModalTrigger = null;
+    if (this.exerciseSteps) {
+      this.exerciseSteps.addEventListener("click", (event) => {
+        const trigger = event.target.closest("[data-step-help]");
+        if (!trigger) return;
+        const topic = this.#findStepHelpTopicById(trigger.getAttribute("data-step-help"));
+        if (topic) this.openHelpModal(topic, trigger);
+      });
+    }
   }
 
   setActiveNav(pageName) {
@@ -301,7 +315,7 @@ class AtelierView {
     if (this.exerciseOpenWorkFileBtn) this.exerciseOpenWorkFileBtn.style.display = "none";
     if (this.exercisePickWorkFileBtn) this.exercisePickWorkFileBtn.style.display = "none";
 
-    this.exerciseTitle.textContent = frenchColons(`Exercice ${vm.exercise.num} - ${vm.exercise.title}`);
+    this.exerciseTitle.textContent = frenchTypography(`Exercice ${vm.exercise.num} - ${vm.exercise.title}`);
     this.exerciseThemeLine.textContent = vm.exercise.moduleName;
 
     // Fil d'ariane
@@ -330,7 +344,7 @@ class AtelierView {
       this.exercisePreambleWrap.style.display = preamble ? "" : "none";
     }
     if (this.exerciseStepsPreamble) {
-      this.exerciseStepsPreamble.textContent = frenchColons(preamble);
+      this.exerciseStepsPreamble.textContent = frenchTypography(preamble);
       this.exerciseStepsPreamble.style.display = preamble ? "" : "none";
     }
 
@@ -344,7 +358,7 @@ class AtelierView {
 
     if (this.exerciseDescription) {
       const description = this.#getExerciseDescription(vm.exercise, effectiveSteps);
-      this.exerciseDescription.textContent = frenchColons(description);
+      this.exerciseDescription.textContent = frenchTypography(description);
       this.exerciseDescription.style.display = description ? "" : "none";
     }
 
@@ -356,7 +370,7 @@ class AtelierView {
 
     if (this.exerciseCriteria) {
       const criteria = Array.isArray(vm.exercise.criteria) ? vm.exercise.criteria.filter(Boolean) : [];
-      this.exerciseCriteria.innerHTML = criteria.map((item) => `<li>${escapeHtml(frenchColons(item))}</li>`).join("");
+      this.exerciseCriteria.innerHTML = criteria.map((item) => `<li>${escapeHtml(frenchTypography(item))}</li>`).join("");
       if (this.exerciseCriteriaWrap) {
         this.exerciseCriteriaWrap.style.display = criteria.length ? "" : "none";
       }
@@ -398,8 +412,8 @@ class AtelierView {
     const filesCard = document.getElementById("exercise-files-card");
     if (filesCard) filesCard.style.display = hasFiles ? "" : "none";
 
-    this.exerciseEnonceCaption.textContent = frenchColons(vm.exercise.imageEnonceCaption || "Énoncé");
-    this.exerciseResultCaption.textContent = frenchColons(vm.exercise.imageResultatCaption || "Résultat attendu");
+    this.exerciseEnonceCaption.textContent = frenchTypography(vm.exercise.imageEnonceCaption || "Énoncé");
+    this.exerciseResultCaption.textContent = frenchTypography(vm.exercise.imageResultatCaption || "Résultat attendu");
 
     this.#renderImageGroup(
       this.exerciseEnonceImages,
@@ -428,7 +442,7 @@ class AtelierView {
 
   #formatStep(step) {
     const text = String(step || "").trim();
-    const formatMultiline = (value) => escapeHtml(frenchColons(value)).replace(/\n/g, "<br>");
+    const formatMultiline = (value) => escapeHtml(frenchTypography(value)).replace(/\n/g, "<br>");
     const colonIndex = text.indexOf(":");
     if (colonIndex <= 0) return formatMultiline(text);
 
@@ -470,9 +484,124 @@ class AtelierView {
     return this.#formatStep(step);
   }
 
+  // Une étape est reliée à une fiche d'aide quand son libellé (texte avant « : »)
+  // correspond à une entrée `stepHelp` de l'exercice.
+  #findStepHelpTopic(exercise, step) {
+    const entries = exercise && Array.isArray(exercise.stepHelp) ? exercise.stepHelp : [];
+    if (!entries.length) return null;
+    const text = String(step || "").trim();
+    const colonIndex = text.indexOf(":");
+    const label = (colonIndex > 0 ? text.slice(0, colonIndex) : text).trim().toLowerCase();
+    const match = entries.find((entry) => String(entry.label || "").trim().toLowerCase() === label);
+    return match ? match.topic : null;
+  }
+
+  #findStepHelpTopicById(topicId) {
+    const exercise = this.currentExerciseVm ? this.currentExerciseVm.exercise : null;
+    const entries = exercise && Array.isArray(exercise.stepHelp) ? exercise.stepHelp : [];
+    const match = entries.find((entry) => entry.topic && entry.topic.id === topicId);
+    return match ? match.topic : null;
+  }
+
+  #renderStepHelpButton(exercise, step) {
+    const topic = this.#findStepHelpTopic(exercise, step);
+    if (!topic) return "";
+    return ` <button type="button" class="step-help-btn" data-step-help="${escapeHtml(topic.id)}" aria-haspopup="dialog" title="${escapeHtml(frenchTypography(topic.title))}">Détails</button>`;
+  }
+
+  #ensureHelpModal() {
+    if (this.helpModal) return this.helpModal;
+    const modal = document.createElement("div");
+    modal.className = "image-modal help-modal";
+    modal.hidden = true;
+    modal.setAttribute("aria-hidden", "true");
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    modal.setAttribute("aria-labelledby", "help-modal-title");
+    modal.innerHTML = `
+      <div class="help-modal-content">
+        <div class="help-modal-header">
+          <h2 id="help-modal-title" class="help-modal-title"></h2>
+          <button type="button" class="help-modal-close">Fermer</button>
+        </div>
+        <div class="help-modal-body"></div>
+      </div>
+    `;
+    modal.querySelector(".help-modal-close").addEventListener("click", () => this.closeHelpModal());
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) {
+        this.closeHelpModal();
+        return;
+      }
+      const image = event.target.closest(".help-modal-figure img");
+      if (image) image.classList.toggle("is-zoomed");
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape" || modal.hidden) return;
+      event.preventDefault();
+      event.stopPropagation();
+      this.closeHelpModal();
+    });
+    document.body.appendChild(modal);
+    this.helpModal = modal;
+    return modal;
+  }
+
+  openHelpModal(topic, trigger = null) {
+    if (!topic) return;
+    const modal = this.#ensureHelpModal();
+    modal.querySelector(".help-modal-title").textContent = frenchTypography(topic.title);
+
+    const parts = [];
+    if (topic.intro) {
+      parts.push(`<p class="help-modal-intro">${escapeHtml(frenchTypography(topic.intro)).replace(/\n/g, "<br>")}</p>`);
+    }
+    if (topic.steps.length) {
+      parts.push(`<ol class="help-modal-steps">${topic.steps
+        .map((step) => `<li>${escapeHtml(frenchTypography(step))}</li>`)
+        .join("")}</ol>`);
+    }
+    for (const image of topic.images || []) {
+      const caption = frenchTypography(image.caption || "");
+      parts.push(`
+        <figure class="help-modal-figure">
+          <img src="${escapeHtml(image.src)}" alt="${escapeHtml(caption || topic.title)}" title="Cliquer pour agrandir ou réduire" loading="lazy">
+          ${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}
+        </figure>
+      `);
+    }
+    if (topic.sourceUrl) {
+      let host = topic.sourceUrl;
+      try {
+        host = new URL(topic.sourceUrl).hostname.replace(/^www\./, "");
+      } catch (_error) {
+        // URL relative ou invalide : on affiche le texte tel quel.
+      }
+      parts.push(`<p class="help-modal-source">Source : <a href="${escapeHtml(topic.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(host)}</a></p>`);
+    }
+    const body = modal.querySelector(".help-modal-body");
+    body.innerHTML = parts.join("");
+    body.scrollTop = 0;
+
+    this.helpModalTrigger = trigger;
+    modal.hidden = false;
+    modal.setAttribute("aria-hidden", "false");
+    modal.querySelector(".help-modal-close").focus();
+  }
+
+  closeHelpModal() {
+    if (!this.helpModal || this.helpModal.hidden) return;
+    this.helpModal.hidden = true;
+    this.helpModal.setAttribute("aria-hidden", "true");
+    if (this.helpModalTrigger && typeof this.helpModalTrigger.focus === "function") {
+      this.helpModalTrigger.focus();
+    }
+    this.helpModalTrigger = null;
+  }
+
   #formatStepPlain(step) {
     const text = String(step || "").trim();
-    return escapeHtml(frenchColons(text)).replace(/\n/g, "<br>");
+    return escapeHtml(frenchTypography(text)).replace(/\n/g, "<br>");
   }
 
   #isParagraphOnlyExercise(exercise, steps) {
@@ -620,7 +749,7 @@ class AtelierView {
         role="tab"
         aria-selected="${index === this.activeExerciseTabIndex ? "true" : "false"}"
         tabindex="${index === this.activeExerciseTabIndex ? "0" : "-1"}"
-      >${escapeHtml(frenchColons(tab.title))}</button>
+      >${escapeHtml(frenchTypography(tab.title))}</button>
     `).join("");
     this.exerciseStepsTabs.innerHTML = `
       <div class="exercise-tab-list" role="tablist" aria-label="Variantes de l'exercice">${tabButtons}</div>
@@ -681,7 +810,7 @@ class AtelierView {
         .map((line) => String(line || "").trim())
         .filter(Boolean);
       const text = lines.length
-        ? lines.map((line) => formatStep(line)).join("<br>")
+        ? lines.map((line) => `${formatStep(line)}${this.#renderStepHelpButton(exercise, line)}`).join("<br>")
         : "Reproduisez le document en suivant l'énoncé.";
       this.exerciseSteps.classList.add("steps-paragraph-mode");
       this.exerciseSteps.innerHTML = `<p class="steps-paragraph-text">${text}</p>`;
@@ -756,7 +885,7 @@ class AtelierView {
         }
       }
 
-      items.push(`<li>${formatStep(line)}</li>`);
+      items.push(`<li>${formatStep(line)}${this.#renderStepHelpButton(exercise, line)}</li>`);
     }
 
     if (hasCopyBlock) this.exerciseSteps.classList.add("steps-has-copy");
