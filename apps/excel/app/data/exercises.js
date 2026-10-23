@@ -7100,7 +7100,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Format de cellule",
       "moduleNameClean": "Format de cellule",
       "num": 2,
-      "title": "Exercice pour mettre des valeurs au format monétaire dans Excel. Niveau Facile",
+      "title": "Format monétaire",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-2.html",
       "docxUrl": null,
@@ -7110,7 +7110,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-02-format-de-cellule/excel-ex-002-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice pour mettre des valeurs au format monétaire dans Excel. Niveau Facile",
+      "description": "Reproduisez le tableau et mettez les données chiffrées au format monétaire.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
