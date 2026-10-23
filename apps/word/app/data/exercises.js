@@ -10200,13 +10200,13 @@ window.WORD_ATELIER_DATA = {
       "pageUrl": "https://www.clic-formation.net/exercices-niveau-3/campagne-facebook.html",
       "level": 3,
       "levelLabel": "Intermédiaire",
-      "docxUrl": null,
+      "docxUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-007.docx",
       "imageEnonce": "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-007-image-enonce.webp",
       "imageResultat": "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-007-image-resultat.webp",
       "description": "Composez la page avec un tableau complexe, des colonnes et des zones de texte.",
       "consignes": [],
       "instructions": [
-        "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
+        "Fichiers : téléchargez le fichier de travail et les visuels, puis décompressez les images.",
         "Tableau : mettez en place un tableau de 5 lignes et 6 colonnes, bordures invisibles sur la première ligne.",
         "Colonnes : saut de section et mise en colonnes pour le texte central.",
         "Zones de texte : bords arrondis et fond gris ; dupliquez-les par copier-coller.",
@@ -10235,7 +10235,9 @@ window.WORD_ATELIER_DATA = {
         "Saut de section et mis en colonne pour le texte central.",
         "Insertion de zones de texte avec bords arrondis et fond gris (copier-coller indispensable pour dupliquer les zones).",
         "Insertion de forme (flèche)."
-      ]
+      ],
+      "downloadUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-007-annexe-1.zip",
+      "downloadLabel": "Télécharger les visuels"
     },
     {
       "id": "ex-204",
