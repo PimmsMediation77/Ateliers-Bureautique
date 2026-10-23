@@ -12990,7 +12990,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Macro",
       "moduleNameClean": "Macro",
       "num": 4,
-      "title": "Exercice 4",
+      "title": "Réaliser une macro",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/macro/exercice-4-macro.html",
       "docxUrl": "data/assets/excel/avance-macro/excel-ex-004.xlsx",
@@ -13000,7 +13000,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Exercice 4",
+      "description": "Créez un récapitulatif de réservations avec des macros de modification rapide.",
       "preamble": "",
       "instructions": [
         "Vous pouvez télécharger le fichier de travail ci-contr e.",
