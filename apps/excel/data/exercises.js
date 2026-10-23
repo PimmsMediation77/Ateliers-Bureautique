@@ -17143,7 +17143,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Cas Fiche Horticole",
+      "description": "Créez une fiche de renseignements dynamique avec noms, listes déroulantes et INDIRECT.",
       "preamble": "",
       "instructions": [
         "le NOMMAGE DE CELLULE.",
