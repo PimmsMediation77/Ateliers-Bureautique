@@ -9655,7 +9655,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-005-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Supprimer les doublons",
+      "description": "Supprimez les doublons de noms et de prénoms avec l'outil Supprimer les doublons.",
       "preamble": "",
       "instructions": [
         "Vous pouvez télécharger le fichier ici.",
