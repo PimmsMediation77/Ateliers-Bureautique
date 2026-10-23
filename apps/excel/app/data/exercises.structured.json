@@ -16756,7 +16756,7 @@
       "imageResultat": "data/assets/excel/complets-03-cas-fiche-clients-garage/excel-ex-001-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Cas Fiche Clients garage",
+      "description": "Créez une fiche client remplie par RECHERCHEX, avec un rappel de vidange calculé par SI et ET.",
       "preamble": "Cet exercice met en place une fiche client qui, à l'aide d'une liste de choix, se remplit avec les renseignements du tableau des clients grâce à RECHERCHEX. Les fonctions SI et ET déterminent si le garage doit effectuer un rappel pour la vidange.",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les feuilles liste_clients et fiche.",
