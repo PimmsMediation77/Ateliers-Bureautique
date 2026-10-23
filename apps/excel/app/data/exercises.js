@@ -7876,7 +7876,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Référence absolue",
       "moduleNameClean": "Référence absolue",
       "num": 7,
-      "title": "Calcul de part de marché sur un ensemble de valeur",
+      "title": "Valeur absolue - Part de marché",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-7-valeur-absolue.html",
       "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-007.xlsx",
@@ -7886,7 +7886,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-03-reference-absolue/excel-ex-007-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Calcul de part de marché sur un ensemble de valeur",
+      "description": "Calculez des parts de marché et propagez la formule avec la poignée de recopie.",
       "preamble": "",
       "instructions": [
         "Reproduisez le tableau ci-dessous ou téléchargez-le ici.",
