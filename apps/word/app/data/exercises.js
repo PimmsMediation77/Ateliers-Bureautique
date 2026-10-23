@@ -7926,8 +7926,8 @@ window.WORD_ATELIER_DATA = {
       "level": 4,
       "levelLabel": "🔴 Expert ⭐⭐⭐⭐",
       "docxUrl": "data/assets/word/m25-document-long/word-ex-007.docx",
-      "imageEnonce": "data/assets/word/avance-25-document-long/word-ex-007-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/word/avance-25-document-long/word-ex-007-image-enonce.jpg",
       "description": "",
       "consignes": [],
       "instructions": [
@@ -7942,9 +7942,7 @@ window.WORD_ATELIER_DATA = {
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/word/avance-25-document-long/word-ex-007-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/word/avance-25-document-long/word-ex-007-image-enonce.jpg"
         ]
