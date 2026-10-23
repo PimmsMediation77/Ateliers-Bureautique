@@ -16820,7 +16820,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Cas Formulaire de saisie",
+      "description": "Créez un formulaire de saisie qui alimente un tableau, avec RECHERCHEX, validation des données et macro.",
       "preamble": "Cet exercice met en place une fiche de saisie qui alimente un tableau récapitulatif, avec RECHERCHEX, la validation des données et l'enregistrement d'une macro.",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient trois feuilles : SAISIE (le formulaire), TABLEAU (les données collectées) et LISTE (les listes prédéfinies).",
