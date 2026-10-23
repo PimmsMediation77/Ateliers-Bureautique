@@ -10047,7 +10047,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-001-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Lier des feuilles de calculs",
+      "description": "Rapatriez dynamiquement les résultats de 4 trimestres sur une feuille récapitulative.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les feuilles T1, T2, T3, T4 (Béziers, Montpellier, Sète) et la feuille Recapitulatif.",
