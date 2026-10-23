@@ -12400,17 +12400,17 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Consolidation",
       "moduleNameClean": "Consolidation",
       "num": 4,
-      "title": "Exercice 4",
+      "title": "La consolidation dans Excel",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-4.html",
       "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-004-image-enonce.gif",
-      "imageResultat": null,
+      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-004-scrape-enonce-2.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 4",
+      "description": "Consolidez les trois tableaux de la feuille énoncé dans une nouvelle feuille.",
       "preamble": "",
       "instructions": [
         "Dans une feuille supplémentaire, vous insérez un tableau qui va faire la \"consolidation\" des trois tableaux de la feuille énoncée.",
@@ -12427,11 +12427,10 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-11-consolidation/excel-ex-004-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-004-scrape-enonce-1.gif",
-          "data/assets/excel/avance-11-consolidation/excel-ex-004-scrape-enonce-2.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-004-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-004-image-enonce.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-004-scrape-enonce-2.gif"
         ]
       },
       "section": "avance",
