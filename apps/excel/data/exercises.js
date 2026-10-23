@@ -7984,7 +7984,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Référence absolue",
       "moduleNameClean": "Référence absolue",
       "num": 9,
-      "title": "Répercuter un calcul sur plusieurs cellules avec la valeur absolue",
+      "title": "Valeur absolue - Répercuter un calcul",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-9-valeur-absolue.html",
       "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-009.xlsx",
@@ -7994,7 +7994,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-03-reference-absolue/excel-ex-009-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Répercuter un calcul sur plusieurs cellules avec la valeur absolue",
+      "description": "Répercutez un calcul sur plusieurs cellules avec une référence absolue.",
       "preamble": "",
       "instructions": [
         "La colonne G est une addition simple.",
