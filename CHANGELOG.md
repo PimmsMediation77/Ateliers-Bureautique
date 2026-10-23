@@ -2,6 +2,47 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.40.0](///compare/v0.1.27...v1.40.0) (2026-10-23)
+
+
+### Features
+
+* **assets:** servir les telechargements depuis GitHub Pages 211612e
+* **pages:** ajouter l'apercu local du site sous /Ateliers-Bureautique 4973495
+* **releases:** vue utilisateur compacte et alias do rel cdda5ee
+* **ui:** ajouter les fiches d'aide « Détails » sur les étapes d'exercice b80b46b
+
+
+### Bug Fixes
+
+* **assets:** disambiguate controles formulaire download names 8f0b9c6
+* **assets:** remap Google Drive download links 59a1209
+* **excel:** clarifier l'exercice formulaire de saisie et retirer l'annexe inadaptée 7420314
+* **excel:** clarifier les étapes et critères des exercices de mise en forme 3 à 6 ad874bf
+* **excel:** corriger les fichiers et étapes des exercices insertion de cellules et sélection non contiguë 62b09bd
+* **excel:** relier chaque série de saisie à son image avec des onglets ad05de9
+* **excel:** relier l'étape bouton formulaire à sa fiche d'aide 477ef5d
+* **excel:** retirer le fichier inadapté et détailler les étapes de saisie du tableau simple f8e4a04
+* **excel:** retirer le fichier inadapté et détailler les étapes de saisie et mise en couleur 2fb66e4
+* **excel:** retirer les fichiers inadaptés et détailler les étapes des exercices de mise en forme 172b1db
+* **excel:** retirer les fichiers inadaptés et réécrire les étapes des exercices de sélection 0871cd6
+* **exercises:** apply coherence revision for Excel and PowerPoint ece0a7b
+* **exercises:** interpret enonces without forcing downloads 175b928
+* **exercises:** restore missing download assets for ex-043 ex-098 ex-115 and excel-ex-169 840f366
+* **exercises:** restore missing expected visuals and add integrity tests d910948
+* **feedback:** accents, cas du fichier existant et options côte à côte avec icônes 88d24f1
+* **feedback:** consignes d'enregistrement pas à pas pour débutants e374797
+* **powerpoint:** aligner assets et consignes sur les sources clic-formation 53003aa
+* **powerpoint:** démarrer ex-001 sur PPT vierge sans fichier de travail 74f729d
+* **ui:** afficher les titres d'étape sur une seule ligne 3c1130b
+* **ui:** appliquer la typographie française autour des deux-points 6eacbe4
+* **viewer:** ameliorer bouton Dezoomer et retablir le pan a la main 155b4c8
+* **viewer:** legende au-dessus, bouton Dezoomer et libelles de telechargement edcd708
+* **word:** détaille les étapes de l'exercice Gérer les documents 1 0f48363
+* **word:** réécrire les étapes et critères de l'exercice mise en forme d'un courrier 3526185
+* **word:** séparer consignes et critères de réussite de l'exercice raccourci clavier bd046a6
+* **word:** séparer consignes et critères de réussite des exercices aligner du texte et paragraphes 160ef84
+
 ## [1.39.0](///compare/v0.1.27...v1.39.0) (2026-10-23)
 
 
