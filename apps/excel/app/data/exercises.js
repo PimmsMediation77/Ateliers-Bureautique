@@ -1394,7 +1394,7 @@ window.EXCEL_ATELIER_DATA = {
         "Couleurs : colorez une première paire de cellules (par exemple C4:C5 en jaune), puis dupliquez cette couleur avec le pinceau ou le copier-coller sur les autres cellules en diagonale (D6:D7, E8:E9…). Faites de même pour l'orange, le vert et le bleu, comme sur le résultat attendu.",
         "Texte : mettez les jours, les heures, « Avant », « Après » et « Fin » en gras, puis centrez-les."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/format-embelissement/format-embelissement-1.html",
@@ -1466,7 +1466,7 @@ window.EXCEL_ATELIER_DATA = {
         "Astuce : la fenêtre Format de cellule s'ouvre aussi avec Ctrl+Maj+F ou avec le petit lien en bas à droite du groupe « Police ».",
         "Dupliquer : copiez chaque mise en forme sur les autres cellules « Oui » et « Ballotage » de la même colonne avec le pinceau (double-clic pour l'appliquer plusieurs fois, Échap pour arrêter)."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/format-embelissement/format-embelissement-2.html",
@@ -1596,7 +1596,7 @@ window.EXCEL_ATELIER_DATA = {
         "Couleurs et titres : ajoutez les couleurs de fond des deux groupes, puis mettez « Batiments » et « Espaces verts » en gras italique au-dessus de leurs colonnes.",
         "Hauteur de ligne : agrandissez la ligne 2 pour que les en-têtes inclinés soient entièrement visibles."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/format-embelissement/format-embelissement-4.html",
@@ -1659,7 +1659,7 @@ window.EXCEL_ATELIER_DATA = {
         "Premier bloc : mettez en forme B2:C3 avec une couleur de fond, le texte centré en gras, des bordures intérieures fines et un cadre épais. La bordure interne n'a pas la même épaisseur que le cadre.",
         "Pinceau : reproduisez cette mise en forme sur les 8 autres blocs avec le pinceau (double-clic pour l'appliquer plusieurs fois, Échap pour arrêter), puis changez seulement la couleur de fond de chaque bloc."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/format-embelissement/format-embelissement-5.html",
@@ -1782,7 +1782,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous créez ce style avec la fonctionnalité \"Nouveau style de cellule\".",
         "Dans la capture écran, c'est ce qu'il vous faut reproduire."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/format-embelissement/format-embelissement-7.html",
@@ -1913,7 +1913,7 @@ window.EXCEL_ATELIER_DATA = {
           ]
         }
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/format-embelissement/format-embelissement-8.html",
@@ -1984,7 +1984,7 @@ window.EXCEL_ATELIER_DATA = {
         "Les couleurs sont à mettre en place avec l'outil \"reproduction de mis en forme\".",
         "Respecter les couleurs à peu près."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/format-embelissement/format-embelissement-9.html",
@@ -2188,7 +2188,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous groupez les 3 éléments à droite.",
         "Vous utilisez l'insertion de formes pour les bandeaux et les flèches. Vous respectez les couleurs de remplissage et bordure."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/integrer-une-image/exercice-3.html",
@@ -2248,7 +2248,7 @@ window.EXCEL_ATELIER_DATA = {
         "SmartArt 2 : Insertion > SmartArt > Cycle > Engrenages.",
         "SmartArt 3 : réalisez une présentation originale avec un SmartArt, en vous inspirant du modèle."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/integrer-une-image/exercice-4.html",
@@ -2529,7 +2529,7 @@ window.EXCEL_ATELIER_DATA = {
         "Copier l'ensemble et coller en D1 et G1.",
         "Insérer 1 et 2, 6 et 7, 11 et 12 et tirer vers le bas à chaque fois."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/poignee-de-recopie/exercice-2-poignee-de-recopie.html",
@@ -2601,7 +2601,7 @@ window.EXCEL_ATELIER_DATA = {
         "Sélectionner B2 et C2 : tirer vers la droite jusqu'à 50%.",
         "En B3, vous trouvez la formule qui va calculer les montants verticalement puis horizontalement (une seule saisie donc en B3) avec la poignée de recopie."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/poignee-de-recopie/exercice-3-poignee-de-recopie.html",
@@ -2801,7 +2801,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous réalisez le tableau ci-dessous.",
         "En saisissant 8 cellules avec le bon format de cellule, ça devrait suffire…c'est parti !!"
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/poignee-de-recopie/exercice-6-poignee-de-recopie.html",
@@ -2920,7 +2920,7 @@ window.EXCEL_ATELIER_DATA = {
         "Étape 3 : Vous allez dans le menu fichier --> Options --> Options avancées --> Modifier les listes personnalisées --> Vous validez la proposition d'Excel.",
         "Étape 4 : Sur une feuille vierge, vous saisissez un pays au hasard, vous tirez vers le bas avec la poignée de recopie."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/poignee-de-recopie/exercice-8-liste-personnalisable.html",
@@ -2988,7 +2988,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vue page web.",
         "Vue Excel après le bloc-note."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/poignee-de-recopie/exercice-9-liste-personnalisable.html",
@@ -3186,7 +3186,7 @@ window.EXCEL_ATELIER_DATA = {
         "Reproduisez le tableau ci-dessous ou téléchargez-le.",
         "Remplissez les cellules bleues. Addition ou fonction SOMME, au choix."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/addition/exercices-2-addition.html",
@@ -3244,7 +3244,7 @@ window.EXCEL_ATELIER_DATA = {
         "Pour les titres de colonnes Format cellules alignements vertical et horizontal centrés pour les libellés de la colonne A utilisé les icônes d'alignement du texte.",
         "Présenter le titre : Fusionner et centrer les cellules A1 à E1."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/addition/exercices-3-addition.html",
@@ -3369,7 +3369,7 @@ window.EXCEL_ATELIER_DATA = {
         "Reproduisez le tableau ci-dessous ou téléchargez-le.",
         "Le signe indique quel type d'opération est à faire dans la cellule."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/addition/exercices-5-addition.html",
@@ -3423,7 +3423,7 @@ window.EXCEL_ATELIER_DATA = {
         "T éléchargez votre fichier de travail ici.",
         "Toutes les cellules bleues sont à compléter avec une addition ou la fonction SOMME. La poignée de recopie ou le copier-coller peut accélérer considérablement la manœuvre !!"
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/addition/exercices-6-addition.html",
@@ -3480,7 +3480,7 @@ window.EXCEL_ATELIER_DATA = {
         "Ci-dessous un indice sérieux pour la cellule C10.",
         "À tenter avant de regarder :)."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/addition/exercices-7-addition.html",
@@ -3545,7 +3545,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/addition/exercices-8-addition.html",
@@ -3621,7 +3621,7 @@ window.EXCEL_ATELIER_DATA = {
         "D31 : Addition.",
         "D33 : Soustraction."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/addition/exercices-9-addition.html",
@@ -3704,7 +3704,7 @@ window.EXCEL_ATELIER_DATA = {
         "bien sûr.",
         "tenter le copier-coller sur les tableaux alignés horizontalement."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/addition/exercices-10-addition.html",
@@ -3904,7 +3904,7 @@ window.EXCEL_ATELIER_DATA = {
         "Utiliser poignée de recopie horizontale en B25.",
         "Utiliser poignée de recopie horizontale en C24."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/soustraction/exercice-3-soustraction.html",
@@ -4424,7 +4424,7 @@ window.EXCEL_ATELIER_DATA = {
         "Consignes :.",
         "Calculez les intérêts composés par l'investissement initial et le taux d'intérêt."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/multiplication/exercice-4-multiplication.html",
@@ -4478,7 +4478,7 @@ window.EXCEL_ATELIER_DATA = {
         "Consignes :.",
         "Les cellules C12-F13 sont à calculer en faisant le produit du nombre de formules vendues et du prix de chaque formule."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/multiplication/exercice-5-multiplication.html",
@@ -4533,7 +4533,7 @@ window.EXCEL_ATELIER_DATA = {
         "La colonne D est à remplir avec les valeurs des cellules E1.",
         "La colonne E est à calculer avec une addition et l'utilisation de la valeur absolue."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/multiplication/exercice-6-multiplication.html",
@@ -4593,7 +4593,7 @@ window.EXCEL_ATELIER_DATA = {
         "D10-D21 affiche le coût en euros via une multiplication.",
         "C22-D22 affiche les totaux des colonnes via SOMME."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/multiplication/exercice-7-multiplication.html",
@@ -4785,7 +4785,7 @@ window.EXCEL_ATELIER_DATA = {
         "en fonction d'un budget en € courants et de l'indice des prix.",
         "(Pour une partie de la réponse de la ligne 4 l'indice des prix est à diviser par 100)."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/division/exercice-3-division.html",
@@ -4917,7 +4917,7 @@ window.EXCEL_ATELIER_DATA = {
         "Salaires du personnel : + 2,5 % par rapport à 2006.",
         "Charges de personnel : augmentation de 3% par rapport à 2006."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/division/exercice-5-division.html",
@@ -5039,7 +5039,7 @@ window.EXCEL_ATELIER_DATA = {
         "La prime sur le chiffre d’affaires s’élève à 2%, la commission à partager chaque mois est de 2000 €.",
         "Chiffres d'affaires :."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/division/exercice-6-division.html",
@@ -5110,7 +5110,7 @@ window.EXCEL_ATELIER_DATA = {
         "B16 et B24 une SOMME.",
         "C12:C15 et C20:C23 soustraction et division."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/division/exercice-7-division.html",
@@ -5170,7 +5170,7 @@ window.EXCEL_ATELIER_DATA = {
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient, pour chaque machiniste, le nombre d'objets confectionnés et le temps de réalisation d'un objet en minutes.",
         "Rendement : en D3:D21, calculez par division le rendement en objets à l'heure. Attention : le temps est donné en minutes (une heure = 60 minutes)."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/division/exercice-8-division.html",
@@ -5477,7 +5477,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous calculez l'évolution des parts de marché des différentes chaînes entre les deux années.",
         "En colonne C et E, vous devrez bloquer une série de cellules pour tirer la poignée de recopie vers le bas."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/pourcentage/exercice-4-pourcentage.html",
@@ -5533,7 +5533,7 @@ window.EXCEL_ATELIER_DATA = {
         "Total : calculez le total de chaque secteur sur les 4 trimestres.",
         "Pourcentage : calculez la part de chaque secteur dans le total général."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/pourcentage/exercice-5-pourcentage.html",
@@ -5597,7 +5597,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous imaginez le calcul qui vous permettra de connaitre l'évolution de la consommation par mois par rapport à la consommation globale du trimestre.",
         "Deux chiffres après la virgule et format pourcentage requis."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/pourcentage/exercice-6-pourcentage.html",
@@ -5672,7 +5672,7 @@ window.EXCEL_ATELIER_DATA = {
         "Quelle est la surface occupée par les océans sachant que la surface de la terre est de 509,6 millions de km² ?",
         "Résultat attendu :."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/pourcentage/exercice-7-pourcentage.html",
@@ -5800,7 +5800,7 @@ window.EXCEL_ATELIER_DATA = {
         "Question 9 - Si le coût d'un produit passe de 30 euros en janvier à 48 euros en juin :.",
         "Quel est le pourcentage de l’augmentation de janvier à juin ?"
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/pourcentage/exercice-8-pourcentage.html",
@@ -5972,7 +5972,7 @@ window.EXCEL_ATELIER_DATA = {
         "Ventes : créez un graphique en cylindres ou cônes 3D.",
         "Charges et Rubriques : reproduisez les graphiques du résultat attendu."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/graphiques1/exercice-2-graphique.html",
@@ -6045,7 +6045,7 @@ window.EXCEL_ATELIER_DATA = {
         "Dans un premier temps, vous effectuez les calculs dans les tableaux.",
         "Dans un second temps, vous créez les graphiques conformément aux consignes. Vous pouvez également consulter les \"résultats attendus\"."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/graphiques1/exercice-3-graphique.html",
@@ -6115,7 +6115,7 @@ window.EXCEL_ATELIER_DATA = {
         "Pour les utilisateurs d'Excel 2016 et plus, représenter l'écart entre 2007 et 2015.",
         "Afficher les étiquettes en taille 28 et afficher les valeurs."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/graphiques1/exercice-4-graphique.html",
@@ -6210,7 +6210,7 @@ window.EXCEL_ATELIER_DATA = {
         "Recherche : insérez des fonctions de recherche (RECHERCHEV ou RECHERCHEX) pour obtenir les données du commercial choisi.",
         "Graphique dynamique : faites le graphique à partir de ce tableau ; il change selon le choix dans la liste. Couleur et effet au choix."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/graphiques1/exercice-5-graphique.html",
@@ -6325,7 +6325,7 @@ window.EXCEL_ATELIER_DATA = {
         "vous proposez l'insertion d'un graphique en \"radar\" pour illustrer les notes des élèves de cette classe.",
         "Vous augmenterez la taille de la police et appliquez un léger relief aux traces."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/graphiques1/exercice-7-graphique-excel.html",
@@ -6384,7 +6384,7 @@ window.EXCEL_ATELIER_DATA = {
         "ou combinant un histogramme et une courbe.",
         "Vous afficherez les étiquettes de données en décaler pour les ventes."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/graphiques1/exercice-8-graphique-excel.html",
@@ -6450,7 +6450,7 @@ window.EXCEL_ATELIER_DATA = {
         "La procédure est détaillée ci-dessous soit via quelques indices si vous êtes à l'aise avec les graphiques.",
         "soit via une vidéo si vous l'êtes moins."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Expert",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/graphiques1/exercice-9-graphique-excel.html",
@@ -6521,7 +6521,7 @@ window.EXCEL_ATELIER_DATA = {
         "Établir un tableau de correspondance, faire une recherche des valeurs dans ce tableau et créer le tableau avec le résultat de cette recherche.",
         "Vous pouvez masquer ces colonnes pour une meilleure présentation."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Expert",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/graphiques1/exercice-10-graphique-excel.html",
@@ -6754,7 +6754,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous visualisez les sauts de pages dans le bloc \"Mode d'affichage\".",
         "PS : Pour tester votre travail, vous utilisez l'option \"microsoft print to PDF\"."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/impression/exercice-3-impression-classeur-excel.html",
@@ -6872,7 +6872,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/impression/exercice-5-impression-classeur-excel.html",
@@ -6937,7 +6937,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous préparez une impression personnalisée \"Ajuster la feuille à une page\" et sans marge.",
         "Le bloc mise en page vous permettra d'insérer l'arrière-plan."
       ],
-      "levelLabel": "Debutant",
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/impression/exercice-6-impression-classeur-excel.html",
@@ -7181,7 +7181,7 @@ window.EXCEL_ATELIER_DATA = {
         "Formule : en C2, saisissez =B2 puis recopiez vers le bas.",
         "Format personnalisé : appliquez le format \"jjjj\" (Format de cellule > Personnalisée) pour afficher le jour de naissance."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/format-de-celulle/exercice-3-format-de-cellule-excel.html",
@@ -7246,7 +7246,7 @@ window.EXCEL_ATELIER_DATA = {
         "Format Km/h : affichez la vitesse au format \"XXX Km/h\" avec un format personnalisé.",
         "Format ans : sur la 2e feuille, affichez les âges avec le mot « ans » (par exemple 52 ans pour Jean)."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/format-de-celulle/exercice-4-format-de-cellule-excel.html",
@@ -7367,7 +7367,7 @@ window.EXCEL_ATELIER_DATA = {
         "Séparation tous les deux chiffres pour le téléphone.",
         "Date en chiffre pour la date courte et date en lettre pour la date longue."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/format-de-celulle/exercice-6-format-de-cellule-excel.html",
@@ -7424,7 +7424,7 @@ window.EXCEL_ATELIER_DATA = {
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient des dates et le format à obtenir pour chacune.",
         "Formats DATE : dans les cellules bleues, appliquez les formats de cellule personnalisés pour afficher les dates comme sur la capture. La colonne B renferme des indices sérieux…"
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/format-de-celulle/exercice-7-format-de-cellule-excel.html",
@@ -8069,7 +8069,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/reference-absolue/exercice-10-valeur-absolue.html",
@@ -8442,7 +8442,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/tri/exercice-7-tri-filtre.html",
@@ -8520,7 +8520,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu (exercice 2) :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/tri/exercice-5-tri-filtre.html",
@@ -8585,7 +8585,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/tri/exercice-6-tri-filtre.html",
@@ -8667,7 +8667,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Expert",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/tri/exercice-8-tri-filtre.html",
@@ -8774,7 +8774,7 @@ window.EXCEL_ATELIER_DATA = {
         "Par exemple pour la Croatie le résultat sera 3 pour le nombre de villes de plus de 100 000 habitants et 1097843 pour le nombre d'habitants.",
         "Les icônes sont à trouver dans le menu Insertion-->Illustrations-->Icônes."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/tri/exercice-9-segment.html",
@@ -9604,7 +9604,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous limitez la saisie des cellules à une valeur comprise entre 10 et 20.",
         "En cas d'erreur le message suivant apparait :\"Entre 10 € et 20 € ce n'est pas compliqué quand même !!\"."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/validation-des-donnees/exercice-4-validation-des-donnees.html",
@@ -9990,7 +9990,7 @@ window.EXCEL_ATELIER_DATA = {
         "Étape 4 En D2 vous CONCATENER A2 et B2 avec un texte de votre choix. Voir l'exemple ci-dessous si vous êtes en manque d'inspiration.",
         "Étape 5 en prime, vous insérez un message d'aie ou d'alerte à la sélection dans les listes."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/validation-des-donnees/exercice-10-listes-deroulantes-en-cascade.html",
@@ -10054,7 +10054,7 @@ window.EXCEL_ATELIER_DATA = {
         "Trimestres : calculez les feuilles T1, T2, T3 et T4.",
         "Récapitulatif : rapatriez les résultats de chaque trimestre sur la feuille « Recapitulatif » de façon dynamique (formule =T1!cellule)."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-1.html",
@@ -10178,7 +10178,7 @@ window.EXCEL_ATELIER_DATA = {
         "Bouton Appareil photo : clic droit dans le ruban > Personnaliser le ruban > Commandes non présentes dans le ruban > Appareil photo, puis ajoutez-le.",
         "Capture dynamique : sélectionnez chaque tableau, cliquez sur Appareil photo et collez la photo sur un nouvel onglet regroupant les trois tableaux."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-3.html",
@@ -10244,7 +10244,7 @@ window.EXCEL_ATELIER_DATA = {
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les feuilles vue d'ensemble, Lyon Sud et Lyon Nord.",
         "Lyon Sud : depuis la feuille « Lyon Sud », rapatriez dynamiquement les valeurs du tableau Lyon Sud de la feuille « vue d'ensemble »."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-4.html",
@@ -10302,7 +10302,7 @@ window.EXCEL_ATELIER_DATA = {
         "En d'autre terme.",
         "ce que vous saisissez dans la feuille carnet doit se répercuter automatiquement sur les autres feuilles du classeur."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-5.html",
@@ -10365,7 +10365,7 @@ window.EXCEL_ATELIER_DATA = {
         "Collage spécial.",
         "Transposé."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-6.html",
@@ -10429,7 +10429,7 @@ window.EXCEL_ATELIER_DATA = {
         "Pour simplifier le travail (si nécessaire) il existe déjà un bouton dans le fichier de travail. Il suffit donc de le dupliquer sur les différentes feuilles. Vous pouvez également créer vos propres boutons.",
         "Techniquement, il sera possible d'aller depuis la page d'accueil vers n'importe quelle page et revenir à l'accueil depuis n'importe quelle page."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-7.html",
@@ -10487,7 +10487,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous pouvez au choix utiliser le clic droit copier-coller avec liaison ou utiliser directement une formule de type : ='Chemin_du_fichier\\[region-est.xlsx]tableau'!E5.",
         "Si vous utilisez la poignée de recopie et le clic droit, pensez à retirer le $ de la valeur absolue. Ceci depuis la ligne 4."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-8.html",
@@ -10817,7 +10817,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-5-nommer-cellule.html",
@@ -10891,7 +10891,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-6-nommer-cellule.html",
@@ -10973,7 +10973,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-7-nommer-cellule.html",
@@ -11062,7 +11062,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-8-nommer-cellule.html",
@@ -11154,7 +11154,7 @@ window.EXCEL_ATELIER_DATA = {
         "À l'issue de cette étape il faut appeler la zone nommée dans la barre de formules comme dans l'exemple ci-dessous.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Expert",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-9-nommer-cellule.html",
@@ -11273,7 +11273,7 @@ window.EXCEL_ATELIER_DATA = {
         "Chiffre d'affaires par mois et par appellation pour chaque région.",
         "Modifiez le tableau 1 pour obtenir la répartition en pourcentage de votre chiffre d'affaires."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/fonctions-base-de-donnees/tableau-croise-dynamique-1.html",
@@ -11342,7 +11342,7 @@ window.EXCEL_ATELIER_DATA = {
         "Chiffre d'affaires par origine et faire une représentation graphique.",
         "Vous insérez une \"chronologie\" pour évaluer le nombre de dates dernières nuitées en fonction de l'année."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-2-tcd.html",
@@ -11424,7 +11424,7 @@ window.EXCEL_ATELIER_DATA = {
         "Nombre de salariés avec distinction homme/femme.",
         "Pour chaque sexe et par site, trouver le nombre de personnes."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-3-tcd.html",
@@ -11513,7 +11513,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous présentez un graphique pour présenter la répartition des ventes par villes en pourcentage.",
         "Résultat attendu :."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-4-tcd.html",
@@ -11606,7 +11606,7 @@ window.EXCEL_ATELIER_DATA = {
         "Feuille 4.",
         "Le CA en pourcentage des sections."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-5-tcd.html",
@@ -12179,7 +12179,7 @@ window.EXCEL_ATELIER_DATA = {
         "par type de panne.",
         "par durée."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/sous-totaux/exercice-4.html",
@@ -12297,7 +12297,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/consolidation/exercice-2.html",
@@ -12357,7 +12357,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/consolidation/exercice-3.html",
@@ -12417,7 +12417,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/consolidation/exercice-4.html",
@@ -12477,7 +12477,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/consolidation/exercice-5.html",
@@ -12540,7 +12540,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/consolidation/exercice-6.html",
@@ -12605,7 +12605,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/consolidation/exercice-7.html",
@@ -12667,7 +12667,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/consolidation/exercice-8.html",
@@ -13696,7 +13696,7 @@ window.EXCEL_ATELIER_DATA = {
         "il vous faudra faire l'exercice sur la feuille REQUETE.",
         "CONSIGNES :."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/controles-de-formulaire/exercice-4-bouton-radio.html",
@@ -13774,7 +13774,7 @@ window.EXCEL_ATELIER_DATA = {
         "> Vous déplacez la zône SUR ou A COTE de J2 et vous habillez, dans l'exemple: une loupe pour symboliser la recherche, une courte explication sur le type recherche et une zone de texte au couleur du reste.",
         "Pensez à désactiver le mode création dans l'onglet développeur."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/activex/exercice-1-activex.html",
@@ -13858,7 +13858,7 @@ window.EXCEL_ATELIER_DATA = {
         "En J3:L7, vous calculez le CA par produit et par ville grâce à l'outil matrice.",
         "En B10, vous calculez le CA total grâce à l'outil matrice."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/calcul-matriciel/exercice-calcul-matriciel-1.html",
@@ -13912,7 +13912,7 @@ window.EXCEL_ATELIER_DATA = {
         "Cellule B20:D24, vous déployez un calcul matriciel pour remplir le tableau.",
         "Colonne E et ligne 25 : SOMME classique."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/calcul-matriciel/exercice-calcul-matriciel-2.html",
@@ -13966,7 +13966,7 @@ window.EXCEL_ATELIER_DATA = {
         "CONSIGNES :.",
         "Avec un calcul matriciel, vous présentez le bilan mensuel de production de la Ferme du Caroux."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/calcul-matriciel/exercice-calcul-matriciel-3.html",
@@ -14024,7 +14024,7 @@ window.EXCEL_ATELIER_DATA = {
         "F4 : 4 fonctions SI Imbriquées.",
         "B7:C15 Petite révision : Avec la mise en forme conditionnelle, faire sortir les valeurs hors fourchette en police blanche et fond de cellule rouge."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/calcul-matriciel/exercice-calcul-matriciel-4.html",
@@ -14100,7 +14100,7 @@ window.EXCEL_ATELIER_DATA = {
         "L'ensemble du document constitue un seul fichier, puisqu'il sera diffusé par courrier électronique. Toutefois, pour permettre le contrôle de votre production, vous demanderez l'impression des tarifs sur une 2ᵉ page.",
         "Vous respecterez les consignes de travail portées sur les documents. NB : le formulaire auquel il est fait référence dans le texte, n'est pas à présenter."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul11-word/wi-tool.html",
@@ -14195,7 +14195,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous réalisez les deux documents en respectant les consignes de travail indiquées.",
         "Chaque document doit tenir sur une page (format A4)."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul11-word/electra.html",
@@ -14276,7 +14276,7 @@ window.EXCEL_ATELIER_DATA = {
         "le document indiquant les avantages et tarifs correspondant au parcours Concerts (format A4).",
         "l'imprimé qui permettra d'obtenir le programme 2009-2010 (format A5)."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul11-word/cas-cite-des-concerts.html",
@@ -14338,7 +14338,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous disposez de tous les moyens graphiques (gras, soulignement, couleur) pour répondre aux mises en valeur demandées.",
         "Voir le sujet :."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul11-word/cas-union-des-commercants.html",
@@ -14430,7 +14430,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous disposez de tous les moyens graphiques (gras, soulignement, couleur) pour répondre aux mises en valeur demandées.",
         "Voir le sujet:."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul11-word/cas-novatix.html",
@@ -14523,7 +14523,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous disposez de tous les moyens graphiques (gras, soulignement, couleur) pour répondre aux mises en valeur demandées.",
         "Voir le sujet :."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul11-word/cas-super-print.html",
@@ -14612,7 +14612,7 @@ window.EXCEL_ATELIER_DATA = {
         "Vous utilisez tous les moyens graphiques dont vous disposez (gras, soulignement, éventuellement couleur) pour répondre aux mises en valeur demandées. Chaque document doit tenir sur un format A4.",
         "Voir le sujet :."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul11-word/cas-credit-top.html",
@@ -14701,7 +14701,7 @@ window.EXCEL_ATELIER_DATA = {
         "Chaque document doit tenir sur un format A4.",
         "Voir le sujet :."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul11-word/cas-logique-bio.html",
@@ -14799,7 +14799,7 @@ window.EXCEL_ATELIER_DATA = {
         "Éditer pour chaque négociation.",
         "Éditer l'ensemble des formules (et si des noms existent, la liste correspondante) avec les en-têtes de lignes et de colonnes (Taille minimum de police à 10)."
       ],
-      "levelLabel": "Avance",
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/enveloppe.html",
@@ -14895,7 +14895,7 @@ window.EXCEL_ATELIER_DATA = {
         "Les conditions de ristourne sont contractuelles : pour l'entreprise, la ristourne représente un pourcentage fixe du chiffre d'affaires.",
         "Son calcul est indépendant et fera l'objet d'un document commercial à part entière."
       ],
-      "levelLabel": "Avance",
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/nett-industrie.html",
@@ -14960,7 +14960,7 @@ window.EXCEL_ATELIER_DATA = {
         "si le % atteint 85 % la ligne est rentable ;.",
         "en dessous l'entreprise pratiquera une surveillance à plus long terme."
       ],
-      "levelLabel": "Avance",
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/bustop.html",
@@ -15061,7 +15061,7 @@ window.EXCEL_ATELIER_DATA = {
         "La solution est donnée à titre indicatif et ne respecte pas forcément les exigences du sujet en ce qui concerne la mise en page.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-com-un-parfum.html",
@@ -15241,7 +15241,7 @@ window.EXCEL_ATELIER_DATA = {
         "Règle de gestion.",
         "Classement= rang des Médailles Or dans la liste de référence."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-vancouver.html",
@@ -15342,7 +15342,7 @@ window.EXCEL_ATELIER_DATA = {
         "Ombrage (grisé, tramé...) sur les cellules calculées ;.",
         "Pied de la page avec, à gauche, « LA SUEDOISE » et le nom de la feuille de calculs (Analyse-formule) et à droite « Edité le » et la date d’édition."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-la-sue-doise.html",
@@ -15457,7 +15457,7 @@ window.EXCEL_ATELIER_DATA = {
         "La solution est donnée à titre indicatif et ne respecte pas forcément les exigences du sujet en ce qui concerne la mise en page.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-mosaique.html",
@@ -15673,7 +15673,7 @@ window.EXCEL_ATELIER_DATA = {
         "La solution est donnée à titre indicatif et ne respecte pas forcément les exigences du sujet en ce qui concerne la mise en page.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-sud-informatique.html",
@@ -15851,7 +15851,7 @@ window.EXCEL_ATELIER_DATA = {
         "La solution est donnée à titre indicatif et ne respecte pas forcément les exigences du sujet en ce qui concerne la mise en page.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-generale-de-cosmetiques.html",
@@ -16043,7 +16043,7 @@ window.EXCEL_ATELIER_DATA = {
         "Résultat attendu :.",
         "La solution est donnée à titre indicatif et ne respecte pas forcément les exigences du sujet en ce qui concerne la mise en page."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-petits-porteurs.html",
@@ -16260,7 +16260,7 @@ window.EXCEL_ATELIER_DATA = {
         "La solution est donnée à titre indicatif et ne respecte pas forcément les exigences du sujet en ce qui concerne la mise en page.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-centre-format.html",
@@ -16449,7 +16449,7 @@ window.EXCEL_ATELIER_DATA = {
         "Titre du graphique conforme à la demande.",
         "Pied de la page avec, à gauche, le nom de l'entreprise et le nom de la feuille (GRAM PROJET 2008) et à droite « Édité le » et la date d'édition."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-parcelle.html",
@@ -16548,7 +16548,7 @@ window.EXCEL_ATELIER_DATA = {
         "La solution est donnée à titre indicatif et ne respecte pas forcément les exigences du sujet en ce qui concerne la mise en page.",
         "Solution."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-ress-marketing.html",
@@ -16832,7 +16832,7 @@ window.EXCEL_ATELIER_DATA = {
         "Feuille TABLEAU : utilisez Accueil > Mettre sous forme de tableau pour obtenir le total en euros et les filtres.",
         "Macro : dans l'onglet Développeur, enregistrez une macro qui copie le formulaire, colle les valeurs en transposant sur la feuille TABLEAU, insère une nouvelle ligne et répercute le format, puis attribuez-la au bouton « enregistré » (repère 8)."
       ],
-      "levelLabel": null,
+      "levelLabel": "Expert",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/cas-formulaire-de-saisie.html",
@@ -16901,7 +16901,7 @@ window.EXCEL_ATELIER_DATA = {
         "Fichier contenant déjà les zones nommées (+ facile).",
         "Pour commencer, téléchargez un classeur ci-dessus. Si vous choisissez l'option + facile, vous allez directement à la rubrique : \"Mise en place de la saisie semi-automatique ou autocomplétion\"."
       ],
-      "levelLabel": null,
+      "levelLabel": "Expert",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/cas-fiche-dintervention.html",
@@ -16983,7 +16983,7 @@ window.EXCEL_ATELIER_DATA = {
         "Finitions : masquez les colonnes A, B et H ; pour 12 mois, dupliquez la feuille et changez la date en D1.",
         "Pour aller plus loin : affichez « lun. 3 » au lieu de la date en combinant SI, NO.SEMAINE, CHOISIR et JOURSEM. Les formules sont données sur la page source, à ne regarder qu'en dernier recours."
       ],
-      "levelLabel": null,
+      "levelLabel": "Avance",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/cas-calendrier-perpetuel.html",
@@ -17151,7 +17151,7 @@ window.EXCEL_ATELIER_DATA = {
         "les fonctions INDIRECT.",
         "les fonctions RECHERCHEX ou V."
       ],
-      "levelLabel": null,
+      "levelLabel": "Expert",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/cas-fiche-horticole.html",
@@ -17304,7 +17304,7 @@ window.EXCEL_ATELIER_DATA = {
         "Dans cet exercice, vous mettez en œuvre les fonctions SOMME, NB.VAL, NB.SI, SOMME.SI, MIN, en les combinants. La fonction \"convertir\" dans le groupe \"Outils de données\".",
         "Vous pouvez télécharger le fichier de travail ici."
       ],
-      "levelLabel": null,
+      "levelLabel": "Intermediaire",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/cas-societe-clicou.html",
@@ -17729,7 +17729,7 @@ window.EXCEL_ATELIER_DATA = {
         "les opérations de bases, et %.",
         "Le calcul est à faire systématiquement dans les cellules avec un fond bleu."
       ],
-      "levelLabel": null,
+      "levelLabel": "Debutant",
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/revisions-operations-simples.html",
