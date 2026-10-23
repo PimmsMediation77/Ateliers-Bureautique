@@ -13168,7 +13168,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g188-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Case à cocher",
+      "description": "Insérez des cases à cocher et colorez les lignes cochées avec une mise en forme conditionnelle.",
       "preamble": "",
       "instructions": [
         "CONSIGNES :.",
