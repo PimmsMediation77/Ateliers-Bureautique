@@ -9420,7 +9420,7 @@
       "imageResultat": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-001-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Validation des données",
+      "description": "Créez une liste déroulante de régions en face de chaque ville.",
       "preamble": "",
       "instructions": [
         "Réalisez cette liste de choix dans un menu déroulant.",
