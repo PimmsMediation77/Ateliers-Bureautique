@@ -2935,7 +2935,7 @@ window.WORD_ATELIER_DATA = {
       "description": "Placez des zones de texte sur la carte en respectant les couleurs et les arrondis.",
       "consignes": [],
       "instructions": [
-        "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
+        "Carte : téléchargez la carte, puis insérez-la dans un document Word vierge.",
         "Zones de texte : insérez des zones de texte pour couvrir les noms de la carte.",
         "Mise en forme : respectez les couleurs et les arrondis ; police au choix.",
         "Copier-coller : utilisez-le pour aller plus vite."
@@ -2962,7 +2962,9 @@ window.WORD_ATELIER_DATA = {
         "Vous respectez les couleurs et arrondis.",
         "Police au choix.",
         "Ne pas hésiter à utiliser le copier-coller pour aller plus vite."
-      ]
+      ],
+      "downloadUrl": "data/assets/word/m9-zone-de-texte/word-ex-003-annexe-1.png",
+      "downloadLabel": "Télécharger la carte"
     },
     {
       "id": "ex-054",
