@@ -8428,7 +8428,7 @@
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-image-enonce.gif",
-      "imageResultat": null,
+      "imageResultat": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-enonce-2.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Exercice 7",
@@ -8454,13 +8454,12 @@
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-extra-3.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-enonce-1.gif",
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-image-enonce.gif"
+        ],
+        "resultImages": [
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-enonce-2.gif",
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-enonce-3.gif",
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-enonce-4.gif"
-        ],
-        "resultImages": [
-          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-image-enonce.gif"
         ]
       },
       "section": "avance",
