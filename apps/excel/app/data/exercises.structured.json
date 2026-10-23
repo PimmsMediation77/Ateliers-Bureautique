@@ -8366,7 +8366,7 @@
       "moduleName": "Trier et filtrer",
       "moduleNameClean": "Trier et filtrer",
       "num": 4,
-      "title": "Filtre avancée d'une liste",
+      "title": "Filtre avancé d'une liste",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-3-tri-filtre.html",
       "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-004.xlsx",
@@ -8376,7 +8376,7 @@
       "imageResultat": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-004-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Filtre avancée d'une liste",
+      "description": "Filtrez une liste de séjours selon une durée et un pays.",
       "preamble": "",
       "instructions": [
         "Filtrez le tableau pour ne faire apparaître que les durées comprises entre 14 et 28 jours.",
