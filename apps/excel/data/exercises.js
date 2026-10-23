@@ -7930,7 +7930,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Référence absolue",
       "moduleNameClean": "Référence absolue",
       "num": 8,
-      "title": "Obtenir un pourcentage sur un total avec la valeur absolue",
+      "title": "Valeur absolue - Pourcentage d'un total",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-8-valeur-absolue.html",
       "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-008.xlsx",
@@ -7940,7 +7940,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-03-reference-absolue/excel-ex-008-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Obtenir un pourcentage sur un total avec la valeur absolue",
+      "description": "Calculez des pourcentages sur un total en utilisant obligatoirement la poignée de recopie.",
       "preamble": "",
       "instructions": [
         "Vous pouvez télécharger le fichier ici.",
