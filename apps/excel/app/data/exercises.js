@@ -6690,7 +6690,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-13-impression/excel-ex-002-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Zone d'impression Excel",
+      "description": "Définissez une zone d'impression pour imprimer deux semaines en une fois.",
       "preamble": "",
       "instructions": [
         "Vous téléchargez le fichier de travail ici.",
