@@ -10629,7 +10629,9 @@ window.WORD_ATELIER_DATA = {
         "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
         "Enregistrez votre travail puis marquez l'exercice comme terminé."
-      ]
+      ],
+      "downloadUrl": "data/assets/word/m32-niveau-4-expert/word-ex-001-annexe-1.zip",
+      "downloadLabel": "Télécharger les visuels"
     },
     {
       "id": "ex-212",
