@@ -8507,11 +8507,11 @@ window.EXCEL_ATELIER_DATA = {
       "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-005-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-005-image-enonce.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Filtres avancés",
+      "description": "Créez des zones de critères pour utiliser les filtres avancés.",
       "preamble": "",
       "instructions": [
         "En utilisant les \"filtres avancés\" vous :.",
@@ -8527,9 +8527,7 @@ window.EXCEL_ATELIER_DATA = {
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-005-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-005-image-enonce.jpg"
         ]
