@@ -9597,7 +9597,7 @@
       "imageResultat": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-004-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Listes de choix et messages d'avertissement",
+      "description": "Limitez la saisie à une valeur entre 10 et 20 avec un message d'erreur personnalisé.",
       "preamble": "",
       "instructions": [
         "Vous pouvez télécharger le fichier de travail ici.",
