@@ -4192,7 +4192,7 @@
       "moduleName": "Faire une Soustraction",
       "moduleNameClean": "Faire une Soustraction",
       "num": 8,
-      "title": "Exercice pour mettre en place une soustraction entre deux nombres dans excel - Exercice 8",
+      "title": "Soustraction",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/soustraction/exercice-8-soustraction.html",
       "docxUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-008.xlsx",
@@ -4202,7 +4202,7 @@
       "imageResultat": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-008-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice pour mettre en place une soustraction entre deux nombres dans excel - Exercice 8",
+      "description": "Calculez le différentiel entre dépenses et subvention d'une association, puis le solde cumulé.",
       "preamble": "",
       "instructions": [
         "En B11, vous saisissez la soustraction qui vous permet de faire le différentiel entre le total dépense de l'association et sa subvention. (vous utilisez la poignée de recopie pour déployer l'opération horizontalement).",
