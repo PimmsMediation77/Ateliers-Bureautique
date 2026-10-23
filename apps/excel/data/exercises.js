@@ -7238,7 +7238,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Format de cellule à insérer",
+      "description": "Calculez des vitesses et des âges, puis affichez-les avec une unité (Km/h, ans).",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient deux feuilles : Enonce-1 (vitesses) et Enonce-2 (âges).",
