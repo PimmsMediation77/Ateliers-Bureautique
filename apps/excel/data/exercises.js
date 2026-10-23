@@ -17644,7 +17644,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Cas Facturation",
+      "description": "Calculez des conditions de facturation avec SI, ET et OU, imbriquées ou non.",
       "preamble": "",
       "instructions": [
         "Cet exercice vous fera travailler les fonctions :.",
