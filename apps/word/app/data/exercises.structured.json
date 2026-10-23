@@ -7755,8 +7755,8 @@
       "level": 2,
       "levelLabel": "🟡 Intermédiaire ⭐⭐",
       "docxUrl": "data/assets/word/m25-document-long/word-ex-003.docx",
-      "imageEnonce": "data/assets/word/avance-25-document-long/word-ex-003-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/word/avance-25-document-long/word-ex-003-image-enonce.jpg",
       "description": "",
       "consignes": [],
       "instructions": [
@@ -7769,9 +7769,7 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/word/avance-25-document-long/word-ex-003-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/word/avance-25-document-long/word-ex-003-image-enonce.jpg"
         ]
