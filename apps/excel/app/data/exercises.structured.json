@@ -15320,17 +15320,17 @@
       "moduleName": "UL21 Excel",
       "moduleNameClean": "UL21 Excel",
       "num": 6,
-      "title": "La Sue'DOISE",
+      "title": "Cas La Sued'Oise",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-la-sue-doise.html",
       "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/asca-03-ul21-excel/excel-ex-006-image-enonce.jpg",
-      "imageResultat": null,
+      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-006-scrape-enonce-2.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "La Sue'DOISE",
+      "description": "Sujet ASCA en 1 heure : analysez les formules tapas d'une sandwicherie.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
@@ -15352,11 +15352,10 @@
           "data/assets/excel/asca-03-ul21-excel/excel-ex-006-scrape-extra-1.jpg"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-006-scrape-enonce-1.jpg",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-006-scrape-enonce-2.jpg"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-006-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-006-image-enonce.jpg"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-006-scrape-enonce-2.jpg"
         ]
       },
       "section": "asca",
