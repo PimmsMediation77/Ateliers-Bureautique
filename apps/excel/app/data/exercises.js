@@ -7164,7 +7164,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Format de cellule",
       "moduleNameClean": "Format de cellule",
       "num": 3,
-      "title": "Exercice pour manipuler le format personnalisé: \"jjjj\".",
+      "title": "Format de cellule \"jjjj\"",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-3-format-de-cellule-excel.html",
       "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-003.xlsx",
@@ -7174,7 +7174,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-02-format-de-cellule/excel-ex-003-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice pour manipuler le format personnalisé: \"jjjj\".",
+      "description": "Affichez le jour de naissance de chaque personne avec le format personnalisé « jjjj ».",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le nom et la date de naissance de chaque personne.",
