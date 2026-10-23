@@ -5642,8 +5642,8 @@ window.EXCEL_ATELIER_DATA = {
       "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-007-image-enonce.webp",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-007-image-enonce.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Pourcentage",
@@ -5679,9 +5679,7 @@ window.EXCEL_ATELIER_DATA = {
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-007-scrape-enonce-1.webp"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-007-image-enonce.webp"
         ]
