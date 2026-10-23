@@ -7377,7 +7377,9 @@ window.WORD_ATELIER_DATA = {
         "Configurez les etapes de l'onglet Publipostage (source, champs, apercu) jusqu'au rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
         "Enregistrez votre travail puis marquez l'exercice comme terminé."
-      ]
+      ],
+      "downloadUrl": "data/assets/word/m24-publipostage/word-ex-003-annexe-1.xls",
+      "downloadLabel": "Télécharger les données"
     },
     {
       "id": "ex-146",
