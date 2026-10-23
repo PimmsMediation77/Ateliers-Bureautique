@@ -12854,7 +12854,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Macro",
       "moduleNameClean": "Macro",
       "num": 3,
-      "title": "Exercice 3",
+      "title": "Réaliser une macro",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/macro/exercice-3-macro.html",
       "docxUrl": "data/assets/excel/avance-macro/excel-ex-003.xlsx",
@@ -12864,7 +12864,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Exercice 3",
+      "description": "Créez un modèle de facture avec des boutons d'impression et d'aperçu reliés à des macros.",
       "preamble": "",
       "instructions": [
         "Consignes :.",
