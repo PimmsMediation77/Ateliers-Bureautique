@@ -11988,7 +11988,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Sous-Totaux",
       "moduleNameClean": "Sous-Totaux",
       "num": 1,
-      "title": "Exercice 1",
+      "title": "Sous-totaux",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/sous-totaux/exercice-1.html",
       "docxUrl": "data/assets/excel/avance-sous-totaux/excel-ex-001.xlsx",
@@ -11998,7 +11998,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-10-sous-totaux/excel-ex-001-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 1",
+      "description": "Appliquez un sous-total pour chaque variété de fruits.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les commandes de fruits par produit, pays et région.",
