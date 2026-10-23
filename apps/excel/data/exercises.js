@@ -6512,7 +6512,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-12-graphiques/excel-ex-010-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Graphique Excel - Graphique Volume d'heures",
+      "description": "Représentez en graphique le total hebdomadaire d'heures travaillées.",
       "preamble": "",
       "instructions": [
         "Vous pouvez télécharger votre document de travail ci-contre.",
