@@ -1975,7 +1975,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-04-mise-en-forme/excel-ex-009-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Création planning compact et imprimable",
+      "description": "Créez un planning compact et imprimable avec la poignée de recopie et le pinceau.",
       "preamble": "",
       "instructions": [
         "Quadrillage invisible.",
