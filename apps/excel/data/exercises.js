@@ -8750,7 +8750,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Trier et filtrer",
       "moduleNameClean": "Trier et filtrer",
       "num": 9,
-      "title": "Exercice 9",
+      "title": "Insérer des segments",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-9-segment.html",
       "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-009.xlsx",
@@ -8760,7 +8760,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Exercice 9",
+      "description": "Filtrez dynamiquement un tableau des villes européennes avec des segments.",
       "preamble": "",
       "instructions": [
         "Dans cet exercice, vous mettez en pratique une autre solution pour filtrer dynamiquement votre tableau : le segment.",
