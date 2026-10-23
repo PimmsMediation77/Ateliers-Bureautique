@@ -965,6 +965,12 @@ select {
   line-height: 1.42;
 }
 
+.steps-list li > strong {
+  display: contents;
+  /* Le titre d'une étape tient toujours sur une seule ligne */
+  white-space: nowrap;
+}
+
 .steps-list.steps-copy-mode {
   list-style: none;
   margin: 0;
