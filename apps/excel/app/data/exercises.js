@@ -17298,7 +17298,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Cas Société CLICOU",
+      "description": "Combinez SOMME, NB.VAL, NB.SI, SOMME.SI et MIN pour analyser les données de la société Clicou.",
       "preamble": "",
       "instructions": [
         "Dans cet exercice, vous mettez en œuvre les fonctions SOMME, NB.VAL, NB.SI, SOMME.SI, MIN, en les combinants. La fonction \"convertir\" dans le groupe \"Outils de données\".",
