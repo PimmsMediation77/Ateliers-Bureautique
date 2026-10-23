@@ -7700,7 +7700,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Référence absolue",
       "moduleNameClean": "Référence absolue",
       "num": 4,
-      "title": "Comment utiliser la valeur absolue ppour la construction d'un tableau d'encaissement",
+      "title": "Référence absolue - Tableau d'encaissement",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-4.html",
       "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-004.xlsx",
@@ -7710,7 +7710,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-03-reference-absolue/excel-ex-004-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Comment utiliser la valeur absolue ppour la construction d'un tableau d'encaissement",
+      "description": "Calculez les encaissements mensuels à partir des ventes et des pourcentages d'encaissement.",
       "preamble": "",
       "instructions": [
         "Vous pouvez télécharger le fichier ici.",
