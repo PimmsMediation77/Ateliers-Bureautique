@@ -15212,17 +15212,17 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "UL21 Excel",
       "moduleNameClean": "UL21 Excel",
       "num": 5,
-      "title": "VANCOUVER",
+      "title": "Cas Vancouver",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-vancouver.html",
       "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/asca-03-ul21-excel/excel-ex-005-image-enonce.jpg",
-      "imageResultat": null,
+      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-enonce-2.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "VANCOUVER",
+      "description": "Sujet ASCA en 1 heure : présentez les résultats des Jeux olympiques d'hiver de Vancouver 2010.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
@@ -15252,12 +15252,11 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-extra-2.jpg"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-enonce-1.jpg",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-enonce-2.jpg",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-enonce-3.jpg"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-image-enonce.jpg"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-enonce-2.jpg",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-enonce-3.jpg"
         ]
       },
       "section": "asca",
