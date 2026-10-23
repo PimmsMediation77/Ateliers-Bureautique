@@ -16891,7 +16891,7 @@
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Cas Fiche d'intervention",
+      "description": "Créez une fiche d'intervention avec une liste déroulante à saisie semi-automatique sur une base clients.",
       "preamble": "",
       "instructions": [
         "Cet exercice nous permet de créer une fiche d'intervention pour des employés grâce à une base de données client importante.",
