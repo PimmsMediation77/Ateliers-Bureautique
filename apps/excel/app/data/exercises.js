@@ -2181,7 +2181,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-05-integrer-une-image/excel-ex-003-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Intégrer des illustrations et des formes",
+      "description": "Reproduisez une feuille composée d'images et de formes superposées.",
       "preamble": "",
       "instructions": [
         "Vous reproduisez l'insertion d'images et des formes avec les avants plans et les arrières plans.",
