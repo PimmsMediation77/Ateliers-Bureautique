@@ -8077,8 +8077,8 @@ window.WORD_ATELIER_DATA = {
       "level": 1,
       "levelLabel": "🟢 Débutant ⭐",
       "docxUrl": null,
-      "imageEnonce": "data/assets/word/avance-26-lier-le-document/word-ex-001-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/word/avance-26-lier-le-document/word-ex-001-image-enonce.jpg",
       "description": "Collez un tableau Excel dans Word et verifiez que la liaison fonctionne.",
       "consignes": [],
       "instructions": [
@@ -8094,12 +8094,10 @@ window.WORD_ATELIER_DATA = {
         "extraImages": [
           "data/assets/word/avance-26-lier-le-document/word-ex-001-scrape-extra-1.jpg"
         ],
-        "enonceImages": [
-          "data/assets/word/avance-26-lier-le-document/word-ex-001-scrape-enonce-1.jpg",
-          "data/assets/word/avance-26-lier-le-document/word-ex-001-scrape-enonce-2.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
-          "data/assets/word/avance-26-lier-le-document/word-ex-001-image-enonce.jpg"
+          "data/assets/word/avance-26-lier-le-document/word-ex-001-image-enonce.jpg",
+          "data/assets/word/avance-26-lier-le-document/word-ex-001-scrape-enonce-2.jpg"
         ]
       },
       "preamble": "Résultat attendu avec 1 clic dans le tableau : .",
