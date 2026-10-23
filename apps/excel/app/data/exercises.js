@@ -8229,7 +8229,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Trier et Filtrer une liste",
+      "description": "Triez une liste sur un ou plusieurs niveaux et filtrez les sociétés.",
       "preamble": "",
       "instructions": [
         "Consignes :.",
