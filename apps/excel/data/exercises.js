@@ -10874,8 +10874,8 @@ window.EXCEL_ATELIER_DATA = {
       "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-006-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-006-image-enonce.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Exercice 6",
@@ -10898,9 +10898,7 @@ window.EXCEL_ATELIER_DATA = {
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-006-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-006-image-enonce.jpg"
         ]
