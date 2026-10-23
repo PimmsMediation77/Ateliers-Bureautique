@@ -13094,7 +13094,7 @@
       "moduleName": "Macro",
       "moduleNameClean": "Macro",
       "num": 5,
-      "title": "Exercice 5",
+      "title": "Réaliser une macro",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/macro/exercice-5-macro.html",
       "docxUrl": null,
@@ -13104,7 +13104,7 @@
       "imageResultat": null,
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 5",
+      "description": "Intégrez une macro qui génère un menu déroulant pour changer d'onglet.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
