@@ -12056,7 +12056,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-10-sous-totaux/excel-ex-002-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Sous-Totaux",
+      "description": "Calculez la moyenne de chaque classe dans chaque matière avec les sous-totaux.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient, pour chaque élève, sa classe et ses notes du 1er trimestre en maths, français et sciences.",
