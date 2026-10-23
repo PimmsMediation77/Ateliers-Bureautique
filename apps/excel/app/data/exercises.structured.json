@@ -9855,7 +9855,7 @@
       "imageResultat": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-008-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Validation des données - Fonction RECHERCHE",
+      "description": "Créez un devis dynamique dont les prix s'affichent selon le choix dans les listes.",
       "preamble": "",
       "instructions": [
         "Les calculs sont automatisés.",
