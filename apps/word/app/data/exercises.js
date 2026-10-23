@@ -6552,8 +6552,8 @@ window.WORD_ATELIER_DATA = {
       "level": 2,
       "levelLabel": "🟡 Intermédiaire ⭐⭐",
       "docxUrl": null,
-      "imageEnonce": "data/assets/word/avance-21-smart-art/word-ex-004-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/word/avance-21-smart-art/word-ex-004-image-enonce.jpg",
       "description": "Manipulation de la fonction \"organigramme\".",
       "consignes": [],
       "instructions": [
@@ -6567,9 +6567,7 @@ window.WORD_ATELIER_DATA = {
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/word/avance-21-smart-art/word-ex-004-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/word/avance-21-smart-art/word-ex-004-image-enonce.jpg"
         ]
