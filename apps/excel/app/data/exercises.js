@@ -6634,7 +6634,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-13-impression/excel-ex-001-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Impression Classeur Excel",
+      "description": "Modifiez marges et orientation pour imprimer le document sur deux feuilles.",
       "preamble": "",
       "instructions": [
         "Vous téléchargez le fichier de travail ici.",
