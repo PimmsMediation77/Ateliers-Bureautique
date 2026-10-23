@@ -1001,23 +1001,26 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Saisir des données",
       "moduleNameClean": "Saisir des données",
       "num": 4,
-      "title": "Exercice 4",
+      "title": "Utiliser un formulaire de saisie",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/saisir-des-donnees/exercice-4.html",
       "docxUrl": "data/assets/excel/bases-saisir-des-donnees/excel-ex-004.xlsx",
-      "downloadUrl": "data/assets/excel/bases-saisir-des-donnees/excel-ex-004-annexe-1.xlsx",
-      "downloadLabel": "Télécharger le fichier annexe",
+      "downloadUrl": null,
+      "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-004-image-enonce.gif",
       "imageResultat": "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-004-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 4",
+      "description": "Ajoutez deux lignes au tableau du fichier de travail en utilisant le formulaire de saisie d'Excel.",
       "preamble": "",
       "instructions": [
-        "Vous téléchargez votre fichier de travail ici.",
-        "L'opération est relativement simple si vous avez bien suivi le support de la rubrique et bien fait apparaître le bouton FORMULAIRE, soit dans le ruban, soit dans la barre d'accès rapide.",
-        "Si ce n'est pas le cas, il vous faut le faire ici https://www.clic-formation.net/saisir-des-donnees/support-formulaire.html.",
-        "Après avoir téléchargé le fichier de travail, vous ajoutez deux lignes via le formulaire. Pensez à sélectionner une cellule du tableau au minimum avant."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient un tableau de 17 personnes (Nom, Prénom, Date de Naissance, Code postal, Adresse, Ville).",
+        "Bouton Formulaire : il n'est pas affiché par défaut. Ajoutez-le à la barre d'accès rapide : Fichier > Options > Barre d'outils Accès rapide, choisissez « Toutes les commandes », sélectionnez « Formulaire... », cliquez sur « Ajouter » puis sur « OK ». Vous pouvez aussi l'ajouter au ruban (Fichier > Options > Personnaliser le ruban), comme dans le support de la rubrique.",
+        "Sélection : cliquez dans une cellule du tableau (par exemple A2) avant d'ouvrir le formulaire, sinon Excel ne sait pas quel tableau utiliser.",
+        "Formulaire : cliquez sur le bouton Formulaire. Une fenêtre affiche une fiche par ligne du tableau, avec un champ par colonne.",
+        "Nouvelle fiche : cliquez sur « Nouvelle », remplissez les champs (Tab pour passer au champ suivant) puis validez avec Entrée. La personne est ajoutée en ligne 18, par exemple SCHULTZ, Blake, 10/09/1981, 13290, LES MILLES.",
+        "Deuxième fiche : ajoutez de la même façon une seconde personne en ligne 19 (par exemple GREEN, Thierry, 25/02/1982, 37370, CAZOULS LES BEZIERS), puis cliquez sur « Fermer ».",
+        "Vérification : comparez votre tableau avec le résultat attendu, puis enregistrez le fichier."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1036,12 +1039,14 @@ window.EXCEL_ATELIER_DATA = {
       "section": "bases",
       "moduleSlug": "saisir-des-donnees",
       "consignes": [
-        "Vous téléchargez votre fichier de travail ici.",
-        "L'opération est relativement simple si vous avez bien suivi le support de la rubrique et bien fait apparaître le bouton FORMULAIRE, soit dans le ruban, soit dans la barre d'accès rapide.",
-        "Si ce n'est pas le cas, il vous faut le faire ici https://www.clic-formation.net/saisir-des-donnees/support-formulaire.html.",
-        "Après avoir téléchargé le fichier de travail, vous ajoutez deux lignes via le formulaire. Pensez à sélectionner une cellule du tableau au minimum avant."
+        "Vous téléchargez votre fichier de travail.",
+        "L'opération est relativement simple si vous avez bien fait apparaître le bouton FORMULAIRE, soit dans le ruban, soit dans la barre d'accès rapide. Si ce n'est pas le cas, il vous faut le faire.",
+        "Vous ajoutez deux lignes via le formulaire. Pensez à sélectionner au minimum une cellule du tableau avant."
       ],
-      "criteria": [],
+      "criteria": [
+        "Afficher le bouton Formulaire dans la barre d'accès rapide ou dans le ruban.",
+        "Ajouter des lignes à un tableau avec le formulaire de saisie, sans écrire directement dans les cellules."
+      ],
       "originalConsignes": [
         "Vous téléchargez votre fichier de travail ici.",
         "L'opération est relativement simple si vous avez bien suivi le support de la rubrique et bien fait apparaître le bouton FORMULAIRE, soit dans le ruban, soit dans la barre d'accès rapide. Si ce n'est pas le cas, il vous faut le faire.",
