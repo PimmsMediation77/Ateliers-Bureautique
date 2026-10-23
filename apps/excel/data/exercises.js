@@ -17357,7 +17357,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/complets-11-cas-sud-informatique/excel-ex-001-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Cas SUD informatique",
+      "description": "Analysez le chiffre d'affaires par famille de produits avec NB.SI, RANG et SI.",
       "preamble": "L'entreprise Sud Informatique souhaite analyser son chiffre d'affaires par famille de produits.",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les factures datées par article et par famille (INFO, LIBRAIRIE, FORMATION).",
