@@ -940,19 +940,25 @@
       "title": "Saisir des données dans Excel et mise en couleur",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/saisir-des-donnees/exercice-3.html",
-      "docxUrl": "data/assets/excel/bases-saisir-des-donnees/excel-ex-003.xlsx",
+      "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
       "imageResultat": "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-003-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Saisir des données dans Excel et mise en couleur",
+      "description": "Vous saisissez ce tableau SANS la mise en forme (pas de bordure, pas de couleur), puis, si vous êtes en forme, vous ajoutez les couleurs et les bordures en pointillés.",
       "preamble": "",
       "instructions": [
-        "Vous saisissez ce tableau SANS la mise en forme (pas de bordure, pas de couleur).",
-        "Si vous êtes en forme bordure de cellule en pointillés ligne grise et bleue.",
-        "Pour écrire sur deux lignes dans une seule cellule, vous pouvez utiliser la combinaison de touche ALT+Entrée."
+        "Nouveau classeur : ouvrez Excel et créez un classeur vierge.",
+        "Saisie au clavier : saisissez d'abord le tableau SANS mise en forme. La touche Entrée valide et passe à la cellule du dessous (libellés de la colonne A). La touche Tab valide et passe à la cellule de droite (en-têtes de la ligne 1).",
+        "Retour à la ligne : pour écrire « Trim 1 » et « 2016 » sur deux lignes dans une seule cellule, appuyez sur Alt+Entrée entre les deux. Vous pouvez aussi sélectionner les cellules puis Accueil > Renvoyer à la ligne automatiquement.",
+        "Mise en forme : si vous êtes en forme, reproduisez ensuite les couleurs et les bordures du résultat attendu (étapes suivantes).",
+        "Sélection multiple : maintenez la touche Ctrl et sélectionnez plusieurs plages éloignées pour les mettre en forme en une seule fois. Par exemple A6:F6, A12:F12 et A21:F21 pour le fond bleu, puis A17:F17 et A22:F22 pour le fond vert, avec la police en blanc.",
+        "Lignes grisées : avec la même sélection multiple (Ctrl), appliquez un fond gris clair une ligne sur deux, comme sur le modèle.",
+        "Fusion de cellules : sélectionnez des cellules voisines puis Accueil > Fusionner et centrer. La flèche à côté propose aussi « Fusionner les cellules », qui garde le texte aligné à gauche, utile pour les lignes de titre colorées.",
+        "Bordures : sélectionnez A1:F23 puis Accueil > Bordures > Autres bordures. Choisissez le style en pointillés et la couleur grise, puis cliquez sur « Intérieur ». Choisissez ensuite le bleu et cliquez sur « Contour ».",
+        "En-têtes : mettez les en-têtes de la ligne 1 en gras et en italique, puis centrez-les."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -972,8 +978,8 @@
       "moduleSlug": "saisir-des-donnees",
       "consignes": [
         "Vous saisissez ce tableau SANS la mise en forme (pas de bordure, pas de couleur).",
-        "Si vous êtes en forme bordure de cellule en pointillés ligne grise et bleue.",
-        "Pour écrire sur deux lignes dans une seule cellule, vous pouvez utiliser la combinaison de touche ALT+Entrée."
+        "Si vous êtes en forme : bordures de cellule en pointillés, lignes grises et bleues.",
+        "Pour écrire sur deux lignes dans une seule cellule, vous pouvez utiliser la combinaison de touches Alt+Entrée."
       ],
       "criteria": [],
       "originalConsignes": [
