@@ -12172,7 +12172,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Sous-Totaux",
+      "description": "Comptez les pannes par service, par type et par durée avec des tris et des sous-totaux.",
       "preamble": "",
       "instructions": [
         "par service.",
