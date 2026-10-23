@@ -661,19 +661,17 @@ window.EXCEL_ATELIER_DATA = {
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/interface-excel/exercice-4.html",
       "docxUrl": "data/assets/excel/bases-prise-en-main/excel-ex-004.xlsx",
-      "downloadUrl": "data/assets/excel/bases-prise-en-main/excel-ex-004-annexe-1.xlsx",
-      "downloadLabel": "Télécharger le 2ᵉ fichier",
+      "downloadUrl": null,
+      "downloadLabel": "",
       "imageEnonce": null,
       "imageResultat": "data/assets/excel/bases-01-prise-en-main/excel-ex-004-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Gérer l'affichage des feuilles",
-      "preamble": "Énoncé de l'exercice :",
+      "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Gérer l'affichage des feuilles.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le tableau des résultats de production (dinde, poulet, canard) par semaine.",
+        "Groupe Afficher : dans l'onglet Affichage, décochez Quadrillage, Barre de formule et En-têtes."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -695,7 +693,9 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Masquer ou afficher le quadrillage, la barre de formule et les en-têtes de lignes et de colonnes."
+      ],
       "originalConsignes": [
         "Dans le groupe \"Afficher\", retirez le quadrillage, la barre de formules et les en-têtes."
       ],
@@ -2232,9 +2232,9 @@ window.EXCEL_ATELIER_DATA = {
       "title": "Intégrer des illustrations via SMART-ART",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/integrer-une-image/exercice-4.html",
-      "docxUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-004.zip",
+      "docxUrl": null,
       "downloadUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-004-annexe-1.zip",
-      "downloadLabel": "Télécharger les illustrations",
+      "downloadLabel": "Télécharger les images",
       "imageEnonce": null,
       "imageResultat": null,
       "imageEnonceCaption": null,
@@ -2242,10 +2242,11 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Intégrer des illustrations via SMART-ART",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Intégrer des illustrations via SMART-ART.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Verifiez votre rendu avec l'image fournie puis corrigez les differences.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Nouveau classeur : ouvrez Excel et créez un classeur vierge.",
+        "Images : téléchargez et décompressez les images (icônes de personnes).",
+        "SmartArt 1 : Insertion > SmartArt > Hiérarchie > Hiérarchie avec images rondes, puis insérez les images.",
+        "SmartArt 2 : Insertion > SmartArt > Cycle > Engrenages.",
+        "SmartArt 3 : réalisez une présentation originale avec un SmartArt, en vous inspirant du modèle."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -2271,7 +2272,10 @@ window.EXCEL_ATELIER_DATA = {
         "Verifiez votre rendu avec l'image fournie puis corrigez les differences.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Insérer un SmartArt et choisir sa catégorie (hiérarchie, cycle…).",
+        "Ajouter des images et du texte dans un SmartArt."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Intégrer des illustrations via SMART-ART.",
         "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
@@ -2394,10 +2398,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Outils de mise en forme d'image",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Outils de mise en forme d'image.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient un tableau de caractéristiques de voitures par marque.",
+        "Photos : décompressez le zip des voitures puis insérez toutes les photos (Insertion > Images), dans l'ordre que vous souhaitez.",
+        "Mise en forme : utilisez au maximum les outils de l'onglet Format de l'image : styles, bordures, effets, rognage, corrections…"
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -2420,7 +2423,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Insérer des images dans une feuille Excel.",
+        "Appliquer styles, effets et rognage avec l'onglet Format de l'image."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Outils de mise en forme d'image.",
         "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
@@ -3113,10 +3119,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Addition",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Addition.",
-        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Vous pouvez aussi reproduire le tableau (ateliers 1 à 4, janvier à mars).",
+        "Additions : dans les cellules bleues, calculez les totaux par atelier et par mois (formule avec + ou fonction SOMME).",
+        "Format : appliquez aux sommes le format Monétaire avec le symbole dollar ($)."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -3140,7 +3145,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Écrire une formule d'addition ou utiliser SOMME.",
+        "Appliquer le format Monétaire et choisir le symbole de la devise."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Addition.",
         "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
@@ -3763,10 +3771,8 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Soustraction",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Soustraction.",
-        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les achats par rayon (boucherie, fromage, conserves…).",
+        "Opérations : dans les cellules bleues, insérez les 2 opérations, avec ou sans parenthèses, qui donnent le bon résultat."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -3790,7 +3796,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Écrire une formule de soustraction.",
+        "Utiliser des parenthèses pour contrôler l'ordre des calculs."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Soustraction.",
         "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
@@ -3965,10 +3974,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Soustraction",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Soustraction.",
-        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient la production des ateliers 1 à 4 de janvier à mars et les commandes.",
+        "Totaux : calculez le total de production par atelier et par mois.",
+        "Solde : calculez le solde de production de chaque mois (production moins commande)."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -3992,7 +4000,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Combiner addition et soustraction dans un tableau.",
+        "Recopier une formule avec la poignée de recopie."
+      ],
       "originalConsignes": [
         "Complétez le tableau en calculant les totaux par atelier et le solde de production par mois."
       ],
@@ -4021,10 +4032,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Soustraction",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Soustraction.",
-        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les heures de chaque personne du lundi au vendredi et leur horaire prévu.",
+        "Total : calculez le total d'heures par personne.",
+        "Solde : déduisez le solde (total moins horaire). Le format n'est pas imposé."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -4048,7 +4058,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Additionner une plage de cellules par ligne.",
+        "Calculer un écart entre deux valeurs avec une soustraction."
+      ],
       "originalConsignes": [
         "Après avoir calculé le total d'heure par personne, vous en déduisez le solde. Le format n'est pas requis."
       ],
@@ -4077,10 +4090,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Soustraction",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Soustraction.",
-        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le calendrier des commandes et des livraisons de janvier à juin.",
+        "Totaux : calculez les totaux par mois.",
+        "Reste à livrer : calculez le solde des livraisons (commandes moins livraisons)."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -4104,7 +4116,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Combiner addition et soustraction dans un tableau.",
+        "Recopier une formule sur une ligne ou une colonne."
+      ],
       "originalConsignes": [
         "Complétez le tableau en calculant les totaux par mois et le solde de livraisons."
       ],
@@ -4133,10 +4148,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Exercice pour mettre en place une soustraction entre deux nombres dans excel",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Exercice pour mettre en place une soustraction entre deux nombres dans excel.",
-        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les clients, leur ville et leurs montants 2024 et 2025.",
+        "Différence : en E2, écrivez la soustraction entre les montants 2024 et 2025 du client.",
+        "Recopie : étirez la formule vers le bas avec la poignée de recopie."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -4160,7 +4174,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Écrire une soustraction entre deux cellules.",
+        "Étirer une formule vers le bas avec la poignée de recopie."
+      ],
       "originalConsignes": [
         "Avec une soustraction que vous étirez vers le bas, vous calculez la différence en euros entre 2024 et 2025."
       ],
@@ -4637,10 +4654,8 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Division",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Division.",
-        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le relevé du chiffre d'affaires et de la fréquentation régionale du 1er au 15 juillet.",
+        "Division : dans la colonne C, divisez la dépense totale par le nombre de personnes pour obtenir le CA par personne."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -4664,7 +4679,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Écrire une formule de division.",
+        "Recopier une formule sur toute une colonne."
+      ],
       "originalConsignes": [
         "Vous faites la division dans la colonne C pour trouver le chiffre d'affaires par personne."
       ],
@@ -5150,10 +5168,8 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Division",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Division.",
-        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient, pour chaque machiniste, le nombre d'objets confectionnés et le temps de réalisation d'un objet en minutes.",
+        "Rendement : en D3:D21, calculez par division le rendement en objets à l'heure. Attention : le temps est donné en minutes (une heure = 60 minutes)."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -5177,7 +5193,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Écrire une division et convertir une unité (minutes en heures).",
+        "Recopier une formule sur une plage."
+      ],
       "originalConsignes": [
         "En D3:D21, vous devez déterminer à l'aide de la division quel est le rendement de production d'objet à l'heure. Le temps de réalisation d'un objet est donné à la MINUTE."
       ],
@@ -5206,10 +5225,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Division",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Division.",
-        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les livraisons et les pertes en kg des produits de Fruits & Légumes du Languedoc 34.",
+        "Taux de perte : en D3:D20, divisez les pertes par la livraison pour chaque produit.",
+        "Format : affichez le résultat au format Pourcentage."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -5233,7 +5251,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Calculer un taux par division.",
+        "Afficher un résultat au format Pourcentage."
+      ],
       "originalConsignes": [
         "En D3:D20, vous devez déterminer, à l'aide de la division, le pourcentage de perte de chaque produit vendu par Fruits et Légumes du Languedoc 34."
       ],
@@ -5325,9 +5346,9 @@ window.EXCEL_ATELIER_DATA = {
       "title": "Pourcentage (Calculer des pourcentages 2)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/pourcentage/exercice-2-pourcentage.html",
-      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-002.xlsx",
-      "downloadUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-002-annexe-1.xlsx",
-      "downloadLabel": "Telecharger le 2e fichier",
+      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-002-annexe-1.xlsx",
+      "downloadUrl": null,
+      "downloadLabel": "",
       "imageEnonce": null,
       "imageResultat": null,
       "imageEnonceCaption": null,
@@ -5335,10 +5356,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Pourcentage",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Pourcentage.",
-        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient l'effectif et le chiffre d'affaires de 4 nationalités (anglais, allemand, espagnol, russe).",
+        "Pourcentages : calculez le pourcentage des effectifs et du CA de chaque nationalité par rapport au total.",
+        "Référence absolue : bloquez la cellule du total avec $ (touche F4) pour pouvoir recopier la formule."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -5361,7 +5381,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Calculer une part en pourcentage d'un total.",
+        "Utiliser une référence absolue pour recopier une formule."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Pourcentage.",
         "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
@@ -5498,9 +5521,9 @@ window.EXCEL_ATELIER_DATA = {
       "title": "Pourcentage (Calculer des pourcentages 5)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/pourcentage/exercice-5-pourcentage.html",
-      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-005.xlsx",
-      "downloadUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-005-annexe-1.xlsx",
-      "downloadLabel": "Telecharger le 2e fichier",
+      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-005-annexe-1.xlsx",
+      "downloadUrl": null,
+      "downloadLabel": "",
       "imageEnonce": null,
       "imageResultat": null,
       "imageEnonceCaption": null,
@@ -5508,10 +5531,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Pourcentage",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Pourcentage.",
-        "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le chiffre d'affaires des secteurs International, Course, Messagerie et Express sur 4 trimestres.",
+        "Total : calculez le total de chaque secteur sur les 4 trimestres.",
+        "Pourcentage : calculez la part de chaque secteur dans le total général."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -5534,7 +5556,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Calculer des totaux par ligne et un total général.",
+        "Calculer une part en pourcentage avec une référence absolue."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Pourcentage.",
         "Saisissez la formule adaptee puis recopiez-la correctement en controlant references et resultat calcule.",
@@ -5942,12 +5967,14 @@ window.EXCEL_ATELIER_DATA = {
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
       "description": "Graphique Excel",
-      "preamble": "",
+      "preamble": "Série de graphiques facile. Vous pouvez télécharger le fichier de travail ou reproduire les tableaux de données.",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Graphique Excel.",
-        "Inserez ou ajustez le graphique puis harmonisez titres, series, axes et mise en forme.",
-        "Verifiez votre rendu avec l'image fournie puis corrigez les differences.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient 4 feuilles : Electricité, Ventes, Charges et Chiffres.",
+        "Électricité 1 : insérez un histogramme, avec le titre « Coût de l'électricité », la légende, les deux axes et les montants (étiquettes de données).",
+        "Électricité 2 : insérez un graphique en courbes avec marques, titre « Évolution du coût de l'électricité par mois », et nommez les axes.",
+        "Électricité 3 : jouez avec les mises en forme 3D, en gardant l'affichage des valeurs et en variant les couleurs des séries.",
+        "Ventes : créez un graphique en cylindres ou cônes 3D.",
+        "Charges et Rubriques : reproduisez les graphiques du résultat attendu."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -5979,7 +6006,10 @@ window.EXCEL_ATELIER_DATA = {
         "Verifiez votre rendu avec l'image fournie puis corrigez les differences.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Insérer un graphique et choisir son type (histogramme, courbes, 3D, secteurs).",
+        "Ajouter titre, légende, titres d'axes et étiquettes de données."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Graphique Excel.",
         "Inserez ou ajustez le graphique puis harmonisez titres, series, axes et mise en forme.",
@@ -6178,10 +6208,11 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Graphique Excel",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Graphique Excel.",
-        "Inserez ou ajustez le graphique puis harmonisez titres, series, axes et mise en forme.",
-        "Relisez le classeur et verifiez la coherence des donnees, calculs et formats avant validation.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les salaires de chaque commercial par année.",
+        "Graphique simple : concevez un graphique qui montre le niveau de salaire par salarié et par année.",
+        "Tableau d'extraction : créez un 2e tableau avec une liste déroulante (Données > Validation des données) pour choisir le commercial.",
+        "Recherche : insérez des fonctions de recherche (RECHERCHEV ou RECHERCHEX) pour obtenir les données du commercial choisi.",
+        "Graphique dynamique : faites le graphique à partir de ce tableau ; il change selon le choix dans la liste. Couleur et effet au choix."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -6205,7 +6236,10 @@ window.EXCEL_ATELIER_DATA = {
         "Relisez le classeur et verifiez la coherence des donnees, calculs et formats avant validation.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Créer un graphique à partir d'un tableau.",
+        "Rendre un graphique dynamique avec une liste déroulante et une fonction de recherche."
+      ],
       "originalConsignes": [
         "À partir du tableau ci-dessous, concevez un graphique qui montre le niveau de salaire par salarié et par année."
       ],
@@ -6551,10 +6585,8 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Graphique Sparkline",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Graphique Sparkline.",
-        "Inserez ou ajustez le graphique puis harmonisez titres, series, axes et mise en forme.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le chiffre d'affaires de chaque prestation (chambres, petit déjeuner, pensions) sur 4 trimestres.",
+        "Sparklines : de F2 à F6, insérez des graphiques sparkline (Insertion > Sparkline > Courbe) avec les données des 4 trimestres de chaque ligne."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -6578,7 +6610,9 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Insérer des graphiques sparkline dans des cellules."
+      ],
       "originalConsignes": [
         "Consignes : De F2 à F6, vous insérez des graphiques spaklines avec les données des 4 trimestres pour chaque champ d'activité."
       ],
@@ -7150,10 +7184,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Exercice pour manipuler le format personnalisé: \"jjjj\".",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Exercice pour manipuler le format personnalisé: \"jjjj\"..",
-        "Ajustez le format des cellules puis verifiez nombres, dates, alignements et affichages attendus.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le nom et la date de naissance de chaque personne.",
+        "Formule : en C2, saisissez =B2 puis recopiez vers le bas.",
+        "Format personnalisé : appliquez le format \"jjjj\" (Format de cellule > Personnalisée) pour afficher le jour de naissance."
       ],
       "levelLabel": null,
       "scrape": {
@@ -7177,7 +7210,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Créer un format de date personnalisé (jjjj).",
+        "Afficher autrement une valeur sans la modifier."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Exercice pour manipuler le format personnalisé: \"jjjj\"..",
         "Ajustez le format des cellules puis verifiez nombres, dates, alignements et affichages attendus.",
@@ -7212,10 +7248,10 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Format de cellule à insérer",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Format de cellule à insérer.",
-        "Ajustez le format des cellules puis verifiez nombres, dates, alignements et affichages attendus.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient deux feuilles : Enonce-1 (vitesses) et Enonce-2 (âges).",
+        "Vitesse moyenne : une voiture parcourt 350 km en 2h45, une autre 310 km en 1h35, une troisième 120 km en 1h30. Calculez la vitesse moyenne de chacune.",
+        "Format Km/h : affichez la vitesse au format \"XXX Km/h\" avec un format personnalisé.",
+        "Format ans : sur la 2e feuille, affichez les âges avec le mot « ans » (par exemple 52 ans pour Jean)."
       ],
       "levelLabel": null,
       "scrape": {
@@ -7240,7 +7276,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Créer un format de nombre personnalisé avec une unité (0 \"Km/h\", 0 \"ans\").",
+        "Calculer avec des durées (heures et minutes)."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Format de cellule à insérer.",
         "Ajustez le format des cellules puis verifiez nombres, dates, alignements et affichages attendus.",
@@ -7389,10 +7428,8 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Exercice complet pour la mise en place de nombreux formats DATE personnalisés",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Exercice complet pour la mise en place de nombreux formats DATE personnalisés.",
-        "Ajustez le format des cellules puis verifiez nombres, dates, alignements et affichages attendus.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient des dates et le format à obtenir pour chacune.",
+        "Formats DATE : dans les cellules bleues, appliquez les formats de cellule personnalisés pour afficher les dates comme sur la capture. La colonne B renferme des indices sérieux…"
       ],
       "levelLabel": null,
       "scrape": {
@@ -7416,7 +7453,9 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Créer des formats de date personnalisés (j, jj, jjj, jjjj, m, mmm, aa, aaaa…)."
+      ],
       "originalConsignes": [
         "Vous appliquez les formats de cellule personnalisés dans les cellules bleues afin d'afficher les dates comme prévu dans la capture écran ci-contre. La colonne B renferme des indices sérieux…."
       ],
@@ -7503,10 +7542,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Exercice simple: comment mettre en place une valeur absolue dans une colonne - Série 1",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Exercice simple: comment mettre en place une valeur absolue dans une colonne - Série 1.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient la rémunération des guides : tarif journalier, nombre de jours par guide.",
+        "Montant : calculez le montant du premier guide (jours × tarif journalier) en bloquant le tarif avec $ (touche F4).",
+        "Recopie : utilisez obligatoirement la poignée de recopie pour calculer C6 à C8."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -7530,7 +7568,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Utiliser une référence absolue ($) dans une formule.",
+        "Recopier une formule contenant une référence absolue."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Exercice simple: comment mettre en place une valeur absolue dans une colonne - Série 1.",
         "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
@@ -10019,10 +10060,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Lier des feuilles de calculs",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Lier des feuilles de calculs.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les feuilles T1, T2, T3, T4 (Béziers, Montpellier, Sète) et la feuille Recapitulatif.",
+        "Trimestres : calculez les feuilles T1, T2, T3 et T4.",
+        "Récapitulatif : rapatriez les résultats de chaque trimestre sur la feuille « Recapitulatif » de façon dynamique (formule =T1!cellule)."
       ],
       "levelLabel": null,
       "scrape": {
@@ -10049,7 +10089,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Faire référence à une cellule d'une autre feuille.",
+        "Construire un récapitulatif qui se met à jour automatiquement."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Lier des feuilles de calculs.",
         "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
@@ -10084,10 +10127,8 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Exercice 2",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Exercice 2.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient une feuille Enonce et les feuilles Paris, Dijon et Lyon.",
+        "Collage avec liaison : remplissez les deux tableaux de la feuille Enonce en copiant les valeurs des autres onglets puis Collage spécial > Coller avec liaison."
       ],
       "levelLabel": "Intermediaire",
       "scrape": {
@@ -10111,7 +10152,9 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Coller avec liaison des données issues d'autres feuilles."
+      ],
       "originalConsignes": [
         "Remplir les deux tableaux ci-dessous en collant avec liaison les valeurs copiées dans les autres onglets."
       ],
@@ -10140,10 +10183,10 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Lier des feuilles de calculs & appareil photo",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Lier des feuilles de calculs & appareil photo.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les feuilles Récap Vacances, pitchoun et ailesbleues.",
+        "Récapitulatif : sur « Récap Vacances », faites un récapitulatif dynamique de la fréquentation des deux centres (formules vers les feuilles pitchoun et ailesbleues).",
+        "Bouton Appareil photo : clic droit dans le ruban > Personnaliser le ruban > Commandes non présentes dans le ruban > Appareil photo, puis ajoutez-le.",
+        "Capture dynamique : sélectionnez chaque tableau, cliquez sur Appareil photo et collez la photo sur un nouvel onglet regroupant les trois tableaux."
       ],
       "levelLabel": null,
       "scrape": {
@@ -10168,7 +10211,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Lier des feuilles pour un récapitulatif dynamique.",
+        "Ajouter une commande au ruban et utiliser l'appareil photo d'Excel."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Lier des feuilles de calculs & appareil photo.",
         "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
@@ -10205,10 +10251,8 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Lier des feuilles de calculs",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Lier des feuilles de calculs.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les feuilles vue d'ensemble, Lyon Sud et Lyon Nord.",
+        "Lyon Sud : depuis la feuille « Lyon Sud », rapatriez dynamiquement les valeurs du tableau Lyon Sud de la feuille « vue d'ensemble »."
       ],
       "levelLabel": null,
       "scrape": {
@@ -10232,7 +10276,9 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Faire référence à des cellules d'une autre feuille."
+      ],
       "originalConsignes": [
         "Depuis cette feuille, vous rapatriez dynamiquement les valeurs du tableau Lyon Sud de la feuille \"Vue d'ensemble\"."
       ],
@@ -10709,10 +10755,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": ": Nommer une cellule ou une plage de cellules",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: : Nommer une cellule ou une plage de cellules.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le suivi de chantier (travaux, coûts, jours prévus et réels).",
+        "Noms : nommez les zones vertes (zone Nom à gauche de la barre de formule, ou Formules > Définir un nom).",
+        "Calculs : dans les cellules bleues, insérez les calculs en utilisant ces noms."
       ],
       "levelLabel": "Intermediaire",
       "scrape": {
@@ -10736,7 +10781,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Nommer une cellule ou une plage de cellules.",
+        "Utiliser un nom dans une formule."
+      ],
       "originalConsignes": [
         "Vous nommez les zones de couleur verte et insérez les calculs dans les cellules bleues."
       ],
@@ -11969,10 +12017,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Exercice 1",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Exercice 1.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les commandes de fruits par produit, pays et région.",
+        "Tri : triez le tableau par produit.",
+        "Sous-total : Données > Sous-total, à chaque changement de Produit, fonction Somme."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -11996,7 +12043,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Trier une liste avant de calculer des sous-totaux.",
+        "Insérer des sous-totaux automatiques."
+      ],
       "originalConsignes": [
         "Vous appliquez simplement un sous-total pour chaque variété de fruits."
       ],
@@ -12025,10 +12075,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Sous-Totaux",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Sous-Totaux.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient, pour chaque élève, sa classe et ses notes du 1er trimestre en maths, français et sciences.",
+        "Modifier le fichier : défusionnez ou supprimez la ligne de titre au-dessus des en-têtes, puis triez les élèves par Classe (sans cela, le sous-total ne fonctionne pas).",
+        "Sous-total : Données > Sous-total, à chaque changement de classe, fonction Moyenne, sur chaque matière."
       ],
       "levelLabel": "Intermediaire",
       "scrape": {
@@ -12052,7 +12101,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Préparer et trier des données avant un sous-total.",
+        "Calculer des sous-totaux avec une autre fonction que la somme (Moyenne)."
+      ],
       "originalConsignes": [
         "Vous appliquez un sous-total pour déterminer la moyenne de chaque classe dans chaque matière. Il vous faudra modifier le fichier de travail."
       ],
@@ -12081,10 +12133,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Sous-Totaux",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Sous-Totaux.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient trois tableaux de ventes de CD (classique, rock, jazz) par société, d'août à décembre.",
+        "Modifier le fichier : regroupez les trois tableaux en une seule liste (ajoutez une colonne indiquant le genre de CD), puis triez par société (sans modification, ça va être compliqué).",
+        "Sous-total : Données > Sous-total, à chaque changement de société, fonction Somme."
       ],
       "levelLabel": "Intermediaire",
       "scrape": {
@@ -12108,7 +12159,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Restructurer des données en liste pour pouvoir les analyser.",
+        "Insérer des sous-totaux par catégorie."
+      ],
       "originalConsignes": [
         "Après une modification du fichier de travail, vous déterminez le sous-total de chaque société. (sans modifications ça va être compliqué)."
       ],
@@ -12198,10 +12252,9 @@ window.EXCEL_ATELIER_DATA = {
       "description": "La consolidation dans excel",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: La consolidation dans excel.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les ventes des succursales Lyon Nord et Lyon Sud par modèle et par semaine.",
+        "Consolidation : dans un espace libre, de préférence à côté, sélectionnez la cellule de départ puis Données > Consolider, fonction Somme, en ajoutant les deux tableaux.",
+        "Étiquettes : cochez Ligne du haut et Colonne de gauche."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -12225,7 +12278,9 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Consolider plusieurs tableaux en un seul avec Données > Consolider."
+      ],
       "originalConsignes": [
         "Dans un espace au choix sur la feuille de calcul et de préférence à côté, vous insérez un tableau qui va faire la \"consolidation\" des deux premiers."
       ],
@@ -16732,12 +16787,12 @@ window.EXCEL_ATELIER_DATA = {
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Cas Fiche Clients garage",
-      "preamble": "",
+      "preamble": "Cet exercice met en place une fiche client qui, à l'aide d'une liste de choix, se remplit avec les renseignements du tableau des clients grâce à RECHERCHEX. Les fonctions SI et ET déterminent si le garage doit effectuer un rappel pour la vidange.",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Cas Fiche Clients garage.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les feuilles liste_clients et fiche.",
+        "Repère 1 : avec une liste déroulante (Validation des données), proposez dans cette cellule le NOM des clients de la feuille « liste_clients ».",
+        "Cellules bleues : avec le contenu de B3 et la fonction RECHERCHEX, rapatriez les 12 renseignements manquants.",
+        "Repère 2 : avec SI et ET imbriquée, déterminez si le client a besoin d'un rappel : type d'intervention = vidange et dernière visite à moins d'un an de la date du jour."
       ],
       "levelLabel": "Expert",
       "scrape": {
@@ -16759,7 +16814,11 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Créer une liste déroulante avec la validation des données.",
+        "Rechercher des informations avec RECHERCHEX.",
+        "Combiner SI et ET pour tester deux conditions."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Cas Fiche Clients garage.",
         "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
@@ -16792,12 +16851,16 @@ window.EXCEL_ATELIER_DATA = {
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
       "description": "Cas Formulaire de saisie",
-      "preamble": "",
+      "preamble": "Cet exercice met en place une fiche de saisie qui alimente un tableau récapitulatif, avec RECHERCHEX, la validation des données et l'enregistrement d'une macro.",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Cas Formulaire de saisie.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Verifiez votre rendu avec l'image fournie puis corrigez les differences.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient trois feuilles : SAISIE (le formulaire), TABLEAU (les données collectées) et LISTE (les listes prédéfinies).",
+        "Repères 1 à 3 : saisie en majuscules obligatoire (validation des données), choix dans une liste déroulante, date de naissance.",
+        "Repère 4 : catégorie du coureur selon sa date de naissance, avec =RECHERCHEX(LISTE!G2;LISTE!E1:E72;LISTE!F1:F72;0;0).",
+        "Repères 5 et 6 : saisie simple des renseignements et choix de la course dans une liste déroulante.",
+        "Repère 7 : prix du dossard selon la course, avec RECHERCHEX(C11;LISTE!A2:A6;LISTE!B2:B6;0;0).",
+        "Feuille LISTE : rapatriez l'année de naissance avec =ANNEE(SAISIE!C5).",
+        "Feuille TABLEAU : utilisez Accueil > Mettre sous forme de tableau pour obtenir le total en euros et les filtres.",
+        "Macro : dans l'onglet Développeur, enregistrez une macro qui copie le formulaire, colle les valeurs en transposant sur la feuille TABLEAU, insère une nouvelle ligne et répercute le format, puis attribuez-la au bouton « enregistré » (repère 8)."
       ],
       "levelLabel": null,
       "scrape": {
@@ -16820,7 +16883,11 @@ window.EXCEL_ATELIER_DATA = {
         "Verifiez votre rendu avec l'image fournie puis corrigez les differences.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Contrôler une saisie avec la validation des données (liste, majuscules).",
+        "Rechercher une valeur avec RECHERCHEX.",
+        "Enregistrer une macro et l'attribuer à un bouton."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Cas Formulaire de saisie.",
         "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
@@ -16934,12 +17001,17 @@ window.EXCEL_ATELIER_DATA = {
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
       "description": "Cas Calendrier perpétuel (ou presque)",
-      "preamble": "",
+      "preamble": "Cet exercice met en place un calendrier perpétuel (ou presque) avec JOURSEM, NO.SEMAINE, SI, les formats de cellule et la mise en forme conditionnelle. Éventuellement CHOISIR et JOURSEM pour faire plus fort.",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Cas Calendrier perpétuel (ou presque).",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le planning à compléter (matin, après-midi, début, fin).",
+        "D1 : zone de saisie de la date au format \"mmm-aa\".",
+        "A4:A34 : calculez les jours du mois indiqué en D1.",
+        "B4:B34 : numéro du jour avec JOURSEM (dimanche = 1).",
+        "C4:C34 : la date, ou le numéro de semaine si c'est un dimanche (SI avec NO.SEMAINE et CONCATENER ou &).",
+        "H4:H34 : temps de travail du matin et de l'après-midi de chaque jour (soustraction et addition), total mensuel en H35 et G1 = H35.",
+        "Dimanches : grisez les lignes avec une mise en forme conditionnelle par formule (colonne B = 1).",
+        "Finitions : masquez les colonnes A, B et H ; pour 12 mois, dupliquez la feuille et changez la date en D1.",
+        "Pour aller plus loin : affichez « lun. 3 » au lieu de la date en combinant SI, NO.SEMAINE, CHOISIR et JOURSEM. Les formules sont données sur la page source, à ne regarder qu'en dernier recours."
       ],
       "levelLabel": null,
       "scrape": {
@@ -16963,7 +17035,11 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Utiliser les fonctions de date JOURSEM et NO.SEMAINE.",
+        "Appliquer une mise en forme conditionnelle à partir d'une formule.",
+        "Calculer des durées en heures."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Cas Calendrier perpétuel (ou presque).",
         "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
@@ -17312,12 +17388,15 @@ window.EXCEL_ATELIER_DATA = {
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Cas SUD informatique",
-      "preamble": "",
+      "preamble": "L'entreprise Sud Informatique souhaite analyser son chiffre d'affaires par famille de produits.",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Cas SUD informatique.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les factures datées par article et par famille (INFO, LIBRAIRIE, FORMATION).",
+        "Nombre de factures : calculez-le par famille avec NB.SI.",
+        "% Factures : rapport entre le nombre de factures de la famille et le total (format %, 2 décimales).",
+        "CA : calculez le chiffre d'affaires par famille, en montant et en pourcentage.",
+        "Statistiques : maximum, minimum et moyenne, affichés à l'entier.",
+        "Classement : calculez-le avec la fonction RANG.",
+        "Prime : 100 € si le montant est supérieur à 10 000 € (fonction SI)."
       ],
       "levelLabel": "Intermediaire",
       "scrape": {
@@ -17339,7 +17418,11 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Compter et additionner selon un critère (NB.SI, SOMME.SI).",
+        "Utiliser MAX, MIN, MOYENNE et RANG.",
+        "Écrire une condition avec SI."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Cas SUD informatique.",
         "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
@@ -17443,12 +17526,14 @@ window.EXCEL_ATELIER_DATA = {
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
       "description": "Cas Course Haut Caroux",
-      "preamble": "",
+      "preamble": "L'équipe qui organise le Trail du Haut Caroux possède la liste des participants et doit manipuler les données. Vous travaillerez avec CONCATENER, NB.SI, NB.SI.ENS, GAUCHE, DROITE, SI, STXT, NB.CAR et RECHERCHEV.",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Cas Course Haut Caroux.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient la feuille Données et une feuille par question.",
+        "Feuille Code : générez un code d'accès composé de la première lettre du nom, des trois derniers chiffres du code postal, des deux derniers chiffres de l'année de naissance et de la taille de tee-shirt.",
+        "Feuille Nombre par course : déterminez le nombre de coureurs pour les 5 courses.",
+        "Feuille Taille tee-shirt : comptez les tee-shirts par taille et par sexe, puis présentez-les en deux graphiques en secteurs.",
+        "Feuille Departement : extrayez le numéro de département de chaque coureur ; pour les départements à un chiffre (Ariège 09), affichez 9 uniquement.",
+        "Feuille Par catégorie : déterminez la catégorie de chaque coureur et faites un tableau récapitulatif du nombre de coureurs par catégorie."
       ],
       "levelLabel": "Avance",
       "scrape": {
@@ -17474,7 +17559,11 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Extraire et assembler du texte (GAUCHE, DROITE, STXT, CONCATENER).",
+        "Compter selon un ou plusieurs critères (NB.SI, NB.SI.ENS).",
+        "Rechercher une valeur dans un tableau avec RECHERCHEV."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Cas Course Haut Caroux.",
         "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
