@@ -551,16 +551,16 @@ window.WORD_ATELIER_DATA = {
       "pageUrl": "https://www.clic-formation.net/changer-de-police/exercice-1-changer-de-police.html",
       "level": 1,
       "levelLabel": "🟢 Débutant ⭐",
-      "docxUrl": "data/assets/word/m3-saisir-du-texte/word-ex-001.docx",
-      "imageEnonce": "data/assets/word/bases-03-saisir-du-texte/word-ex-001-image-enonce.webp",
-      "imageResultat": "data/assets/word/bases-03-saisir-du-texte/word-ex-001-image-resultat.jpg",
-      "description": "Saisir cette liste à l'identique sur Word. Police \"Calibri\". Les deux séries sont des images que vous pouvez glisser sur votre ordinateur ou votre document de travail pour pouvoir travailler confortablement. Vous pouvez aussi imprimer les deux images via le clic-droit de votre souris.",
+      "docxUrl": null,
+      "imageEnonce": null,
+      "imageResultat": null,
+      "description": "Maîtriser la saisie des caractères au clavier.",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Saisir cette liste à l'identique sur Word. Police \"Calibri\". Les deux séries sont des.",
-        "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Nouveau document : ouvrez Word et créez un document vierge.",
+        "Série 1 : saisissez la liste des signes de ponctuation et symboles, chacun suivi de son nom.",
+        "Série 2 : saisissez la liste de mots et d'expressions avec accents, majuscules, symboles et caractères spéciaux.",
+        "Police : appliquez \"Calibri\" à tout le texte."
       ],
       "scrape": {
         "ok": true,
@@ -574,14 +574,42 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/bases-03-saisir-du-texte/word-ex-001-scrape-resultat-2.webp"
         ]
       },
-      "preamble": "",
-      "criteria": [],
+      "preamble": "Saisissez chaque liste à l'identique dans Word, en police \"Calibri\". Vous pouvez glisser les images des séries sur votre ordinateur ou dans votre document, ou les imprimer (clic droit), pour travailler confortablement.",
+      "criteria": [
+        "Trouver sur le clavier les signes de ponctuation et les symboles (Maj, Alt Gr).",
+        "Saisir les lettres accentuées, majuscules accentuées et caractères spéciaux (Alt + code)."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Saisir cette liste à l'identique sur Word. Police \"Calibri\". Les deux séries sont des.",
         "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
         "Enregistrez votre travail puis marquez l'exercice comme terminé."
+      ],
+      "exerciseTabs": [
+        {
+          "id": "serie-1",
+          "title": "Série 1",
+          "instructions": [
+            "Nouveau document : ouvrez Word et créez un document vierge.",
+            "Série 1 : saisissez la liste des signes de ponctuation et symboles, chacun suivi de son nom, en police \"Calibri\"."
+          ],
+          "resultImages": [
+            "data/assets/word/bases-03-saisir-du-texte/word-ex-001-scrape-resultat-1.jpg"
+          ]
+        },
+        {
+          "id": "serie-2",
+          "title": "Série 2",
+          "instructions": [
+            "Nouveau document : ouvrez Word et créez un document vierge.",
+            "Série 2 : saisissez la liste de mots et d'expressions avec accents, majuscules, symboles et caractères spéciaux, en police \"Calibri\".",
+            "Caractères rares : pour le ñ, maintenez Alt et tapez 0241 sur le pavé numérique."
+          ],
+          "resultImages": [
+            "data/assets/word/bases-03-saisir-du-texte/word-ex-001-scrape-resultat-2.webp"
+          ]
+        }
       ]
     },
     {
@@ -2373,9 +2401,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Ajoutez les formes via Insertion > Formes puis harmonisez style, taille et alignement.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Formes : insérez des formes depuis Insertion > Illustrations > Formes.",
+        "Mise en forme : explorez l'onglet Format de la forme et toutes ses fonctionnalités : contour, remplissage, effets…"
       ],
       "scrape": {
         "ok": true,
@@ -2388,8 +2415,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/bases-08-inserer-une-forme/word-ex-001-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
-      "criteria": [],
+      "preamble": "Inspirez-vous du résultat pour votre mise en forme. Les formes ne sont là que pour « donner une idée » : laissez libre cours à votre imagination.",
+      "criteria": [
+        "Insérer une forme et y ajouter du texte.",
+        "Modifier le remplissage, le contour et les effets d'une forme."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Ajoutez les formes via Insertion > Formes puis harmonisez style, taille et alignement.",
@@ -2599,13 +2629,12 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": null,
       "imageEnonce": "data/assets/word/bases-08-inserer-une-forme/word-ex-006-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-08-inserer-une-forme/word-ex-006-image-resultat.jpg",
-      "description": "Téléchargez les photos utiles à l'exercice.",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Téléchargez les photos utiles à l'exercice..",
-        "Ajoutez les formes via Insertion > Formes puis harmonisez style, taille et alignement.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Photos : téléchargez les photos utiles à l'exercice et décompressez-les.",
+        "SmartArt : insérez le modèle via Insertion > SmartArt (catégorie Image).",
+        "Images : insérez les photos dans les zones prévues du SmartArt."
       ],
       "scrape": {
         "ok": true,
@@ -2619,8 +2648,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/bases-08-inserer-une-forme/word-ex-006-scrape-resultat-2.jpg"
         ]
       },
-      "preamble": "",
-      "criteria": [],
+      "preamble": "Deux modèles sont proposés dans le résultat attendu.",
+      "criteria": [
+        "Insérer un SmartArt avec des emplacements d'images.",
+        "Remplir les zones d'image et de texte d'un SmartArt."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez les photos utiles à l'exercice..",
@@ -2953,9 +2985,7 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Encadré rétrospective : présentez le texte à l'aide de la zone de texte prédéfinie \"Encadré rétrospective\"."
       ],
       "scrape": {
         "ok": true,
@@ -2969,7 +2999,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Insérer une zone de texte prédéfinie depuis la galerie Zone de texte.",
+        "Déplacer le texte du document dans une zone prédéfinie."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
@@ -3176,9 +3209,9 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Inserez les sauts via Mise en page > Sauts puis vérifiez la structure du document.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Sections : insérez des sauts de section continus avant et après le second paragraphe.",
+        "Colonnes : mettez le second paragraphe, et uniquement celui-ci, sur 3 colonnes.",
+        "Pleine largeur : le premier et le dernier paragraphe restent sur toute la largeur de la page."
       ],
       "scrape": {
         "ok": true,
@@ -3192,7 +3225,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Isoler un paragraphe dans sa propre section avec des sauts de section continus.",
+        "Appliquer des colonnes à une seule section."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Inserez les sauts via Mise en page > Sauts puis vérifiez la structure du document.",
@@ -3219,9 +3255,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Inserez les sauts via Mise en page > Sauts puis vérifiez la structure du document.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Sections : insérez des sauts de section continus autour des deux paragraphes centraux.",
+        "Colonnes : mettez ces deux paragraphes sur deux colonnes."
       ],
       "scrape": {
         "ok": true,
@@ -3235,7 +3270,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Segmenter un document avec des sauts de section continus.",
+        "Appliquer des colonnes à une partie seulement du document."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Inserez les sauts via Mise en page > Sauts puis vérifiez la structure du document.",
@@ -4259,13 +4297,12 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m14-inserer-un-tableau/word-ex-008.docx",
       "imageEnonce": "data/assets/word/bases-14-inserer-un-tableau/word-ex-008-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-14-inserer-un-tableau/word-ex-008-image-resultat.jpg",
-      "description": "Suivez l'exemple ci-dessous. Les textes hors tableau sont déjà sur votre fichier de travail. Pour cet exercice, il est conseillé d'imprimer l'image ou mieux de l'avoir sur la droite de son écran pour mieux le copier.",
+      "description": "Fiche d'adhésion en 5 tableaux.",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Fiche d'adhésion avec 5 tableaux (ou 4 possibles en \"invisibilisant\" certaines bordures.",
-        "Créez ou ajustez le tableau via Insertion > Tableau puis appliquez fusion, bordures et alignements.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Textes : les textes hors tableau sont déjà dans le fichier de travail.",
+        "Tableaux : créez les 5 tableaux de différentes tailles de la fiche d'adhésion (ou 4, en masquant certaines bordures du troisième).",
+        "Reproduction : suivez l'exemple du résultat attendu."
       ],
       "scrape": {
         "ok": true,
@@ -4278,8 +4315,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/bases-14-inserer-un-tableau/word-ex-008-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
-      "criteria": [],
+      "preamble": "Il est conseillé d'imprimer l'image du résultat ou, mieux, de l'avoir sur la droite de son écran pour la copier.",
+      "criteria": [
+        "Créer plusieurs tableaux de tailles différentes dans un même document.",
+        "Masquer certaines bordures pour simuler plusieurs tableaux."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Fiche d'adhésion avec 5 tableaux (ou 4 possibles en \"invisibilisant\" certaines bordures.",
@@ -4435,13 +4475,13 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": null,
       "imageEnonce": "data/assets/word/bases-15-mise-en-forme-tableau/word-ex-003-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-15-mise-en-forme-tableau/word-ex-003-image-resultat.jpg",
-      "description": "Même principe que l'exercice précédent texte vertical sur la première ligne et alternance de couleur dans les colonnes. Si possible distribuer la couleur sur les 5 colonnes en une fois. \"Selection multiple des colonnes \"",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Même principe que l'exercice précédent texte vertical sur la première ligne et alternance.",
-        "Ajoutez les formes via Insertion > Formes puis harmonisez style, taille et alignement.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Nouveau document : ouvrez Word et créez un document vierge.",
+        "Tableau : reproduisez le tableau du résultat attendu, sur le même principe que l'exercice précédent.",
+        "Première ligne : texte vertical.",
+        "Colonnes : couleurs alternées. Si possible, colorez les 5 colonnes en une fois avec une sélection multiple (Ctrl+clic)."
       ],
       "scrape": {
         "ok": true,
@@ -4455,7 +4495,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Changer l'orientation du texte dans une cellule.",
+        "Sélectionner plusieurs colonnes non contiguës (Ctrl) pour les colorer en une fois."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Même principe que l'exercice précédent texte vertical sur la première ligne et alternance.",
@@ -4964,13 +5007,12 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m16-tableau-avance/word-ex-007.docx",
       "imageEnonce": "data/assets/word/bases-16-tableau-avance/word-ex-007-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-16-tableau-avance/word-ex-007-image-resultat.jpg",
-      "description": "Téléchargez le document Word",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Téléchargez le document Word.",
-        "Créez ou ajustez le tableau via Insertion > Tableau puis appliquez fusion, bordures et alignements.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Sélection : sélectionnez la première série de texte.",
+        "Conversion : transformez-la en tableau avec Insertion > Tableau > Convertir le texte en tableau.",
+        "Séries suivantes : faites de même pour les deux autres séries."
       ],
       "scrape": {
         "ok": true,
@@ -4984,7 +5026,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Convertir un texte séparé par des tabulations ou des points-virgules en tableau.",
+        "Choisir le séparateur et le nombre de colonnes lors de la conversion."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez le document Word.",
@@ -5009,13 +5054,10 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m16-tableau-avance/word-ex-008.docx",
       "imageEnonce": "data/assets/word/bases-16-tableau-avance/word-ex-008-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-16-tableau-avance/word-ex-008-image-resultat.jpg",
-      "description": "Triez les noms des coureurs par ordre alphabetique avec la fonction Tri (groupe Donnees).",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier Word du tableau de coureurs.",
-        "Triez les noms des coureurs par ordre alphabétique avec la fonction Tri du groupe « Données ».",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Tri : triez les noms des coureurs par ordre alphabétique avec la fonction Trier du groupe \"Données\" (onglet Disposition du tableau)."
       ],
       "scrape": {
         "ok": true,
@@ -5029,7 +5071,9 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Trier les lignes d'un tableau Word par ordre alphabétique."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Trier les noms des coureurs par ordre Alphabétique avec la fonction trié du groupe \"Données\"."
@@ -5374,13 +5418,12 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m18-chercher-et-remplacer/word-ex-001.docx",
       "imageEnonce": "data/assets/word/avance-18-chercher-et-remplacer/word-ex-001-image-enonce.webp",
       "imageResultat": "data/assets/word/avance-18-chercher-et-remplacer/word-ex-001-image-resultat.webp",
-      "description": "Téléchargez le document de travail",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Téléchargez le document de travail.",
-        "Utilisez Accueil > Remplacer pour automatiser les corrections demandees.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Remplacer : ouvrez Rechercher et remplacer (Ctrl+H, rapide et pratique).",
+        "Cigale : remplacez « cigale » par « mante religieuse ».",
+        "Fourmi : remplacez « fourmi » par « grillon »."
       ],
       "scrape": {
         "ok": true,
@@ -5396,7 +5439,9 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Remplacer un mot dans tout le document avec Rechercher et remplacer (Ctrl+H)."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez le document de travail.",
@@ -5424,9 +5469,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Utilisez Accueil > Remplacer pour automatiser les corrections demandees.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Meunier : remplacez « Meunier » par « Boulanger ».",
+        "Âne : remplacez « Âne » par « Vache »."
       ],
       "scrape": {
         "ok": true,
@@ -5440,7 +5484,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Remplacer un mot dans tout le document avec Rechercher et remplacer (Ctrl+H).",
+        "Vérifier que la casse des mots remplacés est respectée."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Utilisez Accueil > Remplacer pour automatiser les corrections demandees.",
@@ -5690,9 +5737,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Utilisez Accueil > Remplacer pour automatiser les corrections demandees.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Enquête : trouvez quelle lettre correspond à chaque chiffre.",
+        "Remplacer : remplacez les chiffres par les lettres correspondantes avec Ctrl+H."
       ],
       "scrape": {
         "ok": true,
@@ -5708,7 +5754,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Remplacer un caractère par un autre dans tout le document.",
+        "Enchaîner plusieurs remplacements avec Rechercher et remplacer."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Utilisez Accueil > Remplacer pour automatiser les corrections demandees.",
@@ -5776,14 +5825,12 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": null,
       "imageEnonce": "data/assets/word/avance-19-format-de-page/word-ex-002-image-enonce.jpg",
       "imageResultat": "data/assets/word/avance-19-format-de-page/word-ex-002-image-resultat.jpg",
-      "description": "Appliquez une trame de fond image puis reproduisez la composition Mont-Blanc.",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Téléchargez l'image de fond Mont-Blanc.",
-        "Ouvrez un document Word vierge.",
-        "Appliquez une trame de fond image (Mise en page > Couleur de page > Motifs de remplissage > Image), puis ajoutez les textes comme sur le modèle (Toit de l'Europe, MONT-BLANC, Mario Colonel).",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Nouveau document : ouvrez Word et créez un document vierge.",
+        "Fond de page : insérez l'image du mont Blanc en fond de page (Création > Couleur de page > Motifs et textures > Image).",
+        "Texte : ajoutez le texte centré comme sur le résultat."
       ],
       "scrape": {
         "ok": true,
@@ -5797,7 +5844,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Utiliser une image comme fond de page.",
+        "Placer un texte centré lisible sur un fond image."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez l'image ici.",
@@ -5871,9 +5921,9 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Saut de section : insérez un saut de section entre la première et la seconde page.",
+        "Page 1 : insérez un tour de page de type sapin (ou un autre motif si votre version de Word n'a pas les sapins).",
+        "Page 2 : insérez un tour de page de type double ligne."
       ],
       "scrape": {
         "ok": true,
@@ -5887,7 +5937,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Appliquer une bordure de page différente à chaque section.",
+        "Choisir une bordure à motif ou à trait."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
@@ -5914,9 +5967,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Fond : colorez le fond d'un paragraphe sur deux.",
+        "Espacement : avec Espacement des paragraphes (onglet Création ou Conception), choisissez une valeur au hasard."
       ],
       "scrape": {
         "ok": true,
@@ -5930,7 +5982,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Colorer le fond d'un paragraphe (trame).",
+        "Appliquer un espacement de paragraphes prédéfini à tout le document."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
@@ -5957,9 +6012,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Fond de page : insérez un fond de page à motif de points partout.",
+        "Filigrane : insérez un filigrane personnalisé \"pas toucher c'est à moi\"."
       ],
       "scrape": {
         "ok": true,
@@ -5973,7 +6027,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Appliquer un motif en fond de page.",
+        "Créer un filigrane avec un texte personnalisé."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
@@ -6103,13 +6160,11 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m20-affichage/word-ex-001.docx",
       "imageEnonce": "data/assets/word/avance-20-affichage/word-ex-001-image-enonce.jpg",
       "imageResultat": "data/assets/word/avance-20-affichage/word-ex-001-image-resultat.jpg",
-      "description": "Télécharger le document de travail",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Télécharger le document de travail.",
-        "Ajustez les options de l'onglet Affichage (zoom, volets, fenêtres) selon l'exemple.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Zoom : appliquez un zoom de 200 % avec la réglette en bas à droite de la fenêtre, ou avec Ctrl+molette.",
+        "Ailleurs : testez ce raccourci dans votre navigateur web, votre logiciel photo…"
       ],
       "scrape": {
         "ok": true,
@@ -6123,7 +6178,9 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Régler le zoom d'affichage avec la réglette ou Ctrl+molette."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Télécharger le document de travail.",
@@ -6148,13 +6205,10 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m20-affichage/word-ex-002.docx",
       "imageEnonce": "data/assets/word/avance-20-affichage/word-ex-002-image-enonce.jpg",
       "imageResultat": "data/assets/word/avance-20-affichage/word-ex-002-image-resultat.jpg",
-      "description": "Télécharger le document de travail",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Télécharger le document de travail.",
-        "Ajustez les options de l'onglet Affichage (zoom, volets, fenêtres) selon l'exemple.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Fractionner : dans l'onglet Affichage, cliquez sur Fractionner pour obtenir le même document dans 2 affichages superposés."
       ],
       "scrape": {
         "ok": true,
@@ -6168,7 +6222,9 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Fractionner la fenêtre pour afficher deux parties d'un même document."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Télécharger le document de travail.",
@@ -6317,16 +6373,14 @@ window.WORD_ATELIER_DATA = {
       "pageUrl": "https://www.clic-formation.net/aligner-du-texte/exercice-6.html",
       "level": 1,
       "levelLabel": "🟢 Débutant ⭐",
-      "docxUrl": "data/assets/word/m20-affichage/word-ex-006.docx",
+      "docxUrl": null,
       "imageEnonce": "data/assets/word/avance-20-affichage/word-ex-006-image-enonce.jpg",
       "imageResultat": null,
-      "description": "Vous ouvrez plusieurs documents Word et utilisez la fonction \"changer de fenêtre\" comme ci-dessous.",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Vous ouvrez plusieurs documents Word et utilisez la fonction \"changer de fenêtre\" comme.",
-        "Ajustez les options de l'onglet Affichage (zoom, volets, fenêtres) selon l'exemple.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Documents : ouvrez plusieurs documents Word.",
+        "Changer de fenêtre : passez de l'un à l'autre avec Affichage > Changer de fenêtre, comme sur l'image."
       ],
       "scrape": {
         "ok": true,
@@ -6342,7 +6396,9 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Passer d'un document ouvert à un autre avec Changer de fenêtre."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Vous ouvrez plusieurs documents Word et utilisez la fonction \"changer de fenêtre\" comme.",
@@ -6364,15 +6420,15 @@ window.WORD_ATELIER_DATA = {
       "pageUrl": "https://www.clic-formation.net/27-outil-dessin/exercice-1.html",
       "level": 2,
       "levelLabel": "🟡 Intermédiaire ⭐⭐",
-      "docxUrl": "data/assets/word/m21-smart-art/word-ex-001.docx",
+      "docxUrl": null,
       "imageEnonce": "data/assets/word/avance-21-smart-art/word-ex-001-image-enonce.jpg",
       "imageResultat": "data/assets/word/avance-21-smart-art/word-ex-001-image-resultat.jpg",
-      "description": "Dans Insertion > SmartArt, choisissez une disposition de type processus puis reproduisez la présentation du résultat attendu.",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Insérez un SmartArt de type \"Processus\" via Insertion > SmartArt.",
-        "Saisissez le contenu demandé puis ajustez la disposition, la taille et les couleurs pour vous rapprocher du modèle.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts principaux."
+        "Nouveau document : ouvrez Word et créez un document vierge.",
+        "SmartArt : dans Insertion > SmartArt, choisissez une disposition du groupe \"Processus\".",
+        "Présentation : reproduisez le résultat attendu à l'identique."
       ],
       "scrape": {
         "ok": true,
@@ -6386,7 +6442,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Insérer un SmartArt de type Processus.",
+        "Ajouter des étapes et saisir le texte d'un SmartArt."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Dans le menu Insertion-->smart Art, vous trouvez le groupe \"processus\", et faites une.",
@@ -7290,13 +7349,14 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m24-publipostage/word-ex-003.docx",
       "imageEnonce": "data/assets/word/avance-24-publipostage/word-ex-003-image-enonce.jpg",
       "imageResultat": "data/assets/word/avance-24-publipostage/word-ex-003-image-resultat.jpg",
-      "description": "Télécharger ci-contre les données et la lettre type",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Télécharger ci-contre les données et la lettre type.",
-        "Configurez les etapes de l'onglet Publipostage (source, champs, apercu) jusqu'au rendu attendu.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Mise en forme : mettez le courrier en forme comme sur le modèle.",
+        "Champs classiques : identifiez les champs en jaune.",
+        "Champs conditionnels : identifiez les champs en violet (règle Si… Alors… Sinon).",
+        "Fusion : insérez les champs de fusion, puis fusionnez l'ensemble.",
+        "Vérification : contrôlez que la civilité et le montant de la remise changent selon les contacts."
       ],
       "scrape": {
         "ok": true,
@@ -7309,8 +7369,12 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/avance-24-publipostage/word-ex-003-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
-      "criteria": [],
+      "preamble": "La difficulté réside dans le champ « date du jour » et surtout dans les champs conditionnels identifiés en violet : la civilité change selon le champ « genre », et les établissements dont le CA dépasse 15 000 € bénéficient d'une remise de 10 %, les autres de 5 %.",
+      "criteria": [
+        "Insérer des champs de fusion dans une lettre type.",
+        "Créer un champ conditionnel (Si… Alors… Sinon) dans un publipostage.",
+        "Insérer un champ date du jour dynamique."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Télécharger ci-contre les données et la lettre type.",
@@ -7437,13 +7501,12 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m24-publipostage/word-ex-006.docx",
       "imageEnonce": "data/assets/word/avance-24-publipostage/word-ex-006-image-enonce.webp",
       "imageResultat": "data/assets/word/avance-24-publipostage/word-ex-006-image-resultat.webp",
-      "description": "Téléchargez votre document de travail ci-contre",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Téléchargez votre document de travail ci-contre.",
-        "Configurez les etapes de l'onglet Publipostage (source, champs, apercu) jusqu'au rendu attendu.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Base de données : créez la liste des destinataires dans Word ou Excel.",
+        "Étiquettes : dans l'onglet Publipostage, créez une planche d'étiquettes.",
+        "Génération : générez la planche finale (voir la page support pour la méthode)."
       ],
       "scrape": {
         "ok": true,
@@ -7457,7 +7520,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Créer une source de données pour un publipostage.",
+        "Générer une planche d'étiquettes à partir de cette source."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez votre document de travail ci-contre.",
@@ -7523,13 +7589,14 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m24-publipostage/word-ex-008.docx",
       "imageEnonce": "data/assets/word/avance-24-publipostage/word-ex-008-image-enonce.gif",
       "imageResultat": "data/assets/word/avance-24-publipostage/word-ex-008-image-resultat.gif",
-      "description": "L'objectif de l'exercice est de creer un publipostage. La difficulte provient du format de date Excel, qui n'est pas importe comme attendu par defaut. Modifiez le code de champ afin d'obtenir des dates du type : 1er octobre 2020.",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Téléchargez les fichiers de travail, puis creez le publipostage jusqu'au rendu attendu.",
-        "Configurez les etapes de l'onglet Publipostage (source, champs, apercu) jusqu'au rendu attendu.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Fichiers : utilisez le fichier Excel des noms et adresses et le fichier Word du modèle de courrier.",
+        "Fusion : réalisez le publipostage.",
+        "Champ date : dans le document fusionné, faites un clic droit sur le champ erroné > Modifier le champ > Codes de champ.",
+        "Format : complétez le code ainsi : MERGEFIELD \"nom du champ dans Excel\" \\@ \"d MMMM yyyy\".",
+        "Résultat : une seule feuille."
       ],
       "scrape": {
         "ok": true,
@@ -7547,8 +7614,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/avance-24-publipostage/word-ex-008-scrape-resultat-1.gif"
         ]
       },
-      "preamble": "",
-      "criteria": [],
+      "preamble": "L'objectif est de créer un publipostage. La date Excel n'est pas importée au format voulu : il faut modifier le code de champ pour obtenir obligatoirement un format du type « 1er octobre 2020 ».",
+      "criteria": [
+        "Réaliser un publipostage à partir d'un fichier Excel.",
+        "Modifier un code de champ pour changer le format d'une date."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez ci-contre vos fichiers de travailL'objectif de l'exercice est de créer un.",
@@ -7696,9 +7766,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Niveaux : même exercice que le précédent, avec un troisième niveau hiérarchique (Titre 1, Titre 2, Titre 3).",
+        "Modèle : répartissez les titres comme sur le résultat attendu."
       ],
       "scrape": {
         "ok": true,
@@ -7714,7 +7783,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Hiérarchiser un document sur trois niveaux de titres.",
+        "Appliquer les styles Titre 1, Titre 2 et Titre 3."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
@@ -8534,13 +8606,11 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m28-trucs-et-astuces/word-ex-002.docx",
       "imageEnonce": "data/assets/word/avance-28-trucs-et-astuces/word-ex-002-image-enonce.webp",
       "imageResultat": "data/assets/word/avance-28-trucs-et-astuces/word-ex-002-image-resultat.webp",
-      "description": "L'objectif est de convertir du texte en tableau. Dans cet exercice, vous travaillez sur la liste des pays d'Europe et leurs capitales.",
+      "description": "Convertir la liste des pays d'Europe et de leurs capitales en tableau.",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : L'objectif est de convertir du texte en tableau. Dans cet exercice, vous travaillez sur.",
-        "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Sélection : sélectionnez la liste des pays et de leurs capitales.",
+        "Conversion : Insertion > Tableau > Convertir le texte en tableau, en choisissant le bon séparateur (voir le tutoriel)."
       ],
       "scrape": {
         "ok": true,
@@ -8554,7 +8624,9 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Convertir une liste en tableau en choisissant le séparateur."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : L'objectif est de convertir du texte en tableau. Dans cet exercice, vous travaillez sur.",
@@ -10540,13 +10612,13 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m32-niveau-4-expert/word-ex-001.docx",
       "imageEnonce": "data/assets/word/complets-32-niveau-4-expert/word-ex-001-image-enonce.jpg",
       "imageResultat": "data/assets/word/complets-32-niveau-4-expert/word-ex-001-image-resultat.jpg",
-      "description": "Zones de texte sur la grille",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Construisez la structure principale du document à partir de cet objectif : Zones de texte sur la grille.",
-        "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
-        "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme terminé."
+        "Fichiers : décompressez les images sur votre espace de travail.",
+        "Zones de texte : créez-les et groupez-les au fur et à mesure de l'avancée du travail.",
+        "Grille : affichez la grille (Affichage > Quadrillage) pour faciliter l'alignement.",
+        "Copier-coller : utilisez-le pour dupliquer les zones."
       ],
       "scrape": {
         "ok": true,
@@ -10559,8 +10631,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/complets-32-niveau-4-expert/word-ex-001-image-resultat.jpg"
         ]
       },
-      "preamble": "",
-      "criteria": [],
+      "preamble": "Le visuel du résultat n'est là que pour donner une idée générale.",
+      "criteria": [
+        "Aligner des zones de texte à l'aide du quadrillage.",
+        "Grouper et dupliquer des zones de texte dans une mise en page complexe."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Construisez la structure principale du document à partir de cet objectif : Zones de texte sur la grille.",
