@@ -938,7 +938,7 @@
       "docxUrl": null,
       "imageEnonce": "data/assets/word/bases-03-saisir-du-texte/word-ex-008-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-03-saisir-du-texte/word-ex-008-image-resultat.jpg",
-      "description": "Saisissez ou collez le texte, puis reproduisez la mise en forme du modele.",
+      "description": "",
       "consignes": [
         "Saisir ce texte à l'identique sur votre traitement de texte, exécuter la mise en forme comme sur le modèle. Vous pouvez aussi faire un copier-coller, mais la saisie vous permettra de vérifier si vous connaissez la façon de sortir tous les caractères.",
         "Texte à copier/coller :",
@@ -955,11 +955,12 @@
       ],
       "instructions": [
         "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
-        "Texte à copier/coller :",
+        "Texte à saisir :",
         "BULLETIN D'INSCRIPTION",
         "Fax-réponse : 01.53.85.55.78 Eric Chevalier, Président d'ARTESI Ile-de-France vous invite au prochain pl@teau, avec Monsieur André Santini, député, maire d'Issy-les-Moulineaux sur le thème :",
         "<La ville numérique au quotidien> le jeudi 13 octobre 2016, de 12h30 à 15h00",
         "au restaurant du :",
+        "Théâtre du Rond-point des Champs Élysées. 2, bis avenue Franklin Roosevelt 75008 Paris",
         "Une participation de 450 € {68,60 € par personne est demandée pour le déjeuner} Une facture sera adressée dès réception du règlement.",
         "Nom : Prénom : Adresse électronique : Société & ou Collectivité : Adresse du site web : Adresse postale :",
         "Je participerai au déjeuner du 11 octobre : [OUI NON] Je serai accompagné par : j'adresse par courrier un chèque de",
@@ -977,9 +978,10 @@
           "data/assets/word/bases-03-saisir-du-texte/word-ex-008-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Saisissez ce texte à l'identique et reproduisez la mise en forme du modèle. Vous pouvez aussi faire un copier-coller, mais la saisie vous permettra de vérifier que vous savez obtenir tous les caractères.",
       "criteria": [
-        "Théâtre du Rond-point des Champs Élysées. 2, bis avenue Franklin Roosevelt 75008 Paris"
+        "Saisir au clavier les caractères spéciaux (@, €, { }, < >, &, [ ]).",
+        "Reproduire une mise en forme à partir d'un modèle."
       ],
       "originalConsignes": [
         "Saisir ce texte à l'identique sur votre traitement de texte, exécuter la mise en forme comme sur le modèle. Vous pouvez aussi faire un copier-coller, mais la saisie vous permettra de vérifier si vous connaissez la façon de sortir tous les caractères.",
@@ -1126,11 +1128,12 @@
       "docxUrl": "data/assets/word/m4-options-paragraphe/word-ex-001.docx",
       "imageEnonce": "data/assets/word/bases-04-options-paragraphe/word-ex-001-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-04-options-paragraphe/word-ex-001-image-resultat.jpg",
-      "description": "Mise en page (Gestion de l'espace) : Marges : Configurer des marges de page identiques (haut, bas, gauche, droite) d'au moins 2,5 cm pour centrer le bloc de texte. Alignement horizontal : Centrer le texte horizontalement sur la page. Alignement vertical : Utiliser les options de mise en page pour centrer verticalement le paragraphe au milieu de la page blanche. Mise en forme du texte (Groupe Police) : Appliquer la Police \"Arial Rounded Mt Bold\" (ou une police épaisse équivalente). Définir la taille des caractères à 24 points. Appliquer l'attribut Italique à l'ensemble du texte. Mise en forme du paragraphe (Groupe Paragraphe) : Espacement : Ajuster l'interligne et l'espacement (avant/après) pour que le texte s'étende de manière harmonieuse et utilise la quasi-totalité de la hauteur disponible dans le cadre. Bordure et ombre : Appliquer une bordure de 0,5 pt de style \"Ombré\" directement au paragraphe (et non à la page). Ajuster les options de distance du texte si nécessaire pour que le cadre ne colle pas aux lettres.",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "2. Mise en page (Gestion de l'espace):",
-        "3. Mise en forme du paragraphe (Groupe Paragraphe):"
+        "Police : police épaisse \"Arial Rounded MT Bold\", taille 24, en italique.",
+        "Page entière : faites occuper au texte la totalité de la page (marges, alignement, interligne et espacements).",
+        "Bordure : bordure ombrée de 0,5 pt, distance au choix, appliquée au paragraphe (et non à la page)."
       ],
       "scrape": {
         "ok": true,
@@ -1143,17 +1146,10 @@
           "data/assets/word/bases-04-options-paragraphe/word-ex-001-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Vous travaillez dans le bloc \"Paragraphe\" pour la bordure et dans le groupe \"Police\" pour les attributs de l'écriture.",
       "criteria": [
-        "1. Mise en forme du texte (Groupe Police):",
-        "- Appliquer la Police \"Arial Rounded Mt Bold\" (ou une police épaisse équivalente).",
-        "- Définir la taille des caractères à 24 points.",
-        "- Appliquer l'attribut Italique à l'ensemble du texte.",
-        "- Marges: Configurer des marges de page identiques (haut, bas, gauche, droite) d'au moins 2,5 cm pour centrer le bloc de texte.",
-        "- Alignement horizontal: Centrer le texte horizontalement sur la page.",
-        "- Alignement vertical: Utiliser les options de mise en page pour centrer verticalement le paragraphe au milieu de la page blanche.",
-        "- Espacement: Ajuster l'interligne et l'espacement (avant/après) pour que le texte s'étende de manière harmonieuse et utilise la quasi-totalité de la hauteur disponible dans le cadre.",
-        "- Bordure et ombre: Appliquer une bordure de 0,5 pt de style \"Ombré\" directement au paragraphe (et non à la page). Ajuster les options de distance du texte si nécessaire pour que le cadre ne colle pas aux lettres."
+        "Appliquer une bordure ombrée à un paragraphe, et non à la page.",
+        "Jouer sur l'interligne et l'espacement pour répartir un texte sur toute la page."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -1535,9 +1531,11 @@
       "description": "1- Téléchargez les visuels qui vous serviront de puces personnalisées",
       "consignes": [],
       "instructions": [
-        "Vous faites quatre listes distinctes avec les puces personnalisées que vous venez de télécharger.",
-        "Pour personnaliser les puces, sélectionnez votre liste puis cliquez sur le bouton \"Puces\" dans l'onglet \"Accueil\" et choisissez \"Définir une puce\".",
-        "Dans la fenêtre qui s'ouvre, cliquez sur \"Image\" puis \"Importer\" et sélectionnez l'image que vous souhaitez utiliser comme puce personnalisée."
+        "Listes : faites quatre listes distinctes avec les puces personnalisées que vous venez de télécharger.",
+        "Texte : \"Calibri\", taille 12.",
+        "Titre : vert, souligné en pointillé rose.",
+        "Puces personnalisées : sélectionnez la liste, cliquez sur la flèche du bouton \"Puces\" (onglet Accueil) puis \"Définir une puce\".",
+        "Image : cliquez sur \"Image\", puis \"À partir d'un fichier\", et choisissez l'image à utiliser comme puce."
       ],
       "scrape": {
         "ok": true,
@@ -1554,8 +1552,8 @@
       "downloadLabel": "Télécharger puces personnalisées",
       "preamble": "",
       "criteria": [
-        "Document : Police \"Calibri\", 12",
-        "Titre : vert, souligné pointillé rose."
+        "Remplacer la puce standard d'une liste par une image.",
+        "Créer plusieurs listes à puces distinctes dans un même document."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -1631,8 +1629,9 @@
         "Définissez correctement les différents retraits du second, troisième et quatrième niveau."
       ],
       "instructions": [
-        "Créer des listes numérotées pour chaque niveau identifié.",
-        "Définissez correctement les différents retraits du second, troisième et quatrième niveau."
+        "Texte : \"Calibri\", taille 12.",
+        "Numérotation : créez des listes numérotées pour chaque niveau identifié.",
+        "Retraits : définissez correctement les retraits du deuxième, troisième et quatrième niveau."
       ],
       "scrape": {
         "ok": true,
@@ -1645,9 +1644,10 @@
           "data/assets/word/bases-05-puces-et-numeros/word-ex-004-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Réalisez les listes à plusieurs niveaux de numérotation comme sur le résultat attendu.",
       "criteria": [
-        "Texte : \"Calibri\", 12."
+        "Créer une liste numérotée à plusieurs niveaux.",
+        "Changer le niveau d'un élément de liste (Tab et Maj+Tab) et régler ses retraits."
       ],
       "originalConsignes": [
         "Texte : \"Calibri\", 12.",
@@ -1870,10 +1870,12 @@
       "description": "Téléchargez aussi l'image à insérer.",
       "consignes": [],
       "instructions": [
-        "Après sélection du texte, vous choisissez \"menu mise en page\" --> \"Autres Colonnes\" --> 3 colonnes.",
-        "Insérer les sauts de colonnes si nécessaire.",
-        "Lettrine sur la première lettre du texte (facultatif).",
-        "Photo en fin de texte centré dans la colonne."
+        "Colonnes : sélectionnez le texte, puis Mise en page > Colonnes > Autres colonnes > 3 colonnes.",
+        "Écart : 1 pt entre chaque colonne.",
+        "Sauts de colonne : insérez-les si nécessaire.",
+        "Marges : réduisez les marges de la page à 1,5 cm.",
+        "Lettrine : sur la première lettre du texte (facultatif).",
+        "Photo : en fin de texte, centrée dans la colonne."
       ],
       "scrape": {
         "ok": true,
@@ -1886,10 +1888,10 @@
           "data/assets/word/bases-06-mise-en-colonne/word-ex-001-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Reproduisez la mise en page ci-dessous.",
       "criteria": [
-        "Écart de 1 pt entre chaque colonne.",
-        "Marge de la page réduite à 1.5."
+        "Répartir un texte sur plusieurs colonnes et régler l'écart entre elles.",
+        "Insérer un saut de colonne pour contrôler la répartition du texte."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -1919,13 +1921,14 @@
       "docxUrl": "data/assets/word/m6-mise-en-colonne/word-ex-002.docx",
       "imageEnonce": "data/assets/word/bases-06-mise-en-colonne/word-ex-002-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-06-mise-en-colonne/word-ex-002-image-resultat.jpg",
-      "description": "1-Téléchargez le texte de l'exercice 2-Consignes :",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Scindez le texte en trois sections. Pour Word \"menu mise en page\"--> \"saut de page\" --> \"Sauts de section : continu\".",
-        "Deux colonnes avec séparateur pour la section supérieure.",
-        "Style personnalisé par défaut au centre.",
-        "colonnes avec séparateur pour la section inférieur."
+        "Sections : scindez le texte en trois sections (Mise en page > Sauts de page > Saut de section continu).",
+        "Marges : étroites en haut et en bas.",
+        "Section supérieure : deux colonnes avec ligne séparatrice.",
+        "Section centrale : style personnalisé, par défaut au centre.",
+        "Section inférieure : trois colonnes avec ligne séparatrice."
       ],
       "scrape": {
         "ok": true,
@@ -1938,9 +1941,10 @@
           "data/assets/word/bases-06-mise-en-colonne/word-ex-002-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "ATTENTION insertion de saut de section obligatoire. Sinon ça va être compliqué….",
+      "preamble": "Attention : l'insertion de sauts de section est obligatoire, sinon ça va être compliqué…",
       "criteria": [
-        "Marge étroite en haut et en bas."
+        "Découper un document en sections avec des sauts de section continus.",
+        "Appliquer un nombre de colonnes différent à chaque section."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -1972,9 +1976,11 @@
       "description": "",
       "consignes": [],
       "instructions": [
-        "Mise en page « paysage ».",
-        "Texte sur deux colonnes.",
-        "Insertion image « coccinelle »« logo Louis Braille »."
+        "Orientation : mise en page en « paysage ».",
+        "Colonnes : texte sur deux colonnes.",
+        "Police : \"Calibri\" pour le texte.",
+        "Images : insérez « coccinelle » et « logo Louis Braille ».",
+        "Bordure de page : choisissez le motif de coccinelles (Bordures de page > Motif)."
       ],
       "scrape": {
         "ok": true,
@@ -1987,10 +1993,10 @@
           "data/assets/word/bases-06-mise-en-colonne/word-ex-003-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Reproduisez le flyer de la halte-garderie.",
       "criteria": [
-        "Police \"Calibri\" pour le texte.",
-        "Bordure de la page les coccinelles."
+        "Combiner orientation paysage et mise en colonnes.",
+        "Ajouter une bordure de page à motif."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -2122,9 +2128,11 @@
       "description": "Téléchargez aussi le ZIP qui contient les illustrations.",
       "consignes": [],
       "instructions": [
-        "Mise en colonne.",
-        "Saut de colonne.",
-        "Saut de section pour bien segmenter le document et saut de page."
+        "Page 1 : police originale, grande taille, mots en couleur.",
+        "Pages 2 à 4 : mettez le texte en colonnes.",
+        "Sauts : utilisez des sauts de colonne, des sauts de section pour bien segmenter le document et des sauts de page.",
+        "Fiches animaux : entourez-les en vert avec le menu \"Bordure de l'image\".",
+        "Titres : même police que le texte de la première page, en grande taille."
       ],
       "scrape": {
         "ok": true,
@@ -2137,10 +2145,10 @@
           "data/assets/word/bases-06-mise-en-colonne/word-ex-006-scrape-resultat-1.webp"
         ]
       },
-      "preamble": "",
+      "preamble": "Reproduisez la mise en forme présentée sur 4 pages.",
       "criteria": [
-        "Les fiches animaux sont à entourer en vert directement depuis le traitement de texte dans le menu \"bordure de l'image\".",
-        "Les titres de chaque page sont dans la même police que le texte de la première page et de grande taille."
+        "Organiser un document de plusieurs pages avec sauts de section, de colonne et de page.",
+        "Ajouter une bordure de couleur à une image."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -2316,9 +2324,9 @@
       "description": "",
       "consignes": [],
       "instructions": [
-        "Après sélection, copier ce texte dans votre traitement de texte.",
-        "Lettrine en début de paragraphe.",
-        "Transformé en lettrine la première lettre de chaque paragraphe."
+        "Texte : copiez le texte dans votre traitement de texte.",
+        "Lettrine : transformez en lettrine la première lettre de chaque paragraphe.",
+        "Police : n'hésitez pas à changer la police de la lettrine."
       ],
       "scrape": {
         "ok": true,
@@ -2335,7 +2343,8 @@
       },
       "preamble": "",
       "criteria": [
-        "N'hésitez pas à changer le type de police de la lettrine."
+        "Insérer une lettrine en début de paragraphe (Insertion > Lettrine).",
+        "Personnaliser une lettrine (police, nombre de lignes)."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -2498,7 +2507,8 @@
       "consignes": [],
       "instructions": [
         "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
-        "La zone du haut utilise les effets 3D."
+        "Grouper : pour gagner du temps, groupez les formes deux à deux et par colonnes, puis alignez les groupes.",
+        "Zone du haut : utilisez les effets 3D."
       ],
       "scrape": {
         "ok": true,
@@ -2511,9 +2521,11 @@
           "data/assets/word/bases-08-inserer-une-forme/word-ex-004-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "Faire une mise en page conforme au modèle ci-dessous.",
+      "preamble": "Exercice de manipulation qui vise à faire travailler l'alignement des formes. Faites une mise en page conforme au modèle.",
       "criteria": [
-        "Afin de gagner du temps et ne pas réaliser des actions répétitives inutiles, n'hésitez pas à grouper des formes deux à deux et par colonnes pour harmoniser simplement l'alignement."
+        "Aligner et répartir des formes avec les outils d'alignement.",
+        "Grouper des formes pour les manipuler ensemble.",
+        "Appliquer un effet 3D à une forme."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -2542,9 +2554,9 @@
       "consignes": [],
       "instructions": [
         "Ouvrez Word et choisissez un document vierge (cet exercice ne comporte pas de fichier de travail).",
-        "Reproduisez la présentation identique au résultat attendu à l'aide de formes (Insertion > Formes).",
-        "Créez une fois la forme ovale et la forme rectangulaire avec couleur et effet, puis dupliquez-les par copier-coller.",
-        "Alignez les copies avec les flèches de direction du clavier plutôt qu'avec la souris."
+        "Présentation : reproduisez le résultat attendu à l'aide de formes (Insertion > Formes).",
+        "Dupliquer : créez une seule fois la forme ovale et la forme rectangulaire avec couleur et effet, puis dupliquez-les par copier-coller.",
+        "Aligner : déplacez les copies avec les flèches du clavier plutôt qu'avec la souris."
       ],
       "imageEnonceCaption": "Ou trouver la mise en page de cette présentation ?",
       "scrape": {
@@ -2560,7 +2572,8 @@
       },
       "preamble": "Faire une présentation identique au résultat attendu.",
       "criteria": [
-        "Faire une fois la forme ovale et rectangulaire avec couleur et effet, et utiliser le copier-coller pour les dupliquer."
+        "Dupliquer une forme mise en forme au lieu de la recréer.",
+        "Positionner précisément des formes avec les flèches du clavier."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -2667,8 +2680,10 @@
       "description": "La Pyramide de Maslow.",
       "consignes": [],
       "instructions": [
-        "Pour faire cette présentation plusieurs possibilités.",
-        "En fonction, il suffira de recouvrir avec deux triangles blancs bien ajustés à gauche et à droite."
+        "Méthode 1 : plusieurs paragraphes avec fond de couleur.",
+        "Méthode 2 : des formes trapézoïdales avec fond de couleur.",
+        "Méthode 3 : un tableau avec fond de couleur (solution retenue sur le modèle).",
+        "Triangles : recouvrez ensuite les côtés avec deux triangles blancs bien ajustés à gauche et à droite."
       ],
       "imageEnonceCaption": "Ici la solution retenue, c'est la création d'un tableau. Remarquez la forme triangulaire blanche qui vient recouvrir la partie droite du tableau et qui laisse penser que c'est bien une pyramide.",
       "scrape": {
@@ -2682,11 +2697,10 @@
           "data/assets/word/bases-08-inserer-une-forme/word-ex-008-scrape-resultat-1.gif"
         ]
       },
-      "preamble": "",
+      "preamble": "La pyramide de Maslow. Plusieurs méthodes sont possibles pour cette présentation.",
       "criteria": [
-        "Création de plusieurs paragraphes avec fond de couleur.",
-        "Création de formes de couleurs trapézoïdales avec fond de couleur.",
-        "Création d'un tableau avec fond de couleur."
+        "Choisir un outil adapté (paragraphes, formes ou tableau) pour construire une figure.",
+        "Superposer une forme blanche pour masquer une partie d'un tableau ou d'une forme."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -2892,9 +2906,9 @@
       "consignes": [],
       "instructions": [
         "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
-        "Vous insérez les zones de texte pour couvrir les noms de la carte.",
-        "Vous respectez les couleurs et arrondis.",
-        "Ne pas hésiter à utiliser le copier-coller pour aller plus vite."
+        "Zones de texte : insérez des zones de texte pour couvrir les noms de la carte.",
+        "Mise en forme : respectez les couleurs et les arrondis ; police au choix.",
+        "Copier-coller : utilisez-le pour aller plus vite."
       ],
       "scrape": {
         "ok": true,
@@ -2909,7 +2923,8 @@
       },
       "preamble": "",
       "criteria": [
-        "Police au choix."
+        "Mettre en forme une zone de texte (remplissage, contour, coins arrondis).",
+        "Dupliquer et positionner des zones de texte au-dessus d'une image."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -3610,11 +3625,12 @@
       "description": "1-Téléchargez le fichier texte et les images ci-contre.",
       "consignes": [],
       "instructions": [
-        "Créez la ligne rouge et les lignes grises avec les outils du bloc \"Paragraphe\".",
-        "Mettez en valeur le terme \"nouveau\" et les prix avec un surlignage ou une couleur de texte proche du modèle.",
-        "Ajoutez les sauts de page nécessaires sur les trois premières pages.",
-        "Insérez une numérotation en pied de page.",
-        "Positionnez les images avec les options d'habillage disponibles dans Word 2024."
+        "Lignes : faites la ligne rouge et les lignes grises dans le bloc \"Paragraphe\", en faisant commencer et finir la ligne hors des marges.",
+        "Alignement : justifiez les textes.",
+        "Mise en valeur : surlignez en jaune et en rouge le terme « nouveau » et les prix de chaque article.",
+        "Sauts de page : mettez-les sur les trois premières pages.",
+        "Pied de page : insérez la numérotation.",
+        "Images : positionnez-les avec les options d'habillage."
       ],
       "scrape": {
         "ok": true,
@@ -3627,10 +3643,11 @@
           "data/assets/word/bases-12-inserer-une-image/word-ex-009-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Le travail est réparti sur 4 pages, à présenter comme dans le résultat attendu.",
       "criteria": [
-        "Les textes sont justifiés.",
-        "La mise en page reste lisible et proche du visuel attendu, même si certains styles d'image ou d'interface diffèrent."
+        "Créer des lignes décoratives avec les bordures de paragraphe.",
+        "Positionner des images avec l'habillage du texte.",
+        "Organiser un document sur plusieurs pages (sauts de page, numérotation)."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -3662,11 +3679,13 @@
       "description": "Téléchargez le fichier texte et les images ci-contre.",
       "consignes": [],
       "instructions": [
-        "Passez la page au format paysage.",
-        "Insérez les sauts de section nécessaires avant de modifier la mise en page.",
-        "Mettez la zone demandée en 3 colonnes.",
-        "Insérez une vidéo via Insertion > Vidéo en ligne si cette commande est disponible.",
-        "Si l'insertion vidéo en ligne n'est pas proposée dans votre environnement, décrivez l'emplacement prévu et poursuivez la mise en page du document."
+        "Orientation : passez la page au format paysage.",
+        "Fond de page : insérez-le via l'onglet Création (ou Conception).",
+        "Titre : en police \"Bangers\", à télécharger et installer depuis https://fonts.google.com/specimen/Bangers.",
+        "Couleur : police en blanc.",
+        "Saut de section : insérez-le avant de modifier la mise en page.",
+        "Colonnes : mettez la seconde section en 3 colonnes.",
+        "Vidéo : insérez une vidéo via Insertion > Vidéo en ligne. Si la commande n'est pas proposée, indiquez l'emplacement prévu et poursuivez."
       ],
       "scrape": {
         "ok": true,
@@ -3679,11 +3698,11 @@
           "data/assets/word/bases-12-inserer-une-image/word-ex-010-scrape-resultat-1.webp"
         ]
       },
-      "preamble": "",
+      "preamble": "Le travail est réparti sur 2 sections, la seconde en 3 colonnes, à présenter comme dans le résultat attendu.",
       "criteria": [
-        "Insertion de fond de page via le menu conception sous Word.",
-        "Titre en police \"bangers\" à télécharger et à installer : https://fonts.google.com/specimen/Bangers.",
-        "Police en blanc."
+        "Installer une nouvelle police et l'utiliser dans Word.",
+        "Mettre une seule section du document en colonnes.",
+        "Insérer une vidéo en ligne dans un document."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -3990,9 +4009,12 @@
       "description": "Créer un tableau de 3 de colonnes et 11 lignes",
       "consignes": [],
       "instructions": [
-        "Utiliser les données qui suivent pour remplir le tableau. (ou au choix).",
-        "Aligner la colonne \"salaires\" à droite en modifiant la fin de ligne.",
-        "Aligner la colonne \"Cote\" à gauche en modifiant le début de linge."
+        "Tableau : créez un tableau de 3 colonnes et 11 lignes.",
+        "Données : remplissez-le avec les données du modèle (ou au choix).",
+        "Intitulés : centrez les intitulés de la première colonne et mettez un fond bleu.",
+        "Salaires : alignez la colonne à droite en modifiant la fin de ligne.",
+        "Cote : alignez la colonne à gauche en modifiant le début de ligne.",
+        "Astuce : vous pouvez copier l'image en taille réelle et la coller dans votre document de travail."
       ],
       "scrape": {
         "ok": true,
@@ -4007,8 +4029,8 @@
       },
       "preamble": "",
       "criteria": [
-        "Centrer les intitulés de la première colonne et mettre un fond bleu.",
-        "NB : Pour des raisons pratiques, vous pouvez copier l'image quand elle est en taille réelle et la coller sur votre document de travail."
+        "Créer et remplir un tableau simple.",
+        "Aligner le contenu d'une colonne et colorer des cellules."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -4041,8 +4063,10 @@
       "description": "Insérer un tableau de 7 lignes et 6 colonnes.",
       "consignes": [],
       "instructions": [
-        "Bordures externes épaisses (2 pts).",
-        "Fusionner les cellules nécessaires à la présentation."
+        "Tableau : insérez un tableau de 7 lignes et 6 colonnes.",
+        "Bordures : bordures extérieures épaisses (2 pt).",
+        "Fusion : fusionnez les cellules nécessaires à la présentation.",
+        "Astuce : vous pouvez copier l'image en taille réelle et la coller dans votre document de travail."
       ],
       "scrape": {
         "ok": true,
@@ -4057,7 +4081,8 @@
       },
       "preamble": "",
       "criteria": [
-        "NB : Pour des raisons pratiques, vous pouvez copier l'image quand elle est en taille réelle et la coller sur votre document de travail."
+        "Fusionner des cellules pour construire une présentation.",
+        "Appliquer une bordure extérieure épaisse à un tableau."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -4183,12 +4208,14 @@
       "docxUrl": null,
       "imageEnonce": "data/assets/word/bases-14-inserer-un-tableau/word-ex-007-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-14-inserer-un-tableau/word-ex-007-image-resultat.jpg",
-      "description": "T éléchargez la photo miniature",
+      "description": "Tableau simple avec photo.",
       "consignes": [],
       "instructions": [
-        "Insérer un tableau de 4 lignes sur 4 colonnes.",
-        "Bordures extérieures épaisses.",
-        "Fusionnez au bon endroit pour insérer l'hélicoptère."
+        "Tableau : insérez un tableau de 4 lignes et 4 colonnes.",
+        "Bordures : bordures extérieures épaisses.",
+        "Fusion : fusionnez au bon endroit pour insérer l'hélicoptère.",
+        "Trame : fond gris pour la troisième ligne.",
+        "Astuce : vous pouvez copier l'image en taille réelle et la coller dans votre document de travail."
       ],
       "scrape": {
         "ok": true,
@@ -4203,7 +4230,8 @@
       },
       "preamble": "",
       "criteria": [
-        "Trame de fond en gris pour la troisième ligne."
+        "Insérer une image dans une cellule fusionnée.",
+        "Appliquer bordures et trame de fond à certaines lignes d'un tableau."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -4748,10 +4776,13 @@
       "description": "Pour un confort de travail, vous cliquez sur l'image du résultat attendu, glissez l'image sur le bureau puis dans votre document Word pour le reproduire.",
       "consignes": [],
       "instructions": [
-        "les bordures verticales en pointillé.",
-        "Les bordures horizontales trait plein orange.",
-        "La largeur des jours de la semaine sera équilibré.",
-        "Les cellules semaines seront fusionnées."
+        "Tableau : insérez un tableau de 16 colonnes sur 7 lignes.",
+        "Mercredi : fond des cellules en vert clair.",
+        "Week-end : fond des cellules en gris.",
+        "Bordures verticales : en pointillé.",
+        "Bordures horizontales : trait plein orange.",
+        "Largeur : équilibrez la largeur des jours de la semaine.",
+        "Semaines : fusionnez les cellules des semaines."
       ],
       "scrape": {
         "ok": true,
@@ -4766,8 +4797,9 @@
       },
       "preamble": "",
       "criteria": [
-        "La couleur de fond des cellules du mercredi sera vert clair.",
-        "La couleur de fond des cellules du week-end sera gris."
+        "Appliquer des bordures différentes aux traits verticaux et horizontaux d'un tableau.",
+        "Uniformiser la largeur des colonnes (Distribuer les colonnes).",
+        "Fusionner et colorer des cellules."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -4800,9 +4832,10 @@
       "description": "Vous pouvez télécharger le texte en vrac ici",
       "consignes": [],
       "instructions": [
-        "Tableau de 5 colonnes et 5 lignes.",
-        "Bordures blanches et larges.",
-        "Des couleurs vives dans les cellules."
+        "Tableau : 5 colonnes et 5 lignes.",
+        "Bordures : blanches et larges.",
+        "Police : blanche et noire.",
+        "Cellules : des couleurs vives."
       ],
       "scrape": {
         "ok": true,
@@ -4815,9 +4848,10 @@
           "data/assets/word/bases-16-tableau-avance/word-ex-004-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Pour bien travailler, glissez le visuel du résultat sur votre bureau.",
       "criteria": [
-        "Police blanche et noire."
+        "Colorer les cellules d'un tableau.",
+        "Utiliser des bordures blanches et épaisses pour séparer les cellules."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -5020,8 +5054,10 @@
       "description": "Saisir ou téléchargez le courrier",
       "consignes": [],
       "instructions": [
-        "Expéditeur \"Établissement Lerose \" Centré.",
-        "Enregistrer le document sous le nom \"hotel\"."
+        "Expéditeur : « Établissement Lerose » centré.",
+        "Destinataire, date et signature : retrait de 8 cm (tabulation).",
+        "Texte de la lettre : retrait de 1re ligne de 2 cm (règle).",
+        "Enregistrement : enregistrez le document sous le nom \"hotel\"."
       ],
       "scrape": {
         "ok": true,
@@ -5034,11 +5070,10 @@
           "data/assets/word/avance-17-regles-et-tabulations/word-ex-001-scrape-resultat-1.gif"
         ]
       },
-      "preamble": "",
+      "preamble": "Faites une mise en page conforme aux consignes, en police \"Arial\" taille 12.",
       "criteria": [
-        "Police taille 12 \"Arial\" de la façon suivante : .",
-        "Destinataire, date et signature , retrait de 8 cm (tabulation).",
-        "Texte de la lettre : retraite 1ʳᵉ ligne de 2 cm (règle)."
+        "Positionner des blocs d'un courrier avec une tabulation.",
+        "Régler le retrait de première ligne avec la règle."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -5068,8 +5103,9 @@
       "description": "Saisir ou téléchargez le texte",
       "consignes": [],
       "instructions": [
-        "Centrer les 2 premières lignes.",
-        "Utiliser les tabulations à 8 \"aligné droite\" pour le titre du roman et 13 \"aligné gauche\" pour la numérotation des pages."
+        "Deux premières lignes : centrez-les.",
+        "Tabulations : à 8 \"alignée à droite\" pour le titre du roman et à 13 \"alignée à gauche\" pour la numérotation des pages.",
+        "Points de suite : entre le nom du poème et la numérotation."
       ],
       "scrape": {
         "ok": true,
@@ -5082,9 +5118,10 @@
           "data/assets/word/avance-17-regles-et-tabulations/word-ex-002-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "Faire une mise en page conforme aux consignes : .",
+      "preamble": "",
       "criteria": [
-        "Points de suite entre le nom du poème et la numérotation."
+        "Poser des tabulations droite et gauche à une position précise.",
+        "Ajouter des points de suite pour relier un titre à un numéro de page."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -5250,7 +5287,8 @@
       "consignes": [],
       "instructions": [
         "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
-        "Après avoir fait un copier-coller du texte ci-dessous dans votre traitement de texte, vous réglez les marges."
+        "Texte : faites un copier-coller du texte dans votre traitement de texte.",
+        "Marges : réglez les marges haut, bas, droite et gauche à 5 cm."
       ],
       "scrape": {
         "ok": true,
@@ -5263,9 +5301,9 @@
           "data/assets/word/avance-17-regles-et-tabulations/word-ex-006-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "Faire une mise en page conforme aux consignes : .",
+      "preamble": "",
       "criteria": [
-        "Haut, Bas, Droite et Gauche, 5 cm."
+        "Régler des marges personnalisées (Mise en page > Marges > Marges personnalisées)."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -5962,9 +6000,11 @@
       "description": "Télécharger le texte et les images",
       "consignes": [],
       "instructions": [
-        "Mettre le document au format A3 (format/page).",
-        "Mettre la première et la dernière ligne en bleu.",
-        "Insérer les images après téléchargement (facultatif)."
+        "Format : mettez le document au format A3 (Mise en page > Taille).",
+        "Couleur : mettez la première et la dernière ligne en bleu.",
+        "Taille : adaptez la taille des caractères à la page.",
+        "Tableau : mettez les dates et heures dans un tableau à bordure double (facultatif).",
+        "Images : insérez les images après téléchargement (facultatif)."
       ],
       "scrape": {
         "ok": true,
@@ -5979,8 +6019,8 @@
       },
       "preamble": "",
       "criteria": [
-        "Respecter la taille des caractères par rapport à la page.",
-        "Mettre les dates et heures dans un tableau à bordure double (facultatif)."
+        "Changer le format de la page (A3).",
+        "Adapter la taille du texte au format de la page."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -6012,11 +6052,12 @@
       "description": "Télécharger le texte et les images ci-contre",
       "consignes": [],
       "instructions": [
-        "La carte est au format 21cm x 10cm.",
-        "Les marges hautes et basses, sont à bouger.",
-        "Le grand titre est en \"Calibri\".",
-        "Le titre est un wordart.",
-        "Le nom des hôtes en pied de page."
+        "Format : la carte mesure 21 cm x 10 cm.",
+        "Marges : ajustez les marges haute et basse.",
+        "Polices : \"Kalam\" en haut du carton et \"Arial Nova\" pour le reste.",
+        "Grand titre : en \"Calibri\".",
+        "Titre : un WordArt.",
+        "Pied de page : le nom des hôtes."
       ],
       "scrape": {
         "ok": true,
@@ -6033,7 +6074,8 @@
       },
       "preamble": "",
       "criteria": [
-        "Le carton est en police \"Kalam\" en haut et \"Arial Nova\" pour le reste."
+        "Définir une taille de page personnalisée.",
+        "Insérer un WordArt et utiliser le pied de page dans une composition."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -6712,9 +6754,12 @@
         "[Téléphone].",
         "[Nom de l’assureur].",
         "[Adresse de l’assureur].",
+        "[Code Postal Ville].",
+        "Objet : résiliation de la police d’assurance automobile n° [XXX-XXX].",
         "Lettre recommandée avec accusé de réception.",
-        "Madame, Monsieur,.",
-        "Je vous informe de ma volonté de résilier à compter du [JJ/MM/AAAA] le contrat d’assurance auto n°[XXX-XXX] en application des dispositions de l’article L113-15-1 du Code des Assurances (ou « Loi Châtel »), et suite : .",
+        "Madame, Monsieur,",
+        "Je vous informe de ma volonté de résilier à compter du [JJ/MM/AAAA] le contrat d’assurance auto n°[XXX-XXX] en application des dispositions de l’article L113-15-1 du Code des Assurances (ou « Loi Châtel »), et suite :",
+        "[une seule mention à choisir ci-dessous]",
         "à l’absence d’information relative à la date limite d’exercice du droit à résiliation du contrat sur l’avis d’échéance que vous m’avez adressé.",
         "à l’envoi de mon avis d’échéance moins de 15 jours avant l’expiration du délai de résiliation de mon contrat (cachet de la poste faisant foi).",
         "à l’absence d’envoi obligatoire de mon avis d’échéance.",
@@ -6734,9 +6779,10 @@
           "data/assets/word/avance-22-modeles/word-ex-003-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "[une seule mention à choisir ci-dessous].",
+      "preamble": "Après avoir copié-collé ce texte dans Word, mettez en forme votre modèle et enregistrez-le dans un dossier \"assurance\" au sein du dossier \"Modèles Office personnalisés\".",
       "criteria": [
-        "Objet : résiliation de la police d’assurance automobile n° [XXX-XXX]."
+        "Enregistrer un document comme modèle Word (.dotx) dans un dossier de modèles personnalisés.",
+        "Préparer des zones à compléter dans un courrier type."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -6995,9 +7041,10 @@
       "description": "Dans le groupe Styles de l'onglet Accueil, créez 3 nouveaux styles rapides.",
       "consignes": [],
       "instructions": [
-        "Ouvrez le volet des styles puis créez trois nouveaux styles personnalisés.",
-        "Nommez-les `PNH 1`, `PNH 2` et `PNH 3`.",
-        "Appliquez à chacun les caractéristiques indiquées ci-dessous."
+        "Styles : dans le groupe Styles de l'onglet Accueil, créez trois nouveaux styles rapides.",
+        "PNH 1 : \"Calibri\", taille 14.",
+        "PNH 2 : \"Calibri\", taille 20, ombre au choix, centré.",
+        "PNH 3 : \"Arial Rounded\", taille 14, gras, italique, bleu."
       ],
       "scrape": {
         "ok": true,
@@ -7012,9 +7059,8 @@
       },
       "preamble": "",
       "criteria": [
-        "\"Calibri\", taille 14 (nommé PNH 1).",
-        "\"Calibri\", taille 20, Ombre au choix, Centré (nommé PNH 2).",
-        "\"Arial Rounded\", taille 14 Gras Italique, bleu (nommé PNH 3)."
+        "Créer un style rapide à partir d'un texte mis en forme.",
+        "Nommer un style et le retrouver dans la galerie des styles."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -7293,12 +7339,14 @@
       "consignes": [],
       "instructions": [
         "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
-        "Créer un dossier sur votre bureau.",
-        "Glissez le carnet d'adresse (fichier XLS à télécharger).",
-        "Faites un copier-coller du texte dans Word et insérer le bloc adresse après une mise en forme sommaire.",
-        "Le document est prêt au pliage pour une enveloppe à fenêtre.",
-        "Le champ date du jour est bien sûr un champ dynamique.",
-        "La lettrine est sur trois lignes."
+        "Dossier : créez un dossier sur votre bureau.",
+        "Carnet d'adresses : glissez-y le carnet d'adresses (fichier Excel à télécharger).",
+        "Bloc adresse : faites un copier-coller du texte dans Word et insérez le bloc adresse après une mise en forme sommaire.",
+        "Pliage : le document est prêt pour une enveloppe à fenêtre.",
+        "Date : le champ date du jour est un champ dynamique.",
+        "Invitation : encadrez le bloc invitation par une bordure de couleur au choix.",
+        "Paragraphes : justifiés ou centrés.",
+        "Lettrine : sur trois lignes."
       ],
       "scrape": {
         "ok": true,
@@ -7311,10 +7359,11 @@
           "data/assets/word/avance-24-publipostage/word-ex-004-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Pour le résultat final, inspirez-vous très précisément du résultat attendu.",
       "criteria": [
-        "Le bloc invitation est encadré par une bordure de couleur au choix.",
-        "Les différents paragraphes sont soit justifiés soit centré."
+        "Relier une lettre type à une source de données Excel et insérer un bloc adresse.",
+        "Insérer un champ date dynamique.",
+        "Préparer un courrier pour une enveloppe à fenêtre."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -7601,8 +7650,9 @@
       "description": "",
       "consignes": [],
       "instructions": [
-        "Titre 1 sur \"les formes glaciaires\",.",
-        "Titre 2 sur \"le cirque\", \"Vallée glaciaire\" et \"plaines et plateaux glaciaires\"."
+        "Titre 1 : sur « les formes glaciaires ».",
+        "Titre 2 : sur « le cirque », « Vallée glaciaire » et « plaines et plateaux glaciaires ».",
+        "Niveau 2 : en bleu clair et souligné (modification du style probablement nécessaire)."
       ],
       "scrape": {
         "ok": true,
@@ -7615,9 +7665,10 @@
           "data/assets/word/avance-25-document-long/word-ex-002-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Répartissez le niveau hiérarchique des titres.",
       "criteria": [
-        "Le niveau 2 et bleu clair et souligné.(modification possiblement nécessaire)."
+        "Appliquer les styles Titre 1 et Titre 2 pour hiérarchiser un document.",
+        "Modifier un style de titre pour changer son apparence partout."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -8643,10 +8694,11 @@
       "description": "Tabulations, listes à puces...",
       "consignes": [],
       "instructions": [
-        "Présentation d'un courrier type \"devis\" classique.",
-        "Liste à puce avec changement des puces de base pour trouver le \"rond\".",
-        "Zone de texte texturées.",
-        "Tabulation pour la zone des prix en fin de courrier."
+        "Courrier : présentez un courrier type \"devis\" classique.",
+        "Alignement : alignez le texte pour correspondre à une enveloppe à fenêtre.",
+        "Puces : changez la puce de base pour obtenir le \"rond\".",
+        "Zones de texte : avec remplissage texturé.",
+        "Tabulation : pour la zone des prix en fin de courrier."
       ],
       "scrape": {
         "ok": true,
@@ -8659,9 +8711,10 @@
           "data/assets/word/complets-29-niveau-1-debutant/word-ex-002-scrape-resultat-1.gif"
         ]
       },
-      "preamble": "",
+      "preamble": "Approchez-vous au mieux du modèle.",
       "criteria": [
-        "Alignement de texte et correspondance lettre à fenêtre."
+        "Mettre en page un courrier commercial pour une enveloppe à fenêtre.",
+        "Combiner liste à puces, zone de texte texturée et tabulations."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -8820,10 +8873,11 @@
       "description": "Word Art, alignements et tabulations",
       "consignes": [],
       "instructions": [
-        "Insertion en-tête.",
-        "Word art.",
-        "Tabulation.",
-        "Encadré."
+        "En-tête : insérez l'en-tête.",
+        "WordArt : créez le titre en WordArt.",
+        "Tabulation : alignez les éléments avec des tabulations.",
+        "Retrait : appliquez les retraits du modèle.",
+        "Encadré : encadrez le bloc comme sur le modèle."
       ],
       "scrape": {
         "ok": true,
@@ -8838,7 +8892,9 @@
       },
       "preamble": "",
       "criteria": [
-        "Retrait."
+        "Insérer un en-tête et un WordArt.",
+        "Aligner du texte avec tabulations et retraits.",
+        "Encadrer un paragraphe."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -8958,8 +9014,9 @@
       "description": "Saut de page, numérotation et balisage Titre 1",
       "consignes": [],
       "instructions": [
-        "Vous Insérez un saut de page afin de créer une nouvelle page au document, après chaque paragraphe. Le document comportera donc au minimum 8 pages.",
-        "Chaque titre de paragraphe sera un \"titre 1\" à piocher dans la rubrique \"style\" de votre logiciel."
+        "Sauts de page : insérez un saut de page après chaque paragraphe ; le document comportera au minimum 8 pages.",
+        "Numéro de page : au centre du bas de page, en taille 20.",
+        "Titres : chaque titre de paragraphe est un \"Titre 1\" (galerie des styles)."
       ],
       "scrape": {
         "ok": true,
@@ -8974,7 +9031,9 @@
       },
       "preamble": "",
       "criteria": [
-        "Vous insérez un numéro de page au centre du bas de page en taille 20."
+        "Insérer des sauts de page.",
+        "Numéroter les pages et mettre en forme le numéro.",
+        "Baliser les titres avec le style Titre 1."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9057,10 +9116,11 @@
       "description": "Courrier type simple, en-tête, texte justifié et tabulations",
       "consignes": [],
       "instructions": [
-        "En-tête doté d'un double encadrement avec insertion de visuel.",
-        "Tabulation à 9.5 pour l'adresse.",
-        "Texte justifié.",
-        "Liste à puce (saut de ligne après \"travaux.\") (Maj + Entrée)."
+        "En-tête : double encadrement avec insertion du visuel.",
+        "Adresse : tabulation à 9,5.",
+        "Texte : justifié.",
+        "Liste à puces : saut de ligne après « travaux. » (Maj+Entrée).",
+        "Signature : retrait à 9,5, centrée."
       ],
       "scrape": {
         "ok": true,
@@ -9073,9 +9133,10 @@
           "data/assets/word/complets-29-niveau-1-debutant/word-ex-011-scrape-resultat-1.gif"
         ]
       },
-      "preamble": "",
+      "preamble": "En vous inspirant du résultat attendu, veillez particulièrement aux points suivants.",
       "criteria": [
-        "Retrait de ligne à 9.5 centré pour la signature."
+        "Mettre en page un courrier type avec en-tête encadré.",
+        "Faire un saut de ligne sans nouvelle puce (Maj+Entrée)."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9196,8 +9257,10 @@
       "description": "Tabulation et points de suite, réglage de l'interligne, filigrane",
       "consignes": [],
       "instructions": [
-        "Tabulation Titre (et adresse) centré sur la valeur 10 dans la règle.",
-        "Filigrane oblique, texte au choix."
+        "Titre et adresse : tabulation centrée sur la valeur 10 de la règle.",
+        "Champs : interligne de 2.",
+        "Filigrane : oblique, texte au choix.",
+        "Fond de page : motif \"brique diagonale\" en gris clair."
       ],
       "scrape": {
         "ok": true,
@@ -9212,8 +9275,8 @@
       },
       "preamble": "",
       "criteria": [
-        "Interligne à 2 pts pour les champs.",
-        "Fond de page motif \"brique diagonale\" en gris clair."
+        "Utiliser une tabulation centrée.",
+        "Ajouter un filigrane et un fond de page à motif."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9242,10 +9305,13 @@
       "description": "Création d'un document carré (tableau et page) et cellules de couleurs",
       "consignes": [],
       "instructions": [
-        "Tableau de 3 colonnes par 3 lignes.",
-        "Colorisé les cellules.",
-        "Bordures pointillées.",
-        "Centrer le contenu de chaque cellule horizontalement et verticalement."
+        "Page : taille 20 cm x 20 cm.",
+        "Marges : 2,5 cm partout.",
+        "Tableau : 3 colonnes par 3 lignes.",
+        "Cellules : mettez-les en couleur.",
+        "Bordures : en pointillé.",
+        "Alignement : centrez le contenu de chaque cellule horizontalement et verticalement.",
+        "Police : celle de l'exemple est \"Bernard MT Condensed\"."
       ],
       "scrape": {
         "ok": true,
@@ -9260,9 +9326,8 @@
       },
       "preamble": "",
       "criteria": [
-        "Taille de page à 20 cm * 20 cm.",
-        "Marge de 2.5 partout.",
-        "La police de l'exemple est Bernard MT Condensed."
+        "Définir une taille de page personnalisée.",
+        "Construire un tableau aux cellules colorées et au contenu centré."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9346,10 +9411,11 @@
       "description": "Tabulations et insertion de tableau",
       "consignes": [],
       "instructions": [
-        "L'insertion d'image.",
-        "Les tabulations simples.",
-        "Liste à puces.",
-        "L'insertion de tableau."
+        "Image : insérez l'image.",
+        "Tabulations simples : alignez les éléments du courrier.",
+        "Points de suite : utilisez des tabulations avec points de suite.",
+        "Liste à puces : créez-la comme sur le modèle.",
+        "Tableau : insérez le tableau."
       ],
       "scrape": {
         "ok": true,
@@ -9364,7 +9430,8 @@
       },
       "preamble": "",
       "criteria": [
-        "Les tabulations et points de suites."
+        "Combiner tabulations simples et tabulations avec points de suite.",
+        "Insérer une image et un tableau dans un courrier."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9436,8 +9503,11 @@
       "description": "Tabulations et point de suite, insertion de symboles et saut de page",
       "consignes": [],
       "instructions": [
-        "Insertion symbole.",
-        "Insertion saut de page."
+        "Tabulations : avec points de suite.",
+        "Retrait gauche : appliquez-le comme sur le modèle.",
+        "Symboles : insérez les symboles (Insertion > Symbole).",
+        "Saut de page : insérez-le.",
+        "Police : choisissez une police originale."
       ],
       "scrape": {
         "ok": true,
@@ -9454,9 +9524,8 @@
       },
       "preamble": "",
       "criteria": [
-        "Les tabulations et point de suite.",
-        "Retrait gauche.",
-        "Choix de police original."
+        "Aligner un menu avec des tabulations et points de suite.",
+        "Insérer des symboles et un saut de page."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9486,10 +9555,11 @@
       "description": "Tabulations et insertion de tableau",
       "consignes": [],
       "instructions": [
-        "L'insertion d'image.",
-        "Tabulation simple.",
-        "Attribut paragraphe.",
-        "Insertion de tableau."
+        "Image : insérez le logo.",
+        "Tabulation simple : alignez les éléments du courrier.",
+        "Paragraphes : appliquez les attributs de paragraphe du modèle.",
+        "Tableau : insérez le tableau.",
+        "Police : installez une nouvelle police (https://www.dafont.com/fr/confidentiality.font) ; si ce n'est pas possible, choisissez une police originale déjà installée."
       ],
       "scrape": {
         "ok": true,
@@ -9504,7 +9574,8 @@
       },
       "preamble": "",
       "criteria": [
-        "Insertion de police nouvelle ( https://www.dafont.com/fr/confidentiality.font ) si pas possible, choisissez une police originale déjà installée."
+        "Installer une nouvelle police et l'utiliser.",
+        "Combiner image, tabulations et tableau dans un courrier."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9575,13 +9646,13 @@
       "description": "Topo randonnées",
       "consignes": [],
       "instructions": [
-        "La mise en paysage.",
-        "Le saut de page.",
-        "L'insertion d'image.",
-        "Les tabulations (Difficulté et balisage).",
-        "Insertion d'image et contour de l'image.",
-        "Texte ombré des titres.",
-        "Numérotation des pages."
+        "Orientation : mettez le document en paysage.",
+        "Sauts de page : insérez-les.",
+        "Images : insérez-les, avec un contour.",
+        "Alignement : justifiez le texte.",
+        "Tabulations : pour la difficulté et le balisage.",
+        "Titres : texte ombré.",
+        "Numérotation : numérotez les pages."
       ],
       "scrape": {
         "ok": true,
@@ -9595,9 +9666,11 @@
           "data/assets/word/complets-30-niveau-2-moyen/word-ex-010-scrape-resultat-2.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Vous travaillez un document de 8 pages.",
       "criteria": [
-        "L'alignement du texte (justifié)."
+        "Organiser un document de plusieurs pages en paysage.",
+        "Aligner des informations avec des tabulations.",
+        "Ajouter un contour à une image et une ombre au texte."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9630,10 +9703,11 @@
       "description": "Saut de section et mise en colonne",
       "consignes": [],
       "instructions": [
-        "Téléchargez aussi les images, puis décompressez-les sur votre espace de travail.",
-        "Option 1 : Vous créez un tableau 2 colonnes et 7 lignes, bordures du tableau en pointillé (résultat en téléchargement sous cette forme, plus facile).",
-        "Option 2 : Vous insérez 2 colonnes et répartissez le contenu dedans. Pas de pointillé autour des paragraphes.",
-        "Dans tous les cas, un pied de page est présent."
+        "Images : téléchargez-les, puis décompressez-les sur votre espace de travail.",
+        "Option 1 : créez un tableau de 2 colonnes et 7 lignes, bordures en pointillé (le résultat téléchargeable est sous cette forme, plus facile).",
+        "Option 2 : insérez 2 colonnes et répartissez le contenu dedans, sans pointillé autour des paragraphes.",
+        "Option 3 : répartissez le texte avec les retraits gauche et droit et placez les images correspondant à chaque paragraphe.",
+        "Pied de page : dans tous les cas, un pied de page est présent."
       ],
       "scrape": {
         "ok": true,
@@ -9648,9 +9722,10 @@
           "data/assets/word/complets-30-niveau-2-moyen/word-ex-011-scrape-resultat-3.webp"
         ]
       },
-      "preamble": "Trois options pour cet exercice : .",
+      "preamble": "Trois options pour cet exercice.",
       "criteria": [
-        "Option 3 : Vous répartissez le retrait gauche et droit pour le texte et \"poser\" les images correspondant à chaque paragraphe."
+        "Choisir entre tableau, colonnes ou retraits pour disposer texte et images côte à côte.",
+        "Ajouter un pied de page."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9681,18 +9756,14 @@
       "description": "Tableau, table des matières dynamiques, insertion d'images",
       "consignes": [],
       "instructions": [
-        "Étape 1 Titre de l'agence avec wordart.",
-        "Étape 2 Reproduire au mieux le tableau du résultat : .",
-        "5 colonnes.",
-        "14 lignes.",
-        "fusionner les cellules quand c'est nécessaire.",
-        "bordures épaisses et vertes.",
-        "respecter les alignements dans les cellules.",
-        "Étape 3 insérer des sauts de pages puis le nom des pays sur chaque page en TITRE 1. Dans la foulée, insérer les images de chaque pays.",
-        "Étape 4 Insérer des signets sur chaque page, y compris le premier (le plus simple est de nommer les signets du même nom du pays).",
-        "Étape 5 insérer des liens hyper texte sur les noms du pays présent dans le tableau.",
-        "Étape 6 Insérer une table des matières sous le tableau.",
-        "Étape 7 insérer une numérotation de page (modèle ellipse si vous avez une version Word récente)."
+        "Étape 1 : titre de l'agence en WordArt.",
+        "Étape 2 : reproduisez au mieux le tableau du résultat : 5 colonnes, 14 lignes, cellules fusionnées si nécessaire, fond de cellule en couleur, bordures épaisses et vertes, police originale de bonne taille, alignements respectés dans les cellules.",
+        "Étape 3 : insérez des sauts de page puis le nom des pays sur chaque page en Titre 1. Dans la foulée, insérez les images de chaque pays.",
+        "Étape 4 : insérez des signets sur chaque page, y compris la première (le plus simple est de donner aux signets le nom du pays).",
+        "Étape 5 : insérez des liens hypertextes sur les noms des pays du tableau.",
+        "Étape 6 : insérez une table des matières sous le tableau.",
+        "Étape 7 : insérez une numérotation de page (modèle ellipse si votre version de Word le propose).",
+        "Étape 8 : ouvrez le résultat PDF téléchargé pour tester les liens et la table des matières."
       ],
       "scrape": {
         "ok": true,
@@ -9707,10 +9778,11 @@
           "data/assets/word/complets-30-niveau-2-moyen/word-ex-012-image-resultat.webp"
         ]
       },
-      "preamble": "Étape 8 Télécharger le résultat PDF ci-dessous pour tester les liens et la table des matières.",
+      "preamble": "Bien lire la consigne, c'est long !",
       "criteria": [
-        "fond de cellule en couleur.",
-        "police originale de bonne taille."
+        "Créer des signets et des liens hypertextes internes au document.",
+        "Insérer une table des matières à partir des titres.",
+        "Construire un tableau complexe (fusions, bordures, couleurs)."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9796,10 +9868,11 @@
       "description": "Documents longs: Les Lacs Italiens",
       "consignes": [],
       "instructions": [
-        "Insertion d'images : télécharger le dossier zippé ci-dessus, il contient les images à insérer.",
-        "Insertion pied de page : Nature du doc à gauche, numérotation à droite.",
-        "Smart Art : Si vous avez une version récente de Word vous utilisez \"Smart Art\" dans les modèles \"images\".",
-        "Saut de page : Insertion des sauts de page à chaque fois que c'est nécessaire."
+        "Images : le dossier zippé contient les images à insérer.",
+        "Pied de page : nature du document à gauche, numérotation à droite.",
+        "SmartArt : avec une version récente de Word, utilisez un SmartArt du type \"Image\".",
+        "Sauts de page : insérez-les chaque fois que c'est nécessaire.",
+        "Police : la police des titres est \"Laila Medium\", à télécharger (ou une autre) sur https://fonts.google.com/."
       ],
       "scrape": {
         "ok": true,
@@ -9812,9 +9885,11 @@
           "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-001-scrape-resultat-1.webp"
         ]
       },
-      "preamble": "",
+      "preamble": "Le fichier de travail contient le texte brut. L'objectif est de réaliser un document de 5 pages identique au modèle PDF.",
       "criteria": [
-        "Installation de police : La police des titres est \"Laila Medium\". Vous pouvez la télécharger (ou une autre) sur https://fonts.google.com/."
+        "Mettre en page un document long (sauts de page, pied de page, numérotation).",
+        "Insérer un SmartArt avec des images.",
+        "Installer une police et l'utiliser pour les titres."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9932,9 +10007,10 @@
       "description": "Bulletin d'inscription Artési, tabulation et point de suite",
       "consignes": [],
       "instructions": [
-        "L'insertion d'image.",
-        "L'insertion de zone de texte (classique et verticale).",
-        "Pied de page."
+        "Image : insérez le logo.",
+        "Zones de texte : une classique et une verticale.",
+        "Tabulations : avec points de suite.",
+        "Pied de page : complétez-le comme sur le modèle."
       ],
       "scrape": {
         "ok": true,
@@ -9947,9 +10023,10 @@
           "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-004-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "L'objectif est de réaliser à l'identique ce bulletin d'inscription. La principale difficulté réside dans les tabulations avec points de suite.",
       "criteria": [
-        "Les tabulations et points de suite."
+        "Créer des lignes à compléter avec des tabulations et points de suite.",
+        "Insérer une zone de texte à orientation verticale."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -10024,10 +10101,11 @@
       "description": "Tabulations de partout",
       "consignes": [],
       "instructions": [
-        "La liste à puce avec choix de la puce.",
-        "L'insertion de zone de texte avec travail sur les bordures.",
-        "L'insertion de caractères spéciaux.",
-        "L'insertion de tableau avec tabulation à l'intérieur des cellules."
+        "Tabulations : avec points de suite \"ligne\" et alignement \"centré\".",
+        "Liste à puces : choisissez la puce.",
+        "Zone de texte : insérez-la et travaillez ses bordures.",
+        "Caractères spéciaux : insérez-les.",
+        "Tableau : insérez-le, avec des tabulations à l'intérieur des cellules (Ctrl+Tab)."
       ],
       "scrape": {
         "ok": true,
@@ -10040,9 +10118,10 @@
           "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-006-scrape-resultat-1.gif"
         ]
       },
-      "preamble": "",
+      "preamble": "Exercice complet qui va chercher la petite bête. La partie haute est assez redoutable : tabulation \"centrée\", et le tableau avec des points de suite dans les cellules de la première colonne n'est pas mal non plus (pensez combinaison de touches).",
       "criteria": [
-        "Les tabulations avec point de suite \"ligne\" et \"alignement - centré\"."
+        "Poser une tabulation dans une cellule de tableau (Ctrl+Tab).",
+        "Combiner tabulations centrées et points de suite de type ligne."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -10073,9 +10152,10 @@
       "consignes": [],
       "instructions": [
         "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
-        "La mise en place d'un tableau 5 lignes et 6 colonnes avec bordures invisibles sur la première ligne.",
-        "Saut de section et mis en colonne pour le texte central.",
-        "Insertion de forme (flèche)."
+        "Tableau : mettez en place un tableau de 5 lignes et 6 colonnes, bordures invisibles sur la première ligne.",
+        "Colonnes : saut de section et mise en colonnes pour le texte central.",
+        "Zones de texte : bords arrondis et fond gris ; dupliquez-les par copier-coller.",
+        "Forme : insérez une flèche."
       ],
       "scrape": {
         "ok": true,
@@ -10088,9 +10168,11 @@
           "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-007-scrape-resultat-1.webp"
         ]
       },
-      "preamble": "",
+      "preamble": "Cet exercice est à réaliser au format paysage. Le copier-coller est indispensable.",
       "criteria": [
-        "Insertion de zones de texte avec bords arrondis et fond gris (copier-coller indispensable pour dupliquer les zones)."
+        "Masquer les bordures d'une partie d'un tableau.",
+        "Mettre en colonnes une seule partie du document avec des sauts de section.",
+        "Dupliquer des zones de texte mises en forme."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -10174,9 +10256,10 @@
       "consignes": [],
       "instructions": [
         "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
-        "La mise en place d'un tableau 5 lignes et 6 colonnes avec bordures invisibles sur la première ligne.",
-        "Saut de section et mis en colonne pour le texte central.",
-        "Insertion de forme (flèche)."
+        "Composition : en partant du haut, insérez une image, un WordArt, une zone de texte, 2 images et 5 formes.",
+        "Format A5 : réalisez d'abord le flyer au format A5.",
+        "Format A4 paysage : passez ensuite le document en A4 paysage et mettez-le en 2 colonnes.",
+        "Dupliquer : copiez l'ensemble dans la colonne de droite."
       ],
       "scrape": {
         "ok": true,
@@ -10189,9 +10272,11 @@
           "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-009-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Cet exercice est à réaliser au format paysage. Le plus simple est de travailler d'abord sur un format A5, puis de passer le document en A4 paysage, de le mettre en colonnes et de dupliquer l'ensemble dans la colonne de droite.",
       "criteria": [
-        "Insertion de zones de texte avec bords arrondis et fond gris (copier-coller indispensable pour dupliquer les zones)."
+        "Changer le format et l'orientation d'un document déjà composé.",
+        "Dupliquer une composition complète grâce aux colonnes.",
+        "Combiner images, WordArt, zone de texte et formes."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -10220,9 +10305,10 @@
       "description": "Composition d'un flyer",
       "consignes": [],
       "instructions": [
-        "L'insertion de zone et/ou de forme.",
-        "L'insertion d'images et leur organisation.",
-        "L'insertion de caractères spéciaux."
+        "Zones et formes : insérez les zones de texte et/ou les formes.",
+        "Images : insérez-les et organisez-les.",
+        "Caractères spéciaux : insérez-les.",
+        "Tabulations : avec points de suite."
       ],
       "scrape": {
         "ok": true,
@@ -10235,9 +10321,10 @@
           "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-010-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Réalisez le flyer conformément au modèle. Avec une version récente de Word, pas de souci, sinon faites pour le mieux. Gérez bien la profondeur des formes pour les superposer.",
       "criteria": [
-        "Tabulations et point de suite."
+        "Superposer formes et images en gérant leur ordre (Avancer, Reculer).",
+        "Aligner des prix avec des tabulations et points de suite."
       ],
       "originalConsignes": [],
       "originalInstructions": [
