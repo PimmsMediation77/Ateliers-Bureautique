@@ -12223,7 +12223,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Consolidation",
       "moduleNameClean": "Consolidation",
       "num": 1,
-      "title": "La consolidation dans excel",
+      "title": "La consolidation dans Excel",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-1.html",
       "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-001.xlsx",
@@ -12233,7 +12233,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-001-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "La consolidation dans excel",
+      "description": "Consolidez deux tableaux de ventes en un seul.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les ventes des succursales Lyon Nord et Lyon Sud par modèle et par semaine.",
