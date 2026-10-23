@@ -4134,7 +4134,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Faire une Soustraction",
       "moduleNameClean": "Faire une Soustraction",
       "num": 7,
-      "title": "Exercice pour mettre en place une soustraction entre deux nombres dans excel",
+      "title": "Soustraction",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/soustraction/exercice-7-soustraction.html",
       "docxUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-007.xlsx",
@@ -4144,7 +4144,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-007-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice pour mettre en place une soustraction entre deux nombres dans excel",
+      "description": "Calculez la différence entre 2024 et 2025 avec une soustraction étirée vers le bas.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient les clients, leur ville et leurs montants 2024 et 2025.",
