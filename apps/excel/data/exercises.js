@@ -12460,17 +12460,17 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Consolidation",
       "moduleNameClean": "Consolidation",
       "num": 5,
-      "title": "Exercice 5",
+      "title": "La consolidation dans Excel",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-5.html",
       "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-005-image-enonce.gif",
-      "imageResultat": null,
+      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-005-scrape-enonce-2.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 5",
+      "description": "Agrégez les heures travaillées dans un tableau de consolidation.",
       "preamble": "",
       "instructions": [
         "Vous agrégez les heures travaillées dans un tableau de consolidation.",
@@ -12487,11 +12487,10 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-11-consolidation/excel-ex-005-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-005-scrape-enonce-1.gif",
-          "data/assets/excel/avance-11-consolidation/excel-ex-005-scrape-enonce-2.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-005-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-005-image-enonce.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-005-scrape-enonce-2.gif"
         ]
       },
       "section": "avance",
