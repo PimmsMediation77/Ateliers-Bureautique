@@ -2029,7 +2029,7 @@
       "moduleName": "Intégrer une image",
       "moduleNameClean": "Intégrer une image",
       "num": 1,
-      "title": "Insérer simplement des images ou icônes dans Excel via le menu \"Insertion\"-->Image",
+      "title": "Intégrer des illustrations",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/integrer-une-image/exercice-1.html",
       "docxUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-001.xlsx",
@@ -2039,7 +2039,7 @@
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Insérer simplement des images ou icônes dans Excel via le menu \"Insertion\"-->Image",
+      "description": "Insérez les drapeaux des pays dans les bonnes cellules d'un tableau.",
       "preamble": "",
       "instructions": [
         "Vous reproduisez le tableau ci-dessous ou vou s le téléchargez ici.",
