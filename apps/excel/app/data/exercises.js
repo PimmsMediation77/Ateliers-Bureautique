@@ -6442,7 +6442,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Graphique Excel - Pyramides des âges",
+      "description": "Représentez la pyramide des âges de la France en 2019 avec un graphique.",
       "preamble": "",
       "instructions": [
         "Pyramide des âges :.",
