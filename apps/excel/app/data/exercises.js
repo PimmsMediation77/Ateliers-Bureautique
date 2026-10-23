@@ -2309,7 +2309,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-05-integrer-une-image/excel-ex-005-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Capture écran direct depuis Excel",
+      "description": "Insérez une capture d'écran d'une page web avec l'outil Capture d'Excel.",
       "preamble": "",
       "instructions": [
         "Objectif : Utiliser l'outil de capture écran d'Excel pour insérer une image dans votre classeur.",
