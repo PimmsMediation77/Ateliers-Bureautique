@@ -1839,7 +1839,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Mise en forme tableau (révision complète)",
+      "description": "Mettez en forme 5 tableaux en un minimum d'actions.",
       "preamble": "",
       "instructions": [
         "Cellule d'en tête \"fusionner-centrer\".",
