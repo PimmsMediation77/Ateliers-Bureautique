@@ -9771,7 +9771,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Outils de données",
       "moduleNameClean": "Outils de données",
       "num": 7,
-      "title": "xercice 7 : Validation des données",
+      "title": "Validation des données",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/validation-des-donnees/exercice-7-validation-des-donnees.html",
       "docxUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-007.xlsx",
@@ -9781,7 +9781,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-007-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "xercice 7 : Validation des données",
+      "description": "Créez un formulaire de réservation avec 6 listes déroulantes.",
       "preamble": "",
       "instructions": [
         "Créer le formulaire ci-contre.",
