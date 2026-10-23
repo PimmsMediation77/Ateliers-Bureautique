@@ -17567,7 +17567,7 @@
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Cas Salon de Coiffure",
+      "description": "Manipulez les données trimestrielles d'un salon de coiffure avec les fonctions de texte et de date.",
       "preamble": "",
       "instructions": [
         "Les fonctions CONCATENER, GAUCHE, MINUSCULE, STXT, NO.SEMAINE, MOIS, ANNEE, JOUR, RECHERCHEV,.",
