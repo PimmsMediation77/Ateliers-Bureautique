@@ -877,10 +877,14 @@
         "Signature à 12"
       ],
       "instructions": [
-        "Bloc envoyeur aligné à gauche.",
-        "Bloc destinataire aligné à droite.",
-        "Bloc identification centré.",
-        "Signature à 12."
+        "Courrier justifié : sélectionnez uniquement le bloc intermédiaire, de « Monsieur, » à « … résilier mon contrat : », justifiez-le (Ctrl+J) et appliquez un retrait de première ligne de 2,5 cm (Accueil > Paragraphe > Retrait : De 1re ligne).",
+        "Règle et repères : affichez la règle (Affichage > cochez « Règle »). Les zones grises aux extrémités de la règle correspondent aux marges de la page. Sur la règle du haut, le triangle supérieur règle le retrait de première ligne, le triangle inférieur le retrait suspendu, le petit rectangle le retrait gauche de tout le paragraphe, et le triangle de droite le retrait droit. Faites glisser ces repères pour placer vos retraits.",
+        "Police \"Times New Roman\" : sélectionnez tout le texte (Ctrl+A) et remplacez la police \"Calibri\" du fichier de travail par \"Times New Roman\", comme sur le résultat attendu.",
+        "Bloc envoyeur : alignez-le à gauche.",
+        "Bloc destinataire : alignez-le à droite.",
+        "Ligne Objet : soulignez uniquement le mot « Objet : » et laissez une ligne vide entre chaque bloc, comme sur le modèle.",
+        "Bloc identification : centrez-le.",
+        "Signature : placez-la avec un retrait gauche de 12 cm (repère rectangle de la règle ou Accueil > Paragraphe > Retrait : Gauche)."
       ],
       "scrape": {
         "ok": true,
@@ -897,7 +901,7 @@
       },
       "preamble": "",
       "criteria": [
-        "Courrier justifié avec retrait de paragraphe à 2.5."
+        "Reproduire la mise en forme du courrier à l'identique du résultat attendu."
       ],
       "originalConsignes": [
         "Bloc envoyeur aligné à gauche",
