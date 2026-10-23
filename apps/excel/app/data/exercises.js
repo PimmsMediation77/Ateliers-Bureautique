@@ -12722,7 +12722,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-12-macro/excel-ex-001-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Réaliser une macro simple",
+      "description": "Enregistrez deux macros pour dessiner et effacer un bonhomme, puis reliez-les à des boutons.",
       "preamble": "",
       "instructions": [
         "Vous partez d'un nouveau classeur.",
