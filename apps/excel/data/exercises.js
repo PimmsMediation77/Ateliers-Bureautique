@@ -667,7 +667,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-01-prise-en-main/excel-ex-004-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Gérer l'affichage des feuilles",
+      "description": "Masquez le quadrillage, la barre de formule et les en-têtes de la feuille.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le tableau des résultats de production (dinde, poulet, canard) par semaine.",
