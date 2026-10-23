@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.39.0](///compare/v0.1.27...v1.39.0) (2026-10-23)
+
+
+### Features
+
+* **assets:** servir les telechargements depuis GitHub Pages 211612e
+* **pages:** ajouter l'apercu local du site sous /Ateliers-Bureautique 4973495
+* **releases:** vue utilisateur compacte et alias do rel cdda5ee
+
+
+### Bug Fixes
+
+* **assets:** disambiguate controles formulaire download names 8f0b9c6
+* **assets:** remap Google Drive download links 59a1209
+* **exercises:** apply coherence revision for Excel and PowerPoint ece0a7b
+* **exercises:** interpret enonces without forcing downloads 175b928
+* **exercises:** restore missing download assets for ex-043 ex-098 ex-115 and excel-ex-169 840f366
+* **exercises:** restore missing expected visuals and add integrity tests d910948
+* **feedback:** accents, cas du fichier existant et options côte à côte avec icônes 88d24f1
+* **feedback:** consignes d'enregistrement pas à pas pour débutants e374797
+* **powerpoint:** aligner assets et consignes sur les sources clic-formation 53003aa
+* **powerpoint:** démarrer ex-001 sur PPT vierge sans fichier de travail 74f729d
+* **ui:** afficher les titres d'étape sur une seule ligne 3c1130b
+* **ui:** appliquer la typographie française autour des deux-points 6eacbe4
+* **viewer:** ameliorer bouton Dezoomer et retablir le pan a la main 155b4c8
+* **viewer:** legende au-dessus, bouton Dezoomer et libelles de telechargement edcd708
+* **word:** détaille les étapes de l'exercice Gérer les documents 1 0f48363
+* **word:** réécrire les étapes et critères de l'exercice mise en forme d'un courrier 3526185
+* **word:** séparer consignes et critères de réussite de l'exercice raccourci clavier bd046a6
+* **word:** séparer consignes et critères de réussite des exercices aligner du texte et paragraphes 160ef84
+
 ## [1.38.0](///compare/v0.1.27...v1.38.0) (2026-10-15)
 
 
