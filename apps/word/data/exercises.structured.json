@@ -7394,13 +7394,13 @@
       "pageUrl": "https://www.clic-formation.net/24-publipostage/exercice-4.html",
       "level": 3,
       "levelLabel": "🟠 Avancé ⭐⭐⭐",
-      "docxUrl": null,
+      "docxUrl": "data/assets/word/m24-publipostage/word-ex-004.docx",
       "imageEnonce": "data/assets/word/avance-24-publipostage/word-ex-004-image-enonce.jpg",
       "imageResultat": "data/assets/word/avance-24-publipostage/word-ex-004-image-resultat.jpg",
       "description": "Preparez un publipostage a partir des donnees et de la lettre type.",
       "consignes": [],
       "instructions": [
-        "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
+        "Fichiers : téléchargez la lettre type (Word) et le carnet d'adresses (Excel).",
         "Dossier : créez un dossier sur votre bureau.",
         "Carnet d'adresses : glissez-y le carnet d'adresses (fichier Excel à télécharger).",
         "Bloc adresse : faites un copier-coller du texte dans Word et insérez le bloc adresse après une mise en forme sommaire.",
@@ -7437,7 +7437,9 @@
         "Le bloc invitation est encadré par une bordure de couleur au choix.",
         "Les différents paragraphes sont soit justifiés soit centré.",
         "La lettrine est sur trois lignes."
-      ]
+      ],
+      "downloadUrl": "data/assets/word/m24-publipostage/word-ex-004-annexe-1.xlsx",
+      "downloadLabel": "Télécharger le carnet d'adresses"
     },
     {
       "id": "ex-147",
