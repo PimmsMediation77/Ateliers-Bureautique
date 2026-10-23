@@ -10479,7 +10479,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Lier des feuilles de calculs dans plusieurs classeurs",
+      "description": "Créez un tableau mis à jour depuis d'autres classeurs avec le collage avec liaison.",
       "preamble": "",
       "instructions": [
         "L'objectif de l'exercice est de créer un tableau mis à jour dynamiquement depuis d'autres fichiers Excel grâce à la fonction \"coller avec liaison\".",
