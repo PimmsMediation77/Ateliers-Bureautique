@@ -8637,7 +8637,7 @@
       "moduleName": "Trier et filtrer",
       "moduleNameClean": "Trier et filtrer",
       "num": 8,
-      "title": "Exercice 8",
+      "title": "Fonction FILTRE",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-8-tri-filtre.html",
       "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-008.xlsx",
@@ -8647,7 +8647,7 @@
       "imageResultat": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 8",
+      "description": "Créez un tableau de recherche par nom de famille avec la fonction FILTRE.",
       "preamble": "",
       "instructions": [
         "Vous devez réaliser un tableau de recherche avec la fonction FILTRE ? pour trouver rapidement.",
