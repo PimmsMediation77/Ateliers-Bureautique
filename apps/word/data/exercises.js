@@ -8213,7 +8213,7 @@ window.WORD_ATELIER_DATA = {
       "levelLabel": "🟠 Avancé ⭐⭐⭐",
       "docxUrl": "data/assets/word/m26-lier-le-document/word-ex-004.docx",
       "imageEnonce": "data/assets/word/avance-26-lier-le-document/word-ex-004-image-enonce.webp",
-      "imageResultat": null,
+      "imageResultat": "data/assets/word/avance-26-lier-le-document/word-ex-004-scrape-enonce-2.webp",
       "description": "Le document de travail est à télécharger ci-contre.",
       "consignes": [],
       "instructions": [
@@ -8234,12 +8234,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/avance-26-lier-le-document/word-ex-004-scrape-extra-2.webp"
         ],
         "enonceImages": [
-          "data/assets/word/avance-26-lier-le-document/word-ex-004-scrape-enonce-1.webp",
-          "data/assets/word/avance-26-lier-le-document/word-ex-004-scrape-enonce-2.webp",
-          "data/assets/word/avance-26-lier-le-document/word-ex-004-scrape-enonce-3.webp"
+          "data/assets/word/avance-26-lier-le-document/word-ex-004-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/word/avance-26-lier-le-document/word-ex-004-image-enonce.webp"
+          "data/assets/word/avance-26-lier-le-document/word-ex-004-scrape-enonce-2.webp",
+          "data/assets/word/avance-26-lier-le-document/word-ex-004-scrape-enonce-3.webp"
         ]
       },
       "preamble": "L'objectif de l'exercice est de réaliser un devis type avec une feuille Excel pour automatiser le calcul.",
