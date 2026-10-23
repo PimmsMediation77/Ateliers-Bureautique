@@ -1,7 +1,108 @@
 window.RELEASES_DATA = {
-  "version": "0.1.61",
-  "updatedAt": "2026-10-15T10:59:36.857Z",
+  "version": "0.1.62",
+  "updatedAt": "2026-10-23T12:03:15.457Z",
   "releases": [
+    {
+      "version": "0.1.62",
+      "tag": "powerpoint-v0.1.62",
+      "date": "2026-10-23",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.12.2",
+          "breaking": false,
+          "hash": "9b640de"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.19.2",
+          "breaking": false,
+          "hash": "48e9c08"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "7d569d3"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "ui",
+          "description": "appliquer la typographie française autour des deux-points",
+          "breaking": false,
+          "hash": "6eacbe4"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "ui",
+          "description": "afficher les titres d'étape sur une seule ligne",
+          "breaking": false,
+          "hash": "3c1130b"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "réécrire les étapes et critères de l'exercice mise en forme d'un courrier",
+          "breaking": false,
+          "hash": "3526185"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "séparer consignes et critères de réussite des exercices aligner du texte et paragraphes",
+          "breaking": false,
+          "hash": "160ef84"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "séparer consignes et critères de réussite de l'exercice raccourci clavier",
+          "breaking": false,
+          "hash": "bd046a6"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.38.0",
+          "breaking": false,
+          "hash": "41015d3"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 5,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 9
+      }
+    },
     {
       "version": "0.1.61",
       "tag": "powerpoint-v0.1.61",
