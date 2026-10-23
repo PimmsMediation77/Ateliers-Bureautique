@@ -1069,22 +1069,24 @@
       "moduleName": "Sélection",
       "moduleNameClean": "Sélection",
       "num": 1,
-      "title": "Exercice 1",
+      "title": "La sélection dans Excel",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/selectionner-la-celulle/exercice-1.html",
-      "docxUrl": "data/assets/excel/bases-selection/excel-ex-001.xlsx",
+      "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/bases-03-selection/excel-ex-001-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/excel/bases-03-selection/excel-ex-001-image-enonce.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 1",
+      "description": "Gestion des colonnes : reproduisez cette mise en forme en un minimum de clics.",
       "preamble": "",
       "instructions": [
-        "Gestion des colonnes.",
-        "Reproduire cette mise en forme en un minimum de clic.",
-        "L'exercice consiste à sélectionner les colonnes A, C,E, G,I et K et d'appliquer un changement de couleur de fond d'un seul coup."
+        "Nouveau classeur : ouvrez Excel et créez un classeur vierge.",
+        "Première colonne : cliquez sur la lettre A, en haut de la colonne, pour sélectionner toute la colonne.",
+        "Sélection multiple : maintenez la touche Ctrl enfoncée et cliquez sur les lettres C, E, G, I et K. Les six colonnes restent sélectionnées ensemble.",
+        "Attention : si vous cliquez sans maintenir Ctrl, la sélection précédente est perdue. Recommencez alors depuis la colonne A.",
+        "Couleur de fond : avec cette sélection, cliquez sur Accueil > Couleur de remplissage (le pot de peinture) et choisissez une couleur claire, comme sur le résultat attendu. Les six colonnes sont colorées d'un seul coup."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1093,9 +1095,7 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/excel/bases-03-selection/excel-ex-001-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/excel/bases-03-selection/excel-ex-001-image-enonce.jpg"
         ]
@@ -1104,10 +1104,13 @@
       "moduleSlug": "selection",
       "consignes": [
         "Gestion des colonnes.",
-        "Reproduire cette mise en forme en un minimum de clic.",
-        "L'exercice consiste à sélectionner les colonnes A, C,E, G,I et K et d'appliquer un changement de couleur de fond d'un seul coup."
+        "Reproduire cette mise en forme en un minimum de clics.",
+        "L'exercice consiste à sélectionner les colonnes A, C, E, G, I et K et à appliquer un changement de couleur de fond d'un seul coup."
       ],
-      "criteria": [],
+      "criteria": [
+        "Sélectionner des colonnes entières non adjacentes avec Ctrl+clic.",
+        "Appliquer une mise en forme à toute une sélection en une seule fois."
+      ],
       "originalConsignes": [
         "Gestion des colonnes.",
         "Reproduire cette mise en forme en un minimum de clic.",
@@ -1127,21 +1130,24 @@
       "moduleName": "Sélection",
       "moduleNameClean": "Sélection",
       "num": 2,
-      "title": "Sélection multiple dans excel",
+      "title": "Sélection multiple dans Excel",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/selectionner-la-celulle/exercice-2.html",
-      "docxUrl": "data/assets/excel/bases-selection/excel-ex-002.xlsx",
+      "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/bases-03-selection/excel-ex-002-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/excel/bases-03-selection/excel-ex-002-image-enonce.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Sélection multiple dans excel",
+      "description": "Gestion des lignes : reproduisez cette mise en forme en un minimum de clics.",
       "preamble": "",
       "instructions": [
-        "Reproduire cette mise en forme en un minimum de clic.",
-        "L'exercice consiste à sélectionner d'un coup les lignes impaires de 1 à 17 et d'appliquer un fond de couleur."
+        "Nouveau classeur : ouvrez Excel et créez un classeur vierge.",
+        "Première ligne : cliquez sur le numéro 1, à gauche de la ligne, pour sélectionner toute la ligne.",
+        "Sélection multiple : maintenez la touche Ctrl enfoncée et cliquez sur les numéros 3, 5, 7, 9, 11, 13, 15 et 17. Les neuf lignes impaires restent sélectionnées ensemble.",
+        "Attention : si vous cliquez sans maintenir Ctrl, la sélection précédente est perdue. Recommencez alors depuis la ligne 1.",
+        "Couleur de fond : avec cette sélection, cliquez sur Accueil > Couleur de remplissage (le pot de peinture) et choisissez une couleur claire, comme sur le résultat attendu. Les lignes sont colorées d'un seul coup."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1150,9 +1156,7 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/excel/bases-03-selection/excel-ex-002-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/excel/bases-03-selection/excel-ex-002-image-enonce.jpg"
         ]
@@ -1160,10 +1164,14 @@
       "section": "bases",
       "moduleSlug": "selection",
       "consignes": [
-        "Reproduire cette mise en forme en un minimum de clic.",
-        "L'exercice consiste à sélectionner d'un coup les lignes impaires de 1 à 17 et d'appliquer un fond de couleur."
+        "Gestion des lignes.",
+        "Reproduire cette mise en forme en un minimum de clics.",
+        "L'exercice consiste à sélectionner d'un coup les lignes impaires de 1 à 17 et à appliquer un fond de couleur."
       ],
-      "criteria": [],
+      "criteria": [
+        "Sélectionner des lignes entières non adjacentes avec Ctrl+clic.",
+        "Appliquer une mise en forme à toute une sélection en une seule fois."
+      ],
       "originalConsignes": [
         "Reproduire cette mise en forme en un minimum de clic.",
         "L'exercice consiste à sélectionner d'un coup les lignes impaires de 1 à 17 et d'appliquer un fond de couleur."
@@ -1181,26 +1189,26 @@
       "moduleName": "Sélection",
       "moduleNameClean": "Sélection",
       "num": 3,
-      "title": "Sélectionner et dupliquer la cellule dans excel",
-      "level": 2,
+      "title": "Sélectionner et dupliquer la cellule dans Excel",
+      "level": 1,
       "pageUrl": "https://www.clic-formation.net/selectionner-la-celulle/exercice-3.html",
-      "docxUrl": "data/assets/excel/bases-selection/excel-ex-003.zip",
+      "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/bases-03-selection/excel-ex-003-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/excel/bases-03-selection/excel-ex-003-image-enonce.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Sélectionner et dupliquer la cellule dans excel",
+      "description": "Créer un damier : reproduisez cette mise en forme en un minimum de clics.",
       "preamble": "",
       "instructions": [
-        "Reproduisez les différentes sélections visibles sur l'image de l'énoncé.",
-        "Pour sélectionner une plage de cellules, cliquez sur la première cellule, maintenez le bouton gauche enfoncé, puis faites glisser jusqu'à la dernière cellule.",
-        "Pour sélectionner une ligne ou une colonne entière, cliquez sur son numéro (ligne) ou sa lettre (colonne).",
-        "Pour modifier la hauteur d'une ligne ou la largeur d'une colonne, faites un clic droit sur son numéro ou sa lettre, puis choisissez « Hauteur de ligne » ou « Largeur de colonne ».",
-        "Attention : la hauteur des lignes et la largeur des colonnes n'utilisent pas la même échelle. Une même valeur ne donnera pas la même taille à l'écran.",
-        "Pour sélectionner plusieurs zones non adjacentes, maintenez la touche Ctrl enfoncée pendant vos sélections.",
-        "Comparez votre résultat avec l'image de l'énoncé avant de passer à la suite."
+        "Nouveau classeur : ouvrez Excel et créez un classeur vierge.",
+        "Largeur des colonnes : cliquez sur la lettre A et faites glisser jusqu'à G pour sélectionner les 7 colonnes, puis clic droit > Largeur de colonne.",
+        "Hauteur des lignes : sélectionnez de la même façon les lignes 1 à 7 (numéros à gauche), puis clic droit > Hauteur de ligne.",
+        "Cases carrées : la largeur et la hauteur n'utilisent pas la même unité. Par exemple, une largeur de 10 et une hauteur de 56 donnent des cases à peu près carrées. Ajustez si besoin.",
+        "Première case noire : sélectionnez A1 puis Accueil > Couleur de remplissage > Noir.",
+        "Pinceau : avec A1 sélectionnée, double-cliquez sur Accueil > Reproduire la mise en forme (le pinceau), puis cliquez sur chaque case noire (C1, E1, G1, B2, D2, F2…). Appuyez sur Échap pour arrêter.",
+        "Copier-coller : vous pouvez aussi copier une ligne terminée (Ctrl+C) et la coller (Ctrl+V) sur les lignes 3, 5 et 7, puis faire de même avec la ligne 2 vers les lignes 4 et 6."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1209,9 +1217,7 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/excel/bases-03-selection/excel-ex-003-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/excel/bases-03-selection/excel-ex-003-image-enonce.jpg"
         ]
@@ -1219,15 +1225,14 @@
       "section": "bases",
       "moduleSlug": "selection",
       "consignes": [
-        "Reproduisez les différentes sélections visibles sur l'image de l'énoncé.",
-        "Pour sélectionner une plage de cellules, cliquez sur la première cellule, maintenez le bouton gauche enfoncé, puis faites glisser jusqu'à la dernière cellule.",
-        "Pour sélectionner une ligne ou une colonne entière, cliquez sur son numéro (ligne) ou sa lettre (colonne).",
-        "Pour modifier la hauteur d'une ligne ou la largeur d'une colonne, faites un clic droit sur son numéro ou sa lettre, puis choisissez « Hauteur de ligne » ou « Largeur de colonne ».",
-        "Attention : la hauteur des lignes et la largeur des colonnes n'utilisent pas la même échelle. Une même valeur ne donnera pas la même taille à l'écran.",
-        "Pour sélectionner plusieurs zones non adjacentes, maintenez la touche Ctrl enfoncée pendant vos sélections.",
-        "Comparez votre résultat avec l'image de l'énoncé avant de passer à la suite."
+        "Créer un damier.",
+        "Reproduire cette mise en forme en un minimum de clics.",
+        "L'exercice consiste à homogénéiser la hauteur et la largeur des lignes, à appliquer un fond noir sur une cellule et à répliquer cette mise en forme. Les raccourcis clavier Ctrl+C et Ctrl+V peuvent vous être d'un grand secours, ou encore la fonction « Reproduire la mise en forme » (le pinceau)."
       ],
-      "criteria": [],
+      "criteria": [
+        "Homogénéiser la largeur des colonnes et la hauteur des lignes.",
+        "Reproduire une mise en forme avec le pinceau ou le copier-coller au lieu de la refaire."
+      ],
       "originalConsignes": [
         "Reproduire cette mise en forme en un minimum de clic.",
         "L'exercice consiste à Homogénéiser la hauteur et la largeur des lignes, d'appliquer un fond noir sur une cellule et de répliquer cette mise en forme. Les raccourcis clavier CTRL+C et CTRL+V peuvent, vous êtes d'un grand secours ou encore la fonction de \"reproduction de mise en forme\" (le pinceau)."
