@@ -14939,7 +14939,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "UL21 Excel",
       "moduleNameClean": "UL21 Excel",
       "num": 3,
-      "title": "Bustop",
+      "title": "Cas Bustop",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul21-excel/bustop.html",
       "docxUrl": null,
@@ -14949,7 +14949,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-003-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Bustop",
+      "description": "Sujet ASCA en 1 heure : analysez la rentabilité hebdomadaire des lignes d'autobus de Bustop.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
