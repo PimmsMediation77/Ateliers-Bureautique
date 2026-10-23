@@ -6578,7 +6578,7 @@
       "imageResultat": "data/assets/excel/bases-12-graphiques/excel-ex-011-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Graphique Sparkline",
+      "description": "Insérez des graphiques sparkline pour visualiser l'évolution sur 4 trimestres.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le chiffre d'affaires de chaque prestation (chambres, petit déjeuner, pensions) sur 4 trimestres.",
