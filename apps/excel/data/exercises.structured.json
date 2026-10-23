@@ -9913,7 +9913,7 @@
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Convertir des données",
+      "description": "Séparez le département et le nom de la ville avec l'outil Convertir.",
       "preamble": "",
       "instructions": [
         "L'objectif de l'exercice est d'utiliser la fonction CONVERTIR d'Excel pour séparer le département et le nom de la ville.",
