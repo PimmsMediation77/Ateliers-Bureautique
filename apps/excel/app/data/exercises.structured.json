@@ -16427,17 +16427,17 @@
       "moduleName": "UL21 Excel",
       "moduleNameClean": "UL21 Excel",
       "num": 12,
-      "title": "Parcelle",
+      "title": "Cas Parcelle",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-parcelle.html",
       "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/asca-03-ul21-excel/excel-ex-012-image-enonce.gif",
-      "imageResultat": null,
+      "imageEnonce": "data/assets/excel/asca-03-ul21-excel/excel-ex-012-scrape-enonce-2.gif",
+      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-012-image-enonce.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Parcelle",
+      "description": "Sujet ASCA en 1 heure : construisez le tableau de remboursement d'un emprunt de 200 000 €.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
@@ -16459,7 +16459,6 @@
           "data/assets/excel/asca-03-ul21-excel/excel-ex-012-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-012-scrape-enonce-1.gif",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-012-scrape-enonce-2.gif"
         ],
         "resultImages": [
