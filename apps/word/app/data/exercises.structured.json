@@ -809,7 +809,12 @@
         "Résumé : \"Arial\", 10, centré, gras."
       ],
       "instructions": [
-        "Titre de spectacle : \"Times New Roman\", 18, centré."
+        "Titre de spectacle : \"Times New Roman\", 18, centré.",
+        "Compagnie : \"Cambria\", 12, bleu, aligné à gauche.",
+        "Durée : \"Times New Roman\", 12, italique, souligné, ombré, aligné à gauche.",
+        "Artiste : \"Times New Roman\", 12, gras, aligné à gauche.",
+        "Date : \"Times New Roman\", 12, souligné, aligné à droite.",
+        "Résumé : \"Arial\", 10, centré, gras."
       ],
       "scrape": {
         "ok": true,
@@ -826,11 +831,9 @@
       },
       "preamble": "",
       "criteria": [
-        "Compagnie : \"Cambria\", 12, bleu, aligné à gauche.",
-        "Durée : \"Times New Roman\", 12, italique, souligné, ombré, aligné à gauche.",
-        "Artiste : \"Times New Roman\", 12, gras, aligné à gauche.",
-        "Date : \"Times New Roman\", 12, souligné, aligné à droite.",
-        "Résumé : \"Arial\", 10, centré, gras."
+        "Aligner chaque paragraphe à gauche, au centre ou à droite selon son rôle (titre, date, résumé).",
+        "Combiner police, taille, couleur et styles (gras, italique, souligné, ombré) sur une même ligne.",
+        "Reproduire la même mise en forme sur chaque spectacle, par exemple avec le pinceau de reproduction de mise en forme."
       ],
       "originalConsignes": [
         "Titre de spectacle : \"Times New Roman\", 18, centré.",
@@ -1361,7 +1364,9 @@
         "- Saut de page entre les passereaux et les aigles"
       ],
       "instructions": [
-        "Consignes :"
+        "La ligne de chaque nom d'oiseau est en fond de couleur, à travailler dans le bloc \"Paragraphe\" : la reproduction de mise en forme (pinceau) vous permettra de répéter l'opération rapidement.",
+        "L'insertion des oiseaux devant chaque paragraphe est simple en choisissant un habillage \"adapté\" pour la photo.",
+        "Insérez un saut de page entre les passereaux et les aigles."
       ],
       "scrape": {
         "ok": true,
@@ -1378,9 +1383,10 @@
       },
       "preamble": "Vous travaillez dans le bloc \"Paragraphe\" et insertion image",
       "criteria": [
-        "- La ligne de chaque nom d'oiseau est en fond de couleur et à travailler dans le bloc \"paragraphe\", la reproduction de mis en forme (pinceau) vous permettra de répéter l'opération rapidement.",
-        "- L'insertion des oiseaux devant chaque paragraphe est simple en choisissant un habillage \"adapté\" pour la photo",
-        "- Saut de page entre les passereaux et les aigles"
+        "Appliquer une couleur de fond (trame) à un paragraphe depuis le bloc « Paragraphe ».",
+        "Reproduire une mise en forme avec le pinceau au lieu de la refaire à la main.",
+        "Choisir un habillage d'image adapté pour placer une photo à côté d'un paragraphe.",
+        "Séparer deux parties du document avec un saut de page."
       ],
       "originalConsignes": [
         "Téléchargez les images",
