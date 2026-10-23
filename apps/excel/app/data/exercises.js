@@ -10954,8 +10954,8 @@ window.EXCEL_ATELIER_DATA = {
       "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-image-enonce.gif",
-      "imageResultat": null,
+      "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-scrape-enonce-2.gif",
+      "imageResultat": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-image-enonce.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Exercice 7",
@@ -10983,7 +10983,6 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-scrape-enonce-1.gif",
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-scrape-enonce-2.gif"
         ],
         "resultImages": [
