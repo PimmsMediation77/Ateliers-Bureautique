@@ -8357,8 +8357,8 @@ window.WORD_ATELIER_DATA = {
       "level": 2,
       "levelLabel": "🟡 Intermédiaire ⭐⭐",
       "docxUrl": "data/assets/word/m27-champs-et-formulaire/word-ex-001.docx",
-      "imageEnonce": "data/assets/word/avance-27-champs-et-formulaire/word-ex-001-image-enonce.webp",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/word/avance-27-champs-et-formulaire/word-ex-001-image-enonce.webp",
       "description": "Vous réalisez le questionnaire suivant avec l'outil d'insertion des contrôles de l'onglet développeur, vous utilisez les bons contrôles :",
       "consignes": [],
       "instructions": [
@@ -8380,9 +8380,7 @@ window.WORD_ATELIER_DATA = {
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/word/avance-27-champs-et-formulaire/word-ex-001-scrape-enonce-1.webp"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/word/avance-27-champs-et-formulaire/word-ex-001-image-enonce.webp"
         ]
