@@ -11120,7 +11120,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Nommer une cellule",
       "moduleNameClean": "Nommer une cellule",
       "num": 9,
-      "title": "Exercice 9",
+      "title": "Nommer une cellule",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-9-nommer-cellule.html",
       "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-009.zip",
@@ -11130,7 +11130,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 9",
+      "description": "Affichez une image selon le choix dans une liste déroulante, grâce aux cellules nommées.",
       "preamble": "",
       "instructions": [
         "Vous téléchargez les images utiles à votre exercice ci-contre.",
