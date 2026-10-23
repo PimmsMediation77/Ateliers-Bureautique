@@ -4959,8 +4959,8 @@ window.WORD_ATELIER_DATA = {
       "level": 2,
       "levelLabel": "🟡 Intermédiaire ⭐⭐",
       "docxUrl": "data/assets/word/m16-tableau-avance/word-ex-006.docx",
-      "imageEnonce": "data/assets/word/bases-16-tableau-avance/word-ex-006-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/word/bases-16-tableau-avance/word-ex-006-image-enonce.jpg",
       "description": "Téléchargez le tableau de base pour vous éviter la saisie",
       "consignes": [],
       "instructions": [
@@ -4973,9 +4973,7 @@ window.WORD_ATELIER_DATA = {
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/word/bases-16-tableau-avance/word-ex-006-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/word/bases-16-tableau-avance/word-ex-006-image-enonce.jpg"
         ]
