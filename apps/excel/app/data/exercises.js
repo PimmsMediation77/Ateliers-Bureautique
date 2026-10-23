@@ -11040,17 +11040,17 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Nommer une cellule",
       "moduleNameClean": "Nommer une cellule",
       "num": 8,
-      "title": "Exercice 8",
+      "title": "Nommer une cellule ou une plage de cellules",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-8-nommer-cellule.html",
       "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-image-enonce.gif",
-      "imageResultat": null,
+      "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-scrape-enonce-2.gif",
+      "imageResultat": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-image-enonce.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 8",
+      "description": "Nommez des cellules et complétez le tableau avec des formules qui les utilisent.",
       "preamble": "",
       "instructions": [
         "Vous téléchargez votre fichier de travail ci-contre.",
@@ -11072,7 +11072,6 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-scrape-enonce-1.gif",
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-scrape-enonce-2.gif"
         ],
         "resultImages": [
