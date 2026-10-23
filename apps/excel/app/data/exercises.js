@@ -11255,7 +11255,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Tableaux croisés dynamiques",
       "moduleNameClean": "Tableaux croisés dynamiques",
       "num": 1,
-      "title": "Exercie 1 : Tableau Croisé Dynamique",
+      "title": "Tableau croisé dynamique",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/fonctions-base-de-donnees/tableau-croise-dynamique-1.html",
       "docxUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-001.xlsx",
@@ -11265,7 +11265,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Exercie 1 : Tableau Croisé Dynamique",
+      "description": "Construisez des tableaux croisés dynamiques du chiffre d'affaires d'un négociant en vin.",
       "preamble": "",
       "instructions": [
         "Chiffre d'affaires, par mois et par région, pour chaque appellation.",
