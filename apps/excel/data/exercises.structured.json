@@ -725,7 +725,7 @@
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Saisir des données dans Excel",
+      "description": "Entraînez-vous à la saisie au clavier avec 5 séries de données.",
       "preamble": "5 séries d'exercices de saisie dans votre tableur. Ouvrez Excel et créez un classeur vierge, puis choisissez une série ci-dessous.",
       "instructions": [
         "Série 1 : saisissez cette série de préfectures en utilisant uniquement la touche Entrée pour changer de cellule (pas de souris).",
