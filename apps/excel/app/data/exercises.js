@@ -12594,8 +12594,8 @@ window.EXCEL_ATELIER_DATA = {
       "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-007-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-007-scrape-enonce-2.jpg",
+      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-007-image-enonce.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Exercice 7",
@@ -12615,7 +12615,6 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-11-consolidation/excel-ex-007-scrape-extra-1.jpg"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-007-scrape-enonce-1.jpg",
           "data/assets/excel/avance-11-consolidation/excel-ex-007-scrape-enonce-2.jpg"
         ],
         "resultImages": [
