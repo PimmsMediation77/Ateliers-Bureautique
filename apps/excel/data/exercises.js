@@ -12114,7 +12114,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-10-sous-totaux/excel-ex-003-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Sous-Totaux",
+      "description": "Réorganisez le fichier de travail puis calculez le sous-total de chaque société.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient trois tableaux de ventes de CD (classique, rock, jazz) par société, d'août à décembre.",
