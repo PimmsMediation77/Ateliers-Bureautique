@@ -16201,17 +16201,17 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "UL21 Excel",
       "moduleNameClean": "UL21 Excel",
       "num": 11,
-      "title": "Centre Format",
+      "title": "Cas Centre Format",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-centre-format.html",
       "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/asca-03-ul21-excel/excel-ex-011-image-enonce.gif",
-      "imageResultat": null,
+      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-011-scrape-enonce-2.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Centre Format",
+      "description": "Sujet ASCA en 1 heure : automatisez les évaluations d'un centre de formation.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
@@ -16270,11 +16270,10 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/asca-03-ul21-excel/excel-ex-011-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-011-scrape-enonce-1.gif",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-011-scrape-enonce-2.gif"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-011-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-011-image-enonce.gif"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-011-scrape-enonce-2.gif"
         ]
       },
       "section": "asca",
