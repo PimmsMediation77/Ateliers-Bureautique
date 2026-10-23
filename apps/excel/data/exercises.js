@@ -426,7 +426,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-01-prise-en-main/excel-ex-001-scrape-resultat-1.jpg",
       "imageEnonceCaption": "Énoncé",
       "imageResultatCaption": "Résultat attendu - Exercice 1",
-      "description": "Prise en main Excel",
+      "description": "Enregistrez vos premiers classeurs sur le bureau sous des noms précis.",
       "preamble": "La prise en main du logiciel concerne en premier lieu l'enregistrement de votre travail.",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
