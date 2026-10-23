@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generatedAt": "2026-10-23T12:02:42.899Z",
-    "checked": 415,
+    "generatedAt": "2026-10-23T13:16:06.158Z",
+    "checked": 405,
     "failures": 0,
     "warnings": 0,
     "allowRemote": false,
@@ -2817,36 +2817,6 @@
     },
     {
       "app": "excel",
-      "exerciseId": "excel-ex-006",
-      "slot": "docxUrl",
-      "url": "data/assets/excel/bases-saisir-des-donnees/excel-ex-002.xlsx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-saisir-des-donnees/excel-ex-002.xlsx",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-saisir-des-donnees/excel-ex-002.xlsx"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-007",
-      "slot": "docxUrl",
-      "url": "data/assets/excel/bases-saisir-des-donnees/excel-ex-003.xlsx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-saisir-des-donnees/excel-ex-003.xlsx",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-saisir-des-donnees/excel-ex-003.xlsx"
-      }
-    },
-    {
-      "app": "excel",
       "exerciseId": "excel-ex-008",
       "slot": "docxUrl",
       "url": "data/assets/excel/bases-saisir-des-donnees/excel-ex-004.xlsx",
@@ -2862,66 +2832,6 @@
     },
     {
       "app": "excel",
-      "exerciseId": "excel-ex-008",
-      "slot": "downloadUrl",
-      "url": "data/assets/excel/bases-saisir-des-donnees/excel-ex-004-annexe-1.xlsx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-saisir-des-donnees/excel-ex-004-annexe-1.xlsx",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-saisir-des-donnees/excel-ex-004-annexe-1.xlsx"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-009",
-      "slot": "docxUrl",
-      "url": "data/assets/excel/bases-selection/excel-ex-001.xlsx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-selection/excel-ex-001.xlsx",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-selection/excel-ex-001.xlsx"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-010",
-      "slot": "docxUrl",
-      "url": "data/assets/excel/bases-selection/excel-ex-002.xlsx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-selection/excel-ex-002.xlsx",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-selection/excel-ex-002.xlsx"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-011",
-      "slot": "docxUrl",
-      "url": "data/assets/excel/bases-selection/excel-ex-003.zip",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-selection/excel-ex-003.zip",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-selection/excel-ex-003.zip"
-      }
-    },
-    {
-      "app": "excel",
       "exerciseId": "excel-ex-012",
       "slot": "docxUrl",
       "url": "data/assets/excel/bases-selection/excel-ex-004.xlsx",
@@ -2933,66 +2843,6 @@
         "packagedExists": true,
         "dataPath": "apps/excel/data/assets/excel/bases-selection/excel-ex-004.xlsx",
         "packagedPath": "apps/excel/app/data/assets/excel/bases-selection/excel-ex-004.xlsx"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-012",
-      "slot": "downloadUrl",
-      "url": "data/assets/excel/bases-selection/excel-ex-004-annexe-1.xlsx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-selection/excel-ex-004-annexe-1.xlsx",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-selection/excel-ex-004-annexe-1.xlsx"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-013",
-      "slot": "docxUrl",
-      "url": "data/assets/excel/bases-selection/excel-ex-005.zip",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-selection/excel-ex-005.zip",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-selection/excel-ex-005.zip"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-014",
-      "slot": "docxUrl",
-      "url": "data/assets/excel/bases-mise-en-forme/excel-ex-001.xlsx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-mise-en-forme/excel-ex-001.xlsx",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-mise-en-forme/excel-ex-001.xlsx"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-015",
-      "slot": "docxUrl",
-      "url": "data/assets/excel/bases-mise-en-forme/excel-ex-002.zip",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-mise-en-forme/excel-ex-002.zip",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-mise-en-forme/excel-ex-002.zip"
       }
     },
     {
