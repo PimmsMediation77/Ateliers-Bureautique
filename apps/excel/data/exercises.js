@@ -12781,7 +12781,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Macro",
       "moduleNameClean": "Macro",
       "num": 2,
-      "title": "Exercice 2",
+      "title": "Réaliser une macro simple",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/macro/exercice-2-macro.html",
       "docxUrl": null,
@@ -12791,7 +12791,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Exercice 2",
+      "description": "Enregistrez une macro qui recrée un planning mensuel en un clic.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
