@@ -657,7 +657,8 @@ window.WORD_ATELIER_DATA = {
         "Mettez les questions en gras et rouge et les réponses en vert."
       ],
       "instructions": [
-        "Mettez les questions en gras et rouge et les réponses en vert."
+        "Questions : sélectionnez chaque question et mettez-la en gras et en rouge.",
+        "Réponses : sélectionnez chaque réponse et mettez-la en vert."
       ],
       "scrape": {
         "ok": true,
@@ -673,7 +674,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Sélectionner rapidement un mot, une ligne ou un paragraphe (double-clic, triple-clic, Ctrl+clic pour plusieurs zones).",
+        "Appliquer le gras et une couleur de police à une sélection."
+      ],
       "originalConsignes": [
         "Téléchargez le document de travail.",
         "Mettez les questions en gras et rouge et les réponses en vert."
@@ -1027,7 +1031,11 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Les consignes sont directement dans le document au début de chaque exercice."
+        "Effacement : supprimez des mots, des phrases, des paragraphes et des retours à la ligne.",
+        "Espaces : insérez des espaces.",
+        "Interligne : changez l'interligne.",
+        "Alignement : alignez le texte.",
+        "Consignes détaillées : elles sont écrites dans le document, au début de chaque exercice."
       ],
       "scrape": {
         "ok": true,
@@ -1042,12 +1050,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/bases-03-saisir-du-texte/word-ex-009-scrape-resultat-1.gif"
         ]
       },
-      "preamble": "7 exercices sur le même document pour manipuler :",
+      "preamble": "7 exercices sur le même document.",
       "criteria": [
-        "- l'effacement des mots, de phrases, de paragraphes, de retour à la ligne",
-        "- l'insertion d'espace",
-        "- changement d'interligne",
-        "- l'alignement du texte"
+        "Supprimer du texte (mots, phrases, paragraphes, retours à la ligne) avec Suppr et Retour arrière.",
+        "Insérer des espaces et modifier l'interligne sans retaper le texte.",
+        "Aligner un paragraphe à gauche, au centre, à droite ou en justifié."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -1179,8 +1186,8 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m4-options-paragraphe/word-ex-002.docx",
       "imageEnonce": "data/assets/word/bases-04-options-paragraphe/word-ex-002-image-enonce.webp",
       "imageResultat": "data/assets/word/bases-04-options-paragraphe/word-ex-002-image-resultat.jpg",
-      "description": "Téléchargez le texte de l'exercice ci-contre, vous travaillerez dans le bloc \"Paragraphe\"",
-      "preamble": "Veuillez à bien séparer les paragraphe et mettre tout le texte en police \"Times New Roman\"",
+      "description": "",
+      "preamble": "Vous travaillez dans le bloc \"Paragraphe\". Séparez bien les paragraphes et mettez tout le texte en police \"Times New Roman\".",
       "consignes": [
         "Titre: 18pt, centré, bords doubles 3/4 pt, trame de fond gris 5 %, appliqué à Paragraphe.",
         "Sous titre: Bordure ombre, 1 pt, Largeur de 2 à 14 sur la règle haute.",
@@ -1189,7 +1196,14 @@ window.WORD_ATELIER_DATA = {
         "Dialogue Dacha : Bordure pointillés 2, couleur bleu, Largeur 2 1/4 pt, appliqué à Paragraphe",
         "Dialogue Sacha : Bordure pointillés 2, Trame de fond Remplissage Orange 80%, appliqué à Paragraphe"
       ],
-      "instructions": [],
+      "instructions": [
+        "Titre : 18 pt, centré, bordure double 2,6 pt, trame de fond gris 5 %, appliquées au paragraphe.",
+        "Sous-titre : bordure 1 pt avec ombre (distance 0,19 cm), largeur de 2 à 14 sur la règle du haut.",
+        "Reste du texte : 14 pt.",
+        "Dacha et Sacha : en gras.",
+        "Répliques de Dacha : bordure en pointillés, bleue, 2 1/4 pt, appliquée au paragraphe.",
+        "Répliques de Sacha : bordure en pointillés, trame de fond orange clair (80 %), appliquées au paragraphe."
+      ],
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/changer-de-couleur/exercice-2-changer-de-couleur.html",
@@ -1204,12 +1218,9 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "criteria": [
-        "Titre: 18pt, centré, bords doubles 3/4 pt, trame de fond gris 5 %, appliqué à Paragraphe.",
-        "Sous titre: Bordure ombre, 1 pt, Largeur de 2 à 14 sur la règle haute.",
-        "Reste du texte : 14 pt",
-        "Dacha et Sacha : gras",
-        "Dialogue Dacha : Bordure pointillés 2, couleur bleu, Largeur 2 1/4 pt, appliqué à Paragraphe",
-        "Dialogue Sacha : Bordure pointillés 2, Trame de fond Remplissage Orange 80%, appliqué à Paragraphe"
+        "Encadrer un paragraphe avec une bordure (style, couleur, épaisseur, ombre) depuis Bordure et trame.",
+        "Appliquer une trame de fond à un paragraphe.",
+        "Régler la largeur d'un paragraphe encadré avec les retraits de la règle."
       ],
       "originalConsignes": [
         "Titre: 18pt, centré, bords doubles 3/4 pt, trame de fond gris 5 %, appliqué à Paragraphe.",
@@ -1252,7 +1263,12 @@ window.WORD_ATELIER_DATA = {
         "Paragraphe 2 : police \"Times New Roman\", 12, alignement droit, souligné, italique, retrait gauche 3,5 cm.",
         "Paragraphe 3 : police \"Times New Roman\", 16, alignement centré, espacement au-dessus (avant) le paragraphe : 24 pts (ou 2 cm), bordures 2,5 pts."
       ],
-      "instructions": [],
+      "instructions": [
+        "Titre : police \"Bodoni MT Black\", 24, centré, gras.",
+        "Paragraphe 1 : police \"Castellar\", 12, interligne double, justifié, retrait gauche 1,5 cm, retrait droit -0,5 cm, retrait de 1re ligne 1,3 cm.",
+        "Paragraphe 2 : police \"Times New Roman\", 12, aligné à droite, souligné, italique, retrait gauche 3,5 cm.",
+        "Paragraphe 3 : police \"Times New Roman\", 16, centré, espacement avant 24 pt, bordure 2,5 pt."
+      ],
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/changer-de-couleur/exercice-3-bordures-paragraphes.html",
@@ -1265,10 +1281,9 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "criteria": [
-        "Titre : police \"Garamond\", 24, alignement centré, gras.",
-        "Paragraphe 1 : police \"Castellar\", 12, interligne double, alignement justifié, retrait gauche 1,5 cm, retrait droit -0,5 cm, retrait de 1re ligne 1,3 cm.",
-        "Paragraphe 2 : police \"Times New Roman\", 12, alignement droit, souligné, italique, retrait gauche 3,5 cm.",
-        "Paragraphe 3 : police \"Times New Roman\", 14, alignement centré, Espacement avant : 24 pt, bordures 3 pt appliqué à Paragraphe."
+        "Régler les retraits gauche, droit et de première ligne d'un paragraphe.",
+        "Choisir un interligne et un espacement avant paragraphe.",
+        "Distinguer la mise en forme des caractères (police, gras) de celle du paragraphe (alignement, retraits, bordure)."
       ],
       "originalConsignes": [
         "Vous travaillez dans le bloc \"Paragraphe\" en respectant les consignes ci-dessous.",
@@ -1303,7 +1318,16 @@ window.WORD_ATELIER_DATA = {
       "imageResultat": "data/assets/word/bases-04-options-paragraphe/word-ex-004-image-resultat.jpg",
       "description": "",
       "consignes": [],
-      "instructions": [],
+      "instructions": [
+        "Titre : police \"Trebuchet MS\", 18, gras, centré.",
+        "Paragraphe 1 : police \"Tempus Sans ITC\", 12, retrait gauche 1,5 cm, retrait droit 0,5 cm, retrait de 1re ligne 1 cm.",
+        "Paragraphe 2 : police \"Forte\", 12, aligné à droite, interligne au moins 0,7 cm, retrait gauche 3,5 cm, retrait droit 5 cm.",
+        "Paragraphe 3 : police \"Arial Narrow\", 14, gras, centré, espacement avant 6 pt, retraits gauche et droit 0,4 cm.",
+        "Paragraphe 4 : police \"Arial Rounded MT Bold\", 14, retrait gauche 1 cm, retrait droit 2 cm, retrait de 1re ligne 1,5 cm.",
+        "Paragraphe 5 : police \"Arial\", 11, interligne double, justifié, retrait gauche 3,5 cm, retrait droit 1,5 cm, retrait de 1re ligne -2 cm.",
+        "Paragraphe 6 : police \"Tahoma\", 12, justifié, retrait droit -0,5 cm, retrait de 1re ligne 1 cm.",
+        "Paragraphe 7 : centré, interligne fixe (Exactement) 1 cm, retraits gauche et droit 5 cm."
+      ],
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/changer-de-couleur/exercice-4-alignement-paragraphes.html",
@@ -1315,16 +1339,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/bases-04-options-paragraphe/word-ex-004-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "Respectant les consignes ci-dessous en faisant attention à bien séparer les paragraphes",
+      "preamble": "Vous travaillez dans le bloc \"Paragraphe\" en respectant les consignes ci-dessous. Séparez bien les paragraphes.",
       "criteria": [
-        "Titre: Police \"Trebuchet MS\", 18, Gras, Alignement centré",
-        "Paragraphe 1: Police \"Tempus Sans ITC\", 11, Retrait gauche 1,5cm, Retrait droit 0,5cm, Retrait 1ère ligne ligne 0,5cm",
-        "Paragraphe 2: Police \"Forte\", 12, Alignement Droit, Interligne au moins 0,7cm, Retrait gauche 2cm, Retrait droit 3cm",
-        "Paragraphe 3: Police \"Arial Narrow\", 11, Gras, Alignement centré, Espacement au-dessus (avant) 6 pt (ou 0,5cm), Retrait gauche 0,4cm, Retrait droit 0,4cm",
-        "Paragraphe 4: Police \"Arial Rounded Mt Bold\", 12, Retrait gauche 1cm, Retrait droit 2cm",
-        "Paragraphe 5: Police \"Arial\", 11, Interligne double, Alignement justifié, Retrait gauche 3,5cm, Retrait droit 1,5cm, Retrait 1ère ligne -2cm",
-        "Paragraphe 6: Police \"Tahoma\", 12, Alignement justifié, Retrait droit - 0,5cm, Retrait 1ère ligne 1cm,",
-        "Paragraphe 7: Alignement centré, Interligne fixe (Exactement) 1cm, Retrait gauche 4cm, Retrait droit 4cm"
+        "Régler précisément les retraits gauche, droit et de première ligne, positifs ou négatifs, dans la fenêtre Paragraphe.",
+        "Choisir le bon type d'interligne (double, au moins, exactement).",
+        "Appliquer une mise en forme différente à chaque paragraphe sans déborder sur le voisin."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -1429,7 +1448,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Vous ajoutez un espace APRÈS LE PARAGRAPHE."
+        "Espacement : ajoutez un espace après chaque paragraphe.",
+        "Interligne : appliquez un interligne de 1,15."
       ],
       "scrape": {
         "ok": true,
@@ -1444,7 +1464,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "Vous appliquez un interligne de 1.15."
+        "Différencier l'interligne (espace entre les lignes) et l'espacement entre paragraphes.",
+        "Régler l'espacement après paragraphe depuis le bloc Paragraphe."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -2694,9 +2715,13 @@ window.WORD_ATELIER_DATA = {
       "downloadUrl": "data/assets/word/m8-inserer-une-forme/word-ex-009-annexe-1.zip",
       "imageEnonce": "data/assets/word/bases-08-inserer-une-forme/word-ex-009-image-enonce.jpg",
       "imageResultat": "data/assets/word/bases-08-inserer-une-forme/word-ex-009-image-resultat.jpg",
-      "description": "Visuels et texte à télécharger ci-contre",
+      "description": "",
       "consignes": [],
-      "instructions": [],
+      "instructions": [
+        "Fichiers : téléchargez le texte et les visuels.",
+        "Formes et images : insérez les 6 formes et les 2 images comme sur le résultat attendu.",
+        "Grouper : groupez les formes, en particulier les flèches de direction, pour faciliter la mise en place."
+      ],
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/18-inserer-une-forme/exercice-9.html",
@@ -2708,8 +2733,12 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/bases-08-inserer-une-forme/word-ex-009-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "Dans cet exercice, 6 formes et 2 images à insérer comme sur le résultat attendu. Pour faciliter la mise en place, pensez à grouper les formes, en particulier les flèches de directions.",
-      "criteria": [],
+      "preamble": "",
+      "criteria": [
+        "Insérer et mettre en forme des formes automatiques.",
+        "Grouper des formes pour les déplacer et les aligner ensemble.",
+        "Placer des images parmi les formes avec un habillage adapté."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Visuels et texte à télécharger ci-contre.",
@@ -2774,7 +2803,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Texte en \"Arial\" 10."
+        "Titres : chaque titre de zone en \"Calibri\", taille 16, rouge.",
+        "Texte : en \"Arial\", taille 10."
       ],
       "scrape": {
         "ok": true,
@@ -2789,7 +2819,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "À l'aide de la fonction zone de texte simple, vous présentez le texte ci-dessous en 6 zones distinctes.",
       "criteria": [
-        "Titre de chaque zone en \"Calibri\" Taille 16 et rouge."
+        "Insérer une zone de texte simple et y placer du texte.",
+        "Répartir un texte dans plusieurs zones distinctes et les positionner sur la page."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -2817,7 +2848,7 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Mise en forme rapide du texte à l'aide de la zone prédéfinie \"Encadré mosaïque\". Disponible à partir de \"Word 2007\"."
+        "Encadré mosaïque : mettez le texte en forme rapidement avec la zone de texte prédéfinie \"Encadré mosaïque\" (disponible à partir de Word 2007)."
       ],
       "scrape": {
         "ok": true,
@@ -2830,8 +2861,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/bases-09-zone-de-texte/word-ex-002-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "Consignes : .",
-      "criteria": [],
+      "preamble": "",
+      "criteria": [
+        "Insérer une zone de texte prédéfinie depuis la galerie Zone de texte.",
+        "Remplacer le texte d'exemple d'une zone prédéfinie par son propre texte."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Consignes : .",
@@ -2947,7 +2981,9 @@ window.WORD_ATELIER_DATA = {
       "description": "Téléchargez les éléments texte et images ci-contre",
       "consignes": [],
       "instructions": [
-        "Vous justifiez le texte dans la zone et laissez la place pour le titre \"Mont Blanc Mario Colonel\"."
+        "Fond de page : placez l'image en fond de page.",
+        "Zone de texte : police et contour de la zone en blanc.",
+        "Texte : justifiez-le dans la zone et laissez la place pour le titre \"Mont Blanc Mario Colonel\"."
       ],
       "scrape": {
         "ok": true,
@@ -2962,8 +2998,9 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "Image en fond de page.",
-        "Couleur de Police et encadrement de la zone : blanc."
+        "Placer une image derrière le texte (habillage Derrière le texte).",
+        "Modifier la couleur du texte et du contour d'une zone de texte.",
+        "Superposer une zone de texte à une image."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -3076,7 +3113,10 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Paragraphe 2 : Aucune mise en forme."
+        "Paragraphe 1 : fond orange.",
+        "Paragraphe 2 : aucune mise en forme.",
+        "Paragraphe 3 : fond orange et bordure noire.",
+        "Paragraphe 4 : interligne de 2."
       ],
       "scrape": {
         "ok": true,
@@ -3089,11 +3129,10 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/bases-11-section-et-saut/word-ex-002-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Vous appliquez un style différent à chacune des 4 sections, que vous créez avec Mise en page > Sauts de page > Saut de section continu.",
       "criteria": [
-        "Paragraphe 1 : Fond orange.",
-        "Paragraphe 3 Fond orange er bordure noire.",
-        "Paragraphe 4 : Interligne de 2 points."
+        "Insérer un saut de section continu pour découper un document sans changer de page.",
+        "Appliquer une mise en forme différente à chaque section."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -3476,7 +3515,8 @@ window.WORD_ATELIER_DATA = {
       "description": "1- Téléchargez les visuels",
       "consignes": [],
       "instructions": [
-        "Vous rognez les visuels pour avoir un \"gros plan\" des poules."
+        "Formes : prenez deux formes au hasard et collez les deux poules en \"fond\" (remplissage par une image).",
+        "Rognage : rognez les visuels pour avoir un \"gros plan\" des poules."
       ],
       "scrape": {
         "ok": true,
@@ -3492,7 +3532,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "Vous prenez deux formes au hasard et vous collez les deux poules en \"fond\"."
+        "Remplir une forme avec une image.",
+        "Rogner une image pour n'en garder qu'une partie."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -3676,7 +3717,9 @@ window.WORD_ATELIER_DATA = {
       "description": "Vous téléchargez votre document support",
       "consignes": [],
       "instructions": [
-        "Dans le pied de page, vous insérez le modèle \"pied de page\" 3 colonnes, puis la date du jour en partie centrale et le numéro de page à droite."
+        "Pied de page : insérez le modèle de pied de page \"3 colonnes\".",
+        "Date : insérez la date du jour dans la partie centrale.",
+        "Numéro de page : insérez-le à droite."
       ],
       "scrape": {
         "ok": true,
@@ -3690,7 +3733,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Insérer un pied de page à partir d'un modèle prédéfini.",
+        "Ajouter des champs automatiques (date, numéro de page) dans un pied de page."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Vous téléchargez votre document support.",
@@ -4041,7 +4087,10 @@ window.WORD_ATELIER_DATA = {
       "imageResultat": "data/assets/word/bases-14-inserer-un-tableau/word-ex-005-image-resultat.jpg",
       "description": "Reproduisez ce tableau dans votre traitement de texte. Cellule fusionnées, bordure \"tirets\"...",
       "consignes": [],
-      "instructions": [],
+      "instructions": [
+        "Tableau : reproduisez le tableau du résultat attendu, avec les cellules fusionnées et les bordures en \"tirets\".",
+        "Astuce : vous pouvez copier l'image en taille réelle et la coller dans votre document de travail."
+      ],
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/18-inserer-tableau/exercice-5.html",
@@ -4055,7 +4104,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "NB : Pour des raisons pratiques, vous pouvez copier l'image quand elle est en taille réelle et la coller sur votre document de travail."
+        "Fusionner des cellules d'un tableau.",
+        "Appliquer un style de bordure (tirets) à certaines cellules."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -4081,10 +4131,15 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": null,
       "imageEnonce": "data/assets/word/bases-14-inserer-un-tableau/word-ex-006-image-enonce.gif",
       "imageResultat": "data/assets/word/bases-14-inserer-un-tableau/word-ex-006-image-resultat.gif",
-      "description": "Créez deux tableaux 7 colonnes et 11 lignes et 3 colonnes et 8 lignes.",
+      "description": "Modèle de facture en deux tableaux.",
       "consignes": [],
       "instructions": [
-        "Aligner l'adresse du destinataire pour qu'elle corresponde au pliage d'une enveloppe à fenêtre."
+        "Tableaux : créez un tableau de 7 colonnes et 11 lignes, puis un tableau de 3 colonnes et 8 lignes.",
+        "Remplissage : saisissez le contenu d'après le modèle, fond de couleur au choix.",
+        "Adresse : alignez l'adresse du destinataire pour qu'elle corresponde au pliage d'une enveloppe à fenêtre.",
+        "Premier tableau : faites disparaître les bordures à gauche de la dernière ligne (menu \"Bordures\").",
+        "Second tableau : faites disparaître les bordures à gauche de la première ligne (menu \"Bordures\").",
+        "Astuce : vous pouvez copier l'image en taille réelle et la coller dans votre document de travail."
       ],
       "scrape": {
         "ok": true,
@@ -4099,8 +4154,9 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "Faire disparaître les bordures sur la gauche de la dernière ligne du premier tableau avec le menu \"Bordure\".",
-        "Faire disparaître les bordures sur la gauche de la première ligne du second tableau avec le menu \"Bordure\"."
+        "Créer un tableau en choisissant son nombre de lignes et de colonnes.",
+        "Masquer certaines bordures d'un tableau.",
+        "Positionner un bloc d'adresse pour une enveloppe à fenêtre."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -4266,7 +4322,8 @@ window.WORD_ATELIER_DATA = {
       "description": "1-Téléchargez le document qui vous évite la saisie",
       "consignes": [],
       "instructions": [
-        "Centré horizontalement et verticalement le contenu de chaque cellule."
+        "Hauteur des lignes : ajustez-la à 3 cm.",
+        "Alignement : centrez le contenu de chaque cellule horizontalement et verticalement."
       ],
       "scrape": {
         "ok": true,
@@ -4281,7 +4338,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "Ajuster la hauteur des lignes à 3 cm."
+        "Régler la hauteur des lignes d'un tableau.",
+        "Centrer le texte d'une cellule horizontalement et verticalement (Disposition > Alignement)."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -4308,7 +4366,8 @@ window.WORD_ATELIER_DATA = {
       "description": "1-Téléchargez le document qui vous évite la saisie",
       "consignes": [],
       "instructions": [
-        "Appliquez un style rapide qui correspond au résultat."
+        "En-têtes : changez l'orientation du texte des cellules d'en-tête et les attributs de la police.",
+        "Style : appliquez un style rapide de tableau qui correspond au résultat."
       ],
       "scrape": {
         "ok": true,
@@ -4323,7 +4382,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "Changer l'orientation du texte des cellules d'en-tête et les attributs de la police."
+        "Changer l'orientation du texte dans une cellule.",
+        "Appliquer un style de tableau prédéfini."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -4496,7 +4556,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Dans le document que vous venez de télécharger, vous dupliquez le tableau 3 fois et vous le modifié en conséquence pour les rubriques 2, 3 et 4."
+        "Dupliquer : copiez le tableau 3 fois.",
+        "Modifier : adaptez chaque copie aux rubriques 2, 3 et 4."
       ],
       "scrape": {
         "ok": true,
@@ -4510,7 +4571,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Sélectionner et copier un tableau entier.",
+        "Modifier un tableau existant plutôt que de le recréer."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Vous téléchargez le fichier de travail ci-contre.",
@@ -4536,7 +4600,10 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Hauteur de ligne importante, en-tête centré en hauteur et en largeur, les autres cellules en hauteur uniquement."
+        "Hauteur et centrage : hauteur de ligne importante, en-tête centré en hauteur et en largeur, autres cellules centrées en hauteur uniquement.",
+        "Bordures : épaisseur différente selon les cellules.",
+        "Couleurs : couleur de fond différente selon les zones.",
+        "Angle haut gauche : aucune bordure."
       ],
       "scrape": {
         "ok": true,
@@ -4549,11 +4616,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/bases-15-mise-en-forme-tableau/word-ex-007-scrape-resultat-1.gif"
         ]
       },
-      "preamble": "",
+      "preamble": "À partir du texte du fichier de travail, transformez le tableau proposé pour qu'il soit identique au résultat attendu, sans oublier les points suivants.",
       "criteria": [
-        "Épaisseur de bordure différente en fonction des cellules.",
-        "Couleur de fond différentes selon les zones.",
-        "Angle en haut à gauche sans bordure."
+        "Fusionner des cellules et changer l'orientation du texte.",
+        "Centrer verticalement le texte dans une cellule.",
+        "Appliquer des bordures et des trames différentes selon les cellules."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -4581,7 +4648,12 @@ window.WORD_ATELIER_DATA = {
       "imageResultat": "data/assets/word/bases-16-tableau-avance/word-ex-001-image-resultat.jpg",
       "description": "Vous utilisez les fonctions qui se cachent sous l'onglet création du bloc \"Outils de tableau\"",
       "consignes": [],
-      "instructions": [],
+      "instructions": [
+        "Tableau : créez un planning imprimable de lycéen de 13 lignes et 14 colonnes.",
+        "Fusion et couleurs : fusionnez et mettez en couleur les cellules comme sur le modèle.",
+        "Largeur de colonnes : ajustez-la pour que le planning tienne sur la page.",
+        "Orientation : mettez la page au format A4 paysage."
+      ],
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/tableau-avances-et-trucs/exercice-1.html",
@@ -4597,7 +4669,9 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "Pour un confort de travail, il est conseillé de glisser l'image du résultat attendu sur le bureau puis dans votre document Word pour le reproduire.",
       "criteria": [
-        "Le travail consiste à faire un planning imprimable de lycéen sur 13 lignes et 14 colonnes. Au programme fusion, mise en couleur, largeur de colonne au format A4 paysage."
+        "Construire un grand tableau et ajuster la largeur de ses colonnes.",
+        "Fusionner et colorer des cellules avec les outils de tableau.",
+        "Mettre une page en orientation paysage."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -4625,7 +4699,9 @@ window.WORD_ATELIER_DATA = {
       "description": "L'exercice consiste à créer un nouveau style de tableau (en plus de ceux qui sont par défaut présent dans le logiciel).",
       "consignes": [],
       "instructions": [
-        "centré."
+        "Nouveau style : créez un nouveau style rapide de tableau.",
+        "Police : \"Cabin\", taille 14, centré.",
+        "Bordures : double bordure rouge."
       ],
       "scrape": {
         "ok": true,
@@ -4640,9 +4716,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "Police Cabin.",
-        "taille 14.",
-        "double bordure rouge."
+        "Créer un style de tableau personnalisé.",
+        "Retrouver son style dans la galerie des styles de tableau."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -5039,7 +5114,8 @@ window.WORD_ATELIER_DATA = {
       "description": "Saisir ou téléchargez le texte",
       "consignes": [],
       "instructions": [
-        "Définir une tabulation à « 8 - aligner gauche » pour l'adresse."
+        "Adresse : définissez une tabulation gauche à 8.",
+        "Second paragraphe : définissez une tabulation gauche à 3 et une tabulation décimale à 13 avec points de suite."
       ],
       "scrape": {
         "ok": true,
@@ -5052,9 +5128,10 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/avance-17-regles-et-tabulations/word-ex-003-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "Faire une mise en page conforme aux consignes : .",
+      "preamble": "",
       "criteria": [
-        "Définir une tabulation à « 3 - aligner gauche » et à « 13 - alignement décimal et point de suite » pour le second paragraphe."
+        "Poser des tabulations gauches et décimales à une position précise.",
+        "Ajouter des points de suite à une tabulation."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -5083,7 +5160,8 @@ window.WORD_ATELIER_DATA = {
       "description": "Télécharger le document de travail",
       "consignes": [],
       "instructions": [
-        "L'aide en fin de résultat attendu vous donne un aperçu final de la boite de dialogue \"tabulations\"."
+        "Tabulations : posez des tabulations centrées et droites pour reproduire le résultat attendu.",
+        "Aide : l'aperçu de la boîte de dialogue \"Tabulations\", en fin de résultat attendu, montre les réglages finaux."
       ],
       "scrape": {
         "ok": true,
@@ -5097,7 +5175,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "Pour cet exercice, vous utilisez la tabulation pour centrer et aligner à droite.",
-      "criteria": [],
+      "criteria": [
+        "Utiliser une tabulation centrée et une tabulation droite.",
+        "Régler des tabulations dans la boîte de dialogue Tabulations."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Pour cet exercice, vous utilisez la tabulation pour centrer et aligner à droite.",
@@ -5122,7 +5203,11 @@ window.WORD_ATELIER_DATA = {
       "imageResultat": "data/assets/word/avance-17-regles-et-tabulations/word-ex-005-image-resultat.jpg",
       "description": "",
       "consignes": [],
-      "instructions": [],
+      "instructions": [
+        "Tabulations : utilisez des tabulations à 8 et à 14.",
+        "Points de suite : tirets entre la dénomination et le prix, trait entre le prix et le prix remisé.",
+        "Chiffres : alignez les colonnes de chiffres à droite."
+      ],
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/14-tabulation-simple/exercice-5-tabulation.html",
@@ -5134,9 +5219,10 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/avance-17-regles-et-tabulations/word-ex-005-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "Faire une mise en page conforme aux consignes : .",
+      "preamble": "",
       "criteria": [
-        "Utiliser les tabulations « 8 » et « 14 » avec point de suite « tiret » entre la dénomination et le prix et « trait » entre le prix et le prix remisé. Bien prendre en compte l'alignement à droite des colonnes de chiffres."
+        "Choisir un type de points de suite (tirets, trait) pour chaque tabulation.",
+        "Aligner des colonnes de prix avec des tabulations droites."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -5208,7 +5294,8 @@ window.WORD_ATELIER_DATA = {
       "description": "Saisir ou téléchargez le texte",
       "consignes": [],
       "instructions": [
-        "Faire une mise en page conforme aux résultats attendu."
+        "Mise en page : reproduisez le résultat attendu.",
+        "Difficulté : le document mêle de nombreuses tabulations différentes (droite, gauche, points de suite)."
       ],
       "scrape": {
         "ok": true,
@@ -5223,7 +5310,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "La difficulté est liée au grand nombre de tabulations différentes présente sur le document, qui mêlent tabulation droite, gauche et point tout de suite."
+        "Combiner plusieurs types de tabulations dans un même document.",
+        "Lire un modèle pour retrouver la position et le type de chaque tabulation."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -5386,7 +5474,9 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Remplacer « sommet » et \"sommets\" par sommets."
+        "Sommet : remplacez « sommet » et « sommets » par « sommets ».",
+        "Blanc : remplacez « blanc » par « blanc » en taille 14, rouge, souligné.",
+        "Montagne : remplacez « Montagne » par « Montagne » en vert, italique."
       ],
       "scrape": {
         "ok": true,
@@ -5401,10 +5491,10 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/avance-18-chercher-et-remplacer/word-ex-004-scrape-resultat-1.webp"
         ]
       },
-      "preamble": "",
+      "preamble": "Utilisez Rechercher/Remplacer, avec le bouton Format de la fenêtre, pour réaliser ces modifications.",
       "criteria": [
-        "Remplacer \"blanc\" par blanc (taille 14 rouge, souligné).",
-        "Remplacer Montagne par Montagne (vert, italique)."
+        "Remplacer un mot dans tout le document avec Rechercher/Remplacer.",
+        "Appliquer une mise en forme au texte de remplacement avec le bouton Format."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -5518,7 +5608,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Supprimez toute la ponctuation."
+        "Mots : mettez « Lion », « Loup » et « Renard » en gras, \"Calibri\" 18.",
+        "Ponctuation : supprimez toute la ponctuation."
       ],
       "scrape": {
         "ok": true,
@@ -5533,7 +5624,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "Mettre les mots \"Lion\", \" Loup\" et \"Renard\" en gras, \"Calibri\" 18,."
+        "Remplacer un mot par le même mot mis en forme avec Rechercher/Remplacer.",
+        "Supprimer des caractères (ponctuation) dans tout le document en les remplaçant par rien."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -5605,7 +5697,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Justifiez le texte en \"Calibri\" 26."
+        "Fond de page : appliquez un dégradé bicolore.",
+        "Texte : justifiez-le, en \"Calibri\" 26."
       ],
       "scrape": {
         "ok": true,
@@ -5618,9 +5711,10 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/avance-19-format-de-page/word-ex-001-image-resultat.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Exercice très simple : appliquez une couleur ou un dégradé à votre page. Le menu se trouve dans l'onglet Création (ou Conception), bloc Arrière-plan de la page.",
       "criteria": [
-        "Appliquer un dégradé bicolore en fond de page."
+        "Appliquer une couleur ou un dégradé en fond de page.",
+        "Trouver les options d'arrière-plan de la page dans l'onglet Création."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -5695,7 +5789,8 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Après avoir inséré le texte dans un document Word, vous insérez un tour de page en double filet puis un filigrane au choix. Les options se trouvent dans le même groupe."
+        "Bordure de page : insérez un tour de page en double filet.",
+        "Filigrane : insérez un filigrane au choix (les options sont dans le même groupe)."
       ],
       "scrape": {
         "ok": true,
@@ -5708,8 +5803,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/avance-19-format-de-page/word-ex-003-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "Faire une mise en page conforme aux consignes : .",
-      "criteria": [],
+      "preamble": "",
+      "criteria": [
+        "Ajouter une bordure de page.",
+        "Insérer un filigrane."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Faire une mise en page conforme aux consignes : .",
@@ -6941,10 +7039,11 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": "data/assets/word/m23-styles/word-ex-004.docx",
       "imageEnonce": "data/assets/word/avance-23-styles/word-ex-004-image-enonce.jpg",
       "imageResultat": "data/assets/word/avance-23-styles/word-ex-004-image-resultat.jpg",
-      "description": "Avec le raccourci CTRL+Maj+ALT+S, vous accédez à la boite de dialogue de modification des styles. Vous choisissez le style normal que vous avez modifié en fonction de la capture écran ci-dessous.",
+      "description": "",
       "consignes": [],
       "instructions": [
-        "Pensez à cocher l'option \"Nouveaux documents basé sur ce modèle\". (ATTENTION si vous cochez tous les nouveaux documents que vous allez produire avec votre logiciel seront modifiés de la même façon.)."
+        "Style Normal : modifiez-le comme sur la capture d'écran.",
+        "Option : cochez \"Nouveaux documents basés sur ce modèle\". Attention : tous les nouveaux documents créés avec Word seront alors modifiés de la même façon."
       ],
       "scrape": {
         "ok": true,
@@ -6960,7 +7059,10 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "Avec le raccourci CTRL+Maj+ALT+S, vous accédez à la boite de dialogue de modification des styles. Vous choisissez le style normal que vous avez modifié en fonction de la capture écran ci-dessous.",
-      "criteria": [],
+      "criteria": [
+        "Ouvrir la fenêtre de gestion des styles (Ctrl+Maj+Alt+S) et modifier un style existant.",
+        "Comprendre l'effet de l'option « Nouveaux documents basés sur ce modèle »."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Avec le raccourci CTRL+Maj+ALT+S, vous accédez à la boite de dialogue de modification des styles. Vous choisissez le style normal que vous avez modifié en fonction de la capture écran ci-dessous.",
@@ -6983,7 +7085,7 @@ window.WORD_ATELIER_DATA = {
       "docxUrl": null,
       "imageEnonce": "data/assets/word/avance-23-styles/word-ex-005-image-enonce.jpg",
       "imageResultat": "data/assets/word/avance-23-styles/word-ex-005-image-resultat.jpg",
-      "description": "Consignes :",
+      "description": "",
       "consignes": [
         "Enregistrez ces 5 nouveaux styles dans Word via le menu \"Nouveau style\".",
         "Style 1 : \"Arial\", taille : 12.",
@@ -6993,7 +7095,12 @@ window.WORD_ATELIER_DATA = {
         "Style 5 : \"Calibri\", taille : 28, couleur : blanc, contour : rouge."
       ],
       "instructions": [
-        "Enregistrez ces 5 nouveaux styles dans Word via le menu \"Nouveau style\"."
+        "Nouveau style : enregistrez ces 5 nouveaux styles dans Word via le menu \"Nouveau style\".",
+        "Style 1 : \"Arial\", taille 12.",
+        "Style 2 : \"Comic Sans MS\", taille 16, gras, surligné gris.",
+        "Style 3 : \"Verdana\", taille 20, italique, surligné jaune, couleur verte.",
+        "Style 4 : \"Calibri\", taille 24, souligné en pointillé.",
+        "Style 5 : \"Calibri\", taille 28, blanc, contour rouge."
       ],
       "scrape": {
         "ok": true,
@@ -7008,11 +7115,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "Style 1 : \"Arial\", taille : 12.",
-        "Style 2 : \"Comic Sans MS\", taille : 16, gras, surligné : gris.",
-        "Style 3 : \"Verdana\", taille : 20, italique, surligné : jaune, couleur : vert.",
-        "Style 4 : \"Calibri\", taille : 24, souligné : pointillé.",
-        "Style 5 : \"Calibri\", taille : 28, couleur : blanc, contour : rouge."
+        "Créer un style de caractère personnalisé.",
+        "Définir police, taille, couleur, surlignage et effets dans un style."
       ],
       "originalConsignes": [
         "Enregistrez ces 5 nouveaux styles dans Word via le menu \"Nouveau style\".",
@@ -7717,7 +7821,12 @@ window.WORD_ATELIER_DATA = {
       "imageResultat": null,
       "description": "",
       "consignes": [],
-      "instructions": [],
+      "instructions": [
+        "Table des matières : placez-la sur la première page.",
+        "Sauts de page : répartissez-les sur les pages 1, 2 et 3.",
+        "Niveau 1 : Languedoc-Roussillon tour club 2017, Qualifications, Classement, Récompenses, De la finale.",
+        "Niveau 2 : tous les autres chapitres."
+      ],
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/document-long/exercice-7.html",
@@ -7731,8 +7840,12 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/avance-25-document-long/word-ex-007-image-enonce.jpg"
         ]
       },
-      "preamble": "Résultat attendu : .",
-      "criteria": [],
+      "preamble": "",
+      "criteria": [
+        "Appliquer des niveaux de titre (Titre 1, Titre 2) aux chapitres.",
+        "Insérer une table des matières automatique.",
+        "Répartir le contenu avec des sauts de page."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Vous téléchargez votre fichier de travail ici.",
@@ -7758,7 +7871,11 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Mettez une note de bas de page pour les mots surlignés en jaune."
+        "Notes de bas de page : insérez une note pour chaque mot surligné en jaune, avec les textes ci-dessous.",
+        "Cygne : grand oiseau aux pattes palmées, le plumage blanc et un cou long et souple.",
+        "Hiverner : passer l'hiver à l'abri.",
+        "Cap : direction.",
+        "Ajourner : renvoyer à un autre jour."
       ],
       "scrape": {
         "ok": true,
@@ -7773,8 +7890,11 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/avance-25-document-long/word-ex-008-image-resultat.jpg"
         ]
       },
-      "preamble": "Résultat attendu : .",
-      "criteria": [],
+      "preamble": "",
+      "criteria": [
+        "Insérer une note de bas de page (Références > Insérer une note de bas de page).",
+        "Rédiger le texte d'une note et vérifier sa numérotation automatique."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Vous téléchargez votre fichier de travail ici.",
@@ -8322,7 +8442,7 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
-        "Convertissez en un clic le texte en minuscules. Utilisez la fonction Modifier la casse dans le bloc Police, ou sélectionnez le texte puis faites Maj + F3."
+        "Minuscules : convertissez en un clic le texte en minuscules avec Modifier la casse (bloc Police), ou sélectionnez le texte puis faites Maj+F3."
       ],
       "scrape": {
         "ok": true,
@@ -8338,7 +8458,9 @@ window.WORD_ATELIER_DATA = {
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Changer la casse d'un texte sans le ressaisir (Modifier la casse ou Maj+F3)."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Convertissez en un clic le texte en minuscules. (fonction \"modifier la casse\" dans le bloc \"police\" ou Sélectionnez le texte à modifier et faire la combinaison de touches : MAJ (shift) + F3.",
@@ -8880,7 +9002,13 @@ window.WORD_ATELIER_DATA = {
       "description": "Courrier enveloppes à fenêtre, liste à puces, tabulations et points de suite",
       "consignes": [],
       "instructions": [
-        "Justifier toute la lettre."
+        "Marges : affectez au document des marges de 1,5 cm partout.",
+        "Alignement : justifiez toute la lettre.",
+        "Retraits : appliquez un retrait gauche de 10 cm sur le destinataire, la date et la signature.",
+        "Interligne : appliquez un interligne de 1,5 aux paragraphes de texte.",
+        "Puces : mettez une puce devant les énumérations avec un retrait gauche de 1,25 cm.",
+        "Dernier paragraphe : centrez-le, en blanc sur fond gris foncé.",
+        "Prix : insérez une tabulation gauche à 6 cm avec points de suite."
       ],
       "scrape": {
         "ok": true,
@@ -8895,12 +9023,9 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "Affecter au document des marges de 1,5 cm partout.",
-        "Appliquer un retrait gauche de 10 cm sur le destinataire, la date et la signature.",
-        "Appliquer un interligne 1,5 aux paragraphes de texte.",
-        "Mettre une puce devant les énumérations et appliquer un retrait à gauche de 1,25 cm.",
-        "Centrer le dernier paragraphe de texte et écrire en blanc sur un fond gris foncé.",
-        "Pour faciliter la frappe des différents prix, insérer une tabulation gauche à 6 cm avec points de suite."
+        "Régler les marges d'un document.",
+        "Positionner les blocs d'un courrier avec des retraits pour une enveloppe à fenêtre.",
+        "Combiner liste à puces, trame de fond et tabulation avec points de suite."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -8979,7 +9104,11 @@ window.WORD_ATELIER_DATA = {
       "imageResultat": "data/assets/word/complets-29-niveau-1-debutant/word-ex-012-image-resultat.gif",
       "description": "Attribut de texte simple, alignement paragraphe",
       "consignes": [],
-      "instructions": [],
+      "instructions": [
+        "Titre : en bleu, souligné double.",
+        "1er paragraphe : retraits gauche et droit à 12, texte centré.",
+        "Paragraphes entre guillemets : en italique, retrait gauche à 1,5."
+      ],
       "scrape": {
         "ok": true,
         "url": "https://www.clic-formation.net/exercices-niveau-1/tortilla.html",
@@ -8993,9 +9122,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "",
       "criteria": [
-        "Titre en bleu, souligné double.",
-        "ᵉʳ paragraphe, retrait à gauche et retrait à droite à 12. Texte centré.",
-        "Paragraphes entre guillemets en italique et retrait gauche à 1.5."
+        "Appliquer des attributs de texte (couleur, souligné double, italique).",
+        "Régler les retraits et l'alignement d'un paragraphe."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -9622,7 +9750,9 @@ window.WORD_ATELIER_DATA = {
       "description": "Que des tableaux à faire et à modifier",
       "consignes": [],
       "instructions": [
-        "Dans chaque partie, vous partez d'un tableau fait que vous devez modifier pour arriver au résultat attendu. Votre travail se situe dans la transformation et modification de l'existant et non dans la création."
+        "Point de départ : dans chaque partie, modifiez le tableau existant pour arriver au résultat attendu, sans le recréer.",
+        "Manipulations : insertion, mise en forme, suppression de lignes ou de colonnes, centrage et alignement du texte dans les cellules, bordures.",
+        "Résultat attendu : il se trouve dans le fichier de travail."
       ],
       "scrape": {
         "ok": true,
@@ -9637,7 +9767,8 @@ window.WORD_ATELIER_DATA = {
       },
       "preamble": "Dans le fichier ci-contre, vous avez 4 exercices court (peut-être) autour des tableaux.",
       "criteria": [
-        "Travail sur l'insertion, la mise en forme, suppression de lignes et/ou colonnes, centrage et alignement du texte dans les cellules, bordures…Bref de la manipulation à tous les étages."
+        "Insérer et supprimer des lignes et des colonnes dans un tableau existant.",
+        "Modifier la mise en forme d'un tableau (alignement, bordures) sans le recréer."
       ],
       "originalConsignes": [],
       "originalInstructions": [
@@ -10135,7 +10266,10 @@ window.WORD_ATELIER_DATA = {
       "description": "Fond de page et zone de texte",
       "consignes": [],
       "instructions": [
-        "L'insertion d'image."
+        "Fond de page : insérez le fond de page.",
+        "Tableau : insérez-le et mettez-le en forme (fusion, bordure épaisse blanche…).",
+        "Images : insérez les visuels.",
+        "Zone de texte : insérez-la et mettez-la en forme (transparence, bordure arrondie)."
       ],
       "scrape": {
         "ok": true,
@@ -10148,11 +10282,10 @@ window.WORD_ATELIER_DATA = {
           "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-011-scrape-resultat-1.jpg"
         ]
       },
-      "preamble": "",
+      "preamble": "Réalisez le flyer conformément au modèle. Avec une version récente de Word, pas de souci, sinon faites pour le mieux.",
       "criteria": [
-        "L'insertion du fond de page.",
-        "L'insertion de tableau et sa mise en forme : fusion, bordure épaisse blanche….",
-        "Insertion de zone de texte et sa mise en forme : transparence et arrondi de la bordure."
+        "Superposer fond de page, tableau, images et zones de texte dans une même mise en page.",
+        "Rendre une zone de texte transparente et arrondir sa bordure."
       ],
       "originalConsignes": [],
       "originalInstructions": [
