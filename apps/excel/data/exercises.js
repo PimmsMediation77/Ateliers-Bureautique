@@ -1528,13 +1528,13 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-04-mise-en-forme/excel-ex-003-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Format automatique",
+      "description": "Dupliquez le tableau du fichier de travail et appliquez-lui des mises en forme automatiques variées.",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Format automatique.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel.",
+        "Dupliquer la feuille : faites un clic droit sur l'onglet « Base » > Déplacer ou copier, cochez « Créer une copie » puis OK. Recommencez pour obtenir au moins 3 copies.",
+        "Format automatique : sur chaque copie, cliquez dans le tableau puis Accueil > Mettre sous forme de tableau, et choisissez un style différent à chaque fois.",
+        "Comparer : observez les différences entre vos copies et les résultats attendus (couleurs, lignes alternées, filtres)."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1558,7 +1558,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Dupliquer une feuille de calcul.",
+        "Appliquer un style de tableau automatique (Mettre sous forme de tableau)."
+      ],
       "originalConsignes": [
         "Après avoir téléchargé le fichier de travail ci-contre, vous le dupliquez 3 fois au minimum et appliquez les mises en formes automatiques pour obtenir des résultats variés."
       ],
@@ -1574,7 +1577,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Mise en forme",
       "moduleNameClean": "Mise en forme",
       "num": 4,
-      "title": "Ecriture oblique dans une cellule",
+      "title": "Écriture oblique dans une cellule",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-embelissement/format-embelissement-4.html",
       "docxUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-004.xlsx",
@@ -1584,14 +1587,14 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-04-mise-en-forme/excel-ex-004-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Ecriture oblique dans une cellule",
+      "description": "Reproduisez ce tableau en respectant la mise en forme, et particulièrement l'orientation de l'écriture des en-têtes.",
       "preamble": "",
       "instructions": [
-        "Reproduisez le tableau en respectant les données, la mise en forme et l'orientation du texte dans certaines cellules.",
-        "Sélectionnez la ou les cellules dont vous souhaitez modifier l'orientation.",
-        "Faites un clic droit sur la sélection, puis choisissez « Format de cellule ».",
-        "Ouvrez l'onglet « Alignement », puis utilisez la zone « Orientation » pour incliner ou faire pivoter le texte.",
-        "Ajustez l'orientation jusqu'à obtenir le même résultat que sur l'image de l'énoncé, puis validez avec « OK »."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Les données sont déjà saisies.",
+        "Orientation du texte : sélectionnez les en-têtes B2:J2 (Électricité à Plantation), puis clic droit > Format de cellule > Alignement, et inclinez le texte dans la zone « Orientation » (par exemple 60 degrés).",
+        "Bordures : appliquez des bordures au tableau. Sur les en-têtes inclinés, les bordures suivent l'inclinaison du texte, comme sur le modèle.",
+        "Couleurs et titres : ajoutez les couleurs de fond des deux groupes, puis mettez « Batiments » et « Espaces verts » en gras italique au-dessus de leurs colonnes.",
+        "Hauteur de ligne : agrandissez la ligne 2 pour que les en-têtes inclinés soient entièrement visibles."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1616,7 +1619,10 @@ window.EXCEL_ATELIER_DATA = {
         "Ouvrez l'onglet « Alignement », puis utilisez la zone « Orientation » pour incliner ou faire pivoter le texte.",
         "Ajustez l'orientation jusqu'à obtenir le même résultat que sur l'image de l'énoncé, puis validez avec « OK »."
       ],
-      "criteria": [],
+      "criteria": [
+        "Modifier l'orientation du texte dans une cellule.",
+        "Combiner orientation, bordures et couleurs dans un même tableau."
+      ],
       "originalConsignes": [
         "Vous reproduisez ce tableau en prenant soin de respecter la mise en forme et particulièrement l'orientation de l'écriture des cellules.",
         "Cette fonction se trouve dans le format de cellule et alignement."
@@ -1647,12 +1653,11 @@ window.EXCEL_ATELIER_DATA = {
       "description": "Histoire de bordure et de couleur de fond",
       "preamble": "Modifiez le fichier téléchargé afin d'obtenir la même mise en forme que le modèle plus bas.",
       "instructions": [
-        "Pensez à insérer une ligne au-dessus du modèle.",
-        "La bordure interne des cellules n'est pas de la même épaisseur que le cadre.",
-        "Sélectionnez la cellule ou la zone dont vous souhaitez copier la mise en forme.",
-        "Dans l'onglet « Accueil », cliquez sur l'outil « Reproduire la mise en forme » (le pinceau).",
-        "Cliquez ensuite sur la cellule ou la zone où vous souhaitez appliquer cette mise en forme.",
-        "Vérifiez que les bordures, l'alignement et les autres éléments de mise en forme correspondent au modèle."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Les 9 blocs sont saisis mais collés au bord de la feuille.",
+        "Insérer : insérez une ligne au-dessus (clic droit sur le numéro 1 > Insérer) et une colonne à gauche (clic droit sur la lettre A > Insérer), comme sur le modèle.",
+        "Taille des cases : agrandissez les lignes et les colonnes des blocs pour obtenir de grandes cases, comme sur le modèle.",
+        "Premier bloc : mettez en forme B2:C3 avec une couleur de fond, le texte centré en gras, des bordures intérieures fines et un cadre épais. La bordure interne n'a pas la même épaisseur que le cadre.",
+        "Pinceau : reproduisez cette mise en forme sur les 8 autres blocs avec le pinceau (double-clic pour l'appliquer plusieurs fois, Échap pour arrêter), puis changez seulement la couleur de fond de chaque bloc."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1678,7 +1683,11 @@ window.EXCEL_ATELIER_DATA = {
         "Cliquez ensuite sur la cellule ou la zone où vous souhaitez appliquer cette mise en forme.",
         "Vérifiez que les bordures, l'alignement et les autres éléments de mise en forme correspondent au modèle."
       ],
-      "criteria": [],
+      "criteria": [
+        "Insérer une ligne et une colonne pour repositionner un tableau.",
+        "Différencier l'épaisseur des bordures intérieures et du cadre.",
+        "Reproduire une mise en forme avec le pinceau."
+      ],
       "originalConsignes": [
         "Pensez à insérer une ligne au-dessus du modèle.",
         "La bordure interne des cellules n'est pas de la même épaisseur que le cadre.",
@@ -1708,13 +1717,14 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-04-mise-en-forme/excel-ex-006-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Styles personnalisés",
+      "description": "Réalisez ce tableau avec les styles de cellules prédéfinis d'Excel. Vous pouvez également créer votre propre style, c'est plus classe.",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Styles personnalisés.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Les deux tableaux sont saisis sans mise en forme.",
+        "Styles de cellules : sélectionnez une zone (par exemple le titre « Pâtisserie ») puis Accueil > Styles de cellules, et choisissez un style (Accent1, Titre 3, 20 % - Accent2…) pour obtenir le rendu du modèle.",
+        "Format monétaire : dans le tableau Pâtisserie, appliquez aussi le style « Monétaire » (rubrique Format de nombre) aux montants.",
+        "Deuxième tableau : appliquez les mêmes styles au tableau « Salon de thé ».",
+        "Style personnel : si vous le souhaitez, créez votre propre style avec Styles de cellules > Nouveau style de cellule, puis appliquez-le."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1736,7 +1746,10 @@ window.EXCEL_ATELIER_DATA = {
         "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
         "Enregistrez votre travail puis marquez l'exercice comme termine."
       ],
-      "criteria": [],
+      "criteria": [
+        "Appliquer les styles de cellules prédéfinis d'Excel.",
+        "Créer un style de cellule personnalisé."
+      ],
       "originalConsignes": [
         "Vous réalisez ce tableau avec les styles personnalisés d'Excel prédéfinis dans votre version. Vous pouvez également créer votre propre style, c'est plus classe."
       ],
