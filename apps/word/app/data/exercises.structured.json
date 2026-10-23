@@ -8314,8 +8314,8 @@
       "level": 1,
       "levelLabel": "🟢 Débutant ⭐",
       "docxUrl": "data/assets/word/m26-lier-le-document/word-ex-006.docx",
-      "imageEnonce": "data/assets/word/avance-26-lier-le-document/word-ex-006-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/word/avance-26-lier-le-document/word-ex-006-image-enonce.jpg",
       "description": "Vous téléchargez le dossier \"Montagne.zip\" ci-contre et de décompresser ou vous voulez sur votre ordinateur",
       "consignes": [],
       "instructions": [
@@ -8328,9 +8328,7 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/word/avance-26-lier-le-document/word-ex-006-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/word/avance-26-lier-le-document/word-ex-006-image-enonce.jpg"
         ]
