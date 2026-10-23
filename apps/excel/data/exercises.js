@@ -10732,7 +10732,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Nommer une cellule",
       "moduleNameClean": "Nommer une cellule",
       "num": 4,
-      "title": ": Nommer une cellule ou une plage de cellules (Nommer une cellule 4)",
+      "title": "Nommer une cellule ou une plage de cellules",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-4-nommer-cellule.html",
       "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-004.xlsx",
@@ -10742,7 +10742,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-004-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": ": Nommer une cellule ou une plage de cellules",
+      "description": "Nommez les zones vertes et utilisez ces noms dans les calculs d'un suivi de chantier.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le suivi de chantier (travaux, coûts, jours prévus et réels).",
