@@ -1650,7 +1650,7 @@
       "imageResultat": "data/assets/excel/bases-04-mise-en-forme/excel-ex-005-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Histoire de bordure et de couleur de fond",
+      "description": "Modifiez le fichier de travail pour obtenir les bordures et couleurs de fond du modèle.",
       "preamble": "Modifiez le fichier téléchargé afin d'obtenir la même mise en forme que le modèle plus bas.",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Les 9 blocs sont saisis mais collés au bord de la feuille.",
