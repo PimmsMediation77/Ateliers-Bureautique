@@ -13318,7 +13318,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g190-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Case à cocher",
+      "description": "Construisez un QCM avec des cases à cocher.",
       "preamble": "",
       "instructions": [
         "CONSIGNES :.",
