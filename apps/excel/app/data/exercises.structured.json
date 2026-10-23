@@ -7640,7 +7640,7 @@
       "moduleName": "Référence absolue",
       "moduleNameClean": "Référence absolue",
       "num": 3,
-      "title": "Utilisation de la poignée de recopie et de la valeur absolue/relative",
+      "title": "Référence absolue - Série 3",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-3.html",
       "docxUrl": null,
@@ -7650,7 +7650,7 @@
       "imageResultat": "data/assets/excel/avance-03-reference-absolue/excel-ex-003-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Utilisation de la poignée de recopie et de la valeur absolue/relative",
+      "description": "Trouvez la formule qui se recopie sur tout le tableau, colonne par colonne.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
