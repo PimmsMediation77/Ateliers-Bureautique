@@ -748,7 +748,11 @@
       "instructions": [
         "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
         "« Le raccourci clavier pour enregistrer rapidement est ctrl+s »",
-        "Et surlignez en fonction des consignes"
+        "Et surlignez en fonction des consignes",
+        "Texte 1: \"Arial\", taille : 12, surligné : bleu clair.",
+        "Texte 2: \"Comic Sans MS\", taille : 16, gras, surligné : gris.",
+        "Texte 3: \"Verdana\", taille : 20, italique, couleur : vert, surligné : jaune.",
+        "Texte 4: \"Times New Roman\", taille : 26, couleur : blanc, surligné : violet."
       ],
       "scrape": {
         "ok": true,
@@ -763,10 +767,9 @@
       },
       "preamble": "Reproduire la ligne ci-dessous en utilisant la fonction copier-coller pour cette phrase",
       "criteria": [
-        "Texte 1: \"Arial\", taille : 12, surligné : bleu clair.",
-        "Texte 2: \"Comic Sans MS\", taille : 16, gras, surligné : gris.",
-        "Texte 3: \"Verdana\", taille : 20, italique, couleur : vert, surligné : jaune.",
-        "Texte 4: \"Times New Roman\", taille : 26, couleur : blanc, surligné : violet."
+        "Reproduire une phrase plusieurs fois avec le copier-coller au lieu de la ressaisir.",
+        "Appliquer une police, une taille et un style (gras, italique) différents à chaque ligne.",
+        "Différencier la couleur de police (couleur des lettres) et la couleur de surlignage (fond derrière le texte)."
       ],
       "originalConsignes": [],
       "originalInstructions": [
