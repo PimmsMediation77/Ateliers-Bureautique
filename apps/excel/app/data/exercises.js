@@ -15398,7 +15398,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "UL21 Excel",
       "moduleNameClean": "UL21 Excel",
       "num": 7,
-      "title": "Mosaïque",
+      "title": "Cas Mosaïque",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-mosaique.html",
       "docxUrl": null,
@@ -15408,7 +15408,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-007-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Mosaïque",
+      "description": "Sujet ASCA en 1 heure : analysez les dépenses d'un cabinet d'architecte pour les réduire.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
