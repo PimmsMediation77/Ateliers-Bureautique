@@ -10422,7 +10422,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-007-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Lier des feuilles de calculs via des liens Hypertextes",
+      "description": "Créez des liens hypertextes pour naviguer entre les feuilles d'un classeur.",
       "preamble": "",
       "instructions": [
         "L'objectif de l'exercice est de mettre en place un système de liens hypertextes entre les feuilles d'un même classeur.",
