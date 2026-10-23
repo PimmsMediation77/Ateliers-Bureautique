@@ -7296,7 +7296,7 @@
       "moduleName": "Format de cellule",
       "moduleNameClean": "Format de cellule",
       "num": 5,
-      "title": "Exercice pour appliquer un format de cellule % à un ensemble de cellule",
+      "title": "Format de cellule %",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-5-format-de-cellule-excel.html",
       "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-005.xlsx",
@@ -7306,7 +7306,7 @@
       "imageResultat": "data/assets/excel/avance-02-format-de-cellule/excel-ex-005-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice pour appliquer un format de cellule % à un ensemble de cellule",
+      "description": "Appliquez le format Pourcentage à un ensemble de cellules.",
       "preamble": "",
       "instructions": [
         "Vous téléchargez le fichier de travail et appliquer le format % aux cellules bleues.",
