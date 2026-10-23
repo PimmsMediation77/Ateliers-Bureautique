@@ -6852,17 +6852,17 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Impression",
       "moduleNameClean": "Impression",
       "num": 5,
-      "title": "Entête & pied de page",
+      "title": "En-tête & pied de page",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/impression/exercice-5-impression-classeur-excel.html",
       "docxUrl": "data/assets/excel/bases-impression/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/bases-13-impression/excel-ex-005-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/excel/bases-13-impression/excel-ex-005-image-enonce.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Entête & pied de page",
+      "description": "Ajoutez un en-tête et un pied de page avec la date et l'heure.",
       "preamble": "",
       "instructions": [
         "Vous téléchargez le fichier de travail ici.",
@@ -6879,9 +6879,7 @@ window.EXCEL_ATELIER_DATA = {
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/excel/bases-13-impression/excel-ex-005-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/excel/bases-13-impression/excel-ex-005-image-enonce.jpg"
         ]
