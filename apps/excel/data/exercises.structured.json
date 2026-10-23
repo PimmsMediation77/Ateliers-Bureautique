@@ -7032,17 +7032,17 @@
       "moduleName": "Format de cellule",
       "moduleNameClean": "Format de cellule",
       "num": 1,
-      "title": "Exercice pour manipuler de façon simple les formats de cellules dans excel. Niveau facile",
+      "title": "Format de cellule",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-1.html",
       "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-image-enonce.jpg",
-      "imageResultat": null,
+      "imageResultat": "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-scrape-enonce-2.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice pour manipuler de façon simple les formats de cellules dans excel. Niveau facile",
+      "description": "Retrouvez les valeurs attendues uniquement en modifiant le format des cellules.",
       "preamble": "",
       "instructions": [
         "Consignes :.",
@@ -7061,11 +7061,10 @@
           "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-scrape-extra-1.jpg"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-scrape-enonce-1.jpg",
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-scrape-enonce-2.jpg"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-image-enonce.jpg"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-scrape-enonce-2.jpg"
         ]
       },
       "section": "avance",
