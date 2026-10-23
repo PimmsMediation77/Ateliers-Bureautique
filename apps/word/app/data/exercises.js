@@ -2347,8 +2347,8 @@ window.WORD_ATELIER_DATA = {
       "level": 1,
       "levelLabel": "🟢 Débutant ⭐",
       "docxUrl": "data/assets/word/m7-word-art-et-lettrine/word-ex-005.docx",
-      "imageEnonce": "data/assets/word/bases-07-word-art-et-lettrine/word-ex-005-image-enonce.jpg",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/word/bases-07-word-art-et-lettrine/word-ex-005-image-enonce.jpg",
       "description": "",
       "consignes": [],
       "instructions": [
@@ -2362,9 +2362,7 @@ window.WORD_ATELIER_DATA = {
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/word/bases-07-word-art-et-lettrine/word-ex-005-scrape-enonce-1.jpg"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/word/bases-07-word-art-et-lettrine/word-ex-005-image-enonce.jpg"
         ]
