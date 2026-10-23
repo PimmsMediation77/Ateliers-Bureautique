@@ -814,23 +814,26 @@
       "moduleName": "Saisir des données",
       "moduleNameClean": "Saisir des données",
       "num": 2,
-      "title": "Saisir des données dans Excel, construction d'un tabeau simple",
+      "title": "Saisir des données dans Excel, construction d'un tableau simple",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/saisir-des-donnees/exercice-2.html",
-      "docxUrl": "data/assets/excel/bases-saisir-des-donnees/excel-ex-002.xlsx",
+      "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
       "imageResultat": "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-002-image-resultat.jpg",
       "imageEnonceCaption": null,
       "imageResultatCaption": "",
-      "description": "Saisir des données dans Excel, construction d'un tabeau simple",
+      "description": "Saisissez ce tableau sans utiliser la souris, hormis pour les bordures et la fusion des cellules.",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Saisir des données dans Excel, construction d'un tabeau simple.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Nouveau classeur : ouvrez Excel et créez un classeur vierge.",
+        "Sans la souris : saisissez tout le tableau au clavier. La souris ne sert qu'aux bordures et à la fusion des cellules.",
+        "Touche Tab : elle valide la cellule et passe à la cellule de droite. Utilisez-la pour saisir une ligne (Janvier, Février, Mars, TRIMESTRE 1…).",
+        "Touche Entrée : elle valide la cellule et passe à la cellule du dessous. Utilisez-la pour saisir une colonne (BEZIERS, Bricolage, Bois et accessoires…). Après une série de Tab, Entrée revient au début de la ligne suivante.",
+        "Fusion de cellules : sélectionnez A1 à I1 puis Accueil > Fusionner et centrer pour centrer « Ventes du Semestre 1 ». Faites de même pour « Bricolage » (B18:C18), « Bois et Accessoires » (D18:E18) et « Jardinage » (F18:G18).",
+        "Bordures : sélectionnez les cellules de chaque tableau puis Accueil > Bordures > Toutes les bordures, comme sur le résultat attendu.",
+        "Largeur de colonne : élargissez la colonne A (double-clic sur le bord droit de son en-tête) pour que les libellés soient lisibles."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -849,10 +852,7 @@
       "section": "bases",
       "moduleSlug": "saisir-des-donnees",
       "consignes": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Saisir des données dans Excel, construction d'un tabeau simple.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Saisissez ce tableau sans utiliser la souris, hormis pour les bordures et la fusion des cellules."
       ],
       "criteria": [],
       "originalConsignes": [
