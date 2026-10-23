@@ -6976,7 +6976,7 @@
       "moduleName": "Impression",
       "moduleNameClean": "Impression",
       "num": 7,
-      "title": "Niveau de difficulté de l'exercice : 1",
+      "title": "Impression centrée sur une page",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/impression/exercice-7-impression-classeur-excel.html",
       "docxUrl": "data/assets/excel/bases-impression/excel-ex-007.xlsx",
@@ -6986,7 +6986,7 @@
       "imageResultat": "data/assets/excel/bases-13-impression/excel-ex-007-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Niveau de difficulté de l'exercice : 1",
+      "description": "Imprimez le tableau au milieu de la page, ajusté à une page et sans marge.",
       "preamble": "",
       "instructions": [
         "L'exercice est simple, vous devez imprimer le tableau au MILIEU de la page.",
