@@ -5276,7 +5276,7 @@
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-image-enonce.gif",
-      "imageResultat": null,
+      "imageResultat": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-scrape-enonce-2.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Pourcentage",
@@ -5299,11 +5299,10 @@
           "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-scrape-extra-1.jpg"
         ],
         "enonceImages": [
-          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-scrape-enonce-1.gif",
-          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-scrape-enonce-2.jpg"
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-image-enonce.gif"
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-scrape-enonce-2.jpg"
         ]
       },
       "section": "bases",
