@@ -9543,7 +9543,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-003-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Validation des données",
+      "description": "Créez des menus déroulants de désignation et de TVA, puis masquez les colonnes sources.",
       "preamble": "",
       "instructions": [
         "CONSIGNES :.",
