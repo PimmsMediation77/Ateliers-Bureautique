@@ -17722,7 +17722,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Révisions Opérations simples",
+      "description": "Révisez SOMME, les opérations de base et les pourcentages sur 10 feuilles.",
       "preamble": "",
       "instructions": [
         "la fonction SOMME.",
