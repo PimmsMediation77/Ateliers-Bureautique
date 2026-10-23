@@ -8475,8 +8475,8 @@
       "level": 3,
       "levelLabel": "🟠 Avancé ⭐⭐⭐",
       "docxUrl": "data/assets/word/m27-champs-et-formulaire/word-ex-003.docx",
-      "imageEnonce": "data/assets/word/avance-27-champs-et-formulaire/word-ex-003-image-enonce.webp",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/word/avance-27-champs-et-formulaire/word-ex-003-image-enonce.webp",
       "description": "Vous réalisez le questionnaire suivant avec l'outil d'insertion des contrôles de l'onglet developpeur, vous utilisez les bons contôles:",
       "consignes": [],
       "instructions": [
@@ -8498,9 +8498,7 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/word/avance-27-champs-et-formulaire/word-ex-003-scrape-enonce-1.webp"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/word/avance-27-champs-et-formulaire/word-ex-003-image-enonce.webp"
         ]
