@@ -1373,24 +1373,26 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Mise en forme",
       "moduleNameClean": "Mise en forme",
       "num": 1,
-      "title": "Format et embelissement",
+      "title": "Format et embellissement d'un tableau",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-embelissement/format-embelissement-1.html",
-      "docxUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-001.xlsx",
+      "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
       "imageResultat": "data/assets/excel/bases-04-mise-en-forme/excel-ex-001-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Format et embelissement",
+      "description": "Vous devez réaliser cette maquette de planning à l'identique : fusion, copier-coller, bordures obliques, double contour et couleurs.",
       "preamble": "Vous devez réaliser cette maquette de tableau à l'identique.",
       "instructions": [
-        "Fusionner quand c'est nécessaire (plusieurs cellules en une).",
-        "Copier-coller des cellules.",
-        "Insérer des bordures obliques.",
-        "Faire le tour du tableau de double ligne.",
-        "Dupliquer ces couleurs dans plusieurs cellules."
+        "Nouveau classeur : ouvrez Excel et créez un classeur vierge.",
+        "Saisie : saisissez les jours en C3:G3 et « Week-end » en H3, puis « Avant » en B4 et « Après » en B5. Copiez B4:B5 (Ctrl+C) et collez-les (Ctrl+V) jusqu'à la ligne 19. Saisissez enfin les heures en colonne A : 08:00 en A4, 09:00 en A6… jusqu'à 16:00 en A20, et « Fin » en B20.",
+        "Fusion de cellules : sélectionnez A4:A5 puis Accueil > Fusionner et centrer. Reproduisez cette fusion sur les autres heures avec le pinceau. Fusionnez de même H3:I3, chaque bloc Week-end de deux lignes (H4:I5, H6:I7…) et la zone « Fin » (B20:I21).",
+        "Bordures obliques : sélectionnez le bloc H4:I5 puis Ctrl+1 > Bordure, et cliquez sur la bordure oblique qui monte de gauche à droite. Reproduisez-la sur les autres blocs Week-end avec le pinceau.",
+        "Double contour : sélectionnez A3:I21 puis Ctrl+1 > Bordure. Choisissez le trait double et cliquez sur « Contour », puis un trait fin et cliquez sur « Intérieur ».",
+        "Couleurs : colorez une première paire de cellules (par exemple C4:C5 en jaune), puis dupliquez cette couleur avec le pinceau ou le copier-coller sur les autres cellules en diagonale (D6:D7, E8:E9…). Faites de même pour l'orange, le vert et le bleu, comme sur le résultat attendu.",
+        "Texte : mettez les jours, les heures, « Avant », « Après » et « Fin » en gras, puis centrez-les."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1407,13 +1409,18 @@ window.EXCEL_ATELIER_DATA = {
       "section": "bases",
       "moduleSlug": "mise-en-forme",
       "consignes": [
+        "Vous devez entre autres :",
         "Fusionner quand c'est nécessaire (plusieurs cellules en une).",
         "Copier-coller des cellules.",
         "Insérer des bordures obliques.",
         "Faire le tour du tableau de double ligne.",
         "Dupliquer ces couleurs dans plusieurs cellules."
       ],
-      "criteria": [],
+      "criteria": [
+        "Fusionner des cellules et reproduire une fusion avec le pinceau.",
+        "Appliquer des bordures obliques et un double contour.",
+        "Dupliquer une mise en forme (couleurs) au lieu de la refaire cellule par cellule."
+      ],
       "originalConsignes": [
         "fusionner quand c'est nécessaire (plusieurs cellules en une).",
         "Copier-coller des cellules.",
@@ -1437,25 +1444,27 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Mise en forme",
       "moduleNameClean": "Mise en forme",
       "num": 2,
-      "title": "Format et embelissement",
+      "title": "Bordures et fonds de cellules",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-embelissement/format-embelissement-2.html",
-      "docxUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-002.zip",
+      "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
       "imageResultat": "data/assets/excel/bases-04-mise-en-forme/excel-ex-002-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Format et embelissement",
+      "description": "Tableau à réaliser sous Excel : cet exercice vous fera travailler les bordures et les fonds de cellules (dégradés et hachures).",
       "preamble": "",
       "instructions": [
-        "Tableau ci-dessous à réaliser sous Excel, cet exercice vous fera travailler les bordures, les fonds de cellules.",
-        "Bordures intérieures pointillées.",
-        "Bordures extérieures pleines.",
-        "Fond de cellules en couleur dégradé.",
-        "Les cellules \"ballotage\" sont en couleur et hachurée.",
-        "Pour réaliser les fonds dégradés et les hachures, il vous faut accéder aux paramètres des polices (CTRL+MAJ+F) ou le lien en bas à droite du groupe \"police\"."
+        "Nouveau classeur : ouvrez Excel et créez un classeur vierge.",
+        "Saisie : saisissez les prénoms en B3:B30 et « Test 1 », « Test 2 », « Test 3 » en C2:E2. Saisissez « Non » en C3 et tirez la poignée de recopie (petit carré en bas à droite de la cellule) jusqu'à E30, puis remplacez par « Oui » ou « Ballotage » là où le modèle l'indique.",
+        "En-têtes : mettez C2, D2 et E2 en fond vert, bleu et rouge, avec la police blanche en gras et centrée.",
+        "Bordures : sélectionnez le tableau puis Ctrl+1 > Bordure. Choisissez le trait pointillé et cliquez sur « Intérieur », puis le trait plein et cliquez sur « Contour ».",
+        "Fond dégradé : sélectionnez une cellule « Oui » du Test 1, puis Ctrl+1 > Remplissage > Effets de remplissage. Choisissez deux couleurs (blanc et vert) et un style de dégradé. Faites de même en bleu pour le Test 2 et en rouge pour le Test 3.",
+        "Hachures : pour une cellule « Ballotage », Ctrl+1 > Remplissage : choisissez une couleur de fond, puis une couleur de motif et un style de motif hachuré.",
+        "Astuce : la fenêtre Format de cellule s'ouvre aussi avec Ctrl+Maj+F ou avec le petit lien en bas à droite du groupe « Police ».",
+        "Dupliquer : copiez chaque mise en forme sur les autres cellules « Oui » et « Ballotage » de la même colonne avec le pinceau (double-clic pour l'appliquer plusieurs fois, Échap pour arrêter)."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1476,10 +1485,14 @@ window.EXCEL_ATELIER_DATA = {
         "Bordures intérieures pointillées.",
         "Bordures extérieures pleines.",
         "Fond de cellules en couleur dégradé.",
-        "Les cellules \"ballotage\" sont en couleur et hachurée.",
-        "Pour réaliser les fonds dégradés et les hachures, il vous faut accéder aux paramètres des polices (CTRL+MAJ+F) ou le lien en bas à droite du groupe \"police\"."
+        "Les cellules « Ballotage » sont en couleur et hachurées.",
+        "Pour réaliser les fonds dégradés et les hachures, il vous faut accéder aux paramètres des polices (Ctrl+Maj+F) ou au lien en bas à droite du groupe « Police »."
       ],
-      "criteria": [],
+      "criteria": [
+        "Différencier les bordures intérieures et extérieures d'un tableau.",
+        "Appliquer un fond dégradé et un motif hachuré depuis Format de cellule.",
+        "Utiliser la poignée de recopie et le pinceau pour gagner du temps."
+      ],
       "originalConsignes": [
         "Tableau ci-dessous à réaliser sous Excel, cet exercice vous fera travailler les bordures, les fonds de cellules.",
         "Bordures intérieures pointillées.",
