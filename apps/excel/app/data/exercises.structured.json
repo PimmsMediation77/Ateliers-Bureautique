@@ -6796,7 +6796,7 @@
       "moduleName": "Impression",
       "moduleNameClean": "Impression",
       "num": 4,
-      "title": "Impression & reglage des marges et du zoom",
+      "title": "Impression & réglage des marges et du zoom",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/impression/exercice-4-impression-classeur-excel.html",
       "docxUrl": "data/assets/excel/bases-impression/excel-ex-004.xlsx",
@@ -6806,7 +6806,7 @@
       "imageResultat": "data/assets/excel/bases-13-impression/excel-ex-004-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Impression & reglage des marges et du zoom",
+      "description": "Réglez marges étroites et échelle à 70 % pour imprimer 8 tableaux sur une page.",
       "preamble": "",
       "instructions": [
         "Vous téléchargez le fichier de travail ici.",
