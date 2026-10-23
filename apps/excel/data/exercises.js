@@ -7350,7 +7350,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Format de cellule",
       "moduleNameClean": "Format de cellule",
       "num": 6,
-      "title": "Exercice pour aborder les formats de cellules \"spéciaux\" dans Excel",
+      "title": "Format de cellule \"spécial\"",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-6-format-de-cellule-excel.html",
       "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-006.xlsx",
@@ -7360,7 +7360,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-02-format-de-cellule/excel-ex-006-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice pour aborder les formats de cellules \"spéciaux\" dans Excel",
+      "description": "Appliquez les formats spéciaux : département, téléphone, dates courte et longue.",
       "preamble": "",
       "instructions": [
         "Numéro de département (numéro réel).",
