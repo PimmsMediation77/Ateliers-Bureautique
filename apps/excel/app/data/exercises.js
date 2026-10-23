@@ -1015,7 +1015,7 @@ window.EXCEL_ATELIER_DATA = {
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient un tableau de 17 personnes (Nom, Prénom, Date de Naissance, Code postal, Adresse, Ville).",
-        "Bouton Formulaire : il n'est pas affiché par défaut. Ajoutez-le à la barre d'accès rapide : Fichier > Options > Barre d'outils Accès rapide, choisissez « Toutes les commandes », sélectionnez « Formulaire... », cliquez sur « Ajouter » puis sur « OK ». Vous pouvez aussi l'ajouter au ruban (Fichier > Options > Personnaliser le ruban), comme dans le support de la rubrique.",
+        "Bouton Formulaire : il n'est pas affiché par défaut, ajoutez-le au ruban. Cliquez sur « Détails » pour voir la marche à suivre.",
         "Sélection : cliquez dans une cellule du tableau (par exemple A2) avant d'ouvrir le formulaire, sinon Excel ne sait pas quel tableau utiliser.",
         "Formulaire : cliquez sur le bouton Formulaire. Une fenêtre affiche une fiche par ligne du tableau, avec un champ par colonne.",
         "Nouvelle fiche : cliquez sur « Nouvelle », remplissez les champs (Tab pour passer au champ suivant) puis validez avec Entrée. La personne est ajoutée en ligne 18, par exemple SCHULTZ, Blake, 10/09/1981, 13290, LES MILLES.",
@@ -1043,6 +1043,9 @@ window.EXCEL_ATELIER_DATA = {
         "L'opération est relativement simple si vous avez bien fait apparaître le bouton FORMULAIRE, soit dans le ruban, soit dans la barre d'accès rapide. Si ce n'est pas le cas, il vous faut le faire.",
         "Vous ajoutez deux lignes via le formulaire. Pensez à sélectionner au minimum une cellule du tableau avant."
       ],
+      "stepHelp": {
+        "Bouton Formulaire": "excel-formulaire"
+      },
       "criteria": [
         "Afficher le bouton Formulaire dans la barre d'accès rapide ou dans le ruban.",
         "Ajouter des lignes à un tableau avec le formulaire de saisie, sans écrire directement dans les cellules."
@@ -17785,6 +17788,28 @@ window.EXCEL_ATELIER_DATA = {
   "totals": {
     "exercises": 236,
     "modules": 45
+  },
+  "helpTopics": {
+    "excel-formulaire": {
+      "title": "Afficher le bouton Formulaire",
+      "intro": "Créer un formulaire vous permettra de saisir facilement des données dans un tableau, typiquement pour la gestion d'un carnet d'adresses ou l'inventaire d'un stock de produits. Le bouton Formulaire n'est pas affiché par défaut : voici comment l'ajouter au ruban. Les numéros correspondent aux repères de l'image.",
+      "steps": [
+        "Accédez aux options Excel via le menu Fichier > Options.",
+        "Choisissez « Personnaliser le ruban ».",
+        "Dans le menu déroulant « Choisir les commandes dans les catégories suivantes », sélectionnez « Toutes les commandes ».",
+        "Sélectionnez « Formulaire... » dans la liste.",
+        "À droite, sélectionnez l'onglet Données (ou un autre onglet).",
+        "Cliquez sur « Nouveau groupe » (Excel n'ajoute une commande que dans un groupe personnalisé), puis sur « Ajouter >> » pour y placer « Formulaire... ».",
+        "« Renommer » vous permet de donner un nom au groupe et de lui associer une icône. Validez ensuite avec « OK »."
+      ],
+      "images": [
+        {
+          "src": "data/assets/excel/bases-02-saisir-des-donnees/excel-support-formulaire.webp",
+          "caption": "Fenêtre Options Excel > Personnaliser le ruban, avec les repères 1 à 7."
+        }
+      ],
+      "sourceUrl": "https://www.clic-formation.net/saisir-des-donnees/support-formulaire.html"
+    }
   },
   "schema": {
     "description": "Objectif court de l'exercice",
