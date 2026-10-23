@@ -1,7 +1,148 @@
 window.RELEASES_DATA = {
-  "version": "1.19.2",
-  "updatedAt": "2026-10-23T12:02:55.339Z",
+  "version": "1.20.0",
+  "updatedAt": "2026-10-23T13:16:31.273Z",
   "releases": [
+    {
+      "version": "1.20.0",
+      "tag": "word-v1.20.0",
+      "date": "2026-10-23",
+      "releaseType": "minor",
+      "impact": {
+        "level": "medium",
+        "rationale": "Nouvelles fonctionnalites ou changements techniques structurants."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "4ad1889"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "clarifier les étapes et critères des exercices de mise en forme 3 à 6",
+          "breaking": false,
+          "hash": "ad874bf"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "retirer les fichiers inadaptés et détailler les étapes des exercices de mise en forme",
+          "breaking": false,
+          "hash": "172b1db"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "corriger les fichiers et étapes des exercices insertion de cellules et sélection non contiguë",
+          "breaking": false,
+          "hash": "62b09bd"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "retirer les fichiers inadaptés et réécrire les étapes des exercices de sélection",
+          "breaking": false,
+          "hash": "0871cd6"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "relier l'étape bouton formulaire à sa fiche d'aide",
+          "breaking": false,
+          "hash": "477ef5d"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "ui",
+          "description": "ajouter les fiches d'aide « Détails » sur les étapes d'exercice",
+          "breaking": false,
+          "hash": "b80b46b"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "clarifier l'exercice formulaire de saisie et retirer l'annexe inadaptée",
+          "breaking": false,
+          "hash": "7420314"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "retirer le fichier inadapté et détailler les étapes de saisie et mise en couleur",
+          "breaking": false,
+          "hash": "2fb66e4"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "relier chaque série de saisie à son image avec des onglets",
+          "breaking": false,
+          "hash": "ad05de9"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "retirer le fichier inadapté et détailler les étapes de saisie du tableau simple",
+          "breaking": false,
+          "hash": "f8e4a04"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.39.0",
+          "breaking": false,
+          "hash": "7baa03f"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.62",
+          "breaking": false,
+          "hash": "98d8d37"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.12.2",
+          "breaking": false,
+          "hash": "9b640de"
+        }
+      ],
+      "counts": {
+        "feat": 1,
+        "fix": 9,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 14
+      }
+    },
     {
       "version": "1.19.2",
       "tag": "word-v1.19.2",

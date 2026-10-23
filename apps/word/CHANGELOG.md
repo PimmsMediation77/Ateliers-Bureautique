@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.20.0](///compare/word-v1.19.2...word-v1.20.0) (2026-10-23)
+
+
+### Features
+
+* **ui:** ajouter les fiches d'aide « Détails » sur les étapes d'exercice b80b46b
+
+
+### Bug Fixes
+
+* **excel:** clarifier l'exercice formulaire de saisie et retirer l'annexe inadaptée 7420314
+* **excel:** clarifier les étapes et critères des exercices de mise en forme 3 à 6 ad874bf
+* **excel:** corriger les fichiers et étapes des exercices insertion de cellules et sélection non contiguë 62b09bd
+* **excel:** relier chaque série de saisie à son image avec des onglets ad05de9
+* **excel:** relier l'étape bouton formulaire à sa fiche d'aide 477ef5d
+* **excel:** retirer le fichier inadapté et détailler les étapes de saisie du tableau simple f8e4a04
+* **excel:** retirer le fichier inadapté et détailler les étapes de saisie et mise en couleur 2fb66e4
+* **excel:** retirer les fichiers inadaptés et détailler les étapes des exercices de mise en forme 172b1db
+* **excel:** retirer les fichiers inadaptés et réécrire les étapes des exercices de sélection 0871cd6
+
 ### [1.19.2](///compare/word-v1.19.1...word-v1.19.2) (2026-10-23)
 
 
