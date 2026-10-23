@@ -17789,7 +17789,7 @@
       "imageResultat": "data/assets/excel/complets-17-calculs-heures-et-distances/excel-ex-001-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Calculs heures et distances",
+      "description": "Calculez temps de trajet, heure d'arrivée et consommation de carburant.",
       "preamble": "",
       "instructions": [
         "Calculer le temps de trajet ainsi que la consommation de carburant et de son prix, l'heure d'arrivée.",
