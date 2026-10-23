@@ -726,14 +726,13 @@
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
       "description": "Saisir des données dans Excel",
-      "preamble": "6 séries d'exercices de saisie dans votre tableur.",
+      "preamble": "5 séries d'exercices de saisie dans votre tableur. Ouvrez Excel et créez un classeur vierge, puis choisissez une série ci-dessous.",
       "instructions": [
-        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
-        "Saisissez les préfectures sans utiliser la souris, uniquement avec la touche Entrée.",
-        "Saisissez les départements sans utiliser la souris, uniquement avec la touche Tabulation.",
-        "Saisissez les symboles utiles dans Excel.",
-        "Saisissez les mois de l'année, puis supprimez un mois sur deux en une seule action grâce à la multisélection.",
-        "Incrémentez les jours de la semaine, puis supprimez Mardi et Jeudi en une seule action."
+        "Série 1 : saisissez cette série de préfectures en utilisant uniquement la touche Entrée pour changer de cellule (pas de souris).",
+        "Série 2 : saisissez cette série de départements en utilisant uniquement la touche Tabulation pour changer de cellule (pas de souris).",
+        "Série 3 : saisissez au moins une fois chaque signe qui vous sera utile dans Excel (un jour ou l'autre).",
+        "Série 4 : saisissez cette liste et supprimez un mois sur deux, soit un à un, soit d'un seul coup en faisant une sélection multiple (Ctrl+clic) sur les numéros de lignes. Pour cette manipulation, la touche « Suppr » du clavier sera inopérante.",
+        "Série 5 : incrémentez la liste des jours de la semaine, puis supprimez mardi et jeudi en une seule action."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -773,14 +772,74 @@
       "section": "bases",
       "moduleSlug": "saisir-des-donnees",
       "consignes": [
-        "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
-        "Saisissez les préfectures sans utiliser la souris, uniquement avec la touche Entrée.",
-        "Saisissez les départements sans utiliser la souris, uniquement avec la touche Tabulation.",
-        "Saisissez les symboles utiles dans Excel.",
-        "Saisissez les mois de l'année, puis supprimez un mois sur deux en une seule action grâce à la multisélection.",
-        "Incrémentez les jours de la semaine, puis supprimez Mardi et Jeudi en une seule action."
+        "Série 1 : saisissez cette série de préfectures en utilisant uniquement la touche Entrée pour changer de cellule (pas de souris).",
+        "Série 2 : saisissez cette série de départements en utilisant uniquement la touche Tabulation pour changer de cellule (pas de souris).",
+        "Série 3 : saisissez au moins une fois chaque signe qui vous sera utile dans Excel (un jour ou l'autre).",
+        "Série 4 : saisissez cette liste et supprimez un mois sur deux, soit un à un, soit d'un seul coup en faisant une sélection multiple (Ctrl+clic) sur les numéros de lignes. Pour cette manipulation, la touche « Suppr » du clavier sera inopérante.",
+        "Série 5 : incrémentez la liste des jours de la semaine, puis supprimez mardi et jeudi en une seule action."
       ],
       "criteria": [],
+      "exerciseTabs": [
+        {
+          "id": "serie-1",
+          "title": "Série 1",
+          "instructions": [
+            "Saisissez cette série de préfectures en utilisant uniquement la touche Entrée pour changer de cellule (pas de souris)."
+          ],
+          "resultImages": [
+            "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-001-scrape-resultat-1.gif"
+          ]
+        },
+        {
+          "id": "serie-2",
+          "title": "Série 2",
+          "instructions": [
+            "Saisissez cette série de départements en utilisant uniquement la touche Tabulation pour changer de cellule (pas de souris)."
+          ],
+          "resultImages": [
+            "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-001-scrape-resultat-2.gif"
+          ]
+        },
+        {
+          "id": "serie-3",
+          "title": "Série 3",
+          "instructions": [
+            "Saisissez au moins une fois chaque signe qui vous sera utile dans Excel (un jour ou l'autre)."
+          ],
+          "resultImages": [
+            "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-001-scrape-resultat-3.gif"
+          ]
+        },
+        {
+          "id": "serie-4",
+          "title": "Série 4",
+          "instructions": [
+            "Saisissez cette liste et supprimez un mois sur deux, soit un à un, soit d'un seul coup en faisant une sélection multiple (Ctrl+clic) sur les numéros de lignes.",
+            "Pour cette manipulation, la touche « Suppr » du clavier sera inopérante."
+          ],
+          "resultImages": [
+            "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-001-scrape-resultat-4.jpg"
+          ]
+        },
+        {
+          "id": "serie-5",
+          "title": "Série 5",
+          "instructions": [
+            "Incrémentez la liste des jours de la semaine.",
+            "Supprimez mardi et jeudi en une seule action."
+          ],
+          "resultImages": [
+            {
+              "src": "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-001-scrape-resultat-5.jpg",
+              "caption": "Incrémentez la liste des jours de la semaine."
+            },
+            {
+              "src": "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-001-scrape-resultat-6.jpg",
+              "caption": "Supprimez mardi et jeudi en une seule action."
+            }
+          ]
+        }
+      ],
       "originalConsignes": [
         "Saisissez les préfectures sans utiliser la souris, uniquement avec la touche Entrée.",
         "Saisissez les départements sans utiliser la souris, uniquement avec la touche Tabulation.",
