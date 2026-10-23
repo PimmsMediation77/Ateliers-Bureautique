@@ -10306,13 +10306,13 @@ window.WORD_ATELIER_DATA = {
       "pageUrl": "https://www.clic-formation.net/exercices-niveau-3/flyer-a5-a4.html",
       "level": 3,
       "levelLabel": "Intermédiaire",
-      "docxUrl": null,
+      "docxUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-009.docx",
       "imageEnonce": "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-009-image-enonce.jpg",
       "imageResultat": "data/assets/word/complets-31-niveau-3-intermediaire/word-ex-009-image-resultat.jpg",
       "description": "Composez le flyer avec un tableau, des colonnes et des formes.",
       "consignes": [],
       "instructions": [
-        "Ouvrez Word depuis le menu Démarrer ou la barre de recherche Windows : tapez \"Word\", cliquez sur l'application Microsoft Word, puis choisissez \"Document vierge\" pour commencer.",
+        "Fichiers : téléchargez le fichier de travail et les visuels, puis décompressez les images.",
         "Composition : en partant du haut, insérez une image, un WordArt, une zone de texte, 2 images et 5 formes.",
         "Format A5 : réalisez d'abord le flyer au format A5.",
         "Format A4 paysage : passez ensuite le document en A4 paysage et mettez-le en 2 colonnes.",
@@ -10341,7 +10341,9 @@ window.WORD_ATELIER_DATA = {
         "Saut de section et mis en colonne pour le texte central.",
         "Insertion de zones de texte avec bords arrondis et fond gris (copier-coller indispensable pour dupliquer les zones).",
         "Insertion de forme (flèche)."
-      ]
+      ],
+      "downloadUrl": "data/assets/word/m31-niveau-3-intermediaire/word-ex-009-annexe-1.zip",
+      "downloadLabel": "Télécharger les visuels"
     },
     {
       "id": "ex-206",
