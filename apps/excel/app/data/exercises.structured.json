@@ -16970,7 +16970,7 @@
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Cas Calendrier perpétuel (ou presque)",
+      "description": "Créez un calendrier perpétuel avec JOURSEM, NO.SEMAINE et une mise en forme conditionnelle.",
       "preamble": "Cet exercice met en place un calendrier perpétuel (ou presque) avec JOURSEM, NO.SEMAINE, SI, les formats de cellule et la mise en forme conditionnelle. Éventuellement CHOISIR et JOURSEM pour faire plus fort.",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient le planning à compléter (matin, après-midi, début, fin).",
