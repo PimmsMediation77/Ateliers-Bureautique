@@ -7812,7 +7812,7 @@
       "moduleName": "Référence absolue",
       "moduleNameClean": "Référence absolue",
       "num": 6,
-      "title": "Table de multiplication complète en deux tours de valeur absolue",
+      "title": "Valeur absolue - Table de multiplication",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-6-valeur-absolue.html",
       "docxUrl": null,
@@ -7822,7 +7822,7 @@
       "imageResultat": "data/assets/excel/avance-03-reference-absolue/excel-ex-006-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Table de multiplication complète en deux tours de valeur absolue",
+      "description": "Remplissez toute une table de multiplication en bloquant la ligne ou la colonne.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
