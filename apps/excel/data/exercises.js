@@ -14404,7 +14404,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "UL11 Word",
       "moduleNameClean": "UL11 Word",
       "num": 5,
-      "title": "Novatix",
+      "title": "Cas Novatix",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul11-word/cas-novatix.html",
       "docxUrl": null,
@@ -14414,7 +14414,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Novatix",
+      "description": "Sujet ASCA en 1 heure : gérez la diffusion de chèques pour les entreprises adhérentes du groupe Novatix.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
