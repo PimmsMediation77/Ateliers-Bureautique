@@ -16680,7 +16680,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/complets-02-cas-creation-planning-conges/excel-ex-001-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Cas Création planning congés",
+      "description": "Créez un planning mensuel des congés à partir du mois et de l'année saisis.",
       "preamble": "",
       "instructions": [
         "Créer le calendrier mensuel en fonction du mois et de l'année saisis.",
