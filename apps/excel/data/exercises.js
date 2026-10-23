@@ -7522,7 +7522,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Référence absolue",
       "moduleNameClean": "Référence absolue",
       "num": 1,
-      "title": "Exercice simple: comment mettre en place une valeur absolue dans une colonne - Série 1",
+      "title": "Référence absolue - Série 1",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-1-reference-absolue.html",
       "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-001.xlsx",
@@ -7532,7 +7532,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-03-reference-absolue/excel-ex-001-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice simple: comment mettre en place une valeur absolue dans une colonne - Série 1",
+      "description": "Calculez la rémunération des guides en bloquant le tarif journalier avec $.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient la rémunération des guides : tarif journalier, nombre de jours par guide.",
