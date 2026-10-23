@@ -12280,17 +12280,17 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Consolidation",
       "moduleNameClean": "Consolidation",
       "num": 2,
-      "title": "Exercice 2",
+      "title": "La consolidation dans Excel",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-2.html",
       "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-002-image-enonce.gif",
-      "imageResultat": null,
+      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-002-scrape-enonce-2.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 2",
+      "description": "Consolidez les trois premières feuilles du classeur dans une nouvelle feuille.",
       "preamble": "",
       "instructions": [
         "Dans une feuille supplémentaire, vous insérez un tableau qui va faire la \"consolidation\" des trois premières feuilles du classeur.",
@@ -12307,11 +12307,10 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/avance-11-consolidation/excel-ex-002-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-002-scrape-enonce-1.gif",
-          "data/assets/excel/avance-11-consolidation/excel-ex-002-scrape-enonce-2.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-002-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-002-image-enonce.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-002-scrape-enonce-2.gif"
         ]
       },
       "section": "avance",
