@@ -12648,17 +12648,17 @@
       "moduleName": "Consolidation",
       "moduleNameClean": "Consolidation",
       "num": 8,
-      "title": "Exercice 8",
+      "title": "La consolidation dans Excel",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-8.html",
       "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-008-image-enonce.gif",
-      "imageResultat": null,
+      "imageEnonce": null,
+      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-008-image-enonce.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 8",
+      "description": "Consolidez les tableaux de production alimentaire de trois feuilles.",
       "preamble": "",
       "instructions": [
         "Dans les trois feuilles du fichier ci-contre sont ventilés des tableaux de production alimentaire.",
@@ -12674,9 +12674,7 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [],
-        "enonceImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-008-scrape-enonce-1.gif"
-        ],
+        "enonceImages": [],
         "resultImages": [
           "data/assets/excel/avance-11-consolidation/excel-ex-008-image-enonce.gif"
         ]
