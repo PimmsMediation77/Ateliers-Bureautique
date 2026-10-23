@@ -3532,7 +3532,7 @@ window.EXCEL_ATELIER_DATA = {
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-image-enonce.webp",
-      "imageResultat": null,
+      "imageResultat": "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-scrape-enonce-2.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Addition",
@@ -3555,11 +3555,10 @@ window.EXCEL_ATELIER_DATA = {
           "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-scrape-extra-1.webp"
         ],
         "enonceImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-scrape-enonce-1.webp",
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-scrape-enonce-2.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-image-enonce.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-scrape-enonce-2.webp"
         ]
       },
       "section": "bases",
