@@ -3046,7 +3046,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-010-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Faire un planning rapidement",
+      "description": "Reproduisez un planning le plus vite possible avec la poignée de recopie.",
       "preamble": "",
       "instructions": [
         "En utilisant au mieux la poignée de recopie, vous devez reproduire au plus vite le résultat attendu.",
