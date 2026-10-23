@@ -17208,7 +17208,7 @@
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Cas diagramme de GANTT Simple",
+      "description": "Construisez un diagramme de Gantt simple à partir d'un tableau de référence.",
       "preamble": "",
       "instructions": [
         "Créez un tableau de référence contenant les colonnes Étape du projet, Date de début, Durée en jour et Date de fin.",
