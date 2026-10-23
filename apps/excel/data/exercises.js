@@ -10674,7 +10674,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-003-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": ": Nommer une cellule ou une plage de cellules",
+      "description": "Nommez des cellules et des plages, puis utilisez-les dans les calculs de TVA.",
       "preamble": "",
       "instructions": [
         "Montant_TVA : colonne C (uniquement les valeurs).",
