@@ -7408,7 +7408,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Format de cellule",
       "moduleNameClean": "Format de cellule",
       "num": 7,
-      "title": "Exercice complet pour la mise en place de nombreux formats DATE personnalisés",
+      "title": "Formats DATE personnalisés",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-7-format-de-cellule-excel.html",
       "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-007.xlsx",
@@ -7418,7 +7418,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-02-format-de-cellule/excel-ex-007-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice complet pour la mise en place de nombreux formats DATE personnalisés",
+      "description": "Affichez des dates sous de nombreuses formes avec des formats personnalisés.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient des dates et le format à obtenir pour chacune.",
