@@ -509,7 +509,7 @@
       "imageResultat": null,
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Gérer les feuilles dans excel",
+      "description": "Renommez, colorez, ajoutez et déplacez les feuilles d'un classeur.",
       "preamble": "Par défaut, Excel vous propose 3 feuilles par classeur, l'exercice suivant vous les fait manipuler. Reproduisez les trois étapes dans votre tableur.",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
