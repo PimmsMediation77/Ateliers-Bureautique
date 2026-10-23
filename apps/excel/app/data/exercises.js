@@ -10104,7 +10104,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Lier des feuilles",
       "moduleNameClean": "Lier des feuilles",
       "num": 2,
-      "title": "Exercice 2",
+      "title": "Lier des feuilles de calculs",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-2.html",
       "docxUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-002.xlsx",
@@ -10114,7 +10114,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-002-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice 2",
+      "description": "Remplissez deux tableaux récapitulatifs en collant avec liaison les valeurs des autres feuilles.",
       "preamble": "",
       "instructions": [
         "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Il contient une feuille Enonce et les feuilles Paris, Dijon et Lyon.",
