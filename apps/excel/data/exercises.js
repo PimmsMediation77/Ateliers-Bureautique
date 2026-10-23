@@ -9478,7 +9478,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-002-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Validation des données",
+      "description": "Créez une liste déroulante alimentée par une autre feuille, avec un message d'erreur.",
       "preamble": "",
       "instructions": [
         "Vou s pouvez télécharger le fichier de travail ici.",
