@@ -7586,7 +7586,7 @@
       "moduleName": "Référence absolue",
       "moduleNameClean": "Référence absolue",
       "num": 2,
-      "title": "Exercice simple: comment mettre en place une valeur absolue dans une colonne - Série 2",
+      "title": "Référence absolue - Série 2",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-2-reference-absolue.html",
       "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-002.xlsx",
@@ -7596,7 +7596,7 @@
       "imageResultat": "data/assets/excel/avance-03-reference-absolue/excel-ex-002-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Exercice simple: comment mettre en place une valeur absolue dans une colonne - Série 2",
+      "description": "Calculez le prix port compris de chaque livre avec une référence absolue.",
       "preamble": "",
       "instructions": [
         "En C6 Saisir la formule pour calculer le prix port compris du premier livre.",
