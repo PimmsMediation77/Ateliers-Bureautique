@@ -14074,7 +14074,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "UL11 Word",
       "moduleNameClean": "UL11 Word",
       "num": 1,
-      "title": "Wi-Tool",
+      "title": "Cas Wi-Tool",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul11-word/wi-tool.html",
       "docxUrl": "data/assets/excel/asca-ul11-word/excel-ex-001.docx",
@@ -14084,7 +14084,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Wi-Tool",
+      "description": "Sujet ASCA en 1 heure : mettez en page l'offre et les tarifs de référencement de sites de la société Wi-Tool.",
       "preamble": "",
       "instructions": [
         "Vous pouvez télécharger au format PDF, l'original du sujet ASCA pour l'imprimer. L'exercice est à faire en 1 heure. Condition complète ici.",
