@@ -13758,7 +13758,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-14-activex/excel-ex-001-image-resultat.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "ActiveX : Zone de texte",
+      "description": "Créez une recherche qui filtre en temps réel avec une zone de texte ActiveX.",
       "preamble": "",
       "instructions": [
         "CONSIGNES :.",
