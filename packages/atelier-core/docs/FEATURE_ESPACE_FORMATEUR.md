@@ -53,7 +53,7 @@ Documents lies :
 
 ### Exclus (hors scope V1)
 
-- CMS d'edition du catalogue d'exercices ;
+- CMS d'edition du catalogue d'exercices (traite a part : [Admin catalogue](./FEATURE_ADMIN_CATALOGUE.md)) ;
 - planning / reservation d'ateliers ;
 - scan ou aggregation de dossiers `ProgressionAtelier` locaux ;
 - fusion automatique fine local ↔ serveur ;
