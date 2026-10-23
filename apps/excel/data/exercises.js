@@ -13246,7 +13246,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": null,
       "imageEnonceCaption": null,
       "imageResultatCaption": null,
-      "description": "Case à cocher",
+      "description": "Créez un tableau de cases à cocher liées à des cellules et comptez les cases cochées avec SI et SOMME.",
       "preamble": "",
       "instructions": [
         "CONSIGNES :.",
