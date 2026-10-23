@@ -1250,23 +1250,26 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Sélection",
       "moduleNameClean": "Sélection",
       "num": 4,
-      "title": "Sélection, suppression etinsertion de celulles dans excel",
+      "title": "Sélection, suppression et insertion de cellules dans Excel",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/selectionner-la-celulle/exercice-4.html",
       "docxUrl": "data/assets/excel/bases-selection/excel-ex-004.xlsx",
-      "downloadUrl": "data/assets/excel/bases-selection/excel-ex-004-annexe-1.xlsx",
-      "downloadLabel": "Télécharger le fichier annexe",
+      "downloadUrl": null,
+      "downloadLabel": "",
       "imageEnonce": null,
       "imageResultat": "data/assets/excel/bases-03-selection/excel-ex-004-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Sélection, suppression etinsertion de celulles dans excel",
+      "description": "Manipulez le fichier de travail (insertion et suppression de lignes et de cellules) afin d'obtenir le résultat attendu.",
       "preamble": "",
       "instructions": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Sélection, suppression etinsertion de celulles dans excel.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Fichier de travail : téléchargez le fichier de travail et ouvrez-le dans Excel. Comparez-le avec le résultat attendu : il manque des lignes, deux colonnes TRIMESTRE et il y a des lignes vides en trop.",
+        "Annuler les fusions : sélectionnez la ligne BEZIERS (A4:G4) puis Accueil > Fusionner et centrer > Annuler Fusionner. Faites de même pour la ligne PEZENAS (A7:G7). Sans cela, Excel refuse d'insérer des cellules.",
+        "Insérer des lignes : sélectionnez les lignes 6 et 7 (cliquez sur le numéro 6 et faites glisser jusqu'à 7), puis clic droit > Insérer. Deux lignes vides apparaissent sous « Bricolage » : saisissez « Bois et accessoires » et « Jardinage ».",
+        "Lignes PEZENAS : faites de même sous le « Bricolage » de PEZENAS (sélectionnez les lignes 11 et 12, clic droit > Insérer), puis saisissez « Bois et accessoires » et « Jardinage ».",
+        "Insérer des cellules : sélectionnez E3:E14, puis clic droit > Insérer > Décaler les cellules vers la droite. Saisissez « TRIMESTRE 1 » en E3 et « TRIMESTRE 2 » en I3. N'insérez pas une colonne entière : cela décalerait aussi le tableau du bas.",
+        "Supprimer des lignes : dans le tableau du bas, sélectionnez les deux lignes vides entre « Bricolage / Bois et Accessoires / Jardinage » et « TRIMESTRE 1 » (lignes 19 et 20), puis clic droit > Supprimer.",
+        "Vérification : comparez votre feuille avec le résultat attendu (ajustez si besoin la fusion du titre et les bordures), puis enregistrez le fichier."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1283,12 +1286,13 @@ window.EXCEL_ATELIER_DATA = {
       "section": "bases",
       "moduleSlug": "selection",
       "consignes": [
-        "Construisez la structure principale du classeur a partir de cet objectif: Sélection, suppression etinsertion de celulles dans excel.",
-        "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
-        "Comparez votre feuille avec l'image de resultat attendu puis corrigez les ecarts.",
-        "Enregistrez votre travail puis marquez l'exercice comme termine."
+        "Après avoir téléchargé le fichier de travail, vous le manipulez (insertion et suppression de colonnes et de lignes) afin d'obtenir le résultat ci-dessous."
       ],
-      "criteria": [],
+      "criteria": [
+        "Insérer et supprimer des lignes entières.",
+        "Insérer des cellules en décalant vers la droite, sans modifier le reste de la feuille.",
+        "Annuler une fusion de cellules avant de modifier la structure d'un tableau."
+      ],
       "originalConsignes": [
         "Construisez la structure principale du classeur a partir de cet objectif: Sélection, suppression etinsertion de celulles dans excel.",
         "Appliquez les outils Excel utiles (saisie, formules, mise en forme, donnees ou insertion) pour obtenir le rendu attendu.",
@@ -1310,21 +1314,25 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "Sélection",
       "moduleNameClean": "Sélection",
       "num": 5,
-      "title": "Sélectionner des cellules non-contigües dans excel",
+      "title": "Sélectionner des cellules non contiguës dans Excel",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/selectionner-la-celulle/exercice-5.html",
-      "docxUrl": "data/assets/excel/bases-selection/excel-ex-005.zip",
+      "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
       "imageResultat": "data/assets/excel/bases-03-selection/excel-ex-005-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Sélectionner des cellules non-contigües dans excel",
+      "description": "Un type de sélection à bien maîtriser dans Excel (et dans d'autres logiciels) : la sélection de cellules non contiguës.",
       "preamble": "",
       "instructions": [
-        "Un type de sélection à bien maîtriser dans Excel (et dans d'autres manipulations informatiques) la sélection de cellules non contiguë.",
-        "Dans un classeur Excel, vous reproduisez la situation ci-dessous, à savoir la sélection des cellules grisées A1, C1, A3…À noter que les cellules blanches ne sont pas sélectionnées."
+        "Nouveau classeur : ouvrez Excel et créez un classeur vierge.",
+        "Première cellule : cliquez sur A1.",
+        "Sélection non contiguë : maintenez la touche Ctrl enfoncée et cliquez une à une sur les cellules grisées du résultat attendu (C1, B2, D2, A3, C3, B4, D4…) jusqu'à D8. Les cellules blanches ne sont pas sélectionnées.",
+        "Cellule active : la dernière cellule cliquée (D8) reste blanche avec un contour vert. Elle fait pourtant partie de la sélection.",
+        "Attention : si vous cliquez sans maintenir Ctrl, la sélection précédente est perdue. Recommencez alors depuis A1.",
+        "Vérification : pour contrôler votre sélection, appliquez une couleur de remplissage (Accueil > Couleur de remplissage) : seules les cellules sélectionnées se colorent."
       ],
       "levelLabel": "Debutant",
       "scrape": {
@@ -1341,10 +1349,13 @@ window.EXCEL_ATELIER_DATA = {
       "section": "bases",
       "moduleSlug": "selection",
       "consignes": [
-        "Un type de sélection à bien maîtriser dans Excel (et dans d'autres manipulations informatiques) la sélection de cellules non contiguë.",
-        "Dans un classeur Excel, vous reproduisez la situation ci-dessous, à savoir la sélection des cellules grisées A1, C1, A3…À noter que les cellules blanches ne sont pas sélectionnées."
+        "Un type de sélection à bien maîtriser dans Excel (et dans d'autres manipulations informatiques) : la sélection de cellules non contiguës.",
+        "Dans un classeur Excel, vous reproduisez la situation ci-dessous, à savoir la sélection des cellules grisées A1, C1, A3… À noter que les cellules blanches ne sont pas sélectionnées."
       ],
-      "criteria": [],
+      "criteria": [
+        "Sélectionner des cellules non contiguës avec Ctrl+clic.",
+        "Reconnaître la cellule active dans une sélection multiple."
+      ],
       "originalConsignes": [
         "Un type de sélection à bien maîtriser dans Excel (et dans d'autres manipulations informatiques) la sélection de cellules non contiguë.",
         "Dans un classeur Excel, vous reproduisez la situation ci-dessous, à savoir la sélection des cellules grisées A1, C1, A3…À noter que les cellules blanches ne sont pas sélectionnées."
