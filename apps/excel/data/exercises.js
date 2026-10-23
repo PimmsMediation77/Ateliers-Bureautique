@@ -10356,7 +10356,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-006-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Transposer un tableau",
+      "description": "Transposez un tableau avec le collage spécial.",
       "preamble": "",
       "instructions": [
         "Sélection du tableau.",
