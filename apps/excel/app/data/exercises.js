@@ -16505,7 +16505,7 @@ window.EXCEL_ATELIER_DATA = {
       "moduleName": "UL21 Excel",
       "moduleNameClean": "UL21 Excel",
       "num": 13,
-      "title": "Ress Marketing",
+      "title": "Cas Ress Marketing",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul21-excel/cas-ress-marketing.html",
       "docxUrl": null,
@@ -16515,7 +16515,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-013-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Ress Marketing",
+      "description": "Sujet ASCA en 1 heure : exploitez un sondage sur la présence des sportifs dans les médias.",
       "preamble": "",
       "instructions": [
         "Ouvrez Microsoft Excel : cliquez sur le bouton Demarrer, recherchez \"Excel\", puis ouvrez l'application. Ensuite, cliquez sur \"Classeur vierge\" pour creer un nouveau classeur, puis enregistrez-le avant de commencer.",
