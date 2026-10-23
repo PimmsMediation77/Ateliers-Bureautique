@@ -10294,7 +10294,7 @@
       "imageResultat": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-005-image-resultat.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Lier des feuilles de calculs",
+      "description": "Alimentez automatiquement les feuilles adresse, mail et téléphone depuis la feuille carnet.",
       "preamble": "",
       "instructions": [
         "Vous alimentez dynamiquement les feuilles \"adresse\".",
