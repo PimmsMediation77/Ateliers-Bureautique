@@ -2910,7 +2910,7 @@ window.EXCEL_ATELIER_DATA = {
       "imageResultat": "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-008-image-resultat.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
-      "description": "Liste personnalisable",
+      "description": "Créez une liste personnalisée et utilisez-la avec la poignée de recopie.",
       "preamble": "",
       "instructions": [
         "Utilisez la poignée de recopie et la création de listes personnalisées.",
