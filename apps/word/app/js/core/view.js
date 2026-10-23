@@ -10,6 +10,13 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
+// Typographie française : espace insécable avant « : » et espace après.
+// Seuls les « : » suivis d'un espace (ou en fin de texte) sont concernés,
+// pour ne pas toucher aux URL, heures (15:30) ni plages Excel (A1:B5).
+function frenchColons(value) {
+  return String(value || "").replace(/[ \u00a0\u202f]*:(?=\s|$)/g, "\u00a0:");
+}
+
 function shortDate(isoDay) {
   const parts = String(isoDay || "").split("-");
   if (parts.length !== 3) return "";
@@ -178,7 +185,7 @@ class AtelierView {
   renderHome(vm) {
     this.homeProgressText.textContent = `${vm.completed} / ${vm.total} exercices terminés (${vm.percent}%)`;
     this.homeProgressBar.style.width = `${vm.percent}%`;
-    this.homeLevel.textContent = `Palier actuel: ${vm.level}`;
+    this.homeLevel.textContent = `Palier actuel : ${vm.level}`;
     if (this.homeStartBtn) this.homeStartBtn.textContent = vm.startLabel || "Commencer maintenant";
     if (this.homeQuickTheme) this.homeQuickTheme.textContent = vm.startTheme || "À définir";
     if (this.homeQuickExercise) this.homeQuickExercise.textContent = vm.startExercise || "Choisissez un exercice";
@@ -192,7 +199,7 @@ class AtelierView {
     } else {
       this.homeLastExercise.innerHTML = `
         <p class="last-title">Exercice ${vm.lastExercise.num} - ${escapeHtml(vm.lastExercise.title)}</p>
-        <p class="last-meta">Thème: ${escapeHtml(vm.lastExercise.moduleName)}</p>
+        <p class="last-meta">Thème : ${escapeHtml(vm.lastExercise.moduleName)}</p>
         <p class="last-meta">${escapeHtml(vm.lastDoneText)}</p>
       `;
     }
@@ -294,7 +301,7 @@ class AtelierView {
     if (this.exerciseOpenWorkFileBtn) this.exerciseOpenWorkFileBtn.style.display = "none";
     if (this.exercisePickWorkFileBtn) this.exercisePickWorkFileBtn.style.display = "none";
 
-    this.exerciseTitle.textContent = `Exercice ${vm.exercise.num} - ${vm.exercise.title}`;
+    this.exerciseTitle.textContent = frenchColons(`Exercice ${vm.exercise.num} - ${vm.exercise.title}`);
     this.exerciseThemeLine.textContent = vm.exercise.moduleName;
 
     // Fil d'ariane
@@ -323,7 +330,7 @@ class AtelierView {
       this.exercisePreambleWrap.style.display = preamble ? "" : "none";
     }
     if (this.exerciseStepsPreamble) {
-      this.exerciseStepsPreamble.textContent = preamble;
+      this.exerciseStepsPreamble.textContent = frenchColons(preamble);
       this.exerciseStepsPreamble.style.display = preamble ? "" : "none";
     }
 
@@ -337,7 +344,7 @@ class AtelierView {
 
     if (this.exerciseDescription) {
       const description = this.#getExerciseDescription(vm.exercise, effectiveSteps);
-      this.exerciseDescription.textContent = description;
+      this.exerciseDescription.textContent = frenchColons(description);
       this.exerciseDescription.style.display = description ? "" : "none";
     }
 
@@ -349,7 +356,7 @@ class AtelierView {
 
     if (this.exerciseCriteria) {
       const criteria = Array.isArray(vm.exercise.criteria) ? vm.exercise.criteria.filter(Boolean) : [];
-      this.exerciseCriteria.innerHTML = criteria.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+      this.exerciseCriteria.innerHTML = criteria.map((item) => `<li>${escapeHtml(frenchColons(item))}</li>`).join("");
       if (this.exerciseCriteriaWrap) {
         this.exerciseCriteriaWrap.style.display = criteria.length ? "" : "none";
       }
@@ -391,8 +398,8 @@ class AtelierView {
     const filesCard = document.getElementById("exercise-files-card");
     if (filesCard) filesCard.style.display = hasFiles ? "" : "none";
 
-    this.exerciseEnonceCaption.textContent = vm.exercise.imageEnonceCaption || "Énoncé";
-    this.exerciseResultCaption.textContent = vm.exercise.imageResultatCaption || "Résultat attendu";
+    this.exerciseEnonceCaption.textContent = frenchColons(vm.exercise.imageEnonceCaption || "Énoncé");
+    this.exerciseResultCaption.textContent = frenchColons(vm.exercise.imageResultatCaption || "Résultat attendu");
 
     this.#renderImageGroup(
       this.exerciseEnonceImages,
@@ -421,7 +428,7 @@ class AtelierView {
 
   #formatStep(step) {
     const text = String(step || "").trim();
-    const formatMultiline = (value) => escapeHtml(value).replace(/\n/g, "<br>");
+    const formatMultiline = (value) => escapeHtml(frenchColons(value)).replace(/\n/g, "<br>");
     const colonIndex = text.indexOf(":");
     if (colonIndex <= 0) return formatMultiline(text);
 
@@ -444,8 +451,8 @@ class AtelierView {
       if (!rest) return formatMultiline(text);
       return `${formatMultiline(`${label} :`)}<br>${formatMultiline(rest)}`;
     }
-    if (!rest) return `<strong>${escapeHtml(label)}:</strong>`;
-    return `<strong>${escapeHtml(label)}:</strong> ${formatMultiline(rest)}`;
+    if (!rest) return `<strong>${escapeHtml(label)}&nbsp;:</strong>`;
+    return `<strong>${escapeHtml(label)}&nbsp;:</strong> ${formatMultiline(rest)}`;
   }
 
   #formatStepForExercise(exercise, step) {
@@ -465,7 +472,7 @@ class AtelierView {
 
   #formatStepPlain(step) {
     const text = String(step || "").trim();
-    return escapeHtml(text).replace(/\n/g, "<br>");
+    return escapeHtml(frenchColons(text)).replace(/\n/g, "<br>");
   }
 
   #isParagraphOnlyExercise(exercise, steps) {
@@ -613,7 +620,7 @@ class AtelierView {
         role="tab"
         aria-selected="${index === this.activeExerciseTabIndex ? "true" : "false"}"
         tabindex="${index === this.activeExerciseTabIndex ? "0" : "-1"}"
-      >${escapeHtml(tab.title)}</button>
+      >${escapeHtml(frenchColons(tab.title))}</button>
     `).join("");
     this.exerciseStepsTabs.innerHTML = `
       <div class="exercise-tab-list" role="tablist" aria-label="Variantes de l'exercice">${tabButtons}</div>
@@ -808,7 +815,7 @@ class AtelierView {
     if (safeReport.lastFeedback) {
       items.push(`
         <li>
-          <strong>Dernier retour:</strong> ${escapeHtml(safeReport.lastFeedback.exerciseLabel)}
+          <strong>Dernier retour :</strong> ${escapeHtml(safeReport.lastFeedback.exerciseLabel)}
           (${escapeHtml(shortDateTime(safeReport.lastFeedback.submittedAt))}) -
           difficulte ${escapeHtml(safeReport.lastFeedback.difficultyLabel)},
           clarte ${escapeHtml(safeReport.lastFeedback.clarityLabel)},
@@ -985,7 +992,7 @@ class AtelierView {
     }
 
     this.exerciseWorkFileStatus.textContent = fileName
-      ? `Fichier attendu: ${fileName}`
+      ? `Fichier attendu : ${fileName}`
       : "";
   }
 

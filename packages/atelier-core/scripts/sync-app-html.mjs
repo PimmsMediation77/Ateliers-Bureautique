@@ -198,7 +198,7 @@ function renderProgressProfile() {
     <section id="page-profile" class="page" aria-labelledby="profile-title">
       <article class="card">
         <h2 id="profile-title">Profil utilisateur</h2>
-        <p class="muted">Sauvegarde automatique dans le dossier utilisateur: <code>Dossier utilisateur &gt; ProgressionAtelier</code>.</p>
+        <p class="muted">Sauvegarde automatique dans le dossier utilisateur : <code>Dossier utilisateur &gt; ProgressionAtelier</code>.</p>
         <p id="progress-user-path" class="muted status-line">Aucun utilisateur sélectionné.</p>
         <div class="progress-actions">
           <button id="progress-change-user-btn" class="btn btn-soft has-icon" data-icon="&#128100;">Changer d'utilisateur</button>
@@ -211,7 +211,7 @@ function renderProgressProfile() {
       <article class="card">
         <h2>Conseils</h2>
         <ul class="profile-tips">
-          <li>Utilisez un dossier utilisateur dédié par usager (ex: AD) pour éviter tout mélange de progression.</li>
+          <li>Utilisez un dossier utilisateur dédié par usager (ex. : AD) pour éviter tout mélange de progression.</li>
           <li>Le changement d'utilisateur ouvre ce dossier puis recharge automatiquement la progression associée.</li>
           <li>Réinitialiser progression efface uniquement l'avancement des exercices du profil actif.</li>
           <li>Réinitialiser profil local oublie le prénom et le dossier de référence sur cet appareil.</li>
@@ -245,7 +245,7 @@ function renderUserSetupModal() {
         <button id="user-setup-pick-root-btn" class="btn btn-soft has-icon" data-icon="&#128193;" type="button" style="display:none;">Ajouter un dossier de travail</button>
 
         <label for="user-setup-firstname-input" class="field" style="margin-bottom:0;">Votre prénom</label>
-        <input id="user-setup-firstname-input" type="text" maxlength="30" placeholder="Ex: Alice" style="border:2px solid var(--line);border-radius:10px;padding:10px;font:inherit;">
+        <input id="user-setup-firstname-input" type="text" maxlength="30" placeholder="Ex. : Alice" style="border:2px solid var(--line);border-radius:10px;padding:10px;font:inherit;">
       </div>
 
       <div style="margin-top:16px;display:flex;justify-content:flex-end;gap:8px;">

@@ -76,7 +76,7 @@ function createAtelierProfileRuntime(config = {}) {
         <div id="profile-rename-wrap" style="display:none;margin-top:0.75rem;">
           <label for="profile-firstname-input" style="display:block;margin-bottom:0.35rem;font-size:0.9rem;">Nouveau prenom :</label>
           <div style="display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
-            <input id="profile-firstname-input" type="text" maxlength="30" placeholder="Ex: Alice"
+            <input id="profile-firstname-input" type="text" maxlength="30" placeholder="Ex. : Alice"
               style="flex:1;min-width:140px;padding:0.4rem 0.6rem;border:1px solid #bbb;border-radius:6px;font-size:0.95rem;">
             <button id="profile-firstname-save-btn" class="btn" type="button">Enregistrer</button>
             <button id="profile-firstname-cancel-btn" class="btn btn-secondary" type="button">Annuler</button>

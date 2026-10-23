@@ -179,7 +179,7 @@ function createAtelierUserSetupRuntime(config = {}) {
           firstNameInput.readOnly = !canEdit;
           if (canEdit) {
             firstNameInput.removeAttribute("aria-readonly");
-            firstNameInput.placeholder = "Ex: Alice";
+            firstNameInput.placeholder = "Ex. : Alice";
           } else {
             firstNameInput.setAttribute("aria-readonly", "true");
             firstNameInput.placeholder = "Prenom du dossier";
