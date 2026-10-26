@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generatedAt": "2026-10-23T13:16:06.158Z",
-    "checked": 405,
+    "generatedAt": "2026-10-26T08:23:00.130Z",
+    "checked": 408,
     "failures": 0,
     "warnings": 0,
     "allowRemote": false,
@@ -38,21 +38,6 @@
         "packagedExists": true,
         "dataPath": "apps/word/data/assets/word/m2-gerer-les-documents/word-ex-002.docx",
         "packagedPath": "apps/word/app/data/assets/word/m2-gerer-les-documents/word-ex-002.docx"
-      }
-    },
-    {
-      "app": "word",
-      "exerciseId": "ex-006",
-      "slot": "docxUrl",
-      "url": "data/assets/word/m3-saisir-du-texte/word-ex-001.docx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/word/data/assets/word/m3-saisir-du-texte/word-ex-001.docx",
-        "packagedPath": "apps/word/app/data/assets/word/m3-saisir-du-texte/word-ex-001.docx"
       }
     },
     {
@@ -698,6 +683,21 @@
         "packagedExists": true,
         "dataPath": "apps/word/data/assets/word/m9-zone-de-texte/word-ex-002.docx",
         "packagedPath": "apps/word/app/data/assets/word/m9-zone-de-texte/word-ex-002.docx"
+      }
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-053",
+      "slot": "downloadUrl",
+      "url": "data/assets/word/m9-zone-de-texte/word-ex-003-annexe-1.png",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m9-zone-de-texte/word-ex-003-annexe-1.png",
+        "packagedPath": "apps/word/app/data/assets/word/m9-zone-de-texte/word-ex-003-annexe-1.png"
       }
     },
     {
@@ -1737,36 +1737,6 @@
     },
     {
       "app": "word",
-      "exerciseId": "ex-127",
-      "slot": "docxUrl",
-      "url": "data/assets/word/m20-affichage/word-ex-006.docx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/word/data/assets/word/m20-affichage/word-ex-006.docx",
-        "packagedPath": "apps/word/app/data/assets/word/m20-affichage/word-ex-006.docx"
-      }
-    },
-    {
-      "app": "word",
-      "exerciseId": "ex-128",
-      "slot": "docxUrl",
-      "url": "data/assets/word/m21-smart-art/word-ex-001.docx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/word/data/assets/word/m21-smart-art/word-ex-001.docx",
-        "packagedPath": "apps/word/app/data/assets/word/m21-smart-art/word-ex-001.docx"
-      }
-    },
-    {
-      "app": "word",
       "exerciseId": "ex-130",
       "slot": "downloadUrl",
       "url": "data/assets/word/m21-smart-art/word-ex-003-annexe-1.zip",
@@ -1887,6 +1857,51 @@
     },
     {
       "app": "word",
+      "exerciseId": "ex-145",
+      "slot": "downloadUrl",
+      "url": "data/assets/word/m24-publipostage/word-ex-003-annexe-1.xls",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m24-publipostage/word-ex-003-annexe-1.xls",
+        "packagedPath": "apps/word/app/data/assets/word/m24-publipostage/word-ex-003-annexe-1.xls"
+      }
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-146",
+      "slot": "docxUrl",
+      "url": "data/assets/word/m24-publipostage/word-ex-004.docx",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m24-publipostage/word-ex-004.docx",
+        "packagedPath": "apps/word/app/data/assets/word/m24-publipostage/word-ex-004.docx"
+      }
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-146",
+      "slot": "downloadUrl",
+      "url": "data/assets/word/m24-publipostage/word-ex-004-annexe-1.xlsx",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m24-publipostage/word-ex-004-annexe-1.xlsx",
+        "packagedPath": "apps/word/app/data/assets/word/m24-publipostage/word-ex-004-annexe-1.xlsx"
+      }
+    },
+    {
+      "app": "word",
       "exerciseId": "ex-148",
       "slot": "docxUrl",
       "url": "data/assets/word/m24-publipostage/word-ex-006.docx",
@@ -1928,6 +1943,21 @@
         "packagedExists": true,
         "dataPath": "apps/word/data/assets/word/m24-publipostage/word-ex-008.docx",
         "packagedPath": "apps/word/app/data/assets/word/m24-publipostage/word-ex-008.docx"
+      }
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-150",
+      "slot": "downloadUrl",
+      "url": "data/assets/word/m24-publipostage/word-ex-008-annexe-1.xlsx",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m24-publipostage/word-ex-008-annexe-1.xlsx",
+        "packagedPath": "apps/word/app/data/assets/word/m24-publipostage/word-ex-008-annexe-1.xlsx"
       }
     },
     {
@@ -2637,6 +2667,36 @@
     },
     {
       "app": "word",
+      "exerciseId": "ex-203",
+      "slot": "docxUrl",
+      "url": "data/assets/word/m31-niveau-3-intermediaire/word-ex-007.docx",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m31-niveau-3-intermediaire/word-ex-007.docx",
+        "packagedPath": "apps/word/app/data/assets/word/m31-niveau-3-intermediaire/word-ex-007.docx"
+      }
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-203",
+      "slot": "downloadUrl",
+      "url": "data/assets/word/m31-niveau-3-intermediaire/word-ex-007-annexe-1.zip",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m31-niveau-3-intermediaire/word-ex-007-annexe-1.zip",
+        "packagedPath": "apps/word/app/data/assets/word/m31-niveau-3-intermediaire/word-ex-007-annexe-1.zip"
+      }
+    },
+    {
+      "app": "word",
       "exerciseId": "ex-204",
       "slot": "docxUrl",
       "url": "data/assets/word/m31-niveau-3-intermediaire/word-ex-008.docx",
@@ -2648,6 +2708,36 @@
         "packagedExists": true,
         "dataPath": "apps/word/data/assets/word/m31-niveau-3-intermediaire/word-ex-008.docx",
         "packagedPath": "apps/word/app/data/assets/word/m31-niveau-3-intermediaire/word-ex-008.docx"
+      }
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-205",
+      "slot": "docxUrl",
+      "url": "data/assets/word/m31-niveau-3-intermediaire/word-ex-009.docx",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m31-niveau-3-intermediaire/word-ex-009.docx",
+        "packagedPath": "apps/word/app/data/assets/word/m31-niveau-3-intermediaire/word-ex-009.docx"
+      }
+    },
+    {
+      "app": "word",
+      "exerciseId": "ex-205",
+      "slot": "downloadUrl",
+      "url": "data/assets/word/m31-niveau-3-intermediaire/word-ex-009-annexe-1.zip",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m31-niveau-3-intermediaire/word-ex-009-annexe-1.zip",
+        "packagedPath": "apps/word/app/data/assets/word/m31-niveau-3-intermediaire/word-ex-009-annexe-1.zip"
       }
     },
     {
@@ -2742,6 +2832,21 @@
     },
     {
       "app": "word",
+      "exerciseId": "ex-211",
+      "slot": "downloadUrl",
+      "url": "data/assets/word/m32-niveau-4-expert/word-ex-001-annexe-1.zip",
+      "kind": "local",
+      "ok": true,
+      "details": {
+        "ok": true,
+        "dataExists": true,
+        "packagedExists": true,
+        "dataPath": "apps/word/data/assets/word/m32-niveau-4-expert/word-ex-001-annexe-1.zip",
+        "packagedPath": "apps/word/app/data/assets/word/m32-niveau-4-expert/word-ex-001-annexe-1.zip"
+      }
+    },
+    {
+      "app": "word",
       "exerciseId": "ex-212",
       "slot": "docxUrl",
       "url": "data/assets/word/m32-niveau-4-expert/word-ex-002.docx",
@@ -2798,21 +2903,6 @@
         "packagedExists": true,
         "dataPath": "apps/excel/data/assets/excel/bases-prise-en-main/excel-ex-004.xlsx",
         "packagedPath": "apps/excel/app/data/assets/excel/bases-prise-en-main/excel-ex-004.xlsx"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-004",
-      "slot": "downloadUrl",
-      "url": "data/assets/excel/bases-prise-en-main/excel-ex-004-annexe-1.xlsx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-prise-en-main/excel-ex-004-annexe-1.xlsx",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-prise-en-main/excel-ex-004-annexe-1.xlsx"
       }
     },
     {
@@ -3023,21 +3113,6 @@
         "packagedExists": true,
         "dataPath": "apps/excel/data/assets/excel/bases-integrer-une-image/excel-ex-003-annexe-1.zip",
         "packagedPath": "apps/excel/app/data/assets/excel/bases-integrer-une-image/excel-ex-003-annexe-1.zip"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-026",
-      "slot": "docxUrl",
-      "url": "data/assets/excel/bases-05-integrer-une-image/excel-ex-004.zip",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-05-integrer-une-image/excel-ex-004.zip",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-05-integrer-une-image/excel-ex-004.zip"
       }
     },
     {
@@ -3704,21 +3779,6 @@
       "app": "excel",
       "exerciseId": "excel-ex-074",
       "slot": "docxUrl",
-      "url": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-002.xlsx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-calculer-des-pourcentages/excel-ex-002.xlsx",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-calculer-des-pourcentages/excel-ex-002.xlsx"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-074",
-      "slot": "downloadUrl",
       "url": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-002-annexe-1.xlsx",
       "kind": "local",
       "ok": true,
@@ -3794,21 +3854,6 @@
       "app": "excel",
       "exerciseId": "excel-ex-077",
       "slot": "docxUrl",
-      "url": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-005.xlsx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/excel/data/assets/excel/bases-calculer-des-pourcentages/excel-ex-005.xlsx",
-        "packagedPath": "apps/excel/app/data/assets/excel/bases-calculer-des-pourcentages/excel-ex-005.xlsx"
-      }
-    },
-    {
-      "app": "excel",
-      "exerciseId": "excel-ex-077",
-      "slot": "downloadUrl",
       "url": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-005-annexe-1.xlsx",
       "kind": "local",
       "ok": true,
