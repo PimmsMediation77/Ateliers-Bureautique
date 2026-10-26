@@ -2,6 +2,188 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.13.1](///compare/excel-v1.13.0...excel-v1.13.1) (2026-10-26)
+
+
+### Bug Fixes
+
+* **excel:** aligner le libellé de niveau sur le niveau de chaque exercice 360483f
+* **excel:** corriger description de l'exercice excel-ex-001 50fe77f
+* **excel:** corriger description de l'exercice excel-ex-002 3c828d9
+* **excel:** corriger description de l'exercice excel-ex-003 92c242f
+* **excel:** corriger description de l'exercice excel-ex-004 2e6f7c8
+* **excel:** corriger description de l'exercice excel-ex-005 872f553
+* **excel:** corriger description de l'exercice excel-ex-018 b5bb6b5
+* **excel:** corriger description de l'exercice excel-ex-020 40b1c16
+* **excel:** corriger description de l'exercice excel-ex-021 93b482b
+* **excel:** corriger description de l'exercice excel-ex-022 ed75433
+* **excel:** corriger description de l'exercice excel-ex-024 72b57e0
+* **excel:** corriger description de l'exercice excel-ex-025 4738586
+* **excel:** corriger description de l'exercice excel-ex-026 e8ad145
+* **excel:** corriger description de l'exercice excel-ex-027 7f3e9b9
+* **excel:** corriger description de l'exercice excel-ex-028 7ec2909
+* **excel:** corriger description de l'exercice excel-ex-036 98e5ece
+* **excel:** corriger description de l'exercice excel-ex-037 b8ca700
+* **excel:** corriger description de l'exercice excel-ex-038 0a80c43
+* **excel:** corriger description de l'exercice excel-ex-089 0ed205d
+* **excel:** corriger description de l'exercice excel-ex-090 503fc49
+* **excel:** corriger description de l'exercice excel-ex-091 88721a2
+* **excel:** corriger description de l'exercice excel-ex-092 3838dea
+* **excel:** corriger description de l'exercice excel-ex-093 fbeb0a9
+* **excel:** corriger description de l'exercice excel-ex-094 99f43bf
+* **excel:** corriger description de l'exercice excel-ex-102 623d026
+* **excel:** corriger description de l'exercice excel-ex-117 97a4b5c
+* **excel:** corriger description de l'exercice excel-ex-118 c33c81c
+* **excel:** corriger description de l'exercice excel-ex-119 d1f1614
+* **excel:** corriger description de l'exercice excel-ex-135 e9b49ac
+* **excel:** corriger description de l'exercice excel-ex-136 7f84f4a
+* **excel:** corriger description de l'exercice excel-ex-137 13eefb6
+* **excel:** corriger description de l'exercice excel-ex-138 c7fffd8
+* **excel:** corriger description de l'exercice excel-ex-139 e8766c5
+* **excel:** corriger description de l'exercice excel-ex-140 b8c7eb0
+* **excel:** corriger description de l'exercice excel-ex-142 4976888
+* **excel:** corriger description de l'exercice excel-ex-143 f396f11
+* **excel:** corriger description de l'exercice excel-ex-144 f56cf14
+* **excel:** corriger description de l'exercice excel-ex-145 4153636
+* **excel:** corriger description de l'exercice excel-ex-147 056a766
+* **excel:** corriger description de l'exercice excel-ex-148 904d829
+* **excel:** corriger description de l'exercice excel-ex-149 ca3cde7
+* **excel:** corriger description de l'exercice excel-ex-150 1fd200e
+* **excel:** corriger description de l'exercice excel-ex-151 032061d
+* **excel:** corriger description de l'exercice excel-ex-152 9a82ba3
+* **excel:** corriger description de l'exercice excel-ex-155 488ec3e
+* **excel:** corriger description de l'exercice excel-ex-172 ed39434
+* **excel:** corriger description de l'exercice excel-ex-173 1c03ac8
+* **excel:** corriger description de l'exercice excel-ex-174 e2a000b
+* **excel:** corriger description de l'exercice excel-ex-183 13db86b
+* **excel:** corriger description de l'exercice excel-ex-188 cd4bfd8
+* **excel:** corriger description de l'exercice excel-ex-189 0fd4967
+* **excel:** corriger description de l'exercice excel-ex-190 b49f7cc
+* **excel:** corriger description de l'exercice excel-ex-195 b6dc2fe
+* **excel:** corriger description de l'exercice excel-ex-209 e0f87cd
+* **excel:** corriger description de l'exercice excel-ex-221 7f5ecff
+* **excel:** corriger description de l'exercice excel-ex-222 d1039a6
+* **excel:** corriger description de l'exercice excel-ex-223 b4a1925
+* **excel:** corriger description de l'exercice excel-ex-224 dcf3bd9
+* **excel:** corriger description de l'exercice excel-ex-225 99776ee
+* **excel:** corriger description de l'exercice excel-ex-227 70efac3
+* **excel:** corriger description de l'exercice excel-ex-228 780062b
+* **excel:** corriger description de l'exercice excel-ex-229 5a46ead
+* **excel:** corriger description de l'exercice excel-ex-230 c341cbe
+* **excel:** corriger description de l'exercice excel-ex-231 342b185
+* **excel:** corriger description de l'exercice excel-ex-232 96e57e9
+* **excel:** corriger description de l'exercice excel-ex-233 f5ebdd9
+* **excel:** corriger description de l'exercice excel-ex-234 99cda5f
+* **excel:** corriger description de l'exercice excel-ex-235 7a75603
+* **excel:** corriger description de l'exercice excel-ex-236 f4bc0cd
+* **excel:** corriger description et images énoncé et résultat de l'exercice excel-ex-122 2d3b2e2
+* **excel:** corriger images énoncé et résultat de l'exercice excel-ex-046 f0869be
+* **excel:** corriger images énoncé et résultat de l'exercice excel-ex-073 80d2a8a
+* **excel:** corriger images énoncé et résultat de l'exercice excel-ex-079 5956c71
+* **excel:** corriger images énoncé et résultat de l'exercice excel-ex-121 06ce129
+* **excel:** corriger images énoncé et résultat de l'exercice excel-ex-158 3188045
+* **excel:** corriger images énoncé et résultat de l'exercice excel-ex-159 1f6d39f
+* **excel:** corriger images énoncé et résultat de l'exercice excel-ex-180 fe462c8
+* **excel:** corriger images énoncé et résultat de l'exercice excel-ex-181 6a58561
+* **excel:** corriger titre et description de l'exercice excel-ex-023 aad370f
+* **excel:** corriger titre et description de l'exercice excel-ex-055 75efc96
+* **excel:** corriger titre et description de l'exercice excel-ex-056 cf880b1
+* **excel:** corriger titre et description de l'exercice excel-ex-095 48118ae
+* **excel:** corriger titre et description de l'exercice excel-ex-098 1adf9aa
+* **excel:** corriger titre et description de l'exercice excel-ex-100 0c5b1b5
+* **excel:** corriger titre et description de l'exercice excel-ex-101 e659369
+* **excel:** corriger titre et description de l'exercice excel-ex-103 bd52409
+* **excel:** corriger titre et description de l'exercice excel-ex-104 4f67e76
+* **excel:** corriger titre et description de l'exercice excel-ex-105 7dc9854
+* **excel:** corriger titre et description de l'exercice excel-ex-106 953530a
+* **excel:** corriger titre et description de l'exercice excel-ex-107 6dd90be
+* **excel:** corriger titre et description de l'exercice excel-ex-108 a2540d6
+* **excel:** corriger titre et description de l'exercice excel-ex-109 a87813a
+* **excel:** corriger titre et description de l'exercice excel-ex-110 8bcd7db
+* **excel:** corriger titre et description de l'exercice excel-ex-111 62351c6
+* **excel:** corriger titre et description de l'exercice excel-ex-112 732930a
+* **excel:** corriger titre et description de l'exercice excel-ex-113 ae25461
+* **excel:** corriger titre et description de l'exercice excel-ex-114 a22ab7c
+* **excel:** corriger titre et description de l'exercice excel-ex-115 f5d0406
+* **excel:** corriger titre et description de l'exercice excel-ex-116 44c23b0
+* **excel:** corriger titre et description de l'exercice excel-ex-120 1655b1b
+* **excel:** corriger titre et description de l'exercice excel-ex-124 93596e1
+* **excel:** corriger titre et description de l'exercice excel-ex-125 4f122fc
+* **excel:** corriger titre et description de l'exercice excel-ex-141 eaecc66
+* **excel:** corriger titre et description de l'exercice excel-ex-146 364f0f5
+* **excel:** corriger titre et description de l'exercice excel-ex-156 c474c74
+* **excel:** corriger titre et description de l'exercice excel-ex-161 c92a35b
+* **excel:** corriger titre et description de l'exercice excel-ex-162 99f2e7c
+* **excel:** corriger titre et description de l'exercice excel-ex-171 2dd3c79
+* **excel:** corriger titre et description de l'exercice excel-ex-175 a98be06
+* **excel:** corriger titre et description de l'exercice excel-ex-184 37608d8
+* **excel:** corriger titre et description de l'exercice excel-ex-185 2d45b45
+* **excel:** corriger titre et description de l'exercice excel-ex-186 0bd670d
+* **excel:** corriger titre et description de l'exercice excel-ex-187 7c608a8
+* **excel:** corriger titre et description de l'exercice excel-ex-200 302ef39
+* **excel:** corriger titre et description de l'exercice excel-ex-201 6caa5ba
+* **excel:** corriger titre et description de l'exercice excel-ex-202 c2f4db8
+* **excel:** corriger titre et description de l'exercice excel-ex-203 98c7c92
+* **excel:** corriger titre et description de l'exercice excel-ex-204 333eb7a
+* **excel:** corriger titre et description de l'exercice excel-ex-205 ca7a21b
+* **excel:** corriger titre et description de l'exercice excel-ex-206 91c3dfd
+* **excel:** corriger titre et description de l'exercice excel-ex-207 b71d809
+* **excel:** corriger titre et description de l'exercice excel-ex-208 bfddf70
+* **excel:** corriger titre et description de l'exercice excel-ex-210 66d904e
+* **excel:** corriger titre et description de l'exercice excel-ex-211 2f52ed7
+* **excel:** corriger titre et description de l'exercice excel-ex-214 5f401c4
+* **excel:** corriger titre et description de l'exercice excel-ex-216 56df216
+* **excel:** corriger titre et description de l'exercice excel-ex-217 3413c11
+* **excel:** corriger titre et description de l'exercice excel-ex-220 12c8efb
+* **excel:** corriger titre et description de l'exercice excel-ex-226 d757ef8
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-096 b62e769
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-099 56cc1e0
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-157 8a59230
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-160 bcd33f2
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-176 54f8715
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-177 f3617f6
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-178 3fcf9e9
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-179 b1899dd
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-182 72472bb
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-212 cdf8b03
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-213 44c8bf8
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-215 4c6a567
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-218 89f9ba4
+* **excel:** corriger titre, description et images énoncé et résultat de l'exercice excel-ex-219 ff2d044
+* **excel:** réécrire d'après la source les instructions génériques de 35 exercices et corriger 4 fichiers liés 2dc97ee
+* **word:** ajouter les fichiers fournis par la source à l'exercice ex-053 7a1e55e
+* **word:** ajouter les fichiers fournis par la source à l'exercice ex-145 bf329ca
+* **word:** ajouter les fichiers fournis par la source à l'exercice ex-146 41283c9
+* **word:** ajouter les fichiers fournis par la source à l'exercice ex-150 c75b58c
+* **word:** ajouter les fichiers fournis par la source à l'exercice ex-203 4abfbc8
+* **word:** ajouter les fichiers fournis par la source à l'exercice ex-205 499fd75
+* **word:** ajouter les fichiers fournis par la source à l'exercice ex-211 16b6b42
+* **word:** aligner le libellé de niveau sur le niveau de chaque exercice f91d5c1
+* **word:** corriger description de l'exercice ex-212 ce8e4f8
+* **word:** corriger description de l'exercice ex-213 8a2ca2e
+* **word:** corriger images énoncé et résultat de l'exercice ex-040 7e282bd
+* **word:** corriger images énoncé et résultat de l'exercice ex-096 6a28440
+* **word:** corriger images énoncé et résultat de l'exercice ex-131 bf5dcd3
+* **word:** corriger images énoncé et résultat de l'exercice ex-153 fd89808
+* **word:** corriger images énoncé et résultat de l'exercice ex-154 19526fa
+* **word:** corriger images énoncé et résultat de l'exercice ex-155 77993d3
+* **word:** corriger images énoncé et résultat de l'exercice ex-156 055118f
+* **word:** corriger images énoncé et résultat de l'exercice ex-157 d09f364
+* **word:** corriger images énoncé et résultat de l'exercice ex-160 293068d
+* **word:** corriger images énoncé et résultat de l'exercice ex-163 102bb68
+* **word:** corriger images énoncé et résultat de l'exercice ex-165 fbc179a
+* **word:** corriger images énoncé et résultat de l'exercice ex-166 7e05595
+* **word:** corriger images énoncé et résultat de l'exercice ex-168 fa0d2f2
+* **word:** corriger titre et description de l'exercice ex-193 06ac4d6
+* **word:** reconstituer les consignes tronquées de 38 exercices et réécrire leurs critères en compétences 2c1881e
+* **word:** réécrire d'après la source les instructions génériques de 27 exercices 3988995
+* **word:** remettre dans les étapes les consignes rangées dans les critères de 47 exercices et réécrire les critères en compétences 15137df
+
+
+### Documentation
+
+* **core:** specifier la feature admin catalogue e84d466
+
 ## [1.13.0](///compare/excel-v1.12.2...excel-v1.13.0) (2026-10-23)
 
 
