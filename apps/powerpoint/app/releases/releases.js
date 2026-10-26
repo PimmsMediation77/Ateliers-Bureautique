@@ -1,7 +1,196 @@
 window.RELEASES_DATA = {
-  "version": "0.1.63",
-  "updatedAt": "2026-10-23T13:17:01.462Z",
+  "version": "0.1.64",
+  "updatedAt": "2026-10-26T08:23:34.091Z",
   "releases": [
+    {
+      "version": "0.1.64",
+      "tag": "powerpoint-v0.1.64",
+      "date": "2026-10-26",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.13.1",
+          "breaking": false,
+          "hash": "590d139"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.20.1",
+          "breaking": false,
+          "hash": "cb781df"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "e20d68d"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "aligner le libellé de niveau sur le niveau de chaque exercice",
+          "breaking": false,
+          "hash": "360483f"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "aligner le libellé de niveau sur le niveau de chaque exercice",
+          "breaking": false,
+          "hash": "f91d5c1"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "ajouter les fichiers fournis par la source à l'exercice ex-211",
+          "breaking": false,
+          "hash": "16b6b42"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "ajouter les fichiers fournis par la source à l'exercice ex-205",
+          "breaking": false,
+          "hash": "499fd75"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "ajouter les fichiers fournis par la source à l'exercice ex-203",
+          "breaking": false,
+          "hash": "4abfbc8"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "ajouter les fichiers fournis par la source à l'exercice ex-150",
+          "breaking": false,
+          "hash": "c75b58c"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "ajouter les fichiers fournis par la source à l'exercice ex-146",
+          "breaking": false,
+          "hash": "41283c9"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "ajouter les fichiers fournis par la source à l'exercice ex-145",
+          "breaking": false,
+          "hash": "bf329ca"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "ajouter les fichiers fournis par la source à l'exercice ex-053",
+          "breaking": false,
+          "hash": "7a1e55e"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "corriger description de l'exercice excel-ex-236",
+          "breaking": false,
+          "hash": "f4bc0cd"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "corriger description de l'exercice excel-ex-235",
+          "breaking": false,
+          "hash": "7a75603"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "corriger description de l'exercice excel-ex-234",
+          "breaking": false,
+          "hash": "99cda5f"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "corriger description de l'exercice excel-ex-233",
+          "breaking": false,
+          "hash": "f5ebdd9"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "corriger description de l'exercice excel-ex-232",
+          "breaking": false,
+          "hash": "96e57e9"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "corriger description de l'exercice excel-ex-231",
+          "breaking": false,
+          "hash": "342b185"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "corriger description de l'exercice excel-ex-230",
+          "breaking": false,
+          "hash": "c341cbe"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "corriger description de l'exercice excel-ex-229",
+          "breaking": false,
+          "hash": "5a46ead"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 171,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 1,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 176
+      }
+    },
     {
       "version": "0.1.63",
       "tag": "powerpoint-v0.1.63",
