@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.65](///compare/powerpoint-v0.1.64...powerpoint-v0.1.65) (2026-11-02)
+
+
+### Bug Fixes
+
+* **word:** corriger les fichiers et les étapes des exercices ex-048 et ex-065 b067d2e
+
 ### [0.1.64](///compare/powerpoint-v0.1.63...powerpoint-v0.1.64) (2026-10-26)
 
 
