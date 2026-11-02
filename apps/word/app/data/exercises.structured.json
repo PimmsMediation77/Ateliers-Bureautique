@@ -2704,16 +2704,17 @@
       "pageUrl": "https://www.clic-formation.net/18-inserer-une-forme/exercice-8.html",
       "level": 3,
       "levelLabel": "🟠 Avancé ⭐⭐⭐",
-      "docxUrl": "data/assets/word/m8-inserer-une-forme/word-ex-008.docx",
+      "docxUrl": null,
       "imageEnonce": "data/assets/word/bases-08-inserer-une-forme/word-ex-008-image-enonce.gif",
       "imageResultat": "data/assets/word/bases-08-inserer-une-forme/word-ex-008-image-resultat.gif",
       "description": "La Pyramide de Maslow.",
       "consignes": [],
       "instructions": [
-        "Méthode 1 : plusieurs paragraphes avec fond de couleur.",
-        "Méthode 2 : des formes trapézoïdales avec fond de couleur.",
-        "Méthode 3 : un tableau avec fond de couleur (solution retenue sur le modèle).",
-        "Triangles : recouvrez ensuite les côtés avec deux triangles blancs bien ajustés à gauche et à droite."
+        "Structure : créez un tableau d’une colonne et de cinq lignes (solution du modèle) ; des paragraphes ou des formes trapézoïdales conviennent aussi.",
+        "Texte : saisissez un niveau par ligne, du sommet à la base : « Besoin d’accomplissement de soi », « Besoin d’estime, confiance et respect de soi. Reconnaissance et appréciation des autres. », « Besoin d’appartenance, d’amour et d’affection des autres. », « Besoin de sécurité. Environnement stable et prévisible sans anxiété ni crise. », « Besoins physiologiques. Faim, soif, sexualité, respiration, sommeil, élimination. ».",
+        "Couleurs : appliquez une trame de fond par ligne (gris, jaune, vert, rouge, bleu) et centrez le texte.",
+        "Triangles : insérez deux triangles rectangles blancs sans contour, placés devant le texte, à gauche et à droite du tableau.",
+        "Ajustement : redimensionnez les triangles pour masquer les bords du tableau et obtenir une pyramide régulière."
       ],
       "imageEnonceCaption": "Ici la solution retenue, c'est la création d'un tableau. Remarquez la forme triangulaire blanche qui vient recouvrir la partie droite du tableau et qui laisse penser que c'est bien une pyramide.",
       "scrape": {
@@ -3466,18 +3467,21 @@
       "moduleNameClean": "Insérer une image",
       "moduleSlug": "ins-rer-une-image",
       "num": 5,
-      "title": "Insertion d'images (Insérer une image 5)",
+      "title": "Compression des images",
       "pageUrl": "https://www.clic-formation.net/inserer-une-image/exercice-5.html",
       "level": 1,
       "levelLabel": "🟢 Débutant ⭐",
       "docxUrl": null,
       "imageEnonce": "data/assets/word/bases-12-inserer-une-image/word-ex-005-image-enonce.gif",
-      "imageResultat": "data/assets/word/bases-12-inserer-une-image/word-ex-005-image-resultat.jpg",
-      "description": "1-Téléchargez la photo",
+      "imageResultat": null,
+      "description": "Alléger un document en compressant la photo insérée.",
       "consignes": [],
       "instructions": [
-        "Insérez cette photo dans un document que vous dupliquez.",
-        "Vous enregistrez le document en deux versions, la première ne doit pas dépasser 600 Ko et l'autre ne doit pas faire moins de 1400 Ko."
+        "Insertion : insérez la photo téléchargée dans un nouveau document Word.",
+        "Version lourde : enregistrez le document sous « photo-originale.docx » ; il doit peser au moins 1 400 Ko.",
+        "Compression : sélectionnez la photo, puis Format de l’image > Compresser les images et choisissez une résolution basse (Web 150 ppp ou E-mail 96 ppp).",
+        "Version légère : enregistrez sous « photo-compressee.docx » ; ce fichier ne doit pas dépasser 600 Ko.",
+        "Vérification : comparez la taille des deux fichiers dans l’Explorateur de fichiers."
       ],
       "scrape": {
         "ok": true,
@@ -3487,18 +3491,21 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/word/bases-12-inserer-une-image/word-ex-005-image-resultat.jpg"
+          "data/assets/word/bases-12-inserer-une-image/word-ex-005-image-enonce.gif"
         ]
       },
       "preamble": "",
-      "criteria": [],
+      "criteria": [
+        "Réduire le poids d’un document en compressant ses images.",
+        "Contrôler la taille d’un fichier enregistré."
+      ],
       "originalConsignes": [],
       "originalInstructions": [
         "Insérez cette photo dans un document que vous dupliquez.",
         "Vous enregistrez le document en deux versions, la première ne doit pas dépasser 600 Ko et l'autre ne doit pas faire moins de 1400 Ko."
       ],
       "downloadUrl": "data/assets/word/m12-inserer-une-image/word-ex-005-annexe-1.jpg",
-      "downloadLabel": "Telecharger la photo"
+      "downloadLabel": "Télécharger la photo"
     },
     {
       "id": "ex-066",
