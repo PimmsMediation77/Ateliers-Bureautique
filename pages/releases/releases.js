@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.41.0",
-  "updatedAt": "2026-10-26T08:23:40.793Z",
+  "version": "1.42.0",
+  "updatedAt": "2026-11-02T16:55:27.060Z",
   "releases": [
+    {
+      "version": "1.42.0",
+      "tag": "bureautique-v1.42.0",
+      "date": "2026-11-02",
+      "releaseType": "minor",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.65",
+          "breaking": false,
+          "hash": "3288836"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.13.2",
+          "breaking": false,
+          "hash": "6cf9f97"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.20.2",
+          "breaking": false,
+          "hash": "0c53113"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "5abc874"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "corriger les fichiers et les étapes des exercices ex-048 et ex-065",
+          "breaking": false,
+          "hash": "b067d2e"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.41.0",
       "tag": "bureautique-v1.41.0",
