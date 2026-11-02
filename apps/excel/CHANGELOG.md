@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.13.2](///compare/excel-v1.13.1...excel-v1.13.2) (2026-11-02)
+
+
+### Bug Fixes
+
+* **word:** corriger les fichiers et les étapes des exercices ex-048 et ex-065 b067d2e
+
 ### [1.13.1](///compare/excel-v1.13.0...excel-v1.13.1) (2026-10-26)
 
 
