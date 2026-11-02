@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generatedAt": "2026-10-26T08:23:00.130Z",
-    "checked": 408,
+    "generatedAt": "2026-11-02T16:54:43.492Z",
+    "checked": 407,
     "failures": 0,
     "warnings": 0,
     "allowRemote": false,
@@ -593,21 +593,6 @@
         "packagedExists": true,
         "dataPath": "apps/word/data/assets/word/m8-inserer-une-forme/word-ex-006-annexe-1.zip",
         "packagedPath": "apps/word/app/data/assets/word/m8-inserer-une-forme/word-ex-006-annexe-1.zip"
-      }
-    },
-    {
-      "app": "word",
-      "exerciseId": "ex-048",
-      "slot": "docxUrl",
-      "url": "data/assets/word/m8-inserer-une-forme/word-ex-008.docx",
-      "kind": "local",
-      "ok": true,
-      "details": {
-        "ok": true,
-        "dataExists": true,
-        "packagedExists": true,
-        "dataPath": "apps/word/data/assets/word/m8-inserer-une-forme/word-ex-008.docx",
-        "packagedPath": "apps/word/app/data/assets/word/m8-inserer-une-forme/word-ex-008.docx"
       }
     },
     {
