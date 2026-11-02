@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.20.1",
-  "updatedAt": "2026-10-26T08:23:14.425Z",
+  "version": "1.20.2",
+  "updatedAt": "2026-11-02T16:54:58.673Z",
   "releases": [
+    {
+      "version": "1.20.2",
+      "tag": "word-v1.20.2",
+      "date": "2026-11-02",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "5abc874"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "corriger les fichiers et les étapes des exercices ex-048 et ex-065",
+          "breaking": false,
+          "hash": "b067d2e"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.41.0",
+          "breaking": false,
+          "hash": "500ef84"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.64",
+          "breaking": false,
+          "hash": "3baad14"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.13.1",
+          "breaking": false,
+          "hash": "590d139"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.20.1",
       "tag": "word-v1.20.1",
