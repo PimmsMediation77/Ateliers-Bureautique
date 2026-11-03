@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.66](///compare/powerpoint-v0.1.65...powerpoint-v0.1.66) (2026-11-03)
+
+
+### Features
+
+* **core:** simplifier le changement d'utilisateur avec un choix par carte 8f0fe71
+
 ### [0.1.65](///compare/powerpoint-v0.1.64...powerpoint-v0.1.65) (2026-11-02)
 
 
