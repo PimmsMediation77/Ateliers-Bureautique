@@ -56,6 +56,20 @@ function createAtelierUiEventsRuntime(config = {}) {
         });
       }
 
+      // Liens internes (« Choisir un autre exercice », « Retour à l'accueil », fil d'Ariane) :
+      // tant que la session n'est pas prête (ex. accès dossier à réautoriser), le simple
+      // changement de hash ne rend rien, on passe donc d'abord par ensureReady.
+      document.addEventListener("click", async (event) => {
+        if (isReady()) return;
+        const target = event.target;
+        if (!(target instanceof HTMLElement)) return;
+        const link = target.closest('a[href^="#"]');
+        if (!link) return;
+        event.preventDefault();
+        const ready = await ensureReady();
+        if (ready) setHash(link.getAttribute("href"));
+      });
+
       document.getElementById("home-start-btn").addEventListener("click", async () => {
         if (!isReady()) {
           const ready = await ensureReady();
