@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.67](///compare/powerpoint-v0.1.66...powerpoint-v0.1.67) (2026-11-03)
+
+
+### Features
+
+* **core:** refondre l'accueil module avec une carte unique et un fil « vous êtes ici » 77b0cb6
+
 ### [0.1.66](///compare/powerpoint-v0.1.65...powerpoint-v0.1.66) (2026-11-03)
 
 

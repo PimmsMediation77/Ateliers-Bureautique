@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "0.1.66",
-  "updatedAt": "2026-11-03T11:32:41.400Z",
+  "version": "0.1.67",
+  "updatedAt": "2026-11-03T12:42:30.252Z",
   "releases": [
+    {
+      "version": "0.1.67",
+      "tag": "powerpoint-v0.1.67",
+      "date": "2026-11-03",
+      "releaseType": "patch",
+      "impact": {
+        "level": "medium",
+        "rationale": "Nouvelles fonctionnalites ou changements techniques structurants."
+      },
+      "summary": "Version de maintenance.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.15.0",
+          "breaking": false,
+          "hash": "c9cd050"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.22.0",
+          "breaking": false,
+          "hash": "72bd061"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "a91a3b0"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "core",
+          "description": "refondre l'accueil module avec une carte unique et un fil « vous êtes ici »",
+          "breaking": false,
+          "hash": "77b0cb6"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.43.0",
+          "breaking": false,
+          "hash": "430c634"
+        }
+      ],
+      "counts": {
+        "feat": 1,
+        "fix": 0,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "0.1.66",
       "tag": "powerpoint-v0.1.66",
