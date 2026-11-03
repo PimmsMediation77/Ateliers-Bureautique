@@ -56,6 +56,10 @@ class FakeNode extends FakeElement {
     return child;
   }
 
+  replaceChildren() {
+    this.children = [];
+  }
+
   querySelector(selector) {
     if (selector === 'label[for="user-setup-firstname-input"]') {
       return this.firstNameLabel || null;
@@ -130,13 +134,16 @@ function createDocument() {
     "exercise-back-btn",
     "affinity-back-btn",
     "user-setup-modal",
+    "user-setup-title",
     "user-setup-status",
+    "user-setup-chooser",
+    "user-setup-user-list",
+    "user-setup-open-other-btn",
+    "user-setup-form",
+    "user-setup-back-btn",
     "user-setup-storage-mode-wrap",
-    "user-setup-mode-local-btn",
-    "user-setup-mode-server-btn",
+    "user-setup-mode-toggle-btn",
     "user-setup-mode-help",
-    "user-setup-saved-folders-wrap",
-    "user-setup-saved-folders-select",
     "user-setup-pick-root-btn",
     "user-setup-firstname-input",
     "user-setup-cancel-btn",
@@ -449,6 +456,11 @@ function createHandle(id, name) {
   };
 }
 
+function findUserCard(document, folderId) {
+  const list = document.getElementById("user-setup-user-list");
+  return list.children.find((card) => card.getAttribute("data-folder-id") === folderId) || null;
+}
+
 async function flushAsyncWork(turns = 30) {
   for (let index = 0; index < turns; index += 1) {
     await Promise.resolve();
@@ -590,10 +602,10 @@ export async function registerControllerSessionContractTests({
     harness.document.getElementById("header-user-switch-btn").click();
     await flushAsyncWork();
 
-    const savedFoldersSelect = harness.document.getElementById("user-setup-saved-folders-select");
-    savedFoldersSelect.value = "bob-folder";
-    await savedFoldersSelect.onchange();
-    harness.document.getElementById("user-setup-validate-btn").click();
+    const bobCard = findUserCard(harness.document, "bob-folder");
+    assert.ok(bobCard, "la carte de Bob doit etre proposee");
+    assert.ok(findUserCard(harness.document, "alice-folder"), "la carte d'Alice doit etre proposee");
+    bobCard.click();
     await flushAsyncWork();
 
     assert.deepEqual(harness.view.headerUser, { firstName: "Bob", initials: "BO" });
@@ -636,10 +648,10 @@ export async function registerControllerSessionContractTests({
     firstRun.document.getElementById("header-user-switch-btn").click();
     await flushAsyncWork();
 
-    const savedFoldersSelect = firstRun.document.getElementById("user-setup-saved-folders-select");
-    savedFoldersSelect.value = "bob-folder";
-    await savedFoldersSelect.onchange();
-    firstRun.document.getElementById("user-setup-validate-btn").click();
+    const bobCard = findUserCard(firstRun.document, "bob-folder");
+    assert.ok(bobCard, "la carte de Bob doit etre proposee");
+    assert.ok(findUserCard(firstRun.document, "alice-folder"), "la carte d'Alice doit etre proposee");
+    bobCard.click();
     await flushAsyncWork();
 
     const refreshed = createHarness({
@@ -660,6 +672,49 @@ export async function registerControllerSessionContractTests({
     assert.equal(refreshed.window.location.hash, "#exercise/ex-002");
     assert.deepEqual(refreshed.model.importedProgress, { done: ["ex-002"] });
     assert.match(refreshed.view.progressUserPath, /Bob/);
+  });
+
+  test("user chooser asks only for the first name when the folder has no profile", async () => {
+    const aliceHandle = createHandle("alice-folder", "Alice");
+    const blankHandle = createHandle("blank-folder", "Nouveau");
+    const harness = createHarness({
+      savedRootHandle: aliceHandle,
+      savedInitials: "AL",
+      savedFirstName: "Alice",
+      savedWorkFolders: [
+        { id: "alice-folder", name: "Alice", handle: aliceHandle, lastUsedAt: "2026-06-24T09:00:00.000Z" },
+        { id: "blank-folder", name: "Nouveau", handle: blankHandle, lastUsedAt: "2026-06-24T08:00:00.000Z" },
+      ],
+      profiles: new Map([["alice-folder", { initials: "AL", firstName: "Alice" }]]),
+      progressByInitials: new Map([["AL", { done: [] }]]),
+    });
+
+    harness.controller.init();
+    await flushAsyncWork();
+
+    harness.document.getElementById("header-user-switch-btn").click();
+    await flushAsyncWork();
+
+    const list = harness.document.getElementById("user-setup-user-list");
+    assert.equal(list.children.length, 3, "deux cartes utilisateur + la carte Nouvel utilisateur");
+
+    findUserCard(harness.document, "blank-folder").click();
+    await flushAsyncWork();
+
+    const modal = harness.document.getElementById("user-setup-modal");
+    const firstNameInput = harness.document.getElementById("user-setup-firstname-input");
+    assert.equal(modal.style.display, "flex");
+    assert.equal(harness.document.getElementById("user-setup-form").style.display, "grid");
+    assert.equal(firstNameInput.style.display, "");
+    assert.equal(harness.document.getElementById("user-setup-validate-btn").style.display, "");
+
+    firstNameInput.value = "Chloe";
+    harness.document.getElementById("user-setup-validate-btn").click();
+    await flushAsyncWork();
+
+    assert.equal(modal.style.display, "none");
+    assert.equal(harness.storageState.savedRootHandle, blankHandle);
+    assert.equal(harness.storageState.savedFirstName, "Chloe");
   });
 
   test("controller updates the shared profile view and saved first name", async () => {

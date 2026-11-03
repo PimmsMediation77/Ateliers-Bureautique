@@ -21,16 +21,42 @@ function createAtelierUserSetupRuntime(config = {}) {
     return `wf-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
   }
 
+  function getFolderStorageMode(folder) {
+    const value = folder && typeof folder.storageMode === "string" ? folder.storageMode.trim() : "";
+    return value || "local";
+  }
+
+  function formatLastUsed(value) {
+    const time = Date.parse(value || "");
+    if (!time) return "";
+    const date = new Date(time);
+    const startOfDay = (input) => new Date(input.getFullYear(), input.getMonth(), input.getDate()).getTime();
+    const days = Math.round((startOfDay(new Date()) - startOfDay(date)) / 86400000);
+    if (days <= 0) return "aujourd'hui";
+    if (days === 1) return "hier";
+    return `le ${date.toLocaleDateString("fr-FR", { day: "numeric", month: "short" })}`;
+  }
+
+  function buildCardInitials(folder) {
+    const fromProfile = storage.normalizeInitials ? storage.normalizeInitials(folder.initials) : folder.initials;
+    if (fromProfile) return String(fromProfile).slice(0, 3);
+    const label = String(folder.firstName || folder.name || "?").trim();
+    return label.slice(0, 2).toUpperCase() || "?";
+  }
+
   return {
     show(initialRootHandle, defaults = {}) {
       return new Promise((resolve) => {
         const modal = modalRefs.root;
+        const title = modalRefs.title;
         const status = modalRefs.status;
-        const savedFoldersWrap = modalRefs.savedFoldersWrap;
-        const savedFoldersSelect = modalRefs.savedFoldersSelect;
+        const chooserWrap = modalRefs.chooserWrap;
+        const userList = modalRefs.userList;
+        const openOtherBtn = modalRefs.openOtherBtn;
+        const formWrap = modalRefs.formWrap;
+        const backBtn = modalRefs.backBtn;
         const storageModeWrap = modalRefs.storageModeWrap;
-        const localModeBtn = modalRefs.localModeBtn;
-        const serverModeBtn = modalRefs.serverModeBtn;
+        const modeToggleBtn = modalRefs.modeToggleBtn;
         const modeHelp = modalRefs.modeHelp;
         const pickBtn = modalRefs.pickBtn;
         const firstNameInput = modalRefs.firstNameInput;
@@ -46,47 +72,42 @@ function createAtelierUserSetupRuntime(config = {}) {
         let rootHandle = initialRootHandle || null;
         let resolvedInitials = deriveInitials(rootHandle, defaults.initials);
         let savedFolders = Array.isArray(defaults.savedWorkFolders) ? defaults.savedWorkFolders.slice() : [];
-        let selectedSavedId = "";
         let preferredStorageMode = getPreferredStorageMode();
         let configuredUserFoldersRootLabel = getConfiguredUserFoldersRootLabel();
+        let isOpeningFolder = false;
 
-        const getFolderStorageMode = (folder) => {
-          const value = folder && typeof folder.storageMode === "string" ? folder.storageMode.trim() : "";
-          return value || "local";
+        const setTitle = (text) => {
+          if (title) title.textContent = text;
         };
-
-        const getFolderStorageLabel = (folder) => (
-          getFolderStorageMode(folder) === "server" ? "serveur" : "local"
-        );
 
         const buildEmptySelectionMessage = () => {
           if (preferredStorageMode === "server" && configuredUserFoldersRootLabel) {
-            return `Ouvrez un dossier utilisateur existant sur le partage serveur configure : ${configuredUserFoldersRootLabel}.`;
+            return `Ouvrez votre dossier sur le partage serveur : ${configuredUserFoldersRootLabel}.`;
           }
           if (preferredStorageMode === "server") {
-            return "Ouvrez un dossier utilisateur existant sur le serveur local ou restez en mode local si besoin.";
+            return "Ouvrez votre dossier sur le serveur, ou choisissez « Sur cet ordinateur ».";
           }
           return hasScannedDocuments
-            ? "Choisissez ou creez un dossier de travail dans la liste ci-dessous."
-            : "Cliquez sur le bouton ci-dessous pour choisir ou creer un dossier dans Documents.";
+            ? "Choisissez ou créez votre dossier de travail."
+            : "Cliquez sur le bouton ci-dessous pour choisir ou créer votre dossier dans Documents.";
         };
 
         const closeModal = (result) => {
           modal.style.display = "none";
           modal.setAttribute("aria-hidden", "true");
           pickBtn.onclick = null;
-          if (localModeBtn) localModeBtn.onclick = null;
-          if (serverModeBtn) serverModeBtn.onclick = null;
+          if (modeToggleBtn) modeToggleBtn.onclick = null;
+          if (openOtherBtn) openOtherBtn.onclick = null;
+          if (backBtn) backBtn.onclick = null;
           if (cancel) cancel.onclick = null;
           validate.onclick = null;
           firstNameInput.onkeydown = null;
-          if (savedFoldersSelect) savedFoldersSelect.onchange = null;
           resolve(result);
         };
 
         if (cancel) {
           cancel.onclick = () => {
-            status.textContent = "Configuration annulee.";
+            status.textContent = "Changement d'utilisateur annulé.";
             closeModal(null);
           };
         }
@@ -101,44 +122,25 @@ function createAtelierUserSetupRuntime(config = {}) {
           validate.style.display = visible ? "" : "none";
         };
 
-        const findBestSavedFolderIdForMode = (mode) => {
-          const ordered = [...savedFolders]
-            .filter((folder) => getFolderStorageMode(folder) === mode)
-            .sort((a, b) => {
-              const left = Date.parse(a.lastUsedAt || "") || 0;
-              const right = Date.parse(b.lastUsedAt || "") || 0;
-              return right - left;
-            });
-          return ordered.length ? ordered[0].id : "";
-        };
+        const isServerAvailable = () => (
+          Boolean(configuredUserFoldersRootLabel) || getRuntimeStatusLabel() !== "Mode local"
+        );
 
-        const renderModeHelp = () => {
-          if (!modeHelp) return;
-          if (preferredStorageMode === "server" && configuredUserFoldersRootLabel) {
-            modeHelp.textContent = `Mode serveur : ouvrez un dossier utilisateur existant depuis ${configuredUserFoldersRootLabel}.`;
-            return;
+        const renderStorageModeBadge = () => {
+          if (!storageModeWrap) return;
+          // Sans serveur disponible, il n'y a rien à choisir : le badge reste caché.
+          storageModeWrap.style.display = isServerAvailable() ? "flex" : "none";
+          const pin = String.fromCodePoint(0x1f4cd);
+          if (modeHelp) {
+            modeHelp.textContent = preferredStorageMode === "server"
+              ? `${pin} Enregistrement : sur le serveur`
+              : `${pin} Enregistrement : sur cet ordinateur`;
           }
-          if (preferredStorageMode === "server") {
-            modeHelp.textContent = "Mode serveur : ouvrez un dossier deja present sur le partage reseau local.";
-            return;
+          if (modeToggleBtn) {
+            modeToggleBtn.setAttribute("aria-label", preferredStorageMode === "server"
+              ? "Enregistrer plutôt sur cet ordinateur"
+              : "Enregistrer plutôt sur le serveur");
           }
-          modeHelp.textContent = "Mode local : choisissez ou creez un dossier sur cette machine.";
-        };
-
-        const renderStorageModeButtons = () => {
-          if (!storageModeWrap || !localModeBtn || !serverModeBtn) return;
-          storageModeWrap.style.display = "";
-          localModeBtn.setAttribute("aria-pressed", preferredStorageMode === "local" ? "true" : "false");
-          serverModeBtn.setAttribute("aria-pressed", preferredStorageMode === "server" ? "true" : "false");
-          localModeBtn.className = preferredStorageMode === "local" ? "btn" : "btn btn-soft";
-          serverModeBtn.className = preferredStorageMode === "server" ? "btn" : "btn btn-soft";
-          serverModeBtn.disabled = !configuredUserFoldersRootLabel && getRuntimeStatusLabel() === "Mode local";
-          if (serverModeBtn.disabled) {
-            serverModeBtn.title = "Le dossier serveur n'est pas disponible pour le moment.";
-          } else {
-            serverModeBtn.removeAttribute("title");
-          }
-          renderModeHelp();
         };
 
         const updateFolderStatus = () => {
@@ -148,31 +150,23 @@ function createAtelierUserSetupRuntime(config = {}) {
             return;
           }
           setValidateVisibility(true);
-          const selectedStorageLabel = preferredStorageMode === "server" ? "serveur" : "local";
-          status.textContent = `Dossier ${selectedStorageLabel} selectionne : ${rootHandle.name || "dossier utilisateur"}.`;
+          status.textContent = `Dossier choisi : ${rootHandle.name || "dossier utilisateur"}. Indiquez votre prénom puis validez.`;
         };
 
         const setPickButtonMode = (mode = "hidden") => {
-          const folderIcon = String.fromCodePoint(0x1f4c1);
-          if (mode === "pick-folder") {
-            pickBtn.style.display = "";
-            pickBtn.textContent = preferredStorageMode === "server"
-              ? "Ouvrir un dossier serveur existant"
-              : "Choisir ou creer un dossier local";
-            pickBtn.setAttribute("data-icon", folderIcon);
+          if (mode === "hidden") {
+            pickBtn.style.display = "none";
             return;
           }
-
-          if (mode === "add-folder") {
-            pickBtn.style.display = "";
-            pickBtn.textContent = preferredStorageMode === "server"
-              ? "Ouvrir un autre dossier serveur"
-              : "Choisir ou creer un autre dossier local";
-            pickBtn.setAttribute("data-icon", folderIcon);
+          pickBtn.style.display = "";
+          pickBtn.setAttribute("data-icon", String.fromCodePoint(0x1f4c1));
+          if (mode === "change-folder") {
+            pickBtn.textContent = "Choisir un autre dossier";
             return;
           }
-
-          pickBtn.style.display = "none";
+          pickBtn.textContent = preferredStorageMode === "server"
+            ? "Ouvrir mon dossier sur le serveur"
+            : "Choisir ou créer mon dossier";
         };
 
         const setFirstNameEditMode = (canEdit) => {
@@ -182,56 +176,160 @@ function createAtelierUserSetupRuntime(config = {}) {
             firstNameInput.placeholder = "Ex. : Alice";
           } else {
             firstNameInput.setAttribute("aria-readonly", "true");
-            firstNameInput.placeholder = "Prenom du dossier";
+            firstNameInput.placeholder = "Prénom du dossier";
           }
         };
 
-        const renderSavedFolders = () => {
-          if (!savedFoldersWrap || !savedFoldersSelect) return;
-          if (!savedFolders.length) {
-            savedFoldersWrap.style.display = "none";
-            savedFoldersSelect.innerHTML = "";
-            return;
-          }
+        const getOrderedFolders = () => [...savedFolders].sort((a, b) => {
+          const left = Date.parse(a.lastUsedAt || "") || 0;
+          const right = Date.parse(b.lastUsedAt || "") || 0;
+          return right - left;
+        });
 
-          savedFoldersWrap.style.display = "";
-          const ordered = [...savedFolders].sort((a, b) => {
-            const aPreferred = getFolderStorageMode(a) === preferredStorageMode ? 1 : 0;
-            const bPreferred = getFolderStorageMode(b) === preferredStorageMode ? 1 : 0;
-            if (aPreferred !== bPreferred) return bPreferred - aPreferred;
-            const left = Date.parse(a.lastUsedAt || "") || 0;
-            const right = Date.parse(b.lastUsedAt || "") || 0;
-            return right - left;
-          });
-
-          savedFoldersSelect.innerHTML = "";
-          for (const folder of ordered) {
-            const option = documentRef.createElement("option");
-            option.value = folder.id;
-            const storageLabel = getFolderStorageLabel(folder);
-            option.textContent = folder.firstName
-              ? `${folder.firstName} (${folder.name}) [${storageLabel}]`
-              : `${folder.name || "Dossier de travail"} [${storageLabel}]`;
-            savedFoldersSelect.appendChild(option);
+        const setCardsDisabled = (disabled) => {
+          if (!userList || !userList.children) return;
+          for (const card of Array.from(userList.children)) {
+            card.disabled = disabled;
           }
-
-          const currentIds = new Set(ordered.map((folder) => folder.id));
-          if (!selectedSavedId || !currentIds.has(selectedSavedId)) {
-            selectedSavedId = ordered[0].id;
-          }
-          savedFoldersSelect.value = selectedSavedId;
         };
 
-        const findSavedFolderIdByHandle = async (handle) => {
-          if (!handle) return "";
-          for (const folder of savedFolders) {
-            try {
-              if (await folder.handle.isSameEntry(handle)) return folder.id;
-            } catch {
-              if (folder.name === (handle.name || folder.name)) return folder.id;
+        const createUserCard = ({ initials, name, meta, folderId, isNew }) => {
+          const card = documentRef.createElement("button");
+          card.setAttribute("type", "button");
+          card.className = isNew ? "user-setup-user-card user-setup-user-card-new" : "user-setup-user-card";
+          if (folderId) card.setAttribute("data-folder-id", folderId);
+
+          const avatar = documentRef.createElement("span");
+          avatar.className = "user-setup-user-avatar";
+          avatar.setAttribute("aria-hidden", "true");
+          avatar.textContent = initials;
+          card.appendChild(avatar);
+
+          const nameEl = documentRef.createElement("span");
+          nameEl.className = "user-setup-user-name";
+          nameEl.textContent = name;
+          card.appendChild(nameEl);
+
+          if (meta) {
+            const metaEl = documentRef.createElement("span");
+            metaEl.className = "user-setup-user-meta";
+            metaEl.textContent = meta;
+            card.appendChild(metaEl);
+          }
+          return card;
+        };
+
+        const renderUserCards = () => {
+          if (!userList) return;
+          if (typeof userList.replaceChildren === "function") {
+            userList.replaceChildren();
+          } else {
+            userList.innerHTML = "";
+          }
+
+          for (const folder of getOrderedFolders()) {
+            const lastUsed = formatLastUsed(folder.lastUsedAt);
+            const where = getFolderStorageMode(folder) === "server" ? "Serveur" : "Cet ordinateur";
+            const card = createUserCard({
+              initials: buildCardInitials(folder),
+              name: folder.firstName || folder.name || "Dossier de travail",
+              meta: lastUsed ? `${where} · ${lastUsed}` : where,
+              folderId: folder.id,
+            });
+            card.onclick = () => {
+              chooseSavedFolder(folder.id);
+            };
+            userList.appendChild(card);
+          }
+
+          const newCard = createUserCard({ initials: "+", name: "Nouvel utilisateur", isNew: true });
+          newCard.onclick = () => {
+            showForm();
+          };
+          userList.appendChild(newCard);
+        };
+
+        const showChooser = () => {
+          rootHandle = null;
+          setTitle("Qui êtes-vous ?");
+          if (chooserWrap) chooserWrap.style.display = "grid";
+          if (formWrap) formWrap.style.display = "none";
+          if (backBtn) backBtn.style.display = "none";
+          setValidateVisibility(false);
+          setCardsDisabled(false);
+          status.textContent = "Cliquez sur votre prénom pour continuer.";
+        };
+
+        const showForm = (options = {}) => {
+          rootHandle = null;
+          resolvedInitials = "";
+          firstNameInput.value = "";
+          setTitle(options.title || "Nouvel utilisateur");
+          if (chooserWrap) chooserWrap.style.display = "none";
+          if (formWrap) formWrap.style.display = "grid";
+          if (backBtn) backBtn.style.display = savedFolders.length ? "" : "none";
+          renderStorageModeBadge();
+          setFirstNameVisibility(false);
+          setFirstNameEditMode(true);
+          setPickButtonMode("pick-folder");
+          updateFolderStatus();
+        };
+
+        const chooseSavedFolder = async (folderId) => {
+          if (isOpeningFolder) return;
+          const folder = savedFolders.find((entry) => entry.id === folderId);
+          if (!folder || !folder.handle) return;
+          isOpeningFolder = true;
+          setCardsDisabled(true);
+          const label = folder.firstName || folder.name || "ce dossier";
+          status.textContent = `Ouverture du dossier de ${label}…`;
+
+          try {
+            let selectedHandle = folder.handle;
+            let initials = deriveInitials(selectedHandle, "");
+            let ok = await storage.ensureWritePermission(selectedHandle);
+            if (ok) {
+              selectedHandle = await storage.resolveUserRootHandle(selectedHandle, initials);
+              ok = await storage.ensureWritePermission(selectedHandle);
             }
+            if (!ok) {
+              status.textContent = `Accès refusé au dossier de ${label}. Cliquez à nouveau et acceptez l'autorisation du navigateur.`;
+              return;
+            }
+
+            initials = deriveInitials(selectedHandle, "");
+            const profile = await storage.loadUserProfile(selectedHandle, initials, false);
+            const profileInitials = profile ? storage.normalizeInitials(profile.initials) : "";
+            if (profileInitials) initials = profileInitials;
+            const firstName = storage.normalizeFirstName(profile && profile.firstName ? profile.firstName : "");
+
+            if (!firstName) {
+              // Dossier sans profil : on demande seulement le prénom.
+              preferredStorageMode = getFolderStorageMode(folder);
+              showForm({ title: "Votre prénom" });
+              rootHandle = selectedHandle;
+              resolvedInitials = initials;
+              setPickButtonMode("change-folder");
+              setFirstNameVisibility(true);
+              updateFolderStatus();
+              firstNameInput.focus();
+              return;
+            }
+
+            initials = deriveInitials(selectedHandle, initials);
+            await storage.ensureProgressDirectory(selectedHandle, initials, true);
+            closeModal({
+              rootHandle: selectedHandle,
+              initials,
+              firstName,
+              storageMode: getFolderStorageMode(folder),
+            });
+          } catch {
+            status.textContent = `Impossible d'ouvrir le dossier de ${label}. Vérifiez qu'il est toujours accessible.`;
+          } finally {
+            isOpeningFolder = false;
+            setCardsDisabled(false);
           }
-          return "";
         };
 
         const mergeSavedFolders = async (incomingFolders) => {
@@ -276,76 +374,21 @@ function createAtelierUserSetupRuntime(config = {}) {
           return savedFolders;
         };
 
-        const applySavedFolderSelection = async (folderId, options = {}) => {
-          const requestPermission = options.requestPermission !== false;
-          const folder = savedFolders.find((entry) => entry.id === folderId);
-          if (!folder) return;
-          selectedSavedId = folderId;
-          preferredStorageMode = getFolderStorageMode(folder);
-          renderStorageModeButtons();
-          renderSavedFolders();
-          rootHandle = folder.handle || null;
-          resolvedInitials = deriveInitials(rootHandle, "");
-          firstNameInput.value = "";
-          setFirstNameVisibility(false);
-
-          if (!requestPermission) {
-            const profile = await storage.loadUserProfile(rootHandle, resolvedInitials, false);
-            firstNameInput.value = profile && profile.firstName ? profile.firstName : "";
-            setFirstNameEditMode(true);
-            setFirstNameVisibility(true);
-            setValidateVisibility(true);
-            updateFolderStatus();
-            return;
-          }
-
-          try {
-            let selectedHandle = rootHandle;
-            let ok = await storage.ensureWritePermission(selectedHandle);
-            if (ok) {
-              selectedHandle = await storage.resolveUserRootHandle(selectedHandle, resolvedInitials);
-              ok = await storage.ensureWritePermission(selectedHandle);
-            }
-            if (!ok) {
-              status.textContent = "Permission refusee sur ce dossier. Selectionnez-en un autre ou ajoutez-en un nouveau.";
-              return;
-            }
-
-            rootHandle = selectedHandle;
-            resolvedInitials = deriveInitials(rootHandle, "");
-            const profile = await storage.loadUserProfile(rootHandle, resolvedInitials, false);
-            if (profile) {
-              const profileInitials = storage.normalizeInitials(profile.initials);
-              if (profileInitials) resolvedInitials = profileInitials;
-              firstNameInput.value = profile.firstName || "";
-            } else {
-              firstNameInput.value = "";
-            }
-            setFirstNameEditMode(true);
-            setFirstNameVisibility(true);
-            setValidateVisibility(true);
-            updateFolderStatus();
-          } catch {
-            setValidateVisibility(false);
-            status.textContent = "Impossible d'ouvrir ce dossier. Selectionnez-en un autre.";
-          }
-        };
-
         pickBtn.onclick = async () => {
-          const restoreMode = savedFolders.length ? "add-folder" : "pick-folder";
+          const restoreMode = rootHandle ? "change-folder" : "pick-folder";
           setPickButtonMode("hidden");
           try {
             const handle = await storage.pickUserDirectory();
             if (!handle) {
               setPickButtonMode(restoreMode);
-              status.textContent = "Selection annulee.";
+              status.textContent = "Sélection annulée.";
               return;
             }
 
             const canWrite = await storage.ensureWritePermission(handle);
             if (!canWrite) {
               setPickButtonMode(restoreMode);
-              status.textContent = "Permission refusee sur ce dossier.";
+              status.textContent = "Accès refusé à ce dossier.";
               return;
             }
 
@@ -359,7 +402,7 @@ function createAtelierUserSetupRuntime(config = {}) {
               const ok = await storage.ensureWritePermission(resolvedHandle);
               if (!ok) {
                 setPickButtonMode(restoreMode);
-                status.textContent = "Permission refusee sur ce dossier.";
+                status.textContent = "Accès refusé à ce dossier.";
                 return;
               }
             }
@@ -383,78 +426,62 @@ function createAtelierUserSetupRuntime(config = {}) {
               storageMode: preferredStorageMode,
             }]);
             await storage.setSavedWorkFolders(savedFolders);
-            renderSavedFolders();
 
-            const newId = await findSavedFolderIdByHandle(rootHandle);
-            if (newId) {
-              selectedSavedId = newId;
-              if (savedFoldersSelect) savedFoldersSelect.value = newId;
-            }
-
-            setPickButtonMode("add-folder");
+            setPickButtonMode("change-folder");
             setFirstNameVisibility(true);
-            setValidateVisibility(true);
             updateFolderStatus();
             if (!firstNameInput.readOnly) firstNameInput.focus();
           } catch (error) {
             setPickButtonMode(restoreMode);
             if (!error || error.name === "AbortError") {
-              status.textContent = "Selection annulee.";
+              status.textContent = "Sélection annulée.";
             } else {
               status.textContent = "Impossible d'ouvrir ce dossier.";
             }
           }
         };
 
-        if (savedFoldersSelect) {
-          savedFoldersSelect.onchange = async () => {
-            selectedSavedId = savedFoldersSelect.value;
-            await applySavedFolderSelection(selectedSavedId);
+        const switchStorageMode = (mode) => {
+          preferredStorageMode = mode;
+          rootHandle = null;
+          firstNameInput.value = "";
+          setFirstNameVisibility(false);
+          renderStorageModeBadge();
+          setPickButtonMode("pick-folder");
+          updateFolderStatus();
+        };
+
+        if (modeToggleBtn) {
+          modeToggleBtn.onclick = () => {
+            if (!isServerAvailable()) return;
+            switchStorageMode(preferredStorageMode === "server" ? "local" : "server");
           };
         }
 
-        if (localModeBtn) {
-          localModeBtn.onclick = async () => {
-            preferredStorageMode = "local";
-            selectedSavedId = findBestSavedFolderIdForMode("local");
-            rootHandle = null;
-            renderStorageModeButtons();
-            renderSavedFolders();
-            if (selectedSavedId) {
-              if (savedFoldersSelect) savedFoldersSelect.value = selectedSavedId;
-              await applySavedFolderSelection(selectedSavedId, { requestPermission: false });
-              return;
-            }
-            updateFolderStatus();
+        if (openOtherBtn) {
+          openOtherBtn.onclick = () => {
+            showForm({ title: "Ouvrir mon dossier" });
+            // Le clic courant sert de geste utilisateur pour ouvrir directement le sélecteur.
+            pickBtn.onclick();
           };
         }
 
-        if (serverModeBtn) {
-          serverModeBtn.onclick = async () => {
-            if (serverModeBtn.disabled) return;
-            preferredStorageMode = "server";
-            selectedSavedId = findBestSavedFolderIdForMode("server");
-            rootHandle = null;
-            renderStorageModeButtons();
-            renderSavedFolders();
-            if (selectedSavedId) {
-              if (savedFoldersSelect) savedFoldersSelect.value = selectedSavedId;
-              await applySavedFolderSelection(selectedSavedId, { requestPermission: false });
-              return;
-            }
-            updateFolderStatus();
+        if (backBtn) {
+          backBtn.onclick = () => {
+            renderUserCards();
+            showChooser();
           };
         }
 
         const validateSelection = async () => {
           if (!rootHandle) {
-            status.textContent = "Choisissez le dossier utilisateur avant de valider.";
+            status.textContent = "Choisissez d'abord votre dossier.";
             return;
           }
 
           const firstName = storage.normalizeFirstName(firstNameInput.value);
           if (!firstName) {
-            status.textContent = "Votre prenom est obligatoire.";
+            status.textContent = "Votre prénom est obligatoire.";
             firstNameInput.focus();
             return;
           }
@@ -467,7 +494,7 @@ function createAtelierUserSetupRuntime(config = {}) {
               ok = await storage.ensureWritePermission(selectedHandle);
             }
             if (!ok) {
-              status.textContent = "Permission refusee sur ce dossier. Selectionnez-en un autre ou ajoutez-en un nouveau.";
+              status.textContent = "Accès refusé à ce dossier. Choisissez-en un autre.";
               return;
             }
 
@@ -477,7 +504,7 @@ function createAtelierUserSetupRuntime(config = {}) {
             await storage.ensureProgressDirectory(rootHandle, initials, true);
             closeModal({ rootHandle, initials, firstName, storageMode: preferredStorageMode });
           } catch {
-            status.textContent = "Impossible de creer ou d'ouvrir le dossier utilisateur.";
+            status.textContent = "Impossible de créer ou d'ouvrir le dossier utilisateur.";
           }
         };
 
@@ -496,51 +523,42 @@ function createAtelierUserSetupRuntime(config = {}) {
         modal.setAttribute("aria-hidden", "false");
         preferredStorageMode = getPreferredStorageMode();
         configuredUserFoldersRootLabel = getConfiguredUserFoldersRootLabel();
-        renderStorageModeButtons();
         resolvedInitials = deriveInitials(rootHandle, defaults.initials);
         firstNameInput.value = "";
         setFirstNameVisibility(false);
         setValidateVisibility(false);
-        setFirstNameEditMode(false);
+
+        if (!savedFolders.length) {
+          showForm({ title: "Bienvenue !" });
+          return;
+        }
+
+        if (chooserWrap) chooserWrap.style.display = "grid";
+        if (formWrap) formWrap.style.display = "none";
+        setTitle("Qui êtes-vous ?");
+        status.textContent = "Chargement des utilisateurs…";
 
         (async () => {
           for (const folder of savedFolders) {
-            if (!folder.firstName && folder.handle && storage.loadUserProfile) {
+            if ((!folder.firstName || !folder.initials) && folder.handle && storage.loadUserProfile) {
               try {
                 const folderInitials = deriveInitials(folder.handle, "");
                 const profile = await storage.loadUserProfile(folder.handle, folderInitials, false);
-                if (profile && profile.firstName) {
+                if (profile && profile.firstName && !folder.firstName) {
                   folder.firstName = storage.normalizeFirstName
                     ? storage.normalizeFirstName(profile.firstName)
                     : profile.firstName;
+                }
+                if (profile && profile.initials && !folder.initials) {
+                  folder.initials = profile.initials;
                 }
               } catch {
                 // Ignore unreadable folders in the chooser.
               }
             }
           }
-          renderSavedFolders();
-          if (savedFolders.length > 0) {
-            setPickButtonMode("add-folder");
-            if (rootHandle) {
-              selectedSavedId = await findSavedFolderIdByHandle(rootHandle);
-            }
-            if (!selectedSavedId && savedFoldersSelect && savedFoldersSelect.value) {
-              selectedSavedId = savedFoldersSelect.value;
-            }
-            if (selectedSavedId) {
-              if (savedFoldersSelect) savedFoldersSelect.value = selectedSavedId;
-              await applySavedFolderSelection(selectedSavedId, { requestPermission: false });
-            } else {
-              updateFolderStatus();
-            }
-          } else {
-            setPickButtonMode("pick-folder");
-            updateFolderStatus();
-          }
-          if (firstNameInput.style.display !== "none") {
-            firstNameInput.focus();
-          }
+          renderUserCards();
+          showChooser();
         })();
       });
     },

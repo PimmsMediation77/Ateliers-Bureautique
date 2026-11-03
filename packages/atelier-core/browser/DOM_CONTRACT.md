@@ -36,13 +36,16 @@ Ce document liste les éléments HTML minimaux attendus par le runtime partagé 
 ## Modales
 
 - `user-setup-modal`
+- `user-setup-title`
 - `user-setup-status`
+- `user-setup-chooser`
+- `user-setup-user-list`
+- `user-setup-open-other-btn`
+- `user-setup-form`
+- `user-setup-back-btn`
 - `user-setup-storage-mode-wrap`
-- `user-setup-mode-local-btn`
-- `user-setup-mode-server-btn`
+- `user-setup-mode-toggle-btn`
 - `user-setup-mode-help`
-- `user-setup-saved-folders-wrap`
-- `user-setup-saved-folders-select`
 - `user-setup-pick-root-btn`
 - `user-setup-firstname-input`
 - `user-setup-cancel-btn`

@@ -15,25 +15,25 @@
   <script defer src="data/exercises.js?v=1.20.2"></script>
   <script defer src="data/availability-overrides.js?v=1.20.2"></script>
   <!-- ATELIER_SHARED_BOOTSTRAP_SCRIPTS:START -->
-  <script defer src="js/app-config.js?v=1.20.2"></script>
-  <script defer src="js/core/model.js?v=1.20.2"></script>
-  <script defer src="js/core/view.js?v=1.20.2"></script>
-  <script defer src="js/core/storage.js?v=1.20.2"></script>
-  <script defer src="js/core/home.js?v=1.20.2"></script>
-  <script defer src="js/core/themes.js?v=1.20.2"></script>
-  <script defer src="js/core/exercise.js?v=1.20.2"></script>
-  <script defer src="js/core/route.js?v=1.20.2"></script>
-  <script defer src="js/core/ui-events.js?v=1.20.2"></script>
-  <script defer src="js/core/persistence.js?v=1.20.2"></script>
-  <script defer src="js/core/session.js?v=1.20.2"></script>
-  <script defer src="js/core/workfile.js?v=1.20.2"></script>
-  <script defer src="js/core/reminder-modal.js?v=1.20.2"></script>
-  <script defer src="js/core/user-setup.js?v=1.20.2"></script>
-  <script defer src="js/core/progress.js?v=1.20.2"></script>
-  <script defer src="js/core/profile.js?v=1.20.2"></script>
-  <script defer src="js/core/controller.js?v=1.20.2"></script>
-  <script defer src="js/core/app-runtime.js?v=1.20.2"></script>
-  <script defer src="js/core/app-bootstrap.js?v=1.20.2"></script>
+  <script defer src="js/app-config.js"></script>
+  <script defer src="js/core/model.js"></script>
+  <script defer src="js/core/view.js"></script>
+  <script defer src="js/core/storage.js"></script>
+  <script defer src="js/core/home.js"></script>
+  <script defer src="js/core/themes.js"></script>
+  <script defer src="js/core/exercise.js"></script>
+  <script defer src="js/core/route.js"></script>
+  <script defer src="js/core/ui-events.js"></script>
+  <script defer src="js/core/persistence.js"></script>
+  <script defer src="js/core/session.js"></script>
+  <script defer src="js/core/workfile.js"></script>
+  <script defer src="js/core/reminder-modal.js"></script>
+  <script defer src="js/core/user-setup.js"></script>
+  <script defer src="js/core/progress.js"></script>
+  <script defer src="js/core/profile.js"></script>
+  <script defer src="js/core/controller.js"></script>
+  <script defer src="js/core/app-runtime.js"></script>
+  <script defer src="js/core/app-bootstrap.js"></script>
   <!-- ATELIER_SHARED_BOOTSTRAP_SCRIPTS:END -->
 </head>
 
@@ -313,36 +313,117 @@
   </div>
 
   <!-- ATELIER_SHARED_USER_SETUP_MODAL:START -->
-  <div id="user-setup-modal" class="image-modal" style="display:none;" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Configuration utilisateur">
+  <style>
+    .user-setup-user-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 10px;
+    }
+
+    .user-setup-user-card {
+      display: grid;
+      justify-items: center;
+      gap: 4px;
+      padding: 14px 10px;
+      border: 2px solid var(--line);
+      border-radius: 14px;
+      background: var(--panel);
+      color: inherit;
+      font: inherit;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 120ms ease, background 120ms ease;
+    }
+
+    .user-setup-user-card:hover,
+    .user-setup-user-card:focus-visible {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .user-setup-user-card:disabled {
+      cursor: wait;
+      opacity: 0.6;
+    }
+
+    .user-setup-user-avatar {
+      display: grid;
+      place-items: center;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+
+    .user-setup-user-card-new .user-setup-user-avatar {
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 1.6rem;
+    }
+
+    .user-setup-user-name {
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .user-setup-user-meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .user-setup-mode-badge {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      justify-self: start;
+      margin: 0;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .user-setup-link-btn {
+      padding: 0;
+      border: 0;
+      background: none;
+      color: var(--accent);
+      font: inherit;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  </style>
+  <div id="user-setup-modal" class="image-modal" style="display:none;" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="user-setup-title">
     <div class="modal-content user-setup-content">
-      <h2 style="margin-top:0;">Configuration utilisateur</h2>
-      <p class="muted">La première fois, sélectionnez votre dossier de travail dans <code>Documents</code>. Ensuite, votre profil est mémorisé automatiquement.</p>
-      <p id="user-setup-status" class="muted status-line">Choisissez votre dossier de travail pour commencer.</p>
+      <h2 id="user-setup-title" style="margin-top:0;">Qui êtes-vous ?</h2>
+      <p id="user-setup-status" class="muted status-line" aria-live="polite">Cliquez sur votre prénom pour continuer.</p>
 
-      <div style="margin-top:12px;display:grid;gap:10px;">
-        <div id="user-setup-storage-mode-wrap" style="display:grid;gap:8px;">
-          <span class="field">Emplacement a utiliser</span>
-          <div style="display:flex;gap:8px;flex-wrap:wrap;">
-            <button id="user-setup-mode-local-btn" class="btn btn-soft" type="button">Dossier local</button>
-            <button id="user-setup-mode-server-btn" class="btn btn-soft" type="button">Dossier serveur</button>
-          </div>
-          <p id="user-setup-mode-help" class="muted status-line" style="margin:0;">Mode local : utilisez un dossier sur cette machine.</p>
-        </div>
+      <div id="user-setup-chooser" style="display:none;margin-top:12px;gap:12px;">
+        <div id="user-setup-user-list" class="user-setup-user-list"></div>
+        <p style="margin:0;"><button id="user-setup-open-other-btn" class="user-setup-link-btn" type="button">Mon prénom n'est pas dans la liste : ouvrir mon dossier</button></p>
+      </div>
 
-        <div id="user-setup-saved-folders-wrap" style="display:none;">
-          <label for="user-setup-saved-folders-select" class="field" style="margin-bottom:6px;">Dossiers de travail enregistrés</label>
-          <select id="user-setup-saved-folders-select"></select>
-        </div>
+      <div id="user-setup-form" style="display:none;margin-top:12px;gap:10px;">
+        <p id="user-setup-storage-mode-wrap" class="user-setup-mode-badge" style="display:none;">
+          <span id="user-setup-mode-help">&#128205; Enregistrement : sur cet ordinateur</span>
+          <button id="user-setup-mode-toggle-btn" class="user-setup-link-btn" type="button">changer</button>
+        </p>
 
-        <button id="user-setup-pick-root-btn" class="btn btn-soft has-icon" data-icon="&#128193;" type="button" style="display:none;">Ajouter un dossier de travail</button>
+        <button id="user-setup-pick-root-btn" class="btn btn-soft has-icon" data-icon="&#128193;" type="button" style="display:none;">Choisir ou créer un dossier</button>
 
         <label for="user-setup-firstname-input" class="field" style="margin-bottom:0;">Votre prénom</label>
         <input id="user-setup-firstname-input" type="text" maxlength="30" placeholder="Ex. : Alice" style="border:2px solid var(--line);border-radius:10px;padding:10px;font:inherit;">
       </div>
 
-      <div style="margin-top:16px;display:flex;justify-content:flex-end;gap:8px;">
+      <div style="margin-top:16px;display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;">
+        <button id="user-setup-back-btn" class="btn btn-soft" type="button" style="display:none;margin-right:auto;">&#8592; Retour à la liste</button>
         <button id="user-setup-cancel-btn" class="btn btn-soft" type="button">Annuler</button>
-        <button id="user-setup-validate-btn" class="btn has-icon" data-icon="&#10003;" type="button">Valider</button>
+        <button id="user-setup-validate-btn" class="btn has-icon" data-icon="&#10003;" type="button" style="display:none;">Valider</button>
       </div>
     </div>
   </div>
