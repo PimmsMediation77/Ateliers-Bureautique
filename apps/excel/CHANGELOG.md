@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.15.0](///compare/excel-v1.14.0...excel-v1.15.0) (2026-11-03)
+
+
+### Features
+
+* **core:** refondre l'accueil module avec une carte unique et un fil « vous êtes ici » 77b0cb6
+
 ## [1.14.0](///compare/excel-v1.13.2...excel-v1.14.0) (2026-11-03)
 
 
