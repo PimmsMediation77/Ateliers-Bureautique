@@ -25,6 +25,7 @@ function createAtelierController(config = {}) {
     this.routeStorageKey = `atelier:last-hash:${settings.progressFileName}`;
     this.uiStateStorageKey = `atelier:last-ui-state:${settings.progressFileName}`;
     this.userSnapshotStorageKey = `atelier:last-user:${settings.progressFileName}`;
+    this.identityCheckStorageKey = `atelier:identity-check:${settings.progressFileName}`;
     this.persistenceRuntime = window.createAtelierPersistenceRuntime({
       localStorage: window.localStorage,
       routeStorageKey: this.routeStorageKey,
@@ -73,7 +74,7 @@ function createAtelierController(config = {}) {
       renderThemes: () => this.#renderThemesOverview(),
       renderAffinity: (affinityId, themeId) => this.#renderAffinityPage(affinityId, themeId),
       renderExercise: (exerciseId) => this.#renderExercisePage(exerciseId),
-      renderProgress: () => this.#renderProgressPage(),
+      renderProgress: () => this.#renderProfilePage(),
       renderProfile: () => this.#renderProfilePage(),
     });
     this.uiEventsRuntime = window.createAtelierUiEventsRuntime({
@@ -270,12 +271,92 @@ function createAtelierController(config = {}) {
     if (session.permissionRequired) {
       this.pendingPermissionSession = session;
       this.view.setHeaderUser(session.firstName || "", session.initials || "");
-      this.view.setProgressStatus("Accès dossier requis. Cliquez sur « Commencer maintenant » pour autoriser l'accès.");
+      this.view.setProgressStatus("Accès dossier requis. Cliquez sur « Commencer » pour autoriser l'accès.");
       this.#renderFromHash();
+      if (!this.#isIdentityConfirmedToday(session)) this.#openIdentityCheck(session);
       return;
     }
 
-    await this.#activateSession(session, { render: true });
+    await this.#activateSession(session, { render: true, fromBootstrap: true });
+    if (!this.#isIdentityConfirmedToday(session)) this.#openIdentityCheck(session);
+  }
+
+  // Vérification d'identité : à la première connexion du jour, on demande
+  // confirmation avant de laisser travailler sur la session reprise automatiquement.
+  #todayKey() {
+    const now = new Date();
+    const month = String(now.getMonth() + 1).padStart(2, "0");
+    const day = String(now.getDate()).padStart(2, "0");
+    return `${now.getFullYear()}-${month}-${day}`;
+  }
+
+  #identityKeyFor(session) {
+    return String((session && (session.initials || session.firstName)) || "").trim().toLowerCase();
+  }
+
+  #isIdentityConfirmedToday(session) {
+    try {
+      const saved = JSON.parse(window.localStorage.getItem(this.identityCheckStorageKey) || "null");
+      return Boolean(saved && saved.day === this.#todayKey() && saved.user === this.#identityKeyFor(session));
+    } catch {
+      return false;
+    }
+  }
+
+  #markIdentityConfirmed(session) {
+    if (!session) return;
+    try {
+      window.localStorage.setItem(this.identityCheckStorageKey, JSON.stringify({
+        day: this.#todayKey(),
+        user: this.#identityKeyFor(session),
+      }));
+    } catch {
+      // Stockage indisponible : la question sera simplement reposée.
+    }
+  }
+
+  #openIdentityCheck(session) {
+    const modal = document.getElementById("identity-check-modal");
+    const title = document.getElementById("identity-check-title");
+    const avatar = document.getElementById("identity-check-initials");
+    const confirmBtn = document.getElementById("identity-check-confirm-btn");
+    const switchBtn = document.getElementById("identity-check-switch-btn");
+    if (!modal || !confirmBtn || !switchBtn) return;
+
+    const name = String(session.firstName || session.initials || "").trim();
+    if (title) title.textContent = name ? `Bonjour, êtes-vous ${name} ?` : "Bonjour, est-ce bien votre session ?";
+    if (avatar) avatar.textContent = String(session.initials || name.slice(0, 2)).toUpperCase();
+
+    const close = () => {
+      modal.style.display = "none";
+      modal.setAttribute("aria-hidden", "true");
+      confirmBtn.onclick = null;
+      switchBtn.onclick = null;
+    };
+
+    confirmBtn.onclick = async () => {
+      close();
+      // Le clic sert aussi de geste utilisateur pour réautoriser l'accès au dossier.
+      if (this.pendingPermissionSession) {
+        const ok = await this.#resumePendingSessionFromUserGesture();
+        if (!ok) return;
+      }
+      this.#markIdentityConfirmed(this.userSession || session);
+    };
+
+    switchBtn.onclick = async () => {
+      close();
+      const nextSession = await this.#resolveUserSession(true, { allowPermissionPrompt: true });
+      if (!nextSession) {
+        this.#openIdentityCheck(session);
+        return;
+      }
+      await this.#activateSession(nextSession, { render: true, targetHash: "#home" });
+    };
+
+    modal.style.display = "flex";
+    modal.setAttribute("aria-hidden", "false");
+    if (typeof confirmBtn.focus === "function") confirmBtn.focus();
   }
 
   async #loadDeploymentRuntimeState() {
@@ -333,13 +414,11 @@ function createAtelierController(config = {}) {
     this.exerciseRuntime.render(exerciseId);
   }
 
-  #renderProgressPage() {
-    this.progressRuntime.render();
-  }
-
   // FIX 2 — Page Profil : affiche les infos utilisateur et permet de modifier le prénom inline.
   // Prérequis HTML : <div id="profile-user-section"></div> dans #page-profile.
+  // La progression (stats, courbe, rapport) est affichée dans cette même page.
   #renderProfilePage() {
+    this.progressRuntime.render();
     this.profileRuntime.render();
   }
 
@@ -350,6 +429,8 @@ function createAtelierController(config = {}) {
   async #activateSession(session, options = {}) {
     this.userSession = session;
     this.pendingPermissionSession = null;
+    // Toute activation hors reprise automatique est un choix explicite de l'utilisateur.
+    if (!options.fromBootstrap) this.#markIdentityConfirmed(session);
     await this.#loadProgressForSession(session);
     this.isReady = true;
     if (options.targetHash && String(options.targetHash).trim()) {
@@ -383,7 +464,7 @@ function createAtelierController(config = {}) {
     }
 
     if (!ok) {
-      this.view.setProgressStatus("Accès au dossier refusé. Cliquez à nouveau sur « Commencer maintenant » pour réessayer.");
+      this.view.setProgressStatus("Accès au dossier refusé. Cliquez à nouveau sur « Commencer » pour réessayer.");
       return false;
     }
 

@@ -480,11 +480,11 @@ body {
 }
 
 .home-start-btn {
-  min-width: 280px;
-  min-height: 58px;
-  padding: 14px 28px;
-  font-size: 1.15rem;
-  border-radius: 12px;
+  min-width: 380px;
+  min-height: 80px;
+  padding: 18px 44px;
+  font-size: 1.45rem;
+  border-radius: 16px;
   box-shadow: 0 8px 18px rgba(31, 44, 57, 0.18);
 }
 

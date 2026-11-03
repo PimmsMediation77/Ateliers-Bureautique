@@ -10,7 +10,6 @@ Ce document liste les éléments HTML minimaux attendus par le runtime partagé 
 - `page-themes`
 - `page-affinity`
 - `page-exercise`
-- `page-progress`
 - `page-profile`
 
 ## Identité utilisateur
@@ -35,6 +34,11 @@ Ce document liste les éléments HTML minimaux attendus par le runtime partagé 
 
 ## Modales
 
+- `identity-check-modal`
+- `identity-check-title`
+- `identity-check-initials`
+- `identity-check-confirm-btn`
+- `identity-check-switch-btn`
 - `user-setup-modal`
 - `user-setup-title`
 - `user-setup-status`

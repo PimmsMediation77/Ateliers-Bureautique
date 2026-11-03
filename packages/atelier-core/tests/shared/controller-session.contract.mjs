@@ -131,6 +131,11 @@ function createLocalStorage(initial = {}) {
 function createDocument() {
   const ids = [
     "home-start-btn",
+    "identity-check-modal",
+    "identity-check-title",
+    "identity-check-initials",
+    "identity-check-confirm-btn",
+    "identity-check-switch-btn",
     "exercise-back-btn",
     "affinity-back-btn",
     "user-setup-modal",
@@ -341,7 +346,6 @@ function createView() {
     },
     renderProgress(vm) {
       this.renderedProgressVm = vm;
-      this.shownPage = "progress";
     },
     renderAffinityOverview(vm) {
       this.renderedAffinityOverviewVm = vm;
@@ -717,6 +721,38 @@ export async function registerControllerSessionContractTests({
     assert.equal(harness.storageState.savedFirstName, "Chloe");
   });
 
+  test("controller asks to confirm the resumed user once per day", async () => {
+    const aliceHandle = createHandle("alice-folder", "Alice");
+    const options = {
+      savedRootHandle: aliceHandle,
+      savedInitials: "AL",
+      savedFirstName: "Alice",
+      savedWorkFolders: [
+        { id: "alice-folder", name: "Alice", handle: aliceHandle, lastUsedAt: "2026-06-24T09:00:00.000Z" },
+      ],
+      profiles: new Map([["alice-folder", { initials: "AL", firstName: "Alice" }]]),
+      progressByInitials: new Map([["AL", { done: [] }]]),
+    };
+    const firstRun = createHarness(options);
+
+    firstRun.controller.init();
+    await flushAsyncWork();
+
+    const modal = firstRun.document.getElementById("identity-check-modal");
+    assert.equal(modal.style.display, "flex");
+    assert.equal(firstRun.document.getElementById("identity-check-title").textContent, "Bonjour, êtes-vous Alice ?");
+
+    firstRun.document.getElementById("identity-check-confirm-btn").click();
+    await flushAsyncWork();
+    assert.equal(modal.style.display, "none");
+
+    const secondRun = createHarness({ ...options, localStorage: firstRun.window.localStorage.dump() });
+    secondRun.controller.init();
+    await flushAsyncWork();
+
+    assert.notEqual(secondRun.document.getElementById("identity-check-modal").style.display, "flex");
+  });
+
   test("controller updates the shared profile view and saved first name", async () => {
     const aliceHandle = createHandle("alice-folder", "Alice");
     const harness = createHarness({
@@ -749,7 +785,7 @@ export async function registerControllerSessionContractTests({
     assert.equal(harness.document.getElementById("profile-firstname-display").textContent, "Alicia");
   });
 
-  test("controller renders the shared progress view model", async () => {
+  test("controller renders the progress inside the profile page", async () => {
     const aliceHandle = createHandle("alice-folder", "Alice");
     const harness = createHarness({
       savedRootHandle: aliceHandle,
@@ -769,7 +805,7 @@ export async function registerControllerSessionContractTests({
     harness.triggerWindowEvent("hashchange");
     await flushAsyncWork();
 
-    assert.equal(harness.view.shownPage, "progress");
+    assert.equal(harness.view.shownPage, "profile");
     assert.deepEqual(JSON.parse(JSON.stringify(harness.view.renderedProgressVm)), {
       completed: 0,
       total: 1,

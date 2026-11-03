@@ -1,13 +1,12 @@
 (() => {
+// La progression s'affiche dans la page Profil : ce runtime ne fait que remplir
+// ses sections, sans changer de page.
 function createAtelierProgressRuntime(config = {}) {
-  const persistenceRuntime = config.persistenceRuntime;
   const view = config.view;
   const model = config.model;
 
   return {
     render() {
-      persistenceRuntime.persistUiState({ page: "progress" });
-      view.showPage("progress");
       const summary = model.getSummary();
       const curveSeries = model.getCurveSeries(30);
       const usabilityReport = typeof model.getUsabilityReport === "function"

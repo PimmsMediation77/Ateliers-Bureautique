@@ -89,7 +89,6 @@ class AtelierView {
       themes: document.getElementById("page-themes"),
       affinity: document.getElementById("page-affinity"),
       exercise: document.getElementById("page-exercise"),
-      progress: document.getElementById("page-progress"),
       profile: document.getElementById("page-profile"),
     };
 
@@ -357,7 +356,8 @@ class AtelierView {
         ? `<span class="breadcrumb-link" data-action="open-affinity" data-affinity-id="${escapeHtml(vm.affinityId || "")}">${escapeHtml(vm.affinityLabel)}</span><span class="breadcrumb-sep">&#10095;</span>`
         : "";
       const theme = `<span class="breadcrumb-link" data-action="toggle-theme" data-affinity-id="${escapeHtml(vm.affinityId || "")}" data-theme-id="${escapeHtml(vm.exercise.moduleId)}">${escapeHtml(vm.exercise.moduleName)}</span><span class="breadcrumb-sep">&#10095;</span>`;
-      this.exerciseBreadcrumb.innerHTML = `${aff}${theme}<span class="breadcrumb-current">Exercice ${vm.exercise.num}</span>`;
+      const home = `<a class="breadcrumb-link" href="#home">Accueil</a><span class="breadcrumb-sep">&#10095;</span>`;
+      this.exerciseBreadcrumb.innerHTML = `${home}${aff}${theme}<span class="breadcrumb-current">Exercice ${vm.exercise.num}</span>`;
     }
 
     // Progression dans le thème
