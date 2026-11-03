@@ -5,9 +5,14 @@
 
 /* ─── Variables supplémentaires ─────────────────────────────────────────────── */
 :root {
-  --ex-blue:        #1a5eb8;
-  --ex-blue-soft:   #e8f0fc;
-  --ex-blue-border: #b3caf0;
+  /* Couleur principale du module (nom historique « ex-blue » conservé) */
+  --ex-blue:        #d24726;
+  --ex-blue-soft:   #ffe5dd;
+  --ex-blue-border: #f1c8bb;
+  --ex-blue-tint:   #fff4ef;
+  --ex-blue-strong: #a8371c;
+  --ex-blue-hover:  #b83d20;
+  --ex-accent-light: #ee8a6a;
   --ex-violet:      #6c5ce7;
   --ex-violet-soft: #f0eeff;
   --ex-violet-border: #c4b8f5;
@@ -193,7 +198,7 @@
 
 #exercise-theme-progress-bar {
   height: 100%;
-  background: linear-gradient(90deg, var(--accent), #59a0aa);
+  background: linear-gradient(90deg, var(--accent), var(--ex-accent-light));
   border-radius: inherit;
   width: 0%;
   transition: width 0.4s ease;
@@ -240,7 +245,7 @@
   position: relative;
   overflow: hidden;
   padding-left: 20px;
-  background: linear-gradient(135deg, var(--ex-blue-soft) 0%, #f0f6ff 100%);
+  background: linear-gradient(135deg, var(--ex-blue-soft) 0%, var(--ex-blue-tint) 100%);
   border-color: var(--ex-blue-border);
 }
 
@@ -305,14 +310,14 @@
 /* Bouton principal de téléchargement du fichier de travail */
 #exercise-workfile-btn {
   background: var(--ex-blue);
-  border-color: #144fa0;
+  border-color: var(--ex-blue-strong);
   color: #fff;
   font-size: 1rem;
   padding: 11px 16px;
   flex: 1;
 }
 
-#exercise-workfile-btn:hover { background: #1550a8; }
+#exercise-workfile-btn:hover { background: var(--ex-blue-hover); }
 
 /* Hint sous le bouton */
 .exercise-pptx-hint,
