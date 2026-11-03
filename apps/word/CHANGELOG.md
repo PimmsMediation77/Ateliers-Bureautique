@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.23.0](///compare/word-v1.22.0...word-v1.23.0) (2026-11-03)
+
+
+### Features
+
+* **core:** vérifier l'identité chaque jour et simplifier la navigation 8be8b69
+
+
+### Bug Fixes
+
+* **core:** afficher l'accueil du module au changement de module bbd48ac
+* **core:** agrandir le texte du bouton Continuer de l'accueil 2e01a69
+* **core:** ouvrir les liens internes même quand l'accès au dossier est à réautoriser 0e6d289
+* **ui:** appliquer les couleurs du module Excel et PowerPoint sur la page exercice a7ec98f
+
 ## [1.22.0](///compare/word-v1.21.0...word-v1.22.0) (2026-11-03)
 
 

@@ -1,7 +1,108 @@
 window.RELEASES_DATA = {
-  "version": "1.22.0",
-  "updatedAt": "2026-11-03T12:42:06.759Z",
+  "version": "1.23.0",
+  "updatedAt": "2026-11-03T14:16:07.739Z",
   "releases": [
+    {
+      "version": "1.23.0",
+      "tag": "word-v1.23.0",
+      "date": "2026-11-03",
+      "releaseType": "minor",
+      "impact": {
+        "level": "medium",
+        "rationale": "Nouvelles fonctionnalites ou changements techniques structurants."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "bb9770c"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "core",
+          "description": "ouvrir les liens internes même quand l'accès au dossier est à réautoriser",
+          "breaking": false,
+          "hash": "0e6d289"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "core",
+          "description": "agrandir le texte du bouton Continuer de l'accueil",
+          "breaking": false,
+          "hash": "2e01a69"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "core",
+          "description": "afficher l'accueil du module au changement de module",
+          "breaking": false,
+          "hash": "bbd48ac"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "ui",
+          "description": "appliquer les couleurs du module Excel et PowerPoint sur la page exercice",
+          "breaking": false,
+          "hash": "a7ec98f"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "core",
+          "description": "vérifier l'identité chaque jour et simplifier la navigation",
+          "breaking": false,
+          "hash": "8be8b69"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.44.0",
+          "breaking": false,
+          "hash": "b5bed17"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.67",
+          "breaking": false,
+          "hash": "cc2acc9"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.15.0",
+          "breaking": false,
+          "hash": "c9cd050"
+        }
+      ],
+      "counts": {
+        "feat": 1,
+        "fix": 4,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 9
+      }
+    },
     {
       "version": "1.22.0",
       "tag": "word-v1.22.0",
