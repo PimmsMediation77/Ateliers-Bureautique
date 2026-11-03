@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.23.1](///compare/word-v1.23.0...word-v1.23.1) (2026-11-03)
+
+
+### Bug Fixes
+
+* **ui:** une seule dominante de couleur par module sur la page exercice 4048cfe, closes #C43E1
+
 ## [1.23.0](///compare/word-v1.22.0...word-v1.23.0) (2026-11-03)
 
 
