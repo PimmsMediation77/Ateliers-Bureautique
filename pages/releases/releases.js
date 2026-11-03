@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.45.0",
-  "updatedAt": "2026-11-03T14:16:32.940Z",
+  "version": "1.46.0",
+  "updatedAt": "2026-11-03T14:30:35.831Z",
   "releases": [
+    {
+      "version": "1.46.0",
+      "tag": "bureautique-v1.46.0",
+      "date": "2026-11-03",
+      "releaseType": "minor",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.69",
+          "breaking": false,
+          "hash": "50dc00e"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.16.1",
+          "breaking": false,
+          "hash": "4d01af9"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.23.1",
+          "breaking": false,
+          "hash": "9e67bf7"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "2c716dc"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "ui",
+          "description": "une seule dominante de couleur par module sur la page exercice",
+          "breaking": false,
+          "hash": "4048cfe"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.45.0",
       "tag": "bureautique-v1.45.0",
