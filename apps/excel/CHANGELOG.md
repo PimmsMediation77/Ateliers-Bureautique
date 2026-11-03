@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.16.1](///compare/excel-v1.16.0...excel-v1.16.1) (2026-11-03)
+
+
+### Bug Fixes
+
+* **ui:** une seule dominante de couleur par module sur la page exercice 4048cfe, closes #C43E1
+
 ## [1.16.0](///compare/excel-v1.15.0...excel-v1.16.0) (2026-11-03)
 
 
