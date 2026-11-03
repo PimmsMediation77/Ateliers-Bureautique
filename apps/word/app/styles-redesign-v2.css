@@ -17,6 +17,20 @@
   --ex-orange:      #c86a14;
   --ex-orange-soft: #fdf3e7;
   --ex-orange-border:#f0c88a;
+  /* Couleurs des sections B (étapes) et C (aperçu) : nuances de la dominante du module */
+  --ex-step-b:        #2b579a;
+  --ex-step-b-soft:   #e6edf8;
+  --ex-step-b-border: #b8c9e6;
+  --ex-step-b-bg-start: #f7f9fd;
+  --ex-step-b-bg-end: #eef3fb;
+  --ex-step-b-text:   #1f3f70;
+  --ex-step-b-line:   #dbe4f3;
+  --ex-step-b-light:  #5a7fc0;
+  --ex-step-c:        #1a5eb8;
+  --ex-step-c-soft:   #e8f0fc;
+  --ex-step-c-border: #b3caf0;
+  --ex-step-c-tint:   #f5f9ff;
+  --ex-step-c-text:   #154a8f;
   --ex-bar:         5px;   /* épaisseur barre latérale signature */
 }
 
@@ -340,8 +354,8 @@
   position: relative;
   overflow: hidden;
   padding-left: 20px;
-  background: linear-gradient(135deg, #faf9ff 0%, #f5f3ff 100%);
-  border-color: var(--ex-violet-border);
+  background: linear-gradient(135deg, var(--ex-step-b-bg-start) 0%, var(--ex-step-b-bg-end) 100%);
+  border-color: var(--ex-step-b-border);
 }
 
 .card:has(#exercise-steps)::after {
@@ -349,7 +363,7 @@
   position: absolute;
   left: 0; top: 0; bottom: 0;
   width: var(--ex-bar);
-  background: var(--ex-violet);
+  background: var(--ex-step-b);
   border-radius: 4px 0 0 4px;
 }
 
@@ -357,11 +371,11 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--ex-violet);
+  color: var(--ex-step-b);
   font-size: 1.05rem;
   margin-bottom: 12px;
   padding-bottom: 10px;
-  border-bottom: 1px solid var(--ex-violet-border);
+  border-bottom: 1px solid var(--ex-step-b-border);
 }
 
 .card:has(#exercise-steps)::before {
@@ -372,7 +386,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--ex-violet);
+  background: var(--ex-step-b);
   color: #fff;
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 1.05rem;
@@ -389,11 +403,11 @@
 .steps-preamble {
   margin: 0 0 12px;
   padding: 10px 14px;
-  background: var(--ex-violet-soft);
-  border-left: 3px solid var(--ex-violet);
+  background: var(--ex-step-b-soft);
+  border-left: 3px solid var(--ex-step-b);
   border-radius: 0 8px 8px 0;
   font-style: italic;
-  color: #4a3fa0;
+  color: var(--ex-step-b-text);
   font-size: 0.95rem;
   line-height: 1.5;
 }
@@ -412,7 +426,7 @@
   display: flex;
   gap: 12px;
   padding: 10px 0;
-  border-bottom: 1px solid #e8e4f8;
+  border-bottom: 1px solid var(--ex-step-b-line);
   line-height: 1.5;
   font-size: 0.97rem;
   counter-increment: step-counter;
@@ -426,7 +440,7 @@
   flex-shrink: 0;
   width: 24px; height: 24px;
   border-radius: 50%;
-  background: var(--ex-violet);
+  background: var(--ex-step-b);
   color: #fff;
   font-size: 11px;
   font-weight: 800;
@@ -446,7 +460,7 @@
 /* Blocs copier-coller */
 .steps-copy-block {
   margin: 8px 0 0;
-  border: 1px solid var(--ex-violet-border);
+  border: 1px solid var(--ex-step-b-border);
   border-radius: 8px;
   background: #fff;
   padding: 10px 12px;
@@ -479,8 +493,8 @@
   position: relative;
   overflow: hidden;
   padding-left: 20px;
-  background: linear-gradient(135deg, var(--ex-green-soft) 0%, #f5fdf8 100%);
-  border-color: var(--ex-green-border);
+  background: linear-gradient(135deg, var(--ex-step-c-soft) 0%, var(--ex-step-c-tint) 100%);
+  border-color: var(--ex-step-c-border);
 }
 
 .card:has(.images-grid)::after {
@@ -488,7 +502,7 @@
   position: absolute;
   left: 0; top: 0; bottom: 0;
   width: var(--ex-bar);
-  background: var(--ex-green);
+  background: var(--ex-step-c);
   border-radius: 4px 0 0 4px;
 }
 
@@ -496,7 +510,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--ex-green);
+  color: var(--ex-step-c);
   font-size: 1.05rem;
   margin-bottom: 12px;
 }
@@ -509,7 +523,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--ex-green);
+  background: var(--ex-step-c);
   color: #fff;
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 1.05rem;
@@ -539,7 +553,7 @@
   border-radius: 10px;
   padding: 10px;
   background: #fff;
-  border: 2px solid var(--ex-green-border);
+  border: 2px solid var(--ex-step-c-border);
 }
 
 /* Figcaption avec badge coloré */
@@ -550,7 +564,7 @@
   margin-bottom: 8px;
   font-weight: 800;
   font-size: 0.85rem;
-  color: #2a5040;
+  color: var(--ex-step-c-text);
 }
 
 #exercise-enonce-caption::before { content: "👁"; font-size: 14px; }
@@ -563,9 +577,9 @@
   border-radius: 999px;
   font-size: 10px;
   font-weight: 800;
-  background: var(--ex-green-soft);
-  color: var(--ex-green);
-  border: 1px solid var(--ex-green-border);
+  background: var(--ex-step-c-soft);
+  color: var(--ex-step-c);
+  border: 1px solid var(--ex-step-c-border);
 }
 
 /* Images thumb */

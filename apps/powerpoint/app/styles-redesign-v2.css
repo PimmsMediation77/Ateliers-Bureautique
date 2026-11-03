@@ -6,13 +6,13 @@
 /* ─── Variables supplémentaires ─────────────────────────────────────────────── */
 :root {
   /* Couleur principale du module (nom historique « ex-blue » conservé) */
-  --ex-blue:        #d24726;
-  --ex-blue-soft:   #ffe5dd;
+  --ex-blue:        #c43e1c;
+  --ex-blue-soft:   #fbe2dd;
   --ex-blue-border: #f1c8bb;
-  --ex-blue-tint:   #fff4ef;
-  --ex-blue-strong: #a8371c;
-  --ex-blue-hover:  #b83d20;
-  --ex-accent-light: #ee8a6a;
+  --ex-blue-tint:   #fdf3f1;
+  --ex-blue-strong: #a3321a;
+  --ex-blue-hover:  #b0371b;
+  --ex-accent-light: #e0705a;
   --ex-violet:      #6c5ce7;
   --ex-violet-soft: #f0eeff;
   --ex-violet-border: #c4b8f5;
@@ -22,6 +22,20 @@
   --ex-orange:      #c86a14;
   --ex-orange-soft: #fdf3e7;
   --ex-orange-border:#f0c88a;
+  /* Couleurs des sections B (étapes) et C (aperçu) : nuances de la dominante du module */
+  --ex-step-b:        #a3321a;
+  --ex-step-b-soft:   #f9e6e1;
+  --ex-step-b-border: #e6bfb5;
+  --ex-step-b-bg-start: #fdf8f7;
+  --ex-step-b-bg-end: #fbefec;
+  --ex-step-b-text:   #7c2614;
+  --ex-step-b-line:   #f1dcd6;
+  --ex-step-b-light:  #d0705a;
+  --ex-step-c:        #c43e1c;
+  --ex-step-c-soft:   #fbe2dd;
+  --ex-step-c-border: #f1c8bb;
+  --ex-step-c-tint:   #fdf3f1;
+  --ex-step-c-text:   #93301a;
   --ex-bar:         5px;   /* épaisseur barre latérale signature */
 }
 
@@ -345,8 +359,8 @@
   position: relative;
   overflow: hidden;
   padding-left: 20px;
-  background: linear-gradient(135deg, #faf9ff 0%, #f5f3ff 100%);
-  border-color: var(--ex-violet-border);
+  background: linear-gradient(135deg, var(--ex-step-b-bg-start) 0%, var(--ex-step-b-bg-end) 100%);
+  border-color: var(--ex-step-b-border);
 }
 
 .card:has(#exercise-steps)::after {
@@ -354,7 +368,7 @@
   position: absolute;
   left: 0; top: 0; bottom: 0;
   width: var(--ex-bar);
-  background: var(--ex-violet);
+  background: var(--ex-step-b);
   border-radius: 4px 0 0 4px;
 }
 
@@ -362,11 +376,11 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--ex-violet);
+  color: var(--ex-step-b);
   font-size: 1.05rem;
   margin-bottom: 12px;
   padding-bottom: 10px;
-  border-bottom: 1px solid var(--ex-violet-border);
+  border-bottom: 1px solid var(--ex-step-b-border);
 }
 
 .card:has(#exercise-steps)::before {
@@ -377,7 +391,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--ex-violet);
+  background: var(--ex-step-b);
   color: #fff;
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 1.05rem;
@@ -394,11 +408,11 @@
 .steps-preamble {
   margin: 0 0 12px;
   padding: 10px 14px;
-  background: var(--ex-violet-soft);
-  border-left: 3px solid var(--ex-violet);
+  background: var(--ex-step-b-soft);
+  border-left: 3px solid var(--ex-step-b);
   border-radius: 0 8px 8px 0;
   font-style: italic;
-  color: #4a3fa0;
+  color: var(--ex-step-b-text);
   font-size: 0.95rem;
   line-height: 1.5;
 }
@@ -417,7 +431,7 @@
   display: flex;
   gap: 12px;
   padding: 10px 0;
-  border-bottom: 1px solid #e8e4f8;
+  border-bottom: 1px solid var(--ex-step-b-line);
   line-height: 1.5;
   font-size: 0.97rem;
   counter-increment: step-counter;
@@ -431,7 +445,7 @@
   flex-shrink: 0;
   width: 24px; height: 24px;
   border-radius: 50%;
-  background: var(--ex-violet);
+  background: var(--ex-step-b);
   color: #fff;
   font-size: 11px;
   font-weight: 800;
@@ -451,7 +465,7 @@
 /* Blocs copier-coller */
 .steps-copy-block {
   margin: 8px 0 0;
-  border: 1px solid var(--ex-violet-border);
+  border: 1px solid var(--ex-step-b-border);
   border-radius: 8px;
   background: #fff;
   padding: 10px 12px;
@@ -484,8 +498,8 @@
   position: relative;
   overflow: hidden;
   padding-left: 20px;
-  background: linear-gradient(135deg, var(--ex-green-soft) 0%, #f5fdf8 100%);
-  border-color: var(--ex-green-border);
+  background: linear-gradient(135deg, var(--ex-step-c-soft) 0%, var(--ex-step-c-tint) 100%);
+  border-color: var(--ex-step-c-border);
 }
 
 .card:has(.images-grid)::after {
@@ -493,7 +507,7 @@
   position: absolute;
   left: 0; top: 0; bottom: 0;
   width: var(--ex-bar);
-  background: var(--ex-green);
+  background: var(--ex-step-c);
   border-radius: 4px 0 0 4px;
 }
 
@@ -501,7 +515,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--ex-green);
+  color: var(--ex-step-c);
   font-size: 1.05rem;
   margin-bottom: 12px;
 }
@@ -514,7 +528,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--ex-green);
+  background: var(--ex-step-c);
   color: #fff;
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 1.05rem;
@@ -544,7 +558,7 @@
   border-radius: 10px;
   padding: 10px;
   background: #fff;
-  border: 2px solid var(--ex-green-border);
+  border: 2px solid var(--ex-step-c-border);
 }
 
 /* Figcaption avec badge coloré */
@@ -555,7 +569,7 @@
   margin-bottom: 8px;
   font-weight: 800;
   font-size: 0.85rem;
-  color: #2a5040;
+  color: var(--ex-step-c-text);
 }
 
 #exercise-enonce-caption::before { content: "👁"; font-size: 14px; }
@@ -568,9 +582,9 @@
   border-radius: 999px;
   font-size: 10px;
   font-weight: 800;
-  background: var(--ex-green-soft);
-  color: var(--ex-green);
-  border: 1px solid var(--ex-green-border);
+  background: var(--ex-step-c-soft);
+  color: var(--ex-step-c);
+  border: 1px solid var(--ex-step-c-border);
 }
 
 /* Images thumb */
@@ -646,9 +660,9 @@
 }
 
 .exercise-tab-btn {
-  border: 1px solid var(--ex-orange-border);
-  background: #fff7ef;
-  color: #8c4f14;
+  border: 1px solid var(--ex-step-b-border);
+  background: var(--ex-step-b-soft);
+  color: var(--ex-step-b-text);
   border-radius: 999px;
   padding: 8px 14px;
   font: inherit;
@@ -659,13 +673,13 @@
 .exercise-tab-btn.active,
 .exercise-tab-btn:hover,
 .exercise-tab-btn:focus-visible {
-  background: linear-gradient(135deg, #f2a452 0%, var(--ex-orange) 100%);
+  background: linear-gradient(135deg, var(--ex-step-b-light) 0%, var(--ex-step-b) 100%);
   color: #fff;
   outline: none;
 }
 
 .exercise-tab-panel {
-  border: 1px solid #e6d7c4;
+  border: 1px solid var(--ex-step-b-border);
   border-radius: 12px;
   background: #fffdf9;
   padding: 14px;
@@ -677,7 +691,7 @@
   font-weight: 800;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #9a6328;
+  color: var(--ex-step-b-text);
 }
 
 .exercise-tab-instructions ul {
