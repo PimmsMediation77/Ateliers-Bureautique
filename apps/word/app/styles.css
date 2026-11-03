@@ -479,11 +479,12 @@ body {
   gap: 12px 22px;
 }
 
-.home-start-btn {
+.btn.home-start-btn {
   min-width: 380px;
   min-height: 80px;
   padding: 18px 44px;
-  font-size: 1.45rem;
+  font-size: 1.6rem;
+  gap: 14px;
   border-radius: 16px;
   box-shadow: 0 8px 18px rgba(31, 44, 57, 0.18);
 }
@@ -2051,9 +2052,10 @@ body {
     align-items: flex-start;
   }
 
-  .home-start-btn {
+  .btn.home-start-btn {
     width: 100%;
     min-width: 0;
+    font-size: 1.4rem;
   }
 
   .home-exercise-headline {
