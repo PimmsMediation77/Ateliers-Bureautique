@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.14.0](///compare/excel-v1.13.2...excel-v1.14.0) (2026-11-03)
+
+
+### Features
+
+* **core:** simplifier le changement d'utilisateur avec un choix par carte 8f0fe71
+
 ### [1.13.2](///compare/excel-v1.13.1...excel-v1.13.2) (2026-11-02)
 
 
