@@ -210,9 +210,10 @@ function createAtelierController(config = {}) {
       if (this.isReady) this.#renderFromHash();
     });
 
+    // Arriving on a module without a hash (module switch, bookmark) always lands
+    // on the home screen; the "Continuer" card resumes the current exercise.
     if (!window.location.hash) {
-      const restoredHash = this.persistenceRuntime.getPersistedHash();
-      window.location.hash = restoredHash || "#home";
+      window.location.hash = "#home";
     } else {
       this.persistenceRuntime.persistCurrentHash(window.location.hash);
     }
@@ -621,14 +622,6 @@ function createAtelierController(config = {}) {
       : progressStatusMessage);
 
     this.sessionRuntime.syncSessionIdentity(session);
-
-    const currentHash = String(window.location.hash || "").trim();
-    if (!currentHash || currentHash === "#home") {
-      const fallbackHash = this.persistenceRuntime.buildFallbackHashFromUiState();
-      if (fallbackHash && fallbackHash !== currentHash) {
-        window.location.hash = fallbackHash;
-      }
-    }
   }
 
   async #buildAlternateProgressNotice(session, currentProgress) {

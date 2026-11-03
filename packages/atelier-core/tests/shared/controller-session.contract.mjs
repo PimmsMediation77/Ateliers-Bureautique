@@ -673,7 +673,8 @@ export async function registerControllerSessionContractTests({
     await flushAsyncWork();
 
     assert.deepEqual(refreshed.view.headerUser, { firstName: "Bob", initials: "BO" });
-    assert.equal(refreshed.window.location.hash, "#exercise/ex-002");
+    // Sans ancre (changement de module), on s'arrete sur l'accueil du module.
+    assert.equal(refreshed.window.location.hash, "#home");
     assert.deepEqual(refreshed.model.importedProgress, { done: ["ex-002"] });
     assert.match(refreshed.view.progressUserPath, /Bob/);
   });
