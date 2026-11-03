@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.21.0](///compare/word-v1.20.2...word-v1.21.0) (2026-11-03)
+
+
+### Features
+
+* **core:** simplifier le changement d'utilisateur avec un choix par carte 8f0fe71
+
 ### [1.20.2](///compare/word-v1.20.1...word-v1.20.2) (2026-11-02)
 
 

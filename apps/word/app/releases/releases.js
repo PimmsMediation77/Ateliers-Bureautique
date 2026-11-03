@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "1.20.2",
-  "updatedAt": "2026-11-02T16:54:58.673Z",
+  "version": "1.21.0",
+  "updatedAt": "2026-11-03T11:32:22.945Z",
   "releases": [
+    {
+      "version": "1.21.0",
+      "tag": "word-v1.21.0",
+      "date": "2026-11-03",
+      "releaseType": "minor",
+      "impact": {
+        "level": "medium",
+        "rationale": "Nouvelles fonctionnalites ou changements techniques structurants."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "48001a1"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "core",
+          "description": "simplifier le changement d'utilisateur avec un choix par carte",
+          "breaking": false,
+          "hash": "8f0fe71"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.42.0",
+          "breaking": false,
+          "hash": "739224f"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.65",
+          "breaking": false,
+          "hash": "3288836"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.13.2",
+          "breaking": false,
+          "hash": "6cf9f97"
+        }
+      ],
+      "counts": {
+        "feat": 1,
+        "fix": 0,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "1.20.2",
       "tag": "word-v1.20.2",
