@@ -103,36 +103,24 @@ function renderHeaderNav({ appName, version }) {
 function renderOverviewPages() {
   return `    <section id="page-home" class="page" aria-labelledby="home-title">
       <article class="card home-resume-card">
-        <h2 id="home-title">Reprendre mon atelier</h2>
-        <div class="home-resume-grid">
-          <div class="home-resume-main">
-            <div id="home-last-exercise" class="last-exercise"></div>
-            <div class="home-progress-wrap">
-              <h3 class="home-progress-title">Progression générale</h3>
-              <p id="home-progress-text" class="muted">0 / 0 exercices terminés</p>
-              <div class="progress-track" aria-hidden="true">
-                <div id="home-progress-bar" class="progress-fill" style="width:0%"></div>
-              </div>
-              <p id="home-level" class="muted level-line"></p>
-            </div>
-          </div>
-          <aside class="home-resume-action" aria-label="Action principale">
-            <p class="home-action-label">Accès rapide</p>
-            <button id="home-start-btn" class="btn btn-large home-start-btn has-icon" data-icon="&#9654;">Commencer maintenant</button>
-            <div class="home-quick-details" aria-live="polite">
-              <p class="home-quick-line home-quick-theme-line">
-                <span class="home-quick-kicker">Thème</span>
-                <strong id="home-quick-theme">-</strong>
-              </p>
-              <p class="home-quick-line home-quick-exercise-line">
-                <span class="home-quick-kicker">Exercice</span>
-                <strong id="home-quick-exercise">-</strong>
-              </p>
-            </div>
-            <p id="home-start-help" class="muted home-start-help">Lance automatiquement le prochain exercice conseillé.</p>
-          </aside>
+        <p id="home-kicker" class="home-kicker">Reprendre mon atelier</p>
+        <div id="home-trail-wrap" class="home-trail-wrap" hidden>
+          <p class="home-trail-head">
+            <span id="home-theme-name" class="home-theme-name"></span>
+            <span id="home-theme-position" class="home-theme-position"></span>
+          </p>
+          <ol id="home-trail" class="home-trail" aria-label="Exercices du thème"></ol>
+        </div>
+        <h2 id="home-title" class="home-exercise-title">
+          <span id="home-exercise-label" class="home-exercise-label"></span>
+          <span id="home-exercise-headline" class="home-exercise-headline">Chargement…</span>
+        </h2>
+        <div class="home-actions">
+          <button id="home-start-btn" class="btn btn-large home-start-btn has-icon" data-icon="&#9654;">Commencer</button>
+          <a id="home-other-link" class="home-other-link" href="#themes">Choisir un autre exercice →</a>
         </div>
       </article>
+      <p id="home-progress-line" class="home-progress-line"></p>
     </section>
 
     <section id="page-themes" class="page" aria-labelledby="themes-title">

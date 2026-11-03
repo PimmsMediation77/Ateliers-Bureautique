@@ -60,6 +60,21 @@ function getThemeColors(themeKey) {
   return THEME_COLORS[index];
 }
 
+// Pour les thèmes longs, n'affiche qu'une fenêtre autour de l'exercice en cours,
+// avec un « … » de chaque côté quand des exercices sont masqués.
+function pickTrailWindow(steps, maxVisible = 10) {
+  if (steps.length <= maxVisible) return steps;
+  let anchor = steps.findIndex((step) => step.current);
+  if (anchor < 0) anchor = steps.length - 1;
+  const span = maxVisible - 2;
+  const end = Math.min(steps.length, Math.max(0, anchor - Math.floor(span / 2)) + span);
+  const start = Math.max(0, end - span);
+  const visible = steps.slice(start, end);
+  if (start > 0) visible.unshift({ gap: true });
+  if (end < steps.length) visible.push({ gap: true });
+  return visible;
+}
+
 function getThemeStateLabel(percent) {
   if (percent >= 100) return "Terminé";
   if (percent > 0) return "En cours";
@@ -78,14 +93,16 @@ class AtelierView {
       profile: document.getElementById("page-profile"),
     };
 
-    this.homeLastExercise = document.getElementById("home-last-exercise");
-    this.homeProgressText = document.getElementById("home-progress-text");
-    this.homeProgressBar = document.getElementById("home-progress-bar");
-    this.homeLevel = document.getElementById("home-level");
+    this.homeKicker = document.getElementById("home-kicker");
+    this.homeTrailWrap = document.getElementById("home-trail-wrap");
+    this.homeThemeName = document.getElementById("home-theme-name");
+    this.homeThemePosition = document.getElementById("home-theme-position");
+    this.homeTrail = document.getElementById("home-trail");
+    this.homeExerciseLabel = document.getElementById("home-exercise-label");
+    this.homeExerciseHeadline = document.getElementById("home-exercise-headline");
     this.homeStartBtn = document.getElementById("home-start-btn");
-    this.homeQuickTheme = document.getElementById("home-quick-theme");
-    this.homeQuickExercise = document.getElementById("home-quick-exercise");
-    this.homeStartHelp = document.getElementById("home-start-help");
+    this.homeOtherLink = document.getElementById("home-other-link");
+    this.homeProgressLine = document.getElementById("home-progress-line");
 
     this.themesAffinityList = document.getElementById("themes-affinity-list");
     this.affinityTitle = document.getElementById("affinity-title");
@@ -197,27 +214,43 @@ class AtelierView {
   }
 
   renderHome(vm) {
-    this.homeProgressText.textContent = `${vm.completed} / ${vm.total} exercices terminés (${vm.percent}%)`;
-    this.homeProgressBar.style.width = `${vm.percent}%`;
-    this.homeLevel.textContent = `Palier actuel : ${vm.level}`;
-    if (this.homeStartBtn) this.homeStartBtn.textContent = vm.startLabel || "Commencer maintenant";
-    if (this.homeQuickTheme) this.homeQuickTheme.textContent = vm.startTheme || "À définir";
-    if (this.homeQuickExercise) this.homeQuickExercise.textContent = vm.startExercise || "Choisissez un exercice";
-    if (this.homeStartHelp) this.homeStartHelp.textContent = vm.startHelp || "Lance automatiquement le prochain exercice conseillé.";
+    this.homeKicker.textContent = vm.kicker || "";
+    this.homeExerciseLabel.textContent = vm.exerciseLabel || "";
+    this.homeExerciseLabel.hidden = !vm.exerciseLabel;
+    this.homeExerciseHeadline.textContent = frenchTypography(vm.headline || "");
+    this.homeStartBtn.textContent = vm.startLabel || "Commencer";
+    this.homeOtherLink.hidden = vm.state === "all-done" || vm.state === "empty";
 
-    if (!vm.lastExercise) {
-      this.homeLastExercise.innerHTML = `
-        <p class="last-title">Aucun exercice terminé.</p>
-        <p class="last-meta">Lancez votre premier exercice depuis la page Thèmes.</p>
-      `;
-    } else {
-      this.homeLastExercise.innerHTML = `
-        <p class="last-title">Exercice ${vm.lastExercise.num} - ${escapeHtml(vm.lastExercise.title)}</p>
-        <p class="last-meta">Thème : ${escapeHtml(vm.lastExercise.moduleName)}</p>
-        <p class="last-meta">${escapeHtml(vm.lastDoneText)}</p>
-      `;
+    const doneLabel = vm.completed > 1 ? "exercices terminés" : "exercice terminé";
+    this.homeProgressLine.textContent = frenchTypography(`${vm.completed} ${doneLabel} sur ${vm.total} · Palier : ${vm.level}`);
+
+    const theme = vm.theme;
+    this.homeTrailWrap.hidden = !theme;
+    if (!theme) {
+      this.homeTrail.innerHTML = "";
+      return;
     }
-
+    const hasCurrent = theme.steps.some((step) => step.current);
+    this.homeThemeName.textContent = frenchTypography(`Thème : ${theme.name}`);
+    this.homeThemePosition.textContent = hasCurrent ? `${theme.position} sur ${theme.total}` : "Thème terminé ✓";
+    this.homeTrail.innerHTML = pickTrailWindow(theme.steps)
+      .map((step) => {
+        if (step.gap) {
+          return `<li class="home-trail-item is-gap" aria-hidden="true"><span class="home-trail-dot">…</span></li>`;
+        }
+        const status = step.current ? "à faire maintenant" : step.done ? "terminé" : "à venir";
+        const label = `Exercice ${step.num} – ${step.title} (${status})`;
+        const classes = ["home-trail-item"];
+        if (step.done) classes.push("is-done");
+        if (step.current) classes.push("is-current");
+        return `
+          <li class="${classes.join(" ")}" title="${escapeHtml(label)}"${step.current ? ' aria-current="step"' : ""}>
+            <span class="home-trail-dot" aria-hidden="true"></span>
+            <span class="home-trail-sr">${escapeHtml(label)}</span>
+            ${step.current ? '<span class="home-trail-here" aria-hidden="true"><span class="home-trail-arrow">▲</span><span class="home-trail-here-text">vous êtes ici</span></span>' : ""}
+          </li>`;
+      })
+      .join("");
   }
 
   renderAffinityOverview(vm) {

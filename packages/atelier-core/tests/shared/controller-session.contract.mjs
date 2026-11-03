@@ -795,20 +795,15 @@ export async function registerControllerSessionContractTests({
     });
 
     harness.model.getSummary = () => ({ completed: 2, total: 5, percent: 40, level: "Intermediaire", streak: 3 });
-    harness.model.getLastExercise = () => ({
-      id: "ex-001",
-      num: 1,
-      title: "Exercice 1",
-      moduleName: "Theme 1",
-    });
-    harness.model.getResumeExercise = () => ({
-      id: "ex-002",
-      num: 2,
-      title: "Exercice 2",
-      moduleName: "Theme 1",
-    });
+    const themeExercises = [
+      { id: "ex-001", num: 1, title: "Exercice 1", moduleId: "theme-1", moduleName: "Theme 1" },
+      { id: "ex-002", num: 2, title: "Exercice 2", moduleId: "theme-1", moduleName: "Theme 1" },
+      { id: "ex-003", num: 3, title: "Exercice 3", moduleId: "theme-1", moduleName: "Theme 1" },
+    ];
+    harness.model.getLastExercise = () => themeExercises[0];
+    harness.model.getResumeExercise = () => themeExercises[1];
+    harness.model.getExercisesByTheme = () => themeExercises;
     harness.model.getIsDone = (id) => id === "ex-001";
-    harness.model.getLastCompletedDate = () => "2026-06-24";
 
     harness.controller.init();
     await flushAsyncWork();
@@ -824,18 +819,47 @@ export async function registerControllerSessionContractTests({
       percent: 40,
       level: "Intermediaire",
       streak: 3,
-      lastExercise: {
-        id: "ex-001",
-        num: 1,
-        title: "Exercice 1",
-        moduleName: "Theme 1",
+      state: "next",
+      kicker: "Prochain exercice",
+      startLabel: "Commencer l'exercice",
+      exerciseLabel: "Exercice 2",
+      headline: "Exercice 2",
+      theme: {
+        name: "Theme 1",
+        position: 2,
+        total: 3,
+        steps: [
+          { id: "ex-001", num: 1, title: "Exercice 1", done: true, current: false },
+          { id: "ex-002", num: 2, title: "Exercice 2", done: false, current: true },
+          { id: "ex-003", num: 3, title: "Exercice 3", done: false, current: false },
+        ],
       },
-      lastDoneText: "Fait le 24/06/2026.",
-      startLabel: "Continuer : Exercice 2",
-      startTheme: "Theme 1",
-      startExercise: "Exercice 2 - Exercice 2",
-      startHelp: "Exercice 2 (Theme 1)",
     });
+  });
+
+  test("controller sends the home start button to themes when everything is done", async () => {
+    const aliceHandle = createHandle("alice-folder", "Alice");
+    const harness = createHarness({
+      savedRootHandle: aliceHandle,
+      savedInitials: "AL",
+      savedFirstName: "Alice",
+      savedWorkFolders: [
+        { id: "alice-folder", name: "Alice", handle: aliceHandle, lastUsedAt: "2026-06-24T09:00:00.000Z" },
+      ],
+      profiles: new Map([["alice-folder", { initials: "AL", firstName: "Alice" }]]),
+      progressByInitials: new Map([["AL", { done: [] }]]),
+    });
+
+    harness.model.getSummary = () => ({ completed: 5, total: 5, percent: 100, level: "Maitrise", streak: 1 });
+    harness.model.getResumeExercise = () => ({ id: "ex-005" });
+
+    harness.controller.init();
+    await flushAsyncWork();
+
+    harness.document.getElementById("home-start-btn").click();
+    await flushAsyncWork();
+
+    assert.equal(harness.window.location.hash, "#themes");
   });
 
   test("controller handles shared home start navigation", async () => {

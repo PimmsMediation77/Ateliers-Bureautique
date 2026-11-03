@@ -61,6 +61,11 @@ function createAtelierUiEventsRuntime(config = {}) {
           const ready = await ensureReady();
           if (!ready) return;
         }
+        const summary = model.getSummary();
+        if (summary.total > 0 && summary.completed >= summary.total) {
+          setHash("#themes");
+          return;
+        }
         const resume = model.getResumeExercise();
         if (resume) {
           setHash(`#exercise/${resume.id}`);
