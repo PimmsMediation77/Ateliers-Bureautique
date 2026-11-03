@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.69](///compare/powerpoint-v0.1.68...powerpoint-v0.1.69) (2026-11-03)
+
+
+### Bug Fixes
+
+* **ui:** une seule dominante de couleur par module sur la page exercice 4048cfe, closes #C43E1
+
 ### [0.1.68](///compare/powerpoint-v0.1.67...powerpoint-v0.1.68) (2026-11-03)
 
 

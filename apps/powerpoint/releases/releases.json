@@ -1,7 +1,76 @@
 {
-  "version": "0.1.68",
-  "updatedAt": "2026-11-03T14:16:26.135Z",
+  "version": "0.1.69",
+  "updatedAt": "2026-11-03T14:30:26.609Z",
   "releases": [
+    {
+      "version": "0.1.69",
+      "tag": "powerpoint-v0.1.69",
+      "date": "2026-11-03",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.16.1",
+          "breaking": false,
+          "hash": "4d01af9"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.23.1",
+          "breaking": false,
+          "hash": "9e67bf7"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "2c716dc"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "ui",
+          "description": "une seule dominante de couleur par module sur la page exercice",
+          "breaking": false,
+          "hash": "4048cfe"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.45.0",
+          "breaking": false,
+          "hash": "761b74b"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "0.1.68",
       "tag": "powerpoint-v0.1.68",
