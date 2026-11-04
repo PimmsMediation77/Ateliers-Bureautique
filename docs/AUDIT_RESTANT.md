@@ -5,7 +5,11 @@ Dernier audit structurel : **2026-11-04** → [AUDIT_STRUCTUREL_2026-11-04.md](A
 
 ## Chantiers ouverts, par ordre de priorite
 
-1. **Rapide** : ajouter tests et validations dans `deploy.yml`, trier les 10 scripts racine orphelins, `git gc`, isoler le test PowerPoint instable, ajouter `downloads-assets-source/` au `.gitignore` (audit §6, §7, §10).
+1. ~~**Rapide**~~ — fait le 2026-11-04 :
+   - `deploy.yml` lance `core:test`, les tests des 3 ateliers (runtime + encodage + tests) et `validate:app-sync` avant de publier ; Node 22 requis pour les globs de `node --test`
+   - scripts orphelins : 7 scripts de migration ponctuelle supprimes ; `assets:source-inventory`, `assets:verify-links` et `assets:drive-missing:xlsx` exposes
+   - `downloads-assets-source/` ajoute au `.gitignore`
+   - test PowerPoint instable : non reproduit sur 6 passages (echec probablement lie au travail en cours sur le core pendant l'audit)
 2. **Assets** : migrer les references vers les dossiers de modules numerotes, puis supprimer les doublons internes a `data/` (~1 170 copies) et les assets non references (~470 fichiers) apres revue (audit §2, §3, §4).
 3. **Publication** : generer `apps/*/app/` en CI et le sortir du versionnement Git (audit §1).
 4. **Plus tard** : CSS commun dans `atelier-core`, reorganisation de la documentation (audit §8, §9).

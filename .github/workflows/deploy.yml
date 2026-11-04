@@ -27,7 +27,22 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
+
+      - name: Test atelier-core
+        run: npm run core:test
+
+      - name: Test ateliers (runtime, encodage, tests)
+        run: |
+          npm run word:test
+          npm run excel:test
+          npm run powerpoint:test
+
+      - name: Validate app sync
+        run: |
+          npm run word:validate:app-sync
+          npm run excel:validate:app-sync
+          npm run powerpoint:validate:app-sync
 
       - name: Check download asset links
         run: npm run assets:check-links

@@ -18,7 +18,7 @@ Genere le : 2026-07-15
 ## Verifications executees
 
 - `npm run runtime:validate`
-- `node scripts/verify-exercise-asset-links.mjs`
+- `npm run assets:verify-links`
 
 Resultat :
 
