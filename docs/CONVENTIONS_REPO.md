@@ -17,7 +17,7 @@ Ce document fixe ce qui doit etre :
 - `apps/*/js/` hors `app/`
 - `apps/*/index.html`
 - `apps/*/styles.css`
-- `apps/*/styles-redesign-v2.css`
+- `apps/*/styles-redesign-v2.css` (specificites de l'atelier ; la base commune est dans `packages/atelier-core/browser/styles/`, copiee en `apps/*/css/core/`)
 - `apps/*/deployment-config.json`
 - `apps/*/releases/`
 - `apps/*/README.txt`

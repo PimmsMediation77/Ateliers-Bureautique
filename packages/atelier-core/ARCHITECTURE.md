@@ -5,6 +5,7 @@
 ## Ce qui vit ici
 
 - `browser/` : runtime front partage, synchronise ensuite vers `apps/*/js/core/`
+- `browser/styles/` : feuilles CSS communes (`base.css`, `redesign.css`), synchronisees vers `apps/*/css/core/` et chargees avant `styles.css` / `styles-redesign-v2.css` de chaque atelier, qui ne gardent que leurs specificites (theme, ecarts voulus)
 - `scripts/` : outillage partage de build, sync, validation et release
 - `tests/shared/` : contrats de test reutilises par chaque app
 - `runtime-contract.mjs` : ordre et conventions de chargement du runtime navigateur
@@ -38,7 +39,8 @@ La note `ARCHITECTURE_VERSION_CONNECTEE.md` documente aussi l'etat reel de la V1
 
 ## Regles de maintenance
 
-- Ne pas modifier directement `apps/*/js/core/*` sauf urgence ponctuelle, car ces fichiers sont regeneres
+- Ne pas modifier directement `apps/*/js/core/*` ni `apps/*/css/core/*` sauf urgence ponctuelle, car ces fichiers sont regeneres
+- Une regle CSS identique dans les 3 ateliers va dans `browser/styles/` ; ne pas la recopier dans les `styles*.css` des ateliers
 - Toute evolution du HTML partage doit rester compatible avec [DOM_CONTRACT.md](./browser/DOM_CONTRACT.md)
 - Si un comportement diverge entre apps, privilegier `app-config.js` avant de dupliquer du code runtime
 - Les scripts de release et de validation communs doivent etre testes dans `packages/atelier-core/tests/`

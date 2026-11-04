@@ -23,7 +23,11 @@ Dernier audit structurel : **2026-11-04** → [AUDIT_STRUCTUREL_2026-11-04.md](A
    - controle d'encodage limite a `data/` (les copies `app/` sont verifiees par `validate:app-sync`)
    - verifie : le `app/` genere est identique octet pour octet a celui qui etait versionne (509 / 874 / 78 fichiers)
    - l'historique Git garde son poids (pas de reecriture)
-4. **Plus tard** : CSS commun dans `atelier-core` (audit §8).
+4. **CSS commun** (audit §8) — extraction faite le 2026-11-04 :
+   - l'ecart Word ↔ Excel de 1 664 lignes sur `styles-redesign-v2.css` venait surtout des fins de ligne (CRLF) ; l'ecart reel etait de ~160 lignes
+   - `packages/atelier-core/browser/styles/{base,redesign}.css` (406 blocs communs aux 3 ateliers), copies en `apps/*/css/core/` par `sync:app` et chargees avant les feuilles de l'atelier
+   - extraction mecanique, sans changement visuel : styles calcules de tous les elements identiques avant/apres sur 48 ecrans (7 a 9 routes par atelier, en largeur bureau et mobile), via Chrome headless
+   - reste a trancher : les ecarts Word (vignettes d'images pleine largeur, compteur et legende de vignette, liste de profils) sont-ils voulus ? Les aligner permettrait d'en mettre davantage en commun
 5. ~~**Documentation**~~ — fait le 2026-11-04 (audit §9) :
    - `BACKLOG_GITHUB_ISSUES.md` → `docs/BACKLOG.md` ; la todo → `TODO.md` a la racine
    - docs Word au nom accentue regroupees et renommees dans `apps/word/docs/modernisation-2024/` (le backlog Word y reste : il fait partie de ce dossier)
@@ -35,7 +39,7 @@ Les assets passent avant la sortie de `app/` parce que chaque fichier supprime d
 
 Question de suivi pour le prochain audit :
 
-- "Le CSS commun a-t-il ete extrait dans `atelier-core`, et `apps/*/js/core/` peut-il a son tour devenir genere ?"
+- "Les ecarts CSS restants entre ateliers ont-ils ete tranches, et `apps/*/js/core/` / `apps/*/css/core/` peuvent-ils a leur tour devenir generes ?"
 
 ## Etat acquis (verifie le 2026-11-04)
 
@@ -69,9 +73,9 @@ Question de suivi pour le prochain audit :
   - a supprimer si un atelier abandonne definitivement ce flux
   - ce flux est a l'origine des paires `-image-*` / `-scrape-*` en double
 
-- `styles-redesign-v2.css`
-  - actuellement reference dans les `index.html`, donc a garder
-  - forte divergence entre ateliers (audit §8)
+- `styles.css` / `styles-redesign-v2.css` des ateliers
+  - ne contiennent plus que les specificites ; la base est dans `packages/atelier-core/browser/styles/`
+  - avant de mettre une regle en commun, verifier qu'elle ne change pas l'ordre de cascade face a une regle specifique
 
 - `README.txt` vs `README-app.txt`
   - fonctions differentes : source de travail vs distribution (copie en `app/README.txt`)

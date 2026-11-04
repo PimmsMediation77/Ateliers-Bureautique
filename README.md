@@ -60,7 +60,7 @@ Depuis `apps/powerpoint`, les memes commandes locales sont aussi disponibles.
 
 Le socle commun vit maintenant dans `packages/atelier-core` :
 
-- `browser/` : runtime navigateur partage, synchronise vers `apps/*/js/core/`
+- `browser/` : runtime navigateur partage, synchronise vers `apps/*/js/core/` ; `browser/styles/` : CSS commun, synchronise vers `apps/*/css/core/`
 - `scripts/` : sync, validation, release et helpers de build communs
 - `tests/shared/` : contrats de test reutilises par Word et Excel
 - `runtime-contract.mjs` : ordre de chargement des scripts partages

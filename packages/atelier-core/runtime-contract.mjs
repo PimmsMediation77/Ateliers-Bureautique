@@ -19,10 +19,19 @@ export const BROWSER_RUNTIME_MODULES = [
   "app-bootstrap",
 ];
 
-export const BROWSER_RUNTIME_FILES = BROWSER_RUNTIME_MODULES.map((moduleName) => ({
-  src: `browser/${moduleName}.js`,
-  dst: `js/core/${moduleName}.js`,
-}));
+// Feuilles CSS communes, chargees avant styles.css / styles-redesign-v2.css de chaque atelier.
+export const BROWSER_RUNTIME_STYLES = ["base", "redesign"];
+
+export const BROWSER_RUNTIME_FILES = [
+  ...BROWSER_RUNTIME_MODULES.map((moduleName) => ({
+    src: `browser/${moduleName}.js`,
+    dst: `js/core/${moduleName}.js`,
+  })),
+  ...BROWSER_RUNTIME_STYLES.map((styleName) => ({
+    src: `browser/styles/${styleName}.css`,
+    dst: `css/core/${styleName}.css`,
+  })),
+];
 
 export const REQUIRED_DOM_IDS = [
   "exercise-workfile-btn",
