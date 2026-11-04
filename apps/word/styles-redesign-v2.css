@@ -11,6 +11,10 @@
   --ex-blue:        #1a5eb8;
   --ex-blue-soft:   #e8f0fc;
   --ex-blue-border: #b3caf0;
+  --ex-blue-tint:   #f0f6ff;
+  --ex-blue-strong: #144fa0;
+  --ex-blue-hover:  #1550a8;
+  --ex-accent-light: #59a0aa;
   --ex-violet:      #6c5ce7;
   --ex-violet-soft: #f0eeff;
   --ex-violet-border: #c4b8f5;
@@ -39,7 +43,7 @@
 
 #exercise-theme-progress-bar {
   height: 100%;
-  background: linear-gradient(90deg, var(--accent), #59a0aa);
+  background: linear-gradient(90deg, var(--accent), var(--ex-accent-light));
   border-radius: inherit;
   width: 0%;
   transition: width 0.4s ease;
@@ -52,7 +56,7 @@
   position: relative;
   overflow: hidden;
   padding-left: 20px;
-  background: linear-gradient(135deg, var(--ex-blue-soft) 0%, #f0f6ff 100%);
+  background: linear-gradient(135deg, var(--ex-blue-soft) 0%, var(--ex-blue-tint) 100%);
   border-color: var(--ex-blue-border);
 }
 
@@ -108,14 +112,14 @@
 /* Bouton téléchargement docx : couleur bleue forte */
 #exercise-workfile-btn {
   background: var(--ex-blue);
-  border-color: #144fa0;
+  border-color: var(--ex-blue-strong);
   color: #fff;
   font-size: 1rem;
   padding: 11px 16px;
   flex: 1;
 }
 
-#exercise-workfile-btn:hover { background: #1550a8; }
+#exercise-workfile-btn:hover { background: var(--ex-blue-hover); }
 
 /* Hint sous le bouton */
 .exercise-docx-hint,
@@ -139,30 +143,4 @@
   object-fit: contain;
   transition: transform 0.2s ease;
   border-radius: 6px;
-}
-
-.image-thumb-count {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  z-index: 1;
-  min-width: 44px;
-  padding: 3px 8px;
-  border-radius: 999px;
-  background: rgba(19, 50, 41, 0.88);
-  color: #fff;
-  font-size: 0.74rem;
-  font-weight: 800;
-  text-align: center;
-  pointer-events: none;
-}
-
-.image-thumb-caption {
-  display: block;
-  padding: 8px 10px 10px;
-  font-size: 0.8rem;
-  line-height: 1.35;
-  color: #20433a;
-  text-align: left;
-  background: rgba(255, 255, 255, 0.96);
 }
