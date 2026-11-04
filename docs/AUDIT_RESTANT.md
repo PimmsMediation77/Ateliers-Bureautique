@@ -17,14 +17,19 @@ Dernier audit structurel : **2026-11-04** → [AUDIT_STRUCTUREL_2026-11-04.md](A
    - `npm run assets:unused` produit `reports/assets-unused-report.{md,json}` ; `assets:verify-links` ne compare plus a l'instantane `assetUrl` de juillet (0 echec sur 2 119 liens)
    - `excel-ex-00{1,2,3}-g19{1,2,3}.xlsx` : la copie du dossier numerote etait en fait un doublon de `g188`-`g190` ; la vraie version (ancien dossier) a ete deplacee
    - reste a revoir a la main : 5 fichiers non references (voir `reports/assets-unused-report.md`) et 31 groupes de doublons partages entre exercices differents, gardes separes volontairement
-3. **Publication** : generer `apps/*/app/` en CI et le sortir du versionnement Git (audit §1).
+3. ~~**Publication**~~ — fait le 2026-11-04 :
+   - `apps/*/app/` est ignore par Git ; `deploy.yml` le genere (`npm run apps:sync`), verifie que la sync ne modifie aucune source, puis valide et publie
+   - `sync:app` copie aussi `releases/` et `README-app.txt` (ex-`app/README.txt`) ; les releases n'ecrivent plus dans `app/`
+   - controle d'encodage limite a `data/` (les copies `app/` sont verifiees par `validate:app-sync`)
+   - verifie : le `app/` genere est identique octet pour octet a celui qui etait versionne (509 / 874 / 78 fichiers)
+   - l'historique Git garde son poids (pas de reecriture)
 4. **Plus tard** : CSS commun dans `atelier-core`, reorganisation de la documentation (audit §8, §9).
 
 Les assets passent avant la sortie de `app/` parce que chaque fichier supprime de `data/` disparait aussi de `app/`.
 
 Question de suivi pour le prochain audit :
 
-- "Les doublons d'assets et `apps/*/app/` sont-ils sortis du depot, et la CI bloque-t-elle un deploiement dont les tests echouent ?"
+- "Le CSS commun a-t-il ete extrait dans `atelier-core`, et `apps/*/js/core/` peut-il a son tour devenir genere ?"
 
 ## Etat acquis (verifie le 2026-11-04)
 
@@ -41,14 +46,9 @@ Question de suivi pour le prochain audit :
   - raison : contenu pedagogique distribue
   - cout : volume important du depot, aggrave par les doublons (voir chantier 2)
 
-- `apps/*/app/`
-  - raison : artefact publie encore versionne, en attendant le chantier 3
-  - cout : duplication quasi complete de `data/`, `js/`, `styles` et `index`
-  - tant que la migration n'est pas faite, ce dossier doit continuer a etre valide
-
 - `apps/*/js/core/`
   - raison : copie du runtime `packages/atelier-core/browser/`, controlee par `runtime:validate`
-  - a regenerer plutot que versionner une fois le chantier 3 fait
+  - pourrait a son tour devenir genere (non versionne), comme `app/`
 
 - `apps/*/releases/` et `pages/releases/`
   - raison : historique de release expose a l'utilisateur
@@ -67,6 +67,5 @@ Question de suivi pour le prochain audit :
   - actuellement reference dans les `index.html`, donc a garder
   - forte divergence entre ateliers (audit §8)
 
-- `README.txt` vs `app/README.txt`
-  - duplication assumee
-  - fonctions differentes : source de travail vs distribution
+- `README.txt` vs `README-app.txt`
+  - fonctions differentes : source de travail vs distribution (copie en `app/README.txt`)

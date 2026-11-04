@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
 import fs from "node:fs/promises";
+import { existsSync } from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import test from "node:test";
@@ -70,7 +71,6 @@ test("runUpdateReleaseArtifacts writes synchronized release payloads for both ap
       ],
     };
     await writeJson(path.join(rootDir, "releases", "releases.json"), stalePayload);
-    await writeJson(path.join(rootDir, "app", "releases", "releases.json"), stalePayload);
 
     const logs = [];
     runUpdateReleaseArtifacts({
@@ -80,9 +80,7 @@ test("runUpdateReleaseArtifacts writes synchronized release payloads for both ap
     });
 
     const releasesJson = JSON.parse(await fs.readFile(path.join(rootDir, "releases", "releases.json"), "utf8"));
-    const appReleasesJson = JSON.parse(await fs.readFile(path.join(rootDir, "app", "releases", "releases.json"), "utf8"));
     const releasesJs = await fs.readFile(path.join(rootDir, "releases", "releases.js"), "utf8");
-    const appReleasesJs = await fs.readFile(path.join(rootDir, "app", "releases", "releases.js"), "utf8");
 
     assert.equal(releasesJson.version, "1.1.0");
     assert.equal(releasesJson.releases[0].version, "1.1.0");
@@ -94,9 +92,8 @@ test("runUpdateReleaseArtifacts writes synchronized release payloads for both ap
     assert.equal(releasesJson.releases[0].counts.feat, 1);
     assert.equal(releasesJson.releases[1].version, "1.0.0");
     assert.ok(!releasesJson.releases.some((entry, index) => entry.version === "1.1.0" && index > 0));
-    assert.deepEqual(appReleasesJson, releasesJson);
+    assert.equal(existsSync(path.join(rootDir, "app")), false, "app/ est regenere par sync:app, pas par la release");
     assert.match(releasesJs, /window\.RELEASES_DATA = /);
-    assert.match(appReleasesJs, /window\.RELEASES_DATA = /);
     assert.deepEqual(logs, ["[release-notes] Fichiers release mis a jour pour v1.1.0."]);
   } finally {
     await fs.rm(rootDir, { recursive: true, force: true });

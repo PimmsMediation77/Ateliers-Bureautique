@@ -50,23 +50,11 @@
       "updater": "./scripts/standard-version-html-updater.cjs"
     },
     {
-      "filename": "app/index.html",
-      "updater": "./scripts/standard-version-html-updater.cjs"
-    },
-    {
       "filename": "releases/releases.json",
       "type": "json"
     },
     {
       "filename": "releases/releases.js",
-      "updater": "./scripts/standard-version-releases-js-updater.cjs"
-    },
-    {
-      "filename": "app/releases/releases.json",
-      "type": "json"
-    },
-    {
-      "filename": "app/releases/releases.js",
       "updater": "./scripts/standard-version-releases-js-updater.cjs"
     }
   ],

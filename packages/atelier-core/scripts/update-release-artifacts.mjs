@@ -208,13 +208,12 @@ export function runUpdateReleaseArtifacts({
   if (!rootDir) throw new Error("rootDir est requis");
   if (!tagPrefix) throw new Error("tagPrefix est requis");
 
+  // app/releases/ est regenere par sync:app : seule la source releases/ est ecrite ici.
   const resolvedReleaseJsonPaths = releaseJsonPaths || [
     path.join(rootDir, "releases", "releases.json"),
-    path.join(rootDir, "app", "releases", "releases.json"),
   ];
   const resolvedReleaseJsPaths = releaseJsPaths || [
     path.join(rootDir, "releases", "releases.js"),
-    path.join(rootDir, "app", "releases", "releases.js"),
   ];
 
   const pkg = readJson(path.join(rootDir, "package.json"), null);

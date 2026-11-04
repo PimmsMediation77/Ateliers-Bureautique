@@ -38,6 +38,12 @@ jobs:
           npm run excel:test
           npm run powerpoint:test
 
+      - name: Build app/ (non versionne)
+        run: npm run apps:sync
+
+      - name: Check sources unchanged by sync
+        run: git diff --exit-code -- apps packages
+
       - name: Validate app sync
         run: |
           npm run word:validate:app-sync

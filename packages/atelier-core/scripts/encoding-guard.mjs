@@ -6,9 +6,6 @@ export const DEFAULT_DATA_FILE_RELATIVE_PATHS = [
   "data/exercises.enriched.json",
   "data/exercises.json",
   "data/exercises.js",
-  "app/data/exercises.enriched.json",
-  "app/data/exercises.json",
-  "app/data/exercises.js",
 ];
 
 export const DEFAULT_TEXT_FILE_EXTENSIONS = [

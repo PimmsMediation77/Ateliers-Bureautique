@@ -1,7 +1,7 @@
 Atelier Word (MVC)
 
 Ce fichier documente la source de travail dans `apps/word/`.
-Le fichier `app/README.txt` documente, lui, la version distribuable destinee au poste utilisateur.
+Le fichier `README-app.txt` documente, lui, la version distribuable destinee au poste utilisateur (copie en `app/README.txt` par `npm run sync:app`).
 
 But
 - Application autonome pour les utilisateurs.

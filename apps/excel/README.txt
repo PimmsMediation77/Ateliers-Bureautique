@@ -1,7 +1,7 @@
 Atelier Excel (MVC)
 
 Ce fichier documente la source de travail dans `apps/excel/`.
-Le fichier `app/README.txt` documente, lui, la version distribuable destinee au poste utilisateur.
+Le fichier `README-app.txt` documente, lui, la version distribuable destinee au poste utilisateur (copie en `app/README.txt` par `npm run sync:app`).
 
 Application pedagogique Excel issue du template Word.
 

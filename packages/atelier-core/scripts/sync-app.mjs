@@ -8,6 +8,8 @@ export const DEFAULT_SYNC_ITEMS = [
   { src: "styles.css", dst: "app/styles.css" },
   { src: "styles-redesign-v2.css", dst: "app/styles-redesign-v2.css" },
   { src: "index.html", dst: "app/index.html" },
+  { src: "releases", dst: "app/releases" },
+  { src: "README-app.txt", dst: "app/README.txt" },
 ];
 
 function copyRecursive(src, dst) {

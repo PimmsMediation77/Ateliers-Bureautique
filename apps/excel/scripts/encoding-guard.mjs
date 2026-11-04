@@ -20,10 +20,6 @@ const guard = createEncodingGuard({
     "data/exercises.json",
     "data/exercises.structured.json",
     "data/exercises.js",
-    "app/data/exercises.enriched.json",
-    "app/data/exercises.json",
-    "app/data/exercises.structured.json",
-    "app/data/exercises.js",
   ],
 });
 

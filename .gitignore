@@ -8,3 +8,4 @@ logs/
 Thumbs.db
 .pages-preview/
 downloads-assets-source/
+apps/*/app/

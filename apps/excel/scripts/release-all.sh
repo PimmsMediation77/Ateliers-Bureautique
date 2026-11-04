@@ -9,7 +9,7 @@ ensure_git_on_main
 
 npm run test
 
-# Synchroniser app/ depuis les sources avant de committer
+# Synchroniser js/core et index.html (et regenerer app/, non versionne) avant de committer
 npm run sync:app
 
 if [[ -n "$(git status --porcelain)" ]]; then

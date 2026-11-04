@@ -2,12 +2,6 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { DEFAULT_SYNC_ITEMS } from "./sync-app.mjs";
 
-const EXTRA_VALIDATED_APP_ITEMS = [
-  { src: "releases", dst: "app/releases" },
-];
-
-const EXTRA_ALLOWED_APP_ROOT_ENTRIES = ["README.txt"];
-
 function parseArgs(argv) {
   const result = {};
   for (let index = 0; index < argv.length; index += 1) {
@@ -100,11 +94,7 @@ async function compareRecursive(srcPath, dstPath, relativePath = "") {
 async function validateAppSync(root) {
   const mismatches = [];
   const allowedAppEntries = new Set(
-    [
-      ...DEFAULT_SYNC_ITEMS.map(({ dst }) => dst.replace(/^app\//, "").split(path.sep)[0]),
-      ...EXTRA_VALIDATED_APP_ITEMS.map(({ dst }) => dst.replace(/^app\//, "").split(path.sep)[0]),
-      ...EXTRA_ALLOWED_APP_ROOT_ENTRIES,
-    ],
+    DEFAULT_SYNC_ITEMS.map(({ dst }) => dst.replace(/^app\//, "").split(path.sep)[0]),
   );
 
   for (const { src, dst } of DEFAULT_SYNC_ITEMS) {
@@ -114,18 +104,6 @@ async function validateAppSync(root) {
         path.join(root, dst),
         src,
       )).map((item) => `${src} -> ${dst}: ${item}`),
-    );
-  }
-
-  for (const { src, dst } of EXTRA_VALIDATED_APP_ITEMS) {
-    const srcPath = path.join(root, src);
-    const dstPath = path.join(root, dst);
-    if (!(await exists(srcPath)) || !(await exists(dstPath))) {
-      continue;
-    }
-
-    mismatches.push(
-      ...(await compareRecursive(srcPath, dstPath, src)).map((item) => `${src} -> ${dst}: ${item}`),
     );
   }
 

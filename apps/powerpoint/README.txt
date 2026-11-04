@@ -1,7 +1,7 @@
 Atelier PowerPoint (MVC)
 
 Ce fichier documente la source de travail dans `apps/powerpoint/`.
-Le fichier `app/README.txt` documente, lui, la version distribuable destinee au poste utilisateur.
+Le fichier `README-app.txt` documente, lui, la version distribuable destinee au poste utilisateur (copie en `app/README.txt` par `npm run sync:app`).
 
 Application pedagogique PowerPoint issue du template Word.
 

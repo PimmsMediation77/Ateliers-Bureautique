@@ -75,12 +75,12 @@ Chaque app garde seulement ce qui lui est propre :
 
 - `docs/` contient la documentation durable du projet.
 - `reports/` contient les inventaires, exports et rapports regenerables.
-- `apps/*/app/` contient la version distribuable/publiee de chaque atelier.
+- `apps/*/app/` contient la version distribuable/publiee de chaque atelier ; il est **genere** (`npm run apps:sync`) et n'est plus versionne.
 - `apps/*/README.txt` documente la source de travail et le flux de developpement.
-- `apps/*/app/README.txt` documente la version distribuable et son usage cote poste utilisateur.
+- `apps/*/README-app.txt` documente la version distribuable et son usage cote poste utilisateur ; il est copie en `app/README.txt`.
 
-Le dossier `apps/*/app/` ne doit pas etre modifie a la main sauf cas exceptionnel documente.
-La source canonique reste `apps/*/{data,js,index.html,styles*.css,releases/,README.txt}` puis `npm run <app>:sync:app` recopie les elements publies vers `app/`.
+Le dossier `apps/*/app/` ne doit jamais etre modifie a la main : il est ignore par Git et regenere en CI avant chaque deploiement.
+La source canonique reste `apps/*/{data,js,index.html,styles*.css,releases/,README-app.txt}` puis `npm run <app>:sync:app` recopie les elements publies vers `app/`.
 
 La politique detaillee de versionnement et de generation est documentee dans `docs/CONVENTIONS_REPO.md`.
 

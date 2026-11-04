@@ -21,6 +21,7 @@ Ce document fixe ce qui doit etre :
 - `apps/*/deployment-config.json`
 - `apps/*/releases/`
 - `apps/*/README.txt`
+- `apps/*/README-app.txt` (copie en `app/README.txt`)
 - `apps/*/package.json`
 - `apps/*/package-lock.json`
 - `packages/atelier-core/`
@@ -29,12 +30,13 @@ Ce document fixe ce qui doit etre :
 - `reports/`
 - scripts racine et scripts d'app necessaires au build, a la sync et a la release
 
-### Artefacts publies assumes
+### Artefacts publies generes (non versionnes)
 
 - `apps/*/app/`
 
-Ce dossier reste versionne tant que le pipeline de publication GitHub Pages depend de son contenu.
-Il ne doit pas etre modifie a la main ; il doit etre regenere via les scripts de sync prevus.
+Ce dossier est ignore par Git depuis le 2026-11-04. Il est genere par `npm run apps:sync` (ou `<app>:sync:app`) :
+- en CI, dans `deploy.yml`, avant la publication GitHub Pages ;
+- en local, pour l'apercu (`pages:preview`) ou pour copier la version distribuable sur un poste.
 
 ## A regenerer plutot qu'editer a la main
 
@@ -54,6 +56,7 @@ Il ne doit pas etre modifie a la main ; il doit etre regenere via les scripts de
 - `backups/`
 - `logs/`
 - `**/logs/`
+- `apps/*/app/` (genere)
 - fichiers temporaires locaux
 - exports intermediaires recreables non documentes
 
@@ -72,7 +75,6 @@ Il ne doit pas etre modifie a la main ; il doit etre regenere via les scripts de
 - Les assets pedagogiques dans `apps/*/data/assets/` sont conserves car ils font partie du contenu livre.
 - Les fichiers `releases/*` sont conserves car ils sont publies et utilises par l'interface.
 
-## Evolution cible
+## Historique
 
-La cible a moyen terme serait de ne plus versionner `apps/*/app/` et de le generer avant publication.
-Tant que cette migration n'est pas faite, la discipline de sync et de validation reste obligatoire.
+- 2026-11-04 : `apps/*/app/` n'est plus versionne ; la CI le regenere et verifie que `sync:app` ne modifie aucune source versionnee.
