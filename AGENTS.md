@@ -23,4 +23,7 @@
   (creer `Europe` / `france`, puis enregistrer un document en `.docx`, `.doc` et `.pdf`).
 - **Avec fichier** seulement si l'enonce fournit explicitement un document, une image, un zip ou des donnees de depart.
 - Ne pas inventer de consignes du type "ouvrez le fichier telecharge" / "Documents ou Telechargements" si aucun asset n'est requis.
+- Si seuls des images / zip d'images sont fournis (pas de `.docx` / `.xlsx` / `.pptx`), la 1re etape doit faire creer un document vierge :
+  `Nouveau document : ouvrez Word et créez un document vierge.` (Excel : `Nouveau classeur : ...`, PowerPoint : presentation vierge).
+  Le message "Activer la modification (bandeau jaune)" n'est affiche que si un fichier Office est propose (`packages/atelier-core/browser/view.js`).
 - Distinguer telechargement **obligatoire** (asset lie) et mention **optionnelle** ("vous pouvez telecharger le texte") : dans ce second cas, laisser l'asset vide et orienter vers la saisie ou le modele image.

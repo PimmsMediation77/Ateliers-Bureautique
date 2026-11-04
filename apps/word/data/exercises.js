@@ -2630,6 +2630,7 @@ window.WORD_ATELIER_DATA = {
       "description": "",
       "consignes": [],
       "instructions": [
+        "Nouveau document : ouvrez Word et créez un document vierge.",
         "Photos : téléchargez les photos utiles à l'exercice et décompressez-les.",
         "SmartArt : insérez le modèle via Insertion > SmartArt (catégorie Image).",
         "Images : insérez les photos dans les zones prévues du SmartArt."
@@ -3345,6 +3346,7 @@ window.WORD_ATELIER_DATA = {
       "description": "Téléchargez les visuels ci-contre et décompresser les sur bureau",
       "consignes": [],
       "instructions": [
+        "Nouveau document : ouvrez Word et créez un document vierge.",
         "Insérer les images dans un document Word en les plaçant au hasard.",
         "Accéder au menu mise en forme et jouer avec votre talent artistique."
       ],
@@ -3526,6 +3528,7 @@ window.WORD_ATELIER_DATA = {
       "description": "1-Téléchargez les photos",
       "consignes": [],
       "instructions": [
+        "Nouveau document : ouvrez Word et créez un document vierge.",
         "Document portrait.",
         "Deux pages séparés par un saut de page.",
         "Deux blocs de photos insérés de façon à ce que les photos se superposent dans les angles.",
@@ -3575,6 +3578,7 @@ window.WORD_ATELIER_DATA = {
       "description": "1- Téléchargez les visuels",
       "consignes": [],
       "instructions": [
+        "Nouveau document : ouvrez Word et créez un document vierge.",
         "Formes : prenez deux formes au hasard et collez les deux poules en \"fond\" (remplissage par une image).",
         "Rognage : rognez les visuels pour avoir un \"gros plan\" des poules."
       ],
@@ -4256,6 +4260,7 @@ window.WORD_ATELIER_DATA = {
       "description": "Tableau simple avec photo.",
       "consignes": [],
       "instructions": [
+        "Nouveau document : ouvrez Word et créez un document vierge.",
         "Tableau : insérez un tableau de 4 lignes et 4 colonnes.",
         "Bordures : bordures extérieures épaisses.",
         "Fusion : fusionnez au bon endroit pour insérer l'hélicoptère.",
@@ -6062,6 +6067,7 @@ window.WORD_ATELIER_DATA = {
       "description": "Télécharger le texte et les images",
       "consignes": [],
       "instructions": [
+        "Nouveau document : ouvrez Word et créez un document vierge.",
         "Format : mettez le document au format A3 (Mise en page > Taille).",
         "Couleur : mettez la première et la dernière ligne en bleu.",
         "Taille : adaptez la taille des caractères à la page.",
@@ -6520,6 +6526,7 @@ window.WORD_ATELIER_DATA = {
       "description": "Téléchargez les visuels",
       "consignes": [],
       "instructions": [
+        "Nouveau document : ouvrez Word et créez un document vierge.",
         "Téléchargez les visuels puis insérez un SmartArt adapté à la composition attendue.",
         "Ajoutez les images dans les emplacements prévus ou placez-les à côté du SmartArt selon le modèle.",
         "Ajustez la structure, les couleurs et l'alignement pour obtenir un résultat proche de l'exemple."

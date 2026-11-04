@@ -488,13 +488,24 @@ class AtelierView {
     }
     this.#renderExtraDownloadButtons(vm.exercise.extraDownloadUrls || []);
 
+    const extraDownloads = vm.exercise.extraDownloadUrls || [];
     const hasFiles = Boolean(
       workFileUrl
       || vm.exercise.downloadUrl
-      || ((vm.exercise.extraDownloadUrls || []).length > 0),
+      || (extraDownloads.length > 0),
     );
     const filesCard = document.getElementById("exercise-files-card");
     if (filesCard) filesCard.style.display = hasFiles ? "" : "none";
+
+    // « Activer la modification » ne concerne que le fichier de travail (éventuellement zippé)
+    // ou une annexe Office, pas des images seules (l'apprenant crée alors un document vierge).
+    const officeHint = filesCard ? filesCard.querySelector("[class^='exercise-'][class$='-hint']") : null;
+    if (officeHint) {
+      const annexUrls = [vm.exercise.downloadUrl, ...extraDownloads.map((item) => item && item.url)];
+      const hasOfficeFile = Boolean(workFileUrl)
+        || annexUrls.some((url) => /\.(docx?|xlsx?|xlsm|pptx?)(\?|#|$)/i.test(url || ""));
+      officeHint.style.display = hasOfficeFile ? "" : "none";
+    }
 
     this.exerciseEnonceCaption.textContent = frenchTypography(vm.exercise.imageEnonceCaption || "Énoncé");
     this.exerciseResultCaption.textContent = frenchTypography(vm.exercise.imageResultatCaption || "Résultat attendu");
