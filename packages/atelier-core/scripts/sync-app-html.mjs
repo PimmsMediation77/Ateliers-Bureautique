@@ -37,9 +37,10 @@ const SHARED_PROGRESS_CONFLICT_BLOCK = {
   end: "<!-- ATELIER_SHARED_PROGRESS_CONFLICT_MODAL:END -->",
 };
 
-function renderScriptTags() {
+// Meme suffixe ?v= que standard-version-html-updater.cjs, sinon release et sync se contredisent.
+function renderScriptTags(version) {
   return APP_BOOTSTRAP_SCRIPT_ORDER
-    .map((scriptPath) => `  <script defer src="${scriptPath}"></script>`)
+    .map((scriptPath) => `  <script defer src="${scriptPath}?v=${version}"></script>`)
     .join("\n");
 }
 
@@ -612,7 +613,7 @@ export async function syncAppHtml({ appRoot, appName, logger = console }) {
   const current = await fs.readFile(indexPath, "utf8");
 
   let next = current;
-  next = replaceMarkedBlock(next, SHARED_SCRIPT_BLOCK, renderScriptTags(), indexPath);
+  next = replaceMarkedBlock(next, SHARED_SCRIPT_BLOCK, renderScriptTags(version), indexPath);
   next = replaceMarkedBlock(next, SHARED_HEADER_NAV_BLOCK, renderHeaderNav({ appName, version }), indexPath);
   next = replaceMarkedBlock(next, SHARED_OVERVIEW_PAGES_BLOCK, renderOverviewPages(), indexPath);
   next = replaceMarkedBlock(next, SHARED_PROGRESS_PROFILE_BLOCK, renderProgressProfile(), indexPath);
