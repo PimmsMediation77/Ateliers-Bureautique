@@ -37,8 +37,8 @@
 - `npm run release:all` -> flux publication complet en Bash (tests + commit auto si worktree dirty + release + push tags).
 - `npm run "do rel"` -> alias de `npm run release:all`.
   - `release:all` reduit le blocage "worktree non propre" en committant les changements avant `standard-version`.
-  - met a jour aussi le numero de version dans le header (`index.html`, `app/index.html`).
-  - alimente la page `/releases` (`releases/release*.{json,js}` et copie `app/releases/`).
+  - met a jour aussi le numero de version dans le header (`index.html`).
+  - alimente la page `/releases` (`releases/release*.{json,js}`, recopie dans `app/releases/` par `sync:app`).
   - bloque la release si des commits non explicites sont detectes.
   - bloque aussi la release si le worktree git contient des changements en cours.
 
@@ -57,4 +57,4 @@
 ## Actif / inactif
 
 - Le pilotage de disponibilite se fait dans `data/availability-overrides.js`.
-- Le mode d'emploi complet est dans [docs/GESTION_ACTIF_INACTIF.md](/C:/Dev/Apps%20Pimms/ateliers-Bureautique/docs/GESTION_ACTIF_INACTIF.md).
+- Le mode d'emploi complet est dans [docs/GESTION_ACTIF_INACTIF.md](../../../docs/GESTION_ACTIF_INACTIF.md).

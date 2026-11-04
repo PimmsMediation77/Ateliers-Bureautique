@@ -26,4 +26,4 @@ Application PowerPoint initialisee depuis le template Excel et alignee sur le so
 ## Actif / inactif
 
 - Le pilotage de disponibilite se fait dans `data/availability-overrides.js`.
-- Le mode d'emploi complet est dans [docs/GESTION_ACTIF_INACTIF.md](/C:/Dev/Apps%20Pimms/ateliers-Bureautique/docs/GESTION_ACTIF_INACTIF.md).
+- Le mode d'emploi complet est dans [docs/GESTION_ACTIF_INACTIF.md](../../../docs/GESTION_ACTIF_INACTIF.md).

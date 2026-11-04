@@ -23,7 +23,13 @@ Dernier audit structurel : **2026-11-04** → [AUDIT_STRUCTUREL_2026-11-04.md](A
    - controle d'encodage limite a `data/` (les copies `app/` sont verifiees par `validate:app-sync`)
    - verifie : le `app/` genere est identique octet pour octet a celui qui etait versionne (509 / 874 / 78 fichiers)
    - l'historique Git garde son poids (pas de reecriture)
-4. **Plus tard** : CSS commun dans `atelier-core`, reorganisation de la documentation (audit §8, §9).
+4. **Plus tard** : CSS commun dans `atelier-core` (audit §8).
+5. ~~**Documentation**~~ — fait le 2026-11-04 (audit §9) :
+   - `BACKLOG_GITHUB_ISSUES.md` → `docs/BACKLOG.md` ; la todo → `TODO.md` a la racine
+   - docs Word au nom accentue regroupees et renommees dans `apps/word/docs/modernisation-2024/` (le backlog Word y reste : il fait partie de ce dossier)
+   - fiches `FEATURE_*` laissees dans `packages/atelier-core/docs/` : elles documentent le core et pointent vers son code ; elles sont listees dans `ARCHITECTURE.md`
+   - index de la documentation dans `README.md` ; liens absolus `C:/...` remplaces par des liens relatifs
+   - `.cursor/rules/interpretation-enonces.mdc` renvoie a `AGENTS.md` au lieu de recopier la regle
 
 Les assets passent avant la sortie de `app/` parce que chaque fichier supprime de `data/` disparait aussi de `app/`.
 
@@ -33,7 +39,7 @@ Question de suivi pour le prochain audit :
 
 ## Etat acquis (verifie le 2026-11-04)
 
-- `docs/` contient de la documentation durable (exception : `Exercices Bureautique - todo.md`)
+- `docs/` contient de la documentation durable (la todo est a la racine : `TODO.md`)
 - `reports/` contient les inventaires et rapports regenerables
 - `logs/` et `backups/` ne sont pas conserves dans le depot
 - la validation detecte les fichiers orphelins a la racine de `app/`

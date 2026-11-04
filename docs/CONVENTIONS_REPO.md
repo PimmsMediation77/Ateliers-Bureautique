@@ -68,6 +68,8 @@ Ce dossier est ignore par Git depuis le 2026-11-04. Il est genere par `npm run a
 4. Tout nouveau rapport regenerable va dans `reports/`, pas dans `docs/`.
 5. Toute nouvelle documentation durable va dans `docs/`, pas dans `reports/`.
 6. Tout nouveau dossier local de travail doit etre ajoute au `.gitignore` avant usage regulier.
+7. Les listes de travail en cours vont dans `TODO.md` a la racine ; le backlog transverse est `docs/BACKLOG.md`.
+8. Noms de fichiers de documentation sans espaces ni accents ; tout nouveau document est ajoute a l'index du `README.md`.
 
 ## Points actuellement assumes
 
@@ -78,3 +80,4 @@ Ce dossier est ignore par Git depuis le 2026-11-04. Il est genere par `npm run a
 ## Historique
 
 - 2026-11-04 : `apps/*/app/` n'est plus versionne ; la CI le regenere et verifie que `sync:app` ne modifie aucune source versionnee.
+- 2026-11-04 : documentation reorganisee (backlog dans `docs/`, todo a la racine, docs Word renommees dans `apps/word/docs/modernisation-2024/`, index dans `README.md`).

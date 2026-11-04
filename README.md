@@ -71,6 +71,32 @@ Chaque app garde seulement ce qui lui est propre :
 - `apps/*/js/app-config.js` pour les noms globaux et la configuration de stockage
 - quelques wrappers de scripts dans `apps/*/scripts/`
 
+## Index de la documentation
+
+Projet (`docs/`) :
+
+- [Conventions du repo](docs/CONVENTIONS_REPO.md) — sources canoniques, artefacts generes, ce qui est ignore
+- [Synchronisation du depot](docs/SYNCHRONISATION_DEPOT.md)
+- [Assets de telechargement](docs/ASSETS_TELECHARGEMENTS.md)
+- [Gestion actif / inactif](docs/GESTION_ACTIF_INACTIF.md)
+- [Backlog transverse](docs/BACKLOG.md)
+- [Suivi des audits](docs/AUDIT_RESTANT.md) — renvoie au dernier audit structurel
+- [Revue des exercices (2026-10-23)](docs/REVUE_EXERCICES_2026-10-23.md)
+
+Socle partage (`packages/atelier-core/`) :
+
+- [Architecture](packages/atelier-core/ARCHITECTURE.md) — liste aussi les fiches `docs/FEATURE_*`
+- [Contrat DOM](packages/atelier-core/browser/DOM_CONTRACT.md)
+- [Version connectee](packages/atelier-core/docs/ARCHITECTURE_VERSION_CONNECTEE.md)
+
+Par atelier (`apps/<atelier>/docs/`) :
+
+- `README.md` (installation, maintenance), `TEMPLATE_CONSIGNES_FORMAT.md`
+- Excel et PowerPoint : `AUDIT_GLOBAL.md`, `REVISION_COHERENCE_EXERCICES.md`
+- Word : dossier [modernisation-2024/](apps/word/docs/modernisation-2024/) (audit de compatibilite, synthese, backlog, issues, plan de suivi, recapitulatif)
+
+Travail en cours : [TODO.md](TODO.md) (pas de la documentation durable).
+
 ## Conventions de structure
 
 - `docs/` contient la documentation durable du projet.
@@ -88,7 +114,7 @@ La politique detaillee de versionnement et de generation est documentee dans `do
 
 La V1 `actif / inactif` des modules et exercices est documentee dans :
 
-- [docs/GESTION_ACTIF_INACTIF.md](/C:/Dev/Apps%20Pimms/ateliers-Bureautique/docs/GESTION_ACTIF_INACTIF.md)
+- [docs/GESTION_ACTIF_INACTIF.md](docs/GESTION_ACTIF_INACTIF.md)
 
 Fichiers utilises :
 
