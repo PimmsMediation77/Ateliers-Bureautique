@@ -1,7 +1,196 @@
 {
-  "version": "1.47.0",
-  "updatedAt": "2026-11-04T08:41:13.852Z",
+  "version": "1.48.0",
+  "updatedAt": "2026-11-04T16:01:03.725Z",
   "releases": [
+    {
+      "version": "1.48.0",
+      "tag": "bureautique-v1.48.0",
+      "date": "2026-11-04",
+      "releaseType": "minor",
+      "impact": {
+        "level": "medium",
+        "rationale": "Nouvelles fonctionnalites ou changements techniques structurants."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalites et ameliorations.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.71",
+          "breaking": false,
+          "hash": "b144594"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.17.0",
+          "breaking": false,
+          "hash": "964a03e"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.24.0",
+          "breaking": false,
+          "hash": "3a07216"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "00ecba6"
+        },
+        {
+          "type": "docs",
+          "typeLabel": "Documentation",
+          "scope": "audit",
+          "description": "ecarts CSS Word tranches",
+          "breaking": false,
+          "hash": "4a7a8b8"
+        },
+        {
+          "type": "refactor",
+          "typeLabel": "Refactoring",
+          "scope": "core",
+          "description": "retirer le statut « fichier deja existant » du rappel de telechargement",
+          "breaking": false,
+          "hash": "b269d88"
+        },
+        {
+          "type": "style",
+          "typeLabel": "Style",
+          "scope": "ui",
+          "description": "mise en page des images et des etapes alignee sur Word",
+          "breaking": false,
+          "hash": "5fb256d"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "word",
+          "description": "afficher les onglets de variantes d'exercice",
+          "breaking": false,
+          "hash": "1125955"
+        },
+        {
+          "type": "refactor",
+          "typeLabel": "Refactoring",
+          "scope": "word",
+          "description": "variables de couleur et suppression du CSS inutilise",
+          "breaking": false,
+          "hash": "1f036eb"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "ui",
+          "description": "styles des etapes du rappel de sauvegarde dans Excel et PowerPoint",
+          "breaking": false,
+          "hash": "d856b23"
+        },
+        {
+          "type": "refactor",
+          "typeLabel": "Refactoring",
+          "scope": "ui",
+          "description": "extraire le CSS commun des ateliers dans atelier-core",
+          "breaking": false,
+          "hash": "adaa6d1"
+        },
+        {
+          "type": "docs",
+          "typeLabel": "Documentation",
+          "scope": "repo",
+          "description": "reorganiser la documentation et ajouter un index",
+          "breaking": false,
+          "hash": "4200e0e"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "user-setup",
+          "description": "bouton X au survol pour retirer un utilisateur de la liste",
+          "breaking": false,
+          "hash": "8352865"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "viewer",
+          "description": "etape en cours cliquable et fiche de la visionneuse",
+          "breaking": false,
+          "hash": "655fcc1"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "excel",
+          "description": "reorganiser les etapes de l'exercice excel-ex-161",
+          "breaking": false,
+          "hash": "b3d1d7a"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalite",
+          "scope": "viewer",
+          "description": "panneau d'images et fenetre flottante pour l'ecran partage",
+          "breaking": false,
+          "hash": "7900ed0"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "powerpoint",
+          "description": "icone parasite retiree du point de depart de l'exercice 5",
+          "breaking": false,
+          "hash": "84536e6"
+        },
+        {
+          "type": "build",
+          "typeLabel": "Build",
+          "scope": "pages",
+          "description": "chantier 3 de l'audit (app/ genere en CI, plus versionne)",
+          "breaking": false,
+          "hash": "341492c"
+        },
+        {
+          "type": "refactor",
+          "typeLabel": "Refactoring",
+          "scope": "assets",
+          "description": "chantier 2 de l'audit (dossiers numerotes, doublons supprimes)",
+          "breaking": false,
+          "hash": "84de776"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "repo",
+          "description": "chantier 1 de l'audit (CI, scripts orphelins, gitignore)",
+          "breaking": false,
+          "hash": "bea1df5"
+        }
+      ],
+      "counts": {
+        "feat": 4,
+        "fix": 5,
+        "perf": 0,
+        "refactor": 4,
+        "docs": 3,
+        "test": 0,
+        "chore": 5,
+        "build": 1,
+        "ci": 0,
+        "style": 1,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 23
+      }
+    },
     {
       "version": "1.47.0",
       "tag": "bureautique-v1.47.0",
