@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.70](///compare/powerpoint-v0.1.69...powerpoint-v0.1.70) (2026-11-04)
+
+
+### Documentation
+
+* revue des exercices et mise à jour de la todo 0c6d751
+
 ### [0.1.69](///compare/powerpoint-v0.1.68...powerpoint-v0.1.69) (2026-11-03)
 
 

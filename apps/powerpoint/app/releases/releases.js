@@ -1,7 +1,76 @@
 window.RELEASES_DATA = {
-  "version": "0.1.69",
-  "updatedAt": "2026-11-03T14:30:26.609Z",
+  "version": "0.1.70",
+  "updatedAt": "2026-11-04T08:41:02.483Z",
   "releases": [
+    {
+      "version": "0.1.70",
+      "tag": "powerpoint-v0.1.70",
+      "date": "2026-11-04",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version de maintenance.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.16.2",
+          "breaking": false,
+          "hash": "878fd59"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.23.2",
+          "breaking": false,
+          "hash": "b2699d2"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "3d46b0d"
+        },
+        {
+          "type": "docs",
+          "typeLabel": "Documentation",
+          "scope": "",
+          "description": "revue des exercices et mise à jour de la todo",
+          "breaking": false,
+          "hash": "0c6d751"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.46.0",
+          "breaking": false,
+          "hash": "c77f8b4"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 0,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 1,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 5
+      }
+    },
     {
       "version": "0.1.69",
       "tag": "powerpoint-v0.1.69",
