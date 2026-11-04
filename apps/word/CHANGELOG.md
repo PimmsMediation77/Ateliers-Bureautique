@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.24.0](///compare/word-v1.23.2...word-v1.24.0) (2026-11-04)
+
+
+### Features
+
+* **atelier-core:** accueil graphique et page « Où j'en suis » a10fe97
+* **user-setup:** bouton X au survol pour retirer un utilisateur de la liste 8352865
+* **viewer:** etape en cours cliquable et fiche de la visionneuse 655fcc1
+* **viewer:** panneau d'images et fenetre flottante pour l'ecran partage 7900ed0
+
+
+### Bug Fixes
+
+* **excel:** reorganiser les etapes de l'exercice excel-ex-161 b3d1d7a
+* **exercices:** masque « Activer la modification » sans fichier Office b8369ae
+* **powerpoint:** icone parasite retiree du point de depart de l'exercice 5 84536e6
+* **ui:** styles des etapes du rappel de sauvegarde dans Excel et PowerPoint d856b23
+* **word:** afficher les onglets de variantes d'exercice 1125955
+
+
+### Refactoring
+
+* **assets:** chantier 2 de l'audit (dossiers numerotes, doublons supprimes) 84de776
+* **core:** retirer le statut « fichier deja existant » du rappel de telechargement b269d88
+* **ui:** extraire le CSS commun des ateliers dans atelier-core adaa6d1
+* **word:** variables de couleur et suppression du CSS inutilise 1f036eb
+
+
+### Documentation
+
+* **audit:** audit structurel du 2026-11-04 6890091
+* **audit:** ecarts CSS Word tranches 4a7a8b8
+* **repo:** reorganiser la documentation et ajouter un index 4200e0e
+
 ### [1.23.2](///compare/word-v1.23.1...word-v1.23.2) (2026-11-04)
 
 
