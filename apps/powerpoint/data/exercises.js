@@ -369,7 +369,7 @@ window.POWERPOINT_ATELIER_DATA = {
       "downloadLabel": "Telecharger les medias",
       "imageEnonce": null,
       "imageResultat": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-001-image-resultat.webp",
-      "imageEnonceCaption": "Sujet",
+      "imageEnonceCaption": null,
       "imageResultatCaption": "Vue du resultat",
       "description": "Mettre en place un mini quiz avec trajectoires, messages caches, sons et lien externe.",
       "preamble": "Chaque rectangle bleu masque une reponse. Au clic, il descend pour reveler le message, avec un son adapte. Le ZIP medias contient la photo de fond, le logo et les sons.",
@@ -389,12 +389,7 @@ window.POWERPOINT_ATELIER_DATA = {
         "prevUrl": "https://www.clic-formation.net/exercice-ppt-3.html",
         "nextUrl": "https://www.clic-formation.net/exercice-ppt-6.html",
         "extraImages": [],
-        "enonceImages": [
-          {
-            "src": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-001-scrape-enonce-1.png",
-            "caption": "Support du sujet"
-          }
-        ],
+        "enonceImages": [],
         "resultImages": null
       },
       "section": "bases",
