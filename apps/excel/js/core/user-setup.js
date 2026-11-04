@@ -216,7 +216,51 @@ function createAtelierUserSetupRuntime(config = {}) {
             metaEl.textContent = meta;
             card.appendChild(metaEl);
           }
+
+          if (folderId) {
+            // Un <button> ne peut pas contenir de <button> : la croix est un span actionnable.
+            const removeEl = documentRef.createElement("span");
+            removeEl.className = "user-setup-user-remove";
+            removeEl.setAttribute("role", "button");
+            removeEl.setAttribute("tabindex", "0");
+            removeEl.setAttribute("aria-label", `Retirer ${name} de la liste`);
+            removeEl.setAttribute("title", "Retirer de la liste");
+            removeEl.textContent = "×";
+            const onRemove = (event) => {
+              event.preventDefault();
+              event.stopPropagation();
+              if (card.disabled) return;
+              removeSavedFolder(folderId, name);
+            };
+            removeEl.onclick = onRemove;
+            removeEl.onkeydown = (event) => {
+              if (event.key === "Enter" || event.key === " ") onRemove(event);
+            };
+            card.appendChild(removeEl);
+          }
           return card;
+        };
+
+        const removeSavedFolder = async (folderId, name) => {
+          const confirmFn = typeof window !== "undefined" && typeof window.confirm === "function"
+            ? window.confirm.bind(window)
+            : () => true;
+          if (!confirmFn(`Retirer ${name} de la liste ?\nSon dossier et ses fichiers ne seront pas supprimés.`)) return;
+
+          savedFolders = savedFolders.filter((entry) => entry.id !== folderId);
+          try {
+            await storage.setSavedWorkFolders(savedFolders);
+          } catch {
+            // La liste affichée reste à jour même si l'enregistrement échoue.
+          }
+
+          if (!savedFolders.length) {
+            showForm({ title: "Bienvenue !" });
+            return;
+          }
+          renderUserCards();
+          showChooser();
+          status.textContent = `${name} a été retiré de la liste.`;
         };
 
         const renderUserCards = () => {
