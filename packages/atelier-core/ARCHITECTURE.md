@@ -27,6 +27,7 @@
 - [Architecture cible de la version connectee](./docs/ARCHITECTURE_VERSION_CONNECTEE.md)
 - [Espace formateur (mode connecte)](./docs/FEATURE_ESPACE_FORMATEUR.md)
 - [Fiches d'aide « Détails » sur les étapes](./docs/FEATURE_FICHES_AIDE.md)
+- [Visionneuse d'images, étape en cours et zone par étape (prévue)](./docs/FEATURE_VISIONNEUSE_IMAGES.md)
 
 La note `ARCHITECTURE_VERSION_CONNECTEE.md` documente aussi l'etat reel de la V1 actuellement deployee :
 

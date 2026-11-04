@@ -873,6 +873,7 @@ class AtelierView {
     const buttons = Array.from(this.exerciseStepsTabs.querySelectorAll(".exercise-tab-btn"));
     const activateTab = (index, focus = false) => {
       this.activeExerciseTabIndex = index;
+      this.modalStepIndex = 0;
       buttons.forEach((button, btnIndex) => {
         const active = btnIndex === index;
         button.classList.toggle("active", active);
@@ -1007,6 +1008,7 @@ class AtelierView {
     this.exerciseSteps.innerHTML = items.length
       ? items.join("")
       : "<li>Reproduisez le document en suivant l'énoncé.</li>";
+    this.#renderModalStep();
   }
 
   #syncImagesGridLayout() {
@@ -1346,8 +1348,21 @@ class AtelierView {
     });
     // Retour arrière du navigateur ou changement de page : le panneau ne doit pas rester affiché.
     window.addEventListener("hashchange", () => {
+      // En quittant l'exercice, l'étape en cours repartira de 1 à la prochaine ouverture.
+      if (!/^#exercise\//.test(window.location.hash)) this.viewerExerciseId = "";
       if (!this.imageViewerPipWindow) this.closeImageModal();
     });
+    // Étape en cours : un clic sur une étape de la liste la sélectionne, le rappel de la visionneuse suit.
+    if (this.exerciseSteps) {
+      this.exerciseSteps.addEventListener("click", (event) => {
+        if (event.target.closest("button, a, [data-step-help]")) return;
+        const selection = window.getSelection ? String(window.getSelection() || "").trim() : "";
+        if (selection) return; // l'apprenant sélectionne du texte à copier
+        const item = event.target.closest("li");
+        const index = this.#getStepItems().indexOf(item);
+        if (index >= 0) this.#setModalStep(index);
+      });
+    }
     this.#updateDetachState();
   }
 
@@ -1441,16 +1456,17 @@ class AtelierView {
   }
 
   // Rappel de l'étape : les consignes restent lisibles pendant qu'on regarde l'image.
-  #getViewerSteps() {
+  #getStepItems() {
     if (!this.exerciseSteps) return [];
-    return Array.from(this.exerciseSteps.children)
-      .filter((node) => node.tagName === "LI")
-      .map((li) => {
-        const source = (li.querySelector(".steps-instruction") || li).cloneNode(true);
-        for (const node of source.querySelectorAll(".step-help-btn, pre")) node.remove();
-        return source.textContent.replace(/\s+/g, " ").trim();
-      })
-      .filter(Boolean);
+    return Array.from(this.exerciseSteps.children).filter((node) => node.tagName === "LI");
+  }
+
+  #getViewerSteps() {
+    return this.#getStepItems().map((li) => {
+      const source = (li.querySelector(".steps-instruction") || li).cloneNode(true);
+      for (const node of source.querySelectorAll(".step-help-btn, pre")) node.remove();
+      return source.textContent.replace(/\s+/g, " ").trim();
+    });
   }
 
   #setModalStep(index) {
@@ -1458,14 +1474,24 @@ class AtelierView {
     this.#renderModalStep();
   }
 
+  #highlightCurrentStep() {
+    for (const [index, li] of this.#getStepItems().entries()) {
+      const current = index === this.modalStepIndex;
+      li.classList.toggle("is-current-step", current);
+      if (current) li.setAttribute("aria-current", "step");
+      else li.removeAttribute("aria-current");
+    }
+  }
+
   #renderModalStep() {
-    if (!this.imageModalStep || !this.imageModalStepText) return;
     const steps = this.#getViewerSteps();
+    this.modalStepIndex = Math.max(0, Math.min(steps.length - 1, this.modalStepIndex));
+    this.#highlightCurrentStep();
+    if (!this.imageModalStep || !this.imageModalStepText) return;
     if (!steps.length) {
       this.imageModalStep.hidden = true;
       return;
     }
-    this.modalStepIndex = Math.max(0, Math.min(steps.length - 1, this.modalStepIndex));
     this.imageModalStep.hidden = false;
     this.imageModalStepText.innerHTML = `<strong>Étape ${this.modalStepIndex + 1}/${steps.length}</strong> ${escapeHtml(frenchTypography(steps[this.modalStepIndex]))}`;
     if (this.imageModalStepPrev) this.imageModalStepPrev.disabled = this.modalStepIndex <= 0;

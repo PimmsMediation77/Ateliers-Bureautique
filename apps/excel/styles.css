@@ -1692,6 +1692,10 @@ body.image-viewer-pip { margin: 0; overflow: hidden; background: var(--panel); }
 .image-viewer.is-detached .image-viewer-tool { min-height: 34px; padding: 4px 10px; font-size: 0.85rem; }
 .image-viewer.is-detached .image-viewer-tool.is-icon { width: 36px; }
 .image-viewer.is-detached .image-viewer-hint { display: none; }
+/* Étape en cours : cliquable dans la liste, reprise par le rappel d'étape de la visionneuse. */
+#exercise-steps > li { padding-left: 8px; padding-right: 8px; border-radius: 8px; cursor: pointer; }
+#exercise-steps > li:hover { background: var(--accent-soft); }
+#exercise-steps > li.is-current-step { background: var(--accent-soft); box-shadow: inset 0 0 0 2px var(--accent); }
 
 /* Excel module theme: structured grid and data dashboard */
 :root {
