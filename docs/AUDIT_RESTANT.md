@@ -27,7 +27,8 @@ Dernier audit structurel : **2026-11-04** → [AUDIT_STRUCTUREL_2026-11-04.md](A
    - l'ecart Word ↔ Excel de 1 664 lignes sur `styles-redesign-v2.css` venait surtout des fins de ligne (CRLF) ; l'ecart reel etait de ~160 lignes
    - `packages/atelier-core/browser/styles/{base,redesign}.css` (406 blocs communs aux 3 ateliers), copies en `apps/*/css/core/` par `sync:app` et chargees avant les feuilles de l'atelier
    - extraction mecanique, sans changement visuel : styles calcules de tous les elements identiques avant/apres sur 48 ecrans (7 a 9 routes par atelier, en largeur bureau et mobile), via Chrome headless
-   - reste a trancher : les ecarts Word (vignettes d'images pleine largeur, compteur et legende de vignette, liste de profils) sont-ils voulus ? Les aligner permettrait d'en mettre davantage en commun
+   - ecarts Word tranches le 2026-11-04 : mise en page Word (vignettes pleine largeur, introduction des etapes en texte normal) appliquee aux 3 ateliers ; onglets de variantes ajoutes a Word ; statut « fichier deja existant » (inactif depuis juin) supprime ; CSS inutilise retire
+   - les `styles*.css` des ateliers ne contiennent plus que leur theme (couleurs, fond, en-tete)
 5. ~~**Documentation**~~ — fait le 2026-11-04 (audit §9) :
    - `BACKLOG_GITHUB_ISSUES.md` → `docs/BACKLOG.md` ; la todo → `TODO.md` a la racine
    - docs Word au nom accentue regroupees et renommees dans `apps/word/docs/modernisation-2024/` (le backlog Word y reste : il fait partie de ce dossier)
