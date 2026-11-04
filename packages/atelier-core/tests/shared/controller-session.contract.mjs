@@ -157,7 +157,6 @@ function createDocument() {
     "save-reminder-message",
     "save-reminder-user-folder",
     "save-reminder-file-name",
-    "save-reminder-existing-status",
     "save-reminder-cancel-btn",
     "save-reminder-continue-btn",
     "progress-conflict-modal",

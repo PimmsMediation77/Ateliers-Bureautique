@@ -8,14 +8,11 @@ function createAtelierReminderModalRuntime(config = {}) {
     message,
     steps,
     continueLabel = "Continuer",
-    existingStatusHtml = "",
-    existingStatusImportant = false,
     numberedSteps = true,
   }) {
     const modal = modalRefs.root;
     const titleEl = modal ? modal.querySelector("#save-reminder-title") : null;
     const stepsEl = modal ? modal.querySelector(".save-reminder-steps") : null;
-    const existingStatus = modalRefs.existingStatus;
     const continueBtn = modalRefs.continueBtn;
 
     if (titleEl) titleEl.textContent = title;
@@ -23,11 +20,6 @@ function createAtelierReminderModalRuntime(config = {}) {
     if (stepsEl) {
       stepsEl.innerHTML = steps;
       stepsEl.classList.toggle("is-unnumbered", !numberedSteps);
-    }
-    if (existingStatus) {
-      existingStatus.hidden = !existingStatusHtml;
-      existingStatus.innerHTML = existingStatusHtml;
-      existingStatus.classList.toggle("is-important", Boolean(existingStatusImportant));
     }
     if (continueBtn) continueBtn.textContent = continueLabel;
   }

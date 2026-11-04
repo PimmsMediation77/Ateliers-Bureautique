@@ -153,10 +153,6 @@ function createAtelierWorkFileRuntime(config = {}) {
     return getNumberedSaveReminderFileName(exercise.num);
   }
 
-  async function buildDownloadExistingStatus() {
-    return { important: false, html: "" };
-  }
-
   async function trackExerciseDownloadFromLink(linkEl) {
     const userSession = getUserSession();
     if (!userSession || !storage || !linkEl) return;
@@ -181,7 +177,6 @@ function createAtelierWorkFileRuntime(config = {}) {
     getDefaultSaveReminderFileName,
     getNumberedSaveReminderFileName,
     getSaveReminderFileName,
-    buildDownloadExistingStatus,
     trackExerciseDownloadFromLink,
   };
 }

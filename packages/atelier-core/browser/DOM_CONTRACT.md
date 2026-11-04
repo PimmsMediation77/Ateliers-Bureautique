@@ -59,7 +59,6 @@ Ce document liste les éléments HTML minimaux attendus par le runtime partagé 
 - `save-reminder-message`
 - `save-reminder-user-folder`
 - `save-reminder-file-name`
-- `save-reminder-existing-status`
 - `save-reminder-cancel-btn`
 - `save-reminder-continue-btn`
 - `exercise-feedback-modal`

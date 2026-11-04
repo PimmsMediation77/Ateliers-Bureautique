@@ -143,7 +143,6 @@ function createAtelierController(config = {}) {
       message: document.getElementById("save-reminder-message"),
       userFolder: document.getElementById("save-reminder-user-folder"),
       fileName: document.getElementById("save-reminder-file-name"),
-      existingStatus: document.getElementById("save-reminder-existing-status"),
       cancelBtn: document.getElementById("save-reminder-cancel-btn"),
       continueBtn: document.getElementById("save-reminder-continue-btn"),
     };
@@ -1179,10 +1178,6 @@ function createAtelierController(config = {}) {
       .replace(/'/g, "&#039;");
   }
 
-  async #buildDownloadExistingStatus(fileName) {
-    return this.workFileRuntime.buildDownloadExistingStatus(fileName);
-  }
-
   async #trackExerciseDownloadFromLink(linkEl) {
     if (!this.isReady) return;
     await this.workFileRuntime.trackExerciseDownloadFromLink(linkEl);
@@ -1236,8 +1231,6 @@ function createAtelierController(config = {}) {
     message,
     steps,
     continueLabel = "Continuer",
-    existingStatusHtml = "",
-    existingStatusImportant = false,
     numberedSteps = true,
   }) {
     this.reminderModalRuntime.setContent({
@@ -1245,15 +1238,11 @@ function createAtelierController(config = {}) {
       message,
       steps,
       continueLabel,
-      existingStatusHtml,
-      existingStatusImportant,
       numberedSteps,
     });
   }
 
   async #showDownloadReminderModal(downloadFileName) {
-    const existingStatus = await this.#buildDownloadExistingStatus(downloadFileName);
-
     return new Promise((resolve) => {
       const modal = this.saveReminderModal.root;
       const userFolder = this.saveReminderModal.userFolder;
@@ -1280,8 +1269,6 @@ function createAtelierController(config = {}) {
           <li>Ouvrez ensuite le fichier dans ${settings.officeAppName}.</li>
         `,
         continueLabel: "T\u00e9l\u00e9charger",
-        existingStatusHtml: existingStatus.html,
-        existingStatusImportant: existingStatus.important,
       });
 
       const nextUserFolder = modal.querySelector("#save-reminder-user-folder");
