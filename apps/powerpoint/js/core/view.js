@@ -207,32 +207,38 @@ class AtelierView {
     this.headerUserName = this.headerUserBadge ? this.headerUserBadge.querySelector(".header-user-name") : null;
     this.headerRuntimeStatus = document.getElementById("header-runtime-status");
 
+    // Visionneuse d'images : panneau sur toute la fenêtre de l'appli (pensé pour l'écran partagé appli | Word),
+    // avec zoom à l'endroit cliqué et possibilité de « détacher » l'image dans une fenêtre flottante
+    // (Document Picture-in-Picture, Chrome 116+) qui reste au-dessus de Word.
     this.imageModal = document.getElementById("image-modal");
     this.imageModalImg = document.getElementById("image-modal-img");
+    this.imageModalStage = document.getElementById("image-modal-stage");
     this.imageModalClose = document.getElementById("image-modal-close");
+    this.imageModalDetach = document.getElementById("image-modal-detach");
+    this.imageModalTabs = document.getElementById("image-modal-tabs");
     this.imageModalPrev = document.getElementById("image-modal-prev");
     this.imageModalNext = document.getElementById("image-modal-next");
     this.imageModalCaption = document.getElementById("image-modal-caption");
     this.imageModalCounter = document.getElementById("image-modal-counter");
-    if (this.imageModalClose) {
-      this.imageModalClose.textContent = "Dézoomer";
-      this.imageModalClose.setAttribute("aria-label", "Dézoomer l'image");
-      this.imageModalClose.title = "Dézoomer";
-    }
-    this.imageModalStage = null;
-    this.modalGalleryItems = [];
+    this.imageModalHint = document.getElementById("image-modal-hint");
+    this.imageModalToolbar = document.getElementById("image-modal-toolbar");
+    this.imageModalZoomLabel = document.getElementById("image-modal-zoom");
+    this.imageModalStep = document.getElementById("image-modal-step");
+    this.imageModalStepText = document.getElementById("image-modal-step-text");
+    this.imageModalStepPrev = document.getElementById("image-modal-step-prev");
+    this.imageModalStepNext = document.getElementById("image-modal-step-next");
+    this.imageGalleries = {};
+    this.modalGalleryKey = "";
     this.modalGalleryIndex = 0;
-    this.modalZoom = 1;
-    this.modalBaseWidth = 0;
-    this.isModalDragging = false;
-    this.modalDragStartX = 0;
-    this.modalDragStartY = 0;
-    this.modalScrollStartLeft = 0;
-    this.modalScrollStartTop = 0;
-    this.imageViewerHost = null;
+    this.modalStepIndex = 0;
+    this.modalTrigger = null;
+    this.viewerExerciseId = "";
+    this.viewerZoom ={ scale: 1, x: 0, y: 0, width: 0, height: 0 };
+    this.viewerPointers = new Map();
+    this.viewerGesture = null;
+    this.imageViewerPipWindow = null;
     this.imageModalHome = this.imageModal ? this.imageModal.parentElement : null;
     this.imageModalHomeNextSibling = this.imageModal ? this.imageModal.nextSibling : null;
-    this.#ensureModalStage();
     this.#bindModalEvents();
 
     this.helpModal = null;
@@ -390,8 +396,14 @@ class AtelierView {
 
   renderExercise(vm) {
     this.currentExerciseVm = vm;
-      // Si une image est ouverte, on ferme le visualiseur afin de réinitialiser le zoom et d'éviter qu'il reste affiché lors du changement d'exercice.
-      this.closeImageModal();
+    // Changement d'exercice : le panneau se ferme ; une fenêtre flottante reste ouverte et suit le nouvel exercice.
+    const exerciseId = vm && vm.exercise ? vm.exercise.id : "";
+    if (exerciseId !== this.viewerExerciseId) {
+      this.viewerExerciseId = exerciseId;
+      this.modalStepIndex = 0;
+      this.modalGalleryIndex = 0;
+    }
+    if (!this.imageViewerPipWindow) this.closeImageModal();
 
     // Réinitialiser la section "Préparer l'exercice" immédiatement
     if (this.exerciseWorkFileStatus) this.exerciseWorkFileStatus.textContent = "";
@@ -527,6 +539,7 @@ class AtelierView {
     this.#renderExerciseTabs(vm.visuals.tabs || []);
     this.#syncImagesGridLayout();
     this.#renderExtraImages(vm.visuals.extraImages || []);
+    this.#refreshDetachedViewer();
 
     this.exercisePrevBtn.disabled = !vm.prevId;
     this.exerciseNextBtn.disabled = !vm.nextId;
@@ -727,7 +740,9 @@ class AtelierView {
         caption: typeof item === "object" && item ? String(item.caption || "") : "",
       });
     }
+    const galleryKey = containerEl === this.exerciseEnonceImages ? "enonce" : "result";
     if (!unique.length) {
+      delete this.imageGalleries[galleryKey];
       containerEl.innerHTML = "";
       figure.classList.remove("empty");
       figure.style.display = "none";
@@ -748,19 +763,21 @@ class AtelierView {
       .join("");
 
     const buttons = Array.from(containerEl.querySelectorAll("button[data-zoom-src]"));
-    const galleryItems = unique.map((image, idx) => ({
-      src: image.src,
-      alt: image.caption || `${altPrefix} ${idx + 1}`,
-      caption: image.caption || "",
-    }));
+    const captionEl = galleryKey === "enonce" ? this.exerciseEnonceCaption : this.exerciseResultCaption;
+    this.imageGalleries[galleryKey] = {
+      label: (captionEl && captionEl.textContent.trim()) || (galleryKey === "enonce" ? "Énoncé" : "Résultat attendu"),
+      items: unique.map((image, idx) => ({
+        src: image.src,
+        alt: image.caption || `${altPrefix} ${idx + 1}`,
+        caption: image.caption || "",
+      })),
+    };
     for (const [index, btn] of buttons.entries()) {
-      btn.addEventListener("click", () => {
-        this.openImageModal(galleryItems[index].src, galleryItems[index].alt, galleryItems, index, btn);
-      });
+      btn.addEventListener("click", () => this.openImageModal(galleryKey, index, btn));
       btn.addEventListener("keydown", (event) => {
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault();
-          this.openImageModal(galleryItems[index].src, galleryItems[index].alt, galleryItems, index, btn);
+          this.openImageModal(galleryKey, index, btn);
         }
       });
     }
@@ -769,6 +786,7 @@ class AtelierView {
   #renderExtraImages(images) {
     const unique = [...new Set((images || []).filter(Boolean))];
     if (!unique.length) {
+      delete this.imageGalleries.extra;
       this.exerciseExtraWrap.style.display = "none";
       this.exerciseExtraImages.innerHTML = "";
       return;
@@ -785,19 +803,20 @@ class AtelierView {
       )
       .join("");
     const buttons = Array.from(this.exerciseExtraImages.querySelectorAll("button[data-zoom-src]"));
-    const galleryItems = unique.map((src, idx) => ({
-      src,
-      alt: `Image illustrative ${idx + 1}`,
-      caption: "",
-    }));
+    this.imageGalleries.extra = {
+      label: "Images illustratives",
+      items: unique.map((src, idx) => ({
+        src,
+        alt: `Image illustrative ${idx + 1}`,
+        caption: "",
+      })),
+    };
     for (const [index, btn] of buttons.entries()) {
-      btn.addEventListener("click", () => {
-        this.openImageModal(galleryItems[index].src, galleryItems[index].alt, galleryItems, index, btn);
-      });
+      btn.addEventListener("click", () => this.openImageModal("extra", index, btn));
       btn.addEventListener("keydown", (event) => {
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault();
-          this.openImageModal(galleryItems[index].src, galleryItems[index].alt, galleryItems, index, btn);
+          this.openImageModal("extra", index, btn);
         }
       });
     }
@@ -872,6 +891,7 @@ class AtelierView {
         "Pas d'image de résultat sur la source.",
       );
       this.#syncImagesGridLayout();
+      this.#refreshDetachedViewer();
     };
 
     buttons.forEach((button, index) => {
@@ -1275,187 +1295,144 @@ class AtelierView {
   }
 
   #bindModalEvents() {
-    if (!this.imageModal || !this.imageModalImg || !this.imageModalClose || !this.imageModalStage) return;
-    this.imageModalClose.addEventListener("click", () => this.closeImageModal());
-    if (this.imageModalPrev) this.imageModalPrev.addEventListener("click", () => this.showPreviousModalImage());
-    if (this.imageModalNext) this.imageModalNext.addEventListener("click", () => this.showNextModalImage());
-    this.imageModalImg.addEventListener("load", () => {
-      this.#setModalZoom(this.modalZoom);
-    });
-    this.imageModalImg.addEventListener("dragstart", (event) => event.preventDefault());
-    this.imageModalImg.addEventListener("dblclick", (event) => {
-      event.preventDefault();
-      const nextZoom = this.modalZoom < 8 ? this.modalZoom * 2 : 1;
-      this.#setModalZoom(nextZoom);
-    });
-    const beginModalDrag = (event) => {
-      if (this.modalZoom <= 1 || !this.imageModalStage) return;
-      if (typeof event.button === "number" && event.button !== 0) return;
-      event.preventDefault();
-      this.isModalDragging = true;
-      this.modalDragStartX = event.clientX;
-      this.modalDragStartY = event.clientY;
-      this.modalScrollStartLeft = this.imageModalStage.scrollLeft;
-      this.modalScrollStartTop = this.imageModalStage.scrollTop;
-      this.imageModalImg.style.cursor = "grabbing";
-      this.imageModalStage.classList.add("is-dragging");
-      if (typeof event.pointerId === "number" && this.imageModalStage.setPointerCapture) {
-        try {
-          this.imageModalStage.setPointerCapture(event.pointerId);
-        } catch (_error) {
-          /* ignore unsupported capture */
-        }
-      }
-    };
-    const moveModalDrag = (event) => {
-      if (!this.isModalDragging || !this.imageModalStage) return;
-      event.preventDefault();
-      const dx = event.clientX - this.modalDragStartX;
-      const dy = event.clientY - this.modalDragStartY;
-      this.imageModalStage.scrollLeft = this.modalScrollStartLeft - dx;
-      this.imageModalStage.scrollTop = this.modalScrollStartTop - dy;
-    };
-    const endModalDrag = () => {
-      if (!this.isModalDragging) return;
-      this.isModalDragging = false;
-      if (this.imageModalStage) this.imageModalStage.classList.remove("is-dragging");
-      this.imageModalImg.style.cursor = this.modalZoom > 1 ? "grab" : "zoom-in";
-    };
-    this.imageModalStage.addEventListener("pointerdown", beginModalDrag, { passive: false });
-    this.imageModalStage.addEventListener("pointermove", moveModalDrag, { passive: false });
-    this.imageModalStage.addEventListener("pointerup", endModalDrag);
-    this.imageModalStage.addEventListener("pointercancel", endModalDrag);
-    document.addEventListener("pointerup", endModalDrag);
-    // =====================================================================
-// ZOOM À LA MOLETTE DÉSACTIVÉ
-// ---------------------------------------------------------------------
-// Le zoom des captures d'écran avec la molette a été désactivé car il
-// provoquait des zooms involontaires lors de la navigation.
-// Le zoom reste disponible via double-clic et touches + / -.
-//
-// Pour réactiver le zoom à la molette, décommenter le bloc ci-dessous.
-// =====================================================================
+    if (!this.imageModal || !this.imageModalImg || !this.imageModalStage) return;
+    if (this.imageModalClose) {
+      this.imageModalClose.addEventListener("click", () => {
+        if (this.imageViewerPipWindow) this.#attachImageViewer({ reopen: true });
+        else this.closeImageModal();
+      });
+    }
+    if (this.imageModalDetach) this.imageModalDetach.addEventListener("click", () => this.#detachImageViewer());
+    if (this.imageModalPrev) this.imageModalPrev.addEventListener("click", () => this.#stepModalImage(-1));
+    if (this.imageModalNext) this.imageModalNext.addEventListener("click", () => this.#stepModalImage(1));
+    if (this.imageModalStepPrev) this.imageModalStepPrev.addEventListener("click", () => this.#setModalStep(this.modalStepIndex - 1));
+    if (this.imageModalStepNext) this.imageModalStepNext.addEventListener("click", () => this.#setModalStep(this.modalStepIndex + 1));
+    if (this.imageModalTabs) {
+      this.imageModalTabs.addEventListener("click", (event) => {
+        const tab = event.target.closest("[data-gallery]");
+        if (!tab) return;
+        this.modalGalleryKey = tab.getAttribute("data-gallery");
+        this.modalGalleryIndex = 0;
+        this.#renderModalImage();
+      });
+    }
+    if (this.imageModalToolbar) {
+      this.imageModalToolbar.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-zoom]");
+        if (!button) return;
+        this.#hideViewerHint();
+        const action = button.getAttribute("data-zoom");
+        if (action === "in") this.#zoomViewerBy(1.4);
+        if (action === "out") this.#zoomViewerBy(1 / 1.4);
+        if (action === "width") this.#fitViewerWidth();
+        if (action === "page") this.#fitViewerPage();
+      });
+    }
 
-/*
-this.imageModalStage.addEventListener(
-  "wheel",
-  (event) => {
-    if (event.deltaY < 0) {
-      event.preventDefault();
-      this.#setModalZoom(Math.min(8, this.modalZoom + 1));
+    const stage = this.imageModalStage;
+    this.imageModalImg.addEventListener("load", () => this.#initViewerImage());
+    this.imageModalImg.addEventListener("dragstart", (event) => event.preventDefault());
+    stage.addEventListener("pointerdown", (event) => this.#onViewerPointerDown(event));
+    stage.addEventListener("pointermove", (event) => this.#onViewerPointerMove(event));
+    stage.addEventListener("pointerup", (event) => this.#onViewerPointerUp(event, false));
+    stage.addEventListener("pointercancel", (event) => this.#onViewerPointerUp(event, true));
+    stage.addEventListener("wheel", (event) => this.#onViewerWheel(event), { passive: false });
+
+    document.addEventListener("keydown", (event) => {
+      if (!this.imageViewerPipWindow) this.#handleViewerKey(event);
+    });
+    window.addEventListener("resize", () => {
+      if (!this.imageViewerPipWindow) this.#refitViewer();
+    });
+    // Retour arrière du navigateur ou changement de page : le panneau ne doit pas rester affiché.
+    window.addEventListener("hashchange", () => {
+      if (!this.imageViewerPipWindow) this.closeImageModal();
+    });
+    this.#updateDetachState();
+  }
+
+  openImageModal(galleryKey, index = 0, trigger = null) {
+    const gallery = this.imageGalleries[galleryKey];
+    if (!gallery || !gallery.items.length || !this.imageModal || !this.imageModalImg) return;
+    this.modalGalleryKey = galleryKey;
+    this.modalGalleryIndex = Math.max(0, Math.min(gallery.items.length - 1, Number(index) || 0));
+    if (this.imageViewerPipWindow) {
+      // Fenêtre flottante déjà ouverte : elle affiche l'image choisie, sans masquer l'exercice.
+      this.#renderModalImage();
       return;
     }
-    event.preventDefault();
-    this.#setModalZoom(Math.max(1, this.modalZoom - 1));
-  },
-  { passive: false },
-);
-*/
-    this.imageModal.addEventListener("click", (event) => {
-      if (event.target === this.imageModal) this.closeImageModal();
-    });
-    document.addEventListener("keydown", (event) => {
-      if (this.imageModal.hidden) return;
-      if (event.key === "Escape") this.closeImageModal();
-      if (event.key === "ArrowLeft") {
-        event.preventDefault();
-        this.showPreviousModalImage();
-      }
-      if (event.key === "ArrowRight") {
-        event.preventDefault();
-        this.showNextModalImage();
-      }
-      if (event.key === "+" || event.key === "=") {
-        event.preventDefault();
-        this.#setModalZoom(Math.min(8, this.modalZoom + 1));
-      }
-      if (event.key === "-") {
-        event.preventDefault();
-        this.#setModalZoom(Math.max(1, this.modalZoom - 1));
-      }
-    });
-  }
-
-  openImageModal(src, altText, galleryItems = null, galleryIndex = 0, trigger = null) {
-    if (!src || !this.imageModal || !this.imageModalImg) return;
-    const normalizedItems = Array.isArray(galleryItems) && galleryItems.length
-      ? galleryItems.filter((item) => item && item.src)
-      : [{ src, alt: altText || "Aperçu" }];
-    const maxIndex = normalizedItems.length - 1;
-    this.modalGalleryItems = normalizedItems;
-    this.modalGalleryIndex = Math.max(0, Math.min(maxIndex, Number(galleryIndex) || 0));
-    const host = trigger && trigger.closest(".images-grid, .extra-wrap");
-    if (host) {
-      this.imageViewerHost = host;
-      host.classList.add("image-viewer-open");
-      host.appendChild(this.imageModal);
-    }
-    this.#renderModalImage();
+    this.modalTrigger = trigger;
     this.imageModal.hidden = false;
     this.imageModal.setAttribute("aria-hidden", "false");
-    this.imageModalClose.focus({ preventScroll: true });
-  }
-
-  showPreviousModalImage() {
-    if (this.modalGalleryIndex <= 0) return;
-    this.modalGalleryIndex -= 1;
+    document.body.classList.add("image-viewer-open");
+    if (this.imageModalHint) this.imageModalHint.hidden = false;
     this.#renderModalImage();
-  }
-
-  showNextModalImage() {
-    if (this.modalGalleryIndex >= this.modalGalleryItems.length - 1) return;
-    this.modalGalleryIndex += 1;
-    this.#renderModalImage();
+    this.#renderModalStep();
+    if (this.imageModalClose) this.imageModalClose.focus({ preventScroll: true });
   }
 
   closeImageModal() {
     if (!this.imageModal || !this.imageModalImg) return;
+    if (this.imageViewerPipWindow) {
+      this.#attachImageViewer({ reopen: false });
+      return;
+    }
+    const wasOpen = !this.imageModal.hidden;
     this.imageModal.hidden = true;
     this.imageModal.setAttribute("aria-hidden", "true");
-    if (this.imageViewerHost) {
-      this.imageViewerHost.classList.remove("image-viewer-open");
-      this.imageViewerHost = null;
-    }
-    if (this.imageModalHome) {
-      this.imageModalHome.insertBefore(this.imageModal, this.imageModalHomeNextSibling);
-    }
+    document.body.classList.remove("image-viewer-open");
     this.imageModalImg.removeAttribute("src");
     this.imageModalImg.alt = "";
-    if (this.imageModalCaption) {
-      this.imageModalCaption.textContent = "";
-      this.imageModalCaption.hidden = true;
+    this.viewerZoom.width = 0;
+    this.viewerPointers.clear();
+    this.viewerGesture = null;
+    if (wasOpen && this.modalTrigger && this.modalTrigger.isConnected) {
+      this.modalTrigger.focus({ preventScroll: true });
     }
-    this.modalGalleryItems = [];
-    this.modalGalleryIndex = 0;
-    this.#updateModalNavigation();
-    this.isModalDragging = false;
-    this.#setModalZoom(1);
+    this.modalTrigger = null;
+  }
+
+  #stepModalImage(delta) {
+    const gallery = this.imageGalleries[this.modalGalleryKey];
+    if (!gallery) return;
+    const nextIndex = Math.max(0, Math.min(gallery.items.length - 1, this.modalGalleryIndex + delta));
+    if (nextIndex === this.modalGalleryIndex) return;
+    this.modalGalleryIndex = nextIndex;
+    this.#renderModalImage();
   }
 
   #renderModalImage() {
-    const item = this.modalGalleryItems[this.modalGalleryIndex];
+    const gallery = this.imageGalleries[this.modalGalleryKey];
+    const item = gallery && gallery.items[this.modalGalleryIndex];
     if (!item || !this.imageModalImg) return;
-    this.imageModalImg.src = item.src;
-    this.imageModalImg.alt = item.alt || "Aperçu";
-    if (this.imageModalCaption) {
-      const caption = String(item.caption || "").trim();
-      this.imageModalCaption.textContent = caption;
-      this.imageModalCaption.hidden = !caption;
-    }
-    this.#setModalZoom(1);
-    this.#updateModalNavigation();
-  }
 
-  #updateModalNavigation() {
-    const total = this.modalGalleryItems.length;
+    // URL absolue : l'image reste valide une fois la visionneuse déplacée dans la fenêtre flottante.
+    const src = new URL(item.src, document.baseURI).href;
+    this.viewerZoom.width = 0;
+    this.imageModalImg.style.visibility = "hidden";
+    this.imageModalImg.alt = item.alt || "Aperçu";
+    if (this.imageModalImg.src !== src) this.imageModalImg.src = src;
+    if (this.imageModalImg.complete && this.imageModalImg.naturalWidth) this.#initViewerImage();
+
+    if (this.imageModalCaption) {
+      this.imageModalCaption.textContent = String(item.caption || "").trim() || gallery.label;
+    }
+    if (this.imageModalTabs) {
+      const keys = ["enonce", "result", "extra"].filter((key) => this.imageGalleries[key]);
+      this.imageModalTabs.hidden = keys.length < 2;
+      this.imageModalTabs.innerHTML = keys
+        .map((key) => `<button type="button" class="image-viewer-tab" data-gallery="${key}" aria-pressed="${key === this.modalGalleryKey ? "true" : "false"}">${escapeHtml(this.imageGalleries[key].label)}</button>`)
+        .join("");
+    }
+    const total = gallery.items.length;
     const hasMultiple = total > 1;
     if (this.imageModalPrev) {
       this.imageModalPrev.hidden = !hasMultiple;
-      this.imageModalPrev.disabled = !hasMultiple || this.modalGalleryIndex <= 0;
+      this.imageModalPrev.disabled = this.modalGalleryIndex <= 0;
     }
     if (this.imageModalNext) {
       this.imageModalNext.hidden = !hasMultiple;
-      this.imageModalNext.disabled = !hasMultiple || this.modalGalleryIndex >= total - 1;
+      this.imageModalNext.disabled = this.modalGalleryIndex >= total - 1;
     }
     if (this.imageModalCounter) {
       this.imageModalCounter.hidden = !hasMultiple;
@@ -1463,55 +1440,304 @@ this.imageModalStage.addEventListener(
     }
   }
 
-  #setModalZoom(value) {
-    this.modalZoom = Math.max(1, Math.min(8, Number(value) || 1));
-    if (!this.imageModalImg || !this.imageModalStage) return;
-
-    const isZoomed = this.modalZoom > 1;
-    this.imageModalStage.classList.toggle("is-zoomed", isZoomed);
-    this.imageModalStage.style.touchAction = isZoomed ? "none" : "";
-
-    if (!isZoomed) {
-      this.modalBaseWidth = 0;
-      this.imageModalImg.style.maxWidth = "100%";
-      this.imageModalImg.style.maxHeight = "none";
-      this.imageModalImg.style.width = "100%";
-      this.imageModalImg.style.height = "";
-      this.imageModalImg.style.cursor = "zoom-in";
-      this.imageModalStage.scrollLeft = 0;
-      this.imageModalStage.scrollTop = 0;
-      this.imageModalStage.classList.remove("is-dragging");
-      return;
-    }
-
-    if (!this.modalBaseWidth) {
-      this.modalBaseWidth = this.imageModalImg.getBoundingClientRect().width || this.imageModalImg.naturalWidth || 0;
-    }
-    const width = Math.max(1, Math.round(this.modalBaseWidth * this.modalZoom));
-    this.imageModalImg.style.maxWidth = "none";
-    this.imageModalImg.style.maxHeight = "none";
-    this.imageModalImg.style.width = `${width}px`;
-    this.imageModalImg.style.height = "auto";
-    this.imageModalImg.style.cursor = "grab";
+  // Rappel de l'étape : les consignes restent lisibles pendant qu'on regarde l'image.
+  #getViewerSteps() {
+    if (!this.exerciseSteps) return [];
+    return Array.from(this.exerciseSteps.children)
+      .filter((node) => node.tagName === "LI")
+      .map((li) => {
+        const source = (li.querySelector(".steps-instruction") || li).cloneNode(true);
+        for (const node of source.querySelectorAll(".step-help-btn, pre")) node.remove();
+        return source.textContent.replace(/\s+/g, " ").trim();
+      })
+      .filter(Boolean);
   }
 
-  #ensureModalStage() {
-    if (!this.imageModal || !this.imageModalImg) return;
-    const parent = this.imageModalImg.parentElement;
-    if (parent && parent.classList.contains("image-modal-stage")) {
-      this.imageModalStage = parent;
-    } else {
-      const stage = document.createElement("div");
-      stage.className = "image-modal-stage";
-      this.imageModal.insertBefore(stage, this.imageModalImg);
-      stage.appendChild(this.imageModalImg);
-      this.imageModalStage = stage;
-    }
+  #setModalStep(index) {
+    this.modalStepIndex = index;
+    this.#renderModalStep();
+  }
 
-    // Garde la légende au-dessus de l'image (avant le stage).
-    if (this.imageModalCaption && this.imageModalStage) {
-      this.imageModal.insertBefore(this.imageModalCaption, this.imageModalStage);
+  #renderModalStep() {
+    if (!this.imageModalStep || !this.imageModalStepText) return;
+    const steps = this.#getViewerSteps();
+    if (!steps.length) {
+      this.imageModalStep.hidden = true;
+      return;
     }
+    this.modalStepIndex = Math.max(0, Math.min(steps.length - 1, this.modalStepIndex));
+    this.imageModalStep.hidden = false;
+    this.imageModalStepText.innerHTML = `<strong>Étape ${this.modalStepIndex + 1}/${steps.length}</strong> ${escapeHtml(frenchTypography(steps[this.modalStepIndex]))}`;
+    if (this.imageModalStepPrev) this.imageModalStepPrev.disabled = this.modalStepIndex <= 0;
+    if (this.imageModalStepNext) this.imageModalStepNext.disabled = this.modalStepIndex >= steps.length - 1;
+  }
+
+  // ---- Zoom et déplacement (transform sur l'image, ancré sur le point visé) ----
+
+  #initViewerImage() {
+    const img = this.imageModalImg;
+    if (!img.naturalWidth) return;
+    this.viewerZoom.width = img.naturalWidth;
+    this.viewerZoom.height = img.naturalHeight;
+    img.style.width = `${img.naturalWidth}px`;
+    img.style.visibility = "";
+    this.#fitViewerWidth();
+  }
+
+  #viewerFitScales() {
+    const pad = 12;
+    const stage = this.imageModalStage;
+    const width = Math.min(2, Math.max(0.02, (stage.clientWidth - pad * 2) / this.viewerZoom.width));
+    const page = Math.min(width, Math.max(0.02, (stage.clientHeight - pad * 2) / this.viewerZoom.height));
+    return { width, page };
+  }
+
+  #fitViewerWidth() {
+    if (!this.viewerZoom.width) return;
+    Object.assign(this.viewerZoom, { scale: this.#viewerFitScales().width, x: 0, y: 12, mode: "width" });
+    this.#clampViewer();
+  }
+
+  #fitViewerPage() {
+    if (!this.viewerZoom.width) return;
+    Object.assign(this.viewerZoom, { scale: this.#viewerFitScales().page, mode: "page" });
+    this.#clampViewer();
+  }
+
+  #refitViewer() {
+    if (!this.viewerZoom.width || !this.imageModal || this.imageModal.hidden) return;
+    if (this.viewerZoom.mode === "width") this.#fitViewerWidth();
+    else if (this.viewerZoom.mode === "page") this.#fitViewerPage();
+    else this.#clampViewer();
+  }
+
+  #zoomViewerAt(scale, pointX, pointY) {
+    const zoom = this.viewerZoom;
+    if (!zoom.width) return;
+    const fit = this.#viewerFitScales();
+    const nextScale = Math.min(Math.max(3, fit.width * 5), Math.max(fit.page, scale));
+    const ratio = nextScale / zoom.scale;
+    zoom.x = pointX - (pointX - zoom.x) * ratio;
+    zoom.y = pointY - (pointY - zoom.y) * ratio;
+    zoom.scale = nextScale;
+    zoom.mode = "free";
+    this.#clampViewer();
+  }
+
+  #zoomViewerBy(factor) {
+    const stage = this.imageModalStage;
+    this.#zoomViewerAt(this.viewerZoom.scale * factor, stage.clientWidth / 2, stage.clientHeight / 2);
+  }
+
+  #clampViewer() {
+    const zoom = this.viewerZoom;
+    const stage = this.imageModalStage;
+    if (!zoom.width || !stage) return;
+    const pad = 12;
+    const stageWidth = stage.clientWidth;
+    const stageHeight = stage.clientHeight;
+    const width = zoom.width * zoom.scale;
+    const height = zoom.height * zoom.scale;
+    zoom.x = width + pad * 2 <= stageWidth ? (stageWidth - width) / 2 : Math.min(pad, Math.max(stageWidth - width - pad, zoom.x));
+    zoom.y = height + pad * 2 <= stageHeight ? (stageHeight - height) / 2 : Math.min(pad, Math.max(stageHeight - height - pad, zoom.y));
+    this.imageModalImg.style.transform = `translate(${zoom.x}px, ${zoom.y}px) scale(${zoom.scale})`;
+    stage.classList.toggle("is-zoomed", zoom.scale > this.#viewerFitScales().width * 1.05);
+    if (this.imageModalZoomLabel) this.imageModalZoomLabel.textContent = `${Math.round(zoom.scale * 100)} %`;
+  }
+
+  #viewerPoint(event) {
+    const rect = this.imageModalStage.getBoundingClientRect();
+    return { x: event.clientX - rect.left, y: event.clientY - rect.top };
+  }
+
+  #hideViewerHint() {
+    if (this.imageModalHint) this.imageModalHint.hidden = true;
+  }
+
+  #onViewerPointerDown(event) {
+    if (event.button > 0 || !this.viewerZoom.width) return;
+    this.#hideViewerHint();
+    try {
+      this.imageModalStage.setPointerCapture(event.pointerId);
+    } catch (_error) {
+      /* capture indisponible */
+    }
+    const point = this.#viewerPoint(event);
+    this.viewerPointers.set(event.pointerId, point);
+    if (this.viewerPointers.size === 1) {
+      this.viewerGesture = { startX: point.x, startY: point.y, x: this.viewerZoom.x, y: this.viewerZoom.y, moved: false, pinch: null };
+    } else if (this.viewerPointers.size === 2 && this.viewerGesture) {
+      const [a, b] = [...this.viewerPointers.values()];
+      this.viewerGesture.pinch = { distance: Math.hypot(a.x - b.x, a.y - b.y) || 1, scale: this.viewerZoom.scale };
+      this.viewerGesture.moved = true;
+    }
+  }
+
+  #onViewerPointerMove(event) {
+    const gesture = this.viewerGesture;
+    if (!gesture || !this.viewerPointers.has(event.pointerId)) return;
+    const point = this.#viewerPoint(event);
+    this.viewerPointers.set(event.pointerId, point);
+    if (gesture.pinch && this.viewerPointers.size >= 2) {
+      const [a, b] = [...this.viewerPointers.values()];
+      const distance = Math.hypot(a.x - b.x, a.y - b.y);
+      this.#zoomViewerAt(gesture.pinch.scale * distance / gesture.pinch.distance, (a.x + b.x) / 2, (a.y + b.y) / 2);
+      return;
+    }
+    const dx = point.x - gesture.startX;
+    const dy = point.y - gesture.startY;
+    if (!gesture.moved && Math.hypot(dx, dy) < 5) return;
+    gesture.moved = true;
+    this.imageModalStage.classList.add("is-grabbing");
+    this.viewerZoom.x = gesture.x + dx;
+    this.viewerZoom.y = gesture.y + dy;
+    this.viewerZoom.mode = "free";
+    this.#clampViewer();
+  }
+
+  #onViewerPointerUp(event, cancelled) {
+    const gesture = this.viewerGesture;
+    if (!gesture || !this.viewerPointers.has(event.pointerId)) return;
+    const wasSingle = this.viewerPointers.size === 1;
+    this.viewerPointers.delete(event.pointerId);
+    if (this.viewerPointers.size < 2) gesture.pinch = null;
+    if (this.viewerPointers.size === 1) {
+      const [rest] = [...this.viewerPointers.values()];
+      Object.assign(gesture, { startX: rest.x, startY: rest.y, x: this.viewerZoom.x, y: this.viewerZoom.y });
+      return;
+    }
+    this.imageModalStage.classList.remove("is-grabbing");
+    this.viewerGesture = null;
+    if (!wasSingle || gesture.moved || cancelled) return;
+    // Simple clic : zoom à l'endroit cliqué, ou retour à la largeur si l'image est déjà agrandie.
+    const point = this.#viewerPoint(event);
+    const fitWidth = this.#viewerFitScales().width;
+    if (this.viewerZoom.scale > fitWidth * 1.05) {
+      this.#zoomViewerAt(fitWidth, point.x, point.y);
+      this.viewerZoom.mode = "width";
+    } else {
+      this.#zoomViewerAt(Math.max(1, fitWidth * 2.5), point.x, point.y);
+    }
+  }
+
+  #onViewerWheel(event) {
+    if (!this.viewerZoom.width) return;
+    event.preventDefault();
+    this.#hideViewerHint();
+    if (event.ctrlKey || event.metaKey) {
+      // Ctrl + molette, ou pincement sur pavé tactile : zoom sous le pointeur.
+      const point = this.#viewerPoint(event);
+      this.#zoomViewerAt(this.viewerZoom.scale * Math.exp(-event.deltaY * 0.0025), point.x, point.y);
+      return;
+    }
+    this.viewerZoom.x -= event.deltaX;
+    this.viewerZoom.y -= event.deltaY;
+    this.viewerZoom.mode = "free";
+    this.#clampViewer();
+  }
+
+  #handleViewerKey(event) {
+    if (!this.imageModal || this.imageModal.hidden) return;
+    switch (event.key) {
+      case "Escape":
+        this.closeImageModal();
+        break;
+      case "ArrowLeft":
+        this.#stepModalImage(-1);
+        break;
+      case "ArrowRight":
+        this.#stepModalImage(1);
+        break;
+      case "+":
+      case "=":
+        this.#zoomViewerBy(1.4);
+        break;
+      case "-":
+        this.#zoomViewerBy(1 / 1.4);
+        break;
+      case "0":
+        this.#fitViewerWidth();
+        break;
+      default:
+        return;
+    }
+    event.preventDefault();
+  }
+
+  // ---- Fenêtre flottante (Document Picture-in-Picture) ----
+
+  #updateDetachState() {
+    const detached = Boolean(this.imageViewerPipWindow);
+    if (this.imageModal) this.imageModal.classList.toggle("is-detached", detached);
+    if (this.imageModalDetach) this.imageModalDetach.hidden = detached || !("documentPictureInPicture" in window);
+    if (this.imageModalClose) {
+      this.imageModalClose.textContent = detached ? "Ramener dans l'appli" : "← Retour à l'exercice";
+    }
+  }
+
+  async #detachImageViewer() {
+    if (this.imageViewerPipWindow || !("documentPictureInPicture" in window)) return;
+    let pipWindow;
+    try {
+      pipWindow = await window.documentPictureInPicture.requestWindow({ width: 440, height: 620 });
+    } catch (_error) {
+      if (this.imageModalDetach) this.imageModalDetach.hidden = true;
+      return;
+    }
+    this.imageViewerPipWindow = pipWindow;
+    const pipDocument = pipWindow.document;
+    pipDocument.title = document.title;
+    for (const node of document.querySelectorAll('link[rel="stylesheet"], style')) {
+      const copy = node.cloneNode(true);
+      if (node.tagName === "LINK") copy.href = node.href;
+      pipDocument.head.appendChild(copy);
+    }
+    pipDocument.body.classList.add("image-viewer-pip");
+    document.body.classList.remove("image-viewer-open");
+    pipDocument.body.appendChild(this.imageModal);
+    pipWindow.addEventListener("pagehide", () => this.#attachImageViewer({ reopen: false }));
+    pipWindow.addEventListener("keydown", (event) => this.#handleViewerKey(event));
+    pipWindow.addEventListener("resize", () => this.#refitViewer());
+    this.#updateDetachState();
+    if (this.modalTrigger && this.modalTrigger.isConnected) this.modalTrigger.focus({ preventScroll: true });
+    this.#renderModalImage();
+    this.#renderModalStep();
+  }
+
+  #attachImageViewer({ reopen }) {
+    const pipWindow = this.imageViewerPipWindow;
+    if (!pipWindow) return;
+    this.imageViewerPipWindow = null;
+    if (this.imageModalHome) this.imageModalHome.insertBefore(this.imageModal, this.imageModalHomeNextSibling);
+    if (!pipWindow.closed) pipWindow.close();
+    this.#updateDetachState();
+    if (reopen && this.imageGalleries[this.modalGalleryKey]) {
+      document.body.classList.add("image-viewer-open");
+      this.#renderModalImage();
+      this.#renderModalStep();
+      if (this.imageModalClose) this.imageModalClose.focus({ preventScroll: true });
+      return;
+    }
+    this.closeImageModal();
+  }
+
+  // Changement d'exercice ou d'onglet pendant que l'image est détachée : la fenêtre suit.
+  #refreshDetachedViewer() {
+    if (!this.imageViewerPipWindow) return;
+    const key = this.imageGalleries[this.modalGalleryKey]
+      ? this.modalGalleryKey
+      : ["result", "enonce", "extra"].find((candidate) => this.imageGalleries[candidate]);
+    if (!key) {
+      this.#attachImageViewer({ reopen: false });
+      return;
+    }
+    if (key !== this.modalGalleryKey) {
+      this.modalGalleryKey = key;
+      this.modalGalleryIndex = 0;
+    }
+    this.modalGalleryIndex = Math.min(this.modalGalleryIndex, this.imageGalleries[key].items.length - 1);
+    this.#renderModalImage();
+    this.#renderModalStep();
   }
 
   #getExerciseDescription(exercise, steps) {

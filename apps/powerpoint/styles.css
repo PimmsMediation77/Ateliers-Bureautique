@@ -1630,28 +1630,68 @@ select {
   vertical-align: -0.08em;
 }
 
-/* Visionneuse d'image integree : conserve les consignes et la navigation visibles. */
-.images-grid.image-viewer-open,
-.extra-wrap.image-viewer-open { grid-template-columns: 1fr; min-width: 0; }
-.images-grid.image-viewer-open > :not(#image-modal),
-.extra-wrap.image-viewer-open > :not(#image-modal) { display: none; }
-#image-modal.image-modal { position: relative; inset: auto; z-index: 2; grid-column: 1 / -1; width: 100%; min-width: 0; max-width: 100%; padding: 0; gap: 10px; background: transparent; display: flex; flex-direction: column; align-items: stretch; overflow: hidden; }
-#image-modal.image-modal[hidden] { display: none; }
-#image-modal .image-modal-close { position: sticky; top: 0; z-index: 4; order: 1; align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; transform: none; width: auto; height: auto; min-height: 40px; padding: 8px 16px 8px 12px; border-radius: 999px; border: 1px solid #e0a890; background: linear-gradient(180deg, #ffffff 0%, #ffe8df 100%); color: #c0391b; font-size: 0.95rem; font-weight: 700; letter-spacing: 0.01em; line-height: 1.2; box-shadow: 0 2px 8px rgba(196, 62, 28, 0.16); backdrop-filter: none; cursor: pointer; }
-#image-modal .image-modal-close::before { content: ""; width: 1.15em; height: 1.15em; flex: 0 0 auto; border: 2px solid currentColor; border-radius: 50%; box-shadow: inset 0 -0.38em 0 0 currentColor; background: linear-gradient(currentColor, currentColor) center / 0.55em 2px no-repeat; }
-#image-modal .image-modal-close:hover,
-#image-modal .image-modal-close:focus-visible { background: #c43e1c; border-color: #c43e1c; color: #fff; outline: none; }
-#image-modal .image-modal-caption { position: static; order: 2; max-width: none; margin: 0; padding: 8px 12px; border-radius: 10px; background: #fff4ee; color: #3a2218; text-align: left; box-shadow: none; border: 1px solid #f0d4c4; font-size: 0.9rem; }
-#image-modal .image-modal-caption[hidden] { display: none; }
-#image-modal .image-modal-stage { order: 3; width: 100%; min-width: 0; max-width: 100%; height: auto; max-height: min(72vh, 760px); overflow: auto; overscroll-behavior: contain; border-radius: 10px; display: block; background: #fff8f4; border: 1px solid #f0d4c4; cursor: zoom-in; }
-#image-modal .image-modal-stage.is-zoomed { cursor: grab; }
-#image-modal .image-modal-stage.is-zoomed.is-dragging { cursor: grabbing; }
-#image-modal.image-modal img { display: block; width: 100%; max-width: 100%; max-height: none; border: 0; box-shadow: none; user-select: none; -webkit-user-drag: none; }
-#image-modal .image-modal-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border: 2px solid #fff; background: rgba(19, 35, 52, 0.82); color: #fff; font-size: 2rem; font-weight: 700; box-shadow: 0 3px 12px rgba(0, 0, 0, 0.28); }
-#image-modal .image-modal-prev { left: 12px; }
-#image-modal .image-modal-next { right: 12px; }
-#image-modal .image-modal-counter { position: absolute; bottom: 12px; }
-#image-modal .image-modal-nav[hidden] { display: none; }
+/* Visionneuse d'images : panneau sur toute la fenêtre de l'appli (écran partagé appli | Office),
+   détachable dans une fenêtre flottante qui reste au-dessus d'Office (Document Picture-in-Picture). */
+body.image-viewer-open { overflow: hidden; }
+body.image-viewer-pip { margin: 0; overflow: hidden; background: var(--panel); }
+.image-viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  grid-template-rows: auto auto auto minmax(0, 1fr) auto;
+  background: var(--panel);
+  color: var(--ink);
+}
+.image-viewer[hidden],
+.image-viewer [hidden] { display: none; }
+
+.image-viewer-top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 10px 12px; background: var(--accent); }
+.image-viewer-btn { min-height: 40px; padding: 6px 16px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, 0.75); background: rgba(255, 255, 255, 0.14); color: #fff; font: inherit; font-size: 0.95rem; font-weight: 700; cursor: pointer; }
+.image-viewer-btn:hover { background: rgba(255, 255, 255, 0.28); }
+.image-viewer-btn.is-solid { background: #fff; border-color: #fff; color: var(--accent); }
+.image-viewer-btn.is-solid:hover { background: var(--accent-soft); }
+.image-viewer-btn:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+.image-viewer-tabs { display: flex; flex-wrap: wrap; gap: 4px; margin-left: auto; padding: 3px; border-radius: 999px; background: rgba(0, 0, 0, 0.18); }
+.image-viewer-tab { padding: 6px 12px; border: 0; border-radius: 999px; background: transparent; color: #fff; font: inherit; font-size: 0.88rem; cursor: pointer; }
+.image-viewer-tab[aria-pressed="true"] { background: #fff; color: var(--accent); font-weight: 700; }
+.image-viewer-tab:focus-visible { outline: 3px solid #fff; outline-offset: 1px; }
+
+.image-viewer-step { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 10px; padding: 8px 12px; background: var(--accent-soft); border-bottom: 1px solid var(--line); }
+.image-viewer-step-text { margin: 0; font-size: 0.95rem; line-height: 1.4; }
+.image-viewer-step-text strong { margin-right: 4px; color: var(--accent); }
+.image-viewer-round { display: grid; place-items: center; flex: 0 0 auto; width: 40px; height: 40px; padding: 0; border: 1px solid var(--line); border-radius: 50%; background: var(--panel); color: var(--accent); font-size: 1.4rem; line-height: 1; cursor: pointer; }
+.image-viewer-round:disabled { opacity: 0.35; cursor: default; }
+
+.image-viewer-bar { display: flex; align-items: center; gap: 8px; min-height: 52px; padding: 6px 12px; border-bottom: 1px solid var(--line); }
+.image-viewer-caption { flex: 1; min-width: 0; margin: 0; font-size: 0.95rem; font-weight: 700; }
+.image-viewer-counter { color: var(--muted); font-size: 0.9rem; font-variant-numeric: tabular-nums; }
+
+.image-viewer-stage { position: relative; min-height: 0; overflow: hidden; background: var(--bg); cursor: zoom-in; touch-action: none; }
+.image-viewer-stage.is-zoomed { cursor: grab; }
+.image-viewer-stage.is-grabbing { cursor: grabbing; }
+.image-viewer-stage img { position: absolute; top: 0; left: 0; max-width: none; max-height: none; transform-origin: 0 0; background: #fff; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18); user-select: none; -webkit-user-drag: none; }
+.image-viewer-hint { position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%); width: max-content; max-width: calc(100% - 24px); margin: 0; padding: 8px 14px; border-radius: 10px; background: rgba(19, 35, 52, 0.88); color: #fff; font-size: 0.9rem; text-align: center; pointer-events: none; }
+
+.image-viewer-toolbar { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px; padding: 8px 10px; border-top: 1px solid var(--line); background: var(--panel); }
+.image-viewer-tool { min-height: 40px; padding: 6px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--accent); font: inherit; font-size: 0.92rem; font-weight: 700; cursor: pointer; }
+.image-viewer-tool:hover { background: var(--accent-soft); }
+.image-viewer-tool.is-icon { width: 44px; padding: 0; font-size: 1.3rem; }
+.image-viewer-zoom { min-width: 56px; color: var(--muted); font-size: 0.9rem; text-align: center; font-variant-numeric: tabular-nums; }
+.image-viewer-round:focus-visible,
+.image-viewer-tool:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* Fenêtre flottante : interface compacte. */
+.image-viewer.is-detached .image-viewer-top { padding: 6px 8px; }
+.image-viewer.is-detached .image-viewer-btn { min-height: 34px; padding: 4px 12px; font-size: 0.85rem; }
+.image-viewer.is-detached .image-viewer-step { gap: 6px; padding: 6px 8px; }
+.image-viewer.is-detached .image-viewer-step-text,
+.image-viewer.is-detached .image-viewer-caption { font-size: 0.85rem; }
+.image-viewer.is-detached .image-viewer-round { width: 34px; height: 34px; font-size: 1.2rem; }
+.image-viewer.is-detached .image-viewer-bar { min-height: 42px; padding: 4px 8px; }
+.image-viewer.is-detached .image-viewer-tool { min-height: 34px; padding: 4px 10px; font-size: 0.85rem; }
+.image-viewer.is-detached .image-viewer-tool.is-icon { width: 36px; }
+.image-viewer.is-detached .image-viewer-hint { display: none; }
 
 /* PowerPoint module theme: stage, slides, and presentation energy */
 :root {

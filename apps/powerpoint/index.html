@@ -279,13 +279,34 @@
     <p>Sources : exercices adaptes a partir de ressources <a href="https://www.clic-formation.net/" target="_blank" rel="noopener">Clic-formation</a>, avec modifications.</p>
   </footer>
 
-  <div id="image-modal" class="image-modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Aperçu de l'image">
-    <button id="image-modal-prev" class="image-modal-action-btn image-modal-nav image-modal-prev" type="button" aria-label="Image précédente" hidden>‹</button>
-    <button id="image-modal-close" class="image-modal-action-btn image-modal-close" type="button" aria-label="Dézoomer l'image" title="Dézoomer">Dézoomer</button>
-    <button id="image-modal-next" class="image-modal-action-btn image-modal-nav image-modal-next" type="button" aria-label="Image suivante" hidden>›</button>
-    <p id="image-modal-caption" class="image-modal-caption" hidden></p>
-    <img id="image-modal-img" alt="" draggable="false">
-    <p id="image-modal-counter" class="image-modal-counter" hidden></p>
+  <div id="image-modal" class="image-viewer" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Aperçu de l'image">
+    <div class="image-viewer-top">
+      <button id="image-modal-close" class="image-viewer-btn is-solid" type="button">← Retour à l'exercice</button>
+      <button id="image-modal-detach" class="image-viewer-btn" type="button" hidden title="Afficher l'image dans une petite fenêtre qui reste au-dessus de Word, Excel ou PowerPoint">⧉ Détacher</button>
+      <div id="image-modal-tabs" class="image-viewer-tabs" hidden></div>
+    </div>
+    <div id="image-modal-step" class="image-viewer-step" hidden>
+      <button id="image-modal-step-prev" class="image-viewer-round" type="button" aria-label="Étape précédente">‹</button>
+      <p id="image-modal-step-text" class="image-viewer-step-text" aria-live="polite"></p>
+      <button id="image-modal-step-next" class="image-viewer-round" type="button" aria-label="Étape suivante">›</button>
+    </div>
+    <div class="image-viewer-bar">
+      <p id="image-modal-caption" class="image-viewer-caption"></p>
+      <button id="image-modal-prev" class="image-viewer-round" type="button" aria-label="Image précédente" hidden>‹</button>
+      <span id="image-modal-counter" class="image-viewer-counter" hidden></span>
+      <button id="image-modal-next" class="image-viewer-round" type="button" aria-label="Image suivante" hidden>›</button>
+    </div>
+    <div id="image-modal-stage" class="image-viewer-stage">
+      <img id="image-modal-img" alt="" draggable="false">
+      <p id="image-modal-hint" class="image-viewer-hint" hidden>Cliquez sur l'image pour agrandir à cet endroit · Glissez pour vous déplacer</p>
+    </div>
+    <div id="image-modal-toolbar" class="image-viewer-toolbar">
+      <button class="image-viewer-tool is-icon" type="button" data-zoom="out" aria-label="Zoom arrière">−</button>
+      <span id="image-modal-zoom" class="image-viewer-zoom">100 %</span>
+      <button class="image-viewer-tool is-icon" type="button" data-zoom="in" aria-label="Zoom avant">+</button>
+      <button class="image-viewer-tool" type="button" data-zoom="width">Largeur</button>
+      <button class="image-viewer-tool" type="button" data-zoom="page">Page entière</button>
+    </div>
   </div>
 
   <!-- ATELIER_SHARED_USER_SETUP_MODAL:START -->
