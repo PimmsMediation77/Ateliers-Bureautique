@@ -16,25 +16,23 @@
 
 ##### **Technique**
 
-* ~~réactiver la légende, en la mettant au dessus de l'image~~
-* ~~l'icone de retour zoom pas assez explicite remplacer par un bouton/texte "dézoomer"~~
-* ~~améliorer l'affichage du bouton Dézoomer + rétablir le pan (main) sur l'aperçu~~
+* xxxxx
 
 
 
 ##### **Word**
 
-* ~~ex-004 : consignes sans fichier (Europe / france / 3 formats)~~
-* ~~ex-043 : zip des visuels corrompu (repare)~~
-* ~~ex-045 : enonce sans fichier de travail (formes)~~
-* ~~ex-075 : description sans telecharger obligatoire~~
-* ~~ex-098 : fichier de travail (tableau coureurs) cree et lie~~
-* ~~ex-115 : image de trame de fond liee~~
+* ex-0xx
+
+
 
 ##### **Excel**
 
-* ~~excel-ex-169 : fichier de travail TCD lie (solution source)~~
+* ex-0xx
+
+
 
 ##### **Powerpoint**
 
-* (aucun cas sans fichier detecte)
+* ex-0xx
+
