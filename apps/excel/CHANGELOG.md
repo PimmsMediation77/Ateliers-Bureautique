@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.16.2](///compare/excel-v1.16.1...excel-v1.16.2) (2026-11-04)
+
+
+### Documentation
+
+* revue des exercices et mise à jour de la todo 0c6d751
+
 ### [1.16.1](///compare/excel-v1.16.0...excel-v1.16.1) (2026-11-03)
 
 
