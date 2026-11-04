@@ -67,6 +67,7 @@ function createAtelierHomeRuntime(config = {}) {
         startLabel: HOME_STATES[state].startLabel,
         exerciseLabel,
         headline,
+        levels: typeof model.getLevelSteps === "function" ? model.getLevelSteps() : [],
         theme: buildThemeTrail(model, resumeExercise, state),
       });
     },

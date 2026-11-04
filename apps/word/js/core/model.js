@@ -727,6 +727,7 @@ class AtelierModel {
       autonomyAverage: null,
       lastFeedback: null,
       flaggedExercises: [],
+      counts: null,
     };
     if (!entries.length) return empty;
 
@@ -744,6 +745,10 @@ class AtelierModel {
       const total = entries.reduce((sum, entry) => sum + (scoreMaps[key][entry[key]] || 0), 0);
       return Number((total / entries.length).toFixed(1));
     };
+    // Répartition des réponses, pour la vue apprenant (« Mon ressenti »).
+    const countBy = (key) => Object.fromEntries(
+      Object.keys(scoreMaps[key]).map((value) => [value, entries.filter((entry) => entry[key] === value).length]),
+    );
 
     const flaggedExercises = entries
       .map((entry) => {
@@ -786,6 +791,11 @@ class AtelierModel {
         comment: lastFeedback.comment || "",
       } : null,
       flaggedExercises,
+      counts: {
+        difficulty: countBy("difficulty"),
+        clarity: countBy("clarity"),
+        autonomy: countBy("autonomy"),
+      },
     };
   }
 
@@ -814,12 +824,20 @@ class AtelierModel {
     return streak;
   }
 
+  // Paliers du plus bas au plus haut ; `min` = pourcentage d'exercices terminés requis.
+  getLevelSteps() {
+    return [
+      { label: "Démarrage", min: 0 },
+      { label: "Lancement", min: 10 },
+      { label: "Pratique", min: 35 },
+      { label: "Autonomie", min: 65 },
+      { label: "Maîtrise", min: 90 },
+    ];
+  }
+
   getLevelLabel(percent) {
-    if (percent >= 90) return "Maîtrise";
-    if (percent >= 65) return "Autonomie";
-    if (percent >= 35) return "Pratique";
-    if (percent >= 10) return "Lancement";
-    return "Démarrage";
+    const reached = this.getLevelSteps().filter((step) => percent >= step.min);
+    return reached[reached.length - 1].label;
   }
 
   getThemeProgressRows() {
@@ -830,6 +848,7 @@ class AtelierModel {
       return {
         id: theme.id,
         name: theme.name,
+        affinityId: this.getAffinityIdForTheme(theme.id) || "",
         done,
         total: list.length,
         percent: list.length ? Math.round((done / list.length) * 100) : 0,

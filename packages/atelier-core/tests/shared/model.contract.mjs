@@ -234,6 +234,35 @@ export function registerSharedModelContractTests(createModel) {
     assert.match(report.lastFeedback.exerciseLabel, /Exercice 1/);
   });
 
+  test("level steps drive the level label and usability report counts answers", () => {
+    const model = createModel();
+
+    assert.deepEqual(JSON.parse(JSON.stringify(model.getLevelSteps().map((step) => step.label))), [
+      "Démarrage", "Lancement", "Pratique", "Autonomie", "Maîtrise",
+    ]);
+    assert.equal(model.getLevelLabel(0), "Démarrage");
+    assert.equal(model.getLevelLabel(35), "Pratique");
+    assert.equal(model.getLevelLabel(100), "Maîtrise");
+
+    model.setExerciseFeedback("ex-001", { difficulty: "hard", clarity: "clear", autonomy: "assisted" });
+    model.setExerciseFeedback("ex-002", { difficulty: "adapted", clarity: "clear", autonomy: "independent" });
+    const { counts } = JSON.parse(JSON.stringify(model.getUsabilityReport()));
+
+    assert.deepEqual(counts.autonomy, { assisted: 1, partial: 0, independent: 1 });
+    assert.deepEqual(counts.difficulty, { easy: 0, adapted: 1, hard: 1 });
+  });
+
+  test("theme progress rows expose done count and affinity", () => {
+    const model = createModel();
+    model.markExerciseDone("ex-001", true);
+    const row = model.getThemeProgressRows().find((entry) => entry.id === "m1");
+
+    assert.equal(row.done, 1);
+    assert.equal(row.total, 2);
+    assert.equal(row.percent, 50);
+    assert.equal(row.affinityId, model.getAffinityIdForTheme("m1"));
+  });
+
   test("importProgressObject drops malformed feedback entries", () => {
     const model = createModel();
     model.importProgressObject({

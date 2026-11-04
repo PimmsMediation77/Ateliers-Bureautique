@@ -264,6 +264,17 @@ function createAtelierUiEventsRuntime(config = {}) {
             await activateSession(session, { render: true, targetHash: "#home" });
           });
         }
+        const headerProgressBtn = document.getElementById("header-user-progress-btn");
+        if (headerProgressBtn) {
+          headerProgressBtn.addEventListener("click", async () => {
+            closeUserMenu();
+            if (!isReady()) {
+              const ready = await ensureReady();
+              if (!ready) return;
+            }
+            setHash("#progress");
+          });
+        }
         const headerProfileBtn = document.getElementById("header-user-profile-btn");
         if (headerProfileBtn) {
           headerProfileBtn.addEventListener("click", async () => {

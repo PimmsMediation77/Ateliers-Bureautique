@@ -75,6 +75,46 @@ function pickTrailWindow(steps, maxVisible = 10) {
   return visible;
 }
 
+// « 18 exercices terminés sur 42 · 🔥 3 jours d'affilée » (série masquée si nulle).
+function formatProgressLine(vm) {
+  const doneLabel = vm.completed > 1 ? "exercices terminés" : "exercice terminé";
+  const parts = [`${vm.completed} ${doneLabel} sur ${vm.total}`];
+  if (vm.streak > 0) parts.push(`🔥 ${vm.streak} ${vm.streak > 1 ? "jours" : "jour"} d'affilée`);
+  return parts.join(" · ");
+}
+
+// Anneau de progression : le cercle « pathLength=100 » permet d'exprimer
+// directement le pourcentage dans stroke-dasharray.
+function renderProgressRing(percent) {
+  const value = Math.max(0, Math.min(100, Math.round(Number(percent) || 0)));
+  const arc = value > 0
+    ? `<circle class="progress-ring-value" cx="60" cy="60" r="52" pathLength="100" stroke-dasharray="${value} 100"></circle>`
+    : "";
+  return `
+    <svg class="progress-ring-svg" viewBox="0 0 120 120" aria-hidden="true">
+      <circle class="progress-ring-track" cx="60" cy="60" r="52" pathLength="100"></circle>
+      ${arc}
+    </svg>
+    <span class="progress-ring-label" role="img" aria-label="${value} % des exercices terminés">
+      <strong>${value} %</strong><small>terminé</small>
+    </span>`;
+}
+
+// Échelle des paliers : paliers atteints pleins, palier actuel mis en avant.
+function renderLevelScale(levels, currentLabel) {
+  const list = Array.isArray(levels) ? levels : [];
+  const currentIndex = list.findIndex((level) => level.label === currentLabel);
+  return list
+    .map((level, index) => {
+      const classes = ["level-step"];
+      if (index <= currentIndex) classes.push("is-reached");
+      if (index === currentIndex) classes.push("is-current");
+      const current = index === currentIndex ? ' aria-current="step"' : "";
+      return `<li class="${classes.join(" ")}"${current}>${escapeHtml(level.label)}</li>`;
+    })
+    .join("");
+}
+
 function getThemeStateLabel(percent) {
   if (percent >= 100) return "Terminé";
   if (percent > 0) return "En cours";
@@ -89,6 +129,7 @@ class AtelierView {
       themes: document.getElementById("page-themes"),
       affinity: document.getElementById("page-affinity"),
       exercise: document.getElementById("page-exercise"),
+      progress: document.getElementById("page-progress"),
       profile: document.getElementById("page-profile"),
     };
 
@@ -102,6 +143,9 @@ class AtelierView {
     this.homeStartBtn = document.getElementById("home-start-btn");
     this.homeOtherLink = document.getElementById("home-other-link");
     this.homeProgressLine = document.getElementById("home-progress-line");
+    this.homeProgressRing = document.getElementById("home-progress-ring");
+    this.homeProgressLevel = document.getElementById("home-progress-level");
+    this.homeLevelScale = document.getElementById("home-level-scale");
 
     this.themesAffinityList = document.getElementById("themes-affinity-list");
     this.affinityTitle = document.getElementById("affinity-title");
@@ -149,6 +193,11 @@ class AtelierView {
     this.progressStreak = document.getElementById("progress-stat-streak");
     this.progressLevel = document.getElementById("progress-stat-level");
     this.progressCurve = document.getElementById("progress-curve");
+    this.progressRing = document.getElementById("progress-ring");
+    this.progressLevelScale = document.getElementById("progress-level-scale");
+    this.progressThemeList = document.getElementById("progress-theme-list");
+    this.completionToast = null;
+    this.completionToastTimer = null;
     this.progressUserPath = document.getElementById("progress-user-path");
     this.progressStatus = document.getElementById("progress-file-status");
     this.runtimeStatus = document.getElementById("runtime-status");
@@ -220,8 +269,10 @@ class AtelierView {
     this.homeStartBtn.textContent = vm.startLabel || "Commencer";
     this.homeOtherLink.hidden = vm.state === "all-done" || vm.state === "empty";
 
-    const doneLabel = vm.completed > 1 ? "exercices terminés" : "exercice terminé";
-    this.homeProgressLine.textContent = frenchTypography(`${vm.completed} ${doneLabel} sur ${vm.total} · Palier : ${vm.level}`);
+    this.homeProgressLine.textContent = frenchTypography(formatProgressLine(vm));
+    if (this.homeProgressRing) this.homeProgressRing.innerHTML = renderProgressRing(vm.percent);
+    if (this.homeProgressLevel) this.homeProgressLevel.textContent = vm.level || "";
+    if (this.homeLevelScale) this.homeLevelScale.innerHTML = renderLevelScale(vm.levels, vm.level);
 
     const theme = vm.theme;
     this.homeTrailWrap.hidden = !theme;
@@ -942,67 +993,121 @@ class AtelierView {
   }
 
   renderProgress(vm) {
-    this.progressCompleted.textContent = `${vm.completed} / ${vm.total}`;
-    this.progressRate.textContent = `${vm.percent}%`;
-    this.progressStreak.textContent = `${vm.streak} ${vm.streak > 1 ? "jours" : "jour"}`;
-    this.progressLevel.textContent = vm.level;
-    this.renderCurve(vm.curveSeries);
+    if (this.progressCompleted) this.progressCompleted.textContent = frenchTypography(formatProgressLine(vm));
+    if (this.progressLevel) this.progressLevel.textContent = vm.level;
+    if (this.progressRing) this.progressRing.innerHTML = renderProgressRing(vm.percent);
+    if (this.progressLevelScale) this.progressLevelScale.innerHTML = renderLevelScale(vm.levels, vm.level);
+    this.renderThemeProgress(vm.themeRows);
+    if (this.progressCurve) this.renderCurve(vm.curveSeries);
     this.renderUsabilityReport(vm.usabilityReport);
   }
 
+  renderThemeProgress(rows) {
+    if (!this.progressThemeList) return;
+    const list = Array.isArray(rows) ? rows : [];
+    if (!list.length) {
+      this.progressThemeList.innerHTML = `<li class="empty">Aucun thème disponible.</li>`;
+      return;
+    }
+    this.progressThemeList.innerHTML = list
+      .map((row) => {
+        const complete = row.total > 0 && row.done >= row.total;
+        const href = `#affinity/${encodeURIComponent(row.affinityId || "")}/${encodeURIComponent(row.id)}`;
+        const label = `${row.name} : ${row.done} exercice${row.done > 1 ? "s" : ""} terminé${row.done > 1 ? "s" : ""} sur ${row.total}`;
+        return `
+          <li>
+            <a class="progress-theme-row${complete ? " is-complete" : ""}" href="${href}" aria-label="${escapeHtml(frenchTypography(label))}">
+              <span class="progress-theme-name">${escapeHtml(frenchTypography(row.name))}</span>
+              <span class="progress-theme-bar" aria-hidden="true"><span style="width:${row.percent}%"></span></span>
+              <span class="progress-theme-count" aria-hidden="true">${row.done}/${row.total}${complete ? " ✓" : ""}</span>
+            </a>
+          </li>`;
+      })
+      .join("");
+  }
+
+  // « Mon ressenti » : réponses du QCM de fin d'exercice, formulées pour l'apprenant.
+  // Le rapport détaillé (moyennes, vigilance) reste exporté pour le formateur.
   renderUsabilityReport(report) {
     if (!this.progressUsabilitySummary || !this.progressUsabilityList) return;
     const safeReport = report && typeof report === "object" ? report : {};
     const totalFeedback = Number(safeReport.totalFeedback || 0);
 
-    if (!totalFeedback) {
-      this.progressUsabilitySummary.innerHTML = `
-        <div class="stat"><p>Feedbacks</p><strong>0</strong></div>
-        <div class="stat"><p>Difficulte</p><strong>-</strong></div>
-        <div class="stat"><p>Clarte</p><strong>-</strong></div>
-        <div class="stat"><p>Autonomie</p><strong>-</strong></div>
-      `;
-      this.progressUsabilityList.innerHTML = `<li>Aucun retour QCM enregistre pour le moment.</li>`;
+    if (!totalFeedback || !safeReport.counts) {
+      this.progressUsabilitySummary.innerHTML = "";
+      this.progressUsabilitySummary.hidden = true;
+      this.progressUsabilityList.innerHTML = `<li>Votre ressenti apparaîtra ici après votre premier exercice terminé.</li>`;
       return;
     }
 
-    this.progressUsabilitySummary.innerHTML = `
-      <div class="stat"><p>Feedbacks</p><strong>${totalFeedback}</strong></div>
-      <div class="stat"><p>Difficulte moy.</p><strong>${safeReport.difficultyAverage}/3</strong></div>
-      <div class="stat"><p>Clarte moy.</p><strong>${safeReport.clarityAverage}/3</strong></div>
-      <div class="stat"><p>Autonomie moy.</p><strong>${safeReport.autonomyAverage}/3</strong></div>
-    `;
+    const { autonomy = {}, difficulty = {} } = safeReport.counts;
+    const tiles = [
+      ["💪", "En autonomie", autonomy.independent],
+      ["🤝", "Avec un peu d'aide", autonomy.partial],
+      ["🙋", "Avec de l'aide", autonomy.assisted],
+      ["😓", "Trouvés difficiles", difficulty.hard],
+    ];
+    this.progressUsabilitySummary.hidden = false;
+    this.progressUsabilitySummary.innerHTML = tiles
+      .map(([icon, label, count]) => `
+        <div class="stat feeling-stat">
+          <p><span aria-hidden="true">${icon}</span> ${escapeHtml(label)}</p>
+          <strong>${Number(count || 0)}</strong>
+        </div>`)
+      .join("");
 
-    const items = [];
-    if (safeReport.lastFeedback) {
-      items.push(`
+    const flagLabels = {
+      "difficulte elevee": "trouvé difficile",
+      "clarte faible": "consignes peu claires",
+      "autonomie faible": "fait avec de l'aide",
+    };
+    const flagged = Array.isArray(safeReport.flaggedExercises) ? safeReport.flaggedExercises : [];
+    if (!flagged.length) {
+      this.progressUsabilityList.innerHTML = "<li>Aucun exercice à revoir : continuez comme ça !</li>";
+      return;
+    }
+    this.progressUsabilityList.innerHTML = [
+      `<li class="feeling-list-head">À revoir si vous le souhaitez :</li>`,
+      ...flagged.map((row) => `
         <li>
-          <strong>Dernier retour :</strong> ${escapeHtml(safeReport.lastFeedback.exerciseLabel)}
-          (${escapeHtml(shortDateTime(safeReport.lastFeedback.submittedAt))}) -
-          difficulte ${escapeHtml(safeReport.lastFeedback.difficultyLabel)},
-          clarte ${escapeHtml(safeReport.lastFeedback.clarityLabel)},
-          autonomie ${escapeHtml(safeReport.lastFeedback.autonomyLabel)}
-          ${safeReport.lastFeedback.comment ? `<br>${escapeHtml(safeReport.lastFeedback.comment)}` : ""}
-        </li>
-      `);
-    }
+          <a href="#exercise/${encodeURIComponent(row.exerciseId)}"><strong>${escapeHtml(frenchTypography(row.exerciseLabel))}</strong></a>
+          — ${escapeHtml(row.flags.map((flag) => flagLabels[flag] || flag).join(", "))}
+          ${row.comment ? `<br><em>${escapeHtml(row.comment)}</em>` : ""}
+        </li>`),
+    ].join("");
+  }
 
-    if (Array.isArray(safeReport.flaggedExercises) && safeReport.flaggedExercises.length) {
-      for (const row of safeReport.flaggedExercises) {
-        items.push(`
-          <li>
-            <strong>${escapeHtml(row.exerciseLabel)}</strong> -
-            ${escapeHtml(row.flags.join(", "))}
-            (${escapeHtml(row.difficultyLabel)} / ${escapeHtml(row.clarityLabel)} / ${escapeHtml(row.autonomyLabel)})
-            ${row.comment ? `<br>${escapeHtml(row.comment)}` : ""}
-          </li>
-        `);
-      }
-    } else {
-      items.push("<li>Aucun exercice n'est remonte comme point de vigilance.</li>");
+  // Notification de fin d'exercice : survit au passage à l'exercice suivant.
+  showCompletionToast(vm) {
+    if (!this.completionToast) {
+      const toast = document.createElement("div");
+      toast.className = "completion-toast";
+      toast.setAttribute("role", "status");
+      toast.setAttribute("aria-live", "polite");
+      toast.hidden = true;
+      toast.addEventListener("click", (event) => {
+        if (event.target.closest(".completion-toast-close, .completion-toast-link")) this.hideCompletionToast();
+      });
+      document.body.appendChild(toast);
+      this.completionToast = toast;
     }
+    const title = vm.exerciseNum ? `Exercice ${vm.exerciseNum} terminé` : "Exercice terminé";
+    this.completionToast.innerHTML = `
+      <span class="completion-toast-icon" aria-hidden="true">✓</span>
+      <span class="completion-toast-text">
+        <strong>${escapeHtml(title)}</strong>
+        <span>${escapeHtml(frenchTypography(`Palier : ${vm.level} · ${vm.percent} % de l'atelier`))}</span>
+      </span>
+      <a class="completion-toast-link" href="#progress">📊 Voir mes progrès</a>
+      <button class="completion-toast-close" type="button" aria-label="Fermer la notification">×</button>`;
+    this.completionToast.hidden = false;
+    window.clearTimeout(this.completionToastTimer);
+    this.completionToastTimer = window.setTimeout(() => this.hideCompletionToast(), 10000);
+  }
 
-    this.progressUsabilityList.innerHTML = items.join("");
+  hideCompletionToast() {
+    window.clearTimeout(this.completionToastTimer);
+    if (this.completionToast) this.completionToast.hidden = true;
   }
 
   renderCurve(series) {

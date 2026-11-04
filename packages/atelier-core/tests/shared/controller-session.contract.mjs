@@ -786,7 +786,7 @@ export async function registerControllerSessionContractTests({
     assert.equal(harness.document.getElementById("profile-firstname-display").textContent, "Alicia");
   });
 
-  test("controller renders the progress inside the profile page", async () => {
+  test("controller renders the progress in its own page", async () => {
     const aliceHandle = createHandle("alice-folder", "Alice");
     const harness = createHarness({
       savedRootHandle: aliceHandle,
@@ -806,13 +806,15 @@ export async function registerControllerSessionContractTests({
     harness.triggerWindowEvent("hashchange");
     await flushAsyncWork();
 
-    assert.equal(harness.view.shownPage, "profile");
+    assert.equal(harness.view.shownPage, "progress");
     assert.deepEqual(JSON.parse(JSON.stringify(harness.view.renderedProgressVm)), {
       completed: 0,
       total: 1,
       percent: 0,
       level: "Demarrage",
       streak: 0,
+      levels: [],
+      themeRows: [],
       curveSeries: [{ day: "2026-06-24", value: 0 }],
       usabilityReport: null,
     });
@@ -832,6 +834,7 @@ export async function registerControllerSessionContractTests({
     });
 
     harness.model.getSummary = () => ({ completed: 2, total: 5, percent: 40, level: "Intermediaire", streak: 3 });
+    harness.model.getLevelSteps = () => [{ label: "Debut", min: 0 }, { label: "Intermediaire", min: 30 }];
     const themeExercises = [
       { id: "ex-001", num: 1, title: "Exercice 1", moduleId: "theme-1", moduleName: "Theme 1" },
       { id: "ex-002", num: 2, title: "Exercice 2", moduleId: "theme-1", moduleName: "Theme 1" },
@@ -861,6 +864,7 @@ export async function registerControllerSessionContractTests({
       startLabel: "Commencer l'exercice",
       exerciseLabel: "Exercice 2",
       headline: "Exercice 2",
+      levels: [{ label: "Debut", min: 0 }, { label: "Intermediaire", min: 30 }],
       theme: {
         name: "Theme 1",
         position: 2,

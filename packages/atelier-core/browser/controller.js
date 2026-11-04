@@ -74,7 +74,7 @@ function createAtelierController(config = {}) {
       renderThemes: () => this.#renderThemesOverview(),
       renderAffinity: (affinityId, themeId) => this.#renderAffinityPage(affinityId, themeId),
       renderExercise: (exerciseId) => this.#renderExercisePage(exerciseId),
-      renderProgress: () => this.#renderProfilePage(),
+      renderProgress: () => this.#renderProgressPage(),
       renderProfile: () => this.#renderProfilePage(),
     });
     this.uiEventsRuntime = window.createAtelierUiEventsRuntime({
@@ -415,11 +415,14 @@ function createAtelierController(config = {}) {
     this.exerciseRuntime.render(exerciseId);
   }
 
+  // Page « Où j'en suis » : stats, thèmes, courbe et ressenti de l'apprenant.
+  #renderProgressPage() {
+    this.progressRuntime.render();
+  }
+
   // FIX 2 — Page Profil : affiche les infos utilisateur et permet de modifier le prénom inline.
   // Prérequis HTML : <div id="profile-user-section"></div> dans #page-profile.
-  // La progression (stats, courbe, rapport) est affichée dans cette même page.
   #renderProfilePage() {
-    this.progressRuntime.render();
     this.profileRuntime.render();
   }
 
@@ -942,6 +945,10 @@ function createAtelierController(config = {}) {
     this.model.setExerciseFeedback(exerciseId, feedback);
     this.model.markExerciseDone(exerciseId, true);
     this.#saveProgress();
+    const exercise = this.model.getExerciseById(exerciseId);
+    if (typeof this.view.showCompletionToast === "function") {
+      this.view.showCompletionToast({ ...this.model.getSummary(), exerciseNum: exercise ? exercise.num : "" });
+    }
     return true;
   }
 

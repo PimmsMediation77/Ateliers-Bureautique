@@ -10,6 +10,7 @@ Ce document liste les éléments HTML minimaux attendus par le runtime partagé 
 - `page-themes`
 - `page-affinity`
 - `page-exercise`
+- `page-progress`
 - `page-profile`
 
 ## Identité utilisateur
@@ -81,7 +82,21 @@ Ce document liste les éléments HTML minimaux attendus par le runtime partagé 
 - `progress-conflict-stay-btn`
 - `progress-conflict-switch-btn`
 
-## Rapport d'usabilite
+## Progression (accueil et page « Où j'en suis »)
+
+- `home-progress-ring`
+- `home-progress-level`
+- `home-level-scale`
+- `home-progress-line`
+- `progress-ring`
+- `progress-level-scale`
+- `progress-stat-level`
+- `progress-stat-completed`
+- `progress-theme-list`
+- `progress-curve`
+- `header-user-progress-btn`
+
+## Rapport d'usabilite (« Mon ressenti »)
 
 - `progress-usability-summary`
 - `progress-usability-list`

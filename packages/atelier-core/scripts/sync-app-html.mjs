@@ -77,6 +77,7 @@ function renderHeaderNav({ appName, version }) {
           <strong class="header-user-name">Non connecté</strong>
         </button>
         <div id="header-user-menu" class="header-user-menu" hidden role="menu">
+          <button id="header-user-progress-btn" class="header-user-menu-item" type="button" role="menuitem">&#128202; Mes progrès</button>
           <button id="header-user-switch-btn" class="header-user-menu-item" type="button" role="menuitem">&#128100; Changer d'utilisateur</button>
           <button id="header-user-profile-btn" class="header-user-menu-item" type="button" role="menuitem">&#9881; Profil</button>
         </div>
@@ -114,7 +115,15 @@ function renderOverviewPages() {
           <a id="home-other-link" class="home-other-link" href="#themes">Choisir un autre exercice →</a>
         </div>
       </article>
-      <p id="home-progress-line" class="home-progress-line"></p>
+      <article class="card progress-overview-card home-progress-card" aria-labelledby="home-progress-title">
+        <div id="home-progress-ring" class="progress-ring"></div>
+        <div class="progress-overview-body">
+          <h3 id="home-progress-title" class="progress-overview-title">Palier : <span id="home-progress-level">Démarrage</span></h3>
+          <ol id="home-level-scale" class="level-scale" aria-label="Paliers de progression"></ol>
+          <p id="home-progress-line" class="home-progress-line"></p>
+          <a id="home-progress-link" class="btn btn-soft has-icon home-progress-link" data-icon="&#128202;" href="#progress">Voir mes progrès</a>
+        </div>
+      </article>
     </section>
 
     <section id="page-themes" class="page" aria-labelledby="themes-title">
@@ -150,7 +159,43 @@ function renderOverviewPages() {
 }
 
 function renderProgressProfile() {
-  return `    <section id="page-profile" class="page" aria-labelledby="profile-title">
+  return `    <section id="page-progress" class="page" aria-labelledby="progress-title">
+      <article class="card progress-overview-card">
+        <div class="exercise-top-row">
+          <a class="btn btn-soft has-icon" data-icon="&#9664;" href="#home">Retour à l'accueil</a>
+        </div>
+        <h2 id="progress-title">Où j'en suis</h2>
+        <div class="progress-overview">
+          <div id="progress-ring" class="progress-ring progress-ring-large"></div>
+          <div class="progress-overview-body">
+            <h3 class="progress-overview-title">Palier : <span id="progress-stat-level">Démarrage</span></h3>
+            <ol id="progress-level-scale" class="level-scale" aria-label="Paliers de progression"></ol>
+            <p id="progress-stat-completed" class="home-progress-line"></p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Mes thèmes</h2>
+        <ul id="progress-theme-list" class="progress-theme-list"></ul>
+      </article>
+
+      <article class="card">
+        <h2>Mon activité (30 jours)</h2>
+        <svg id="progress-curve" viewBox="0 0 860 220" role="img" aria-label="Exercices terminés sur les 30 derniers jours"></svg>
+      </article>
+
+      <article class="card">
+        <h2>Mon ressenti</h2>
+        <p class="muted">D'après vos réponses au questionnaire de fin d'exercice.</p>
+        <div id="progress-usability-summary" class="stats-grid feeling-grid" hidden></div>
+        <ul id="progress-usability-list" class="profile-tips feeling-list">
+          <li>Votre ressenti apparaîtra ici après votre premier exercice terminé.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="page-profile" class="page" aria-labelledby="profile-title">
       <article class="card">
         <div class="exercise-top-row">
           <a class="btn btn-soft has-icon" data-icon="&#9664;" href="#home">Retour à l'accueil</a>
@@ -159,39 +204,12 @@ function renderProgressProfile() {
         <p class="muted">Sauvegarde automatique dans le dossier utilisateur : <code>Dossier utilisateur &gt; ProgressionAtelier</code>.</p>
         <p id="progress-user-path" class="muted status-line">Aucun utilisateur sélectionné.</p>
         <div class="progress-actions">
+          <a class="btn btn-soft has-icon" data-icon="&#128202;" href="#progress">Voir mes progrès</a>
           <button id="progress-change-user-btn" class="btn btn-soft has-icon" data-icon="&#128100;">Changer d'utilisateur</button>
           <button id="progress-reset-btn" class="btn btn-danger has-icon" data-icon="&#8634;">Réinitialiser progression</button>
           <button id="progress-reset-profile-btn" class="btn btn-danger has-icon" data-icon="&#128465;">Réinitialiser profil local</button>
         </div>
         <p id="progress-file-status" class="muted status-line"></p>
-      </article>
-
-      <article class="card">
-        <h2 id="progress-title">Ma progression</h2>
-        <div class="stats-grid">
-          <div class="stat"><p>Terminés</p><strong id="progress-stat-completed">0 / 0</strong></div>
-          <div class="stat"><p>Taux</p><strong id="progress-stat-rate">0%</strong></div>
-          <div class="stat"><p>Série</p><strong id="progress-stat-streak">0 jour</strong></div>
-          <div class="stat"><p>Palier</p><strong id="progress-stat-level">Démarrage</strong></div>
-        </div>
-      </article>
-
-      <article class="card">
-        <h2>Courbe (30 jours)</h2>
-        <svg id="progress-curve" viewBox="0 0 860 220" role="img" aria-label="Courbe de progression"></svg>
-      </article>
-
-      <article class="card">
-        <h2>Rapport d'usabilite</h2>
-        <div id="progress-usability-summary" class="stats-grid">
-          <div class="stat"><p>Feedbacks</p><strong>0</strong></div>
-          <div class="stat"><p>Difficulte</p><strong>-</strong></div>
-          <div class="stat"><p>Clarte</p><strong>-</strong></div>
-          <div class="stat"><p>Autonomie</p><strong>-</strong></div>
-        </div>
-        <ul id="progress-usability-list" class="profile-tips">
-          <li>Aucun retour QCM enregistre pour le moment.</li>
-        </ul>
       </article>
 
       <article class="card">

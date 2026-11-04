@@ -144,6 +144,7 @@ Interpretation:
 ### V1.1
 
 - filtre par theme dans le rapport.
+- rapport reformule pour l'apprenant (« Mon ressenti ») dans la page `#progres` (voir [FEATURE_ACCUEIL_PROGRES.md](./FEATURE_ACCUEIL_PROGRES.md)).
 
 ### V2
 
