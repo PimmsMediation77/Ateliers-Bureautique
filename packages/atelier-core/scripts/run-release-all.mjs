@@ -1,5 +1,5 @@
 import { existsSync } from "node:fs";
-import { join } from "node:path";
+import { win32 } from "node:path";
 import { spawnSync } from "node:child_process";
 
 export function runReleaseAll({
@@ -9,8 +9,9 @@ export function runReleaseAll({
   existsSyncImpl = existsSync,
   exitOnComplete = true,
 } = {}) {
+  // Chemin Windows quel que soit l'hote : le test simule win32 et tourne aussi en CI Linux.
   const gitBash = processImpl.env.LOCALAPPDATA
-    ? join(processImpl.env.LOCALAPPDATA, "Programs", "Git", "bin", "bash.exe")
+    ? win32.join(processImpl.env.LOCALAPPDATA, "Programs", "Git", "bin", "bash.exe")
     : "";
   const bashCommand = processImpl.platform === "win32" && existsSyncImpl(gitBash) ? gitBash : "bash";
   const result = spawnSyncImpl(bashCommand, [scriptPath], {
