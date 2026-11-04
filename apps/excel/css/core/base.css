@@ -1560,6 +1560,17 @@ select {
   line-height: 1.5;
 }
 
+.save-reminder-steps.is-unnumbered {
+  list-style: none;
+  padding-left: 0;
+}
+
+.save-reminder-substeps {
+  margin: 8px 0 0;
+  padding-left: 22px;
+  list-style: disc;
+}
+
 .word-close-icon {
   display: inline-flex;
   align-items: center;
