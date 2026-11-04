@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-15T10:02:24.219Z",
+  "generatedAt": "2026-11-04T10:17:02.766Z",
   "summary": {
-    "totalChecks": 2047,
+    "totalChecks": 2119,
     "failedChecks": 0,
     "datasetSyncFailures": 0,
     "byApp": {
@@ -28,7 +28,7 @@
           {
             "moduleId": "m14",
             "moduleName": "⊞ Insérer un tableau",
-            "checks": 30,
+            "checks": 31,
             "failures": 0
           },
           {
@@ -40,19 +40,19 @@
           {
             "moduleId": "m9",
             "moduleName": "☐ Zone de texte",
-            "checks": 24,
+            "checks": 25,
             "failures": 0
           },
           {
             "moduleId": "m24",
             "moduleName": "✉️ Publipostage",
-            "checks": 29,
+            "checks": 34,
             "failures": 0
           },
           {
             "moduleId": "m3",
             "moduleName": "✍️ Saisir du texte",
-            "checks": 45,
+            "checks": 44,
             "failures": 0
           },
           {
@@ -70,7 +70,7 @@
           {
             "moduleId": "m23",
             "moduleName": "🎭 Styles",
-            "checks": 17,
+            "checks": 18,
             "failures": 0
           },
           {
@@ -82,7 +82,7 @@
           {
             "moduleId": "m28",
             "moduleName": "💡 Trucs et astuces",
-            "checks": 8,
+            "checks": 11,
             "failures": 0
           },
           {
@@ -100,7 +100,7 @@
           {
             "moduleId": "m16",
             "moduleName": "📊 Tableau avancé",
-            "checks": 28,
+            "checks": 29,
             "failures": 0
           },
           {
@@ -118,19 +118,19 @@
           {
             "moduleId": "m19",
             "moduleName": "📐 Format de page",
-            "checks": 31,
+            "checks": 33,
             "failures": 0
           },
           {
             "moduleId": "m25",
             "moduleName": "📖 Document long",
-            "checks": 35,
+            "checks": 37,
             "failures": 0
           },
           {
             "moduleId": "m27",
             "moduleName": "📝 Champs et formulaire",
-            "checks": 9,
+            "checks": 10,
             "failures": 0
           },
           {
@@ -142,25 +142,25 @@
           {
             "moduleId": "m26",
             "moduleName": "🔗 Lier le document",
-            "checks": 21,
+            "checks": 25,
             "failures": 0
           },
           {
             "moduleId": "m32",
             "moduleName": "🔴 Niveau 4 - Expert",
-            "checks": 12,
+            "checks": 14,
             "failures": 0
           },
           {
             "moduleId": "m21",
             "moduleName": "🔷 Smart Art",
-            "checks": 21,
+            "checks": 20,
             "failures": 0
           },
           {
             "moduleId": "m1",
             "moduleName": "🖥️ Prise en main",
-            "checks": 16,
+            "checks": 27,
             "failures": 0
           },
           {
@@ -172,13 +172,13 @@
           {
             "moduleId": "m31",
             "moduleName": "🟠 Niveau 3 - Intermédiaire",
-            "checks": 60,
+            "checks": 65,
             "failures": 0
           },
           {
             "moduleId": "m30",
             "moduleName": "🟡 Niveau 2 - Moyen",
-            "checks": 56,
+            "checks": 58,
             "failures": 0
           },
           {
@@ -190,7 +190,7 @@
           {
             "moduleId": "m7",
             "moduleName": "🅰 Word Art et Lettrine",
-            "checks": 14,
+            "checks": 15,
             "failures": 0
           }
         ]
@@ -212,7 +212,7 @@
           {
             "moduleId": "bases-calculer-des-pourcentages",
             "moduleName": "Calculer des pourcentages",
-            "checks": 31,
+            "checks": 30,
             "failures": 0
           },
           {
@@ -284,7 +284,7 @@
           {
             "moduleId": "complets-cas-reservation-spectacle",
             "moduleName": "Cas Réservation Spectacle",
-            "checks": 2,
+            "checks": 3,
             "failures": 0
           },
           {
@@ -308,7 +308,7 @@
           {
             "moduleId": "avance-consolidation",
             "moduleName": "Consolidation",
-            "checks": 36,
+            "checks": 41,
             "failures": 0
           },
           {
@@ -320,7 +320,7 @@
           {
             "moduleId": "bases-faire-une-addition",
             "moduleName": "Faire une Addition",
-            "checks": 47,
+            "checks": 48,
             "failures": 0
           },
           {
@@ -344,7 +344,7 @@
           {
             "moduleId": "avance-format-de-cellule",
             "moduleName": "Format de cellule",
-            "checks": 39,
+            "checks": 40,
             "failures": 0
           },
           {
@@ -362,7 +362,7 @@
           {
             "moduleId": "bases-integrer-une-image",
             "moduleName": "Intégrer une image",
-            "checks": 33,
+            "checks": 34,
             "failures": 0
           },
           {
@@ -374,13 +374,13 @@
           {
             "moduleId": "avance-macro",
             "moduleName": "Macro",
-            "checks": 17,
+            "checks": 18,
             "failures": 0
           },
           {
             "moduleId": "bases-mise-en-forme",
             "moduleName": "Mise en forme",
-            "checks": 42,
+            "checks": 41,
             "failures": 0
           },
           {
@@ -392,7 +392,7 @@
           {
             "moduleId": "avance-nommer-une-cellule",
             "moduleName": "Nommer une cellule",
-            "checks": 47,
+            "checks": 50,
             "failures": 0
           },
           {
@@ -410,13 +410,13 @@
           {
             "moduleId": "bases-prise-en-main",
             "moduleName": "Prise en main",
-            "checks": 18,
+            "checks": 16,
             "failures": 0
           },
           {
             "moduleId": "avance-reference-absolue",
             "moduleName": "Référence absolue",
-            "checks": 49,
+            "checks": 50,
             "failures": 0
           },
           {
@@ -428,13 +428,13 @@
           {
             "moduleId": "bases-saisir-des-donnees",
             "moduleName": "Saisir des données",
-            "checks": 18,
+            "checks": 23,
             "failures": 0
           },
           {
             "moduleId": "bases-selection",
             "moduleName": "Sélection",
-            "checks": 16,
+            "checks": 11,
             "failures": 0
           },
           {
@@ -446,25 +446,25 @@
           {
             "moduleId": "avance-tableaux-croises-dynamiques",
             "moduleName": "Tableaux croisés dynamiques",
-            "checks": 62,
+            "checks": 63,
             "failures": 0
           },
           {
             "moduleId": "avance-trier-et-filtrer",
             "moduleName": "Trier et filtrer",
-            "checks": 51,
+            "checks": 53,
             "failures": 0
           },
           {
             "moduleId": "asca-ul11-word",
             "moduleName": "UL11 Word",
-            "checks": 26,
+            "checks": 33,
             "failures": 0
           },
           {
             "moduleId": "asca-ul21-excel",
             "moduleName": "UL21 Excel",
-            "checks": 71,
+            "checks": 81,
             "failures": 0
           }
         ]
@@ -474,13 +474,13 @@
           {
             "moduleId": "bases-animations",
             "moduleName": "Animations et quiz",
-            "checks": 17,
+            "checks": 18,
             "failures": 0
           },
           {
             "moduleId": "bases-diaporamas",
             "moduleName": "Diaporamas",
-            "checks": 21,
+            "checks": 22,
             "failures": 0
           },
           {

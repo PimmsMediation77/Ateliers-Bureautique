@@ -567,7 +567,7 @@
       "title": "Gérer l'affichage du classeur",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/interface-excel/exercice-3.html",
-      "docxUrl": "data/assets/excel/bases-prise-en-main/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/bases-01-prise-en-main/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -660,7 +660,7 @@
       "title": "Gérer l'affichage des feuilles",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/interface-excel/exercice-4.html",
-      "docxUrl": "data/assets/excel/bases-prise-en-main/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/bases-01-prise-en-main/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -682,7 +682,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-01-prise-en-main/excel-ex-004-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-01-prise-en-main/excel-ex-004-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -968,7 +968,7 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-003-scrape-enonce-1.gif"
+          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-003-image-resultat.gif"
         ],
         "resultImages": [
           "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-003-image-resultat.gif"
@@ -1004,7 +1004,7 @@
       "title": "Utiliser un formulaire de saisie",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/saisir-des-donnees/exercice-4.html",
-      "docxUrl": "data/assets/excel/bases-saisir-des-donnees/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-004-image-enonce.gif",
@@ -1030,10 +1030,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-004-scrape-enonce-1.gif"
+          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-004-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-004-scrape-resultat-1.gif"
+          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-004-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -1253,7 +1253,7 @@
       "title": "Sélection, suppression et insertion de cellules dans Excel",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/selectionner-la-celulle/exercice-4.html",
-      "docxUrl": "data/assets/excel/bases-selection/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/bases-03-selection/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -1343,7 +1343,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-03-selection/excel-ex-005-scrape-resultat-1.gif"
+          "data/assets/excel/bases-03-selection/excel-ex-005-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -1403,7 +1403,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-001-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-001-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -1475,7 +1475,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-002-scrape-resultat-1.webp"
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-002-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -1521,7 +1521,7 @@
       "title": "Format automatique",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/format-embelissement/format-embelissement-3.html",
-      "docxUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/bases-04-mise-en-forme/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-04-mise-en-forme/excel-ex-003-image-enonce.gif",
@@ -1545,8 +1545,8 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-003-scrape-resultat-1.gif",
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-003-scrape-resultat-2.gif",
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-003-image-resultat.gif",
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-003-image-enonce.gif",
           "data/assets/excel/bases-04-mise-en-forme/excel-ex-003-scrape-resultat-3.gif"
         ]
       },
@@ -1580,7 +1580,7 @@
       "title": "Écriture oblique dans une cellule",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-embelissement/format-embelissement-4.html",
-      "docxUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/bases-04-mise-en-forme/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -1604,7 +1604,7 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-004-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-004-image-resultat.jpg"
         ],
         "resultImages": [
           "data/assets/excel/bases-04-mise-en-forme/excel-ex-004-image-resultat.jpg"
@@ -1643,7 +1643,7 @@
       "title": "Histoire de bordure et de couleur de fond",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-embelissement/format-embelissement-5.html",
-      "docxUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/bases-04-mise-en-forme/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-04-mise-en-forme/excel-ex-005-image-enonce.gif",
@@ -1667,10 +1667,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-005-scrape-enonce-1.gif"
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-005-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-005-scrape-resultat-1.gif"
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-005-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -1710,7 +1710,7 @@
       "title": "Styles personnalisés",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/format-embelissement/format-embelissement-6.html",
-      "docxUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/bases-04-mise-en-forme/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-04-mise-en-forme/excel-ex-006-image-enonce.webp",
@@ -1735,7 +1735,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -1790,10 +1790,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-007-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-007-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-007-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-007-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -1832,7 +1832,7 @@
       "title": "Mise en forme tableau (révision complète)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/format-embelissement/format-embelissement-8.html",
-      "docxUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/bases-04-mise-en-forme/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -1922,11 +1922,11 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-008-scrape-resultat-1.gif",
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-008-scrape-resultat-2.gif",
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-008-scrape-resultat-3.gif",
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-008-scrape-resultat-4.gif",
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-008-scrape-resultat-5.gif"
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-008-onglet-resultat-1-1.gif",
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-008-onglet-resultat-2-1.gif",
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-008-onglet-resultat-3-1.gif",
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-008-onglet-resultat-4-1.gif",
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-008-onglet-resultat-5-1.gif"
         ]
       },
       "section": "bases",
@@ -1968,7 +1968,7 @@
       "title": "Création planning compact et imprimable",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-embelissement/format-embelissement-9.html",
-      "docxUrl": "data/assets/excel/bases-mise-en-forme/excel-ex-009.xlsx",
+      "docxUrl": "data/assets/excel/bases-04-mise-en-forme/excel-ex-009.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -1993,7 +1993,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-04-mise-en-forme/excel-ex-009-scrape-resultat-1.webp"
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-009-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -2032,8 +2032,8 @@
       "title": "Intégrer des illustrations",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/integrer-une-image/exercice-1.html",
-      "docxUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-001.xlsx",
-      "downloadUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-001-annexe-1.zip",
+      "docxUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-001.xlsx",
+      "downloadUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-001-annexe-1.zip",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -2091,8 +2091,8 @@
       "title": "Intégrer des illustrations, filigrane, pied de page et smart-art",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/integrer-une-image/exercice-2.html",
-      "docxUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-002.xlsx",
-      "downloadUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-002-annexe-1.zip",
+      "docxUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-002.xlsx",
+      "downloadUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-002-annexe-1.zip",
       "downloadLabel": "Telecharger les images (ZIP)",
       "imageEnonce": null,
       "imageResultat": null,
@@ -2175,7 +2175,7 @@
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/integrer-une-image/exercice-3.html",
       "docxUrl": null,
-      "downloadUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-003-annexe-1.zip",
+      "downloadUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-003.zip",
       "downloadLabel": "Télécharger les illustrations",
       "imageEnonce": null,
       "imageResultat": "data/assets/excel/bases-05-integrer-une-image/excel-ex-003-image-resultat.jpg",
@@ -2197,7 +2197,7 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-05-integrer-une-image/excel-ex-003-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-05-integrer-une-image/excel-ex-003-image-resultat.jpg"
         ],
         "resultImages": [
           "data/assets/excel/bases-05-integrer-une-image/excel-ex-003-image-resultat.jpg"
@@ -2234,7 +2234,7 @@
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/integrer-une-image/exercice-4.html",
       "docxUrl": null,
-      "downloadUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-004-annexe-1.zip",
+      "downloadUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-004.zip",
       "downloadLabel": "Télécharger les images",
       "imageEnonce": null,
       "imageResultat": null,
@@ -2303,7 +2303,7 @@
       "title": "Capture écran direct depuis Excel",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/integrer-une-image/exercice-5.html",
-      "docxUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-05-integrer-une-image/excel-ex-005-image-enonce.webp",
@@ -2332,10 +2332,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-05-integrer-une-image/excel-ex-005-scrape-enonce-1.webp"
+          "data/assets/excel/bases-05-integrer-une-image/excel-ex-005-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-05-integrer-une-image/excel-ex-005-scrape-resultat-1.webp"
+          "data/assets/excel/bases-05-integrer-une-image/excel-ex-005-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -2389,8 +2389,8 @@
       "title": "Outils de mise en forme d'image",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/integrer-une-image/exercice-6.html",
-      "docxUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-006.xlsx",
-      "downloadUrl": "data/assets/excel/bases-integrer-une-image/excel-ex-006-annexe-1.zip",
+      "docxUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-006.xlsx",
+      "downloadUrl": "data/assets/excel/bases-05-integrer-une-image/excel-ex-006-annexe-1.zip",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -2454,7 +2454,7 @@
       "title": "Poignée de recopie (Poignée de recopie 1)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/poignee-de-recopie/exercice-1-poignee-de-recopie.html",
-      "docxUrl": "data/assets/excel/bases-poignee-de-recopie/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-001-image-enonce.webp",
@@ -2476,10 +2476,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-001-scrape-enonce-1.webp"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-001-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-001-scrape-resultat-1.webp"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-001-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -2539,7 +2539,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-002-scrape-resultat-1.gif"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-002-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -2611,7 +2611,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-003-scrape-resultat-1.webp"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-003-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -2684,7 +2684,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-004-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-004-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -2749,7 +2749,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-005-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-005-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -2811,7 +2811,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -2842,7 +2842,7 @@
       "title": "Poignée de recopie (Poignée de recopie 7)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/poignee-de-recopie/exercice-7-poigne-de-recopie.html",
-      "docxUrl": "data/assets/excel/bases-poignee-de-recopie/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-007-image-enonce.gif",
@@ -2865,10 +2865,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-007-scrape-enonce-1.gif"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-007-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-007-scrape-resultat-1.gif"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-007-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -2904,7 +2904,7 @@
       "title": "Liste personnalisable",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/poignee-de-recopie/exercice-8-liste-personnalisable.html",
-      "docxUrl": "data/assets/excel/bases-poignee-de-recopie/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-008-image-enonce.webp",
@@ -2930,7 +2930,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-008-scrape-resultat-1.gif"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-008-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -3000,7 +3000,7 @@
         ],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-009-scrape-resultat-1.webp"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-009-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -3040,7 +3040,7 @@
       "title": "Faire un planning rapidement",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/poignee-de-recopie/exercice-10-poignee-de-recopie.html",
-      "docxUrl": "data/assets/excel/bases-poignee-de-recopie/excel-ex-010.xlsx",
+      "docxUrl": "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-010.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-010-image-enonce.gif",
@@ -3065,10 +3065,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-010-scrape-enonce-1.gif"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-010-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-010-scrape-resultat-1.gif"
+          "data/assets/excel/bases-06-poignee-de-recopie/excel-ex-010-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -3110,7 +3110,7 @@
       "title": "Addition (Faire une Addition 1)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/addition/exercices-1-addition.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/bases-07-faire-une-addition/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-07-faire-une-addition/excel-ex-001-image-enonce.webp",
@@ -3132,10 +3132,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-001-scrape-enonce-1.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-001-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-001-scrape-resultat-1.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-001-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -3174,7 +3174,7 @@
       "title": "Addition (Faire une Addition 2)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/addition/exercices-2-addition.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/bases-07-faire-une-addition/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-07-faire-une-addition/excel-ex-002-image-enonce.webp",
@@ -3195,10 +3195,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-002-scrape-enonce-1.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-002-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-002-scrape-resultat-1.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-002-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -3228,7 +3228,7 @@
       "title": "Addition (Faire une Addition 3)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/addition/exercices-3-addition.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/bases-07-faire-une-addition/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
@@ -3299,7 +3299,7 @@
       "title": "Addition (Faire une Addition 4)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/addition/exercices-4-addition.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/bases-07-faire-une-addition/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-07-faire-une-addition/excel-ex-004-image-enonce.webp",
@@ -3321,10 +3321,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-004-scrape-enonce-1.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-004-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-004-scrape-resultat-1.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-004-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -3357,7 +3357,7 @@
       "title": "Addition (Faire une Addition 5)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/addition/exercices-5-addition.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/bases-07-faire-une-addition/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-07-faire-une-addition/excel-ex-005-image-enonce.jpg",
@@ -3378,10 +3378,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-005-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-005-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-005-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-005-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -3411,7 +3411,7 @@
       "title": "Addition (Faire une Addition 6)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/addition/exercices-6-addition.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/bases-07-faire-une-addition/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-07-faire-une-addition/excel-ex-006-image-enonce.gif",
@@ -3432,10 +3432,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-006-scrape-enonce-1.gif"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-006-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -3465,7 +3465,7 @@
       "title": "Addition (Faire une Addition 7)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/addition/exercices-7-addition.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/bases-07-faire-une-addition/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-07-faire-une-addition/excel-ex-007-image-enonce.webp",
@@ -3490,7 +3490,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-007-scrape-resultat-1.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-007-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -3529,11 +3529,11 @@
       "title": "Addition (Faire une Addition 8)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/addition/exercices-8-addition.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/bases-07-faire-une-addition/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-image-enonce.webp",
-      "imageResultat": "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-scrape-enonce-2.webp",
+      "imageResultat": "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-scrape-extra-1.webp",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Addition",
@@ -3559,7 +3559,7 @@
           "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-scrape-enonce-2.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-008-scrape-extra-1.webp"
         ]
       },
       "section": "bases",
@@ -3601,7 +3601,7 @@
       "title": "Addition (Faire une Addition 9)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/addition/exercices-9-addition.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-009.xlsx",
+      "docxUrl": "data/assets/excel/bases-07-faire-une-addition/excel-ex-009.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-07-faire-une-addition/excel-ex-009-image-enonce.webp",
@@ -3630,10 +3630,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-009-scrape-enonce-1.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-009-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-009-scrape-resultat-1.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-009-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -3687,7 +3687,7 @@
       "title": "Addition (Faire une Addition 10)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/addition/exercices-10-addition.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-addition/excel-ex-010.xlsx",
+      "docxUrl": "data/assets/excel/bases-07-faire-une-addition/excel-ex-010.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-07-faire-une-addition/excel-ex-010-image-enonce.webp",
@@ -3713,10 +3713,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-010-scrape-enonce-1.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-010-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-07-faire-une-addition/excel-ex-010-scrape-resultat-1.webp"
+          "data/assets/excel/bases-07-faire-une-addition/excel-ex-010-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -3761,7 +3761,7 @@
       "title": "Soustraction (Faire une Soustraction 1)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/soustraction/exercice-1-soustraction.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-001-image-enonce.webp",
@@ -3782,10 +3782,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-001-scrape-enonce-1.webp"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-001-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-001-scrape-resultat-1.webp"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-001-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -3824,7 +3824,7 @@
       "title": "Soustraction (Faire une Soustraction 2)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/soustraction/exercice-2-soustraction.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-002-image-enonce.jpg",
@@ -3847,10 +3847,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-002-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-002-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-002-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-002-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -3886,7 +3886,7 @@
       "title": "Soustraction (Faire une Soustraction 3)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/soustraction/exercice-3-soustraction.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-003-image-enonce.jpg",
@@ -3913,10 +3913,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-003-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-003-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-003-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-003-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -3964,7 +3964,7 @@
       "title": "Soustraction (Faire une Soustraction 4)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/soustraction/exercice-4-soustraction.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-004-image-enonce.gif",
@@ -3986,10 +3986,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-004-scrape-enonce-1.gif"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-004-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-004-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-004-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -4022,7 +4022,7 @@
       "title": "Soustraction (Faire une Soustraction 5)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/soustraction/exercice-5-soustraction.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-005-image-enonce.gif",
@@ -4044,10 +4044,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-005-scrape-enonce-1.gif"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-005-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-005-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-005-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -4080,7 +4080,7 @@
       "title": "Soustraction (Faire une Soustraction 6)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/soustraction/exercice-6-soustraction.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-006-image-enonce.gif",
@@ -4102,10 +4102,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-006-scrape-enonce-1.gif"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-006-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -4138,7 +4138,7 @@
       "title": "Soustraction",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/soustraction/exercice-7-soustraction.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-007-image-enonce.webp",
@@ -4160,10 +4160,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-007-scrape-enonce-1.webp"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-007-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-007-scrape-resultat-1.webp"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-007-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -4196,7 +4196,7 @@
       "title": "Soustraction",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/soustraction/exercice-8-soustraction.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-soustraction/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-008-image-enonce.webp",
@@ -4217,10 +4217,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-008-scrape-enonce-1.webp"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-008-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-008-scrape-resultat-1.webp"
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-008-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -4250,7 +4250,7 @@
       "title": "Multiplication (Faire une Multiplication 1)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/multiplication/exercice-1-multiplication.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-001-image-enonce.gif",
@@ -4271,10 +4271,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-001-scrape-enonce-1.gif"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-001-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-001-scrape-resultat-1.gif"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-001-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -4304,7 +4304,7 @@
       "title": "Multiplication (Faire une Multiplication 2)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/multiplication/exercice-2-multiplication.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-002-image-enonce.gif",
@@ -4325,10 +4325,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-002-scrape-enonce-1.gif"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-002-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-002-scrape-resultat-1.gif"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-002-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -4358,7 +4358,7 @@
       "title": "Multiplication (Faire une Multiplication 3)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/multiplication/exercice-3-multiplication.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-003-image-enonce.gif",
@@ -4379,10 +4379,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-003-scrape-enonce-1.gif"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-003-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-003-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-003-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -4412,7 +4412,7 @@
       "title": "Multiplication (Faire une Multiplication 4)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/multiplication/exercice-4-multiplication.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-004-image-enonce.gif",
@@ -4433,10 +4433,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-004-scrape-enonce-1.gif"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-004-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-004-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-004-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -4466,7 +4466,7 @@
       "title": "Multiplication (Faire une Multiplication 5)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/multiplication/exercice-5-multiplication.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-005-image-enonce.gif",
@@ -4487,10 +4487,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-005-scrape-enonce-1.gif"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-005-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-005-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-005-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -4520,7 +4520,7 @@
       "title": "Multiplication (Faire une Multiplication 6)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/multiplication/exercice-6-multiplication.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-006-image-enonce.gif",
@@ -4542,10 +4542,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-006-scrape-enonce-1.gif"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-006-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -4578,7 +4578,7 @@
       "title": "Multiplication (Faire une Multiplication 7)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/multiplication/exercice-7-multiplication.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-multiplication/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-007-image-enonce.gif",
@@ -4602,10 +4602,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-007-scrape-enonce-1.gif"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-007-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-007-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-09-faire-une-multiplication/excel-ex-007-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -4644,7 +4644,7 @@
       "title": "Division (Faire une Division 1)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/division/exercice-1-division.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-division/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/bases-10-faire-une-division/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-10-faire-une-division/excel-ex-001-image-enonce.jpg",
@@ -4665,10 +4665,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-001-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-001-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-001-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-001-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -4701,8 +4701,8 @@
       "title": "Division (Faire une Division 2)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/division/exercice-2-division.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-division/excel-ex-002.xlsx",
-      "downloadUrl": "data/assets/excel/bases-faire-une-division/excel-ex-002-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/bases-10-faire-une-division/excel-ex-002.xlsx",
+      "downloadUrl": "data/assets/excel/bases-10-faire-une-division/excel-ex-002-annexe-1.xlsx",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -4772,7 +4772,7 @@
       "title": "Division (Faire une Division 3)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/division/exercice-3-division.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-division/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/bases-10-faire-une-division/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-10-faire-une-division/excel-ex-003-image-enonce.jpg",
@@ -4794,10 +4794,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-003-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-003-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-003-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-003-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -4830,7 +4830,7 @@
       "title": "Division (Faire une Division 4)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/division/exercice-4-division.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-division/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/bases-10-faire-une-division/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-10-faire-une-division/excel-ex-004-image-enonce.jpg",
@@ -4851,10 +4851,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-004-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-004-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-004-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-004-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -4884,7 +4884,7 @@
       "title": "Division (Faire une Division 5)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/division/exercice-5-division.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-division/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/bases-10-faire-une-division/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-10-faire-une-division/excel-ex-005-image-enonce.jpg",
@@ -4926,10 +4926,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-005-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-005-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-005-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-005-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -5022,7 +5022,7 @@
       "title": "Division (Faire une Division 6)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/division/exercice-6-division.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-division/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/bases-10-faire-une-division/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-10-faire-une-division/excel-ex-006-image-enonce.jpg",
@@ -5048,10 +5048,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-006-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-006-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -5096,7 +5096,7 @@
       "title": "Division (Faire une Division 7)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/division/exercice-7-division.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-division/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/bases-10-faire-une-division/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-10-faire-une-division/excel-ex-007-image-enonce.gif",
@@ -5119,10 +5119,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-007-scrape-enonce-1.gif"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-007-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-007-scrape-resultat-1.gif"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-007-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -5158,7 +5158,7 @@
       "title": "Division (Faire une Division 8)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/division/exercice-8-division.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-division/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/bases-10-faire-une-division/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-10-faire-une-division/excel-ex-008-image-enonce.webp",
@@ -5179,10 +5179,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-008-scrape-enonce-1.webp"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-008-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-008-scrape-resultat-1.webp"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-008-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -5215,7 +5215,7 @@
       "title": "Division (Faire une Division 9)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/division/exercice-9-division.html",
-      "docxUrl": "data/assets/excel/bases-faire-une-division/excel-ex-009.xlsx",
+      "docxUrl": "data/assets/excel/bases-10-faire-une-division/excel-ex-009.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-10-faire-une-division/excel-ex-009-image-enonce.webp",
@@ -5237,10 +5237,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-009-scrape-enonce-1.webp"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-009-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-10-faire-une-division/excel-ex-009-scrape-resultat-1.webp"
+          "data/assets/excel/bases-10-faire-une-division/excel-ex-009-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -5273,11 +5273,11 @@
       "title": "Pourcentage (Calculer des pourcentages 1)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/pourcentage/exercice-1-pourcentage.html",
-      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-image-enonce.gif",
-      "imageResultat": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-scrape-enonce-2.jpg",
+      "imageResultat": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-scrape-extra-1.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Pourcentage",
@@ -5303,7 +5303,7 @@
           "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-scrape-enonce-2.jpg"
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001-scrape-extra-1.jpg"
         ]
       },
       "section": "bases",
@@ -5345,7 +5345,7 @@
       "title": "Pourcentage (Calculer des pourcentages 2)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/pourcentage/exercice-2-pourcentage.html",
-      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-002-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-002-annexe-1.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -5410,8 +5410,8 @@
       "title": "Pourcentage (Calculer des pourcentages 3)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/pourcentage/exercice-3-pourcentage.html",
-      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-003.xlsx",
-      "downloadUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-003-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-003.xlsx",
+      "downloadUrl": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-003-annexe-1.xlsx",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -5465,8 +5465,8 @@
       "title": "Pourcentage (Calculer des pourcentages 4)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/pourcentage/exercice-4-pourcentage.html",
-      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-004.xlsx",
-      "downloadUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-004-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-004.xlsx",
+      "downloadUrl": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-004-annexe-1.xlsx",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -5520,7 +5520,7 @@
       "title": "Pourcentage (Calculer des pourcentages 5)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/pourcentage/exercice-5-pourcentage.html",
-      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-005-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-005-annexe-1.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -5585,8 +5585,8 @@
       "title": "Pourcentage (Calculer des pourcentages 6)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/pourcentage/exercice-6-pourcentage.html",
-      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-006.xlsx",
-      "downloadUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-006-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-006.xlsx",
+      "downloadUrl": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-006-annexe-1.xlsx",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -5640,7 +5640,7 @@
       "title": "Pourcentage (Calculer des pourcentages 7)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/pourcentage/exercice-7-pourcentage.html",
-      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -5772,7 +5772,7 @@
       "title": "Pourcentage (Calculer des pourcentages 8)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/pourcentage/exercice-8-pourcentage.html",
-      "docxUrl": "data/assets/excel/bases-calculer-des-pourcentages/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -5810,7 +5810,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-008-scrape-resultat-1.webp"
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-008-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -5956,7 +5956,7 @@
       "title": "Graphique Excel (Graphiques 2)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/graphiques1/exercice-2-graphique.html",
-      "docxUrl": "data/assets/excel/bases-graphiques/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/bases-12-graphiques/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -6033,7 +6033,7 @@
       "title": "Graphique Excel (Graphiques 3)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/graphiques1/exercice-3-graphique.html",
-      "docxUrl": "data/assets/excel/bases-graphiques/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/bases-12-graphiques/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -6094,8 +6094,8 @@
       "title": "Graphique Excel (Graphiques 4)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/graphiques1/exercice-4-graphique.html",
-      "docxUrl": "data/assets/excel/bases-graphiques/excel-ex-004.xlsx",
-      "downloadUrl": "data/assets/excel/bases-graphiques/excel-ex-004-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/bases-12-graphiques/excel-ex-004.xlsx",
+      "downloadUrl": "data/assets/excel/bases-12-graphiques/excel-ex-004-annexe-1.xlsx",
       "downloadLabel": "Telecharger les ressources",
       "imageEnonce": null,
       "imageResultat": null,
@@ -6179,7 +6179,7 @@
       "paragraphMode": false,
       "extraDownloadUrls": [
         {
-          "url": "data/assets/excel/bases-graphiques/excel-ex-004-annexe-2.xlsx",
+          "url": "data/assets/excel/bases-12-graphiques/excel-ex-004-annexe-2.xlsx",
           "label": "Telecharger le 3e fichier"
         }
       ],
@@ -6195,7 +6195,7 @@
       "title": "Graphique Excel (Graphiques 5)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/graphiques1/exercice-5-graphique.html",
-      "docxUrl": "data/assets/excel/bases-graphiques/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/bases-12-graphiques/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -6257,7 +6257,7 @@
       "title": "Graphique Excel (Graphiques 6)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/graphiques1/exercice-6-graphique-excel.html",
-      "docxUrl": "data/assets/excel/bases-graphiques/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/bases-12-graphiques/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-12-graphiques/excel-ex-006-image-enonce.jpg",
@@ -6278,10 +6278,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-12-graphiques/excel-ex-006-scrape-enonce-1.jpg"
+          "data/assets/excel/bases-12-graphiques/excel-ex-006-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/bases-12-graphiques/excel-ex-006-scrape-resultat-1.jpg",
+          "data/assets/excel/bases-12-graphiques/excel-ex-006-image-resultat.jpg",
           "data/assets/excel/bases-12-graphiques/excel-ex-006-scrape-resultat-2.jpg"
         ]
       },
@@ -6312,7 +6312,7 @@
       "title": "Graphique Excel (Graphiques 7)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/graphiques1/exercice-7-graphique-excel.html",
-      "docxUrl": "data/assets/excel/bases-graphiques/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/bases-12-graphiques/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -6335,7 +6335,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-12-graphiques/excel-ex-007-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-12-graphiques/excel-ex-007-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -6368,7 +6368,7 @@
       "title": "Graphique Excel (Graphiques 8)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/graphiques1/exercice-8-graphique-excel.html",
-      "docxUrl": "data/assets/excel/bases-graphiques/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/bases-12-graphiques/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -6394,7 +6394,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-12-graphiques/excel-ex-008-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-12-graphiques/excel-ex-008-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -6436,7 +6436,7 @@
       "title": "Graphique Excel - Pyramides des âges",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/graphiques1/exercice-9-graphique-excel.html",
-      "docxUrl": "data/assets/excel/bases-graphiques/excel-ex-009.xlsx",
+      "docxUrl": "data/assets/excel/bases-12-graphiques/excel-ex-009.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -6506,7 +6506,7 @@
       "title": "Graphique Excel - Graphique Volume d'heures",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/graphiques1/exercice-10-graphique-excel.html",
-      "docxUrl": "data/assets/excel/bases-graphiques/excel-ex-010.xlsx",
+      "docxUrl": "data/assets/excel/bases-12-graphiques/excel-ex-010.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-12-graphiques/excel-ex-010-image-enonce.gif",
@@ -6530,10 +6530,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-12-graphiques/excel-ex-010-scrape-enonce-1.gif"
+          "data/assets/excel/bases-12-graphiques/excel-ex-010-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/bases-12-graphiques/excel-ex-010-scrape-resultat-1.gif"
+          "data/assets/excel/bases-12-graphiques/excel-ex-010-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -6572,7 +6572,7 @@
       "title": "Graphique Sparkline",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/graphiques1/exercice-1-sparkline.html",
-      "docxUrl": "data/assets/excel/bases-graphiques/excel-ex-011.xlsx",
+      "docxUrl": "data/assets/excel/bases-12-graphiques/excel-ex-011.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-12-graphiques/excel-ex-011-image-enonce.webp",
@@ -6593,10 +6593,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/bases-12-graphiques/excel-ex-011-scrape-enonce-1.webp"
+          "data/assets/excel/bases-12-graphiques/excel-ex-011-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/bases-12-graphiques/excel-ex-011-scrape-resultat-1.webp"
+          "data/assets/excel/bases-12-graphiques/excel-ex-011-image-resultat.webp"
         ]
       },
       "section": "bases",
@@ -6628,7 +6628,7 @@
       "title": "Impression Classeur Excel",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/impression/exercice-1-impression-classeur-excel.html",
-      "docxUrl": "data/assets/excel/bases-impression/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/bases-13-impression/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -6651,7 +6651,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-13-impression/excel-ex-001-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-13-impression/excel-ex-001-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -6684,7 +6684,7 @@
       "title": "Zone d'impression Excel",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/impression/exercice-2-impression-classeur-excel.html",
-      "docxUrl": "data/assets/excel/bases-impression/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/bases-13-impression/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -6707,7 +6707,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-13-impression/excel-ex-002-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-13-impression/excel-ex-002-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -6740,7 +6740,7 @@
       "title": "Impression & saut de page dans Excel",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/impression/exercice-3-impression-classeur-excel.html",
-      "docxUrl": "data/assets/excel/bases-impression/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/bases-13-impression/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -6764,7 +6764,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-13-impression/excel-ex-003-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-13-impression/excel-ex-003-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -6800,7 +6800,7 @@
       "title": "Impression & réglage des marges et du zoom",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/impression/exercice-4-impression-classeur-excel.html",
-      "docxUrl": "data/assets/excel/bases-impression/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/bases-13-impression/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -6823,7 +6823,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-13-impression/excel-ex-004-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-13-impression/excel-ex-004-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -6856,7 +6856,7 @@
       "title": "En-tête & pied de page",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/impression/exercice-5-impression-classeur-excel.html",
-      "docxUrl": "data/assets/excel/bases-impression/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/bases-13-impression/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -6924,7 +6924,7 @@
       "title": "Exercice 6 (Impression 6)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/impression/exercice-6-impression-classeur-excel.html",
-      "docxUrl": "data/assets/excel/bases-impression/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/bases-13-impression/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -6947,7 +6947,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-13-impression/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/bases-13-impression/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "bases",
@@ -6980,7 +6980,7 @@
       "title": "Impression centrée sur une page",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/impression/exercice-7-impression-classeur-excel.html",
-      "docxUrl": "data/assets/excel/bases-impression/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/bases-13-impression/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/bases-13-impression/excel-ex-007-image-enonce.jpg",
@@ -7003,7 +7003,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/bases-13-impression/excel-ex-007-scrape-resultat-1.gif"
+          "data/assets/excel/bases-13-impression/excel-ex-007-image-resultat.gif"
         ]
       },
       "section": "bases",
@@ -7036,11 +7036,11 @@
       "title": "Format de cellule",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-1.html",
-      "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/avance-02-format-de-cellule/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-image-enonce.jpg",
-      "imageResultat": "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-scrape-enonce-2.jpg",
+      "imageResultat": "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-scrape-extra-1.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Retrouvez les valeurs attendues uniquement en modifiant le format des cellules.",
@@ -7065,7 +7065,7 @@
           "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-scrape-enonce-2.jpg"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-001-scrape-extra-1.jpg"
         ]
       },
       "section": "avance",
@@ -7126,10 +7126,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-002-scrape-enonce-1.jpg"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-002-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-002-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-002-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -7168,7 +7168,7 @@
       "title": "Format de cellule \"jjjj\"",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-3-format-de-cellule-excel.html",
-      "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/avance-02-format-de-cellule/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-02-format-de-cellule/excel-ex-003-image-enonce.jpg",
@@ -7190,10 +7190,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-003-scrape-enonce-1.jpg"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-003-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-003-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-003-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -7232,7 +7232,7 @@
       "title": "Format de cellule à insérer",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-4-format-de-cellule-excel.html",
-      "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-02-format-de-cellule/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -7300,7 +7300,7 @@
       "title": "Format de cellule %",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-5-format-de-cellule-excel.html",
-      "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/avance-02-format-de-cellule/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-02-format-de-cellule/excel-ex-005-image-enonce.jpg",
@@ -7321,10 +7321,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-005-scrape-enonce-1.jpg"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-005-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-005-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-005-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -7354,7 +7354,7 @@
       "title": "Format de cellule \"spécial\"",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-6-format-de-cellule-excel.html",
-      "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/avance-02-format-de-cellule/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-02-format-de-cellule/excel-ex-006-image-enonce.gif",
@@ -7376,10 +7376,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-006-scrape-enonce-1.gif"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-006-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -7412,7 +7412,7 @@
       "title": "Formats DATE personnalisés",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-7-format-de-cellule-excel.html",
-      "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/avance-02-format-de-cellule/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-02-format-de-cellule/excel-ex-007-image-enonce.webp",
@@ -7433,10 +7433,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-007-scrape-enonce-1.webp"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-007-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-007-scrape-resultat-1.webp"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-007-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -7468,7 +7468,7 @@
       "title": "Manipulation des heures",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/format-de-celulle/exercice-8-date.html",
-      "docxUrl": "data/assets/excel/avance-format-de-cellule/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/avance-02-format-de-cellule/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-02-format-de-cellule/excel-ex-008-image-enonce.gif",
@@ -7490,10 +7490,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-008-scrape-enonce-1.gif"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-008-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-02-format-de-cellule/excel-ex-008-scrape-resultat-1.gif"
+          "data/assets/excel/avance-02-format-de-cellule/excel-ex-008-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -7526,7 +7526,7 @@
       "title": "Référence absolue - Série 1",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-1-reference-absolue.html",
-      "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/avance-03-reference-absolue/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-03-reference-absolue/excel-ex-001-image-enonce.gif",
@@ -7548,10 +7548,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-001-scrape-enonce-1.gif"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-001-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-001-scrape-resultat-1.gif"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-001-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -7590,7 +7590,7 @@
       "title": "Référence absolue - Série 2",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-2-reference-absolue.html",
-      "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/avance-03-reference-absolue/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-03-reference-absolue/excel-ex-002-image-enonce.gif",
@@ -7611,10 +7611,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-002-scrape-enonce-1.gif"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-002-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-002-scrape-resultat-1.gif"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-002-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -7667,10 +7667,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-003-scrape-enonce-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-003-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-003-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-003-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -7704,7 +7704,7 @@
       "title": "Référence absolue - Tableau d'encaissement",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-4.html",
-      "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-03-reference-absolue/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-03-reference-absolue/excel-ex-004-image-enonce.jpg",
@@ -7725,10 +7725,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-004-scrape-enonce-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-004-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-004-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-004-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -7758,7 +7758,7 @@
       "title": "Valeur absolue - Frais kilométriques",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-5.html",
-      "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/avance-03-reference-absolue/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-03-reference-absolue/excel-ex-005-image-enonce.gif",
@@ -7780,10 +7780,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-005-scrape-enonce-1.gif"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-005-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-005-scrape-resultat-1.gif"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-005-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -7838,10 +7838,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-006-scrape-enonce-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-006-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -7880,7 +7880,7 @@
       "title": "Valeur absolue - Part de marché",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-7-valeur-absolue.html",
-      "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/avance-03-reference-absolue/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-03-reference-absolue/excel-ex-007-image-enonce.jpg",
@@ -7901,10 +7901,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-007-scrape-enonce-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-007-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-007-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-007-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -7934,7 +7934,7 @@
       "title": "Valeur absolue - Pourcentage d'un total",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-8-valeur-absolue.html",
-      "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/avance-03-reference-absolue/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-03-reference-absolue/excel-ex-008-image-enonce.jpg",
@@ -7955,10 +7955,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-008-scrape-enonce-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-008-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-008-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-008-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -7988,7 +7988,7 @@
       "title": "Valeur absolue - Répercuter un calcul",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-9-valeur-absolue.html",
-      "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-009.xlsx",
+      "docxUrl": "data/assets/excel/avance-03-reference-absolue/excel-ex-009.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-03-reference-absolue/excel-ex-009-image-enonce.jpg",
@@ -8011,10 +8011,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-009-scrape-enonce-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-009-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-009-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-009-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -8050,7 +8050,7 @@
       "title": "Valeur absolue - Volume de béton",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/reference-absolue/exercice-10-valeur-absolue.html",
-      "docxUrl": "data/assets/excel/avance-reference-absolue/excel-ex-010.xlsx",
+      "docxUrl": "data/assets/excel/avance-03-reference-absolue/excel-ex-010.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-03-reference-absolue/excel-ex-010-image-enonce.gif",
@@ -8077,11 +8077,11 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-010-scrape-extra-1.gif"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-010-image-resultat.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-010-scrape-enonce-1.gif",
-          "data/assets/excel/avance-03-reference-absolue/excel-ex-010-scrape-enonce-2.gif"
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-010-image-enonce.gif",
+          "data/assets/excel/avance-03-reference-absolue/excel-ex-010-image-resultat.gif"
         ],
         "resultImages": [
           "data/assets/excel/avance-03-reference-absolue/excel-ex-010-image-resultat.gif"
@@ -8135,7 +8135,7 @@
       "title": "Trier et Filtrer une liste",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-1-tri.html",
-      "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -8223,7 +8223,7 @@
       "title": "Trier et Filtrer une liste",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-2-tri.html",
-      "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -8301,7 +8301,7 @@
       "title": "Trier et Filtrer une liste",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-3.html",
-      "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -8370,7 +8370,7 @@
       "title": "Filtre avancé d'une liste",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-3-tri-filtre.html",
-      "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-004-image-enonce.gif",
@@ -8391,10 +8391,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-004-scrape-enonce-1.gif"
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-004-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-004-scrape-resultat-1.jpg",
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-004-image-resultat.jpg",
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-004-scrape-resultat-2.jpg"
         ]
       },
@@ -8425,11 +8425,11 @@
       "title": "Exercice 7 (Trier et filtrer 7)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-7-tri-filtre.html",
-      "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-image-enonce.gif",
-      "imageResultat": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-enonce-2.gif",
+      "imageResultat": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-extra-1.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Exercice 7",
@@ -8458,9 +8458,9 @@
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-enonce-2.gif",
-          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-enonce-3.gif",
-          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-enonce-4.gif"
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-extra-1.gif",
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-extra-2.gif",
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-007-scrape-extra-3.gif"
         ]
       },
       "section": "avance",
@@ -8505,7 +8505,7 @@
       "title": "Filtres avancés",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-5-tri-filtre.html",
-      "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -8569,8 +8569,8 @@
       "title": "Exercice 6 (Trier et filtrer 6)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-6-tri-filtre.html",
-      "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-006.xlsx",
-      "downloadUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-006-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-006.xlsx",
+      "downloadUrl": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-006-annexe-1.xlsx",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -8641,7 +8641,7 @@
       "title": "Fonction FILTRE",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-8-tri-filtre.html",
-      "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-image-enonce.webp",
@@ -8675,11 +8675,11 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [
-          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-scrape-extra-1.webp"
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-image-resultat.webp"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-scrape-enonce-1.webp",
-          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-scrape-enonce-2.webp"
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-image-resultat.webp",
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-image-enonce.webp"
         ],
         "resultImages": [
           "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-008-image-resultat.webp"
@@ -8754,7 +8754,7 @@
       "title": "Insérer des segments",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/tri/exercice-9-segment.html",
-      "docxUrl": "data/assets/excel/avance-trier-et-filtrer/excel-ex-009.xlsx",
+      "docxUrl": "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-009.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -8841,7 +8841,7 @@
       "title": "Mise en forme conditionnelle (Mise en forme conditionnelle 1)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/mise-en-forme-conditionnelle/exercice-1-mise-en-forme-conditionnelle.html",
-      "docxUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-001-image-enonce.gif",
@@ -8864,10 +8864,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-001-scrape-enonce-1.gif"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-001-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-001-scrape-resultat-1.gif"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-001-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -8903,7 +8903,7 @@
       "title": "Mise en forme conditionnelle (Mise en forme conditionnelle 2)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/mise-en-forme-conditionnelle/exercice-2.html",
-      "docxUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-002-image-enonce.gif",
@@ -8924,10 +8924,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-002-scrape-enonce-1.gif"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-002-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-002-scrape-resultat-1.gif"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-002-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -8957,7 +8957,7 @@
       "title": "Mise en forme conditionnelle (Mise en forme conditionnelle 3)",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/mise-en-forme-conditionnelle/exercice-3.html",
-      "docxUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-003-image-enonce.webp",
@@ -8978,10 +8978,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-003-scrape-enonce-1.webp"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-003-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-003-scrape-resultat-1.webp"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-003-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -9011,7 +9011,7 @@
       "title": "Mise en forme conditionnelle (Mise en forme conditionnelle 4)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/mise-en-forme-conditionnelle/exercice-4.html",
-      "docxUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-004-image-enonce.webp",
@@ -9034,10 +9034,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-004-scrape-enonce-1.webp"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-004-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-004-scrape-resultat-1.webp"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-004-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -9073,7 +9073,7 @@
       "title": "Mise en forme conditionnelle (Mise en forme conditionnelle 5)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/mise-en-forme-conditionnelle/exercice-5.html",
-      "docxUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -9129,7 +9129,7 @@
       "title": "Mise en forme conditionnelle (Mise en forme conditionnelle 6)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/mise-en-forme-conditionnelle/exercice-6.html",
-      "docxUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -9160,7 +9160,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -9217,7 +9217,7 @@
       "title": "Exercice 7 (Mise en forme conditionnelle 7)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/mise-en-forme-conditionnelle/exercice-7.html",
-      "docxUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-007-image-enonce.gif",
@@ -9242,10 +9242,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-007-scrape-enonce-1.gif"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-007-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-007-scrape-resultat-1.gif"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-007-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -9287,7 +9287,7 @@
       "title": "Mise en forme conditionnelle (Mise en forme conditionnelle 8)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/mise-en-forme-conditionnelle/exercice-8.html",
-      "docxUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-008-image-enonce.webp",
@@ -9312,10 +9312,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-008-scrape-enonce-1.webp"
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-008-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-008-scrape-resultat-1.webp",
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-008-image-resultat.webp",
           "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-008-scrape-resultat-2.webp",
           "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-008-scrape-resultat-3.webp"
         ]
@@ -9359,8 +9359,8 @@
       "title": "Mise en forme conditionnelle (Mise en forme conditionnelle 9)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/mise-en-forme-conditionnelle/exercice-9.html",
-      "docxUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-009.xlsx",
-      "downloadUrl": "data/assets/excel/avance-mise-en-forme-conditionnelle/excel-ex-009-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-009.xlsx",
+      "downloadUrl": "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-009-annexe-1.xlsx",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -9414,7 +9414,7 @@
       "title": "Validation des données",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/validation-des-donnees/exercice-1-validation-des-donnees.html",
-      "docxUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-001-image-enonce.jpg",
@@ -9472,7 +9472,7 @@
       "title": "Validation des données",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/validation-des-donnees/exercice-2-validation-des-donnees.html",
-      "docxUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-002-image-enonce.jpg",
@@ -9498,7 +9498,7 @@
         ],
         "enonceImages": [
           "data/assets/excel/avance-06-outils-de-donnees/excel-ex-002-scrape-enonce-1.jpg",
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-002-scrape-enonce-2.jpg"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-002-scrape-extra-1.jpg"
         ],
         "resultImages": [
           "data/assets/excel/avance-06-outils-de-donnees/excel-ex-002-scrape-resultat-1.jpg"
@@ -9537,7 +9537,7 @@
       "title": "Validation des données",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/validation-des-donnees/exercice-3-validation-des-donnees.html",
-      "docxUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-003-image-enonce.gif",
@@ -9558,10 +9558,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-003-scrape-enonce-1.gif"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-003-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-003-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-003-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -9591,7 +9591,7 @@
       "title": "Listes de choix et messages d'avertissement",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/validation-des-donnees/exercice-4-validation-des-donnees.html",
-      "docxUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-004-image-enonce.jpg",
@@ -9613,10 +9613,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-004-scrape-enonce-1.jpg"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-004-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-004-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-004-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -9649,7 +9649,7 @@
       "title": "Supprimer les doublons",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/validation-des-donnees/exercice-5-supprimer-les-doublons.html",
-      "docxUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-005-image-enonce.jpg",
@@ -9673,10 +9673,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-005-scrape-enonce-1.jpg"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-005-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-005-scrape-resultat-1.jpg",
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-005-image-resultat.jpg",
           "data/assets/excel/avance-06-outils-de-donnees/excel-ex-005-scrape-resultat-2.jpg",
           "data/assets/excel/avance-06-outils-de-donnees/excel-ex-005-scrape-resultat-3.jpg"
         ]
@@ -9717,7 +9717,7 @@
       "title": "Remplissage instantané",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/validation-des-donnees/exercice-6-remplissage-instantane.html",
-      "docxUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-006-image-enonce.gif",
@@ -9739,10 +9739,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-006-scrape-enonce-1.gif"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-006-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -9775,7 +9775,7 @@
       "title": "Validation des données",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/validation-des-donnees/exercice-7-validation-des-donnees.html",
-      "docxUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-007-image-enonce.gif",
@@ -9801,10 +9801,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-007-scrape-enonce-1.gif"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-007-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-007-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-007-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -9849,7 +9849,7 @@
       "title": "Validation des données - Fonction RECHERCHE",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/validation-des-donnees/exercice-8-validation-des-donnees.html",
-      "docxUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-008-image-enonce.gif",
@@ -9871,10 +9871,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-008-scrape-enonce-1.gif"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-008-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-008-scrape-resultat-1.gif"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-008-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -9907,8 +9907,8 @@
       "title": "Convertir des données",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/validation-des-donnees/exercice-8-convertir-des-donnees.html",
-      "docxUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-009.xlsx",
-      "downloadUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-009-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-009.xlsx",
+      "downloadUrl": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-009-annexe-1.xlsx",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -9975,7 +9975,7 @@
       "title": "Listes déroulantes en cascade",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/validation-des-donnees/exercice-10-listes-deroulantes-en-cascade.html",
-      "docxUrl": "data/assets/excel/avance-outils-de-donnees/excel-ex-010.xlsx",
+      "docxUrl": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-010.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-06-outils-de-donnees/excel-ex-010-image-enonce.gif",
@@ -9999,10 +9999,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-010-scrape-enonce-1.gif"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-010-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-010-scrape-resultat-1.gif"
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-010-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -10041,7 +10041,7 @@
       "title": "Lier des feuilles de calculs",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-1.html",
-      "docxUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-001-image-enonce.jpg",
@@ -10065,11 +10065,11 @@
           "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-001-scrape-extra-1.jpg"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-001-scrape-enonce-1.jpg",
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-001-scrape-enonce-2.jpg"
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-001-image-enonce.jpg",
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-001-scrape-extra-1.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-001-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-001-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -10108,7 +10108,7 @@
       "title": "Lier des feuilles de calculs",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-2.html",
-      "docxUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-002-image-enonce.webp",
@@ -10129,10 +10129,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-002-scrape-enonce-1.webp"
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-002-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-002-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-002-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -10164,7 +10164,7 @@
       "title": "Lier des feuilles de calculs & appareil photo",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-3.html",
-      "docxUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -10232,7 +10232,7 @@
       "title": "Lier des feuilles de calculs",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-4.html",
-      "docxUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-004-image-enonce.webp",
@@ -10253,10 +10253,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-004-scrape-enonce-1.webp"
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-004-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-004-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-004-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -10288,7 +10288,7 @@
       "title": "Lier des feuilles de calculs",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-5.html",
-      "docxUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-005-image-enonce.jpg",
@@ -10312,8 +10312,8 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-005-scrape-resultat-1.jpg",
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-005-scrape-resultat-2.jpg",
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-005-image-resultat.jpg",
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-005-image-enonce.jpg",
           "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-005-scrape-resultat-3.jpg"
         ]
       },
@@ -10350,7 +10350,7 @@
       "title": "Transposer un tableau",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-6.html",
-      "docxUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-006-image-enonce.webp",
@@ -10374,10 +10374,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-006-scrape-enonce-1.webp"
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-006-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-006-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-006-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -10416,7 +10416,7 @@
       "title": "Lier des feuilles de calculs via des liens Hypertextes",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-7.html",
-      "docxUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-007-image-enonce.gif",
@@ -10439,8 +10439,8 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-007-scrape-resultat-1.gif",
-          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-007-scrape-resultat-2.gif"
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-007-image-resultat.gif",
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-007-image-enonce.gif"
         ]
       },
       "section": "avance",
@@ -10473,8 +10473,8 @@
       "title": "Lier des feuilles de calculs dans plusieurs classeurs",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/lier-des-feuilles-de-calculs/exercice-8.html",
-      "docxUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-008.xlsx",
-      "downloadUrl": "data/assets/excel/avance-lier-des-feuilles/excel-ex-008-annexe-1.zip",
+      "docxUrl": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-008.xlsx",
+      "downloadUrl": "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-008-annexe-1.zip",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -10536,7 +10536,7 @@
       "title": ": Nommer une cellule ou une plage de cellules (Nommer une cellule 1)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-1-nommer-une-cellule.html",
-      "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-001-image-enonce.webp",
@@ -10559,10 +10559,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-001-scrape-enonce-1.webp"
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-001-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-001-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-001-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -10598,7 +10598,7 @@
       "title": ": Nommer une cellule ou une plage de cellules (Nommer une cellule 2)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/10-02-nommage-cellule.html",
-      "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-002-image-enonce.webp",
@@ -10623,10 +10623,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-002-scrape-enonce-1.webp"
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-002-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-002-scrape-resultat-1.gif"
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-002-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -10668,7 +10668,7 @@
       "title": "Nommer une cellule ou une plage de cellules",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-3-nommer-cellule.html",
-      "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-003-image-enonce.webp",
@@ -10691,10 +10691,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-003-scrape-enonce-1.webp"
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-003-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-003-scrape-resultat-1.jpg"
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-003-image-resultat.jpg"
         ]
       },
       "section": "avance",
@@ -10736,7 +10736,7 @@
       "title": "Nommer une cellule ou une plage de cellules",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-4-nommer-cellule.html",
-      "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-004-image-enonce.webp",
@@ -10758,10 +10758,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-004-scrape-enonce-1.webp"
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-004-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-004-scrape-resultat-1.webp"
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-004-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -10800,7 +10800,7 @@
       "title": "Nommer une cellule ou une plage de cellules",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-5-nommer-cellule.html",
-      "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -10872,7 +10872,7 @@
       "title": "Exercice 6 (Nommer une cellule 6)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-6-nommer-cellule.html",
-      "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -10952,10 +10952,10 @@
       "title": "Exercice 7 (Nommer une cellule 7)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-7-nommer-cellule.html",
-      "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-scrape-enonce-2.gif",
+      "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-scrape-extra-1.gif",
       "imageResultat": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-image-enonce.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
@@ -10984,7 +10984,7 @@
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-scrape-enonce-2.gif"
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-scrape-extra-1.gif"
         ],
         "resultImages": [
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-007-image-enonce.gif"
@@ -11044,10 +11044,10 @@
       "title": "Nommer une cellule ou une plage de cellules",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-8-nommer-cellule.html",
-      "docxUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-scrape-enonce-2.gif",
+      "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-scrape-extra-1.gif",
       "imageResultat": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-image-enonce.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
@@ -11073,7 +11073,7 @@
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-scrape-enonce-2.gif"
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-scrape-extra-1.gif"
         ],
         "resultImages": [
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-008-image-enonce.gif"
@@ -11125,7 +11125,7 @@
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/nommer-une-plage-de-celulle/exercice-9-nommer-cellule.html",
       "docxUrl": null,
-      "downloadUrl": "data/assets/excel/avance-nommer-une-cellule/excel-ex-009.zip",
+      "downloadUrl": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009.zip",
       "downloadLabel": "Télécharger les images",
       "imageEnonce": "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-image-enonce.webp",
       "imageResultat": null,
@@ -11169,11 +11169,11 @@
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-extra-4.webp"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-enonce-1.webp",
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-enonce-2.webp",
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-enonce-3.webp",
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-enonce-4.gif",
-          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-enonce-5.webp"
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-image-enonce.webp",
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-extra-1.webp",
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-extra-2.webp",
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-extra-3.gif",
+          "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-scrape-extra-4.webp"
         ],
         "resultImages": [
           "data/assets/excel/avance-08-nommer-une-cellule/excel-ex-009-image-enonce.webp"
@@ -11260,8 +11260,8 @@
       "title": "Tableau croisé dynamique",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/fonctions-base-de-donnees/tableau-croise-dynamique-1.html",
-      "docxUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-001.xlsx",
-      "downloadUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-001-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-001.xlsx",
+      "downloadUrl": "data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-001-annexe-1.xlsx",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -11326,7 +11326,7 @@
       "title": "Tableau Croisé Dynamique (Tableaux croisés dynamiques 2)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-2-tcd.html",
-      "docxUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -11407,7 +11407,7 @@
       "title": "Tableau Croisé Dynamique (Tableaux croisés dynamiques 3)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-3-tcd.html",
-      "docxUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -11493,7 +11493,7 @@
       "title": "Tableau Croisé Dynamique (Tableaux croisés dynamiques 4)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-4-tcd.html",
-      "docxUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -11587,7 +11587,7 @@
       "title": "Tableau Croisé Dynamique (Tableaux croisés dynamiques 5)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-5-tcd.html",
-      "docxUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -11677,7 +11677,7 @@
       "title": "Tableau Croisé Dynamique (Tableaux croisés dynamiques 6)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-6-tcd.html",
-      "docxUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-006.xlsx",
+      "docxUrl": "data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-006.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -11772,7 +11772,7 @@
       "title": "Tableau Croisé Dynamique (Tableaux croisés dynamiques 7)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-7.html",
-      "docxUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -11862,7 +11862,7 @@
       "title": "Tableau Croisé Dynamique (Tableaux croisés dynamiques 8)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-8.html",
-      "docxUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -11924,7 +11924,7 @@
       "title": "Tableau Croisé Dynamique (Tableaux croisés dynamiques 9)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/fonctions-base-de-donnees/exercice-9.html",
-      "docxUrl": "data/assets/excel/avance-tableaux-croises-dynamiques/excel-ex-009.xlsx",
+      "docxUrl": "data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-009.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -11993,7 +11993,7 @@
       "title": "Sous-totaux",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/sous-totaux/exercice-1.html",
-      "docxUrl": "data/assets/excel/avance-sous-totaux/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/avance-10-sous-totaux/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-10-sous-totaux/excel-ex-001-image-enonce.gif",
@@ -12015,10 +12015,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-10-sous-totaux/excel-ex-001-scrape-enonce-1.gif"
+          "data/assets/excel/avance-10-sous-totaux/excel-ex-001-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-10-sous-totaux/excel-ex-001-scrape-resultat-1.gif"
+          "data/assets/excel/avance-10-sous-totaux/excel-ex-001-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -12051,7 +12051,7 @@
       "title": "Sous-Totaux",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/sous-totaux/exercice-2.html",
-      "docxUrl": "data/assets/excel/avance-sous-totaux/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/avance-10-sous-totaux/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-10-sous-totaux/excel-ex-002-image-enonce.gif",
@@ -12073,10 +12073,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-10-sous-totaux/excel-ex-002-scrape-enonce-1.gif"
+          "data/assets/excel/avance-10-sous-totaux/excel-ex-002-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-10-sous-totaux/excel-ex-002-scrape-resultat-1.gif"
+          "data/assets/excel/avance-10-sous-totaux/excel-ex-002-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -12109,7 +12109,7 @@
       "title": "Sous-Totaux",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/sous-totaux/exercice-3.html",
-      "docxUrl": "data/assets/excel/avance-sous-totaux/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/avance-10-sous-totaux/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-10-sous-totaux/excel-ex-003-image-enonce.gif",
@@ -12131,10 +12131,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-10-sous-totaux/excel-ex-003-scrape-enonce-1.gif"
+          "data/assets/excel/avance-10-sous-totaux/excel-ex-003-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-10-sous-totaux/excel-ex-003-scrape-resultat-1.gif"
+          "data/assets/excel/avance-10-sous-totaux/excel-ex-003-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -12167,7 +12167,7 @@
       "title": "Sous-Totaux",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/sous-totaux/exercice-4.html",
-      "docxUrl": "data/assets/excel/avance-sous-totaux/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-10-sous-totaux/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -12228,7 +12228,7 @@
       "title": "La consolidation dans Excel",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-1.html",
-      "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/avance-11-consolidation/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-001-image-enonce.gif",
@@ -12250,10 +12250,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-001-scrape-enonce-1.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-001-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-001-scrape-resultat-1.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-001-image-resultat.gif"
         ]
       },
       "section": "avance",
@@ -12285,11 +12285,11 @@
       "title": "La consolidation dans Excel",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-2.html",
-      "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/avance-11-consolidation/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-002-image-enonce.gif",
-      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-002-scrape-enonce-2.gif",
+      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-002-scrape-extra-1.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Consolidez les trois premières feuilles du classeur dans une nouvelle feuille.",
@@ -12312,7 +12312,7 @@
           "data/assets/excel/avance-11-consolidation/excel-ex-002-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-002-scrape-enonce-2.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-002-scrape-extra-1.gif"
         ]
       },
       "section": "avance",
@@ -12345,11 +12345,11 @@
       "title": "La consolidation dans Excel",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-3.html",
-      "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/avance-11-consolidation/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-003-image-enonce.gif",
-      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-003-scrape-enonce-2.gif",
+      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-003-scrape-extra-1.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Consolidez les quatre premières feuilles du classeur dans une nouvelle feuille.",
@@ -12372,7 +12372,7 @@
           "data/assets/excel/avance-11-consolidation/excel-ex-003-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-003-scrape-enonce-2.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-003-scrape-extra-1.gif"
         ]
       },
       "section": "avance",
@@ -12405,11 +12405,11 @@
       "title": "La consolidation dans Excel",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-4.html",
-      "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-11-consolidation/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-004-image-enonce.gif",
-      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-004-scrape-enonce-2.gif",
+      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-004-scrape-extra-1.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Consolidez les trois tableaux de la feuille énoncé dans une nouvelle feuille.",
@@ -12432,7 +12432,7 @@
           "data/assets/excel/avance-11-consolidation/excel-ex-004-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-004-scrape-enonce-2.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-004-scrape-extra-1.gif"
         ]
       },
       "section": "avance",
@@ -12465,11 +12465,11 @@
       "title": "La consolidation dans Excel",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-5.html",
-      "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-005.xlsx",
+      "docxUrl": "data/assets/excel/avance-11-consolidation/excel-ex-005.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-005-image-enonce.gif",
-      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-005-scrape-enonce-2.gif",
+      "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-005-scrape-extra-1.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Agrégez les heures travaillées dans un tableau de consolidation.",
@@ -12492,7 +12492,7 @@
           "data/assets/excel/avance-11-consolidation/excel-ex-005-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-005-scrape-enonce-2.gif"
+          "data/assets/excel/avance-11-consolidation/excel-ex-005-scrape-extra-1.gif"
         ]
       },
       "section": "avance",
@@ -12525,7 +12525,7 @@
       "title": "Exercice 6 (Consolidation 6)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-6.html",
-      "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-006.zip",
+      "docxUrl": "data/assets/excel/avance-11-consolidation/excel-ex-006.zip",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -12593,10 +12593,10 @@
       "title": "Exercice 7 (Consolidation 7)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-7.html",
-      "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-007.xlsx",
+      "docxUrl": "data/assets/excel/avance-11-consolidation/excel-ex-007.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-007-scrape-enonce-2.jpg",
+      "imageEnonce": "data/assets/excel/avance-11-consolidation/excel-ex-007-scrape-extra-1.jpg",
       "imageResultat": "data/assets/excel/avance-11-consolidation/excel-ex-007-image-enonce.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
@@ -12617,7 +12617,7 @@
           "data/assets/excel/avance-11-consolidation/excel-ex-007-scrape-extra-1.jpg"
         ],
         "enonceImages": [
-          "data/assets/excel/avance-11-consolidation/excel-ex-007-scrape-enonce-2.jpg"
+          "data/assets/excel/avance-11-consolidation/excel-ex-007-scrape-extra-1.jpg"
         ],
         "resultImages": [
           "data/assets/excel/avance-11-consolidation/excel-ex-007-image-enonce.jpg"
@@ -12653,7 +12653,7 @@
       "title": "La consolidation dans Excel",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/consolidation/exercice-8.html",
-      "docxUrl": "data/assets/excel/avance-consolidation/excel-ex-008.xlsx",
+      "docxUrl": "data/assets/excel/avance-11-consolidation/excel-ex-008.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -12743,7 +12743,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/avance-12-macro/excel-ex-001-scrape-resultat-1.webp",
+          "data/assets/excel/avance-12-macro/excel-ex-001-image-resultat.webp",
           "data/assets/excel/avance-12-macro/excel-ex-001-scrape-resultat-2.webp"
         ]
       },
@@ -12859,8 +12859,8 @@
       "title": "Réaliser une macro",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/macro/exercice-3-macro.html",
-      "docxUrl": "data/assets/excel/avance-macro/excel-ex-003.xlsx",
-      "downloadUrl": "data/assets/excel/avance-macro/excel-ex-003-annexe-1.zip",
+      "docxUrl": "data/assets/excel/avance-12-macro/excel-ex-003.xlsx",
+      "downloadUrl": "data/assets/excel/avance-12-macro/excel-ex-003-annexe-1.zip",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -12995,7 +12995,7 @@
       "title": "Réaliser une macro",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/macro/exercice-4-macro.html",
-      "docxUrl": "data/assets/excel/avance-macro/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-12-macro/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -13123,7 +13123,7 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-12-macro/excel-ex-005-scrape-enonce-1.webp"
+          "data/assets/excel/avance-12-macro/excel-ex-005-image-enonce.webp"
         ],
         "resultImages": [
           "data/assets/excel/avance-12-macro/excel-ex-005-image-enonce.webp"
@@ -13163,7 +13163,7 @@
       "title": "Case à cocher",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/controles-de-formulaire/exercice-1-case-a-cocher.html",
-      "docxUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-001-g188.xlsx",
+      "docxUrl": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g188.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g188-image-enonce.webp",
@@ -13190,10 +13190,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g188-scrape-enonce-1.webp"
+          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g188-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g188-scrape-resultat-1.webp"
+          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g188-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -13241,7 +13241,7 @@
       "title": "Case à cocher",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/controles-de-formulaire/exercice-2-case-a-cocher.html",
-      "docxUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-002-g189.xlsx",
+      "docxUrl": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-002-g189.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -13313,7 +13313,7 @@
       "title": "Case à cocher",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/controles-de-formulaire/exercice-3-case-a-cocher.html",
-      "docxUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-003-g190.xlsx",
+      "docxUrl": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g190.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g190-image-enonce.webp",
@@ -13348,10 +13348,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g190-scrape-enonce-1.webp"
+          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g190-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g190-scrape-resultat-1.webp"
+          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g190-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -13423,7 +13423,7 @@
       "title": "Cases d'option (Controles de Formulaire 1)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/controles-de-formulaire/exercice-1-bouton-radio.html",
-      "docxUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-001-g191.xlsx",
+      "docxUrl": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g191.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g191-image-enonce.webp",
@@ -13446,10 +13446,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g191-scrape-enonce-1.webp"
+          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g191-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g191-scrape-resultat-1.webp"
+          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-001-g191-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -13485,7 +13485,7 @@
       "title": "Cases d'option (Controles de Formulaire 2)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/controles-de-formulaire/exercice-2-bouton-radio.html",
-      "docxUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-002-g192.xlsx",
+      "docxUrl": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-002-g192.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-002-g192-image-enonce.webp",
@@ -13512,10 +13512,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-002-g192-scrape-enonce-1.webp"
+          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-002-g192-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-002-g192-scrape-resultat-1.webp"
+          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-002-g192-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -13563,7 +13563,7 @@
       "title": "Cases d'option (Controles de Formulaire 3)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/controles-de-formulaire/exercice-3-bouton-radio.html",
-      "docxUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-003-g193.xlsx",
+      "docxUrl": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g193.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g193-image-enonce.webp",
@@ -13600,10 +13600,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g193-scrape-enonce-1.webp"
+          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g193-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g193-scrape-resultat-1.webp"
+          "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-003-g193-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -13681,7 +13681,7 @@
       "title": "Cases d'option (Controles de Formulaire 4)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/controles-de-formulaire/exercice-4-bouton-radio.html",
-      "docxUrl": "data/assets/excel/avance-controles-de-formulaire/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-13-controles-de-formulaire/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -13753,7 +13753,7 @@
       "title": "ActiveX : Zone de texte",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/activex/exercice-1-activex.html",
-      "docxUrl": "data/assets/excel/avance-activex/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/avance-14-activex/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-14-activex/excel-ex-001-image-enonce.webp",
@@ -13784,10 +13784,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-14-activex/excel-ex-001-scrape-enonce-1.webp"
+          "data/assets/excel/avance-14-activex/excel-ex-001-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-14-activex/excel-ex-001-scrape-resultat-1.webp"
+          "data/assets/excel/avance-14-activex/excel-ex-001-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -13847,7 +13847,7 @@
       "title": "Calcul Matriciel (Calcul matriciel 1)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/calcul-matriciel/exercice-calcul-matriciel-1.html",
-      "docxUrl": "data/assets/excel/avance-calcul-matriciel/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/avance-15-calcul-matriciel/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-15-calcul-matriciel/excel-ex-001-image-enonce.webp",
@@ -13868,10 +13868,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-001-scrape-enonce-1.webp"
+          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-001-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-001-scrape-resultat-1.webp"
+          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-001-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -13901,7 +13901,7 @@
       "title": "Calcul Matriciel (Calcul matriciel 2)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/calcul-matriciel/exercice-calcul-matriciel-2.html",
-      "docxUrl": "data/assets/excel/avance-calcul-matriciel/excel-ex-002.xlsx",
+      "docxUrl": "data/assets/excel/avance-15-calcul-matriciel/excel-ex-002.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-15-calcul-matriciel/excel-ex-002-image-enonce.webp",
@@ -13922,10 +13922,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-002-scrape-enonce-1.webp"
+          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-002-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-002-scrape-resultat-1.webp"
+          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-002-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -13955,7 +13955,7 @@
       "title": "Calcul Matriciel (Calcul matriciel 3)",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/calcul-matriciel/exercice-calcul-matriciel-3.html",
-      "docxUrl": "data/assets/excel/avance-calcul-matriciel/excel-ex-003.xlsx",
+      "docxUrl": "data/assets/excel/avance-15-calcul-matriciel/excel-ex-003.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-15-calcul-matriciel/excel-ex-003-image-enonce.webp",
@@ -13976,10 +13976,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-003-scrape-enonce-1.webp"
+          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-003-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-003-scrape-resultat-1.webp"
+          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-003-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -14009,7 +14009,7 @@
       "title": "Calcul Matriciel (Calcul matriciel 4)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/calcul-matriciel/exercice-calcul-matriciel-4.html",
-      "docxUrl": "data/assets/excel/avance-calcul-matriciel/excel-ex-004.xlsx",
+      "docxUrl": "data/assets/excel/avance-15-calcul-matriciel/excel-ex-004.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/avance-15-calcul-matriciel/excel-ex-004-image-enonce.webp",
@@ -14034,10 +14034,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-004-scrape-enonce-1.webp"
+          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-004-image-enonce.webp"
         ],
         "resultImages": [
-          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-004-scrape-resultat-1.webp"
+          "data/assets/excel/avance-15-calcul-matriciel/excel-ex-004-image-resultat.webp"
         ]
       },
       "section": "avance",
@@ -14079,7 +14079,7 @@
       "title": "Cas Wi-Tool",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul11-word/wi-tool.html",
-      "docxUrl": "data/assets/excel/asca-ul11-word/excel-ex-001.docx",
+      "docxUrl": "data/assets/excel/asca-02-ul11-word/excel-ex-001.docx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -14350,8 +14350,8 @@
           "data/assets/excel/asca-02-ul11-word/excel-ex-004-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-02-ul11-word/excel-ex-004-scrape-enonce-1.gif",
-          "data/assets/excel/asca-02-ul11-word/excel-ex-004-scrape-enonce-2.gif"
+          "data/assets/excel/asca-02-ul11-word/excel-ex-004-image-enonce.gif",
+          "data/assets/excel/asca-02-ul11-word/excel-ex-004-scrape-extra-1.gif"
         ],
         "resultImages": [
           "data/assets/excel/asca-02-ul11-word/excel-ex-004-image-enonce.gif"
@@ -14442,8 +14442,8 @@
           "data/assets/excel/asca-02-ul11-word/excel-ex-005-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-02-ul11-word/excel-ex-005-scrape-enonce-1.gif",
-          "data/assets/excel/asca-02-ul11-word/excel-ex-005-scrape-enonce-2.gif"
+          "data/assets/excel/asca-02-ul11-word/excel-ex-005-image-enonce.gif",
+          "data/assets/excel/asca-02-ul11-word/excel-ex-005-scrape-extra-1.gif"
         ],
         "resultImages": [
           "data/assets/excel/asca-02-ul11-word/excel-ex-005-image-enonce.gif"
@@ -14504,7 +14504,7 @@
       "title": "Cas Super Print",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/exercices-asca-ul11-word/cas-super-print.html",
-      "docxUrl": "data/assets/excel/asca-ul11-word/excel-ex-006.docx",
+      "docxUrl": "data/assets/excel/asca-02-ul11-word/excel-ex-006.docx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/asca-02-ul11-word/excel-ex-006-image-enonce.gif",
@@ -14535,8 +14535,8 @@
           "data/assets/excel/asca-02-ul11-word/excel-ex-006-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-02-ul11-word/excel-ex-006-scrape-enonce-1.gif",
-          "data/assets/excel/asca-02-ul11-word/excel-ex-006-scrape-enonce-2.gif"
+          "data/assets/excel/asca-02-ul11-word/excel-ex-006-image-enonce.gif",
+          "data/assets/excel/asca-02-ul11-word/excel-ex-006-scrape-extra-1.gif"
         ],
         "resultImages": [
           "data/assets/excel/asca-02-ul11-word/excel-ex-006-image-enonce.gif"
@@ -14624,8 +14624,8 @@
           "data/assets/excel/asca-02-ul11-word/excel-ex-007-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-02-ul11-word/excel-ex-007-scrape-enonce-1.gif",
-          "data/assets/excel/asca-02-ul11-word/excel-ex-007-scrape-enonce-2.gif"
+          "data/assets/excel/asca-02-ul11-word/excel-ex-007-image-enonce.gif",
+          "data/assets/excel/asca-02-ul11-word/excel-ex-007-scrape-extra-1.gif"
         ],
         "resultImages": [
           "data/assets/excel/asca-02-ul11-word/excel-ex-007-image-enonce.gif"
@@ -14713,8 +14713,8 @@
           "data/assets/excel/asca-02-ul11-word/excel-ex-008-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-02-ul11-word/excel-ex-008-scrape-enonce-1.gif",
-          "data/assets/excel/asca-02-ul11-word/excel-ex-008-scrape-enonce-2.gif"
+          "data/assets/excel/asca-02-ul11-word/excel-ex-008-image-enonce.gif",
+          "data/assets/excel/asca-02-ul11-word/excel-ex-008-scrape-extra-1.gif"
         ],
         "resultImages": [
           "data/assets/excel/asca-02-ul11-word/excel-ex-008-image-enonce.gif"
@@ -14971,7 +14971,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-003-scrape-resultat-1.webp"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-003-image-resultat.webp"
         ]
       },
       "section": "asca",
@@ -15070,15 +15070,15 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-004-scrape-extra-1.gif",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-004-image-resultat.gif",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-004-scrape-extra-2.gif",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-004-scrape-extra-3.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-004-scrape-enonce-1.gif",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-004-scrape-enonce-2.gif",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-004-scrape-enonce-3.gif",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-004-scrape-enonce-4.gif"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-004-image-resultat.gif",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-004-image-enonce.gif",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-004-scrape-extra-2.gif",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-004-scrape-extra-3.gif"
         ],
         "resultImages": [
           "data/assets/excel/asca-03-ul21-excel/excel-ex-004-image-resultat.gif"
@@ -15221,7 +15221,7 @@
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/asca-03-ul21-excel/excel-ex-005-image-enonce.jpg",
-      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-enonce-2.jpg",
+      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-extra-1.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Sujet ASCA en 1 heure : présentez les résultats des Jeux olympiques d'hiver de Vancouver 2010.",
@@ -15257,8 +15257,8 @@
           "data/assets/excel/asca-03-ul21-excel/excel-ex-005-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-enonce-2.jpg",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-enonce-3.jpg"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-extra-1.jpg",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-005-scrape-extra-2.jpg"
         ]
       },
       "section": "asca",
@@ -15329,7 +15329,7 @@
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/asca-03-ul21-excel/excel-ex-006-image-enonce.jpg",
-      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-006-scrape-enonce-2.jpg",
+      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-006-scrape-extra-1.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Sujet ASCA en 1 heure : analysez les formules tapas d'une sandwicherie.",
@@ -15357,7 +15357,7 @@
           "data/assets/excel/asca-03-ul21-excel/excel-ex-006-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-006-scrape-enonce-2.jpg"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-006-scrape-extra-1.jpg"
         ]
       },
       "section": "asca",
@@ -15466,13 +15466,13 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-007-scrape-extra-1.jpg",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-007-image-resultat.jpg",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-007-scrape-extra-2.jpg"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-007-scrape-enonce-1.jpg",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-007-scrape-enonce-2.jpg",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-007-scrape-enonce-3.jpg"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-007-image-enonce.jpg",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-007-image-resultat.jpg",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-007-scrape-extra-2.jpg"
         ],
         "resultImages": [
           "data/assets/excel/asca-03-ul21-excel/excel-ex-007-image-resultat.jpg"
@@ -15636,7 +15636,7 @@
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/asca-03-ul21-excel/excel-ex-008-image-enonce.jpg",
-      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-008-scrape-enonce-2.jpg",
+      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-008-scrape-extra-1.jpg",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Sujet ASCA en 1 heure : analysez le chiffre d'affaires de Sud Informatique par famille de produits.",
@@ -15689,8 +15689,8 @@
           "data/assets/excel/asca-03-ul21-excel/excel-ex-008-image-enonce.jpg"
         ],
         "resultImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-008-scrape-enonce-2.jpg",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-008-scrape-enonce-3.jpg"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-008-scrape-extra-1.jpg",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-008-scrape-extra-2.jpg"
         ]
       },
       "section": "asca",
@@ -15860,13 +15860,13 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-009-scrape-extra-1.jpg",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-009-image-resultat.jpg",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-009-scrape-extra-2.jpg"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-009-scrape-enonce-1.jpg",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-009-scrape-enonce-2.jpg",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-009-scrape-enonce-3.jpg"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-009-image-enonce.jpg",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-009-image-resultat.jpg",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-009-scrape-extra-2.jpg"
         ],
         "resultImages": [
           "data/assets/excel/asca-03-ul21-excel/excel-ex-009-image-resultat.jpg"
@@ -16052,13 +16052,13 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-010-scrape-extra-1.gif",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-010-image-resultat.gif",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-010-scrape-extra-2.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-010-scrape-enonce-1.gif",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-010-scrape-enonce-2.gif",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-010-scrape-enonce-3.gif"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-010-image-resultat.gif",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-010-image-enonce.gif",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-010-scrape-extra-2.gif"
         ],
         "resultImages": [
           "data/assets/excel/asca-03-ul21-excel/excel-ex-010-image-resultat.gif"
@@ -16210,7 +16210,7 @@
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/asca-03-ul21-excel/excel-ex-011-image-enonce.gif",
-      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-011-scrape-enonce-2.gif",
+      "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-011-scrape-extra-1.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
       "description": "Sujet ASCA en 1 heure : automatisez les évaluations d'un centre de formation.",
@@ -16275,7 +16275,7 @@
           "data/assets/excel/asca-03-ul21-excel/excel-ex-011-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-011-scrape-enonce-2.gif"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-011-scrape-extra-1.gif"
         ]
       },
       "section": "asca",
@@ -16435,7 +16435,7 @@
       "docxUrl": null,
       "downloadUrl": null,
       "downloadLabel": "",
-      "imageEnonce": "data/assets/excel/asca-03-ul21-excel/excel-ex-012-scrape-enonce-2.gif",
+      "imageEnonce": "data/assets/excel/asca-03-ul21-excel/excel-ex-012-scrape-extra-1.gif",
       "imageResultat": "data/assets/excel/asca-03-ul21-excel/excel-ex-012-image-enonce.gif",
       "imageEnonceCaption": "",
       "imageResultatCaption": "",
@@ -16461,7 +16461,7 @@
           "data/assets/excel/asca-03-ul21-excel/excel-ex-012-scrape-extra-1.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-012-scrape-enonce-2.gif"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-012-scrape-extra-1.gif"
         ],
         "resultImages": [
           "data/assets/excel/asca-03-ul21-excel/excel-ex-012-image-enonce.gif"
@@ -16557,13 +16557,13 @@
         "prevUrl": null,
         "nextUrl": null,
         "extraImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-013-scrape-extra-1.gif",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-013-image-resultat.gif",
           "data/assets/excel/asca-03-ul21-excel/excel-ex-013-scrape-extra-2.gif"
         ],
         "enonceImages": [
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-013-scrape-enonce-1.gif",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-013-scrape-enonce-2.gif",
-          "data/assets/excel/asca-03-ul21-excel/excel-ex-013-scrape-enonce-3.gif"
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-013-image-enonce.gif",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-013-image-resultat.gif",
+          "data/assets/excel/asca-03-ul21-excel/excel-ex-013-scrape-extra-2.gif"
         ],
         "resultImages": [
           "data/assets/excel/asca-03-ul21-excel/excel-ex-013-image-resultat.gif"
@@ -16675,7 +16675,7 @@
       "title": "Cas Création planning congés",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/cas-creation-planning-conges.html",
-      "docxUrl": "data/assets/excel/complets-cas-creation-planning-conges/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-02-cas-creation-planning-conges/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -16703,7 +16703,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/complets-02-cas-creation-planning-conges/excel-ex-001-scrape-resultat-1.webp"
+          "data/assets/excel/complets-02-cas-creation-planning-conges/excel-ex-001-image-resultat.webp"
         ]
       },
       "section": "complets",
@@ -16751,7 +16751,7 @@
       "title": "Cas Fiche Clients garage",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/cas-fiche-clients-garage.html",
-      "docxUrl": "data/assets/excel/complets-cas-fiche-clients-garage/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-03-cas-fiche-clients-garage/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": null,
@@ -16775,7 +16775,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/complets-03-cas-fiche-clients-garage/excel-ex-001-scrape-resultat-1.webp"
+          "data/assets/excel/complets-03-cas-fiche-clients-garage/excel-ex-001-image-resultat.webp"
         ]
       },
       "section": "complets",
@@ -16815,7 +16815,7 @@
       "title": "Cas Formulaire de saisie",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/cas-formulaire-de-saisie.html",
-      "docxUrl": "data/assets/excel/complets-cas-formulaire-de-saisie/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-04-cas-formulaire-de-saisie/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -16886,8 +16886,8 @@
       "title": "Cas Fiche d'intervention",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/cas-fiche-dintervention.html",
-      "docxUrl": "data/assets/excel/complets-cas-fiche-d-intervention/excel-ex-001.xlsx",
-      "downloadUrl": "data/assets/excel/complets-cas-fiche-d-intervention/excel-ex-001-annexe-1.xlsx",
+      "docxUrl": "data/assets/excel/complets-05-cas-fiche-d-intervention/excel-ex-001.xlsx",
+      "downloadUrl": "data/assets/excel/complets-05-cas-fiche-d-intervention/excel-ex-001-annexe-1.xlsx",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -16965,7 +16965,7 @@
       "title": "Cas Calendrier perpétuel (ou presque)",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/cas-calendrier-perpetuel.html",
-      "docxUrl": "data/assets/excel/complets-cas-calendrier-perpetuel/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-06-cas-calendrier-perpetuel/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -17071,7 +17071,7 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/complets-07-cas-reservation-spectacle/excel-ex-001-scrape-enonce-1.webp"
+          "data/assets/excel/complets-07-cas-reservation-spectacle/excel-ex-001-image-enonce.webp"
         ],
         "resultImages": [
           "data/assets/excel/complets-07-cas-reservation-spectacle/excel-ex-001-image-enonce.webp"
@@ -17138,8 +17138,8 @@
       "title": "Cas Fiche Horticole",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/cas-fiche-horticole.html",
-      "docxUrl": "data/assets/excel/complets-cas-fiche-horticole/excel-ex-001.xlsx",
-      "downloadUrl": "data/assets/excel/complets-cas-fiche-horticole/excel-ex-001-annexe-1.zip",
+      "docxUrl": "data/assets/excel/complets-08-cas-fiche-horticole/excel-ex-001.xlsx",
+      "downloadUrl": "data/assets/excel/complets-08-cas-fiche-horticole/excel-ex-001-annexe-1.zip",
       "downloadLabel": "Telecharger le 2e fichier",
       "imageEnonce": null,
       "imageResultat": null,
@@ -17203,7 +17203,7 @@
       "title": "Cas diagramme de GANTT Simple",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/cas-gantt-simple.html",
-      "docxUrl": "data/assets/excel/complets-cas-gantt-simple/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-09-cas-gantt-simple/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -17293,7 +17293,7 @@
       "title": "Cas Société CLICOU",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/cas-societe-clicou.html",
-      "docxUrl": "data/assets/excel/complets-cas-societe-clicou/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-10-cas-societe-clicou/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -17352,7 +17352,7 @@
       "title": "Cas SUD informatique",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/cas-sud-informatique.html",
-      "docxUrl": "data/assets/excel/complets-cas-sud-informatique/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-11-cas-sud-informatique/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/complets-11-cas-sud-informatique/excel-ex-001-image-enonce.gif",
@@ -17379,7 +17379,7 @@
         "extraImages": [],
         "enonceImages": [],
         "resultImages": [
-          "data/assets/excel/complets-11-cas-sud-informatique/excel-ex-001-scrape-resultat-1.gif"
+          "data/assets/excel/complets-11-cas-sud-informatique/excel-ex-001-image-resultat.gif"
         ]
       },
       "section": "complets",
@@ -17419,7 +17419,7 @@
       "title": "Cas grand Raid 6666",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/cas-grand-raid.html",
-      "docxUrl": "data/assets/excel/complets-cas-grand-raid/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-12-cas-grand-raid/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -17490,7 +17490,7 @@
       "title": "Cas Course Haut Caroux",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/cas-course-haut-caroux.html",
-      "docxUrl": "data/assets/excel/complets-cas-course-haut-caroux/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-13-cas-course-haut-caroux/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -17562,7 +17562,7 @@
       "title": "Cas Salon de Coiffure",
       "level": 4,
       "pageUrl": "https://www.clic-formation.net/cas-salon-de-coiffure.html",
-      "docxUrl": "data/assets/excel/complets-cas-salon-de-coiffure/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-14-cas-salon-de-coiffure/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -17639,7 +17639,7 @@
       "title": "Cas Facturation",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/cas-facturation.html",
-      "docxUrl": "data/assets/excel/complets-cas-facturation/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-15-cas-facturation/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -17717,7 +17717,7 @@
       "title": "Révisions Opérations simples",
       "level": 1,
       "pageUrl": "https://www.clic-formation.net/revisions-operations-simples.html",
-      "docxUrl": "data/assets/excel/complets-revision-operations/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-16-revision-operations/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -17784,7 +17784,7 @@
       "title": "Calculs heures et distances",
       "level": 3,
       "pageUrl": "https://www.clic-formation.net/calculs-heures-et-distances.html",
-      "docxUrl": "data/assets/excel/complets-calculs-heures-et-distances/excel-ex-001.xlsx",
+      "docxUrl": "data/assets/excel/complets-17-calculs-heures-et-distances/excel-ex-001.xlsx",
       "downloadUrl": null,
       "downloadLabel": "",
       "imageEnonce": "data/assets/excel/complets-17-calculs-heures-et-distances/excel-ex-001-image-enonce.gif",
@@ -17817,10 +17817,10 @@
         "nextUrl": null,
         "extraImages": [],
         "enonceImages": [
-          "data/assets/excel/complets-17-calculs-heures-et-distances/excel-ex-001-scrape-enonce-1.gif"
+          "data/assets/excel/complets-17-calculs-heures-et-distances/excel-ex-001-image-enonce.gif"
         ],
         "resultImages": [
-          "data/assets/excel/complets-17-calculs-heures-et-distances/excel-ex-001-scrape-resultat-1.gif"
+          "data/assets/excel/complets-17-calculs-heures-et-distances/excel-ex-001-image-resultat.gif"
         ]
       },
       "section": "complets",

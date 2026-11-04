@@ -71,7 +71,7 @@ window.POWERPOINT_ATELIER_DATA = {
         "enonceImages": [],
         "resultImages": [
           {
-            "src": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-001-scrape-enonce-1.jpg",
+            "src": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-001-image-resultat.jpg",
             "caption": "Diapositive 1"
           },
           {
@@ -136,7 +136,7 @@ window.POWERPOINT_ATELIER_DATA = {
       "title": "Creer un diaporama avec un masque",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/exercice-ppt-2.html",
-      "docxUrl": "data/assets/powerpoint/bases-diaporamas/powerpoint-ex-002.pptx",
+      "docxUrl": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-002.pptx",
       "downloadUrl": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-002-visuels.zip",
       "downloadLabel": "Telecharger les visuels",
       "imageEnonce": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-002-image-enonce.webp",
@@ -166,13 +166,13 @@ window.POWERPOINT_ATELIER_DATA = {
         "extraImages": [],
         "enonceImages": [
           {
-            "src": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-002-scrape-enonce-1.webp",
+            "src": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-002-image-enonce.webp",
             "caption": "Consigne generale"
           }
         ],
         "resultImages": [
           {
-            "src": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-002-scrape-resultat-1.jpg",
+            "src": "data/assets/powerpoint/bases-01-diaporamas/powerpoint-ex-002-image-resultat.jpg",
             "caption": "Diapositive 1"
           },
           {
@@ -256,7 +256,7 @@ window.POWERPOINT_ATELIER_DATA = {
       "title": "Presentation avec boutons d'action et liens hypertexte",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/exercice-ppt-3.html",
-      "docxUrl": "data/assets/powerpoint/bases-navigation/powerpoint-ex-001.pptx",
+      "docxUrl": "data/assets/powerpoint/bases-02-navigation-interactive/powerpoint-ex-001.pptx",
       "downloadUrl": null,
       "downloadLabel": null,
       "imageEnonce": null,
@@ -282,7 +282,7 @@ window.POWERPOINT_ATELIER_DATA = {
         "extraImages": [],
         "enonceImages": [
           {
-            "src": "data/assets/powerpoint/bases-02-navigation-interactive/powerpoint-ex-001-scrape-enonce-1.jpg",
+            "src": "data/assets/powerpoint/bases-02-navigation-interactive/powerpoint-ex-001-image-resultat.jpg",
             "caption": "Diapositive 1"
           }
         ],
@@ -364,7 +364,7 @@ window.POWERPOINT_ATELIER_DATA = {
       "title": "Quiz avec animations et sons",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/exercice-ppt-5.html",
-      "docxUrl": "data/assets/powerpoint/bases-animations/powerpoint-ex-001.pptx",
+      "docxUrl": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-001.pptx",
       "downloadUrl": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-001-medias.zip",
       "downloadLabel": "Telecharger les medias",
       "imageEnonce": null,
@@ -463,13 +463,13 @@ window.POWERPOINT_ATELIER_DATA = {
         "extraImages": [],
         "enonceImages": [
           {
-            "src": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-002-scrape-enonce-1.gif",
+            "src": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-002-image-enonce.gif",
             "caption": "Avant animation"
           }
         ],
         "resultImages": [
           {
-            "src": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-002-scrape-resultat-1.gif",
+            "src": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-002-image-resultat.gif",
             "caption": "Maison assemblee"
           }
         ]
@@ -512,7 +512,7 @@ window.POWERPOINT_ATELIER_DATA = {
       "title": "Diaporama anime avec medias et SmartArt",
       "level": 2,
       "pageUrl": "https://www.clic-formation.net/exercice-ppt-7.html",
-      "docxUrl": "data/assets/powerpoint/bases-animations/powerpoint-ex-003.pptx",
+      "docxUrl": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-003.pptx",
       "downloadUrl": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-003-medias.zip",
       "downloadLabel": "Telecharger les medias",
       "imageEnonce": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-003-image-enonce.webp",
@@ -540,7 +540,7 @@ window.POWERPOINT_ATELIER_DATA = {
         "extraImages": [],
         "enonceImages": [
           {
-            "src": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-003-scrape-enonce-1.webp",
+            "src": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-003-image-enonce.webp",
             "caption": "Diapositive 1"
           }
         ],
@@ -562,7 +562,7 @@ window.POWERPOINT_ATELIER_DATA = {
             "caption": "Diapositive 5"
           },
           {
-            "src": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-003-scrape-resultat-5.webp",
+            "src": "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-003-image-resultat.webp",
             "caption": "Diapositive 6"
           }
         ]

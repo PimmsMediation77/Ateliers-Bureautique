@@ -165,10 +165,10 @@ for (const appConfig of APPS) {
       const inventoryItem = inventoryMap.get(stableKey);
       const failures = [];
 
+      // assetUrl est un instantane de la localisation de juillet 2026 : on ne le compare plus
+      // aux URL du dataset, seule l'existence des fichiers fait foi.
       if (!inventoryItem) {
         failures.push("absent de l'inventaire source");
-      } else if (String(inventoryItem.assetUrl || "").trim() !== String(link.url || "").trim()) {
-        failures.push("URL dataset differente de l'URL canonique inventaire");
       }
 
       if (isRemoteUrl(link.url)) {

@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-11-04T10:15:58.169Z",
+  "apps": {
+    "word": {
+      "files": 474,
+      "references": 470,
+      "unused": [
+        "data/assets/word/avance-21-smart-art/word-ex-001.docx",
+        "data/assets/word/bases-03-saisir-du-texte/word-ex-001.docx",
+        "data/assets/word/bases-08-inserer-une-forme/word-ex-008.docx",
+        "data/assets/word/bases-12-inserer-une-image/word-ex-005-image-resultat.jpg"
+      ],
+      "missing": [],
+      "duplicateGroups": [
+        [
+          "data/assets/word/avance-20-affichage/word-ex-001.docx",
+          "data/assets/word/avance-20-affichage/word-ex-002.docx"
+        ],
+        [
+          "data/assets/word/avance-24-publipostage/word-ex-003-image-enonce.jpg",
+          "data/assets/word/avance-24-publipostage/word-ex-003-image-resultat.jpg",
+          "data/assets/word/avance-24-publipostage/word-ex-003-scrape-resultat-1.jpg",
+          "data/assets/word/avance-26-lier-le-document/word-ex-003-image-resultat.jpg"
+        ],
+        [
+          "data/assets/word/avance-24-publipostage/word-ex-005-image-enonce.webp",
+          "data/assets/word/avance-26-lier-le-document/word-ex-005-image-enonce.webp"
+        ],
+        [
+          "data/assets/word/avance-25-document-long/word-ex-003.docx",
+          "data/assets/word/avance-26-lier-le-document/word-ex-006.docx"
+        ],
+        [
+          "data/assets/word/avance-26-lier-le-document/word-ex-003-image-enonce.webp",
+          "data/assets/word/avance-26-lier-le-document/word-ex-003-scrape-enonce-1.webp",
+          "data/assets/word/avance-28-trucs-et-astuces/word-ex-003-image-enonce.webp"
+        ],
+        [
+          "data/assets/word/bases-02-gerer-les-documents/word-ex-002.docx",
+          "data/assets/word/bases-03-saisir-du-texte/word-ex-010.docx"
+        ],
+        [
+          "data/assets/word/bases-03-saisir-du-texte/word-ex-007-image-enonce.webp",
+          "data/assets/word/bases-03-saisir-du-texte/word-ex-007-scrape-enonce-1.webp",
+          "data/assets/word/bases-03-saisir-du-texte/word-ex-010-image-enonce.webp",
+          "data/assets/word/bases-03-saisir-du-texte/word-ex-010-scrape-enonce-1.webp"
+        ],
+        [
+          "data/assets/word/bases-11-section-et-saut/word-ex-001.docx",
+          "data/assets/word/bases-11-section-et-saut/word-ex-003.docx"
+        ],
+        [
+          "data/assets/word/complets-30-niveau-2-moyen/word-ex-002.docx",
+          "data/assets/word/complets-30-niveau-2-moyen/word-ex-004.docx"
+        ],
+        [
+          "data/assets/word/complets-32-niveau-4-expert/word-ex-001.docx",
+          "data/assets/word/complets-32-niveau-4-expert/word-ex-002.docx"
+        ]
+      ]
+    },
+    "excel": {
+      "files": 842,
+      "references": 842,
+      "unused": [],
+      "missing": [],
+      "duplicateGroups": [
+        [
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-005.xlsx",
+          "data/assets/excel/avance-04-trier-et-filtrer/excel-ex-006-annexe-1.xlsx",
+          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-004-annexe-1.xlsx"
+        ],
+        [
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-008.xlsx",
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-009.xlsx"
+        ],
+        [
+          "data/assets/excel/avance-05-mise-en-forme-conditionnelle/excel-ex-009-annexe-1.xlsx",
+          "data/assets/excel/bases-03-selection/excel-ex-001.xlsx"
+        ],
+        [
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-001-image-enonce.jpg",
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-001-scrape-enonce-1.jpg",
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-002-image-enonce.jpg",
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-002-scrape-enonce-1.jpg"
+        ],
+        [
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-001-image-resultat.jpg",
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-001-scrape-resultat-1.jpg",
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-002-image-resultat.jpg",
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-002-scrape-resultat-1.jpg"
+        ],
+        [
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-008.xlsx",
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-009.xlsx",
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-010.xlsx"
+        ],
+        [
+          "data/assets/excel/avance-06-outils-de-donnees/excel-ex-009-annexe-1.xlsx",
+          "data/assets/excel/bases-03-selection/excel-ex-002.xlsx"
+        ],
+        [
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-007.xlsx",
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-008.xlsx"
+        ],
+        [
+          "data/assets/excel/avance-07-lier-des-feuilles/excel-ex-008-annexe-1.zip",
+          "data/assets/excel/bases-03-selection/excel-ex-003.zip"
+        ],
+        [
+          "data/assets/excel/avance-09-tableaux-croises-dynamiques/excel-ex-001-annexe-1.xlsx",
+          "data/assets/excel/bases-03-selection/excel-ex-004-annexe-1.xlsx"
+        ],
+        [
+          "data/assets/excel/avance-11-consolidation/excel-ex-007.xlsx",
+          "data/assets/excel/avance-11-consolidation/excel-ex-008.xlsx"
+        ],
+        [
+          "data/assets/excel/avance-12-macro/excel-ex-001-image-enonce.webp",
+          "data/assets/excel/avance-12-macro/excel-ex-002-scrape-resultat-2.webp",
+          "data/assets/excel/avance-12-macro/excel-ex-003-scrape-resultat-3.webp",
+          "data/assets/excel/avance-12-macro/excel-ex-004-scrape-resultat-3.webp",
+          "data/assets/excel/complets-04-cas-formulaire-de-saisie/excel-ex-001-scrape-resultat-2.webp"
+        ],
+        [
+          "data/assets/excel/avance-12-macro/excel-ex-003-annexe-1.zip",
+          "data/assets/excel/bases-03-selection/excel-ex-005.zip"
+        ],
+        [
+          "data/assets/excel/bases-01-prise-en-main/excel-ex-004-annexe-1.xlsx",
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-003-annexe-1.xlsx"
+        ],
+        [
+          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-002-image-resultat.jpg",
+          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-002-scrape-enonce-1.jpg",
+          "data/assets/excel/bases-03-selection/excel-ex-004-image-resultat.jpg",
+          "data/assets/excel/bases-03-selection/excel-ex-004-scrape-resultat-1.jpg"
+        ],
+        [
+          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-002.xlsx",
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-005-annexe-1.xlsx"
+        ],
+        [
+          "data/assets/excel/bases-02-saisir-des-donnees/excel-ex-003.xlsx",
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-006-annexe-1.xlsx",
+          "data/assets/excel/bases-12-graphiques/excel-ex-006.xlsx"
+        ],
+        [
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-001.xlsx",
+          "data/assets/excel/complets-05-cas-fiche-d-intervention/excel-ex-001-annexe-1.xlsx"
+        ],
+        [
+          "data/assets/excel/bases-04-mise-en-forme/excel-ex-002.zip",
+          "data/assets/excel/complets-08-cas-fiche-horticole/excel-ex-001-annexe-1.zip"
+        ],
+        [
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-007.xlsx",
+          "data/assets/excel/bases-08-faire-une-soustraction/excel-ex-008.xlsx"
+        ],
+        [
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-001.xlsx",
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-002.xlsx",
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-003.xlsx",
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-004.xlsx",
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-005.xlsx",
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-006.xlsx",
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-007.xlsx",
+          "data/assets/excel/bases-11-calculer-des-pourcentages/excel-ex-008.xlsx"
+        ]
+      ]
+    },
+    "powerpoint": {
+      "files": 46,
+      "references": 45,
+      "unused": [
+        "data/assets/powerpoint/bases-03-animations-et-quiz/powerpoint-ex-002.pptx"
+      ],
+      "missing": [],
+      "duplicateGroups": []
+    }
+  }
+}

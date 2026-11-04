@@ -10,7 +10,13 @@ Dernier audit structurel : **2026-11-04** → [AUDIT_STRUCTUREL_2026-11-04.md](A
    - scripts orphelins : 7 scripts de migration ponctuelle supprimes ; `assets:source-inventory`, `assets:verify-links` et `assets:drive-missing:xlsx` exposes
    - `downloads-assets-source/` ajoute au `.gitignore`
    - test PowerPoint instable : non reproduit sur 6 passages (echec probablement lie au travail en cours sur le core pendant l'audit)
-2. **Assets** : migrer les references vers les dossiers de modules numerotes, puis supprimer les doublons internes a `data/` (~1 170 copies) et les assets non references (~470 fichiers) apres revue (audit §2, §3, §4).
+2. ~~**Assets**~~ — fait le 2026-11-04 :
+   - toutes les references pointent vers les dossiers numerotes ; les anciens dossiers (`m*`, `bases-<nom>`, `avance-<nom>`...) sont supprimes
+   - doublons supprimes : copies non referencees, puis copies identiques a l'interieur d'un meme exercice (`-scrape-*` fusionne vers `-image-*`)
+   - `data/assets/` : 2 476 → 1 362 fichiers, ~118 → ~75 Mo (gain identique dans `app/`)
+   - `npm run assets:unused` produit `reports/assets-unused-report.{md,json}` ; `assets:verify-links` ne compare plus a l'instantane `assetUrl` de juillet (0 echec sur 2 119 liens)
+   - `excel-ex-00{1,2,3}-g19{1,2,3}.xlsx` : la copie du dossier numerote etait en fait un doublon de `g188`-`g190` ; la vraie version (ancien dossier) a ete deplacee
+   - reste a revoir a la main : 5 fichiers non references (voir `reports/assets-unused-report.md`) et 31 groupes de doublons partages entre exercices differents, gardes separes volontairement
 3. **Publication** : generer `apps/*/app/` en CI et le sortir du versionnement Git (audit §1).
 4. **Plus tard** : CSS commun dans `atelier-core`, reorganisation de la documentation (audit §8, §9).
 

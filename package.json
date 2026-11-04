@@ -28,6 +28,7 @@
     "assets:check-links": "node scripts/check-download-asset-links.mjs",
     "assets:source-inventory": "node scripts/generate-source-assets-inventory.mjs",
     "assets:verify-links": "node scripts/verify-exercise-asset-links.mjs",
+    "assets:unused": "node scripts/report-unused-assets.mjs",
     "assets:drive-missing:xlsx": "node scripts/export-drive-missing-clic-formation-xlsx.mjs",
     "word:build:data": "npm --prefix apps/word run build:data",
     "word:sync:app": "npm --prefix apps/word run sync:app",
