@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.24.1](///compare/word-v1.24.0...word-v1.24.1) (2026-11-05)
+
+
+### Bug Fixes
+
+* **ci:** chemin Git Bash construit en style Windows sur tout hote 6221b80
+* **core:** aide en 3 étapes pour choisir le dossier d'un nouvel utilisateur 44913c3
+* **core:** conseil « Autoriser à chaque visite » sur l'écran Qui êtes-vous 56db246
+* **core:** sync:app garde le suffixe ?v= des scripts partages 2357211
+
 ## [1.24.0](///compare/word-v1.23.2...word-v1.24.0) (2026-11-04)
 
 
