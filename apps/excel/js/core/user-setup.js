@@ -303,7 +303,10 @@ function createAtelierUserSetupRuntime(config = {}) {
           if (backBtn) backBtn.style.display = "none";
           setValidateVisibility(false);
           setCardsDisabled(false);
-          status.textContent = "Cliquez sur votre prénom pour continuer.";
+          status.textContent = [
+            "Cliquez sur votre prénom pour continuer.",
+            "⚠ Si le navigateur demande l'accès à votre dossier, cliquez sur « Autoriser à chaque visite ».",
+          ].join("\n");
         };
 
         const showForm = (options = {}) => {
@@ -339,7 +342,7 @@ function createAtelierUserSetupRuntime(config = {}) {
               ok = await storage.ensureWritePermission(selectedHandle);
             }
             if (!ok) {
-              status.textContent = `Accès refusé au dossier de ${label}. Cliquez à nouveau et acceptez l'autorisation du navigateur.`;
+              status.textContent = `Accès refusé au dossier de ${label}. Cliquez à nouveau, puis sur « Autoriser à chaque visite ».`;
               return;
             }
 
