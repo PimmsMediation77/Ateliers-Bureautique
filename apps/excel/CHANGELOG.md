@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.17.1](///compare/excel-v1.17.0...excel-v1.17.1) (2026-11-05)
+
+
+### Bug Fixes
+
+* **ci:** chemin Git Bash construit en style Windows sur tout hote 6221b80
+* **core:** aide en 3 étapes pour choisir le dossier d'un nouvel utilisateur 44913c3
+* **core:** conseil « Autoriser à chaque visite » sur l'écran Qui êtes-vous 56db246
+* **core:** sync:app garde le suffixe ?v= des scripts partages 2357211
+
 ## [1.17.0](///compare/excel-v1.16.2...excel-v1.17.0) (2026-11-04)
 
 

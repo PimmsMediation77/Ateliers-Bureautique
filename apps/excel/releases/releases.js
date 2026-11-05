@@ -1,7 +1,100 @@
 window.RELEASES_DATA = {
-  "version": "1.17.0",
-  "updatedAt": "2026-11-04T16:00:44.628Z",
+  "version": "1.17.1",
+  "updatedAt": "2026-11-05T08:30:49.318Z",
   "releases": [
+    {
+      "version": "1.17.1",
+      "tag": "excel-v1.17.1",
+      "date": "2026-11-05",
+      "releaseType": "patch",
+      "impact": {
+        "level": "low",
+        "rationale": "Corrections ciblees, documentation ou maintenance."
+      },
+      "summary": "Version corrective orientee stabilite.",
+      "elements": [
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.24.1",
+          "breaking": false,
+          "hash": "dd67bee"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "prepare monorepo release",
+          "breaking": false,
+          "hash": "2f03cf9"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "core",
+          "description": "conseil « Autoriser à chaque visite » sur l'écran Qui êtes-vous",
+          "breaking": false,
+          "hash": "56db246"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "core",
+          "description": "aide en 3 étapes pour choisir le dossier d'un nouvel utilisateur",
+          "breaking": false,
+          "hash": "44913c3"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "core",
+          "description": "sync:app garde le suffixe ?v= des scripts partages",
+          "breaking": false,
+          "hash": "2357211"
+        },
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "ci",
+          "description": "chemin Git Bash construit en style Windows sur tout hote",
+          "breaking": false,
+          "hash": "6221b80"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "1.48.0",
+          "breaking": false,
+          "hash": "8d13597"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "release",
+          "description": "0.1.71",
+          "breaking": false,
+          "hash": "b144594"
+        }
+      ],
+      "counts": {
+        "feat": 0,
+        "fix": 4,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 4,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 8
+      }
+    },
     {
       "version": "1.17.0",
       "tag": "excel-v1.17.0",
