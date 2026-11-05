@@ -6,7 +6,6 @@ function createAtelierUserSetupRuntime(config = {}) {
     ? config.deriveInitials
     : (_rootHandle, fallback = "") => fallback;
   const documentRef = config.documentRef || document;
-  const hasScannedDocuments = Boolean(config.hasScannedDocuments);
   const getPreferredStorageMode = typeof config.getPreferredStorageMode === "function"
     ? config.getPreferredStorageMode
     : () => "local";
@@ -87,9 +86,12 @@ function createAtelierUserSetupRuntime(config = {}) {
           if (preferredStorageMode === "server") {
             return "Ouvrez votre dossier sur le serveur, ou choisissez « Sur cet ordinateur ».";
           }
-          return hasScannedDocuments
-            ? "Choisissez ou créez votre dossier de travail."
-            : "Cliquez sur le bouton ci-dessous pour choisir ou créer votre dossier dans Documents.";
+          // La fenêtre du navigateur rouvre le dernier dossier choisi (Documents/<autre utilisateur>).
+          return [
+            "1. Cliquez sur le bouton ci-dessous : la fenêtre s'ouvre peut-être dans le dossier d'une autre personne.",
+            "2. Remontez dans « Documents », cliquez sur « Nouveau dossier » et nommez-le avec votre prénom.",
+            "3. Entrez dans ce dossier, puis cliquez sur « Sélectionner un dossier ».",
+          ].join("\n");
         };
 
         const closeModal = (result) => {

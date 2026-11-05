@@ -302,6 +302,10 @@ body {
   margin-top: 8px;
 }
 
+#user-setup-status {
+  white-space: pre-line;
+}
+
 .home-resume-card {
   background:
     radial-gradient(circle at 92% 16%, rgba(46, 111, 118, 0.13), transparent 42%),
